@@ -1,0 +1,405 @@
+/**
+ * SEO Permalinks Table CSS
+ */
+
+/* Table container */
+.hfy-admin-table-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+/* Wrapper */
+.hfy-seo-table-wrapper {
+    margin-top: 20px;
+    max-width: 100%;
+}
+
+/* Loading message */
+.hfy-admin-table-container .loading {
+    padding: 10px;
+    background-color: #f0f0f1;
+    border-left: 4px solid #72aee6;
+    color: #333;
+    margin: 10px 0;
+}
+
+/* Error message */
+.hfy-admin-table-container .error {
+    padding: 10px;
+    background-color: #fcf0f1;
+    border-left: 4px solid #d63638;
+    color: #333;
+    margin: 10px 0;
+}
+
+/* No data message */
+.hfy-admin-table-container .no-data {
+    padding: 10px;
+    background-color: #f6f7f7;
+    border-left: 4px solid #ccc;
+    color: #333;
+    margin: 10px 0;
+}
+
+/* Search Box */
+.hfy-search-box {
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+#hfy-permalink-search {
+    flex: 1;
+    min-width: 200px;
+    margin-right: 8px;
+    padding: 6px 10px;
+    border-radius: 4px;
+}
+
+.hfy-search-box input[type="text"]:focus {
+    border-color: #2271b1;
+    box-shadow: 0 0 0 1px #2271b1;
+    outline: 2px solid transparent;
+}
+
+.hfy-search-box button {
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+/* Bottom row with count and button */
+.hfy-bottom-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+/* Left section with button and times */
+.hfy-left-section {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+/* Processing times display */
+.hfy-processing-times {
+    font-size: 12px;
+    color: #666;
+    margin-top: 8px;
+    font-style: italic;
+}
+
+.hfy-time-label {
+    font-weight: normal;
+    color: #555;
+}
+
+.hfy-time-value {
+    font-weight: 600;
+    color: #2271b1;
+}
+
+/* Count info */
+.hfy-count-info {
+    font-size: 13px;
+    color: #50575e;
+    text-align: right;
+    font-style: italic;
+    padding-right: 15px;
+}
+
+/* Highlight matched text */
+.highlight {
+    background-color: #ffeb3b;
+    padding: 1px 0;
+    font-weight: bold;
+}
+
+/* Table container with scroll */
+.hfy-seo-table-container {
+    max-height: 400px;
+    overflow-y: auto;
+    border: 1px solid #ccd0d4;
+    position: relative;
+}
+
+/* Table styles */
+.hfy-seo-permalinks-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0;
+    table-layout: fixed;
+}
+
+.hfy-seo-permalinks-table thead {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: #f6f7f7;
+}
+
+.hfy-seo-permalinks-table th {
+    background-color: #f6f7f7;
+    text-align: left;
+    padding: 8px 10px;
+    font-weight: 600;
+    border-bottom: 1px solid #ccd0d4;
+}
+
+.hfy-seo-permalinks-table td {
+    padding: 10px;
+    vertical-align: middle;
+    border-bottom: 1px solid #f0f0f1;
+}
+
+/* Remove the truncation properties for all cells */
+.hfy-seo-permalinks-table td:nth-child(3),
+.hfy-seo-permalinks-table td:nth-child(4) {
+    white-space: normal;
+    word-break: break-all;
+    overflow: visible;
+    text-overflow: clip;
+}
+
+.hfy-seo-permalinks-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.hfy-seo-permalinks-table tr:hover {
+    background-color: #f0f0f1;
+}
+
+/* Column widths */
+.hfy-seo-permalinks-table th:nth-child(1),
+.hfy-seo-permalinks-table td:nth-child(1) {
+    width: 5%;
+    text-align: center;
+}
+
+.hfy-seo-permalinks-table th:nth-child(2),
+.hfy-seo-permalinks-table td:nth-child(2) {
+    width: 10%;
+}
+
+.hfy-seo-permalinks-table th:nth-child(3),
+.hfy-seo-permalinks-table td:nth-child(3) {
+    width: 35%;
+}
+
+.hfy-seo-permalinks-table th:nth-child(4),
+.hfy-seo-permalinks-table td:nth-child(4) {
+    width: 50%;
+}
+
+/* Position in second column */
+.exopite-sof-field .exopite-sof-fieldset {
+    position: relative;
+}
+
+#seo_table_placeholder .hfy-admin-table-container {
+    margin-top: 0;
+    margin-left: 20%;
+    width: 80%;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 782px) {
+    .hfy-seo-permalinks-table th,
+    .hfy-seo-permalinks-table td {
+        padding: 8px 5px;
+    }
+    
+    #seo_table_placeholder .hfy-admin-table-container {
+        margin-left: 0;
+        width: 100%;
+    }
+    
+    .hfy-search-box {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    
+    .hfy-search-box input[type="text"] {
+        width: 100%;
+    }
+    
+    .hfy-search-box button {
+        margin-top: 5px;
+    }
+    
+    .hfy-bottom-row {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .hfy-count-info {
+        margin-top: 10px;
+        text-align: left;
+    }
+    
+    .hfy-processing-times {
+        margin-bottom: 10px;
+    }
+}
+
+/* Permalink links */
+.hfy-seo-permalinks-table .permalink-link {
+    color: #2271b1;
+    text-decoration: none;
+    word-break: break-all;
+    display: inline-block;
+    width: 100%;
+}
+
+.hfy-seo-permalinks-table .permalink-link:hover {
+    text-decoration: underline;
+}
+
+/* Regenerate Button */
+.hfy-permalinks-regenerate-btn {
+    display: inline-block;
+    background-color: #2271b1;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+    line-height: 20px;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+
+.hfy-permalinks-regenerate-btn:hover {
+    background-color: #135e96;
+    color: #fff;
+}
+
+.hfy-permalinks-regenerate-btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 1px #fff, 0 0 0 3px #2271b1;
+}
+
+.hfy-permalinks-regenerate-btn.loading {
+    opacity: 0.7;
+    cursor: wait;
+}
+
+.hfy-permalinks-regenerate-btn .dashicon {
+    margin-right: 5px;
+}
+
+/* Notice styling */
+.hfy-permalink-notice {
+    background-color: #f0f6fc;
+    border-left: 4px solid #72aee6;
+    padding: 12px 15px;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+}
+
+.hfy-permalink-notice p {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+} 
+
+.hfy-permalink-notice {
+    margin-bottom: 2rem !important;
+    margin-top: -2rem !important;
+}
+
+/* Progress Bar Styles */
+.hfy-regeneration-progress {
+    margin: 20px 0;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.hfy-progress-info {
+    margin-bottom: 10px;
+}
+
+.hfy-progress-bar-container {
+    height: 20px;
+    background-color: #e5e5e5;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 10px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.hfy-progress-bar {
+    height: 100%;
+    background-color: #2271b1;
+    width: 0;
+    transition: width 0.3s ease-in-out;
+    border-radius: 10px;
+    background-image: linear-gradient(45deg, 
+        rgba(255, 255, 255, 0.15) 25%, 
+        transparent 25%, 
+        transparent 50%, 
+        rgba(255, 255, 255, 0.15) 50%, 
+        rgba(255, 255, 255, 0.15) 75%, 
+        transparent 75%, 
+        transparent);
+    background-size: 40px 40px;
+    animation: progress-bar-stripes 2s linear infinite;
+}
+
+@keyframes progress-bar-stripes {
+    from { background-position: 40px 0; }
+    to { background-position: 0 0; }
+}
+
+.hfy-progress-text {
+    font-size: 13px;
+    color: #666;
+    text-align: center;
+    margin-top: 5px;
+    font-weight: 500;
+}
+
+.hfy-progress-complete {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #ecf8ee;
+    border-left: 4px solid #46b450;
+    font-weight: 500;
+}
+
+.hfy-progress-error {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #fcf0f1;
+    border-left: 4px solid #d63638;
+    font-weight: 500;
+}
+
+.hfy-progress-complete p,
+.hfy-progress-error p {
+    margin: 0;
+    padding: 0;
+}
+
+.hfy-server-time {
+    font-size: 12px;
+    color: #666;
+    margin-top: 5px !important;
+    font-style: italic;
+}
+
+.hfy-processed-count {
+    font-weight: bold;
+    color: #2271b1;
+}
+
+.hfy-elapsed-time {
+    font-weight: bold;
+    color: #555;
+}

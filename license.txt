@@ -1,0 +1,110 @@
+End-User License Agreement (EULA) of Hostify WP Plugin
+
+This End-User License Agreement ("EULA") is a legal agreement between you and Hostify.com LLC, referred as Hostify.
+
+This EULA agreement governs your acquisition and use of our Hostify WP Plugin software ("Software")
+directly from Hostify.com LLC or indirectly through a Hostify.com LLC authorized reseller or distributor (a "Reseller").
+
+Please read this EULA agreement carefully before completing the installation process and using the Hostify WP Plugin software.
+It provides a license to use the Hostify WP Plugin software and contains warranty information and liability disclaimers.
+
+If you register for a free trial of the Hostify WP Plugin software, this EULA agreement will also govern that trial.
+By clicking "accept" or installing and/or using the Hostify WP Plugin software, you are confirming your acceptance
+of the Software and agreeing to become bound by the terms of this EULA agreement.
+
+If you are entering into this EULA agreement on behalf of a company or other legal entity, you represent that you have
+the authority to bind such entity and its affiliates to these terms and conditions. If you do not have such authority
+or if you do not agree with the terms and conditions of this EULA agreement, do not install or use the Software,
+and you must not accept this EULA agreement.
+
+This EULA agreement shall apply only to the Software supplied by Hostify.com LLC herewith regardless of whether
+other software is referred to or described herein. The terms also apply to any Hostify.com LLC updates, supplements,
+Internet-based services, and support services for the Software, unless other terms accompany those items on delivery.
+If so, those terms apply.
+
+License Grant
+
+Hostify.com LLC hereby grants you a personal, non-transferable, non-exclusive licence to use the Hostify WP Plugin
+software on your devices in accordance with the terms of this EULA agreement.
+
+You are permitted to load the Hostify WP Plugin software (for example a PC, laptop, mobile or tablet) under your control.
+You are responsible for ensuring your device meets the minimum requirements of the Hostify WP Plugin software.
+
+You are not permitted to:
+
+* Edit, alter, modify, adapt, translate or otherwise change the whole or any part of the Software nor permit the whole
+or any part of the Software to be combined with or become incorporated in any other software, nor decompile,
+disassemble or reverse engineer the Software or attempt to do any such things
+
+* Reproduce, copy, distribute, resell or otherwise use the Software for any commercial purpose
+
+* Allow any third party to use the Software on behalf of or for the benefit of any third party
+
+* Use the Software in any way which breaches any applicable local, national or international law
+
+* use the Software for any purpose that Hostify.com LLC considers is a breach of this EULA agreement
+
+Intellectual Property and Ownership
+
+Hostify.com LLC shall at all times retain ownership of the Software as originally downloaded by you and all subsequent
+downloads of the Software by you. The Software (and the copyright, and other intellectual property rights of whatever
+nature in the Software, including any modifications made thereto) are and shall remain the property of Hostify.com LLC.
+
+Hostify.com LLC reserves the right to grant licences to use the Software to third parties.
+
+Termination
+
+This EULA agreement is effective from the date you first use the Software and shall continue until terminated.
+You may terminate it at any time upon written notice to Hostify.com LLC.
+
+It will also terminate immediately if you fail to comply with any term of this EULA agreement. Upon such termination,
+the licenses granted by this EULA agreement will immediately terminate and you agree to stop all access and use of
+the Software. The provisions that by their nature continue and survive will survive any termination of this EULA agreement.
+
+Maintenance and support
+
+1. Hostify.com LLC will notify You of any available Updates and upgrades.
+
+2. You will be entitled to receive Updates free of charge during the period that you are a customer of Hostify.com LLC.
+
+3. Any maintenance and support provided by Hostify.com LLC, including the provision of Updates and upgrades, will be
+provided in an adequate way on an “as is” basis without any warranty, as soon as reasonably practicable, subject to
+availability of personnel.
+
+Use of data
+
+Hostify.com LLC and its subsidiaries may periodically collect and use technical and related data concerning the
+Hostify WP Plugin You have licensed, including about the version number of the Hostify WP Plugin You have installed
+and about the system You have installed the Hostify WP Plugin on. Hostify.com LLC will use such data to facilitate
+maintenance and support with respect to the Hostify WP Plugin, to improve its products and to provide further
+services or technologies to You.
+
+Disclaimer
+
+You Use the Hostify WP Plugin at Your own risk and the entire risk as to satisfactory quality, performance
+and accuracy is with You.
+
+The Hostify WP Plugin and accompanying documentation are provided on an “as is” and “as available” basis without warranty
+- express or implied - of any kind, and Sketch specifically disclaims the warranty of fitness for a particular purpose.
+No oral or written advice given by Sketch, its dealers, distributors, agents or employees shall create a warranty
+or in any way increase the scope of this warranty and You may not rely upon such information or advice.
+
+Liability limitation
+
+The liability of Hostify.com LLC and any third party that has been involved in the creation, production, or delivery
+of the Hostify WP Plugin for all damages arising out of or in any way relating to Hostify WP Plugin and/or this EULA
+shall in no event exceed the total amount of $ 99.
+
+Hostify.com LLC and any third party that has been involved in the creation, production, or delivery of the
+Hostify WP Plugin are under no circumstances liable for consequential or indirect damages (including damage
+for loss of profit, business interruption, loss of data, and the like arising out of the use or inability
+to use the Hostify WP Plugin).
+
+The limitations of liability referred to in clauses above shall not apply in the event that: (i) any negligence
+on the part of Hostify.com LLC leads to death or physical injury or (ii) damages arise from the intent, willful
+misconduct or gross negligence of Hostify.com LLC or the management of Hostify.com LLC.
+
+Governing Law
+
+This EULA agreement, and any dispute arising out of or in connection with this EULA agreement, shall be governed
+by and construed in accordance with the laws of US.

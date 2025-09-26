@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 40 40" style="enable-background:new 0 0 40 40;" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css">
+	.st0{fill:none;stroke:currentcolor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st1{fill:currentcolor;}
+</style>
+  </defs>
+  <g>
+    <path class="st0" d="M34.4,4H6.6C5.2,4,4,5.2,4,6.6v4.8C4,12.8,5.2,14,6.6,14h20.5l-2.2,19H4v2.7C4,37,5,38,6.3,38h28.4 c1.3,0,2.3-1,2.3-2.3V6.6C37,5.2,35.8,4,34.4,4z"/>
+    <path class="st0" d="M14,33L14,33c-3.3,0-6-2.7-6-6v-6h12v6C20,30.3,17.3,33,14,33z"/>
+    <path class="st0" d="M8.1,29C6.4,29,5,27.6,5,25.8c0-1.7,1.3-3,3-3.1"/>
+    <polyline class="st0" points="10,14 10,17 18,17 18,14 &#9;&#9;"/>
+    <path class="st0" d="M8,4V2.5C8,1.7,8.7,1,9.5,1h9C19.3,1,20,1.7,20,2.5V4"/>
+    <line class="st0" x1="23" y1="33" x2="37" y2="33"/>
+    <circle class="st0" cx="31.5" cy="10.5" r="2.5"/>
+    <line class="st0" x1="30" y1="29" x2="34" y2="29"/>
+    <line class="st0" x1="30" y1="25" x2="34" y2="25"/>
+  </g>
+</svg>

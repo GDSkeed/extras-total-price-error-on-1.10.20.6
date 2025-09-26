@@ -1,0 +1,28 @@
+
+.hfy-listings-map-toggle-mobile {
+	display: none;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	z-index: 9999999;
+
+	& > .btn {
+		border: 1px solid #eee;
+		box-shadow: 1px 1px 6px rgba(100,100,100,.5);
+	}
+}
+
+.listings-map-visible-mobile {
+	.hfy-map-wrapper {
+		position: fixed !important;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		z-index: 999999;
+
+		// .hfy-listings-map {
+		// 	height: 100vh !important;
+		// }
+	}
+}

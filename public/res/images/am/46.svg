@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 40 40" style="enable-background:new 0 0 40 40;" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css">
+	.st0{fill:none;stroke:currentcolor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st1{fill:currentcolor;}
+</style>
+  </defs>
+  <g>
+    <path class="st0" d="M36.9,21c1.3-1.5,2.1-3.4,2.1-5.6V4.5C39,3.7,38.3,3,37.5,3h-35C1.7,3,1,3.7,1,4.5v10.9 c0,2.1,0.8,4.1,2.1,5.6H36.9z"/>
+    <line class="st0" x1="1" y1="12" x2="39" y2="12"/>
+    <line class="st0" x1="6.2" y1="18" x2="33.8" y2="18"/>
+    <line class="st0" x1="6" y1="9" x2="11" y2="9"/>
+    <polyline class="st0" points="6,21 6,15 34,15 34,21 &#9;&#9;"/>
+    <path class="st0" d="M20,37c-0.8-0.7-1.3-1.8-1.3-3c0-1.2,0.5-2.3,1.3-3s1.3-1.8,1.3-3c0-1.2-0.5-2.3-1.3-3"/>
+    <path class="st0" d="M32.1,37c-0.8-0.7-1.3-1.8-1.3-3c0-1.2,0.5-2.3,1.3-3c0.8-0.7,1.3-1.8,1.3-3c0-1.2-0.5-2.3-1.3-3"/>
+    <path class="st0" d="M8.1,37c-0.8-0.7-1.3-1.8-1.3-3c0-1.2,0.5-2.3,1.3-3c0.8-0.7,1.3-1.8,1.3-3c0-1.2-0.5-2.3-1.3-3"/>
+  </g>
+</svg>

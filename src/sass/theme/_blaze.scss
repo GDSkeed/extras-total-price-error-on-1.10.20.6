@@ -1,0 +1,109 @@
+.hfy-widget-wrap-listings {
+
+    .slider {
+        --slides-to-show: 1;
+        --slide-gap: 20px;
+        direction: ltr;
+    }
+
+    .blaze-container {
+        position: relative;
+    }
+
+    .blaze-track-container {
+        overflow: hidden;
+    }
+
+    .blaze-track {
+        will-change: transform;
+        touch-action: pan-y;
+        display: flex;
+        gap: var(--slide-gap);
+        --slide-width: calc(
+            (100% - (var(--slides-to-show) - 1) * var(--slide-gap)) /
+                var(--slides-to-show)
+        );
+        box-sizing: border-box;
+    }
+
+    .blaze-track > * {
+        box-sizing: border-box;
+        width: var(--slide-width);
+        flex-shrink: 0;
+    }
+
+    .blaze-prev,
+    .blaze-next {
+        position: absolute;
+        top: 0;
+        width: 48px;
+        height: 100%;
+        padding: 0;
+        visibility: hidden;
+        opacity: 0;
+        transition: visibility 0, opacity .3s linear;
+        z-index: 999;
+        display: inline-block;
+        background: transparent no-repeat;
+        background-size: 24px;
+        background-position: center;
+        cursor: pointer;
+    }
+
+    .blaze-prev {
+        left: 0;
+        background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 32 32' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect x='0.5' y='0.5' width='31' height='31' rx='15.5' fill='white'/%3E%3Crect x='0.5' y='0.5' width='31' height='31' rx='15.5' stroke='%23EBEBEB'/%3E%3Cpath d='M19.6736 10.5784L18.4869 9.39844L11.8936 15.9984L18.4936 22.5984L19.6736 21.4184L14.2536 15.9984L19.6736 10.5784Z' fill='%23222222'/%3E%3C/svg%3E");
+      }
+
+    .blaze-next {
+        right: 0;
+        background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 32 32' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect x='0.5' y='0.5' width='31' height='31' rx='15.5' fill='white'/%3E%3Crect x='0.5' y='0.5' width='31' height='31' rx='15.5' stroke='%23EBEBEB'/%3E%3Cpath d='M12.1533 21.4854L13.3333 22.6654L20 15.9987L13.3333 9.33203L12.1533 10.512L17.64 15.9987L12.1533 21.4854Z' fill='%23222222'/%3E%3C/svg%3E");
+    }
+
+    .show {
+        visibility: visible;
+        opacity: .8;
+    }
+
+    .add-to-wish,
+    .added-to-wish,
+    .img {
+        cursor: pointer;
+    }
+
+    .add-to-wish,
+    .added-to-wish {
+      z-index: 9999;
+    }
+
+    // ??
+
+    .list-card {
+        .img {
+            border-radius: 12px !important;
+
+            img {
+                object-fit: cover;
+            }
+        }
+    }
+
+    .listings .container {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .has-global-padding {
+        padding: 0;
+    }
+}
+
+/*
+@media only screen and (max-width: 1200px) {
+    .btn-next-wrap,
+    .btn-prev-wrap {
+        visibility: visible;
+        opacity: 1;
+    }
+}
+*/

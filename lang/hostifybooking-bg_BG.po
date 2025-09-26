@@ -1,0 +1,3493 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Hostify Booking Engine\n"
+"Report-Msgid-Bugs-To: https://hostify.com\n"
+"POT-Creation-Date: 2025-07-03 19:45+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Hostify Booking Engine String Extractor\n"
+
+#: tpl/element/booking-search-advanced.php:14
+msgid " / day"
+msgstr "/ ден"
+
+#: tpl/element/booking-search-advanced.php:10
+msgid " / month"
+msgstr " / месец"
+
+#: admin/menu.php:636
+msgid " Required Google Maps API Key In Miscellaneous Section "
+msgstr " Изисква се Google Maps API ключ в секцията Разни "
+
+#: tpl/listing/listing-reviews-summary.php:28
+msgid "%d reviews"
+msgstr "%d отзива"
+
+#: tpl/element/direct-inquiry-modal-v2.php:139
+msgid "%d/%d guests"
+msgstr "%d/%d гости"
+
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:271
+msgid "%s is missing in the configuration array"
+msgstr "%s липсва в конфигурационния масив"
+
+#: admin/inc/translation-manager/translation-manager.php:82
+msgid "%s: %d missing translations (%d/%d translated - %s%%)"
+msgstr "%s: %d липсващи преводи (%d/%d преведени - %s%%)"
+
+#: admin/menu.php:1062
+msgid "(deprecated)"
+msgstr "(отхвърлено)"
+
+#: admin/menu.php:1370
+msgid "-- Select a language file --"
+msgstr "-- Изберете езиков файл --"
+
+#: admin/menu.php:722
+msgid "2-char country code like <code>us</code>"
+msgstr "2-символен код на държава като <code>us</code>"
+
+#: admin/menu.php:94
+msgid "API URL"
+msgstr "API адрес"
+
+#: admin/menu.php:101
+msgid "API WPKEY"
+msgstr "API WPKEY"
+
+#: admin/menu.php:90
+msgid "API settings"
+msgstr "Настройки на API"
+
+#: admin/menu.php:440
+msgid "ATTENTION: If disabled, all available amenities will be shown, this can be a huge list, so it is recommended to use the options below in this case."
+msgstr "ВНИМАНИЕ: Ако е деактивирано, ще бъдат показани всички налични удобства, което може да бъде огромен списък, затова се препоръчва да използвате опциите по-долу в този случай."
+
+#: admin/exopite-simple-options/fields/gallery.php:27
+msgid "Add"
+msgstr "Добави"
+
+#: admin/exopite-simple-options/fields/image.php:77
+msgid "Add Image"
+msgstr "Добави изображение"
+
+#: admin/menu.php:1348
+msgid "Add New Language"
+msgstr "Добави нов език"
+
+#: admin/exopite-simple-options/fields/video.php:63
+msgid "Add Video"
+msgstr "Добави видео"
+
+#: admin/menu.php:565
+msgid "Add images slider for each listing item"
+msgstr "Добави слайдер с изображения за всеки елемент от списъка"
+
+#: admin/exopite-simple-options/fields/gallery.php:25
+msgid "Add to gallery"
+msgstr "Добави в галерията"
+
+#: tpl/listing/listing-info-prices.php:37
+msgid "Additional Guests:"
+msgstr "Допълнителни гости:"
+
+#: tpl/payment/netpay-form.php:100
+#: tpl/user/booking-manage.php:160
+msgid "Address"
+msgstr "Адрес"
+
+#: admin/menu.php:861
+msgid "Admin options"
+msgstr "Административни опции"
+
+#: tpl/element/direct-inquiry-modal-v2.php:148
+#: tpl/element/guests-block.php:15
+#: tpl/element/direct-inquiry-modal.php:109
+#: tpl/payment/charge-preview.php:41
+#: tpl/payment/preview.php:57
+msgid "Adults"
+msgstr "Възрастни"
+
+#: admin/menu.php:429
+msgid "Advanced search"
+msgstr "Разширено търсене"
+
+#: tpl/element/guests-block.php:66
+msgid "Age under 2"
+msgstr "Възраст под 2"
+
+#: tpl/element/guests-block.php:17
+msgid "Age: 13+"
+msgstr "Възраст: 13+"
+
+#: tpl/element/guests-block.php:41
+msgid "Age: 2-12"
+msgstr "Възраст: 2-12"
+
+#: admin/menu.php:651
+msgid "Airbnb reviews only (5-star system)"
+msgstr "Само отзиви от Airbnb (5-звездна система)"
+
+#: admin/menu.php:1337
+msgid "All translatable strings"
+msgstr "Всички преводими низове"
+
+#: tpl/listing/listing-info-prices.php:33
+msgid "Allow Additional Guests:"
+msgstr "Позволени допълнителни гости:"
+
+#: tpl/listing/listings-sort.php:8
+msgid "Alphabetical"
+msgstr "Азбучно"
+
+#: tpl/user/booking-manage.php:121
+msgid "Alteration request"
+msgstr "Заявка за промяна"
+
+#: tpl/element/booking-search-popup.php:103
+#: tpl/element/booking-search-advanced.php:74
+#: tpl/listing/listing.php:23
+#: admin/menu.php:1215
+#: admin/menu.php:1297
+msgid "Amenities"
+msgstr "Удобства"
+
+#: admin/menu.php:456
+msgid "Amenities groups"
+msgstr "Групи удобства"
+
+#: admin/menu.php:588
+msgid "Amenities with images first"
+msgstr "Удобства с изображения първо"
+
+#: admin/menu.php:594
+msgid "Amenities with images only"
+msgstr "Само удобства с изображения"
+
+#: admin/menu.php:591
+msgid "Amenities with images will be shown first at the top of the list"
+msgstr "Удобствата с изображения ще бъдат показани първо в горната част на списъка"
+
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:336
+msgid "An error occurred while regenerating permalinks: "
+msgstr "Възникна грешка при регенериране на постоянните връзки: "
+
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:109
+msgid "An error occurred."
+msgstr "Възникна грешка."
+
+#: tpl/element/direct-inquiry-modal-v2.php:268
+msgid "Any special requests or questions?"
+msgstr "Имате ли специални заявки или въпроси?"
+
+#: inc/helpers.php:344
+#: tpl/user/booking-manage.php:183
+#: tpl/user/booking-manage.php:187
+msgid "Any time"
+msgstr "По всяко време"
+
+#: admin/menu.php:199
+msgid "Applicable to NetPay"
+msgstr "Приложимо за NetPay"
+
+#: inc/class-hostifybooking-loader.php:731
+#: tpl/listing/listing-booking-form.php:69
+#: tpl/listing/listing-booking-form-on-request.php:63
+#: tpl/listing/listing-booking-form-v2.php:64
+msgid "Apply"
+msgstr "Приложи"
+
+#: inc/seo.php:56
+msgid "Apply SEO settings (such as a pretty URL) to the Listing on this page"
+msgstr "Приложи SEO настройки (като красив URL) към обявата на тази страница"
+
+#: tpl/element/booking-search-advanced.php:107
+msgid "Apply filters"
+msgstr "Приложи филтри"
+
+#: inc/class-hostifybooking-loader.php:753
+msgid "Apr"
+msgstr "Апр"
+
+#: inc/class-hostifybooking-loader.php:738
+msgid "April"
+msgstr "Април"
+
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:104
+msgid "Are you sure you want to delete this permalink?"
+msgstr "Сигурни ли сте, че искате да изтриете тази постоянна връзка?"
+
+#: admin/exopite-simple-options/fields/backup.php:40
+msgid "Are you sure, you want to overwrite existing options?"
+msgstr "Сигурни ли сте, че искате да презапишете съществуващите опции?"
+
+#: admin/exopite-simple-options/fields/backup.php:48
+msgid "Are you sure, you want to reset all options?"
+msgstr "Сигурни ли сте, че искате да нулирате всички опции?"
+
+#: tpl/user/wishlist-item.php:40
+msgid "Area:"
+msgstr "Площ:"
+
+#: tpl/user/bookings-list-item.php:37
+msgid "Arrival:"
+msgstr "Пристигане:"
+
+#: inc/class-hostifybooking-loader.php:757
+msgid "Aug"
+msgstr "Авг"
+
+#: inc/class-hostifybooking-loader.php:742
+msgid "August"
+msgstr "Август"
+
+#: admin/menu.php:1264
+msgid "Availability"
+msgstr "Наличност"
+
+#: tpl/element/price-block-on-request.php:4
+msgid "Available"
+msgstr "Налично"
+
+#: admin/menu.php:1346
+msgid "Available Languages"
+msgstr "Налични езици"
+
+#: tpl/payment/stripe-form-3ds-element-step-2.php:33
+#: tpl/payment/netpay-form.php:160
+#: tpl/payment/stripe-form-3ds-step-3.php:61
+#: tpl/payment/paypal-form.php:42
+#: tpl/payment/stripe-form-3ds-step-2.php:36
+#: tpl/payment/stripe-form-3ds-element-step-3.php:49
+msgid "Back"
+msgstr "Назад"
+
+#: tpl/user/booking-manage.php:11
+msgid "Back to list"
+msgstr "Назад към списъка"
+
+#: tpl/payment/_error.php:20
+#: tpl/payment/stripe-form-3ds_error.php:18
+msgid "Back to payment"
+msgstr "Обратно към плащане"
+
+#: admin/menu.php:1393
+msgid "Backup & Restore Translations"
+msgstr "Резервно копие и възстановяване на преводи"
+
+#: admin/menu.php:1403
+msgid "Backup Actions Explained:"
+msgstr "Обяснение на действията за резервно копие:"
+
+#: admin/inc/translation-manager/translation-manager.php:86
+msgid "Backup created: %s"
+msgstr "Създаден архив: %s"
+
+#: tpl/element/booking-search-popup.php:71
+#: tpl/element/booking-search-advanced.php:63
+msgid "Bathrooms"
+msgstr "Бани"
+
+#: tpl/user/wishlist-item.php:38
+msgid "Baths:"
+msgstr "Бани:"
+
+#: tpl/element/booking-search.php:218
+msgid "Bedroom"
+msgstr "Спалня"
+
+#: tpl/element/booking-search-popup.php:57
+#: tpl/element/booking-search.php:212
+#: tpl/element/booking-search.php:218
+msgid "Bedrooms"
+msgstr "Спални"
+
+#: tpl/user/wishlist-item.php:36
+msgid "Bedrooms:"
+msgstr "Спални:"
+
+#: tpl/element/price-block.php:52
+msgid "Book on Airbnb"
+msgstr "Резервирайте в Airbnb"
+
+#: admin/menu.php:1102
+msgid "Booking form"
+msgstr "Форма за резервация"
+
+#: admin/menu.php:652
+msgid "Booking.com reviews only (10-star system)"
+msgstr "Само отзиви от Booking.com (10-звездна система)"
+
+#: tpl/payment/stripe-form.php:55
+#: tpl/payment/stripe-form-3ds-step-3.php:29
+msgid "CVC"
+msgstr "CVC"
+
+#: inc/class-hostifybooking-loader.php:1275
+msgid "Cache is disabled now"
+msgstr "Кешът е деактивиран сега"
+
+#: admin/menu.php:987
+msgid "Can be used, for example, inside title (H1 tag) on the listing search page"
+msgstr "Може да се използва, например, в заглавието (H1 таг) на страницата за търсене на обяви"
+
+#: inc/class-hostifybooking-loader.php:730
+#: tpl/element/direct-inquiry-modal-v2.php:292
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:108
+#: admin/exopite-simple-options/fields/upload.php:106
+#: admin/exopite-simple-options/fields/upload.php:138
+msgid "Cancel"
+msgstr "Отказ"
+
+#: tpl/user/booking-manage.php:221
+#: tpl/user/booking-manage.php:239
+msgid "Cancel booking"
+msgstr "Отмяна на резервацията"
+
+#: tpl/user/bookings-list.php:18
+msgid "Cancelled"
+msgstr "Отменени"
+
+#: tpl/payment/stripe-form.php:43
+#: tpl/payment/stripe-form-3ds-step-3.php:17
+msgid "Card number"
+msgstr "Номер на карта"
+
+#: tpl/user/booking-manage.php:258
+msgid "Change of business event"
+msgstr "Промяна на бизнес събитие"
+
+#: admin/menu.php:1313
+msgid "Changelog"
+msgstr "История на промените"
+
+#: tpl/element/booking-search.php:156
+#: tpl/element/booking-search.php:173
+#: tpl/element/booking-search.php:187
+#: tpl/element/direct-inquiry-modal-v2.php:106
+#: tpl/element/direct-inquiry-modal-v2.php:114
+#: tpl/element/direct-inquiry-modal.php:67
+#: tpl/element/direct-inquiry-modal.php:83
+#: tpl/payment/charge-preview.php:16
+#: tpl/payment/preview.php:20
+#: tpl/user/booking-manage.php:31
+#: tpl/listing/listing-booking-form.php:16
+#: tpl/listing/listing-booking-form.php:26
+#: tpl/listing/listing-booking-form.php:35
+#: tpl/listing/listing-booking-form-on-request.php:20
+#: tpl/listing/listing-booking-form-on-request.php:29
+#: tpl/listing/listing-booking-form-v2.php:17
+#: tpl/listing/listing-booking-form-v2.php:28
+#: tpl/listing/listing-booking-form-v2.php:37
+msgid "Check In"
+msgstr "Настаняване"
+
+#: tpl/element/booking-search.php:156
+#: tpl/element/booking-search.php:173
+#: tpl/element/booking-search.php:197
+#: tpl/element/direct-inquiry-modal-v2.php:106
+#: tpl/element/direct-inquiry-modal-v2.php:119
+#: tpl/element/direct-inquiry-modal.php:67
+#: tpl/element/direct-inquiry-modal.php:96
+#: tpl/payment/charge-preview.php:20
+#: tpl/payment/preview.php:26
+#: tpl/user/booking-manage.php:36
+#: tpl/listing/listing-booking-form.php:16
+#: tpl/listing/listing-booking-form.php:26
+#: tpl/listing/listing-booking-form.php:42
+#: tpl/listing/listing-booking-form-on-request.php:20
+#: tpl/listing/listing-booking-form-on-request.php:36
+#: tpl/listing/listing-booking-form-v2.php:17
+#: tpl/listing/listing-booking-form-v2.php:28
+#: tpl/listing/listing-booking-form-v2.php:44
+msgid "Check Out"
+msgstr "Напускане"
+
+#: tpl/user/booking-manage.php:174
+msgid "Check in"
+msgstr "Настаняване"
+
+#: tpl/user/booking-manage.php:194
+msgid "Check out"
+msgstr "Напускане"
+
+#: tpl/element/direct-inquiry-modal-v2.php:165
+#: tpl/element/guests-block.php:39
+#: tpl/element/direct-inquiry-modal.php:114
+#: tpl/payment/charge-preview.php:43
+#: tpl/payment/preview.php:60
+msgid "Children"
+msgstr "Деца"
+
+#: tpl/user/booking-manage.php:202
+msgid "Children allowed:"
+msgstr "Разрешено за деца:"
+
+#: admin/menu.php:1285
+msgid "Cities"
+msgstr "Градове"
+
+#: tpl/payment/netpay-form.php:143
+msgid "City"
+msgstr "Град"
+
+#: tpl/listing/listing-info-prices.php:44
+msgid "Cleaning Fee: "
+msgstr "Такса за почистване: "
+
+#: tpl/element/price-block-default.php:132
+#: tpl/payment/preview-default.php:30
+msgid "Cleaning fee"
+msgstr "Такса за почистване"
+
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:117
+msgid "Clear"
+msgstr "Изчисти"
+
+#: admin/menu.php:1374
+msgid "Clear Comments"
+msgstr "Изчисти коментари"
+
+#: tpl/element/booking-search-popup.php:159
+msgid "Clear all"
+msgstr "Изчисти всичко"
+
+#: inc/class-hostifybooking-loader.php:1277
+msgid "Clear cache"
+msgstr "Изчисти кеша"
+
+#: tpl/element/direct-inquiry-modal-v2.php:126
+#: tpl/listing/listing-booking-form.php:97
+#: tpl/listing/listing-booking-form-on-request.php:90
+#: tpl/listing/listing-booking-form-v2.php:92
+msgid "Clear dates"
+msgstr "Изчисти датите"
+
+#: admin/menu.php:837
+msgid "Clear this field if you do not need to do this check"
+msgstr "Изчистете това поле, ако не е необходимо да правите тази проверка"
+
+#: admin/menu.php:571
+msgid "Click on a card will open the listing in a new tab/window"
+msgstr "Кликването върху карта ще отвори обявата в нов таб/прозорец"
+
+#: tpl/element/booking-search-popup.php:162
+#: tpl/element/direct-inquiry-modal-v2.php:17
+#: tpl/element/guests-block.php:144
+#: admin/exopite-simple-options/fields/upload.php:119
+msgid "Close"
+msgstr "Затвори"
+
+#: tpl/user/bookings-list-item.php:50
+msgid "Code:"
+msgstr "Код:"
+
+#: admin/menu.php:1358
+#: admin/inc/translation-manager/translation-manager.php:88
+msgid "Compile MO Files"
+msgstr "Компилирай MO файлове"
+
+#: admin/menu.php:1357
+msgid "Compile all PO files to MO files (useful if you edited files externally):"
+msgstr "Компилирай всички PO файлове в MO файлове (полезно ако редактирахте файловете външно):"
+
+#: admin/inc/translation-manager/translation-manager.php:70
+msgid "Compiling MO files..."
+msgstr "Компилиране на MO файлове..."
+
+#: admin/inc/translation-manager/translation-manager.php:87
+msgid "Compiling..."
+msgstr "Компилиране..."
+
+#: admin/menu.php:969
+msgid "Complex:"
+msgstr "Комплексни:"
+
+#: tpl/payment/charge-success.php:37
+msgid "Confirmation code"
+msgstr "Код за потвърждение"
+
+#: tpl/user/bookings-list-item.php:46
+msgid "Confirmed at:"
+msgstr "Потвърдено на:"
+
+#: tpl/payment/netpay-form.php:155
+msgid "Continue"
+msgstr "Продължи"
+
+#: admin/menu.php:965
+msgid "Copy the shortcode and place it on post, page, text, code widget, etc. Refer the plugin Readme and documentation for more info about shortcodes and parameters."
+msgstr "Копирайте краткия код и го поставете в публикация, страница, текст, код на джаджа и т.н. Вижте Readme файла и документацията на плъгина за повече информация относно кратките кодове и параметрите."
+
+#: tpl/payment/netpay-form.php:107
+#: tpl/payment/stripe-form-3ds-element-step-1.php:49
+#: tpl/payment/stripe-form-3ds-element-step-1.php:51
+#: tpl/payment/paypal-form-step-1.php:43
+#: tpl/payment/paypal-form-step-1.php:45
+#: tpl/payment/stripe-form-3ds-step-1.php:52
+#: tpl/payment/stripe-form-3ds-step-1.php:54
+msgid "Country"
+msgstr "Държава"
+
+#: tpl/element/price-block-default.php:122
+#: tpl/element/price-block-accounting.php:118
+msgid "Coupon Discount"
+msgstr "Отстъпка с купон"
+
+#: tpl/element/price-block-default.php:110
+#: tpl/element/price-block-accounting.php:106
+#: tpl/payment/preview-accounting.php:102
+#: tpl/payment/preview-accounting.php:107
+#: tpl/payment/preview-default.php:86
+#: tpl/payment/preview-default.php:91
+msgid "Coupon discount"
+msgstr "Отстъпка с купон"
+
+#: admin/menu.php:1396
+msgid "Create Backup Now"
+msgstr "Създай резервно копие сега"
+
+#: admin/menu.php:1419
+msgid "Create backup of existing file before replacing"
+msgstr "Създай резервно копие на съществуващия файл преди замяна"
+
+#: admin/menu.php:133
+#: admin/menu.php:156
+#: admin/menu.php:178
+#: admin/menu.php:200
+#: admin/menu.php:222
+#: admin/menu.php:244
+#: admin/menu.php:266
+msgid "Create new page"
+msgstr "Създай нова страница"
+
+#: admin/menu.php:625
+#: admin/menu.php:693
+msgid "Custom URL"
+msgstr "Персонализиран URL"
+
+#: admin/menu.php:530
+msgid "Custom styles"
+msgstr "Персонализирани стилове"
+
+#: admin/menu.php:898
+msgid "Custom template path"
+msgstr "Път до персонализиран шаблон"
+
+#: inc/class-hostifybooking-loader.php:761
+msgid "Dec"
+msgstr "Дек"
+
+#: inc/class-hostifybooking-loader.php:746
+msgid "December"
+msgstr "Декември"
+
+#: tpl/user/booking-manage.php:259
+msgid "Decided to stay home"
+msgstr "Решение да остана вкъщи"
+
+#: admin/menu.php:517
+msgid "Default map type"
+msgstr "Тип на картата по подразбиране"
+
+#: admin/menu.php:549
+msgid "Default sorting"
+msgstr "Сортиране по подразбиране"
+
+#: admin/menu.php:371
+msgid "Default term mode"
+msgstr "Режим на резервациите по подразбиране"
+
+#: admin/menu.php:327
+msgid "Default text if nothing is selected"
+msgstr "Текст по подразбиране, ако нищо не е избрано"
+
+#: admin/menu.php:584
+msgid "Define a list of amenities to show (IDs separated with a comma). All others will be hidden."
+msgstr "Определете списък с удобства за показване (ID, разделени със запетая). Всички останали ще бъдат скрити."
+
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:105
+#: admin/exopite-simple-options/fields/upload.php:110
+msgid "Delete"
+msgstr "Изтрий"
+
+#: admin/menu.php:1398
+msgid "Delete All Backups"
+msgstr "Изтрий всички резервни копия"
+
+#: tpl/user/bookings-list-item.php:41
+msgid "Departure:"
+msgstr "Заминаване:"
+
+#: tpl/user/bookings-list-item.php:61
+msgid "Details"
+msgstr "Подробности"
+
+#: admin/menu.php:1275
+msgid "Dictionaries"
+msgstr "Речници"
+
+#: admin/menu.php:883
+msgid "Disable data caching"
+msgstr "Изключи кеширането на данни"
+
+#: admin/menu.php:939
+msgid "Disable overwriting of the payment templates"
+msgstr "Деактивирай презаписването на шаблоните за плащане"
+
+#: admin/menu.php:938
+msgid "Disable payment templates"
+msgstr "Деактивирай шаблоните за плащане"
+
+#: tpl/element/direct-inquiry-modal-v2.php:257
+#: tpl/element/direct-inquiry-modal.php:134
+msgid "Discount Code"
+msgstr "Код за отстъпка"
+
+#: admin/menu.php:501
+msgid "Display many closely spaced markers as one cluster on the map"
+msgstr "Показване на много близко разположени маркери като един клъстер на картата"
+
+#: admin/menu.php:869
+msgid "Do not load Bootstrap library that comes with the plugin"
+msgstr "Не зареждай Bootstrap библиотеката, която идва с този плъгин"
+
+#: admin/menu.php:878
+msgid "Do not load all the CSS that comes with the plugin, including Bootstrap"
+msgstr "Не зареждай всички CSS файлове, които идват с плъгина, включително Bootstrap"
+
+#: admin/menu.php:887
+msgid "Do not use cache - it can be useful for testing or troubleshooting"
+msgstr "Не използвайте кеширане - може да бъде полезно за тестване или отстраняване на проблеми"
+
+#: admin/menu.php:1428
+msgid "Documentation"
+msgstr "Документация"
+
+#: tpl/element/booking-search-advanced.php:53
+msgid "Does not matter"
+msgstr "Няма значение"
+
+#: admin/menu.php:1375
+msgid "Download .po File"
+msgstr "Изтегли .po файл"
+
+#: admin/exopite-simple-options/fields/backup.php:44
+msgid "Download Backup"
+msgstr "Изтегли резервно копие"
+
+#: admin/menu.php:1406
+msgid "Download all translation files as a ZIP archive for external storage"
+msgstr "Изтегли всички файлове с преводи като ZIP архив за външно съхранение"
+
+#: admin/menu.php:1410
+msgid "Download backups before plugin updates and store them safely. You can then upload individual .po files or restore entire backups after updates."
+msgstr "Изтеглете резервни копия преди актуализации на плъгина и ги съхранявайте безопасно. След това можете да качите отделни .po файлове или да възстановите цели резервни копия след актуализации."
+
+#: admin/exopite-simple-options/fields/upload.php:71
+msgid "Drop files here"
+msgstr "Пуснете файловете тук"
+
+#: tpl/element/price-block-default.php:165
+#: tpl/element/price-block-default.php:176
+#: tpl/element/price-block-accounting.php:182
+#: tpl/element/price-block-accounting.php:193
+msgid "Due later"
+msgstr "Дължимо по-късно"
+
+#: tpl/element/price-block-default.php:160
+#: tpl/element/price-block-default.php:171
+#: tpl/element/price-block-accounting.php:177
+#: tpl/element/price-block-accounting.php:188
+#: tpl/payment/preview.php:128
+msgid "Due now"
+msgstr "Дължимо сега"
+
+#: tpl/element/price-block-accounting.php:137
+#: tpl/payment/preview.php:83
+msgid "Due upon arrival:"
+msgstr "Дължимо при пристигане:"
+
+#: tpl/user/booking-manage.php:256
+msgid "Duplicate booking"
+msgstr "Дублирана резервация"
+
+#: admin/menu.php:632
+msgid "Dynamic Google Map"
+msgstr "Динамична Google карта"
+
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:106
+msgid "Edit"
+msgstr "Редактирай"
+
+#: admin/menu.php:136
+#: admin/menu.php:159
+#: admin/menu.php:181
+#: admin/menu.php:203
+#: admin/menu.php:225
+#: admin/menu.php:247
+#: admin/menu.php:269
+msgid "Edit page"
+msgstr "Редактирай"
+
+#: admin/menu.php:1366
+msgid "Edit translations directly in the admin interface. Select a language file and edit the translations below."
+msgstr "Редактирайте преводите директно в административния интерфейс. Изберете езиков файл и редактирайте преводите по-долу."
+
+#: tpl/element/direct-inquiry-modal-v2.php:81
+#: tpl/element/direct-inquiry-modal-v2.php:83
+#: tpl/element/direct-inquiry-modal.php:36
+#: tpl/payment/stripe-form.php:22
+#: tpl/payment/stripe-form.php:23
+#: tpl/payment/netpay-form.php:86
+#: tpl/payment/stripe-form-3ds-element-step-1.php:23
+#: tpl/payment/stripe-form-3ds-element-step-1.php:24
+#: tpl/payment/paypal-form-step-1.php:26
+#: tpl/payment/paypal-form-step-1.php:27
+#: tpl/payment/stripe-form-3ds-step-1.php:26
+#: tpl/payment/stripe-form-3ds-step-1.php:27
+msgid "Email"
+msgstr "Имейл"
+
+#: admin/menu.php:342
+msgid "Enable keyword search"
+msgstr "Активиране на търсене по ключови думи"
+
+#: admin/menu.php:950
+msgid "Enable the new reservation inquiry modal design."
+msgstr "Активиране на новия дизайн на модалния прозорец за запитвания"
+
+#: tpl/element/direct-inquiry-modal-v2.php:259
+msgid "Enter discount code (if available)"
+msgstr "Въведете код за отстъпка (ако имате такъв)"
+
+#: inc/helpers/ListingHelper.php:57
+msgid "Entire home/flat"
+msgstr "Цял дом/апартамент"
+
+#: tpl/payment/stripe-form-3ds-element.php:93
+msgid "Error"
+msgstr "ГРЕШКА:"
+
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:113
+msgid "Error regenerating permalinks."
+msgstr "Грешка при регенериране на постоянните връзки."
+
+#: admin/exopite-simple-options/fields/typography.php:186
+msgid "Error! Can not load json file."
+msgstr "Грешка! Не може да се зареди json файл."
+
+#: admin/inc/translation-manager/translation-manager.php:72
+msgid "Errors: %s"
+msgstr "Грешки: %s"
+
+#: tpl/element/booking-search-popup.php:147
+msgid "Events allowed"
+msgstr "Позволени събития"
+
+#: admin/menu.php:1339
+msgid "Existing translation files (will add missing strings)"
+msgstr "Съществуващи файлове с преводи (ще добави липсващите низове)"
+
+#: tpl/payment/stripe-form.php:50
+#: tpl/payment/stripe-form-3ds-step-3.php:25
+msgid "Expiration"
+msgstr "Валидност"
+
+#: tpl/element/price-block-default.php:139
+#: tpl/payment/preview-default.php:37
+msgid "Extra person"
+msgstr "Допълнителен човек"
+
+#: admin/menu.php:1341
+#: admin/inc/translation-manager/translation-manager.php:75
+msgid "Extract Strings"
+msgstr "Извличане на низове"
+
+#: admin/menu.php:1334
+msgid "Extract Translatable Strings"
+msgstr "Извличане на преводими низове"
+
+#: admin/inc/translation-manager/translation-manager.php:74
+msgid "Extracting..."
+msgstr "Извличане..."
+
+#: admin/inc/translation-manager/translation-manager.php:76
+msgid "Extraction completed successfully!"
+msgstr "Извличането завърши успешно!"
+
+#: tpl/payment/stripe-form-3ds-element-step-2.php:9
+#: tpl/payment/stripe-form-3ds-step-2.php:12
+#: tpl/user/booking-manage.php:98
+msgid "Extras"
+msgstr "Екстри"
+
+#: admin/menu.php:1207
+msgid "Facilities"
+msgstr "Съоръжения"
+
+#: admin/inc/translation-manager/translation-manager.php:73
+msgid "Failed to compile MO files"
+msgstr "Неуспешно компилиране на MO файлове"
+
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:290
+msgid "Failed to delete permalink."
+msgstr "Неуспешно изтриване на постоянната връзка."
+
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:252
+msgid "Failed to update permalink."
+msgstr "Неуспешно обновяване на постоянната връзка."
+
+#: inc/class-hostifybooking-loader.php:751
+msgid "Feb"
+msgstr "Фев"
+
+#: inc/class-hostifybooking-loader.php:736
+msgid "February"
+msgstr "Февруари"
+
+#: tpl/payment/stripe-form.php:34
+msgid "Feel free to leave any additional question..."
+msgstr "Можете да зададете допълнителни въпроси..."
+
+#: tpl/payment/stripe-form-3ds-element-step-1.php:42
+#: tpl/payment/stripe-form-3ds-step-1.php:45
+msgid "Feel free to leave any additional questions..."
+msgstr "Можете да зададете допълнителни въпроси..."
+
+#: admin/inc/translation-manager/translation-manager.php:85
+msgid "File uploaded and restored successfully!"
+msgstr "Файлът е качен и възстановен успешно!"
+
+#: admin/inc/translation-manager/translation-manager.php:79
+msgid "Files updated with source location comments: %s"
+msgstr "Файлове обновени с коментари за местоположение на източника: %s"
+
+#: admin/inc/translation-manager/translation-manager.php:78
+msgid "Files with new strings added: %s"
+msgstr "Файлове с добавени нови текстове: %s"
+
+#: admin/menu.php:339
+msgid "Filter locations while typing in selector"
+msgstr "Филтриране на местоположения при въвеждане в селектора"
+
+#: admin/menu.php:1380
+msgid "Filter translations:"
+msgstr "Филтриране на преводите:"
+
+#: tpl/element/direct-inquiry-modal-v2.php:68
+#: tpl/element/direct-inquiry-modal-v2.php:69
+#: tpl/element/direct-inquiry-modal.php:22
+msgid "First Name"
+msgstr "Име"
+
+#: tpl/user/booking-manage.php:257
+msgid "Flight / Train cancelled"
+msgstr "Отменен полет/влак"
+
+#: tpl/payment/time-left.php:13
+msgid "For your security, this session has timed out."
+msgstr "За ваша сигурност тази сесия изтече."
+
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:119
+msgid "Found %d out of %d total"
+msgstr "Намерени %d от общо %d"
+
+#: inc/class-hostifybooking-loader.php:780
+msgid "Fri"
+msgstr "Пет"
+
+#: inc/class-hostifybooking-loader.php:770
+msgid "Friday"
+msgstr "Петък"
+
+#: inc/shortcodes/inc/make-listing-item-vars.php:74
+msgid "From"
+msgstr "От"
+
+#: tpl/user/bookings-list.php:14
+msgid "Future"
+msgstr "Бъдещи"
+
+#: admin/menu.php:840
+msgid "GA Events"
+msgstr "GA Събития"
+
+#: admin/menu.php:1120
+msgid "Gallery"
+msgstr "Галерия"
+
+#: tpl/payment/stripe-form-3ds_success.php:58
+msgid "Go Back"
+msgstr "Назад"
+
+#: tpl/payment/_success.php:85
+#: tpl/payment/charge-success.php:100
+#: tpl/payment/charge-error.php:41
+msgid "Go back"
+msgstr "Назад"
+
+#: admin/exopite-simple-options/fields/typography.php:93
+msgid "Google Fonts"
+msgstr "Google шрифтове"
+
+#: admin/menu.php:497
+msgid "Group to clusters"
+msgstr "Групиране в клъстери"
+
+#: tpl/listing/listing-info.php:16
+msgid "Guest access"
+msgstr "Достъп за гости"
+
+#: admin/menu.php:1435
+msgid "Guest area setup"
+msgstr "Настройка на зоната за гости"
+
+#: tpl/element/direct-inquiry-modal-v2.php:135
+#: tpl/payment/charge-preview.php:28
+#: tpl/payment/preview.php:38
+#: tpl/user/booking-manage.php:44
+msgid "Guests"
+msgstr "Гости"
+
+#: tpl/listing/listing-booking-form.php:51
+#: tpl/listing/listing-booking-form-on-request.php:45
+msgid "Guests:"
+msgstr "Гости:"
+
+#: tpl/listing/listing-booking-form.php:66
+#: tpl/listing/listing-booking-form-on-request.php:60
+#: tpl/listing/listing-booking-form-v2.php:61
+msgid "Have a discount code?"
+msgstr "Имате код за отстъпка?"
+
+#: tpl/payment/preview.php:158
+msgid "Hide details"
+msgstr "Скрий детайлите"
+
+#: tpl/listing/listings-map-toggle.php:11
+#: tpl/listing/listings-map-toggle.php:23
+#: tpl/listing/listings-map-toggle.php:34
+#: tpl/listing/listings-map-toggle.php:47
+msgid "Hide map"
+msgstr "Скрий картата"
+
+#: inc/class-hostifybooking-widget.php:47
+msgid "Hostify"
+msgstr "Hostify"
+
+#: inc/class-hostifybooking-widget.php:14
+msgid "Hostify Booking 1"
+msgstr "Hostify Booking 1"
+
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:1384
+msgid "Hostify Booking Engine"
+msgstr "Hostify Booking Engine"
+
+#: inc/class-hostifybooking-widget.php:15
+msgid "Hostify Booking Widget 1"
+msgstr "Hostify Booking Widget 1"
+
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:1364
+msgid "Hostify cache cleared"
+msgstr "Кешът на Hostify е изчистен"
+
+#: admin/class-hostifybooking-admin.php:135
+msgid "Hostify cached data cleared"
+msgstr "Кешът на Hostify е изчистен"
+
+#: inc/seo.php:43
+msgid "Hostify settings"
+msgstr "Настройки на Hostify"
+
+#: tpl/element/booking-search-popup.php:138
+#: tpl/user/booking-manage.php:171
+msgid "House rules"
+msgstr "Правила на къщата"
+
+#: admin/menu.php:1349
+msgid "How to Use"
+msgstr "Как да използвате"
+
+#: admin/menu.php:523
+msgid "Hybrid"
+msgstr "Хибрид"
+
+#: admin/menu.php:1300
+msgid "ID codes of available amenities"
+msgstr "ID кодове на наличните удобства"
+
+#: admin/menu.php:1288
+msgid "ID codes of available cities"
+msgstr "ID кодове на наличните градове"
+
+#: admin/menu.php:346
+msgid "If enabled, a keyword search field will be added to the search form."
+msgstr "Ако е активирано, поле за търсене по ключови думи ще бъде добавено към формата за търсене."
+
+#: admin/menu.php:360
+msgid "If enabled, only listings with the specified number of bedrooms will be shown in the search results."
+msgstr "Ако е активирано, само обяви с посочения брой спални ще бъдат показани в резултатите от търсенето."
+
+#: tpl/user/booking-manage.php:253
+msgid "Illness"
+msgstr "Заболяване"
+
+#: admin/menu.php:562
+msgid "Images slider"
+msgstr "Слайдер с изображения"
+
+#: admin/exopite-simple-options/fields/backup.php:40
+msgid "Import a Backup"
+msgstr "Импортиране на резервно копие"
+
+#: admin/menu.php:177
+msgid "In case you use the direct payment acceptance"
+msgstr "В случай че използвате приемане на плащания на този сайт"
+
+#: inc/shortcodes/hfy-payment.php:120
+#: inc/ajax/hfy-ajax-payment-preview.php:114
+msgid "Incorrect parameters"
+msgstr "Неправилни параметри"
+
+#: tpl/element/direct-inquiry-modal-v2.php:181
+#: tpl/element/guests-block.php:64
+#: tpl/element/direct-inquiry-modal.php:119
+#: tpl/payment/charge-preview.php:45
+#: tpl/payment/preview.php:64
+msgid "Infants"
+msgstr "Бебета"
+
+#: admin/menu.php:1137
+msgid "Info"
+msgstr "Информация"
+
+#: admin/menu.php:1435
+msgid "Initial setup"
+msgstr "Първоначална настройка"
+
+#: admin/menu.php:1365
+msgid "Inline Translation Editor"
+msgstr "Редактор за превод в реално време"
+
+#: tpl/listing/listing-info.php:21
+msgid "Interaction with guests"
+msgstr "Взаимодействие с гостите"
+
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:210
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:277
+msgid "Invalid data."
+msgstr "Невалидни данни."
+
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:341
+msgid "Irks! An un-known error has occurred."
+msgstr "Опа! Възникна неизвестна грешка."
+
+#: inc/shortcodes/inc/load-settings.php:16
+msgid "Is not active"
+msgstr "Не е активно"
+
+#: admin/menu.php:543
+msgid "Items (listings) per page"
+msgstr "Брой обяви на страница на търсене"
+
+#: inc/class-hostifybooking-loader.php:750
+msgid "Jan"
+msgstr "Яну"
+
+#: inc/class-hostifybooking-loader.php:735
+msgid "January"
+msgstr "Януари"
+
+#: inc/class-hostifybooking-loader.php:756
+msgid "Jul"
+msgstr "Юли"
+
+#: inc/class-hostifybooking-loader.php:741
+msgid "July"
+msgstr "Юли"
+
+#: inc/class-hostifybooking-loader.php:755
+msgid "Jun"
+msgstr "Юни"
+
+#: inc/class-hostifybooking-loader.php:740
+msgid "June"
+msgstr "Юни"
+
+#: admin/menu.php:350
+msgid "Keyword search placeholder"
+msgstr "Заместващ текст за търсене по ключова дума"
+
+#: tpl/element/direct-inquiry-modal-v2.php:73
+#: tpl/element/direct-inquiry-modal-v2.php:74
+#: tpl/element/direct-inquiry-modal.php:27
+msgid "Last Name"
+msgstr "Фамилия"
+
+#: admin/menu.php:978
+msgid "List of Listings, show the search result"
+msgstr "Списък с обяви, покажи резултата от търсенето"
+
+#: admin/menu.php:453
+msgid "List of amenities to show (ID separated by comma):"
+msgstr "Списък с удобства за показване (ID, разделени със запетая):"
+
+#: inc/shortcodes/inc/load-listing-price.php:17
+#: inc/shortcodes/hfy-payment.php:110
+#: inc/shortcodes/hfy-payment-charge.php:94
+#: inc/ajax/hfy-ajax-payment-preview.php:104
+msgid "Listing price is not available"
+msgstr "Цената на обявата не е налична"
+
+#: admin/menu.php:1025
+msgid "Listing search form"
+msgstr "Форма за търсене на обяви"
+
+#: admin/menu.php:796
+msgid "Listing slug"
+msgstr "Slug на обявата"
+
+#: admin/menu.php:537
+#: admin/menu.php:975
+msgid "Listings"
+msgstr "Обяви"
+
+#: admin/menu.php:983
+msgid "Listings info"
+msgstr "Информация за обявите"
+
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:1367
+msgid "Listings links updated"
+msgstr "Линковете на обявите са обновени"
+
+#: admin/menu.php:992
+msgid "Listings map"
+msgstr "Карта с обяви"
+
+#: admin/menu.php:1000
+msgid "Listings map show/hide button"
+msgstr "Бутон за показване/скриване на картата с обяви"
+
+#: admin/menu.php:119
+msgid "Listings page"
+msgstr "Страница на списъка с обявите"
+
+#: admin/menu.php:1007
+msgid "Listings sort control"
+msgstr "Контрол за сортиране на обявите"
+
+#: admin/menu.php:336
+msgid "Live search"
+msgstr "Търсене в реално време"
+
+#: admin/menu.php:1372
+msgid "Load Translations"
+msgstr "Зареди преводи"
+
+#: admin/inc/translation-manager/translation-manager.php:69
+msgid "Loaded %d translations from %s"
+msgstr "Заредени %d превода от %s"
+
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:102
+msgid "Loading permalinks data..."
+msgstr "Зареждане на данни за постоянните връзки..."
+
+#: tpl/user/booking-manage.php:254
+msgid "Local competition preferred"
+msgstr "Предпочитана местна алтернатива"
+
+#: tpl/listing/listing.php:32
+#: admin/menu.php:1223
+msgid "Location"
+msgstr "Местоположение"
+
+#: admin/menu.php:310
+msgid "Location selector options"
+msgstr "Опции за избор на местоположение"
+
+#: admin/menu.php:323
+msgid "Location selector placeholder"
+msgstr "Заместител за избор на местоположение"
+
+#: tpl/element/booking-search.php:28
+msgid "Long-term bookings"
+msgstr "Дългосрочни резервации"
+
+#: admin/menu.php:1354
+msgid "MO files are automatically generated when you save translations through our editor."
+msgstr "MO файловете се генерират автоматично, когато запазите преводите през нашия редактор."
+
+#: admin/menu.php:1128
+msgid "Main image"
+msgstr "Основно изображение"
+
+#: admin/menu.php:1356
+msgid "Maintenance"
+msgstr "Поддръжка"
+
+#: admin/menu.php:478
+msgid "Map"
+msgstr "Карта"
+
+#: admin/menu.php:490
+msgid "Map price"
+msgstr "Цени на картата"
+
+#: admin/menu.php:484
+msgid "Map tracking"
+msgstr "Следи за движението на картата"
+
+#: inc/class-hostifybooking-loader.php:752
+msgid "Mar"
+msgstr "Мар"
+
+#: inc/class-hostifybooking-loader.php:737
+msgid "March"
+msgstr "Март"
+
+#: admin/exopite-simple-options/fields/upload.php:180
+msgid "Max amount of files: "
+msgstr "Макс брой файлове: "
+
+#: admin/exopite-simple-options/fields/upload.php:181
+msgid "Max file upload size: "
+msgstr "Макс размер на файла: "
+
+#: admin/menu.php:414
+msgid "Max guests number"
+msgstr "Макс брой гости"
+
+#: admin/menu.php:395
+msgid "Max infants number"
+msgstr "Максимален брой бебета"
+
+#: admin/exopite-simple-options/fields/group.php:348
+msgid "Max items:"
+msgstr "Максимален брой елементи:"
+
+#: admin/menu.php:407
+msgid "Max pets number"
+msgstr "Макс брой домашни любимци"
+
+#: admin/menu.php:511
+msgid "Max zoom"
+msgstr "Максимално увеличение"
+
+#: tpl/element/direct-inquiry-modal-v2.php:245
+msgid "Maximum %d guests."
+msgstr "Максимум %d гости."
+
+#: tpl/listing/listing-info-prices.php:63
+msgid "Maximum Number Of Days: "
+msgstr "Максимален брой дни: "
+
+#: inc/class-hostifybooking-loader.php:739
+#: inc/class-hostifybooking-loader.php:754
+msgid "May"
+msgstr "Май"
+
+#: admin/menu.php:743
+msgid "Miscellaneous"
+msgstr "Разни"
+
+#: admin/inc/translation-manager/translation-manager.php:81
+msgid "Missing Translations Report:"
+msgstr "Доклад за липсващи преводи:"
+
+#: inc/class-hostifybooking-loader.php:776
+msgid "Mon"
+msgstr "Пон"
+
+#: inc/class-hostifybooking-loader.php:766
+msgid "Monday"
+msgstr "Понеделник"
+
+#: tpl/listing/listing-info-prices.php:19
+msgid "Monthly (30d+):"
+msgstr "Месечно (30+ дни):"
+
+#: tpl/element/booking-search-advanced.php:43
+msgid "More"
+msgstr "Още"
+
+#: admin/menu.php:825
+msgid "NOINDEX for selected listings"
+msgstr "NOINDEX за избрани обяви"
+
+#: tpl/payment/stripe-form.php:15
+#: tpl/payment/stripe-form.php:16
+#: tpl/payment/netpay-form.php:79
+#: tpl/payment/stripe-form-3ds-element-step-1.php:14
+#: tpl/payment/stripe-form-3ds-element-step-1.php:15
+#: tpl/payment/paypal-form-step-1.php:17
+#: tpl/payment/paypal-form-step-1.php:18
+#: tpl/payment/stripe-form-3ds-step-1.php:17
+#: tpl/payment/stripe-form-3ds-step-1.php:18
+msgid "Name"
+msgstr "Име"
+
+#: tpl/element/pagination-block.php:37
+#: tpl/payment/stripe-form-3ds-element-step-2.php:36
+#: tpl/payment/stripe-form-3ds-element-step-1.php:65
+#: tpl/payment/paypal-form-step-1.php:59
+#: tpl/payment/stripe-form-3ds-step-2.php:39
+#: tpl/payment/stripe-form-3ds-step-1.php:68
+msgid "Next"
+msgstr "Следващ"
+
+#: tpl/listing/listing-info-prices.php:6
+msgid "Nightly:"
+msgstr "На нощ:"
+
+#: tpl/user/booking-manage.php:199
+#: tpl/user/booking-manage.php:203
+#: tpl/user/booking-manage.php:207
+#: tpl/user/booking-manage.php:211
+#: admin/exopite-simple-options/fields/upload.php:127
+msgid "No"
+msgstr "Не"
+
+#: tpl/element/error-no-listings-available.php:2
+msgid "No accommodation available"
+msgstr "Няма налични места за настаняване"
+
+#: tpl/element/error-no-listings-found.php:2
+msgid "No available properties for your search."
+msgstr "Няма налични имоти според вашето търсене."
+
+#: inc/class-hostifybooking-loader.php:244
+msgid "No available properties for your selection."
+msgstr "Няма налични имоти, отговарящи на вашия избор."
+
+#: inc/shortcodes/inc/load-listing-seo.php:12
+#: inc/shortcodes/inc/load-listing.php:25
+msgid "No listing"
+msgstr "Няма обява"
+
+#: inc/helpers.php:479
+#: inc/shortcodes/hfy-listing-location.php:20
+#: inc/shortcodes/hfy-listing-virtual-tour.php:13
+#: inc/shortcodes/hfy-listing-reviews-summary.php:13
+#: inc/shortcodes/hfy-listing-details-field.php:13
+#: inc/shortcodes/hfy-listing-info-interaction.php:12
+#: inc/shortcodes/hfy-listing-info-transit.php:12
+#: inc/shortcodes/hfy-listing-info-neighbourhood.php:12
+#: inc/shortcodes/hfy-listing-info-summary.php:12
+#: inc/shortcodes/hfy-listing-info.php:13
+#: inc/shortcodes/hfy-listing-gallery.php:13
+#: inc/shortcodes/hfy-listing-info-address.php:12
+#: inc/shortcodes/hfy-listing-booking-form.php:14
+#: inc/shortcodes/hfy-listing-info-house-rules.php:12
+#: inc/shortcodes/hfy-listing-field.php:13
+#: inc/shortcodes/hfy-listing.php:12
+#: inc/shortcodes/hfy-payment.php:33
+#: inc/shortcodes/hfy-listing-image.php:13
+#: inc/shortcodes/hfy-listing-info-permit.php:17
+#: inc/shortcodes/hfy-listing-facilities.php:13
+#: inc/shortcodes/hfy-listing-reviews-count.php:13
+#: inc/shortcodes/hfy-top-listings.php:15
+#: inc/shortcodes/hfy-listing-info-prices.php:17
+#: inc/shortcodes/hfy-listing-info-guest-access.php:12
+#: inc/shortcodes/hfy-listing-reviews-comments.php:13
+#: inc/shortcodes/hfy-listing-info-space.php:12
+#: inc/shortcodes/hfy-listing-title.php:13
+#: inc/shortcodes/hfy-listing-cancellation-policy.php:13
+#: inc/shortcodes/hfy-listing-amenities.php:13
+#: inc/shortcodes/hfy-listing-room-type.php:13
+#: inc/shortcodes/hfy-listing-info-notes.php:12
+#: inc/shortcodes/hfy-listing-availability.php:15
+#: inc/ajax/hfy-ajax-payment-preview.php:28
+msgid "No listing ID"
+msgstr "Липсва ID на обява"
+
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:118
+msgid "No matching permalinks found."
+msgstr "Не са намерени съвпадащи постоянни връзки."
+
+#: inc/shortcodes/hfy-payment.php:291
+msgid "No payment service"
+msgstr "Няма платежна услуга"
+
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:103
+msgid "No permalinks found."
+msgstr "Не са намерени постоянни връзки."
+
+#: admin/menu.php:615
+msgid "No redirect"
+msgstr "Без пренасочване"
+
+#: inc/shortcodes/hfy-payment-charge.php:13
+msgid "No reservation ID"
+msgstr "Липсва ID на резервация"
+
+#: inc/shortcodes/hfy-payment-charge.php:19
+msgid "No reservation found"
+msgstr "Не е намерена резервация"
+
+#: inc/shortcodes/hfy-user-booking-manage.php:63
+#: inc/shortcodes/hfy-user-booking-manage.php:71
+msgid "Not found"
+msgstr "Не е намерено"
+
+#: tpl/payment/stripe-form.php:35
+#: tpl/payment/_success.php:74
+#: tpl/payment/stripe-form-3ds-element-step-1.php:41
+#: tpl/payment/charge-success.php:89
+#: tpl/payment/stripe-form-3ds-step-1.php:44
+msgid "Note"
+msgstr "Забележка"
+
+#: tpl/user/bookings-list.php:31
+msgid "Nothing yet"
+msgstr "Все още нищо"
+
+#: inc/class-hostifybooking-loader.php:760
+msgid "Nov"
+msgstr "Ное"
+
+#: inc/class-hostifybooking-loader.php:745
+msgid "November"
+msgstr "Ноември"
+
+#: inc/class-hostifybooking-loader.php:759
+msgid "Oct"
+msgstr "Окт"
+
+#: inc/class-hostifybooking-loader.php:744
+msgid "October"
+msgstr "Октомври"
+
+#: admin/exopite-simple-options/fields/upload.php:140
+msgid "Ok"
+msgstr "Добре"
+
+#: admin/menu.php:597
+msgid "Only amenities with images will be displayed"
+msgstr "Ще се показват само удобства с изображения"
+
+#: admin/menu.php:446
+msgid "Only selected amenities will be used in the advanced search form"
+msgstr "Само избраните удобства ще бъдат използвани във формата за разширено търсене"
+
+#: admin/menu.php:568
+msgid "Open in new window"
+msgstr "Отвори в нов прозорец"
+
+#: admin/menu.php:1081
+msgid "Optional extras block with checkboxes"
+msgstr "Блок с допълнителни екстри с отметки"
+
+#: admin/menu.php:300
+msgid "Options"
+msgstr "Опции"
+
+#: admin/menu.php:728
+msgid "Other"
+msgstr "Други"
+
+#: tpl/user/booking-manage.php:255
+msgid "Other destination preferred"
+msgstr "Предпочитана друга дестинация"
+
+#: tpl/listing/listing-info.php:26
+msgid "Other things to note"
+msgstr "Други важни неща"
+
+#: admin/menu.php:361
+msgid "Otherwise, by default, the result includes the specified number or more."
+msgstr "В противен случай, по подразбиране, резултатът включва посочения брой или повече."
+
+#: admin/inc/translation-manager/translation-manager.php:80
+msgid "PO files with updated headers: %d files"
+msgstr "PO файлове с обновени заглавия: %d файла"
+
+#: admin/menu.php:132
+msgid "Page to show list of Listings or search result"
+msgstr "Страница за показване на списък с обяви или резултати от търсене"
+
+#: admin/menu.php:115
+msgid "Pages"
+msgstr "Страници"
+
+#: admin/menu.php:1145
+msgid "Part of hfy_listing_info"
+msgstr "Част от hfy_listing_info"
+
+#: tpl/user/booking-manage.php:210
+msgid "Party allowed:"
+msgstr "Разрешени партита:"
+
+#: tpl/user/bookings-list.php:16
+msgid "Past"
+msgstr "Минали"
+
+#: tpl/payment/stripe-form.php:91
+#: tpl/payment/netpay-form.php:163
+#: tpl/payment/netpay-form.php:178
+#: tpl/payment/netpay-form.php:302
+#: tpl/payment/stripe-form-3ds-step-3.php:65
+#: tpl/payment/stripe-form-3ds-element-step-3.php:53
+msgid "Pay"
+msgstr "Плати"
+
+#: tpl/payment/payment-netpay.php:12
+#: tpl/payment/stripe-form-3ds-step-3.php:12
+#: tpl/payment/charge-error.php:22
+#: tpl/payment/stripe-form-3ds-element-step-3.php:12
+#: admin/menu.php:665
+msgid "Payment"
+msgstr "Плащане"
+
+#: tpl/payment/stripe-form-3ds_success.php:51
+msgid "Payment Amount"
+msgstr "Сума за плащане"
+
+#: tpl/payment/stripe-form-3ds_success.php:43
+msgid "Payment Method"
+msgstr "Начин на плащане"
+
+#: tpl/payment/stripe-form-3ds_success.php:12
+msgid "Payment Successful"
+msgstr "Успешно плащане"
+
+#: tpl/payment/_success.php:63
+#: tpl/payment/charge-success.php:78
+msgid "Payment amount"
+msgstr "Сума за плащане"
+
+#: admin/menu.php:186
+msgid "Payment charge page"
+msgstr "Страница за плащане"
+
+#: tpl/payment/_success.php:51
+#: tpl/payment/charge-success.php:67
+msgid "Payment method"
+msgstr "Начин на плащане"
+
+#: admin/menu.php:164
+#: admin/menu.php:1054
+msgid "Payment page"
+msgstr "Страница за плащане"
+
+#: admin/menu.php:1062
+msgid "Payment result page"
+msgstr "Страница с резултат от плащането"
+
+#: tpl/payment/_success.php:16
+#: tpl/payment/charge-success.php:27
+#: tpl/payment/paypal-form.php:69
+msgid "Payment successful"
+msgstr "Успешно плащане"
+
+#: tpl/listing/listing-info-prices.php:50
+msgid "Per Stay City Free: "
+msgstr "Градска такса за престой: "
+
+#: tpl/listing/listing-info-prices.php:56
+msgid "Per Stay Minimum Number Of Days: "
+msgstr "Минимален брой дни за престой: "
+
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:294
+msgid "Permalink deleted successfully."
+msgstr "Постоянната връзка е изтрита успешно."
+
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:110
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:256
+msgid "Permalink updated successfully."
+msgstr "Постоянната връзка е обновена успешно."
+
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:112
+msgid "Permalinks regenerated successfully!"
+msgstr "Постоянните връзки са регенерирани успешно!"
+
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:330
+msgid "Permalinks regenerated successfully."
+msgstr "Постоянните връзки са регенерирани успешно."
+
+#: admin/menu.php:1408
+msgid "Permanently delete this backup (cannot be undone)"
+msgstr "Изтрий безвъзвратно този архив (действието не може да бъде отменено)"
+
+#: tpl/listing/listing-info-permit.php:5
+msgid "Permit / Tax ID"
+msgstr "Разрешително / Данъчен номер"
+
+#: tpl/payment/stripe-form-3ds-element-step-1.php:9
+#: tpl/payment/paypal-form-step-1.php:12
+#: tpl/payment/stripe-form-3ds-step-1.php:12
+msgid "Personal details"
+msgstr "Лични данни"
+
+#: tpl/user/wishlist-item.php:34
+msgid "Persons:"
+msgstr "Души:"
+
+#: tpl/element/direct-inquiry-modal-v2.php:197
+#: tpl/element/guests-block.php:96
+#: tpl/element/direct-inquiry-modal.php:128
+#: tpl/element/booking-search-advanced.php:50
+#: tpl/payment/charge-preview.php:47
+#: tpl/payment/preview.php:68
+msgid "Pets"
+msgstr "Домашни любимци"
+
+#: tpl/element/booking-search-popup.php:143
+msgid "Pets allowed"
+msgstr "Допускат се домашни любимци"
+
+#: tpl/element/direct-inquiry-modal-v2.php:239
+#: tpl/element/guests-block.php:136
+msgid "Pets allowed."
+msgstr "Домашни любимци са позволени."
+
+#: tpl/user/booking-manage.php:206
+msgid "Pets allowed:"
+msgstr "Разрешени домашни любимци:"
+
+#: admin/menu.php:470
+msgid "Pets selector in advanced"
+msgstr "Избор на домашни любимци в разширеното търсене"
+
+#: tpl/element/direct-inquiry-modal-v2.php:90
+#: tpl/element/direct-inquiry-modal-v2.php:92
+#: tpl/element/direct-inquiry-modal.php:41
+#: tpl/payment/stripe-form.php:27
+#: tpl/payment/stripe-form.php:28
+#: tpl/payment/netpay-form.php:93
+#: tpl/payment/stripe-form-3ds-element-step-1.php:32
+#: tpl/payment/stripe-form-3ds-element-step-1.php:33
+#: tpl/payment/paypal-form-step-1.php:35
+#: tpl/payment/paypal-form-step-1.php:36
+#: tpl/payment/stripe-form-3ds-step-1.php:35
+#: tpl/payment/stripe-form-3ds-step-1.php:36
+msgid "Phone"
+msgstr "Телефон"
+
+#: tpl/payment/stripe-form-3ds-element-step-1.php:33
+#: tpl/payment/paypal-form-step-1.php:36
+#: tpl/payment/stripe-form-3ds-step-1.php:36
+msgid "Phone with country code is mandatory. For example: +1234567890"
+msgstr "Телефонният номер с код на държавата е задължителен. Например: +1234567890"
+
+#: admin/menu.php:354
+msgid "Placeholder text for the keyword search field"
+msgstr "Примерен текст за полето за търсене по ключова дума"
+
+#: admin/exopite-simple-options/fields/backup.php:47
+msgid "Please be sure for reset all of framework options."
+msgstr "Моля, уверете се, че искате да нулирате всички опции на системата."
+
+#: tpl/payment/time-left.php:4
+msgid "Please complete the form and submit your payment within"
+msgstr "Моля, попълнете формуляра и направете плащането в рамките на"
+
+#: tpl/user/booking-manage.php:267
+msgid "Please enter your comment or feedback here (optional)"
+msgstr "Моля, въведете вашия коментар или обратна връзка тук (незадължително)"
+
+#: tpl/user/error-please-login.php:3
+msgid "Please log in"
+msgstr "Моля, влезте в системата"
+
+#: tpl/payment/time-left.php:15
+msgid "Please refresh the page to start again."
+msgstr "Моля, обновете страницата, за да започнете отначало."
+
+#: tpl/user/booking-manage.php:275
+msgid "Please tell us a reason or a comment"
+msgstr "Моля, посочете причина или оставете коментар"
+
+#: inc/shortcodes/inc/load-listing-seo.php:8
+#: inc/shortcodes/inc/load-data.php:6
+#: inc/shortcodes/inc/load-listing.php:20
+#: inc/shortcodes/inc/load-top-listings.php:7
+msgid "Please try again later"
+msgstr "Моля, опитайте отново по-късно"
+
+#: admin/exopite-simple-options/fields/upload.php:182
+msgid "Plugin"
+msgstr "Плъгин"
+
+#: tpl/payment/stripe-form-3ds-element-step-1.php:58
+#: tpl/payment/paypal-form-step-1.php:52
+#: tpl/payment/stripe-form-3ds-step-1.php:61
+msgid "Postal code"
+msgstr "Пощенски код"
+
+#: admin/menu.php:1071
+msgid "Predefined extras block"
+msgstr "Блок с предварително зададени екстри"
+
+#: tpl/element/pagination-block.php:9
+msgid "Previous"
+msgstr "Предишна"
+
+#: tpl/element/booking-search-popup.php:119
+#: tpl/user/wishlist-item.php:45
+msgid "Price"
+msgstr "Цена"
+
+#: tpl/user/wishlist.php:26
+#: tpl/listing/listings-sort.php:9
+msgid "Price ascending"
+msgstr "Цена във възходящ ред"
+
+#: tpl/user/wishlist.php:27
+#: tpl/listing/listings-sort.php:10
+msgid "Price descending"
+msgstr "Цена в низходящ ред"
+
+#: tpl/element/price-block-default.php:21
+#: tpl/element/price-block-accounting.php:13
+#: tpl/element/price-block-accounting.php:21
+#: tpl/payment/preview-accounting.php:12
+#: tpl/payment/preview-accounting.php:19
+#: tpl/payment/preview-default.php:23
+#: tpl/user/booking-manage.php:50
+msgid "Price for"
+msgstr "Цена за"
+
+#: tpl/payment/preview.php:142
+msgid "Price incl. security deposit"
+msgstr "Цена вкл. депозит"
+
+#: inc/shortcodes/inc/make-listing-tpl-vars.php:45
+#: tpl/listing/listing-booking-form-on-request.php:9
+msgid "Price on request"
+msgstr "Цена при запитване"
+
+#: inc/helpers/ListingHelper.php:58
+msgid "Private room"
+msgstr "Самостоятелна стая"
+
+#: tpl/element/price-block.php:28
+msgid "Proceed to payment"
+msgstr "Продължете към плащане"
+
+#: admin/exopite-simple-options/fields/upload.php:88
+msgid "Processing dropped files..."
+msgstr "Обработване на пуснатите файлове..."
+
+#: tpl/element/booking-search-advanced.php:36
+msgid "Properties"
+msgstr "Имоти"
+
+#: tpl/payment/stripe-form-3ds_success.php:19
+msgid "Property"
+msgstr "Имот"
+
+#: tpl/element/booking-search-popup.php:82
+msgid "Property Type"
+msgstr "Тип имот"
+
+#: admin/menu.php:1394
+msgid "Protect your translation work from being lost during plugin updates. Create backups before updates and restore them afterward."
+msgstr "Защитете работата си по превода от загуба по време на актуализации на плъгина. Създайте архиви преди актуализациите и ги възстановете след това."
+
+#: tpl/element/direct-inquiry-modal-v2.php:266
+#: tpl/element/direct-inquiry-modal.php:146
+msgid "Question or Comment"
+msgstr "Въпрос или коментар"
+
+#: admin/menu.php:74
+msgid "Read me first"
+msgstr "Първо прочети"
+
+#: tpl/user/booking-manage.php:250
+msgid "Reason"
+msgstr "Причина"
+
+#: admin/menu.php:1046
+msgid "Recent listings"
+msgstr "Последни обяви"
+
+#: admin/menu.php:832
+msgid "Redirect 301"
+msgstr "Пренасочване 301"
+
+#: admin/menu.php:610
+msgid "Redirect if no listing"
+msgstr "Пренасочване при липса на обява"
+
+#: admin/menu.php:679
+msgid "Redirect on payment success"
+msgstr "Пренасочване при успешно плащане"
+
+#: admin/menu.php:617
+msgid "Redirect to Home page"
+msgstr "Пренасочване към началната страница"
+
+#: admin/menu.php:616
+msgid "Redirect to Listings page"
+msgstr "Пренасочване към страницата с обяви"
+
+#: admin/menu.php:618
+msgid "Redirect to custom URL"
+msgstr "Пренасочване към персонализиран URL"
+
+#: admin/menu.php:1397
+msgid "Refresh List"
+msgstr "Обнови списъка"
+
+#: tpl/payment/time-left.php:20
+msgid "Refresh page"
+msgstr "Обнови страницата"
+
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:114
+msgid "Regenerate Permalinks"
+msgstr "Регенерирай постоянните връзки"
+
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:111
+msgid "Regenerating..."
+msgstr "Регенериране..."
+
+#: tpl/user/wishlist-item.php:17
+msgid "Remove from wish list"
+msgstr "Премахни от списъка с желания"
+
+#: admin/menu.php:1259
+msgid "Render the iframe with link to the virtual tour"
+msgstr "Покажи iframe с връзка към виртуалната обиколка"
+
+#: tpl/user/booking-manage.php:296
+msgid "Request has been sent."
+msgstr "Заявката е изпратена."
+
+#: tpl/payment/stripe-form-3ds_success.php:25
+msgid "Reservation"
+msgstr "Резервация"
+
+#: tpl/element/direct-inquiry-modal-v2.php:13
+#: tpl/element/direct-inquiry-modal.php:17
+#: tpl/listing/listing-booking-form.php:102
+#: tpl/listing/listing-booking-form-on-request.php:95
+#: tpl/listing/listing-booking-form-v2.php:97
+msgid "Reservation Inquiry"
+msgstr "Запитване за резервация"
+
+#: tpl/user/booking-manage.php:148
+msgid "Reservation code"
+msgstr "Код на резервацията"
+
+#: inc/class-hostifybooking-loader.php:732
+#: tpl/element/booking-search-advanced.php:106
+msgid "Reset"
+msgstr "Изчистване"
+
+#: admin/exopite-simple-options/fields/backup.php:48
+msgid "Reset All Options"
+msgstr "Нулирай всички опции"
+
+#: admin/menu.php:1405
+msgid "Restore all translation files from this backup (overwrites current files)"
+msgstr "Възстанови всички файлове с преводи от този архив (презаписва текущите файлове)"
+
+#: admin/exopite-simple-options/fields/upload.php:108
+msgid "Retry"
+msgstr "Повтори"
+
+#: admin/menu.php:646
+msgid "Review system"
+msgstr "Система за отзиви"
+
+#: admin/menu.php:1352
+msgid "Review the updated translation files in the lang/ directory."
+msgstr "Прегледайте обновените файлове с преводи в директорията lang/"
+
+#: admin/menu.php:640
+msgid "Reviews"
+msgstr "Отзиви"
+
+#: admin/menu.php:1248
+msgid "Reviews comments"
+msgstr "Коментари към отзивите"
+
+#: admin/menu.php:1240
+msgid "Reviews count"
+msgstr "Брой отзиви"
+
+#: admin/menu.php:1232
+msgid "Reviews summary"
+msgstr "Обобщение на отзивите"
+
+#: admin/menu.php:521
+msgid "Roadmap (default)"
+msgstr "Пътна карта (по подразбиране)"
+
+#: admin/menu.php:1199
+msgid "Room type"
+msgstr "Тип стая"
+
+#: inc/seo.php:52
+#: admin/menu.php:785
+msgid "SEO"
+msgstr "SEO"
+
+#: admin/menu.php:789
+msgid "SEO for listings"
+msgstr "SEO за обяви"
+
+#: inc/class-hostifybooking-loader.php:781
+msgid "Sat"
+msgstr "Съб"
+
+#: admin/menu.php:522
+msgid "Satellite"
+msgstr "Сателитна"
+
+#: inc/class-hostifybooking-loader.php:771
+msgid "Saturday"
+msgstr "Събота"
+
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:107
+msgid "Save"
+msgstr "Запази"
+
+#: admin/menu.php:1373
+msgid "Save Changes"
+msgstr "Запази промените"
+
+#: inc/class-hostifybooking-loader.php:1280
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:1393
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:1406
+msgid "Save Settings"
+msgstr "Запази настройките"
+
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:1371
+msgid "Saved Successfully"
+msgstr "Успешно запазено"
+
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:1371
+msgid "Saving..."
+msgstr "Запазване..."
+
+#: tpl/element/booking-search-popup.php:163
+#: tpl/element/booking-search.php:260
+#: admin/menu.php:304
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:115
+msgid "Search"
+msgstr "Търсене"
+
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:116
+msgid "Search by ID or name..."
+msgstr "Търсене по ID или име..."
+
+#: inc/defines.php:89
+#: inc/defines.php:382
+#: tpl/element/booking-search.php:13
+#: admin/menu.php:353
+msgid "Search by keyword..."
+msgstr "Търсене по ключова дума..."
+
+#: admin/menu.php:357
+msgid "Search for the exact number of bedrooms"
+msgstr "Търсене на точното количество спални"
+
+#: admin/menu.php:1022
+msgid "Search form"
+msgstr "Форма за търсене"
+
+#: admin/menu.php:1381
+msgid "Search translations..."
+msgstr "Търсене в преводите..."
+
+#: tpl/listing/listing-info-prices.php:26
+msgid "Security Deposit:"
+msgstr "Депозит:"
+
+#: tpl/element/price-block.php:19
+#: tpl/payment/preview.php:135
+msgid "Security deposit"
+msgstr "Депозит"
+
+#: tpl/listing/listings-selected-item.php:60
+#: tpl/listing/listings-recommended-item.php:60
+msgid "See more"
+msgstr "Виж повече"
+
+#: tpl/element/booking-search-popup.php:73
+#: tpl/element/booking-search-advanced.php:53
+#: tpl/element/booking-search-advanced.php:65
+msgid "Select"
+msgstr "Избери"
+
+#: admin/menu.php:1415
+msgid "Select .po file:"
+msgstr "Избери .po файл:"
+
+#: admin/menu.php:1368
+msgid "Select Language File:"
+msgstr "Избери езиков файл:"
+
+#: admin/menu.php:443
+#: admin/menu.php:581
+msgid "Select amenities to show"
+msgstr "Изберете удобства за показване"
+
+#: admin/exopite-simple-options/fields/upload.php:81
+msgid "Select files"
+msgstr "Избери файлове"
+
+#: admin/exopite-simple-options/fields/gallery.php:26
+msgid "Select images for gallery"
+msgstr "Избери изображения за галерията"
+
+#: inc/defines.php:64
+#: inc/defines.php:336
+#: admin/menu.php:326
+msgid "Select location"
+msgstr "Изберете местоположение"
+
+#: tpl/user/booking-manage.php:251
+msgid "Select reason"
+msgstr "Изберете причина"
+
+#: admin/menu.php:527
+msgid "Select the default map type. Users can change this using the map type control."
+msgstr "Изберете типа карта по подразбиране. Потребителите могат да го променят чрез контрола за тип карта."
+
+#: admin/menu.php:1030
+msgid "Selected listings"
+msgstr "Избрани обяви"
+
+#: tpl/payment/preview-extras-set.php:7
+msgid "Selected plan:"
+msgstr "Избран план:"
+
+#: tpl/element/direct-inquiry-modal.php:209
+#: tpl/user/booking-manage.php:289
+msgid "Send"
+msgstr "Изпрати"
+
+#: tpl/element/direct-inquiry-modal-v2.php:295
+msgid "Send Inquiry"
+msgstr "Изпрати запитване"
+
+#: admin/menu.php:844
+msgid "Send custom events for Google Analytics using the Google tag (gtag) or Google Tag Manager (GTM)."
+msgstr "Изпращайте персонализирани събития за Google Analytics, използвайки Google tag (gtag) или Google Tag Manager (GTM)."
+
+#: inc/class-hostifybooking-loader.php:758
+msgid "Sep"
+msgstr "Сеп"
+
+#: inc/class-hostifybooking-loader.php:743
+msgid "September"
+msgstr "Септември"
+
+#: inc/class-hostifybooking-loader.php:819
+#: inc/class-hostifybooking-loader.php:827
+msgid "Settings"
+msgstr "Настройки"
+
+#: inc/helpers/ListingHelper.php:59
+msgid "Shared room"
+msgstr "Споделена стая"
+
+#: admin/menu.php:986
+msgid "Short info about current search"
+msgstr "Кратка информация за текущото търсене"
+
+#: admin/menu.php:435
+msgid "Short list of amenities"
+msgstr "Кратък списък с удобства"
+
+#: tpl/element/booking-search.php:32
+msgid "Short-term bookings"
+msgstr "Краткосрочни резервации"
+
+#: admin/menu.php:956
+msgid "Shortcodes"
+msgstr "Кратки кодове"
+
+#: admin/menu.php:474
+msgid "Show Pets selector in advanced search form instead of Guests dialog"
+msgstr "Покажи избор на домашни любимци в разширената форма за търсене вместо диалог за гости"
+
+#: admin/menu.php:421
+msgid "Show age hints"
+msgstr "Покажи подсказки за възрастта"
+
+#: admin/menu.php:422
+msgid "Show age hints in the guests selection dialog"
+msgstr "Покажи подсказки за възрастта в диалога за избор на гости"
+
+#: admin/menu.php:1123
+msgid "Show all images for one listing"
+msgstr "Покажи всички изображения за една обява"
+
+#: admin/menu.php:460
+msgid "Show amenities groups"
+msgstr "Групиране на удобства"
+
+#: admin/menu.php:738
+msgid "Show animated loader when loading images"
+msgstr "Покажи анимиран индикатор при зареждане на изображения"
+
+#: admin/menu.php:504
+msgid "Show area"
+msgstr "Покажи област"
+
+#: admin/menu.php:1105
+msgid "Show booking form for listing"
+msgstr "Покажи форма за резервация за обявата"
+
+#: tpl/payment/preview.php:157
+msgid "Show details"
+msgstr "Покажи детайли"
+
+#: admin/menu.php:671
+msgid "Show discount"
+msgstr "Покажи поле за отстъпка"
+
+#: admin/menu.php:675
+msgid "Show discount/coupon controls"
+msgstr "Покажи поле за отстъпка/купон"
+
+#: admin/menu.php:636
+msgid "Show dynamic google map "
+msgstr "Покажи динамична Google карта"
+
+#: admin/menu.php:734
+msgid "Show image preloader"
+msgstr "Покажи индикатор за зареждане на изображения"
+
+#: admin/menu.php:389
+msgid "Show infants selector"
+msgstr "Покажи избор на бебета"
+
+#: admin/menu.php:1140
+msgid "Show info block for listing"
+msgstr "Покажи информационния блок за обявата"
+
+#: admin/menu.php:895
+msgid "Show links for quick access"
+msgstr "Покажи връзки за бърз достъп"
+
+#: admin/menu.php:891
+msgid "Show links on admin bar"
+msgstr "Покажи връзки в административната лента"
+
+#: admin/menu.php:1218
+msgid "Show listing amenities for listing"
+msgstr "Покажи удобствата за обявата"
+
+#: admin/menu.php:1210
+msgid "Show listing facilities for listing"
+msgstr "Покажи съоръженията за обявата"
+
+msgid "Show listing location on map. And there is a synonym: [hfy_listing_map]."
+msgstr "Покажи местоположението на обявата на картата. И има синоним: [hfy_listing_map]."
+
+#: admin/menu.php:1251
+msgid "Show listing reviews comment"
+msgstr "Покажи коментарите към отзивите"
+
+#: admin/menu.php:1243
+msgid "Show listing reviews count number"
+msgstr "Покажи броя на отзивите за обявата"
+
+#: admin/menu.php:1235
+msgid "Show listing reviews summary"
+msgstr "Покажи обобщение на отзивите за обявата"
+
+#: admin/menu.php:1114
+msgid "Show listing title"
+msgstr "Покажи заглавието на обявата"
+
+#: admin/menu.php:1033
+msgid "Show listings by ID, city ID"
+msgstr "Покажи обяви по ID, ID на град"
+
+#: admin/menu.php:995
+msgid "Show listings on map"
+msgstr "Покажи обявите на картата"
+
+#: admin/menu.php:381
+msgid "Show long/short terms selector"
+msgstr "Селектор за краткотрайни/дългосрочни резервации"
+
+#: admin/menu.php:1131
+msgid "Show main image for one listing"
+msgstr "Покажи основното изображение за една обява"
+
+#: tpl/listing/listings-map-toggle.php:8
+#: tpl/listing/listings-map-toggle.php:20
+#: tpl/listing/listings-map-toggle.php:31
+#: tpl/listing/listings-map-toggle.php:44
+msgid "Show map"
+msgstr "Покажи картата"
+
+#: tpl/element/booking-search-popup.php:97
+msgid "Show more"
+msgstr "Покажи повече"
+
+#: admin/menu.php:705
+msgid "Show optional extras on payment page"
+msgstr "Покажи допълнителните екстри на страницата за плащане"
+
+#: admin/menu.php:1065
+msgid "Show payment result"
+msgstr "Покажи резултата от плащането"
+
+#: admin/menu.php:1057
+msgid "Show payment summary and form"
+msgstr "Покажи резюме на плащането и форма"
+
+#: admin/menu.php:401
+msgid "Show pets selector"
+msgstr "Покажи избор на домашни любимци"
+
+#: admin/menu.php:494
+msgid "Show price labels on the map instead of pins"
+msgstr "Покажи ценните етикети на картата вместо указатели"
+
+#: admin/menu.php:1049
+msgid "Show recent listings"
+msgstr "Покажи последните обяви"
+
+#: admin/menu.php:656
+msgid "Show review source"
+msgstr "Показване на източника на отзива"
+
+#: admin/menu.php:1202
+msgid "Show room type info for listing"
+msgstr "Покажи информация за типа стая за обявата"
+
+#: admin/menu.php:1017
+msgid "Show single listing by ID"
+msgstr "Покажи обява по ID"
+
+#: admin/menu.php:508
+msgid "Show the approximate area instead of the exact location point"
+msgstr "Покажи приблизителната област вместо точната точка на местоположението"
+
+#: admin/menu.php:660
+msgid "Show the source platform (Airbnb/Booking.com) next to each review"
+msgstr "Показване на платформата източник (Airbnb/Booking.com) до всеки отзив"
+
+#: admin/menu.php:1041
+msgid "Show top listings"
+msgstr "Покажи топ обявите"
+
+#: admin/menu.php:1382
+msgid "Show untranslated only"
+msgstr "Покажи само непреведените"
+
+#: admin/menu.php:487
+msgid "Show/hide listings in search results while map moving"
+msgstr "Покажи/скрий листингите в резултатите от търсенето при движение на картата"
+
+#: admin/menu.php:575
+#: admin/menu.php:1014
+msgid "Single listing"
+msgstr "Единична обява"
+
+#: admin/menu.php:142
+msgid "Single listing page"
+msgstr "Страница на единична обява"
+
+#: tpl/element/booking-search-popup.php:151
+msgid "Smoking allowed"
+msgstr "Разрешено пушене"
+
+#: tpl/user/booking-manage.php:198
+msgid "Smoking allowed:"
+msgstr "Разрешено пушене:"
+
+#: tpl/user/booking-manage.php:282
+msgid "Sorry, an error occured. Please try again later."
+msgstr "Съжаляваме, възникна грешка. Моля, опитайте отново по-късно."
+
+#: inc/shortcodes/hfy-payment.php:267
+msgid "Sorry, listing currency not supported by PayPal"
+msgstr "Съжаляваме, валутата на обявата не се поддържа от PayPal"
+
+#: tpl/user/wishlist.php:24
+#: tpl/listing/listings-sort.php:6
+msgid "Sort by:"
+msgstr "Сортирай по:"
+
+#: tpl/payment/netpay-form.php:118
+#: tpl/payment/netpay-form.php:123
+#: tpl/payment/netpay-form.php:132
+msgid "State"
+msgstr "Област"
+
+#: tpl/element/direct-inquiry-modal-v2.php:97
+msgid "Stay Dates"
+msgstr "Дати на престой"
+
+#: admin/menu.php:917
+msgid "Stripe payment element form"
+msgstr "Форма за плащане чрез Stripe"
+
+#: tpl/element/booking-search.php:214
+#: tpl/listing/listing-facilities.php:16
+msgid "Studio"
+msgstr "Студио"
+
+#: tpl/element/price-block-accounting.php:153
+#: tpl/payment/preview-accounting.php:53
+#: tpl/payment/preview.php:99
+#: tpl/user/booking-manage.php:92
+msgid "Subtotal"
+msgstr "Междинна сума"
+
+#: admin/inc/translation-manager/translation-manager.php:71
+msgid "Successfully compiled %d MO files."
+msgstr "Успешно компилирани %d MO файла."
+
+#: inc/class-hostifybooking-loader.php:775
+msgid "Sun"
+msgstr "Нед"
+
+#: inc/class-hostifybooking-loader.php:765
+msgid "Sunday"
+msgstr "Неделя"
+
+#: admin/menu.php:330
+msgid "Tags menu"
+msgstr "Меню с тагове"
+
+#: tpl/element/price-block-default.php:146
+#: tpl/payment/preview-default.php:44
+msgid "Tax"
+msgstr "Данък"
+
+#: tpl/payment/preview.php:103
+msgid "Taxes"
+msgstr "Данъци"
+
+#: admin/menu.php:1338
+msgid "Template file for translations"
+msgstr "Шаблонен файл за преводи"
+
+#: admin/menu.php:524
+msgid "Terrain"
+msgstr "Терен"
+
+#: tpl/element/direct-inquiry-modal-v2.php:53
+msgid "Thank you for your inquiry!"
+msgstr "Благодарим за вашето запитване!"
+
+#: tpl/payment/netpay-form.php:180
+msgid "The amount will be converted to mexican pesos"
+msgstr "Сумата ще бъде конвертирана в мексикански песос"
+
+#: admin/menu.php:888
+msgid "The plugin uses data caching both on the Hostify API and WordPress side. Sometimes during development and configuration process, it can interfere or confuse."
+msgstr "Плъгинът използва кеширане на данни както от страна на Hostify API, така и от страна на WordPress. Понякога по време на разработка и конфигурация това може да създаде проблеми или объркване."
+
+#: tpl/listing/listing-info.php:11
+msgid "The space"
+msgstr "Помещението"
+
+#: admin/exopite-simple-options/fields/attached.php:30
+msgid "There is no attachment with type %1$s for this %2$s."
+msgstr "Няма прикачен файл от тип %1$s за този %2$s."
+
+#: tpl/payment/charge-error.php:32
+msgid "There was a problem with your payment"
+msgstr "Възникна проблем с вашето плащане"
+
+#: tpl/payment/_error.php:5
+#: tpl/payment/stripe-form-3ds_error.php:3
+msgid "There was a problem with your payment. Please try again."
+msgstr "Възникна проблем с вашето плащане. Моля, опитайте отново."
+
+#: admin/menu.php:347
+msgid "This allows users to search for listings by keywords like property names, descriptions, amenities, city names, or neighbourhoods. Works with API v3 for comprehensive search across all listings."
+msgstr "Това позволява на потребителите да търсят обяви по ключови думи като имена на имоти, описания, удобства, имена на градове или квартали. Работи с API v3 за цялостно търсене във всички обяви."
+
+#: inc/class-hostifybooking-loader.php:727
+msgid "This date is not available for check-in"
+msgstr "Тази дата не е налична за настаняване"
+
+#: inc/class-hostifybooking-loader.php:728
+msgid "This date is not available for check-out"
+msgstr "Тази дата не е налична за напускане"
+
+#: admin/menu.php:155
+msgid "This page will be used in links to certain Listing"
+msgstr "Тази страница ще се използва в линкове към определени обяви"
+
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:224
+msgid "This permalink is already in use. Please choose another one."
+msgstr "Този постоянен линк вече се използва. Моля, изберете друг."
+
+#: tpl/element/direct-inquiry-modal-v2.php:225
+msgid "This place has a maximum of %d guests, infants not allowed."
+msgstr "Това място е за максимум %d гости, бебета не са позволени."
+
+#: tpl/element/direct-inquiry-modal-v2.php:223
+msgid "This place has a maximum of %d guests, not including infants."
+msgstr "Това място е за максимум %d гости, без да включва бебета."
+
+#: tpl/element/guests-block.php:122
+msgid "This place has a maximum of {max} guests, infants not allowed."
+msgstr "Това място е за максимум {max} гости, бебета не са позволени."
+
+#: tpl/element/guests-block.php:121
+msgid "This place has a maximum of {max} guests, not including infants."
+msgstr "Това място е за максимум {max} гости, без да включва бебета."
+
+#: admin/menu.php:870
+msgid "This plugin uses the Bootstrap CSS framework. If there are any problems or conflicts with the installed plugins or theme, you can prevent the Hostiy plugin from loading this framework."
+msgstr "Този плъгин използва Bootstrap CSS framework. Ако има проблеми или конфликти с инсталираните плъгини или теми, можете да спрете Hostify плъгина да зарежда този framework."
+
+#: admin/menu.php:1335
+msgid "This tool will scan all PHP files in the plugin and extract translatable strings. It will update the following files:"
+msgstr "Този инструмент ще сканира всички PHP файлове в плъгина и ще извлече преводимите низове. Ще актуализира следните файлове:"
+
+#: inc/class-hostifybooking-loader.php:779
+msgid "Thu"
+msgstr "Чет"
+
+#: inc/class-hostifybooking-loader.php:769
+msgid "Thursday"
+msgstr "Четвъртък"
+
+#: admin/menu.php:1410
+msgid "Tip:"
+msgstr "Съвет:"
+
+#: admin/menu.php:1111
+msgid "Title"
+msgstr "Заглавие"
+
+#: admin/exopite-simple-options/fields/upload.php:182
+msgid "To increase file upload limit in the standard built-in WordPress media uploader up as large as available disk space allows, you could use"
+msgstr "За да увеличите лимита за качване на файлове в стандартния вграден WordPress медиен ъплоудър до максимално допустимото от наличното дисково пространство, можете да използвате"
+
+#: admin/menu.php:265
+msgid "To show a list of Listings that user was marked"
+msgstr "Покажи списъка с обяви, които потребителят е отбелязал"
+
+#: admin/menu.php:221
+msgid "To show list of user bookings"
+msgstr "Покажи списъка с резервации на потребителя"
+
+#: admin/menu.php:243
+msgid "To show single booking details"
+msgstr "Покажи детайлите на отделна резервация"
+
+#: admin/menu.php:199
+msgid "To show the payment result"
+msgstr "За показване на резултата от плащането"
+
+#: admin/menu.php:1038
+msgid "Top listings"
+msgstr "Топ обяви"
+
+#: inc/shortcodes/inc/make-listing-item-vars.php:73
+#: tpl/element/price-block-default.php:154
+#: tpl/element/price-block-accounting.php:167
+#: tpl/payment/charge-preview.php:57
+#: tpl/payment/preview.php:116
+#: tpl/user/booking-manage.php:111
+msgid "Total"
+msgstr "Общо"
+
+#: admin/inc/translation-manager/translation-manager.php:77
+msgid "Total strings found: %d"
+msgstr "Общо намерени текстове: %d"
+
+#: tpl/user/bookings-list-item.php:55
+msgid "Total:"
+msgstr "Общо:"
+
+#: tpl/payment/stripe-form-3ds_success.php:37
+msgid "Transaction Date"
+msgstr "Дата на транзакцията"
+
+#: tpl/payment/_success.php:26
+#: tpl/payment/charge-success.php:47
+#: tpl/payment/stripe-form-3ds_success.php:31
+msgid "Transaction No"
+msgstr "Номер на транзакция"
+
+#: tpl/payment/_success.php:36
+#: tpl/payment/charge-success.php:57
+msgid "Transaction date"
+msgstr "Дата на транзакция"
+
+#: admin/menu.php:1343
+msgid "Translation Files Location"
+msgstr "Местоположение на файловете за превод"
+
+#: admin/menu.php:1344
+msgid "Translation files are located in:"
+msgstr "Файловете за превод се намират в:"
+
+#: admin/menu.php:1326
+msgid "Translation manager"
+msgstr "Мениджър на преводи"
+
+#: admin/inc/translation-manager/translation-manager.php:68
+msgid "Translations saved successfully!"
+msgstr "Преводите са запазени успешно!"
+
+#: tpl/element/error-no-listings-found.php:5
+msgid "Try to change the filter conditions."
+msgstr "Опитайте да промените условията на филтъра."
+
+#: tpl/element/error-no-listings-found.php:9
+msgid "Try to move or resize the map."
+msgstr "Опитайте да преместите или промените мащаба на картата."
+
+#: inc/class-hostifybooking-loader.php:777
+msgid "Tue"
+msgstr "Вто"
+
+#: inc/class-hostifybooking-loader.php:767
+msgid "Tuesday"
+msgstr "Вторник"
+
+#: admin/menu.php:865
+msgid "Turn off Boostrap"
+msgstr "Изключи Bootstrap"
+
+#: admin/menu.php:874
+msgid "Turn off CSS"
+msgstr "Изключи CSS"
+
+#: inc/ajax/hfy-ajax-listing-price.php:81
+msgid "Unavailable"
+msgstr "Недостъпно"
+
+#: admin/exopite-simple-options/fields/upload.php:84
+msgid "Upload"
+msgstr "Качване"
+
+#: admin/menu.php:1417
+#: admin/inc/translation-manager/translation-manager.php:84
+msgid "Upload & Restore"
+msgstr "Качване и възстановяване"
+
+#: admin/menu.php:1412
+msgid "Upload Translation File"
+msgstr "Качване на файл за превод"
+
+#: admin/menu.php:1413
+msgid "Upload a .po file to restore translations after a plugin update:"
+msgstr "Качете .po файл за възстановяване на преводите след актуализация на плъгина:"
+
+#: admin/inc/translation-manager/translation-manager.php:83
+msgid "Uploading..."
+msgstr "Качване..."
+
+#: admin/menu.php:910
+msgid "Use API v3"
+msgstr "Използвай API v3"
+
+#: admin/menu.php:924
+msgid "Use Calendar v2"
+msgstr "Използвай Календар v2"
+
+#: admin/menu.php:931
+msgid "Use Calendar v3"
+msgstr "Използвай Календар v3"
+
+#: admin/menu.php:945
+msgid "Use New Inquiry Form"
+msgstr "Използвай нова форма за запитване"
+
+#: admin/menu.php:714
+msgid "Use current WP language setting"
+msgstr "Използвай текущата езикова настройка на WP"
+
+#: admin/menu.php:715
+msgid "Use custom:"
+msgstr "Използвай персонализиран:"
+
+#: admin/menu.php:604
+msgid "Use new dialog for guests select: adults, children, infants, pets."
+msgstr "Използвай нов диалог за избор на гости: възрастни, деца, бебета, домашни любимци."
+
+#: admin/menu.php:600
+msgid "Use new guests template"
+msgstr "Използвай нов шаблон за гости"
+
+#: admin/menu.php:1353
+msgid "Use our Inline Translation Editor (below) to translate strings directly in the admin interface, or use external tools like Poedit or Loco Translate to edit the .po files."
+msgstr "Използвайте нашия редактор за превод в реално време (по-долу), за да превеждате текстове директно в административния интерфейс, или използвайте външни инструменти като Poedit или Loco Translate за редактиране на .po файловете."
+
+#: admin/menu.php:439
+msgid "Use short list of predefined amenities."
+msgstr "Използвайте кратък списък с предварително определени удобства."
+
+#: admin/menu.php:230
+msgid "User booking details page"
+msgstr "Страница с детайли за резервацията на потребителя"
+
+#: admin/menu.php:208
+msgid "User bookings list page"
+msgstr "Страница със списък на резервациите на потребителя"
+
+#: admin/menu.php:252
+msgid "User wishlist page"
+msgstr "Списък с любими обяви"
+
+#: admin/menu.php:1407
+msgid "View the server path and web URL where backup files are stored"
+msgstr "Преглед на пътя до сървъра и URL адреса, където се съхраняват резервните копия"
+
+#: tpl/listing/listing-virtual-tour.php:4
+#: admin/menu.php:1256
+msgid "Virtual tour"
+msgstr "Виртуална обиколка"
+
+#: admin/exopite-simple-options/fields/typography.php:87
+msgid "Web Safe Fonts"
+msgstr "Безопасни шрифтове"
+
+#: inc/class-hostifybooking-loader.php:778
+msgid "Wed"
+msgstr "Сря"
+
+#: inc/class-hostifybooking-loader.php:768
+msgid "Wednesday"
+msgstr "Сряда"
+
+#: tpl/listing/listing-info-prices.php:12
+msgid "Weekends (Sat & Sun):"
+msgstr "Уикенди (събота и неделя):"
+
+#: tpl/user/error-wishlist-empty.php:3
+msgid "Wishlist is empty"
+msgstr "Списъкът с желания е празен"
+
+#: tpl/element/price-block-default.php:123
+#: tpl/element/price-block-accounting.php:119
+msgid "Wrong or inactive code"
+msgstr "Грешен или неактивен код"
+
+#: tpl/user/booking-manage.php:199
+#: tpl/user/booking-manage.php:203
+#: tpl/user/booking-manage.php:207
+#: tpl/user/booking-manage.php:211
+#: tpl/listing/listing-info-prices.php:34
+#: admin/exopite-simple-options/fields/upload.php:129
+msgid "Yes"
+msgstr "Да"
+
+#: inc/shortcodes/hfy-user-bookings-list.php:17
+msgid "You are not logged in"
+msgstr "Не сте влезли в системата"
+
+#: inc/shortcodes/hfy-user-bookings-list.php:22
+msgid "You currently do not have any bookings yet"
+msgstr "В момента нямате резервации"
+
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:134
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:202
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:270
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:307
+msgid "You do not have permission to perform this action."
+msgstr "Нямате разрешение да извършите това действие."
+
+#: tpl/listing/listing-booking-form.php:68
+#: tpl/listing/listing-booking-form-on-request.php:62
+#: tpl/listing/listing-booking-form-v2.php:63
+msgid "Your discount code..."
+msgstr "Вашият код за отстъпка..."
+
+#: tpl/user/booking-manage.php:139
+msgid "Your reservation"
+msgstr "Вашата резервация"
+
+#: tpl/payment/stripe-form.php:60
+#: tpl/payment/netpay-form.php:150
+#: tpl/payment/stripe-form-3ds-element-step-1.php:59
+#: tpl/payment/paypal-form-step-1.php:53
+#: tpl/payment/stripe-form-3ds-step-1.php:62
+msgid "ZIP"
+msgstr "Пощенски код"
+
+#: tpl/listing/listing-facilities.php:32
+msgid "baths"
+msgstr "бани"
+
+#: tpl/listing/listings-selected-item.php:28
+#: tpl/listing/listings-recommended-item.php:28
+#: tpl/listing/listing-facilities.php:18
+msgid "bedrooms"
+msgstr "спални"
+
+#: tpl/listing/listings-selected-item.php:24
+#: tpl/listing/listings-recommended-item.php:24
+#: tpl/listing/listing-facilities.php:24
+msgid "beds"
+msgstr "легла"
+
+#: admin/exopite-simple-options/fields/backup.php:39
+msgid "copy-paste your backup string here"
+msgstr "копирайте и поставете вашия резервен текст тук"
+
+#: tpl/element/price-block-default.php:93
+#: tpl/element/price-block-accounting.php:89
+#: tpl/payment/preview-accounting.php:88
+#: tpl/payment/preview-default.php:72
+msgid "discount"
+msgstr "отстъпка"
+
+#: admin/menu.php:1072
+#: admin/menu.php:1082
+msgid "for payment page"
+msgstr "за страницата за плащане"
+
+#: tpl/user/wishlist-item.php:49
+#: tpl/listing/listings-selected-item.php:53
+#: tpl/listing/listing-info-prices.php:7
+#: tpl/listing/listing-info-prices.php:13
+#: tpl/listing/listing-info-prices.php:20
+#: tpl/listing/listings-recommended-item.php:53
+msgid "from"
+msgstr "от"
+
+#: tpl/listing/listings-selected-item.php:20
+#: tpl/listing/listings-recommended-item.php:20
+#: tpl/listing/listing-facilities.php:11
+msgid "guests"
+msgstr "гости"
+
+#: inc/shortcodes/inc/make-listing-item-vars.php:79
+#: inc/shortcodes/inc/make-listing-tpl-vars.php:38
+msgid "month"
+msgstr "месец"
+
+#: tpl/element/price-block-default.php:55
+#: tpl/element/price-block-default.php:80
+#: tpl/element/price-block-accounting.php:51
+#: tpl/element/price-block-accounting.php:76
+#: tpl/payment/preview-accounting.php:69
+#: tpl/payment/preview-default.php:53
+msgid "monthly discount"
+msgstr "месечна отстъпка"
+
+#: inc/shortcodes/inc/make-listing-item-vars.php:79
+#: inc/shortcodes/inc/make-listing-tpl-vars.php:41
+#: inc/shortcodes/hfy-listing-gallery.php:44
+msgid "night"
+msgstr "нощувка"
+
+#: inc/shortcodes/hfy-listing-gallery.php:44
+#: tpl/element/price-block-default.php:21
+#: tpl/element/price-block-accounting.php:21
+#: tpl/payment/preview-accounting.php:19
+#: tpl/payment/preview-default.php:23
+#: tpl/user/booking-manage.php:50
+msgid "nights"
+msgstr "нощувки"
+
+#: tpl/user/wishlist-item.php:47
+#: tpl/listing/listings-selected-item.php:51
+#: tpl/listing/listings-recommended-item.php:51
+msgid "on request"
+msgstr "по заявка"
+
+msgid "or listings search result [hfy_listings]"
+msgstr "или резултати от търсене на обяви [hfy_listings]"
+
+#: admin/menu.php:80
+msgid "readme.txt"
+msgstr "readme.txt"
+
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:1388
+msgid "settings search..."
+msgstr "търсене в настройките..."
+
+#: tpl/listing/listing-facilities.php:31
+msgid "shared baths"
+msgstr "общи бани"
+
+#: tpl/listing/listing-amenities.php:6
+msgid "show more &rarr;"
+msgstr "покажи повече &rarr;"
+
+msgid "single page [hfy_listing]"
+msgstr "единична страница [hfy_listing]"
+
+#: tpl/user/booking-manage.php:186
+msgid "start from"
+msgstr "започва от"
+
+#: inc/shortcodes/inc/make-listing-item-vars.php:77
+msgid "stay"
+msgstr "престой"
+
+#: admin/inc/translation-manager/class-string-extractor.php:92
+#: admin/inc/translation-manager/class-string-extractor.php:98
+#: admin/inc/translation-manager/class-string-extractor.php:101
+#: admin/inc/translation-manager/class-string-extractor.php:104
+#: admin/inc/translation-manager/class-string-extractor.php:95
+#: admin/inc/translation-manager/class-string-extractor.php:108
+#: admin/inc/translation-manager/class-string-extractor.php:111
+msgid "string"
+msgstr "текст"
+
+#: tpl/user/booking-manage.php:188
+msgid "till"
+msgstr "до"
+
+#: tpl/element/price-block-default.php:62
+#: tpl/element/price-block-default.php:73
+#: tpl/element/price-block-accounting.php:58
+#: tpl/element/price-block-accounting.php:69
+#: tpl/payment/preview-accounting.php:76
+#: tpl/payment/preview-default.php:60
+msgid "weekly discount"
+msgstr "седмична отстъпка"
+
+#: tpl/user/bookings-list.php:12
+msgid "Сurrent"
+msgstr "Текущи"
+
+msgid "24 hour check-in"
+msgstr "24-часово настаняване"
+
+msgid "Accessible-height bed"
+msgstr "Легло с регулируема височина"
+
+msgid "Accessible-height toilet"
+msgstr "Тоалетна с регулируема височина"
+
+msgid "Accuracy"
+msgstr "Точност"
+
+msgid "Air conditioning"
+msgstr "Климатик"
+
+msgid "All photos"
+msgstr "Всички снимки"
+
+msgid "Amenities and special features of this"
+msgstr "Удобства и специални характеристики на това"
+
+msgid "Amenities and special featuresa"
+msgstr "Удобства и специални характеристики"
+
+msgid "Apartment"
+msgstr "Апартамент"
+
+msgid "Arrival"
+msgstr "Пристигане"
+
+msgid "Arrive"
+msgstr "Пристигане"
+
+msgid "BBQ grill"
+msgstr "Барбекю"
+
+msgid "Baby bath"
+msgstr "Бебешка вана"
+
+msgid "Baby monitor"
+msgstr "Бебефон"
+
+msgid "Babysitter recommendations"
+msgstr "Препоръки за детегледачки"
+
+msgid "Balcony or patio"
+msgstr "Балкон или тераса"
+
+msgid "Bathtub"
+msgstr "Вана"
+
+msgid "Beach essentials"
+msgstr "Плажни принадлежности"
+
+msgid "Beachfront"
+msgstr "На плажа"
+
+msgid "Bed linens"
+msgstr "Спално бельо"
+
+msgid "Booked"
+msgstr "Резервирано"
+
+msgid "Breakfast"
+msgstr "Закуска"
+
+msgid "Cable TV"
+msgstr "Кабелна телевизия"
+
+msgid "Cancellation policy"
+msgstr "Политика за отказ"
+
+msgid "Capacity"
+msgstr "Капацитет"
+
+msgid "Carbon monoxide detector"
+msgstr "Детектор за въглероден монооксид"
+
+msgid "Cats live on this property"
+msgstr "В имота живеят котки"
+
+msgid "Changing table"
+msgstr "Маса за повиване"
+
+msgid "Children's books and toys"
+msgstr "Детски книги и играчки"
+
+msgid "Children's dinnerware"
+msgstr "Детски прибори за хранене"
+
+msgid "Cleaning before checkout"
+msgstr "Почистване преди напускане"
+
+msgid "Cleanliness"
+msgstr "Чистота"
+
+msgid "Coffee maker"
+msgstr "Кафемашина"
+
+msgid "Communication"
+msgstr "Комуникация"
+
+msgid "Compile all PO files to MO files for WordPress to use translations:"
+msgstr "Компилирай всички PO файлове в MO файлове за WordPress да използва преводите:"
+
+msgid "Cooking basics"
+msgstr "Основни принадлежности за готвене"
+
+msgid "Cottage"
+msgstr "Вила"
+
+msgid "Crib"
+msgstr "Бебешко креватче"
+
+msgid "Daily"
+msgstr "Дневно"
+
+msgid "Daily rental"
+msgstr "Дневен наем"
+
+msgid "Depart"
+msgstr "Напускане"
+
+msgid "Departure"
+msgstr "Напускане"
+
+msgid "Disabled parking spot"
+msgstr "Паркомясто за хора с увреждания"
+
+msgid "Dishes and silverware"
+msgstr "Чинии и прибори"
+
+msgid "Dishwasher"
+msgstr "Съдомиялна"
+
+msgid "Doorman"
+msgstr "Портиер"
+
+msgid "Dryer"
+msgstr "Сушилня"
+
+msgid "EV charger"
+msgstr "Зарядна станция за електромобили"
+
+msgid "Electric profiling bed"
+msgstr "Електрическо болнично легло"
+
+msgid "Elevator in building"
+msgstr "Асансьор в сградата"
+
+msgid "Enter location..."
+msgstr "Въведете местоположение..."
+
+msgid "Essentials"
+msgstr "Основни удобства"
+
+msgid "Ethernet connection"
+msgstr "Кабелен интернет"
+
+msgid "Event friendly"
+msgstr "Подходящо за събития"
+
+msgid "Extra pillows and blankets"
+msgstr "Допълнителни възглавници и одеяла"
+
+msgid "Family/kids friendly"
+msgstr "Подходящо за семейства/деца"
+
+msgid "Fire extinguisher"
+msgstr "Пожарогасител"
+
+msgid "Fireplace guards"
+msgstr "Предпазители за камина"
+
+msgid "Firm mattress"
+msgstr "Твърд матрак"
+
+msgid "First aid kit"
+msgstr "Аптечка"
+
+msgid "First name"
+msgstr "Име"
+
+msgid "Flat smooth pathway to front door"
+msgstr "Равна гладка пътека до входната врата"
+
+msgid "Free parking on premises"
+msgstr "Безплатен паркинг на място"
+
+msgid "Free parking on the street"
+msgstr "Безплатен паркинг на улицата"
+
+msgid "Full kitchen"
+msgstr "Напълно оборудвана кухня"
+
+msgid "Game console"
+msgstr "Игрова конзола"
+
+msgid "Garden or backyard"
+msgstr "Градина или двор"
+
+msgid "Generate .mo files from the .po files for WordPress to use the translations."
+msgstr "Генериране на .mo файлове от .po файловете, за да може WordPress да използва преводите."
+
+msgid "Grab-rails for shower and toilet"
+msgstr "Ръкохватки за душ и тоалетна"
+
+msgid "Gym"
+msgstr "Фитнес"
+
+msgid "Hair dryer"
+msgstr "Сешоар"
+
+msgid "Handheld shower head"
+msgstr "Подвижен душ"
+
+msgid "Hangers"
+msgstr "Закачалки"
+
+msgid "Has dog"
+msgstr "Има куче"
+
+msgid "Heating"
+msgstr "Отопление"
+
+msgid "High chair"
+msgstr "Детско столче за хранене"
+
+msgid "Home office friendly"
+msgstr "Подходящо за домашен офис"
+
+msgid "Host checkin"
+msgstr "Настаняване от домакина"
+
+msgid "Hot tub"
+msgstr "Джакузи"
+
+msgid "Hot water"
+msgstr "Топла вода"
+
+msgid "House"
+msgstr "Къща"
+
+msgid "I consent to this processing of my data."
+msgstr "Съгласявам се с обработката на моите данни."
+
+msgid "Imprint"
+msgstr "Импресум"
+
+msgid "Indoor fireplace"
+msgstr "Вътрешна камина"
+
+msgid "Iron"
+msgstr "Ютия"
+
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Изглежда нищо не беше намерено на това място. Може би опитайте някоя от връзките по-долу или търсене?"
+
+msgid "Jacuzzi"
+msgstr "Джакузи"
+
+msgid "Kettle"
+msgstr "Електрическа кана"
+
+msgid "Keypad"
+msgstr "Цифрова клавиатура"
+
+msgid "Kitchen"
+msgstr "Кухня"
+
+msgid "Lake access"
+msgstr "Достъп до езеро"
+
+msgid "Laptop friendly workspace"
+msgstr "Работно място за лаптоп"
+
+msgid "Last name"
+msgstr "Фамилия"
+
+msgid "Loading calendar..."
+msgstr "Зареждане на календара..."
+
+msgid "Lock on bedroom door"
+msgstr "Заключване на вратата на спалнята"
+
+msgid "Lockbox"
+msgstr "Сейф за ключове"
+
+msgid "Long term stays allowed"
+msgstr "Позволени дългосрочни престои"
+
+msgid "Luggage dropoff allowed"
+msgstr "Позволено оставяне на багаж"
+
+msgid "Make a booking inquiry"
+msgstr "Направете запитване за резервация"
+
+msgid "Make an inquiry"
+msgstr "Направете запитване"
+
+msgid "Microwave"
+msgstr "Микровълнова фурна"
+
+msgid "Minimum stay %s nights"
+msgstr "Минимален престой %s нощувки"
+
+msgid "Monthly"
+msgstr "Месечно"
+
+msgid "Monthly rental"
+msgstr "Месечен наем"
+
+msgid "More filters"
+msgstr "Още филтри"
+
+msgid "More results"
+msgstr "Още резултати"
+
+msgid "Next:"
+msgstr "Следващо:"
+
+msgid "Nothing Found"
+msgstr "Нищо не е намерено"
+
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Опа! Тази страница не може да бъде намерена."
+
+msgid "Outlet covers"
+msgstr "Предпазители за контакти"
+
+msgid "Oven"
+msgstr "Фурна"
+
+msgid "Pack 'n Play/travel crib"
+msgstr "Сгъваемо бебешко легло/кошара"
+
+msgid "Pages:"
+msgstr "Страници:"
+
+msgid "Paid parking on the street"
+msgstr "Платен паркинг на улицата"
+
+msgid "Paid parking with garage"
+msgstr "Платен паркинг с гараж"
+
+msgid "Parking"
+msgstr "Паркинг"
+
+msgid "Path to entrance lit at night"
+msgstr "Осветена пътека към входа през нощта"
+
+msgid "Patio or balcony"
+msgstr "Тераса или балкон"
+
+msgid "Pets are welcome"
+msgstr "Домашните любимци са добре дошли"
+
+msgid "Pets live on this property"
+msgstr "В този имот живеят домашни любимци"
+
+msgid "Please try again"
+msgstr "Моля, опитайте отново"
+
+msgid "Pocket wifi"
+msgstr "Преносим Wi-Fi"
+
+msgid "Pool"
+msgstr "Басейн"
+
+msgid "Previous:"
+msgstr "Предишно:"
+
+msgid "Print this page"
+msgstr "Отпечатай тази страница"
+
+msgid "Privacy Policy"
+msgstr "Политика за поверителност"
+
+msgid "Private entrance"
+msgstr "Частен вход"
+
+msgid "Private living room"
+msgstr "Частна всекидневна"
+
+msgid "Quiet hours"
+msgstr "Часове за тишина"
+
+msgid "Refrigerator"
+msgstr "Хладилник"
+
+msgid "Registration number:"
+msgstr "Регистрационен номер:"
+
+msgid "Rental"
+msgstr "Наем"
+
+msgid "Roll-in shower with shower bench or chair"
+msgstr "Достъпен душ с пейка или стол"
+
+msgid "Room-darkening shades"
+msgstr "Затъмняващи щори"
+
+msgid "Safety card"
+msgstr "Карта за безопасност"
+
+msgid "Search Results for: %s"
+msgstr "Резултати от търсенето за: %s"
+
+msgid "Self check-in"
+msgstr "Самостоятелно настаняване"
+
+msgid "Send inquiry"
+msgstr "Изпрати запитване"
+
+msgid "Service charge"
+msgstr "Такса за обслужване"
+
+msgid "Shampoo"
+msgstr "Шампоан"
+
+msgid "Show all"
+msgstr "Покажи всички"
+
+msgid "Show more amenities"
+msgstr "Покажи повече удобства"
+
+msgid "Single level home"
+msgstr "Едноетажен дом"
+
+msgid "Size"
+msgstr "Размер"
+
+msgid "Ski in/Ski out"
+msgstr "Достъп до ски писти"
+
+msgid "Smartlock"
+msgstr "Умно заключване"
+
+msgid "Smoke detector"
+msgstr "Детектор за дим"
+
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Съжаляваме, но нищо не съвпада с вашите критерии за търсене. Моля, опитайте отново с различни ключови думи."
+
+msgid "Stair gates"
+msgstr "Предпазни вратички за стълби"
+
+msgid "Step-free access"
+msgstr "Достъп без стъпала"
+
+msgid "Stove"
+msgstr "Печка"
+
+msgid "TV"
+msgstr "Телевизор"
+
+msgid "Table corner guards"
+msgstr "Предпазители за ъгли на маса"
+
+msgid "Terms & conditions"
+msgstr "Общи условия"
+
+msgid "Thank you!"
+msgstr "Благодарим ви!"
+
+msgid "The listing is not available for your selected dates."
+msgstr "Имотът не е наличен за избраните от вас дати."
+
+msgid "This field is required."
+msgstr "Това поле е задължително."
+
+msgid "To see availability and pricing please enter your check-in and check-out dates below."
+msgstr "За да видите наличността и цените, моля, въведете датите на настаняване и напускане по-долу."
+
+msgid "To see availability please enter your check-in and check-out dates below."
+msgstr "За да видите наличността, моля, въведете датите на настаняване и напускане по-долу."
+
+msgid "Translation Manager"
+msgstr "Мениджър на преводи"
+
+msgid "Trashcan"
+msgstr "Кошче за отпадъци"
+
+msgid "Tub with shower bench"
+msgstr "Вана със седалка за душ"
+
+msgid "Use a translation tool like Poedit to translate the strings in the .po files."
+msgstr "Използвайте инструмент за превод като Poedit, за да преведете текстовете в .po файловете."
+
+msgid "Value"
+msgstr "Стойност"
+
+msgid "Villa"
+msgstr "Вила"
+
+msgid "Washer"
+msgstr "Пералня"
+
+msgid "Waterfront"
+msgstr "Крайбрежен имот"
+
+msgid "We have received your inquiry. Our representative will get back to you shortly."
+msgstr "Получихме вашето запитване. Наш представител ще се свърже с вас скоро."
+
+msgid "What you should know about this"
+msgstr "Какво трябва да знаете за това"
+
+msgid "What you should know about this listing"
+msgstr "Какво трябва да знаете за този имот"
+
+msgid "Wheelchair access possible"
+msgstr "Възможен достъп с инвалидна количка"
+
+msgid "Wheelchair accessible"
+msgstr "Достъпно за инвалидни колички"
+
+msgid "Wide clearance to bed"
+msgstr "Широк достъп до леглото"
+
+msgid "Wide clearance to shower and toilet"
+msgstr "Широк достъп до душа и тоалетната"
+
+msgid "Wide doorway"
+msgstr "Широк вход"
+
+msgid "Wide hallway clearance"
+msgstr "Широк коридор"
+
+msgid "Window guards"
+msgstr "Предпазители за прозорци"
+
+msgid "Wireless Internet"
+msgstr "Безжичен интернет"
+
+msgid "Your inquiry"
+msgstr "Вашето запитване"
+
+msgid "bath"
+msgstr "баня"
+
+msgid "bedroom"
+msgstr "спалня"
+
+msgid "day"
+msgstr "ден"
+
+msgid "internet connection"
+msgstr "Интернет връзка"
+
+msgid "original"
+msgstr "оригинал"
+
+msgid "to"
+msgstr "до"
+
+msgid "Check for Corruption"
+msgstr "Проверка за повреди"
+
+msgid "City name only (default)"
+msgstr "Само име на град (по подразбиране)"
+
+msgid "City name, Neighbourhood"
+msgstr "Име на град, Квартал"
+
+msgid "Clear Hostify Cache"
+msgstr "Изчистване на Hostify кеша"
+
+msgid "Country name, City name, Neighbourhood"
+msgstr "Име на държава, Име на град, Квартал"
+
+msgid "Country name, State name, City name, Neighbourhood"
+msgstr "Име на държава, Име на област, Име на град, Квартал"
+
+msgid "Delete:"
+msgstr "Изтриване:"
+
+msgid "Download ZIP:"
+msgstr "Изтегляне на ZIP:"
+
+msgid "Hostify Booking Plugin Update"
+msgstr "Обновяване на Hostify Booking плъгина"
+
+msgid "Hostify Booking Settings"
+msgstr "Настройки на Hostify Booking"
+
+msgid "Neighbourhood, City name"
+msgstr "Квартал, Име на град"
+
+msgid "No sort"
+msgstr "Без сортиране"
+
+msgid "Open Location:"
+msgstr "Отваряне на местоположение:"
+
+msgid "Plugin update"
+msgstr "Обновяване на плъгина"
+
+msgid "Restore:"
+msgstr "Възстановяване:"
+
+msgid "Sort by listing nickname"
+msgstr "Сортиране по прякор на обявата"
+
+msgid "Sort by listing price, ascending order (low to high)"
+msgstr "Сортиране по цена на обявата, възходящ ред (от ниска към висока)"
+
+msgid "Sort by listing price, descending order (high to low)"
+msgstr "Сортиране по цена на обявата, низходящ ред (от висока към ниска)"
+
+msgid "Sort by listing title"
+msgstr "Сортиране по заглавие на обявата"
+
+msgid "State name, City name, Neighbourhood"
+msgstr "Име на област, Име на град, Квартал"
+
+msgid "View listings page"
+msgstr "Преглед на страницата с обяви"
+
+msgid "long term"
+msgstr "дългосрочно"
+
+msgid "short term"
+msgstr "краткосрочно"
+
+msgid "syntax error"
+msgstr "синтактична грешка"
+
+#: inc/class-hostifybooking-loader.php:722
+#: inc/class-hostifybooking-loader.php:723
+#: inc/class-hostifybooking-loader.php:725
+#: inc/class-hostifybooking-loader.php:726
+msgid "Minimum stay %d night"
+msgid_plural "Minimum stay %d nights"
+msgstr[0] "Минимален престой %d нощ"
+msgstr[1] "Минимален престой %d нощи"
+
+#: admin/inc/translation-manager/class-string-extractor.php:114
+msgid "singular"
+msgid_plural "plural"
+msgstr[0] "единствено"
+msgstr[1] "множествено"
+

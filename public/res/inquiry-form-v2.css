@@ -1,0 +1,523 @@
+/* inquiry-form-v2.css */
+
+/* Basic Variables (Adjust to match theme) */
+:root {
+    --hfy-v2-muted-foreground: #6c757d; /* Example: Gray */
+    --hfy-v2-destructive: #dc3545;      /* Example: Red */
+    --hfy-v2-accent: #f8f9fa;           /* Example: Light Gray */
+    --hfy-v2-ring: #0d6efd;             /* Example: Blue */
+    --hfy-v2-ring-offset: #fff;         /* Example: White */
+    --hfy-v2-border-color: #dee2e6;     /* Example: Light Gray Border */
+    --hfy-v2-primary-bg: #0d6efd;       /* Example: Blue */
+    --hfy-v2-primary-bg-hover: #0b5ed7; /* Example: Darker Blue */
+}
+
+
+/* Styles specific to V2 Inquiry Modal Content */
+/* (Assuming base .hfy-modal provides overlay, position, z-index etc.) */
+.hfy-modal-blocker {
+    padding: 0!important;
+}
+
+.hfy-modal a.close-modal {
+    display: none!important;
+}
+
+.hfy-direct-inquiry-modal-v2 .hfy-modal-content {
+    background-color: #fff; /* Ensure white background */
+    position: relative; /* Needed for absolute positioning of close button inside */
+    transition: background-color 0.3s ease, border-color 0.3s ease; /* Add transition */
+    width: 100%; /* Ensure it takes width within flex container */
+    /* Specific size/shape */
+    max-height: 90vh;
+    overflow-y: auto;
+    border-radius: 0.375rem; /* rounded-md */
+}
+
+@media (min-width: 640px) {
+    
+    #hfy-direct-inquiry-modal-v2 {
+        max-width: 700px;
+    }
+    /* sm: */
+    .hfy-direct-inquiry-modal-v2 .hfy-modal-content {
+        max-width: 700px;
+    }
+}
+
+/* Header */
+.hfy-direct-inquiry-modal-v2 .hfy-modal-header {
+    display: none; /* Temp */
+    position: relative;
+    padding-bottom: 1rem; /* Add some space below title */
+    border-bottom: 1px solid var(--hfy-v2-border-color); /* Add separator */
+    margin-bottom: 1.5rem; /* space-y-6 equivalent for header separation */
+}
+
+.hfy-direct-inquiry-modal-v2 .hfy-modal-title {
+    font-size: 1.5rem; /* text-2xl */
+    font-weight: 600; /* font-semibold */
+    text-align: center;
+}
+
+.hfy-direct-inquiry-modal-v2 .hfy-modal-close {
+    position: absolute;
+    right: 1rem; /* right-4 */
+    top: 1rem; /* top-4 */
+    border-radius: 0.125rem; /* rounded-sm */
+    opacity: 0.7;
+    transition: opacity 0.2s ease-in-out;
+    background: none;
+    border: none;
+    padding: 0.25rem;
+    cursor: pointer;
+}
+
+.hfy-direct-inquiry-modal-v2 .hfy-modal-close:hover {
+    opacity: 1;
+}
+
+.hfy-direct-inquiry-modal-v2 .hfy-modal-close:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px var(--hfy-v2-ring-offset), 0 0 0 4px var(--hfy-v2-ring); /* focus:ring-2 focus:ring-ring focus:ring-offset-2 */
+}
+
+.hfy-direct-inquiry-modal-v2 .hfy-modal-close svg {
+    height: 1rem; /* h-4 */
+    width: 1rem; /* w-4 */
+    color: inherit; /* Use parent color */
+}
+
+/* Body & Form */
+.hfy-direct-inquiry-modal-v2 .hfy-modal-body {
+    /* space-y-6 handled by margin-bottom on elements or direct margins */
+}
+
+.hfy-direct-inquiry-modal-v2 .hfy-modal-body > div:not(:last-child),
+.hfy-direct-inquiry-modal-v2 .hfy-modal-body > button:not(:last-child) {
+     margin-bottom: 1.5rem; /* space-y-6 */
+}
+
+
+/* Grid Layout */
+.hfy-direct-inquiry-modal-v2 .grid {
+    display: grid;
+    gap: 1rem; /* gap-4 */
+}
+
+.hfy-direct-inquiry-modal-v2 .grid-cols-1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+@media (min-width: 640px) { /* sm: */
+    .hfy-direct-inquiry-modal-v2 .sm\:grid-cols-2 {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+/* Form Elements Spacing */
+.hfy-direct-inquiry-modal-v2 .space-y-2 > *:not(:first-child) {
+    margin-top: 0.5rem; /* space-y-2 */
+}
+.hfy-direct-inquiry-modal-v2 .space-y-3 > *:not(:first-child) {
+    margin-top: 0.75rem; /* space-y-3 */
+}
+.hfy-direct-inquiry-modal-v2 .space-y-4 > *:not(:first-child) {
+    margin-top: 1rem; /* space-y-4 */
+}
+.hfy-direct-inquiry-modal-v2 .space-y-6 > *:not(:first-child) {
+    margin-top: 1.5rem; /* space-y-6 */
+}
+
+
+/* Labels & Inputs */
+.hfy-direct-inquiry-modal-v2 .hfy-label {
+    display: block; /* Ensure label takes full width */
+    font-weight: 500; /* Medium weight often used for labels */
+    margin-bottom: 0.5rem; /* Add space below label */
+}
+
+.hfy-direct-inquiry-modal-v2 .hfy-label.flex {
+    display: flex;
+    align-items: center; /* items-center */
+    gap: 0.25rem; /* gap-1 */
+}
+
+.hfy-direct-inquiry-modal-v2 .hfy-label svg {
+    height: 1rem; /* h-4 */
+    width: 1rem; /* w-4 */
+}
+
+.hfy-direct-inquiry-modal-v2 .hfy-input,
+.hfy-direct-inquiry-modal-v2 .hfy-textarea {
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+    border: 1px solid var(--hfy-v2-border-color);
+    border-radius: 0.25rem;
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+.hfy-direct-inquiry-modal-v2 .hfy-input:focus,
+.hfy-direct-inquiry-modal-v2 .hfy-textarea:focus {
+     border-color: var(--hfy-v2-ring);
+     outline: none;
+     box-shadow: 0 0 0 1px var(--hfy-v2-ring);
+}
+
+
+/* Datepicker Trigger Button */
+#hfy-inquiry-datepicker-trigger-v2 {
+    width: 100%; /* w-full */
+    display: flex; /* From button base style, ensure flex */
+    justify-content: flex-start; /* justify-start */
+    text-align: left;
+    font-weight: 400; /* font-normal */
+    color: var(--hfy-v2-muted-foreground); /* Default text color */
+}
+#hfy-inquiry-datepicker-trigger-v2.has-dates { /* Add this class via JS when dates are selected */
+     color: inherit; /* Use default text color when dates are selected */
+}
+
+#hfy-inquiry-datepicker-trigger-v2 svg {
+    margin-right: 0.5rem; /* mr-2 */
+    height: 1rem; /* h-4 */
+    width: 1rem; /* w-4 */
+}
+
+/* Datepicker Popover Container */
+#hfy-inquiry-calendar-container-v2 {
+    width: auto; /* w-auto */
+    padding: 0; /* p-0 */
+    background-color: #fff; /* Ensure background */
+    border: 1px solid var(--hfy-v2-border-color);
+    border-radius: 0.375rem;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    /* Add positioning styles as needed, JS will likely handle this */
+}
+
+
+/* Guests Section */
+.hfy-direct-inquiry-modal-v2 .flex {
+    display: flex;
+}
+.hfy-direct-inquiry-modal-v2 .items-center {
+    align-items: center;
+}
+.hfy-direct-inquiry-modal-v2 .justify-between {
+    justify-content: space-between;
+}
+.hfy-direct-inquiry-modal-v2 .gap-1 { gap: 0.25rem; }
+.hfy-direct-inquiry-modal-v2 .gap-3 { gap: 0.75rem; }
+
+.hfy-direct-inquiry-modal-v2 .text-base { font-size: 1rem; }
+.hfy-direct-inquiry-modal-v2 .font-medium { font-weight: 500; }
+.hfy-direct-inquiry-modal-v2 .text-sm { font-size: 0.875rem; }
+.hfy-direct-inquiry-modal-v2 .text-muted-foreground { color: var(--hfy-v2-muted-foreground); }
+.hfy-direct-inquiry-modal-v2 .text-destructive { color: var(--hfy-v2-destructive); }
+
+.hfy-direct-inquiry-modal-v2 .border { border: 1px solid var(--hfy-v2-border-color); }
+.hfy-direct-inquiry-modal-v2 .rounded-md { border-radius: 0.375rem; }
+.hfy-direct-inquiry-modal-v2 .p-4 { padding: 1rem; }
+
+/* Guest Buttons & Counters */
+.hfy-direct-inquiry-modal-v2 .hfy-guest-btn {
+    height: 2rem; /* h-8 */
+    width: 2rem; /* w-8 */
+    border-radius: 9999px; /* rounded-full */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0; /* Reset padding if button base has it */
+    border: 2px solid var(--hfy-v2-border-color);
+    background-color: white;
+    cursor: pointer;
+}
+
+.hfy-direct-inquiry-modal-v2 .hfy-guest-btn svg {
+    height: 1.25rem; /* Increase size for better visibility */
+    width: 1.25rem;
+    stroke: #333;
+    fill: none;
+    stroke-width: 3;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+/* Force the button to override any other styles */
+.hfy-direct-inquiry-modal-v2 .hfy-btn.hfy-guest-btn.hfy-btn-outline {
+    padding: 0 !important;
+
+    min-width: 2rem !important;
+    min-height: 2rem !important;
+}
+
+.hfy-direct-inquiry-modal-v2 .hfy-guest-count {
+    width: 1.25rem; /* w-5 */
+    text-align: center;
+    min-width: 1.25rem; /* Ensure it doesn't collapse */
+}
+
+.hfy-direct-inquiry-modal-v2 .hfy-guest-input.w-16 {
+    width: 4rem; /* w-16 */
+    text-align: center;
+}
+
+/* Remove spinner arrows for number input */
+.hfy-direct-inquiry-modal-v2 input[type='number']::-webkit-inner-spin-button,
+.hfy-direct-inquiry-modal-v2 input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.hfy-direct-inquiry-modal-v2 input[type='number'] {
+  -moz-appearance: textfield; /* Firefox */
+}
+
+
+/* Footer */
+.hfy-direct-inquiry-modal-v2 .hfy-modal-footer {
+    display: flex;
+    flex-direction: column-reverse; /* Stack buttons vertically on small screens */
+    gap: 0.75rem; /* Add gap between buttons */
+    padding-top: 1.5rem; /* Space above footer */
+    border-top: 1px solid var(--hfy-v2-border-color); /* Separator */
+    margin-top: 1.5rem; /* space-y-6 equivalent */
+}
+
+@media (min-width: 640px) { /* sm: */
+    .hfy-direct-inquiry-modal-v2 .hfy-modal-footer {
+        flex-direction: row; /* Horizontal layout on larger screens */
+        justify-content: space-between; /* sm:justify-between */
+    }
+}
+
+.hfy-direct-inquiry-modal-v2 .hfy-modal-footer .hfy-btn-primary {
+    background-color: var(--hfy-v2-primary-bg); /* bg-blue-600 */
+    color: white;
+}
+.hfy-direct-inquiry-modal-v2 .hfy-modal-footer .hfy-btn-primary:hover {
+    background-color: var(--hfy-v2-primary-bg-hover); /* hover:bg-blue-700 */
+}
+
+/* Utility Classes */
+.hfy-direct-inquiry-modal-v2 .sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border-width: 0;
+}
+
+.hfy-direct-inquiry-modal-v2 .justify-center { justify-content: center; }
+
+/* Add styles for existing hfy-btn, hfy-btn-outline etc. if they don't cover the new design */
+.hfy-direct-inquiry-modal-v2 .hfy-btn {
+    /* Base button styles */
+    padding: 0.6rem 1.2rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.2s ease-in-out;
+    border: none;
+}
+
+.hfy-direct-inquiry-modal-v2 .hfy-btn-outline {
+    border: 1px solid var(--hfy-v2-border-color);
+    background-color: transparent;
+    color: inherit; /* Or specific color */
+}
+
+.hfy-direct-inquiry-modal-v2 .hfy-btn-outline:hover {
+    background-color: var(--hfy-v2-accent);
+}
+
+.hfy-direct-inquiry-modal-v2 .hfy-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+} /* Corrected: Removed extra brace here */
+
+/* Loading state for buttons - Improved */
+.hfy-direct-inquiry-modal-v2 .hfy-btn.loading {
+    position: relative; /* Needed for pseudo-element positioning */
+    color: transparent !important; /* Hide original button text */
+    pointer-events: none; /* Prevent clicking while loading */
+    min-height: 2.5rem; /* Ensure button keeps height, adjust as needed */
+}
+
+/* Ensure specificity for primary button spinner color */
+.hfy-direct-inquiry-modal-v2 .hfy-btn-primary.loading::after {
+    border: 3px solid rgba(255, 255, 255, 0.3); /* Lighter border for contrast */
+    border-top-color: #fff; /* White top part */
+}
+
+/* General spinner styles */
+.hfy-direct-inquiry-modal-v2 .hfy-btn.loading::after {
+    content: '';
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    /* Center the spinner */
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /* Spinner dimensions */
+    width: 1.25rem; /* Slightly larger spinner */
+    height: 1.25rem;
+    /* Spinner appearance */
+    border: 3px solid rgba(0, 0, 0, 0.2); /* Default spinner color */
+    border-top-color: var(--hfy-v2-primary-bg); /* Use primary color for top */
+    border-radius: 50%;
+    /* Animation */
+    animation: hfy-spinner 0.6s linear infinite;
+}
+
+@keyframes hfy-spinner {
+    to {
+        transform: translate(-50%, -50%) rotate(360deg); /* Keep translate for centering */
+    }
+}
+/* End Loading State */
+
+/* Response message area */
+.hfy-inquiry-response {
+    flex-grow: 1; /* Allow it to take space in the footer */
+    text-align: left;
+    padding-right: 1rem; /* Add some space before buttons on larger screens */
+}
+.hfy-inquiry-response.success { color: green; }
+.hfy-inquiry-response.error { color: var(--hfy-v2-destructive); }
+
+/* Success State Styling - Revised */
+.hfy-modal.hfy-inquiry-success {
+    background-color: transparent !important; /* Remove dark overlay, ensure override */
+    box-shadow: none!important;
+    /* Optional: Add a very light green overlay if desired */
+    /* background-color: rgba(209, 250, 229, 0.5); */
+}
+
+.hfy-modal.hfy-inquiry-success .hfy-modal-content {
+    background-color: #f0fdf4; /* Light green background */
+    border: 1px solid #15803d; /* Darker green border */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Optional: Add subtle shadow */
+}
+
+/* Style the .thx container when in success state */
+.hfy-modal.hfy-inquiry-success .thx {
+    color: #14532d; /* Dark green text (Tailwind green-900 adjusted) */
+    text-align: center;
+    padding: 2rem 1rem; /* Add more padding */
+}
+
+.hfy-modal.hfy-inquiry-success .thx::before {
+    content: '';
+    display: block;
+    width: 3rem; /* Checkmark size */
+    height: 3rem; /* Checkmark size */
+    margin: 0 auto 1rem auto; /* Center checkmark above text */
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' stroke-width='2.5' stroke='%2315803d' class='w-6 h-6'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M4.5 12.75l6 6 9-13.5' /%3E%3C/svg%3E%0A");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* Ensure close button is visible and styled for success state */
+.hfy-modal.hfy-inquiry-success .hfy-modal-close {
+    color: #166534; /* Dark green (Tailwind green-800 adjusted) */
+    opacity: 0.8;
+}
+.hfy-modal.hfy-inquiry-success .hfy-modal-close:hover {
+    color: #14532d; /* Darker green (Tailwind green-900 adjusted) */
+    opacity: 1;
+}
+/* Responsive Styles for Mobile (Full Screen) */
+@media (max-width: 639px) {
+    /* Make the modal container itself full screen */
+    #hfy-direct-inquiry-modal-v2 {
+        width: 100%;
+        height: 100%; /* Use 100% or 100vh */
+        max-width: 100%;
+        max-height: 100%;
+        top: 0;
+        left: 0;
+        border-radius: 0; /* Remove border radius for full screen */
+        /* Ensure no leftover padding from blocker if needed */
+        padding: 0 !important;
+    }
+
+    /* Make the content area fill the modal height */
+    .hfy-direct-inquiry-modal-v2 .hfy-modal-content {
+        height: 100%;
+        max-height: 100%;
+        border-radius: 0; /* Remove border radius for full screen */
+        border: none; /* Remove border for full screen */
+        box-shadow: none; /* Remove shadow for full screen */
+    }
+
+    /* Adjust header/footer padding if needed */
+    .hfy-direct-inquiry-modal-v2 .hfy-modal-header,
+    .hfy-direct-inquiry-modal-v2 .hfy-modal-body,
+/* Compact Header for Mobile */
+    .hfy-direct-inquiry-modal-v2 .hfy-modal-header {
+        padding-top: 0; /* Reduced top padding */
+        padding-bottom: 0.75rem; /* Reduced bottom padding */
+        margin-bottom: 0; /* Reduced space below header */
+        /* Ensure header is visible on mobile if it was hidden */
+         display: block; /* Or flex, depending on desired layout */
+         position: sticky; /* Make header sticky */
+         top: 0;
+         background-color: #fff; /* Add background to prevent content overlap */
+         z-index: 10; /* Ensure header stays above scrolling content */
+    }
+
+    .hfy-direct-inquiry-modal-v2 .hfy-modal-title {
+        font-size: 1.125rem; /* Reduced font size (text-lg equivalent) */
+        line-height: 1.325rem;
+    }
+
+    /* Adjust close button position slightly for reduced padding */
+     .hfy-direct-inquiry-modal-v2 .hfy-modal-close {
+        top: 0;
+        right: 0.75rem;
+     }
+    .hfy-direct-inquiry-modal-v2 .hfy-modal-footer {
+        padding-left: 1rem; /* Add some padding back */
+        padding-right: 1rem;
+    }
+
+    .hfy-direct-inquiry-modal-v2 .hfy-modal-header {
+         
+         /* Ensure header is visible on mobile if it was hidden */
+         display: block; /* Or flex, depending on desired layout */
+         position: sticky; /* Make header sticky */
+         top: 0;
+         background-color: #fff; /* Add background to prevent content overlap */
+         z-index: 10; /* Ensure header stays above scrolling content */
+    }
+
+     .hfy-direct-inquiry-modal-v2 .hfy-modal-body {
+         padding-top: 0;
+         padding-bottom: 1rem;
+     }
+
+    .hfy-direct-inquiry-modal-v2 .hfy-modal-footer {
+        padding-bottom: 1rem; /* Add bottom padding for footer */
+        position: sticky; /* Make footer sticky */
+        bottom: 0;
+        background-color: #fff; /* Add background */
+        z-index: 10; /* Ensure footer stays above */
+    }
+
+    /* Ensure success state also respects full screen */
+     .hfy-modal.hfy-inquiry-success {
+         padding: 0 !important;
+     }
+     .hfy-modal.hfy-inquiry-success .hfy-modal-content {
+         height: 100%;
+         max-height: 100%;
+         border-radius: 0;
+         border: none;
+     }
+}

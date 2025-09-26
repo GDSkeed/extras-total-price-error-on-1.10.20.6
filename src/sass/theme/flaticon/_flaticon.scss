@@ -1,0 +1,139 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 02/08/2018 22:38
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("flatfonts/Flaticon.eot");
+  src: url("flatfonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("flatfonts/Flaticon.woff") format("woff"),
+       url("flatfonts/Flaticon.ttf") format("truetype"),
+       url("flatfonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("flatfonts/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-swim:before { content: "\f100"; }
+.flaticon-wifi:before { content: "\f101"; }
+.flaticon-weightlifting:before { content: "\f102"; }
+.flaticon-departures:before { content: "\f103"; }
+.flaticon-bus:before { content: "\f104"; }
+.flaticon-cocktail:before { content: "\f105"; }
+.flaticon-coffee-cup:before { content: "\f106"; }
+.flaticon-car-parking:before { content: "\f107"; }
+.flaticon-fork:before { content: "\f108"; }
+.flaticon-supper:before { content: "\f109"; }
+.flaticon-tray:before { content: "\f10a"; }
+.flaticon-coffee:before { content: "\f10b"; }
+.flaticon-cow:before { content: "\f10c"; }
+.flaticon-chicken:before { content: "\f10d"; }
+.flaticon-spaguetti:before { content: "\f10e"; }
+.flaticon-spa:before { content: "\f10f"; }
+.flaticon-suit:before { content: "\f110"; }
+.flaticon-portfolio:before { content: "\f111"; }
+.flaticon-users:before { content: "\f112"; }
+.flaticon-mail:before { content: "\f113"; }
+.flaticon-like:before { content: "\f114"; }
+.flaticon-chat:before { content: "\f115"; }
+.flaticon-paper-plane:before { content: "\f116"; }
+.flaticon-air-conditioner:before { content: "\f117"; }
+.flaticon-bathtub:before { content: "\f118"; }
+.flaticon-bathtub-1:before { content: "\f119"; }
+.flaticon-television:before { content: "\f11a"; }
+.flaticon-kitchen:before { content: "\f11b"; }
+.flaticon-patio:before { content: "\f11c"; }
+.flaticon-speaker:before { content: "\f11d"; }
+.flaticon-terrace:before { content: "\f11e"; }
+.flaticon-sunset:before { content: "\f11f"; }
+.flaticon-washing-machine:before { content: "\f120"; }
+.flaticon-pet:before { content: "\f121"; }
+.flaticon-room-service:before { content: "\f122"; }
+.flaticon-bed:before { content: "\f123"; }
+.flaticon-no-smoking-sign:before { content: "\f124"; }
+.flaticon-building:before { content: "\f125"; }
+.flaticon-pin:before { content: "\f126"; }
+.flaticon-slumber:before { content: "\f127"; }
+.flaticon-hotel:before { content: "\f128"; }
+.flaticon-hotel-1:before { content: "\f129"; }
+.flaticon-world:before { content: "\f12a"; }
+.flaticon-airplane-flight:before { content: "\f12b"; }
+.flaticon-traveler-with-a-suitcase:before { content: "\f12c"; }
+.flaticon-sleeping-bed-silhouette:before { content: "\f12d"; }
+.flaticon-covered-food-tray-on-a-hand-of-hotel-room-service:before { content: "\f12e"; }
+.flaticon-maps-and-flags:before { content: "\f12f"; }
+.flaticon-map-marker:before { content: "\f130"; }
+.flaticon-map-marker-with-two-arrows-pointing-opposite-directions:before { content: "\f131"; }
+    
+    $font-Flaticon-swim: "\f100";
+    $font-Flaticon-wifi: "\f101";
+    $font-Flaticon-weightlifting: "\f102";
+    $font-Flaticon-departures: "\f103";
+    $font-Flaticon-bus: "\f104";
+    $font-Flaticon-cocktail: "\f105";
+    $font-Flaticon-coffee-cup: "\f106";
+    $font-Flaticon-car-parking: "\f107";
+    $font-Flaticon-fork: "\f108";
+    $font-Flaticon-supper: "\f109";
+    $font-Flaticon-tray: "\f10a";
+    $font-Flaticon-coffee: "\f10b";
+    $font-Flaticon-cow: "\f10c";
+    $font-Flaticon-chicken: "\f10d";
+    $font-Flaticon-spaguetti: "\f10e";
+    $font-Flaticon-spa: "\f10f";
+    $font-Flaticon-suit: "\f110";
+    $font-Flaticon-portfolio: "\f111";
+    $font-Flaticon-users: "\f112";
+    $font-Flaticon-mail: "\f113";
+    $font-Flaticon-like: "\f114";
+    $font-Flaticon-chat: "\f115";
+    $font-Flaticon-paper-plane: "\f116";
+    $font-Flaticon-air-conditioner: "\f117";
+    $font-Flaticon-bathtub: "\f118";
+    $font-Flaticon-bathtub-1: "\f119";
+    $font-Flaticon-television: "\f11a";
+    $font-Flaticon-kitchen: "\f11b";
+    $font-Flaticon-patio: "\f11c";
+    $font-Flaticon-speaker: "\f11d";
+    $font-Flaticon-terrace: "\f11e";
+    $font-Flaticon-sunset: "\f11f";
+    $font-Flaticon-washing-machine: "\f120";
+    $font-Flaticon-pet: "\f121";
+    $font-Flaticon-room-service: "\f122";
+    $font-Flaticon-bed: "\f123";
+    $font-Flaticon-no-smoking-sign: "\f124";
+    $font-Flaticon-building: "\f125";
+    $font-Flaticon-pin: "\f126";
+    $font-Flaticon-slumber: "\f127";
+    $font-Flaticon-hotel: "\f128";
+    $font-Flaticon-hotel-1: "\f129";
+    $font-Flaticon-world: "\f12a";
+    $font-Flaticon-airplane-flight: "\f12b";
+    $font-Flaticon-traveler-with-a-suitcase: "\f12c";
+    $font-Flaticon-sleeping-bed-silhouette: "\f12d";
+    $font-Flaticon-covered-food-tray-on-a-hand-of-hotel-room-service: "\f12e";
+    $font-Flaticon-maps-and-flags: "\f12f";
+    $font-Flaticon-map-marker: "\f130";
+    $font-Flaticon-map-marker-with-two-arrows-pointing-opposite-directions: "\f131";

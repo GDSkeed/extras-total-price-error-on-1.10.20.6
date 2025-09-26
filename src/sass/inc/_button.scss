@@ -1,0 +1,28 @@
+.button {
+  width: 100%;
+  padding: 10px 5px;
+  margin-top: 5px;
+  border: none;
+  border-radius: 4px;
+  color: $primary-color;
+  background-color: $default-theme-color;
+  font-weight: 600;
+  position: relative;
+  &:hover {
+    opacity: 0.7;
+  }
+  .loader-wrapper {
+    display: none;
+    position: absolute;
+    width: 40px;
+    right: 10px;
+    top: 0px;
+    .loader {
+      width: 25px;
+      height: 25px;
+      border-width: 3px;
+      border-color: white;
+      border-bottom: 3px solid $default-theme-color;
+    }
+  }
+}

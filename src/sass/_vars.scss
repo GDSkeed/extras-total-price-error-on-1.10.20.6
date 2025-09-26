@@ -1,0 +1,29 @@
+
+$gray:        #B5BBC2;
+$default-theme-color: #3BEE81;
+$primary-color:    #2b2b37;
+$appWidth:      1140px;
+$desktopWidth:  1280px;
+$mobileWidth:   550px;
+$tableWidth:    768px;
+
+$bg-color-gray: #F7F7F9;
+
+
+@mixin mob() {
+    @media
+        all and (max-width: 767px) // small screens
+        ,all and (device-width: 768px)
+        // ipads
+        ,all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait) // ipad portrait
+        ,all and (device-width: 1024px) and (device-height: 768px) and (orientation: landscape) // ipad landscape
+        // iphones
+        ,only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) // iphone x
+        ,only screen and (device-width: 812px) and (device-height: 375px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape) // iphone x
+        ,only screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2) // iphone 8
+        ,only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3) // iphone 6,7,8+
+        ,only screen and (device-width: 823px) and (device-height: 411px) // pixel 2 xl
+    {
+        @content;
+    }
+}

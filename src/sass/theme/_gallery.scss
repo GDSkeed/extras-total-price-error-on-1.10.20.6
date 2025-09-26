@@ -1,0 +1,129 @@
+.hfy-listing-gallery {
+
+    // .main {
+	// 	img {
+
+	// 	}
+	// }
+
+    .list {
+        .img-wrap {
+			// width: 50px;
+			height: 50px;
+			overflow: hidden;
+			display: inline-block;
+
+			img {
+				height: 100%;
+			}
+		}
+	}
+
+
+	&.hfy-listing-gallery-abnb {
+
+		display: flex;
+		overflow: hidden;
+		height: 500px;
+		max-height: 500px;
+		position: relative;
+		-webkit-box-align: center !important;
+		-ms-flex-align: center !important;
+		-webkit-align-items: center !important;
+		align-items: center !important;
+		display: -webkit-box !important;
+		display: -moz-box !important;
+		display: -ms-flexbox !important;
+		display: -webkit-flex !important;
+		display: flex !important;
+		flex-direction: row !important;
+		overflow: hidden !important;
+		border: 1px solid #484848;
+
+		& > .main{
+			width: 50%;
+			height: 100%;
+			border: 1px solid #484848;
+			overflow: hidden;
+
+			& > div > img {
+				max-height: 100%;
+			}
+		}
+
+		& > .list {
+			width: 50%;
+			display: flex;
+			flex-wrap: wrap;
+			height: 100%;
+
+			& > div {
+				width: 50%;
+				height: 50%;
+				border: 1px solid #484848;
+
+				& > img {
+					max-height: 100%;
+				}
+				& > div {
+					overflow: hidden;
+				}
+			}
+		}
+
+		img {
+			transition: all .2s ease-in-out;
+			object-fit: cover;
+			display: inline-block !important;
+			width: 100% !important;
+			height: 100% !important;
+			transition: opacity 2s ease 0s !important;
+			cursor: pointer;
+
+			&:hover {
+			   overflow: hidden;
+			   transform: scale(1.05) !important;
+			   transition: -ms-transform 450ms cubic-bezier(0.645, 0.045, 0.355, 1) 0s, -webkit-transform 450ms cubic-bezier(0.645, 0.045, 0.355, 1) 0s, transform 450ms cubic-bezier(0.645, 0.045, 0.355, 1) 0s !important;
+		   }
+		}
+
+		.left-bottom {
+			position: absolute;
+			bottom: 5px;
+			left: 5px;
+			z-index: 1;
+		}
+
+
+		@media(max-width: 1128px) {
+			.main{
+				width: 67%;
+			}
+
+			.list > div:nth-child(3),
+			.list > div:nth-child(4){
+				display: none;
+			}
+
+			& > .list > div{
+				width: 100%;
+			}
+		}
+
+		@media(max-width: 744px) {
+			border: none;
+			max-height: 200px;
+
+			& > .list > div,
+			& > .main,
+
+			& > .main{
+				width: 100%;
+
+				img{
+				   height: 100% !important;
+			   }
+			}
+		}
+	}
+}

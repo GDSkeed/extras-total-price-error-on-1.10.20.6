@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 40 40" style="enable-background:new 0 0 40 40;" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css">
+	.st0{fill:none;stroke:currentcolor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st1{fill:currentcolor;}
+</style>
+  </defs>
+  <g>
+    <path class="st0" d="M38,34.5v-29C38,4.7,37.3,4,36.5,4h-33C2.7,4,2,4.7,2,5.5v29C2,35.3,2.7,36,3.5,36h33 C37.3,36,38,35.3,38,34.5z"/>
+    <circle class="st0" cx="23" cy="13" r="5"/>
+    <circle class="st0" cx="10" cy="13" r="5"/>
+    <circle class="st0" cx="10" cy="13" r="2"/>
+    <circle class="st0" cx="23" cy="13" r="2"/>
+    <circle class="st0" cx="10" cy="26" r="2"/>
+    <circle class="st0" cx="23" cy="26" r="2"/>
+    <circle class="st0" cx="23" cy="26" r="5"/>
+    <circle class="st0" cx="10" cy="26" r="5"/>
+    <circle class="st0" cx="33.5" cy="12.5" r="1.5"/>
+    <circle class="st0" cx="33.5" cy="19.5" r="1.5"/>
+    <circle class="st0" cx="33.5" cy="26.5" r="1.5"/>
+  </g>
+</svg>

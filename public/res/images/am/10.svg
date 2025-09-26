@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 40 40" style="enable-background:new 0 0 40 40;" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css">
+	.st0{fill:none;stroke:currentcolor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st1{fill:currentcolor;}
+</style>
+  </defs>
+  <g>
+    <path class="st0" d="M14,16v1c2.4,1.7,4,3.2,4,6v13.5c0,0.8-0.7,1.5-1.5,1.5h-11C4.7,38,4,37.3,4,36.5V23c0-2.8,1.6-4.3,4-6v-1"/>
+    <path class="st0" d="M14.6,12H7.4C6.6,12,6,12.6,6,13.4v1.1C6,15.4,6.6,16,7.4,16h7.1c0.8,0,1.4-0.6,1.4-1.4v-1.1 C16,12.6,15.4,12,14.6,12z"/>
+    <path class="st0" d="M15,12V8.3C15,7.6,14.4,7,13.7,7H8.3C7.6,7,7,7.6,7,8.3V12"/>
+    <line class="st0" x1="4" y1="24" x2="18" y2="24"/>
+    <line class="st0" x1="4" y1="33" x2="18" y2="33"/>
+    <path class="st0" d="M23,31L21.1,3c0-0.6,0.4-1,1-1H35c0.6,0,1,0.5,1,1L34,31"/>
+    <path class="st0" d="M32.5,38h-8c-0.8,0-1.5-0.7-1.5-1.5V31h11v5.5C34,37.3,33.3,38,32.5,38z"/>
+  </g>
+</svg>

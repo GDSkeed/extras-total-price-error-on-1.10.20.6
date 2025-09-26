@@ -1,0 +1,13 @@
+@import "_vars";
+
+@import "_libs"; // import libs
+@import "inc/_common";
+
+.hfy-wrap {
+    @import "inc/_payment";
+    @import "inc/_map";
+    // @import "inc/button.scss";
+}
+
+@import "inc/_mobile";
+@import "inc/_tablet";

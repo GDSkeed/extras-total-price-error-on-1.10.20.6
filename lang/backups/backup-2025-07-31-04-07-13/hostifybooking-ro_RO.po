@@ -1,0 +1,4323 @@
+# Copyright (C) 2025 Hostify Booking Engine
+# This file is distributed under the same license as the Hostify Booking Engine package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Hostify Booking Engine\n"
+"Report-Msgid-Bugs-To: https://hostify.com\n"
+"POT-Creation-Date: 2025-07-09 00:54+0000
+"PO-Revision-Date: 2025-07-09 00:54+0000
+"Last-Translator: \n"
+"Language-Team: Romanian <ro@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Hostify Booking Engine String Extractor\n"
+
+#: lang/strings_to_translate.php:2
+#: tpl/element/booking-search-advanced.php:14
+#: lang/strings_to_translate.php:2
+#: tpl/element/booking-search-advanced.php:14
+msgid " / day"
+msgstr " / zi"
+
+#: lang/strings_to_translate.php:3
+#: tpl/element/booking-search-advanced.php:10
+msgid " / month"
+msgstr " / lună"
+
+#: lang/strings_to_translate.php:4
+#: admin/menu.php:655
+msgid " Required Google Maps API Key In Miscellaneous Section "
+msgstr " Cheie API Google Maps necesară în Secțiunea Diverse "
+
+#: lang/strings_to_translate.php:5
+#: tpl/element/direct-inquiry-modal-v2.php:100
+msgid "%d/%d guests"
+msgstr "%d/%d oaspeți"
+
+#: lang/strings_to_translate.php:6
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:271
+msgid "%s is missing in the configuration array"
+msgstr "%s lipsește din array-ul de configurare"
+
+#: lang/strings_to_translate.php:7
+#: admin/menu.php:1036
+msgid "(deprecated)"
+msgstr "(învechit)"
+
+#: lang/strings_to_translate.php:8
+#: admin/menu.php:1344
+msgid "-- Select a language file --"
+msgstr "-- Selectează un fișier de limbă --"
+
+#: lang/strings_to_translate.php:9
+#: admin/menu.php:716
+msgid "2-char country code like <code>us</code>"
+msgstr "Cod de țară din 2 caractere precum <code>ro</code>"
+
+#: lang/strings_to_translate.php:10
+msgid "24 hour check-in"
+msgstr "Check-in 24 ore"
+
+#: lang/strings_to_translate.php:11
+#: admin/menu.php:94
+msgid "API URL"
+msgstr "URL API"
+
+#: lang/strings_to_translate.php:12
+#: admin/menu.php:101
+msgid "API WPKEY"
+msgstr "WPKEY API"
+
+#: lang/strings_to_translate.php:13
+#: admin/menu.php:90
+msgid "API settings"
+msgstr "Setări API"
+
+#: lang/strings_to_translate.php:14
+#: admin/menu.php:457
+msgid "ATTENTION: If disabled, all available amenities will be shown, this can be a huge list, so it is recommended to use the options below in this case."
+msgstr "ATENȚIE: Dacă este dezactivat, vor fi afișate toate facilitățile disponibile, aceasta poate fi o listă foarte mare, așa că este recomandat să folosiți opțiunile de mai jos în acest caz."
+
+#: lang/strings_to_translate.php:15
+msgid "Accessible-height bed"
+msgstr "Pat cu înălțime accesibilă"
+
+#: lang/strings_to_translate.php:16
+msgid "Accessible-height toilet"
+msgstr "Toaletă cu înălțime accesibilă"
+
+#: lang/strings_to_translate.php:17
+#: tpl/listing/listing-reviews-summary.php:29
+msgid "Accuracy"
+msgstr "Acuratețe"
+
+#: lang/strings_to_translate.php:18
+#: admin/exopite-simple-options/fields/gallery.php:27
+msgid "Add"
+msgstr "Adaugă"
+
+#: lang/strings_to_translate.php:19
+#: admin/exopite-simple-options/fields/image.php:77
+msgid "Add Image"
+msgstr "Adaugă Imagine"
+
+#: lang/strings_to_translate.php:20
+#: admin/menu.php:1322
+msgid "Add New Language"
+msgstr "Adaugă Limbă Nouă"
+
+#: lang/strings_to_translate.php:21
+#: admin/exopite-simple-options/fields/video.php:63
+msgid "Add Video"
+msgstr "Adaugă Video"
+
+#: lang/strings_to_translate.php:22
+#: admin/menu.php:585
+msgid "Add images slider for each listing item"
+msgstr "Adaugă slider de imagini pentru fiecare element listat"
+
+#: lang/strings_to_translate.php:23
+#: admin/exopite-simple-options/fields/gallery.php:25
+msgid "Add to gallery"
+msgstr "Adaugă la galerie"
+
+#: lang/strings_to_translate.php:24
+#: tpl/listing/listing-info-prices.php:37
+msgid "Additional Guests:"
+msgstr "Oaspeți Suplimentari:"
+
+#: lang/strings_to_translate.php:25
+#: tpl/payment/netpay-form.php:100
+#: tpl/user/booking-manage.php:160
+msgid "Address"
+msgstr "Adresă"
+
+#: lang/strings_to_translate.php:26
+#: admin/menu.php:835
+msgid "Admin options"
+msgstr "Opțiuni admin"
+
+#: lang/strings_to_translate.php:27
+#: tpl/element/direct-inquiry-modal-v2.php:109
+#: tpl/element/guests-block.php:15
+#: tpl/element/direct-inquiry-modal.php:109
+#: tpl/payment/charge-preview.php:41
+#: tpl/payment/preview.php:57
+msgid "Adults"
+msgstr "Adulți"
+
+#: lang/strings_to_translate.php:28
+#: admin/menu.php:307
+#: admin/menu.php:446
+msgid "Advanced search"
+msgstr "Căutare avansată"
+
+#: lang/strings_to_translate.php:29
+#: tpl/element/guests-block.php:66
+msgid "Age under 2"
+msgstr "Vârstă sub 2 ani"
+
+#: lang/strings_to_translate.php:30
+#: tpl/element/guests-block.php:17
+msgid "Age: 13+"
+msgstr "Vârstă: 13+"
+
+#: lang/strings_to_translate.php:31
+#: tpl/element/guests-block.php:41
+msgid "Age: 2-12"
+msgstr "Vârstă: 2-12"
+
+#: lang/strings_to_translate.php:32
+msgid "Air conditioning"
+msgstr "Aer condiționat"
+
+#: lang/strings_to_translate.php:33
+msgid "All photos"
+msgstr "Toate fotografiile"
+
+#: lang/strings_to_translate.php:34
+#: admin/menu.php:1311
+msgid "All translatable strings"
+msgstr "Toate textele traductibile"
+
+#: lang/strings_to_translate.php:35
+#: tpl/listing/listing-info-prices.php:33
+msgid "Allow Additional Guests:"
+msgstr "Permite Oaspeți Suplimentari:"
+
+#: lang/strings_to_translate.php:36
+#: tpl/listing/listings-sort.php:8
+msgid "Alphabetical"
+msgstr "Alfabetic"
+
+#: lang/strings_to_translate.php:37
+#: tpl/user/booking-manage.php:121
+msgid "Alteration request"
+msgstr "Cerere de modificare"
+
+#: lang/strings_to_translate.php:38
+#: tpl/element/booking-search-popup.php:103
+#: tpl/element/booking-search-advanced.php:74
+#: tpl/listing/listing.php:23
+#: admin/menu.php:1189
+#: admin/menu.php:1271
+msgid "Amenities"
+msgstr "Facilități"
+
+#: lang/strings_to_translate.php:39
+msgid "Amenities and special features of this"
+msgstr "Facilități și caracteristici speciale ale acestuia"
+
+#: lang/strings_to_translate.php:40
+msgid "Amenities and special featuresa"
+msgstr "Facilități și caracteristici speciale"
+
+#: lang/strings_to_translate.php:41
+#: admin/menu.php:474
+msgid "Amenities groups"
+msgstr "Grupuri de facilități"
+
+#: lang/strings_to_translate.php:42
+#: admin/menu.php:609
+msgid "Amenities with images first"
+msgstr "Facilități cu imagini primul"
+
+#: lang/strings_to_translate.php:43
+#: admin/menu.php:615
+msgid "Amenities with images only"
+msgstr "Doar facilități cu imagini"
+
+#: lang/strings_to_translate.php:44
+#: admin/menu.php:612
+msgid "Amenities with images will be shown first at the top of the list"
+msgstr "Facilitățile cu imagini vor fi afișate primele în partea de sus a listei"
+
+#: lang/strings_to_translate.php:45
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:336
+msgid "An error occurred while regenerating permalinks: "
+msgstr "A apărut o eroare la regenerarea permalink-urilor: "
+
+#: lang/strings_to_translate.php:46
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:109
+msgid "An error occurred."
+msgstr "A apărut o eroare."
+
+#: lang/strings_to_translate.php:47
+#: tpl/element/direct-inquiry-modal-v2.php:229
+msgid "Any special requests or questions?"
+msgstr "Aveți cereri speciale sau întrebări?"
+
+#: lang/strings_to_translate.php:48
+#: inc/helpers.php:344
+#: tpl/user/booking-manage.php:183
+#: tpl/user/booking-manage.php:187
+msgid "Any time"
+msgstr "Oricând"
+
+#: lang/strings_to_translate.php:49
+msgid "Apartment"
+msgstr "Apartament"
+
+#: lang/strings_to_translate.php:50
+#: admin/menu.php:199
+msgid "Applicable to NetPay"
+msgstr "Aplicabil pentru NetPay"
+
+#: lang/strings_to_translate.php:51
+#: inc/class-hostifybooking-loader.php:731
+#: tpl/listing/listing-booking-form.php:69
+#: tpl/listing/listing-booking-form-on-request.php:63
+#: tpl/listing/listing-booking-form-v2.php:64
+msgid "Apply"
+msgstr "Aplică"
+
+#: lang/strings_to_translate.php:52
+#: inc/seo.php:56
+msgid "Apply SEO settings (such as a pretty URL) to the Listing on this page"
+msgstr "Aplică setările SEO (precum URL frumos) pentru Listare pe această pagină"
+
+#: lang/strings_to_translate.php:53
+#: tpl/element/booking-search-advanced.php:107
+msgid "Apply filters"
+msgstr "Aplică filtre"
+
+#: lang/strings_to_translate.php:54
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:104
+msgid "Are you sure you want to delete this permalink?"
+msgstr "Sigur doriți să ștergeți acest permalink?"
+
+#: lang/strings_to_translate.php:55
+#: admin/exopite-simple-options/fields/backup.php:40
+msgid "Are you sure, you want to overwrite existing options?"
+msgstr "Sigur doriți să suprascrieți opțiunile existente?"
+
+#: lang/strings_to_translate.php:56
+#: admin/exopite-simple-options/fields/backup.php:48
+msgid "Are you sure, you want to reset all options?"
+msgstr "Sigur doriți să resetați toate opțiunile?"
+
+#: lang/strings_to_translate.php:57
+#: tpl/user/wishlist-item.php:40
+msgid "Area:"
+msgstr "Suprafață:"
+
+#: lang/strings_to_translate.php:58
+msgid "Arrival"
+msgstr "Sosire"
+
+#: lang/strings_to_translate.php:59
+#: tpl/user/bookings-list-item.php:37
+msgid "Arrival:"
+msgstr "Sosire:"
+
+#: lang/strings_to_translate.php:60
+msgid "Arrive"
+msgstr "Sosește"
+
+#: lang/strings_to_translate.php:61
+#: admin/menu.php:1238
+msgid "Availability"
+msgstr "Disponibilitate"
+
+#: lang/strings_to_translate.php:62
+#: tpl/element/price-block-on-request.php:4
+msgid "Available"
+msgstr "Disponibil"
+
+#: lang/strings_to_translate.php:63
+#: admin/menu.php:1320
+msgid "Available Languages"
+msgstr "Limbi Disponibile"
+
+#: lang/strings_to_translate.php:64
+msgid "BBQ grill"
+msgstr "Grătar BBQ"
+
+#: lang/strings_to_translate.php:65
+msgid "Baby bath"
+msgstr "Cadă pentru bebeluși"
+
+#: lang/strings_to_translate.php:66
+msgid "Baby monitor"
+msgstr "Monitor pentru bebeluși"
+
+#: lang/strings_to_translate.php:67
+msgid "Babysitter recommendations"
+msgstr "Recomandări bone"
+
+#: lang/strings_to_translate.php:68
+#: tpl/payment/stripe-form-3ds-element-step-2.php:33
+#: tpl/payment/netpay-form.php:160
+#: tpl/payment/stripe-form-3ds-step-3.php:61
+#: tpl/payment/paypal-form.php:42
+#: tpl/payment/stripe-form-3ds-step-2.php:36
+#: tpl/payment/stripe-form-3ds-element-step-3.php:49
+msgid "Back"
+msgstr "Înapoi"
+
+#: lang/strings_to_translate.php:69
+#: tpl/user/booking-manage.php:11
+msgid "Back to list"
+msgstr "Înapoi la listă"
+
+#: lang/strings_to_translate.php:70
+#: tpl/payment/_error.php:20
+#: tpl/payment/stripe-form-3ds_error.php:18
+msgid "Back to payment"
+msgstr "Înapoi la plată"
+
+#: lang/strings_to_translate.php:71
+#: admin/menu.php:1367
+msgid "Backup & Restore Translations"
+msgstr "Backup & Restaurare Traduceri"
+
+#: lang/strings_to_translate.php:72
+#: admin/menu.php:1377
+msgid "Backup Actions Explained:"
+msgstr "Explicarea Acțiunilor de Backup:"
+
+#: lang/strings_to_translate.php:73
+msgid "Balcony or patio"
+msgstr "Balcon sau terasă"
+
+#: lang/strings_to_translate.php:74
+#: tpl/element/booking-search-popup.php:71
+#: tpl/element/booking-search-advanced.php:63
+msgid "Bathrooms"
+msgstr "Băi"
+
+#: lang/strings_to_translate.php:75
+#: tpl/user/wishlist-item.php:38
+msgid "Baths:"
+msgstr "Băi:"
+
+#: lang/strings_to_translate.php:76
+msgid "Bathtub"
+msgstr "Cadă"
+
+#: lang/strings_to_translate.php:77
+msgid "Beach essentials"
+msgstr "Esențiale pentru plajă"
+
+#: lang/strings_to_translate.php:78
+msgid "Beachfront"
+msgstr "La plajă"
+
+#: lang/strings_to_translate.php:79
+msgid "Bed linens"
+msgstr "Lenjerie de pat"
+
+#: lang/strings_to_translate.php:80
+#: tpl/element/booking-search.php:218
+msgid "Bedroom"
+msgstr "Dormitor"
+
+#: lang/strings_to_translate.php:81
+#: tpl/element/booking-search-popup.php:57
+#: tpl/element/booking-search.php:212
+#: tpl/element/booking-search.php:218
+msgid "Bedrooms"
+msgstr "Dormitoare"
+
+#: lang/strings_to_translate.php:82
+#: tpl/user/wishlist-item.php:36
+msgid "Bedrooms:"
+msgstr "Dormitoare:"
+
+#: lang/strings_to_translate.php:83
+#: tpl/element/price-block.php:52
+msgid "Book on Airbnb"
+msgstr "Rezervă pe Airbnb"
+
+#: lang/strings_to_translate.php:84
+msgid "Booked"
+msgstr "Rezervat"
+
+#: lang/strings_to_translate.php:85
+#: admin/menu.php:1076
+msgid "Booking form"
+msgstr "Formular de rezervare"
+
+#: lang/strings_to_translate.php:86
+msgid "Breakfast"
+msgstr "Mic dejun"
+
+#: lang/strings_to_translate.php:87
+#: tpl/payment/stripe-form.php:55
+#: tpl/payment/stripe-form-3ds-step-3.php:29
+msgid "CVC"
+msgstr "CVC"
+
+#: lang/strings_to_translate.php:88
+msgid "Cable TV"
+msgstr "TV prin cablu"
+
+#: lang/strings_to_translate.php:89
+#: inc/class-hostifybooking-loader.php:1219
+msgid "Cache is disabled now"
+msgstr "Cache-ul este dezactivat acum"
+
+#: lang/strings_to_translate.php:90
+#: admin/menu.php:961
+msgid "Can be used, for example, inside title (H1 tag) on the listing search page"
+msgstr "Poate fi folosit, de exemplu, în interiorul titlului (tag H1) pe pagina de căutare a listărilor"
+
+#: lang/strings_to_translate.php:91
+#: inc/class-hostifybooking-loader.php:730
+#: tpl/element/direct-inquiry-modal-v2.php:243
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:108
+#: admin/exopite-simple-options/fields/upload.php:106
+#: admin/exopite-simple-options/fields/upload.php:138
+msgid "Cancel"
+msgstr "Anulează"
+
+#: lang/strings_to_translate.php:92
+#: tpl/user/booking-manage.php:221
+#: tpl/user/booking-manage.php:239
+msgid "Cancel booking"
+msgstr "Anulează rezervarea"
+
+#: lang/strings_to_translate.php:93
+msgid "Cancellation policy"
+msgstr "Politica de anulare"
+
+#: lang/strings_to_translate.php:94
+#: tpl/user/bookings-list.php:18
+msgid "Cancelled"
+msgstr "Anulat"
+
+#: lang/strings_to_translate.php:95
+msgid "Capacity"
+msgstr "Capacitate"
+
+#: lang/strings_to_translate.php:96
+msgid "Carbon monoxide detector"
+msgstr "Detector de monoxid de carbon"
+
+#: lang/strings_to_translate.php:97
+#: tpl/payment/stripe-form.php:43
+#: tpl/payment/stripe-form-3ds-step-3.php:17
+msgid "Card number"
+msgstr "Număr card"
+
+#: lang/strings_to_translate.php:98
+msgid "Cats live on this property"
+msgstr "Pisici locuiesc în această proprietate"
+
+#: lang/strings_to_translate.php:99
+#: tpl/user/booking-manage.php:258
+msgid "Change of business event"
+msgstr "Schimbare eveniment de afaceri"
+
+#: lang/strings_to_translate.php:100
+#: admin/menu.php:1287
+msgid "Changelog"
+msgstr "Jurnal de modificări"
+
+#: lang/strings_to_translate.php:101
+msgid "Changing table"
+msgstr "Masă de înfășat"
+
+#: lang/strings_to_translate.php:102
+#: tpl/element/booking-search.php:156
+#: tpl/element/booking-search.php:173
+#: tpl/element/booking-search.php:187
+#: tpl/element/direct-inquiry-modal-v2.php:82
+#: tpl/element/direct-inquiry-modal.php:67
+#: tpl/element/direct-inquiry-modal.php:83
+#: tpl/payment/charge-preview.php:16
+#: tpl/payment/preview.php:20
+#: tpl/user/booking-manage.php:31
+#: tpl/listing/listing-booking-form.php:16
+#: tpl/listing/listing-booking-form.php:26
+#: tpl/listing/listing-booking-form.php:35
+#: tpl/listing/listing-booking-form-on-request.php:20
+#: tpl/listing/listing-booking-form-on-request.php:29
+#: tpl/listing/listing-reviews-summary.php:57
+#: tpl/listing/listing-booking-form-v2.php:17
+#: tpl/listing/listing-booking-form-v2.php:28
+#: tpl/listing/listing-booking-form-v2.php:37
+msgid "Check In"
+msgstr "Check-in"
+
+#: lang/strings_to_translate.php:103
+#: tpl/element/booking-search.php:156
+#: tpl/element/booking-search.php:173
+#: tpl/element/booking-search.php:197
+#: tpl/element/direct-inquiry-modal-v2.php:82
+#: tpl/element/direct-inquiry-modal.php:67
+#: tpl/element/direct-inquiry-modal.php:96
+#: tpl/payment/charge-preview.php:20
+#: tpl/payment/preview.php:26
+#: tpl/user/booking-manage.php:36
+#: tpl/listing/listing-booking-form.php:16
+#: tpl/listing/listing-booking-form.php:26
+#: tpl/listing/listing-booking-form.php:42
+#: tpl/listing/listing-booking-form-on-request.php:20
+#: tpl/listing/listing-booking-form-on-request.php:36
+#: tpl/listing/listing-booking-form-v2.php:17
+#: tpl/listing/listing-booking-form-v2.php:28
+#: tpl/listing/listing-booking-form-v2.php:44
+msgid "Check Out"
+msgstr "Check-out"
+
+#: lang/strings_to_translate.php:104
+#: tpl/user/booking-manage.php:174
+msgid "Check in"
+msgstr "Check-in"
+
+#: lang/strings_to_translate.php:105
+#: tpl/user/booking-manage.php:194
+msgid "Check out"
+msgstr "Check-out"
+
+#: lang/strings_to_translate.php:106
+#: tpl/element/direct-inquiry-modal-v2.php:126
+#: tpl/element/guests-block.php:39
+#: tpl/element/direct-inquiry-modal.php:114
+#: tpl/payment/charge-preview.php:43
+#: tpl/payment/preview.php:60
+msgid "Children"
+msgstr "Copii"
+
+#: lang/strings_to_translate.php:107
+#: tpl/user/booking-manage.php:202
+msgid "Children allowed:"
+msgstr "Copii permiși:"
+
+#: lang/strings_to_translate.php:108
+#: admin/menu.php:1259
+msgid "Cities"
+msgstr "Orașe"
+
+#: lang/strings_to_translate.php:109
+#: tpl/payment/netpay-form.php:143
+msgid "City"
+msgstr "Oraș"
+
+#: lang/strings_to_translate.php:110
+#: tpl/listing/listing-info-prices.php:44
+msgid "Cleaning Fee: "
+msgstr "Taxă de curățenie: "
+
+#: lang/strings_to_translate.php:111
+msgid "Cleaning before checkout"
+msgstr "Curățenie înainte de check-out"
+
+#: lang/strings_to_translate.php:112
+#: tpl/element/price-block-default.php:132
+#: tpl/payment/preview-default.php:30
+msgid "Cleaning fee"
+msgstr "Taxă de curățenie"
+
+#: lang/strings_to_translate.php:113
+#: tpl/listing/listing-reviews-summary.php:31
+msgid "Cleanliness"
+msgstr "Curățenie"
+
+#: lang/strings_to_translate.php:114
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:117
+msgid "Clear"
+msgstr "Șterge"
+
+#: lang/strings_to_translate.php:115
+#: admin/menu.php:1348
+msgid "Clear Comments"
+msgstr "Șterge comentariile"
+
+#: lang/strings_to_translate.php:116
+#: tpl/element/booking-search-popup.php:159
+msgid "Clear all"
+msgstr "Șterge tot"
+
+#: lang/strings_to_translate.php:117
+#: inc/class-hostifybooking-loader.php:1221
+msgid "Clear cache"
+msgstr "Șterge cache"
+
+#: lang/strings_to_translate.php:118
+#: tpl/element/direct-inquiry-modal-v2.php:87
+#: tpl/listing/listing-booking-form.php:97
+#: tpl/listing/listing-booking-form-on-request.php:90
+#: tpl/listing/listing-booking-form-v2.php:92
+msgid "Clear dates"
+msgstr "Șterge datele"
+
+#: lang/strings_to_translate.php:119
+#: admin/menu.php:811
+msgid "Clear this field if you do not need to do this check"
+msgstr "Șterge acest câmp dacă nu ai nevoie să faci această verificare"
+
+#: lang/strings_to_translate.php:120
+#: admin/menu.php:592
+msgid "Click on a card will open the listing in a new tab/window"
+msgstr "Click pe un card va deschide anunțul într-o filă/fereastră nouă"
+
+#: lang/strings_to_translate.php:121
+#: tpl/element/booking-search-popup.php:162
+#: tpl/element/direct-inquiry-modal-v2.php:17
+#: tpl/element/guests-block.php:144
+#: admin/exopite-simple-options/fields/upload.php:119
+msgid "Close"
+msgstr "Închide"
+
+#: lang/strings_to_translate.php:122
+#: tpl/user/bookings-list-item.php:50
+msgid "Code:"
+msgstr "Cod:"
+
+#: lang/strings_to_translate.php:123
+msgid "Coffee maker"
+msgstr "Cafetieră"
+
+#: lang/strings_to_translate.php:124
+#: tpl/listing/listing-reviews-summary.php:30
+msgid "Communication"
+msgstr "Comunicare"
+
+#: lang/strings_to_translate.php:125
+#: admin/menu.php:1332
+msgid "Compile MO Files"
+msgstr "Compilează fișierele MO"
+
+#: lang/strings_to_translate.php:126
+#: admin/menu.php:1331
+msgid "Compile all PO files to MO files (useful if you edited files externally):"
+msgstr "Compilează toate fișierele PO în fișiere MO (util dacă ai editat fișierele extern):"
+
+#: lang/strings_to_translate.php:127
+msgid "Compile all PO files to MO files for WordPress to use translations:"
+msgstr "Compilează toate fișierele PO în fișiere MO pentru ca WordPress să folosească traducerile:"
+
+#: lang/strings_to_translate.php:128
+#: admin/menu.php:943
+msgid "Complex:"
+msgstr "Complex:"
+
+#: lang/strings_to_translate.php:129
+#: tpl/payment/charge-success.php:37
+msgid "Confirmation code"
+msgstr "Cod de confirmare"
+
+#: lang/strings_to_translate.php:130
+#: tpl/user/bookings-list-item.php:46
+msgid "Confirmed at:"
+msgstr "Confirmat la:"
+
+#: lang/strings_to_translate.php:131
+#: tpl/payment/netpay-form.php:155
+msgid "Continue"
+msgstr "Continuă"
+
+#: lang/strings_to_translate.php:132
+msgid "Cooking basics"
+msgstr "Ustensile de gătit de bază"
+
+#: lang/strings_to_translate.php:133
+#: admin/menu.php:939
+msgid "Copy the shortcode and place it on post, page, text, code widget, etc. Refer the plugin Readme and documentation for more info about shortcodes and parameters."
+msgstr "Copiază shortcode-ul și plasează-l în articol, pagină, text, widget de cod, etc. Consultă fișierul Readme și documentația plugin-ului pentru mai multe informații despre shortcode-uri și parametri."
+
+#: lang/strings_to_translate.php:134
+msgid "Cottage"
+msgstr "Căsuță"
+
+#: lang/strings_to_translate.php:135
+#: tpl/payment/netpay-form.php:107
+#: tpl/payment/stripe-form-3ds-element-step-1.php:49
+#: tpl/payment/stripe-form-3ds-element-step-1.php:51
+#: tpl/payment/paypal-form-step-1.php:43
+#: tpl/payment/paypal-form-step-1.php:45
+#: tpl/payment/stripe-form-3ds-step-1.php:52
+#: tpl/payment/stripe-form-3ds-step-1.php:54
+msgid "Country"
+msgstr "Țară"
+
+#: lang/strings_to_translate.php:136
+#: tpl/element/price-block-default.php:122
+#: tpl/element/price-block-accounting.php:118
+msgid "Coupon Discount"
+msgstr "Reducere cupon"
+
+#: lang/strings_to_translate.php:137
+#: tpl/element/price-block-default.php:110
+#: tpl/element/price-block-accounting.php:106
+#: tpl/payment/preview-accounting.php:102
+#: tpl/payment/preview-accounting.php:107
+#: tpl/payment/preview-default.php:86
+#: tpl/payment/preview-default.php:91
+msgid "Coupon discount"
+msgstr "Reducere cupon"
+
+#: lang/strings_to_translate.php:138
+#: admin/menu.php:1370
+msgid "Create Backup Now"
+msgstr "Creează backup acum"
+
+#: lang/strings_to_translate.php:139
+#: admin/menu.php:1393
+msgid "Create backup of existing file before replacing"
+msgstr "Creează backup al fișierului existent înainte de înlocuire"
+
+#: lang/strings_to_translate.php:140
+#: admin/menu.php:133
+#: admin/menu.php:156
+#: admin/menu.php:178
+#: admin/menu.php:200
+#: admin/menu.php:222
+#: admin/menu.php:244
+#: admin/menu.php:266
+msgid "Create new page"
+msgstr "Creează pagină nouă"
+
+#: lang/strings_to_translate.php:141
+msgid "Crib"
+msgstr "Pătuț"
+
+#: lang/strings_to_translate.php:142
+#: admin/menu.php:644
+#: admin/menu.php:687
+msgid "Custom URL"
+msgstr "URL personalizat"
+
+#: lang/strings_to_translate.php:143
+#: admin/menu.php:549
+msgid "Custom styles"
+msgstr "Stiluri personalizate"
+
+#: lang/strings_to_translate.php:144
+#: admin/menu.php:872
+msgid "Custom template path"
+msgstr "Cale șablon personalizat"
+
+#: lang/strings_to_translate.php:145
+msgid "Daily"
+msgstr "Zilnic"
+
+#: lang/strings_to_translate.php:146
+msgid "Daily rental"
+msgstr "Închiriere zilnică"
+
+#: lang/strings_to_translate.php:147
+#: tpl/user/booking-manage.php:259
+msgid "Decided to stay home"
+msgstr "A decis să stea acasă"
+
+#: lang/strings_to_translate.php:148
+#: admin/menu.php:536
+msgid "Default map type"
+msgstr "Tip hartă implicit"
+
+#: lang/strings_to_translate.php:149
+#: admin/menu.php:568
+msgid "Default sorting"
+msgstr "Sortare implicită"
+
+#: lang/strings_to_translate.php:150
+#: admin/menu.php:388
+msgid "Default term mode"
+msgstr "Mod termen implicit"
+
+#: lang/strings_to_translate.php:151
+#: admin/menu.php:342
+msgid "Default text if nothing is selected"
+msgstr "Text implicit dacă nu este selectat nimic"
+
+#: lang/strings_to_translate.php:152
+#: admin/menu.php:605
+msgid "Define a list of amenities to show (IDs separated with a comma). All others will be hidden."
+msgstr "Definește o listă de facilități de afișat (ID-uri separate prin virgulă). Toate celelalte vor fi ascunse."
+
+#: lang/strings_to_translate.php:153
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:105
+#: admin/exopite-simple-options/fields/upload.php:110
+msgid "Delete"
+msgstr "Șterge"
+
+#: lang/strings_to_translate.php:154
+#: admin/menu.php:1372
+msgid "Delete All Backups"
+msgstr "Șterge toate backup-urile"
+
+#: lang/strings_to_translate.php:155
+msgid "Depart"
+msgstr "Plecare"
+
+#: lang/strings_to_translate.php:156
+msgid "Departure"
+msgstr "Plecare"
+
+#: lang/strings_to_translate.php:157
+#: tpl/user/bookings-list-item.php:41
+msgid "Departure:"
+msgstr "Plecare:"
+
+#: lang/strings_to_translate.php:158
+#: tpl/user/bookings-list-item.php:61
+msgid "Details"
+msgstr "Detalii"
+
+#: lang/strings_to_translate.php:159
+#: admin/menu.php:1249
+msgid "Dictionaries"
+msgstr "Dicționare"
+
+#: lang/strings_to_translate.php:160
+#: admin/menu.php:857
+msgid "Disable data caching"
+msgstr "Dezactivează cache-ul de date"
+
+#: lang/strings_to_translate.php:161
+#: admin/menu.php:913
+msgid "Disable overwriting of the payment templates"
+msgstr "Dezactivează suprascrierea șabloanelor de plată"
+
+#: lang/strings_to_translate.php:162
+#: admin/menu.php:912
+msgid "Disable payment templates"
+msgstr "Dezactivează șabloanele de plată"
+
+#: lang/strings_to_translate.php:163
+msgid "Disabled parking spot"
+msgstr "Loc de parcare pentru persoane cu dizabilități"
+
+#: lang/strings_to_translate.php:164
+#: tpl/element/direct-inquiry-modal-v2.php:218
+#: tpl/element/direct-inquiry-modal.php:134
+msgid "Discount Code"
+msgstr "Cod de reducere"
+
+#: lang/strings_to_translate.php:165
+msgid "Dishes and silverware"
+msgstr "Vase și tacâmuri"
+
+#: lang/strings_to_translate.php:166
+msgid "Dishwasher"
+msgstr "Mașină de spălat vase"
+
+#: lang/strings_to_translate.php:167
+#: admin/menu.php:520
+msgid "Display many closely spaced markers as one cluster on the map"
+msgstr "Afișează mai mulți markeri apropiați ca un cluster pe hartă"
+
+#: lang/strings_to_translate.php:168
+#: admin/menu.php:843
+msgid "Do not load Bootstrap library that comes with the plugin"
+msgstr "Nu încărca biblioteca Bootstrap care vine cu plugin-ul"
+
+#: lang/strings_to_translate.php:169
+#: admin/menu.php:852
+msgid "Do not load all the CSS that comes with the plugin, including Bootstrap"
+msgstr "Nu încărca tot CSS-ul care vine cu plugin-ul, inclusiv Bootstrap"
+
+#: lang/strings_to_translate.php:170
+#: admin/menu.php:861
+msgid "Do not use cache - it can be useful for testing or troubleshooting"
+msgstr "Nu folosi cache - poate fi util pentru testare sau depanare"
+
+#: lang/strings_to_translate.php:171
+#: admin/menu.php:1402
+msgid "Documentation"
+msgstr "Documentație"
+
+#: lang/strings_to_translate.php:172
+#: tpl/element/booking-search-advanced.php:53
+msgid "Does not matter"
+msgstr "Nu contează"
+
+#: lang/strings_to_translate.php:173
+msgid "Doorman"
+msgstr "Portar"
+
+#: lang/strings_to_translate.php:174
+#: admin/menu.php:1349
+msgid "Download .po File"
+msgstr "Descarcă fișier .po"
+
+#: lang/strings_to_translate.php:175
+#: admin/exopite-simple-options/fields/backup.php:44
+msgid "Download Backup"
+msgstr "Descarcă backup"
+
+#: lang/strings_to_translate.php:176
+#: admin/menu.php:1380
+msgid "Download all translation files as a ZIP archive for external storage"
+msgstr "Descarcă toate fișierele de traducere ca arhivă ZIP pentru stocare externă"
+
+#: lang/strings_to_translate.php:177
+#: admin/menu.php:1384
+msgid "Download backups before plugin updates and store them safely. You can then upload individual .po files or restore entire backups after updates."
+msgstr "Descarcă backup-uri înainte de actualizările plugin-ului și stochează-le în siguranță. Apoi poți încărca fișiere .po individuale sau restaura backup-uri complete după actualizări."
+
+#: lang/strings_to_translate.php:178
+#: admin/exopite-simple-options/fields/upload.php:71
+msgid "Drop files here"
+msgstr "Trage fișierele aici"
+
+#: lang/strings_to_translate.php:179
+msgid "Dryer"
+msgstr "Uscător"
+
+#: lang/strings_to_translate.php:180
+#: tpl/element/price-block-default.php:165
+#: tpl/element/price-block-default.php:176
+#: tpl/element/price-block-accounting.php:182
+#: tpl/element/price-block-accounting.php:193
+msgid "Due later"
+msgstr "De plătit mai târziu"
+
+#: lang/strings_to_translate.php:181
+#: tpl/element/price-block-default.php:160
+#: tpl/element/price-block-default.php:171
+#: tpl/element/price-block-accounting.php:177
+#: tpl/element/price-block-accounting.php:188
+#: tpl/payment/preview.php:128
+msgid "Due now"
+msgstr "De plătit acum"
+
+#: lang/strings_to_translate.php:182
+#: tpl/element/price-block-accounting.php:137
+#: tpl/payment/preview.php:83
+msgid "Due upon arrival:"
+msgstr "De plătit la sosire:"
+
+#: lang/strings_to_translate.php:183
+#: tpl/user/booking-manage.php:256
+msgid "Duplicate booking"
+msgstr "Rezervare duplicată"
+
+#: lang/strings_to_translate.php:184
+#: admin/menu.php:651
+msgid "Dynamic Google Map"
+msgstr "Hartă Google dinamică"
+
+#: lang/strings_to_translate.php:185
+msgid "EV charger"
+msgstr "Încărcător mașină electrică"
+
+#: lang/strings_to_translate.php:186
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:106
+msgid "Edit"
+msgstr "Editează"
+
+#: lang/strings_to_translate.php:187
+#: admin/menu.php:136
+#: admin/menu.php:159
+#: admin/menu.php:181
+#: admin/menu.php:203
+#: admin/menu.php:225
+#: admin/menu.php:247
+#: admin/menu.php:269
+msgid "Edit page"
+msgstr "Editează pagina"
+
+#: lang/strings_to_translate.php:188
+#: admin/menu.php:1340
+msgid "Edit translations directly in the admin interface. Select a language file and edit the translations below."
+msgstr "Editează traducerile direct în interfața de administrare. Selectează un fișier de limbă și editează traducerile mai jos."
+
+#: lang/strings_to_translate.php:189
+msgid "Electric profiling bed"
+msgstr "Pat electric reglabil"
+
+#: lang/strings_to_translate.php:190
+msgid "Elevator in building"
+msgstr "Lift în clădire"
+
+#: lang/strings_to_translate.php:191
+#: tpl/element/direct-inquiry-modal-v2.php:59
+#: tpl/element/direct-inquiry-modal-v2.php:61
+#: tpl/element/direct-inquiry-modal.php:36
+#: tpl/payment/stripe-form.php:22
+#: tpl/payment/stripe-form.php:23
+#: tpl/payment/netpay-form.php:86
+#: tpl/payment/stripe-form-3ds-element-step-1.php:23
+#: tpl/payment/stripe-form-3ds-element-step-1.php:24
+#: tpl/payment/paypal-form-step-1.php:26
+#: tpl/payment/paypal-form-step-1.php:27
+#: tpl/payment/stripe-form-3ds-step-1.php:26
+#: tpl/payment/stripe-form-3ds-step-1.php:27
+msgid "Email"
+msgstr "Email"
+
+#: lang/strings_to_translate.php:192
+#: admin/menu.php:358
+msgid "Enable keyword search"
+msgstr "Activează căutarea după cuvinte cheie"
+
+#: lang/strings_to_translate.php:193
+#: admin/menu.php:924
+msgid "Enable the new reservation inquiry modal design."
+msgstr "Activează noul design al ferestrei de solicitare rezervare."
+
+#: lang/strings_to_translate.php:194
+#: tpl/element/direct-inquiry-modal-v2.php:220
+msgid "Enter discount code (if available)"
+msgstr "Introdu codul de reducere (dacă este disponibil)"
+
+#: lang/strings_to_translate.php:195
+msgid "Enter location..."
+msgstr "Introdu locația..."
+
+#: lang/strings_to_translate.php:196
+#: inc/helpers/ListingHelper.php:57
+msgid "Entire home/flat"
+msgstr "Întreaga casă/apartament"
+
+#: lang/strings_to_translate.php:197
+#: tpl/payment/stripe-form-3ds-element.php:93
+msgid "Error"
+msgstr "Eroare"
+
+#: lang/strings_to_translate.php:198
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:113
+msgid "Error regenerating permalinks."
+msgstr "Eroare la regenerarea permalink-urilor."
+
+#: lang/strings_to_translate.php:199
+#: admin/exopite-simple-options/fields/typography.php:186
+msgid "Error! Can not load json file."
+msgstr "Eroare! Nu se poate încărca fișierul json."
+
+#: lang/strings_to_translate.php:200
+msgid "Essentials"
+msgstr "Esențiale"
+
+#: lang/strings_to_translate.php:201
+msgid "Ethernet connection"
+msgstr "Conexiune Ethernet"
+
+#: lang/strings_to_translate.php:202
+msgid "Event friendly"
+msgstr "Potrivit pentru evenimente"
+
+#: lang/strings_to_translate.php:203
+#: tpl/element/booking-search-popup.php:147
+msgid "Events allowed"
+msgstr "Evenimente permise"
+
+#: lang/strings_to_translate.php:204
+#: admin/menu.php:1313
+msgid "Existing translation files (will add missing strings)"
+msgstr "Fișiere de traducere existente (va adăuga șirurile lipsă)"
+
+#: lang/strings_to_translate.php:205
+#: tpl/payment/stripe-form.php:50
+#: tpl/payment/stripe-form-3ds-step-3.php:25
+msgid "Expiration"
+msgstr "Expirare"
+
+#: lang/strings_to_translate.php:206
+#: tpl/element/price-block-default.php:139
+#: tpl/payment/preview-default.php:37
+msgid "Extra person"
+msgstr "Persoană suplimentară"
+
+#: lang/strings_to_translate.php:207
+msgid "Extra pillows and blankets"
+msgstr "Perne și pături suplimentare"
+
+#: lang/strings_to_translate.php:208
+#: admin/menu.php:1315
+msgid "Extract Strings"
+msgstr "Extrage șirurile"
+
+#: lang/strings_to_translate.php:209
+#: admin/menu.php:1308
+msgid "Extract Translatable Strings"
+msgstr "Extrage șirurile traductibile"
+
+#: lang/strings_to_translate.php:210
+#: tpl/payment/stripe-form-3ds-element-step-2.php:9
+#: tpl/payment/stripe-form-3ds-step-2.php:12
+#: tpl/user/booking-manage.php:98
+msgid "Extras"
+msgstr "Extra"
+
+#: lang/strings_to_translate.php:211
+#: admin/menu.php:1181
+msgid "Facilities"
+msgstr "Facilități"
+
+#: lang/strings_to_translate.php:212
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:290
+msgid "Failed to delete permalink."
+msgstr "Eroare la ștergerea permalink-ului."
+
+#: lang/strings_to_translate.php:213
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:252
+msgid "Failed to update permalink."
+msgstr "Eroare la actualizarea permalink-ului."
+
+#: lang/strings_to_translate.php:214
+msgid "Family/kids friendly"
+msgstr "Potrivit pentru familii/copii"
+
+#: lang/strings_to_translate.php:215
+#: tpl/payment/stripe-form.php:34
+msgid "Feel free to leave any additional question..."
+msgstr "Nu ezita să lași orice întrebare suplimentară..."
+
+#: lang/strings_to_translate.php:216
+#: tpl/payment/stripe-form-3ds-element-step-1.php:42
+#: tpl/payment/stripe-form-3ds-step-1.php:45
+msgid "Feel free to leave any additional questions..."
+msgstr "Nu ezita să lași orice întrebări suplimentare..."
+
+#: lang/strings_to_translate.php:217
+#: admin/menu.php:355
+msgid "Filter locations while typing in selector"
+msgstr "Filtrează locațiile în timp ce scrii în selector"
+
+#: lang/strings_to_translate.php:218
+#: admin/menu.php:1354
+msgid "Filter translations:"
+msgstr "Filtrează traducerile:"
+
+#: lang/strings_to_translate.php:219
+msgid "Fire extinguisher"
+msgstr "Extinctor"
+
+#: lang/strings_to_translate.php:220
+msgid "Fireplace guards"
+msgstr "Protecții pentru șemineu"
+
+#: lang/strings_to_translate.php:221
+msgid "Firm mattress"
+msgstr "Saltea fermă"
+
+#: lang/strings_to_translate.php:222
+#: tpl/element/direct-inquiry-modal-v2.php:46
+#: tpl/element/direct-inquiry-modal-v2.php:47
+#: tpl/element/direct-inquiry-modal.php:22
+msgid "First Name"
+msgstr "Prenume"
+
+#: lang/strings_to_translate.php:223
+msgid "First aid kit"
+msgstr "Trusă de prim ajutor"
+
+#: lang/strings_to_translate.php:224
+msgid "First name"
+msgstr "Prenume"
+
+#: lang/strings_to_translate.php:225
+msgid "Flat smooth pathway to front door"
+msgstr "Cale plană și netedă până la ușa de la intrare"
+
+#: lang/strings_to_translate.php:226
+#: tpl/user/booking-manage.php:257
+msgid "Flight / Train cancelled"
+msgstr "Zbor / Tren anulat"
+
+#: lang/strings_to_translate.php:227
+#: tpl/payment/time-left.php:13
+msgid "For your security, this session has timed out."
+msgstr "Pentru securitatea ta, această sesiune a expirat."
+
+#: lang/strings_to_translate.php:228
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:119
+msgid "Found %d out of %d total"
+msgstr "Găsite %d din %d total"
+
+#: lang/strings_to_translate.php:229
+msgid "Free parking on premises"
+msgstr "Parcare gratuită la proprietate"
+
+#: lang/strings_to_translate.php:230
+msgid "Free parking on the street"
+msgstr "Parcare gratuită pe stradă"
+
+#: lang/strings_to_translate.php:231
+#: inc/shortcodes/inc/make-listing-item-vars.php:38
+msgid "From"
+msgstr "De la"
+
+#: lang/strings_to_translate.php:232
+msgid "Full kitchen"
+msgstr "Bucătărie completă"
+
+#: lang/strings_to_translate.php:233
+#: tpl/user/bookings-list.php:14
+msgid "Future"
+msgstr "Viitoare"
+
+#: lang/strings_to_translate.php:234
+#: admin/menu.php:814
+msgid "GA Events"
+msgstr "Evenimente GA"
+
+#: lang/strings_to_translate.php:235
+#: admin/menu.php:1094
+msgid "Gallery"
+msgstr "Galerie"
+
+#: lang/strings_to_translate.php:236
+msgid "Game console"
+msgstr "Consolă de jocuri"
+
+#: lang/strings_to_translate.php:237
+msgid "Garden or backyard"
+msgstr "Grădină sau curte"
+
+#: lang/strings_to_translate.php:238
+msgid "Generate .mo files from the .po files for WordPress to use the translations."
+msgstr "Generează fișiere .mo din fișierele .po pentru ca WordPress să folosească traducerile."
+
+#: lang/strings_to_translate.php:239
+#: tpl/payment/stripe-form-3ds_success.php:58
+msgid "Go Back"
+msgstr "Înapoi"
+
+#: lang/strings_to_translate.php:240
+#: tpl/payment/_success.php:85
+#: tpl/payment/charge-success.php:100
+#: tpl/payment/charge-error.php:41
+msgid "Go back"
+msgstr "Înapoi"
+
+#: lang/strings_to_translate.php:241
+#: admin/exopite-simple-options/fields/typography.php:93
+msgid "Google Fonts"
+msgstr "Fonturi Google"
+
+#: lang/strings_to_translate.php:242
+msgid "Grab-rails for shower and toilet"
+msgstr "Bare de sprijin pentru duș și toaletă"
+
+#: lang/strings_to_translate.php:243
+#: admin/menu.php:516
+msgid "Group to clusters"
+msgstr "Grupează în clustere"
+
+#: lang/strings_to_translate.php:244
+#: tpl/listing/listing-info.php:16
+msgid "Guest access"
+msgstr "Acces oaspeți"
+
+#: lang/strings_to_translate.php:245
+#: admin/menu.php:1409
+msgid "Guest area setup"
+msgstr "Configurare zonă oaspeți"
+
+#: lang/strings_to_translate.php:246
+#: tpl/element/direct-inquiry-modal-v2.php:96
+#: tpl/payment/charge-preview.php:28
+#: tpl/payment/preview.php:38
+#: tpl/user/booking-manage.php:44
+msgid "Guests"
+msgstr "Oaspeți"
+
+#: lang/strings_to_translate.php:247
+#: tpl/listing/listing-booking-form.php:51
+#: tpl/listing/listing-booking-form-on-request.php:45
+msgid "Guests:"
+msgstr "Oaspeți:"
+
+#: lang/strings_to_translate.php:248
+msgid "Gym"
+msgstr "Sală de fitness"
+
+#: lang/strings_to_translate.php:249
+msgid "Hair dryer"
+msgstr "Uscător de păr"
+
+#: lang/strings_to_translate.php:250
+msgid "Handheld shower head"
+msgstr "Cap de duș mobil"
+
+#: lang/strings_to_translate.php:251
+msgid "Hangers"
+msgstr "Umerașe"
+
+#: lang/strings_to_translate.php:252
+msgid "Has dog"
+msgstr "Are câine"
+
+#: lang/strings_to_translate.php:253
+#: tpl/listing/listing-booking-form.php:66
+#: tpl/listing/listing-booking-form-on-request.php:60
+#: tpl/listing/listing-booking-form-v2.php:61
+msgid "Have a discount code?"
+msgstr "Ai un cod de reducere?"
+
+#: lang/strings_to_translate.php:254
+msgid "Heating"
+msgstr "Încălzire"
+
+#: lang/strings_to_translate.php:255
+#: tpl/payment/preview.php:158
+msgid "Hide details"
+msgstr "Ascunde detaliile"
+
+#: lang/strings_to_translate.php:256
+#: tpl/listing/listings-map-toggle.php:11
+#: tpl/listing/listings-map-toggle.php:23
+#: tpl/listing/listings-map-toggle.php:34
+#: tpl/listing/listings-map-toggle.php:47
+msgid "Hide map"
+msgstr "Ascunde harta"
+
+#: lang/strings_to_translate.php:257
+msgid "High chair"
+msgstr "Scaun înalt pentru copii"
+
+#: lang/strings_to_translate.php:258
+msgid "Home office friendly"
+msgstr "Potrivit pentru lucru de acasă"
+
+#: lang/strings_to_translate.php:259
+msgid "Host checkin"
+msgstr "Check-in cu gazda"
+
+#: lang/strings_to_translate.php:260
+#: inc/class-hostifybooking-widget.php:47
+msgid "Hostify"
+msgstr "Hostify"
+
+#: lang/strings_to_translate.php:261
+#: inc/class-hostifybooking-widget.php:14
+msgid "Hostify Booking 1"
+msgstr "Hostify Booking 1"
+
+#: lang/strings_to_translate.php:262
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:1384
+msgid "Hostify Booking Engine"
+msgstr "Motor de Rezervări Hostify"
+
+#: lang/strings_to_translate.php:263
+#: inc/class-hostifybooking-widget.php:15
+msgid "Hostify Booking Widget 1"
+msgstr "Widget Rezervări Hostify 1"
+
+#: lang/strings_to_translate.php:264
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:1364
+msgid "Hostify cache cleared"
+msgstr "Cache-ul Hostify a fost golit"
+
+#: lang/strings_to_translate.php:265
+#: admin/class-hostifybooking-admin.php:135
+msgid "Hostify cached data cleared"
+msgstr "Datele cache Hostify au fost golite"
+
+#: lang/strings_to_translate.php:266
+#: inc/seo.php:43
+msgid "Hostify settings"
+msgstr "Setări Hostify"
+
+#: lang/strings_to_translate.php:267
+msgid "Hot tub"
+msgstr "Cadă cu hidromasaj"
+
+#: lang/strings_to_translate.php:268
+msgid "Hot water"
+msgstr "Apă caldă"
+
+#: lang/strings_to_translate.php:269
+msgid "House"
+msgstr "Casă"
+
+#: lang/strings_to_translate.php:270
+#: tpl/element/booking-search-popup.php:138
+#: tpl/user/booking-manage.php:171
+msgid "House rules"
+msgstr "Reguli casă"
+
+#: lang/strings_to_translate.php:271
+#: admin/menu.php:1323
+msgid "How to Use"
+msgstr "Cum se folosește"
+
+#: lang/strings_to_translate.php:272
+#: admin/menu.php:542
+msgid "Hybrid"
+msgstr "Hibrid"
+
+#: lang/strings_to_translate.php:273
+msgid "I consent to this processing of my data."
+msgstr "Sunt de acord cu această procesare a datelor mele."
+
+#: lang/strings_to_translate.php:274
+#: admin/menu.php:1274
+msgid "ID codes of available amenities"
+msgstr "Coduri ID ale facilităților disponibile"
+
+#: lang/strings_to_translate.php:275
+#: admin/menu.php:1262
+msgid "ID codes of available cities"
+msgstr "Coduri ID ale orașelor disponibile"
+
+#: lang/strings_to_translate.php:276
+#: admin/menu.php:362
+msgid "If enabled, a keyword search field will be added to the search form."
+msgstr "Dacă este activat, un câmp de căutare după cuvinte cheie va fi adăugat la formularul de căutare."
+
+#: lang/strings_to_translate.php:277
+#: admin/menu.php:377
+msgid "If enabled, only listings with the specified number of bedrooms will be shown in the search results."
+msgstr "Dacă este activat, doar listările cu numărul specificat de dormitoare vor fi afișate în rezultatele căutării."
+
+#: lang/strings_to_translate.php:278
+#: tpl/user/booking-manage.php:253
+msgid "Illness"
+msgstr "Boală"
+
+#: lang/strings_to_translate.php:279
+#: admin/menu.php:581
+msgid "Images slider"
+msgstr "Slider imagini"
+
+#: lang/strings_to_translate.php:280
+#: admin/exopite-simple-options/fields/backup.php:40
+msgid "Import a Backup"
+msgstr "Importă un backup"
+
+#: lang/strings_to_translate.php:281
+msgid "Imprint"
+msgstr "Amprentă"
+
+#: lang/strings_to_translate.php:282
+#: admin/menu.php:177
+msgid "In case you use the direct payment acceptance"
+msgstr "În cazul în care folosești acceptarea directă a plăților"
+
+#: lang/strings_to_translate.php:283
+#: inc/shortcodes/hfy-payment.php:120
+#: inc/ajax/hfy-ajax-payment-preview.php:114
+msgid "Incorrect parameters"
+msgstr "Parametri incorecți"
+
+#: lang/strings_to_translate.php:284
+msgid "Indoor fireplace"
+msgstr "Șemineu interior"
+
+#: lang/strings_to_translate.php:285
+#: tpl/element/direct-inquiry-modal-v2.php:142
+#: tpl/element/guests-block.php:64
+#: tpl/element/direct-inquiry-modal.php:119
+#: tpl/payment/charge-preview.php:45
+#: tpl/payment/preview.php:64
+msgid "Infants"
+msgstr "Bebeluși"
+
+#: lang/strings_to_translate.php:286
+#: admin/menu.php:1111
+msgid "Info"
+msgstr "Informații"
+
+#: lang/strings_to_translate.php:287
+#: admin/menu.php:1409
+msgid "Initial setup"
+msgstr "Configurare inițială"
+
+#: lang/strings_to_translate.php:288
+#: admin/menu.php:1339
+msgid "Inline Translation Editor"
+msgstr "Editor de traducere inline"
+
+#: lang/strings_to_translate.php:289
+#: tpl/listing/listing-info.php:21
+msgid "Interaction with guests"
+msgstr "Interacțiunea cu oaspeții"
+
+#: lang/strings_to_translate.php:290
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:210
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:277
+msgid "Invalid data."
+msgstr "Date invalide."
+
+#: lang/strings_to_translate.php:291
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:341
+msgid "Irks! An un-known error has occurred."
+msgstr "Ups! A apărut o eroare necunoscută."
+
+#: lang/strings_to_translate.php:292
+msgid "Iron"
+msgstr "Fier de călcat"
+
+#: lang/strings_to_translate.php:293
+#: inc/shortcodes/inc/load-settings.php:16
+msgid "Is not active"
+msgstr "Nu este activ"
+
+#: lang/strings_to_translate.php:294
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Se pare că nu s-a găsit nimic la această locație. Poate încercați unul dintre link-urile de mai jos sau o căutare?"
+
+#: lang/strings_to_translate.php:295
+#: admin/menu.php:562
+msgid "Items (listings) per page"
+msgstr "Elemente (listări) pe pagină"
+
+#: lang/strings_to_translate.php:296
+msgid "Jacuzzi"
+msgstr "Jacuzzi"
+
+#: lang/strings_to_translate.php:297
+msgid "Kettle"
+msgstr "Fierbător"
+
+#: lang/strings_to_translate.php:298
+msgid "Keypad"
+msgstr "Tastatură numerică"
+
+#: lang/strings_to_translate.php:299
+#: admin/menu.php:366
+msgid "Keyword search placeholder"
+msgstr "Text placeholder pentru căutarea după cuvinte cheie"
+
+#: lang/strings_to_translate.php:300
+msgid "Kitchen"
+msgstr "Bucătărie"
+
+#: lang/strings_to_translate.php:301
+msgid "Lake access"
+msgstr "Acces la lac"
+
+#: lang/strings_to_translate.php:302
+msgid "Laptop friendly workspace"
+msgstr "Spațiu de lucru prietenos pentru laptop"
+
+#: lang/strings_to_translate.php:303
+#: tpl/element/direct-inquiry-modal-v2.php:51
+#: tpl/element/direct-inquiry-modal-v2.php:52
+#: tpl/element/direct-inquiry-modal.php:27
+msgid "Last Name"
+msgstr "Nume de familie"
+
+#: lang/strings_to_translate.php:304
+msgid "Last name"
+msgstr "Nume de familie"
+
+#: lang/strings_to_translate.php:305
+#: admin/menu.php:952
+msgid "List of Listings, show the search result"
+msgstr "Lista de proprietăți, afișează rezultatul căutării"
+
+#: lang/strings_to_translate.php:306
+#: admin/menu.php:471
+msgid "List of amenities to show (ID separated by comma):"
+msgstr "Lista de facilități de afișat (ID-uri separate prin virgulă):"
+
+#: lang/strings_to_translate.php:307
+#: inc/shortcodes/inc/load-listing-price.php:17
+#: inc/shortcodes/hfy-payment.php:110
+#: inc/shortcodes/hfy-payment-charge.php:94
+#: inc/ajax/hfy-ajax-payment-preview.php:104
+msgid "Listing price is not available"
+msgstr "Prețul proprietății nu este disponibil"
+
+#: lang/strings_to_translate.php:308
+#: admin/menu.php:999
+msgid "Listing search form"
+msgstr "Formular de căutare proprietăți"
+
+#: lang/strings_to_translate.php:309
+#: admin/menu.php:770
+msgid "Listing slug"
+msgstr "Slug proprietate"
+
+#: lang/strings_to_translate.php:310
+#: admin/menu.php:309
+#: admin/menu.php:556
+#: admin/menu.php:949
+msgid "Listings"
+msgstr "Proprietăți"
+
+#: lang/strings_to_translate.php:311
+#: admin/menu.php:957
+msgid "Listings info"
+msgstr "Informații proprietăți"
+
+#: lang/strings_to_translate.php:312
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:1367
+msgid "Listings links updated"
+msgstr "Link-urile proprietăților au fost actualizate"
+
+#: lang/strings_to_translate.php:313
+#: admin/menu.php:966
+msgid "Listings map"
+msgstr "Harta proprietăților"
+
+#: lang/strings_to_translate.php:314
+#: admin/menu.php:974
+msgid "Listings map show/hide button"
+msgstr "Buton afișare/ascundere hartă proprietăți"
+
+#: lang/strings_to_translate.php:315
+#: admin/menu.php:119
+msgid "Listings page"
+msgstr "Pagina proprietăților"
+
+#: lang/strings_to_translate.php:316
+#: admin/menu.php:981
+msgid "Listings sort control"
+msgstr "Control sortare proprietăți"
+
+#: lang/strings_to_translate.php:317
+#: admin/menu.php:351
+msgid "Live search"
+msgstr "Căutare în timp real"
+
+#: lang/strings_to_translate.php:318
+#: admin/menu.php:1346
+msgid "Load Translations"
+msgstr "Încarcă traduceri"
+
+#: lang/strings_to_translate.php:319
+msgid "Loading calendar..."
+msgstr "Se încarcă calendarul..."
+
+#: lang/strings_to_translate.php:320
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:102
+msgid "Loading permalinks data..."
+msgstr "Se încarcă datele permalink-urilor..."
+
+#: lang/strings_to_translate.php:321
+#: tpl/user/booking-manage.php:254
+msgid "Local competition preferred"
+msgstr "Competiție locală preferată"
+
+#: lang/strings_to_translate.php:322
+#: tpl/listing/listing.php:32
+#: tpl/listing/listing-reviews-summary.php:56
+#: admin/menu.php:1197
+msgid "Location"
+msgstr "Locație"
+
+#: lang/strings_to_translate.php:323
+#: admin/menu.php:325
+msgid "Location selector options"
+msgstr "Opțiuni selector locație"
+
+#: lang/strings_to_translate.php:324
+#: admin/menu.php:338
+msgid "Location selector placeholder"
+msgstr "Text placeholder selector locație"
+
+#: lang/strings_to_translate.php:325
+msgid "Lock on bedroom door"
+msgstr "Încuietoare la ușa dormitorului"
+
+#: lang/strings_to_translate.php:326
+msgid "Lockbox"
+msgstr "Cutie cu încuietoare"
+
+#: lang/strings_to_translate.php:327
+msgid "Long term stays allowed"
+msgstr "Șederi pe termen lung permise"
+
+#: lang/strings_to_translate.php:328
+#: tpl/element/booking-search.php:28
+msgid "Long-term bookings"
+msgstr "Rezervări pe termen lung"
+
+#: lang/strings_to_translate.php:329
+msgid "Luggage dropoff allowed"
+msgstr "Depozitare bagaje permisă"
+
+#: lang/strings_to_translate.php:330
+#: admin/menu.php:1328
+msgid "MO files are automatically generated when you save translations through our editor."
+msgstr "Fișierele MO sunt generate automat când salvați traducerile prin editorul nostru."
+
+#: lang/strings_to_translate.php:331
+#: admin/menu.php:1102
+msgid "Main image"
+msgstr "Imagine principală"
+
+#: lang/strings_to_translate.php:332
+#: admin/menu.php:1330
+msgid "Maintenance"
+msgstr "Întreținere"
+
+#: lang/strings_to_translate.php:333
+msgid "Make a booking inquiry"
+msgstr "Fă o solicitare de rezervare"
+
+#: lang/strings_to_translate.php:334
+msgid "Make an inquiry"
+msgstr "Fă o solicitare"
+
+#: lang/strings_to_translate.php:335
+#: admin/menu.php:308
+#: admin/menu.php:496
+msgid "Map"
+msgstr "Hartă"
+
+#: lang/strings_to_translate.php:336
+#: admin/menu.php:509
+msgid "Map price"
+msgstr "Preț pe hartă"
+
+#: lang/strings_to_translate.php:337
+#: admin/menu.php:502
+msgid "Map tracking"
+msgstr "Urmărire pe hartă"
+
+#: lang/strings_to_translate.php:338
+#: admin/exopite-simple-options/fields/upload.php:180
+msgid "Max amount of files: "
+msgstr "Număr maxim de fișiere: "
+
+#: lang/strings_to_translate.php:339
+#: admin/exopite-simple-options/fields/upload.php:181
+msgid "Max file upload size: "
+msgstr "Dimensiune maximă fișier: "
+
+#: lang/strings_to_translate.php:340
+#: admin/menu.php:431
+msgid "Max guests number"
+msgstr "Număr maxim de oaspeți"
+
+#: lang/strings_to_translate.php:341
+#: admin/menu.php:412
+msgid "Max infants number"
+msgstr "Număr maxim de bebeluși"
+
+#: lang/strings_to_translate.php:342
+#: admin/exopite-simple-options/fields/group.php:348
+msgid "Max items:"
+msgstr "Număr maxim de elemente:"
+
+#: lang/strings_to_translate.php:343
+#: admin/menu.php:424
+msgid "Max pets number"
+msgstr "Număr maxim de animale de companie"
+
+#: lang/strings_to_translate.php:344
+#: admin/menu.php:530
+msgid "Max zoom"
+msgstr "Zoom maxim"
+
+#: lang/strings_to_translate.php:345
+#: tpl/element/direct-inquiry-modal-v2.php:206
+msgid "Maximum %d guests."
+msgstr "Maximum %d oaspeți."
+
+#: lang/strings_to_translate.php:346
+#: tpl/listing/listing-info-prices.php:63
+msgid "Maximum Number Of Days: "
+msgstr "Număr maxim de zile: "
+
+#: lang/strings_to_translate.php:347
+msgid "Microwave"
+msgstr "Cuptor cu microunde"
+
+#: lang/strings_to_translate.php:348
+msgid "Minimum stay %s nights"
+msgstr "Ședere minimă %s nopți"
+
+#: lang/strings_to_translate.php:349
+#: admin/menu.php:312
+#: admin/menu.php:737
+msgid "Miscellaneous"
+msgstr "Diverse"
+
+#: lang/strings_to_translate.php:350
+msgid "Monthly"
+msgstr "Lunar"
+
+#: lang/strings_to_translate.php:351
+#: tpl/listing/listing-info-prices.php:19
+msgid "Monthly (30d+):"
+msgstr "Lunar (30z+):"
+
+#: lang/strings_to_translate.php:352
+msgid "Monthly rental"
+msgstr "Închiriere lunară"
+
+#: lang/strings_to_translate.php:353
+#: tpl/element/booking-search-advanced.php:43
+msgid "More"
+msgstr "Mai mult"
+
+#: lang/strings_to_translate.php:354
+msgid "More filters"
+msgstr "Mai multe filtre"
+
+#: lang/strings_to_translate.php:355
+msgid "More results"
+msgstr "Mai multe rezultate"
+
+#: lang/strings_to_translate.php:356
+#: admin/menu.php:799
+msgid "NOINDEX for selected listings"
+msgstr "NOINDEX pentru proprietățile selectate"
+
+#: lang/strings_to_translate.php:357
+#: tpl/payment/stripe-form.php:15
+#: tpl/payment/stripe-form.php:16
+#: tpl/payment/netpay-form.php:79
+#: tpl/payment/stripe-form-3ds-element-step-1.php:14
+#: tpl/payment/stripe-form-3ds-element-step-1.php:15
+#: tpl/payment/paypal-form-step-1.php:17
+#: tpl/payment/paypal-form-step-1.php:18
+#: tpl/payment/stripe-form-3ds-step-1.php:17
+#: tpl/payment/stripe-form-3ds-step-1.php:18
+msgid "Name"
+msgstr "Nume"
+
+#: lang/strings_to_translate.php:358
+#: tpl/element/pagination-block.php:37
+#: tpl/payment/stripe-form-3ds-element-step-2.php:36
+#: tpl/payment/stripe-form-3ds-element-step-1.php:65
+#: tpl/payment/paypal-form-step-1.php:59
+#: tpl/payment/stripe-form-3ds-step-2.php:39
+#: tpl/payment/stripe-form-3ds-step-1.php:68
+msgid "Next"
+msgstr "Următorul"
+
+#: lang/strings_to_translate.php:359
+msgid "Next:"
+msgstr "Următorul:"
+
+#: lang/strings_to_translate.php:360
+#: tpl/listing/listing-info-prices.php:6
+msgid "Nightly:"
+msgstr "Pe noapte:"
+
+#: lang/strings_to_translate.php:361
+#: tpl/user/booking-manage.php:199
+#: tpl/user/booking-manage.php:203
+#: tpl/user/booking-manage.php:207
+#: tpl/user/booking-manage.php:211
+#: admin/exopite-simple-options/fields/upload.php:127
+msgid "No"
+msgstr "Nu"
+
+#: lang/strings_to_translate.php:362
+#: tpl/element/error-no-listings-available.php:2
+msgid "No accommodation available"
+msgstr "Nicio cazare disponibilă"
+
+#: lang/strings_to_translate.php:363
+#: tpl/element/error-no-listings-found.php:2
+msgid "No available properties for your search."
+msgstr "Nicio proprietate disponibilă pentru căutarea dvs."
+
+#: lang/strings_to_translate.php:364
+#: inc/class-hostifybooking-loader.php:244
+msgid "No available properties for your selection."
+msgstr "Nicio proprietate disponibilă pentru selecția dvs."
+
+#: lang/strings_to_translate.php:365
+#: inc/shortcodes/inc/load-listing-seo.php:12
+#: inc/shortcodes/inc/load-listing.php:25
+msgid "No listing"
+msgstr "Nicio proprietate"
+
+#: lang/strings_to_translate.php:366
+#: inc/helpers.php:479
+#: inc/shortcodes/hfy-listing-location.php:20
+#: inc/shortcodes/hfy-listing-virtual-tour.php:13
+#: inc/shortcodes/hfy-listing-reviews-summary.php:13
+#: inc/shortcodes/hfy-listing-details-field.php:13
+#: inc/shortcodes/hfy-listing-info-interaction.php:12
+#: inc/shortcodes/hfy-listing-info-transit.php:12
+#: inc/shortcodes/hfy-listing-info-neighbourhood.php:12
+#: inc/shortcodes/hfy-listing-info-summary.php:12
+#: inc/shortcodes/hfy-listing-info.php:13
+#: inc/shortcodes/hfy-listing-gallery.php:13
+#: inc/shortcodes/hfy-listing-info-address.php:12
+#: inc/shortcodes/hfy-listing-booking-form.php:14
+#: inc/shortcodes/hfy-listing-info-house-rules.php:12
+#: inc/shortcodes/hfy-listing-field.php:13
+#: inc/shortcodes/hfy-listing.php:12
+#: inc/shortcodes/hfy-payment.php:33
+#: inc/shortcodes/hfy-listing-image.php:13
+#: inc/shortcodes/hfy-listing-info-permit.php:17
+#: inc/shortcodes/hfy-listing-facilities.php:13
+#: inc/shortcodes/hfy-listing-reviews-count.php:13
+#: inc/shortcodes/hfy-top-listings.php:15
+#: inc/shortcodes/hfy-listing-info-prices.php:17
+#: inc/shortcodes/hfy-listing-info-guest-access.php:12
+#: inc/shortcodes/hfy-listing-reviews-comments.php:13
+#: inc/shortcodes/hfy-listing-info-space.php:12
+#: inc/shortcodes/hfy-listing-title.php:13
+#: inc/shortcodes/hfy-listing-cancellation-policy.php:13
+#: inc/shortcodes/hfy-listing-amenities.php:13
+#: inc/shortcodes/hfy-listing-room-type.php:13
+#: inc/shortcodes/hfy-listing-info-notes.php:12
+#: inc/shortcodes/hfy-listing-availability.php:15
+#: inc/ajax/hfy-ajax-payment-preview.php:28
+msgid "No listing ID"
+msgstr "Niciun ID de proprietate"
+
+#: lang/strings_to_translate.php:367
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:118
+msgid "No matching permalinks found."
+msgstr "Nu s-au găsit permalink-uri potrivite."
+
+#: lang/strings_to_translate.php:368
+#: inc/shortcodes/hfy-payment.php:291
+msgid "No payment service"
+msgstr "Niciun serviciu de plată"
+
+#: lang/strings_to_translate.php:369
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:103
+msgid "No permalinks found."
+msgstr "Nu s-au găsit permalink-uri."
+
+#: lang/strings_to_translate.php:370
+#: inc/shortcodes/hfy-payment-charge.php:13
+msgid "No reservation ID"
+msgstr "Niciun ID de rezervare"
+
+#: lang/strings_to_translate.php:371
+#: inc/shortcodes/hfy-payment-charge.php:19
+msgid "No reservation found"
+msgstr "Nu s-a găsit nicio rezervare"
+
+#: lang/strings_to_translate.php:372
+#: inc/shortcodes/hfy-user-booking-manage.php:63
+#: inc/shortcodes/hfy-user-booking-manage.php:71
+msgid "Not found"
+msgstr "Nu s-a găsit"
+
+#: lang/strings_to_translate.php:373
+#: tpl/payment/stripe-form.php:35
+#: tpl/payment/_success.php:74
+#: tpl/payment/stripe-form-3ds-element-step-1.php:41
+#: tpl/payment/charge-success.php:89
+#: tpl/payment/stripe-form-3ds-step-1.php:44
+msgid "Note"
+msgstr "Notă"
+
+#: lang/strings_to_translate.php:374
+msgid "Nothing Found"
+msgstr "Nu s-a găsit nimic"
+
+#: lang/strings_to_translate.php:375
+#: tpl/user/bookings-list.php:31
+msgid "Nothing yet"
+msgstr "Nimic încă"
+
+#: lang/strings_to_translate.php:376
+#: admin/exopite-simple-options/fields/upload.php:140
+msgid "Ok"
+msgstr "Ok"
+
+#: lang/strings_to_translate.php:377
+#: admin/menu.php:618
+msgid "Only amenities with images will be displayed"
+msgstr "Doar facilitățile cu imagini vor fi afișate"
+
+#: lang/strings_to_translate.php:378
+#: admin/menu.php:464
+msgid "Only selected amenities will be used in the advanced search form"
+msgstr "Doar facilitățile selectate vor fi folosite în formularul de căutare avansată"
+
+#: lang/strings_to_translate.php:379
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Ups! Pagina nu poate fi găsită."
+
+#: lang/strings_to_translate.php:380
+#: admin/menu.php:588
+msgid "Open in new window"
+msgstr "Deschide în fereastră nouă"
+
+#: lang/strings_to_translate.php:381
+#: admin/menu.php:1055
+msgid "Optional extras block with checkboxes"
+msgstr "Bloc de extra opționale cu căsuțe de bifat"
+
+#: lang/strings_to_translate.php:382
+#: admin/menu.php:300
+msgid "Options"
+msgstr "Opțiuni"
+
+#: lang/strings_to_translate.php:383
+#: admin/menu.php:722
+msgid "Other"
+msgstr "Altele"
+
+#: lang/strings_to_translate.php:384
+#: tpl/user/booking-manage.php:255
+msgid "Other destination preferred"
+msgstr "Altă destinație preferată"
+
+#: lang/strings_to_translate.php:385
+#: tpl/listing/listing-info.php:26
+msgid "Other things to note"
+msgstr "Alte lucruri de menționat"
+
+#: lang/strings_to_translate.php:386
+#: admin/menu.php:378
+msgid "Otherwise, by default, the result includes the specified number or more."
+msgstr "În caz contrar, implicit, rezultatul include numărul specificat sau mai mult."
+
+#: lang/strings_to_translate.php:387
+msgid "Outlet covers"
+msgstr "Protecții prize"
+
+#: lang/strings_to_translate.php:388
+msgid "Oven"
+msgstr "Cuptor"
+
+#: lang/strings_to_translate.php:389
+#: admin/menu.php:132
+msgid "Page to show list of Listings or search result"
+msgstr "Pagină pentru afișarea listei de proprietăți sau rezultatul căutării"
+
+#: lang/strings_to_translate.php:390
+#: admin/menu.php:115
+msgid "Pages"
+msgstr "Pagini"
+
+#: lang/strings_to_translate.php:391
+msgid "Pages:"
+msgstr "Pagini:"
+
+#: lang/strings_to_translate.php:392
+msgid "Paid parking on the street"
+msgstr "Parcare cu plată pe stradă"
+
+#: lang/strings_to_translate.php:393
+msgid "Paid parking with garage"
+msgstr "Parcare cu plată în garaj"
+
+#: lang/strings_to_translate.php:394
+msgid "Parking"
+msgstr "Parcare"
+
+#: lang/strings_to_translate.php:395
+#: admin/menu.php:1119
+msgid "Part of hfy_listing_info"
+msgstr "Parte din hfy_listing_info"
+
+#: lang/strings_to_translate.php:396
+#: tpl/user/booking-manage.php:210
+msgid "Party allowed:"
+msgstr "Petrecere permisă:"
+
+#: lang/strings_to_translate.php:397
+#: tpl/user/bookings-list.php:16
+msgid "Past"
+msgstr "Trecut"
+
+#: lang/strings_to_translate.php:398
+msgid "Path to entrance lit at night"
+msgstr "Cale de acces iluminată noaptea"
+
+#: lang/strings_to_translate.php:399
+msgid "Patio or balcony"
+msgstr "Terasă sau balcon"
+
+#: lang/strings_to_translate.php:400
+#: tpl/payment/stripe-form.php:91
+#: tpl/payment/netpay-form.php:163
+#: tpl/payment/netpay-form.php:178
+#: tpl/payment/netpay-form.php:302
+#: tpl/payment/stripe-form-3ds-step-3.php:65
+#: tpl/payment/stripe-form-3ds-element-step-3.php:53
+msgid "Pay"
+msgstr "Plătește"
+
+#: lang/strings_to_translate.php:401
+#: tpl/payment/payment-netpay.php:12
+#: tpl/payment/stripe-form-3ds-step-3.php:12
+#: tpl/payment/charge-error.php:22
+#: tpl/payment/stripe-form-3ds-element-step-3.php:12
+#: admin/menu.php:311
+#: admin/menu.php:659
+msgid "Payment"
+msgstr "Plată"
+
+#: lang/strings_to_translate.php:402
+#: tpl/payment/stripe-form-3ds_success.php:51
+msgid "Payment Amount"
+msgstr "Suma plății"
+
+#: lang/strings_to_translate.php:403
+#: tpl/payment/stripe-form-3ds_success.php:43
+msgid "Payment Method"
+msgstr "Metodă de plată"
+
+#: lang/strings_to_translate.php:404
+#: tpl/payment/stripe-form-3ds_success.php:12
+msgid "Payment Successful"
+msgstr "Plată reușită"
+
+#: lang/strings_to_translate.php:405
+#: tpl/payment/_success.php:63
+#: tpl/payment/charge-success.php:78
+msgid "Payment amount"
+msgstr "Suma plății"
+
+#: lang/strings_to_translate.php:406
+#: admin/menu.php:186
+msgid "Payment charge page"
+msgstr "Pagina de plată"
+
+#: lang/strings_to_translate.php:407
+#: tpl/payment/_success.php:51
+#: tpl/payment/charge-success.php:67
+msgid "Payment method"
+msgstr "Metodă de plată"
+
+#: lang/strings_to_translate.php:408
+#: admin/menu.php:164
+#: admin/menu.php:1028
+msgid "Payment page"
+msgstr "Pagina de plată"
+
+#: lang/strings_to_translate.php:409
+#: admin/menu.php:1036
+msgid "Payment result page"
+msgstr "Pagina cu rezultatul plății"
+
+#: lang/strings_to_translate.php:410
+#: tpl/payment/_success.php:16
+#: tpl/payment/charge-success.php:27
+#: tpl/payment/paypal-form.php:69
+msgid "Payment successful"
+msgstr "Plată reușită"
+
+#: lang/strings_to_translate.php:411
+#: tpl/listing/listing-info-prices.php:50
+msgid "Per Stay City Free: "
+msgstr "Gratuit per ședere în oraș: "
+
+#: lang/strings_to_translate.php:412
+#: tpl/listing/listing-info-prices.php:56
+msgid "Per Stay Minimum Number Of Days: "
+msgstr "Număr minim de zile per ședere: "
+
+#: lang/strings_to_translate.php:413
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:294
+msgid "Permalink deleted successfully."
+msgstr "Permalink șters cu succes."
+
+#: lang/strings_to_translate.php:414
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:110
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:256
+msgid "Permalink updated successfully."
+msgstr "Permalink actualizat cu succes."
+
+#: lang/strings_to_translate.php:415
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:112
+msgid "Permalinks regenerated successfully!"
+msgstr "Permalink-uri regenerate cu succes!"
+
+#: lang/strings_to_translate.php:416
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:330
+msgid "Permalinks regenerated successfully."
+msgstr "Permalink-uri regenerate cu succes."
+
+#: lang/strings_to_translate.php:417
+#: admin/menu.php:1382
+msgid "Permanently delete this backup (cannot be undone)"
+msgstr "Șterge permanent acest backup (nu poate fi anulat)"
+
+#: lang/strings_to_translate.php:418
+#: tpl/listing/listing-info-permit.php:5
+msgid "Permit / Tax ID"
+msgstr "Permis / Cod fiscal"
+
+#: lang/strings_to_translate.php:419
+#: tpl/payment/stripe-form-3ds-element-step-1.php:9
+#: tpl/payment/paypal-form-step-1.php:12
+#: tpl/payment/stripe-form-3ds-step-1.php:12
+msgid "Personal details"
+msgstr "Date personale"
+
+#: lang/strings_to_translate.php:420
+#: tpl/user/wishlist-item.php:34
+msgid "Persons:"
+msgstr "Persoane:"
+
+#: lang/strings_to_translate.php:421
+#: tpl/element/direct-inquiry-modal-v2.php:158
+#: tpl/element/guests-block.php:96
+#: tpl/element/direct-inquiry-modal.php:128
+#: tpl/element/booking-search-advanced.php:50
+#: tpl/payment/charge-preview.php:47
+#: tpl/payment/preview.php:68
+msgid "Pets"
+msgstr "Animale de companie"
+
+#: lang/strings_to_translate.php:422
+#: tpl/element/booking-search-popup.php:143
+msgid "Pets allowed"
+msgstr "Animale de companie permise"
+
+#: lang/strings_to_translate.php:423
+#: tpl/element/direct-inquiry-modal-v2.php:200
+#: tpl/element/guests-block.php:136
+msgid "Pets allowed."
+msgstr "Animale de companie permise."
+
+#: lang/strings_to_translate.php:424
+#: tpl/user/booking-manage.php:206
+msgid "Pets allowed:"
+msgstr "Animale de companie permise:"
+
+#: lang/strings_to_translate.php:425
+msgid "Pets are welcome"
+msgstr "Animalele de companie sunt binevenite"
+
+#: lang/strings_to_translate.php:426
+msgid "Pets live on this property"
+msgstr "Există animale de companie în această proprietate"
+
+#: lang/strings_to_translate.php:427
+#: admin/menu.php:488
+msgid "Pets selector in advanced"
+msgstr "Selector animale de companie în avansat"
+
+#: lang/strings_to_translate.php:428
+#: tpl/element/direct-inquiry-modal-v2.php:68
+#: tpl/element/direct-inquiry-modal-v2.php:70
+#: tpl/element/direct-inquiry-modal.php:41
+#: tpl/payment/stripe-form.php:27
+#: tpl/payment/stripe-form.php:28
+#: tpl/payment/netpay-form.php:93
+#: tpl/payment/stripe-form-3ds-element-step-1.php:32
+#: tpl/payment/stripe-form-3ds-element-step-1.php:33
+#: tpl/payment/paypal-form-step-1.php:35
+#: tpl/payment/paypal-form-step-1.php:36
+#: tpl/payment/stripe-form-3ds-step-1.php:35
+#: tpl/payment/stripe-form-3ds-step-1.php:36
+msgid "Phone"
+msgstr "Telefon"
+
+#: lang/strings_to_translate.php:429
+#: tpl/payment/stripe-form-3ds-element-step-1.php:33
+#: tpl/payment/paypal-form-step-1.php:36
+#: tpl/payment/stripe-form-3ds-step-1.php:36
+msgid "Phone with country code is mandatory. For example: +1234567890"
+msgstr "Telefonul cu prefix de țară este obligatoriu. De exemplu: +1234567890"
+
+#: lang/strings_to_translate.php:430
+#: admin/menu.php:370
+msgid "Placeholder text for the keyword search field"
+msgstr "Text placeholder pentru câmpul de căutare după cuvinte cheie"
+
+#: lang/strings_to_translate.php:431
+#: admin/exopite-simple-options/fields/backup.php:47
+msgid "Please be sure for reset all of framework options."
+msgstr "Vă rugăm să fiți sigur pentru resetarea tuturor opțiunilor framework-ului."
+
+#: lang/strings_to_translate.php:432
+#: tpl/payment/time-left.php:4
+msgid "Please complete the form and submit your payment within"
+msgstr "Vă rugăm să completați formularul și să trimiteți plata în"
+
+#: lang/strings_to_translate.php:433
+#: tpl/user/booking-manage.php:267
+msgid "Please enter your comment or feedback here (optional)"
+msgstr "Vă rugăm să introduceți comentariul sau feedback-ul dvs. aici (opțional)"
+
+#: lang/strings_to_translate.php:434
+#: tpl/user/error-please-login.php:3
+msgid "Please log in"
+msgstr "Vă rugăm să vă autentificați"
+
+#: lang/strings_to_translate.php:435
+#: tpl/payment/time-left.php:15
+msgid "Please refresh the page to start again."
+msgstr "Vă rugăm să reîmprospătați pagina pentru a începe din nou."
+
+#: lang/strings_to_translate.php:436
+#: tpl/user/booking-manage.php:275
+msgid "Please tell us a reason or a comment"
+msgstr "Vă rugăm să ne spuneți un motiv sau un comentariu"
+
+#: lang/strings_to_translate.php:437
+msgid "Please try again"
+msgstr "Vă rugăm să încercați din nou"
+
+#: lang/strings_to_translate.php:438
+#: inc/shortcodes/inc/load-listing-seo.php:8
+#: inc/shortcodes/inc/load-data.php:6
+#: inc/shortcodes/inc/load-listing.php:20
+#: inc/shortcodes/inc/load-top-listings.php:7
+msgid "Please try again later"
+msgstr "Vă rugăm să încercați mai târziu"
+
+#: lang/strings_to_translate.php:439
+#: admin/exopite-simple-options/fields/upload.php:182
+msgid "Plugin"
+msgstr "Plugin"
+
+#: lang/strings_to_translate.php:440
+msgid "Pocket wifi"
+msgstr "WiFi portabil"
+
+#: lang/strings_to_translate.php:441
+msgid "Pool"
+msgstr "Piscină"
+
+#: lang/strings_to_translate.php:442
+#: tpl/payment/stripe-form-3ds-element-step-1.php:58
+#: tpl/payment/paypal-form-step-1.php:52
+#: tpl/payment/stripe-form-3ds-step-1.php:61
+msgid "Postal code"
+msgstr "Cod poștal"
+
+#: lang/strings_to_translate.php:443
+#: admin/menu.php:1045
+msgid "Predefined extras block"
+msgstr "Bloc de extra predefinite"
+
+#: lang/strings_to_translate.php:444
+#: tpl/element/pagination-block.php:9
+msgid "Previous"
+msgstr "Anterior"
+
+#: lang/strings_to_translate.php:445
+msgid "Previous:"
+msgstr "Anterior:"
+
+#: lang/strings_to_translate.php:446
+#: tpl/element/booking-search-popup.php:119
+#: tpl/user/wishlist-item.php:45
+msgid "Price"
+msgstr "Preț"
+
+#: lang/strings_to_translate.php:447
+#: tpl/user/wishlist.php:26
+#: tpl/listing/listings-sort.php:9
+msgid "Price ascending"
+msgstr "Preț crescător"
+
+#: lang/strings_to_translate.php:448
+#: tpl/user/wishlist.php:27
+#: tpl/listing/listings-sort.php:10
+msgid "Price descending"
+msgstr "Preț descrescător"
+
+#: lang/strings_to_translate.php:449
+#: tpl/element/price-block-default.php:21
+#: tpl/element/price-block-accounting.php:13
+#: tpl/element/price-block-accounting.php:21
+#: tpl/payment/preview-accounting.php:12
+#: tpl/payment/preview-accounting.php:19
+#: tpl/payment/preview-default.php:23
+#: tpl/user/booking-manage.php:50
+msgid "Price for"
+msgstr "Preț pentru"
+
+#: lang/strings_to_translate.php:450
+#: tpl/payment/preview.php:142
+msgid "Price incl. security deposit"
+msgstr "Preț inclusiv garanție"
+
+#: lang/strings_to_translate.php:451
+#: inc/shortcodes/inc/make-listing-tpl-vars.php:45
+#: tpl/listing/listing-booking-form-on-request.php:9
+msgid "Price on request"
+msgstr "Preț la cerere"
+
+#: lang/strings_to_translate.php:452
+msgid "Print this page"
+msgstr "Printează această pagină"
+
+#: lang/strings_to_translate.php:453
+msgid "Privacy Policy"
+msgstr "Politica de confidențialitate"
+
+#: lang/strings_to_translate.php:454
+msgid "Private entrance"
+msgstr "Intrare privată"
+
+#: lang/strings_to_translate.php:455
+msgid "Private living room"
+msgstr "Living privat"
+
+#: lang/strings_to_translate.php:456
+#: inc/helpers/ListingHelper.php:58
+msgid "Private room"
+msgstr "Cameră privată"
+
+#: lang/strings_to_translate.php:457
+#: tpl/element/price-block.php:28
+msgid "Proceed to payment"
+msgstr "Continuă spre plată"
+
+#: lang/strings_to_translate.php:458
+#: admin/exopite-simple-options/fields/upload.php:88
+msgid "Processing dropped files..."
+msgstr "Se procesează fișierele încărcate..."
+
+#: lang/strings_to_translate.php:459
+#: tpl/element/booking-search-advanced.php:36
+msgid "Properties"
+msgstr "Proprietăți"
+
+#: lang/strings_to_translate.php:460
+#: tpl/payment/stripe-form-3ds_success.php:19
+msgid "Property"
+msgstr "Proprietate"
+
+#: lang/strings_to_translate.php:461
+#: tpl/element/booking-search-popup.php:82
+msgid "Property Type"
+msgstr "Tip proprietate"
+
+#: lang/strings_to_translate.php:462
+#: admin/menu.php:1368
+msgid "Protect your translation work from being lost during plugin updates. Create backups before updates and restore them afterward."
+msgstr "Protejați-vă munca de traducere pentru a nu fi pierdută în timpul actualizărilor plugin-ului. Creați backup-uri înainte de actualizări și restaurați-le după aceea."
+
+#: lang/strings_to_translate.php:463
+#: tpl/element/direct-inquiry-modal-v2.php:227
+#: tpl/element/direct-inquiry-modal.php:146
+msgid "Question or Comment"
+msgstr "Întrebare sau comentariu"
+
+#: lang/strings_to_translate.php:464
+msgid "Quiet hours"
+msgstr "Ore de liniște"
+
+#: lang/strings_to_translate.php:465
+#: admin/menu.php:74
+msgid "Read me first"
+msgstr "Citește-mă mai întâi"
+
+#: lang/strings_to_translate.php:466
+#: tpl/user/booking-manage.php:250
+msgid "Reason"
+msgstr "Motiv"
+
+#: lang/strings_to_translate.php:467
+#: admin/menu.php:1020
+msgid "Recent listings"
+msgstr "Listări recente"
+
+#: lang/strings_to_translate.php:468
+#: admin/menu.php:806
+msgid "Redirect 301"
+msgstr "Redirecționare 301"
+
+#: lang/strings_to_translate.php:469
+#: admin/menu.php:629
+msgid "Redirect if no listing"
+msgstr "Redirecționează dacă nu există listare"
+
+#: lang/strings_to_translate.php:470
+#: admin/menu.php:673
+msgid "Redirect on payment success"
+msgstr "Redirecționare la plată reușită"
+
+#: lang/strings_to_translate.php:471
+#: admin/menu.php:1371
+msgid "Refresh List"
+msgstr "Reîmprospătează lista"
+
+#: lang/strings_to_translate.php:472
+#: tpl/payment/time-left.php:20
+msgid "Refresh page"
+msgstr "Reîmprospătează pagina"
+
+#: lang/strings_to_translate.php:473
+msgid "Refrigerator"
+msgstr "Frigider"
+
+#: lang/strings_to_translate.php:474
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:114
+msgid "Regenerate Permalinks"
+msgstr "Regenerează permalink-uri"
+
+#: lang/strings_to_translate.php:475
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:111
+msgid "Regenerating..."
+msgstr "Se regenerează..."
+
+#: lang/strings_to_translate.php:476
+msgid "Registration number:"
+msgstr "Număr de înregistrare:"
+
+#: lang/strings_to_translate.php:477
+#: tpl/user/wishlist-item.php:17
+msgid "Remove from wish list"
+msgstr "Elimină din lista de dorințe"
+
+#: lang/strings_to_translate.php:478
+#: admin/menu.php:1233
+msgid "Render the iframe with link to the virtual tour"
+msgstr "Randează iframe-ul cu link către turul virtual"
+
+#: lang/strings_to_translate.php:479
+msgid "Rental"
+msgstr "Închiriere"
+
+#: lang/strings_to_translate.php:480
+#: tpl/user/booking-manage.php:296
+msgid "Request has been sent."
+msgstr "Cererea a fost trimisă."
+
+#: lang/strings_to_translate.php:481
+#: tpl/payment/stripe-form-3ds_success.php:25
+msgid "Reservation"
+msgstr "Rezervare"
+
+#: lang/strings_to_translate.php:482
+#: tpl/element/direct-inquiry-modal-v2.php:13
+#: tpl/element/direct-inquiry-modal.php:17
+#: tpl/listing/listing-booking-form.php:102
+#: tpl/listing/listing-booking-form-on-request.php:95
+#: tpl/listing/listing-booking-form-v2.php:97
+msgid "Reservation Inquiry"
+msgstr "Cerere de rezervare"
+
+#: lang/strings_to_translate.php:483
+#: tpl/user/booking-manage.php:148
+msgid "Reservation code"
+msgstr "Cod rezervare"
+
+#: lang/strings_to_translate.php:484
+#: inc/class-hostifybooking-loader.php:732
+#: tpl/element/booking-search-advanced.php:106
+msgid "Reset"
+msgstr "Resetează"
+
+#: lang/strings_to_translate.php:485
+#: admin/exopite-simple-options/fields/backup.php:48
+msgid "Reset All Options"
+msgstr "Resetează toate opțiunile"
+
+#: lang/strings_to_translate.php:486
+#: admin/menu.php:1379
+msgid "Restore all translation files from this backup (overwrites current files)"
+msgstr "Restaurează toate fișierele de traducere din acest backup (suprascrie fișierele curente)"
+
+#: lang/strings_to_translate.php:487
+#: admin/exopite-simple-options/fields/upload.php:108
+msgid "Retry"
+msgstr "Reîncearcă"
+
+#: lang/strings_to_translate.php:488
+#: admin/menu.php:1326
+msgid "Review the updated translation files in the lang/ directory."
+msgstr "Verifică fișierele de traducere actualizate în directorul lang/"
+
+#: lang/strings_to_translate.php:489
+#: admin/menu.php:1222
+msgid "Reviews comments"
+msgstr "Comentarii recenzii"
+
+#: lang/strings_to_translate.php:490
+#: admin/menu.php:1214
+msgid "Reviews count"
+msgstr "Număr recenzii"
+
+#: lang/strings_to_translate.php:491
+#: admin/menu.php:1206
+msgid "Reviews summary"
+msgstr "Sumar recenzii"
+
+#: lang/strings_to_translate.php:492
+#: admin/menu.php:540
+msgid "Roadmap (default)"
+msgstr "Hartă rutieră (implicit)"
+
+#: lang/strings_to_translate.php:493
+msgid "Roll-in shower with shower bench or chair"
+msgstr "Duș accesibil cu bancă sau scaun"
+
+#: lang/strings_to_translate.php:494
+#: admin/menu.php:1173
+msgid "Room type"
+msgstr "Tip cameră"
+
+#: lang/strings_to_translate.php:495
+msgid "Room-darkening shades"
+msgstr "Jaluzele opace"
+
+#: lang/strings_to_translate.php:496
+#: inc/seo.php:52
+#: admin/menu.php:759
+msgid "SEO"
+msgstr "SEO"
+
+#: lang/strings_to_translate.php:497
+#: admin/menu.php:763
+msgid "SEO for listings"
+msgstr "SEO pentru listări"
+
+#: lang/strings_to_translate.php:498
+msgid "Safety card"
+msgstr "Card de siguranță"
+
+#: lang/strings_to_translate.php:499
+#: admin/menu.php:541
+msgid "Satellite"
+msgstr "Satelit"
+
+#: lang/strings_to_translate.php:500
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:107
+msgid "Save"
+msgstr "Salvează"
+
+#: lang/strings_to_translate.php:501
+#: admin/menu.php:1347
+msgid "Save Changes"
+msgstr "Salvează modificările"
+
+#: lang/strings_to_translate.php:502
+#: inc/class-hostifybooking-loader.php:1224
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:1393
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:1406
+msgid "Save Settings"
+msgstr "Salvează setările"
+
+#: lang/strings_to_translate.php:503
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:1371
+msgid "Saved Successfully"
+msgstr "Salvat cu succes"
+
+#: lang/strings_to_translate.php:504
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:1371
+msgid "Saving..."
+msgstr "Se salvează..."
+
+#: lang/strings_to_translate.php:505
+#: tpl/element/booking-search-popup.php:163
+#: tpl/element/booking-search.php:260
+#: admin/menu.php:306
+#: admin/menu.php:319
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:115
+msgid "Search"
+msgstr "Caută"
+
+#: lang/strings_to_translate.php:506
+msgid "Search Results for: %s"
+msgstr "Rezultate căutare pentru: %s"
+
+#: lang/strings_to_translate.php:507
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:116
+msgid "Search by ID or name..."
+msgstr "Caută după ID sau nume..."
+
+#: lang/strings_to_translate.php:508
+#: inc/defines.php:87
+#: inc/defines.php:372
+#: tpl/element/booking-search.php:13
+#: admin/menu.php:369
+msgid "Search by keyword..."
+msgstr "Caută după cuvânt cheie..."
+
+#: lang/strings_to_translate.php:509
+#: admin/menu.php:373
+msgid "Search for the exact number of bedrooms"
+msgstr "Caută numărul exact de dormitoare"
+
+#: lang/strings_to_translate.php:510
+#: admin/menu.php:996
+msgid "Search form"
+msgstr "Formular de căutare"
+
+#: lang/strings_to_translate.php:511
+#: admin/menu.php:1355
+msgid "Search translations..."
+msgstr "Caută traduceri..."
+
+#: lang/strings_to_translate.php:512
+#: tpl/listing/listing-info-prices.php:26
+msgid "Security Deposit:"
+msgstr "Depozit de garanție:"
+
+#: lang/strings_to_translate.php:513
+#: tpl/element/price-block.php:19
+#: tpl/payment/preview.php:135
+msgid "Security deposit"
+msgstr "Depozit de garanție"
+
+#: lang/strings_to_translate.php:514
+#: tpl/listing/listings-selected-item.php:60
+#: tpl/listing/listings-recommended-item.php:60
+msgid "See more"
+msgstr "Vezi mai mult"
+
+#: lang/strings_to_translate.php:515
+#: tpl/element/booking-search-popup.php:73
+#: tpl/element/booking-search-advanced.php:53
+#: tpl/element/booking-search-advanced.php:65
+msgid "Select"
+msgstr "Selectează"
+
+#: lang/strings_to_translate.php:516
+#: admin/menu.php:1389
+msgid "Select .po file:"
+msgstr "Selectează fișier .po:"
+
+#: lang/strings_to_translate.php:517
+#: admin/menu.php:1342
+msgid "Select Language File:"
+msgstr "Selectează fișier de limbă:"
+
+#: lang/strings_to_translate.php:518
+#: admin/menu.php:460
+#: admin/menu.php:602
+msgid "Select amenities to show"
+msgstr "Selectează facilitățile de afișat"
+
+#: lang/strings_to_translate.php:519
+#: admin/exopite-simple-options/fields/upload.php:81
+msgid "Select files"
+msgstr "Selectează fișiere"
+
+#: lang/strings_to_translate.php:520
+#: admin/exopite-simple-options/fields/gallery.php:26
+msgid "Select images for gallery"
+msgstr "Selectează imagini pentru galerie"
+
+#: lang/strings_to_translate.php:521
+#: inc/defines.php:64
+#: inc/defines.php:326
+#: admin/menu.php:341
+msgid "Select location"
+msgstr "Selectează locația"
+
+#: lang/strings_to_translate.php:522
+#: tpl/user/booking-manage.php:251
+msgid "Select reason"
+msgstr "Selectează motivul"
+
+#: lang/strings_to_translate.php:523
+#: admin/menu.php:546
+msgid "Select the default map type. Users can change this using the map type control."
+msgstr "Selectează tipul implicit de hartă. Utilizatorii pot schimba acest lucru folosind controlul tipului de hartă."
+
+#: lang/strings_to_translate.php:524
+#: admin/menu.php:1004
+msgid "Selected listings"
+msgstr "Listări selectate"
+
+#: lang/strings_to_translate.php:525
+#: tpl/payment/preview-extras-set.php:7
+msgid "Selected plan:"
+msgstr "Plan selectat:"
+
+#: lang/strings_to_translate.php:526
+msgid "Self check-in"
+msgstr "Auto check-in"
+
+#: lang/strings_to_translate.php:527
+#: tpl/element/direct-inquiry-modal.php:185
+#: tpl/user/booking-manage.php:289
+msgid "Send"
+msgstr "Trimite"
+
+#: lang/strings_to_translate.php:528
+#: tpl/element/direct-inquiry-modal-v2.php:246
+msgid "Send Inquiry"
+msgstr "Trimite cererea"
+
+#: lang/strings_to_translate.php:529
+#: admin/menu.php:818
+msgid "Send custom events for Google Analytics using the Google tag (gtag) or Google Tag Manager (GTM)."
+msgstr "Trimite evenimente personalizate pentru Google Analytics folosind Google tag (gtag) sau Google Tag Manager (GTM)."
+
+#: lang/strings_to_translate.php:530
+msgid "Send inquiry"
+msgstr "Trimite cererea"
+
+#: lang/strings_to_translate.php:531
+msgid "Service charge"
+msgstr "Taxă de serviciu"
+
+#: lang/strings_to_translate.php:532
+#: inc/class-hostifybooking-loader.php:769
+#: inc/class-hostifybooking-loader.php:777
+msgid "Settings"
+msgstr "Setări"
+
+#: lang/strings_to_translate.php:533
+msgid "Shampoo"
+msgstr "Șampon"
+
+#: lang/strings_to_translate.php:534
+#: inc/helpers/ListingHelper.php:59
+msgid "Shared room"
+msgstr "Cameră comună"
+
+#: lang/strings_to_translate.php:535
+#: admin/menu.php:960
+msgid "Short info about current search"
+msgstr "Informații scurte despre căutarea curentă"
+
+#: lang/strings_to_translate.php:536
+#: admin/menu.php:452
+msgid "Short list of amenities"
+msgstr "Listă scurtă de facilități"
+
+#: lang/strings_to_translate.php:537
+#: tpl/element/booking-search.php:32
+msgid "Short-term bookings"
+msgstr "Rezervări pe termen scurt"
+
+#: lang/strings_to_translate.php:538
+#: admin/menu.php:930
+msgid "Shortcodes"
+msgstr "Shortcode-uri"
+
+#: lang/strings_to_translate.php:539
+#: admin/menu.php:492
+msgid "Show Pets selector in advanced search form instead of Guests dialog"
+msgstr "Arată selectorul de animale de companie în formularul de căutare avansată în loc de dialogul pentru oaspeți"
+
+#: lang/strings_to_translate.php:540
+#: admin/menu.php:438
+msgid "Show age hints"
+msgstr "Arată indicii despre vârstă"
+
+#: lang/strings_to_translate.php:541
+#: admin/menu.php:439
+msgid "Show age hints in the guests selection dialog"
+msgstr "Arată indicii despre vârstă în dialogul de selectare a oaspeților"
+
+#: lang/strings_to_translate.php:542
+msgid "Show all"
+msgstr "Arată tot"
+
+#: lang/strings_to_translate.php:543
+#: admin/menu.php:1097
+msgid "Show all images for one listing"
+msgstr "Arată toate imaginile pentru o listare"
+
+#: lang/strings_to_translate.php:544
+#: admin/menu.php:478
+msgid "Show amenities groups"
+msgstr "Arată grupurile de facilități"
+
+#: lang/strings_to_translate.php:545
+#: admin/menu.php:732
+msgid "Show animated loader when loading images"
+msgstr "Arată loader animat la încărcarea imaginilor"
+
+#: lang/strings_to_translate.php:546
+#: admin/menu.php:523
+msgid "Show area"
+msgstr "Arată zona"
+
+#: lang/strings_to_translate.php:547
+#: admin/menu.php:1079
+msgid "Show booking form for listing"
+msgstr "Arată formularul de rezervare pentru listare"
+
+#: lang/strings_to_translate.php:548
+#: tpl/payment/preview.php:157
+msgid "Show details"
+msgstr "Arată detalii"
+
+#: lang/strings_to_translate.php:549
+#: admin/menu.php:665
+msgid "Show discount"
+msgstr "Arată reducerea"
+
+#: lang/strings_to_translate.php:550
+#: admin/menu.php:669
+msgid "Show discount/coupon controls"
+msgstr "Arată controalele pentru reducere/cupon"
+
+#: lang/strings_to_translate.php:551
+#: admin/menu.php:655
+msgid "Show dynamic google map "
+msgstr "Arată harta Google dinamică"
+
+#: lang/strings_to_translate.php:552
+#: admin/menu.php:728
+msgid "Show image preloader"
+msgstr "Arată preîncărcătorul de imagini"
+
+#: lang/strings_to_translate.php:553
+#: admin/menu.php:406
+msgid "Show infants selector"
+msgstr "Arată selectorul pentru bebeluși"
+
+#: lang/strings_to_translate.php:554
+#: admin/menu.php:1114
+msgid "Show info block for listing"
+msgstr "Arată blocul de informații pentru listare"
+
+#: lang/strings_to_translate.php:555
+#: admin/menu.php:869
+msgid "Show links for quick access"
+msgstr "Arată link-uri pentru acces rapid"
+
+#: lang/strings_to_translate.php:556
+#: admin/menu.php:865
+msgid "Show links on admin bar"
+msgstr "Arată link-uri în bara de administrare"
+
+#: lang/strings_to_translate.php:557
+#: admin/menu.php:1192
+msgid "Show listing amenities for listing"
+msgstr "Arată facilitățile listării pentru listare"
+
+#: lang/strings_to_translate.php:558
+#: admin/menu.php:1184
+msgid "Show listing facilities for listing"
+msgstr "Arată facilitățile listării pentru listare"
+
+#: lang/strings_to_translate.php:559
+#: admin/menu.php:1200
+msgid "Show listing location on map. And there is a synonym: [hfy_listing_map]."
+msgstr "Arată locația listării pe hartă. Există și un sinonim: [hfy_listing_map]."
+
+#: lang/strings_to_translate.php:560
+#: admin/menu.php:1225
+msgid "Show listing reviews comment"
+msgstr "Arată comentariul recenziilor listării"
+
+#: lang/strings_to_translate.php:561
+#: admin/menu.php:1217
+msgid "Show listing reviews count number"
+msgstr "Arată numărul de recenzii ale listării"
+
+#: lang/strings_to_translate.php:562
+#: admin/menu.php:1209
+msgid "Show listing reviews summary"
+msgstr "Arată sumarul recenziilor listării"
+
+#: lang/strings_to_translate.php:563
+#: admin/menu.php:1088
+msgid "Show listing title"
+msgstr "Arată titlul listării"
+
+#: lang/strings_to_translate.php:564
+#: admin/menu.php:1007
+msgid "Show listings by ID, city ID"
+msgstr "Arată listări după ID, ID oraș"
+
+#: lang/strings_to_translate.php:565
+#: admin/menu.php:969
+msgid "Show listings on map"
+msgstr "Arată listări pe hartă"
+
+#: lang/strings_to_translate.php:566
+#: admin/menu.php:398
+msgid "Show long/short terms selector"
+msgstr "Arată selectorul pentru termene lungi/scurte"
+
+#: lang/strings_to_translate.php:567
+#: admin/menu.php:1105
+msgid "Show main image for one listing"
+msgstr "Arată imaginea principală pentru o listare"
+
+#: lang/strings_to_translate.php:568
+#: tpl/listing/listings-map-toggle.php:8
+#: tpl/listing/listings-map-toggle.php:20
+#: tpl/listing/listings-map-toggle.php:31
+#: tpl/listing/listings-map-toggle.php:44
+msgid "Show map"
+msgstr "Arată harta"
+
+#: lang/strings_to_translate.php:569
+#: tpl/element/booking-search-popup.php:97
+msgid "Show more"
+msgstr "Arată mai mult"
+
+#: lang/strings_to_translate.php:570
+msgid "Show more amenities"
+msgstr "Arată mai multe facilități"
+
+#: lang/strings_to_translate.php:571
+#: admin/menu.php:699
+msgid "Show optional extras on payment page"
+msgstr "Arată extra opționale pe pagina de plată"
+
+#: lang/strings_to_translate.php:572
+#: admin/menu.php:1039
+msgid "Show payment result"
+msgstr "Arată rezultatul plății"
+
+#: lang/strings_to_translate.php:573
+#: admin/menu.php:1031
+msgid "Show payment summary and form"
+msgstr "Arată sumarul plății și formularul"
+
+#: lang/strings_to_translate.php:574
+#: admin/menu.php:418
+msgid "Show pets selector"
+msgstr "Arată selectorul pentru animale de companie"
+
+#: lang/strings_to_translate.php:575
+#: admin/menu.php:513
+msgid "Show price labels on the map instead of pins"
+msgstr "Arată etichetele de preț pe hartă în loc de pinuri"
+
+#: lang/strings_to_translate.php:576
+#: admin/menu.php:1023
+msgid "Show recent listings"
+msgstr "Arată listările recente"
+
+#: lang/strings_to_translate.php:577
+#: admin/menu.php:1176
+msgid "Show room type info for listing"
+msgstr "Arată informații despre tipul camerei pentru listare"
+
+#: lang/strings_to_translate.php:578
+#: admin/menu.php:991
+msgid "Show single listing by ID"
+msgstr "Arată o singură listare după ID"
+
+#: lang/strings_to_translate.php:579
+#: admin/menu.php:527
+msgid "Show the approximate area instead of the exact location point"
+msgstr "Arată zona aproximativă în loc de punctul exact de locație"
+
+#: lang/strings_to_translate.php:580
+#: admin/menu.php:1015
+msgid "Show top listings"
+msgstr "Arată listările de top"
+
+#: lang/strings_to_translate.php:581
+#: admin/menu.php:1356
+msgid "Show untranslated only"
+msgstr "Arată doar netraduse"
+
+#: lang/strings_to_translate.php:582
+#: admin/menu.php:506
+msgid "Show/hide listings in search results while map moving"
+msgstr "Arată/ascunde listări în rezultatele căutării în timp ce harta se mișcă"
+
+#: lang/strings_to_translate.php:583
+msgid "Single level home"
+msgstr "Casă cu un singur nivel"
+
+#: lang/strings_to_translate.php:584
+#: admin/menu.php:310
+#: admin/menu.php:596
+#: admin/menu.php:988
+msgid "Single listing"
+msgstr "Listare unică"
+
+#: lang/strings_to_translate.php:585
+#: admin/menu.php:142
+msgid "Single listing page"
+msgstr "Pagină listare unică"
+
+#: lang/strings_to_translate.php:586
+msgid "Size"
+msgstr "Dimensiune"
+
+#: lang/strings_to_translate.php:587
+msgid "Ski in/Ski out"
+msgstr "Acces direct la pârtie"
+
+#: lang/strings_to_translate.php:588
+msgid "Smartlock"
+msgstr "Încuietoare inteligentă"
+
+#: lang/strings_to_translate.php:589
+msgid "Smoke detector"
+msgstr "Detector de fum"
+
+#: lang/strings_to_translate.php:590
+#: tpl/element/booking-search-popup.php:151
+msgid "Smoking allowed"
+msgstr "Fumatul permis"
+
+#: lang/strings_to_translate.php:591
+#: tpl/user/booking-manage.php:198
+msgid "Smoking allowed:"
+msgstr "Fumatul permis:"
+
+#: lang/strings_to_translate.php:592
+#: tpl/user/booking-manage.php:282
+msgid "Sorry, an error occured. Please try again later."
+msgstr "Ne pare rău, a apărut o eroare. Vă rugăm să încercați din nou mai târziu."
+
+#: lang/strings_to_translate.php:593
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Ne pare rău, dar nimic nu se potrivește cu termenii căutați. Vă rugăm să încercați din nou cu alte cuvinte cheie."
+
+#: lang/strings_to_translate.php:594
+#: inc/shortcodes/hfy-payment.php:267
+msgid "Sorry, listing currency not supported by PayPal"
+msgstr "Ne pare rău, moneda listării nu este acceptată de PayPal"
+
+#: lang/strings_to_translate.php:595
+#: tpl/user/wishlist.php:24
+#: tpl/listing/listings-sort.php:6
+msgid "Sort by:"
+msgstr "Sortează după:"
+
+#: lang/strings_to_translate.php:596
+msgid "Stair gates"
+msgstr "Porți pentru scări"
+
+#: lang/strings_to_translate.php:597
+#: tpl/payment/netpay-form.php:118
+#: tpl/payment/netpay-form.php:123
+#: tpl/payment/netpay-form.php:132
+msgid "State"
+msgstr "Județ"
+
+#: lang/strings_to_translate.php:598
+#: tpl/element/direct-inquiry-modal-v2.php:75
+msgid "Stay Dates"
+msgstr "Datele sejurului"
+
+#: lang/strings_to_translate.php:599
+msgid "Step-free access"
+msgstr "Acces fără trepte"
+
+#: lang/strings_to_translate.php:600
+msgid "Stove"
+msgstr "Aragaz"
+
+#: lang/strings_to_translate.php:601
+#: admin/menu.php:891
+msgid "Stripe payment element form"
+msgstr "Formular element de plată Stripe"
+
+#: lang/strings_to_translate.php:602
+#: tpl/element/booking-search.php:214
+#: tpl/listing/listing-facilities.php:16
+msgid "Studio"
+msgstr "Garsonieră"
+
+#: lang/strings_to_translate.php:603
+#: tpl/element/price-block-accounting.php:153
+#: tpl/payment/preview-accounting.php:53
+#: tpl/payment/preview.php:99
+#: tpl/user/booking-manage.php:92
+msgid "Subtotal"
+msgstr "Subtotal"
+
+#: lang/strings_to_translate.php:604
+msgid "TV"
+msgstr "TV"
+
+#: lang/strings_to_translate.php:605
+msgid "Table corner guards"
+msgstr "Protecții colțuri masă"
+
+#: lang/strings_to_translate.php:606
+#: admin/menu.php:345
+msgid "Tags menu"
+msgstr "Meniu etichete"
+
+#: lang/strings_to_translate.php:607
+#: tpl/element/price-block-default.php:146
+#: tpl/payment/preview-default.php:44
+msgid "Tax"
+msgstr "Taxă"
+
+#: lang/strings_to_translate.php:608
+#: tpl/payment/preview.php:103
+msgid "Taxes"
+msgstr "Taxe"
+
+#: lang/strings_to_translate.php:609
+#: admin/menu.php:1312
+msgid "Template file for translations"
+msgstr "Fișier șablon pentru traduceri"
+
+#: lang/strings_to_translate.php:610
+msgid "Terms & conditions"
+msgstr "Termeni și condiții"
+
+#: lang/strings_to_translate.php:611
+#: admin/menu.php:543
+msgid "Terrain"
+msgstr "Teren"
+
+#: lang/strings_to_translate.php:612
+#: tpl/element/direct-inquiry-modal-v2.php:31
+msgid "Thank you for your inquiry!"
+msgstr "Vă mulțumim pentru solicitare!"
+
+#: lang/strings_to_translate.php:613
+msgid "Thank you!"
+msgstr "Vă mulțumim!"
+
+#: lang/strings_to_translate.php:614
+#: tpl/payment/netpay-form.php:180
+msgid "The amount will be converted to mexican pesos"
+msgstr "Suma va fi convertită în pesos mexicani"
+
+#: lang/strings_to_translate.php:615
+msgid "The listing is not available for your selected dates."
+msgstr "Listarea nu este disponibilă pentru datele selectate."
+
+#: lang/strings_to_translate.php:616
+#: admin/menu.php:862
+msgid "The plugin uses data caching both on the Hostify API and WordPress side. Sometimes during development and configuration process, it can interfere or confuse."
+msgstr "Plugin-ul folosește cache-ul de date atât pe partea API-ului Hostify cât și pe partea WordPress. Uneori în timpul procesului de dezvoltare și configurare, poate interfera sau crea confuzie."
+
+#: lang/strings_to_translate.php:617
+#: tpl/listing/listing-info.php:11
+msgid "The space"
+msgstr "Spațiul"
+
+#: lang/strings_to_translate.php:618
+#: admin/exopite-simple-options/fields/attached.php:30
+msgid "There is no attachment with type %1$s for this %2$s."
+msgstr "Nu există niciun atașament de tipul %1$s pentru acest %2$s."
+
+#: lang/strings_to_translate.php:619
+#: tpl/payment/charge-error.php:32
+msgid "There was a problem with your payment"
+msgstr "A apărut o problemă cu plata dumneavoastră"
+
+#: lang/strings_to_translate.php:620
+#: tpl/payment/_error.php:5
+#: tpl/payment/stripe-form-3ds_error.php:3
+msgid "There was a problem with your payment. Please try again."
+msgstr "A apărut o problemă cu plata dumneavoastră. Vă rugăm să încercați din nou."
+
+#: lang/strings_to_translate.php:621
+#: admin/menu.php:363
+msgid "This allows users to search for listings by keywords like property names, descriptions, amenities, city names, or neighbourhoods. Works with API v3 for comprehensive search across all listings."
+msgstr "Aceasta permite utilizatorilor să caute listări după cuvinte cheie precum numele proprietăților, descrieri, facilități, nume de orașe sau cartiere. Funcționează cu API v3 pentru căutare completă în toate listările."
+
+#: lang/strings_to_translate.php:622
+#: inc/class-hostifybooking-loader.php:727
+msgid "This date is not available for check-in"
+msgstr "Această dată nu este disponibilă pentru check-in"
+
+#: lang/strings_to_translate.php:623
+#: inc/class-hostifybooking-loader.php:728
+msgid "This date is not available for check-out"
+msgstr "Această dată nu este disponibilă pentru check-out"
+
+#: lang/strings_to_translate.php:624
+msgid "This field is required."
+msgstr "Acest câmp este obligatoriu."
+
+#: lang/strings_to_translate.php:625
+#: admin/menu.php:155
+msgid "This page will be used in links to certain Listing"
+msgstr "Această pagină va fi folosită în linkurile către anumite Listări"
+
+#: lang/strings_to_translate.php:626
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:224
+msgid "This permalink is already in use. Please choose another one."
+msgstr "Acest permalink este deja folosit. Vă rugăm să alegeți altul."
+
+#: lang/strings_to_translate.php:627
+#: tpl/element/direct-inquiry-modal-v2.php:186
+msgid "This place has a maximum of %d guests, infants not allowed."
+msgstr "Acest loc are un maxim de %d oaspeți, sugarii nu sunt permiși."
+
+#: lang/strings_to_translate.php:628
+#: tpl/element/direct-inquiry-modal-v2.php:184
+msgid "This place has a maximum of %d guests, not including infants."
+msgstr "Acest loc are un maxim de %d oaspeți, fără a include sugarii."
+
+#: lang/strings_to_translate.php:629
+#: tpl/element/guests-block.php:122
+msgid "This place has a maximum of {max} guests, infants not allowed."
+msgstr "Acest loc are un maxim de {max} oaspeți, sugarii nu sunt permiși."
+
+#: lang/strings_to_translate.php:630
+#: tpl/element/guests-block.php:121
+msgid "This place has a maximum of {max} guests, not including infants."
+msgstr "Acest loc are un maxim de {max} oaspeți, fără a include sugarii."
+
+#: lang/strings_to_translate.php:631
+#: admin/menu.php:844
+msgid "This plugin uses the Bootstrap CSS framework. If there are any problems or conflicts with the installed plugins or theme, you can prevent the Hostiy plugin from loading this framework."
+msgstr "Acest plugin folosește framework-ul Bootstrap CSS. Dacă există probleme sau conflicte cu plugin-urile sau tema instalată, puteți împiedica plugin-ul Hostify să încarce acest framework."
+
+#: lang/strings_to_translate.php:632
+#: admin/menu.php:1309
+msgid "This tool will scan all PHP files in the plugin and extract translatable strings. It will update the following files:"
+msgstr "Acest instrument va scana toate fișierele PHP din plugin și va extrage șirurile traductibile. Va actualiza următoarele fișiere:"
+
+#: lang/strings_to_translate.php:633
+#: admin/menu.php:1384
+msgid "Tip:"
+msgstr "Sfat:"
+
+#: lang/strings_to_translate.php:634
+#: admin/menu.php:1085
+msgid "Title"
+msgstr "Titlu"
+
+#: lang/strings_to_translate.php:635
+#: admin/exopite-simple-options/fields/upload.php:182
+msgid "To increase file upload limit in the standard built-in WordPress media uploader up as large as available disk space allows, you could use"
+msgstr "Pentru a crește limita de încărcare a fișierelor în încărcătorul media WordPress încorporat până la limita spațiului disponibil pe disc, puteți folosi"
+
+#: lang/strings_to_translate.php:636
+msgid "To see availability and pricing please enter your check-in and check-out dates below."
+msgstr "Pentru a vedea disponibilitatea și prețurile vă rugăm să introduceți datele de check-in și check-out mai jos."
+
+#: lang/strings_to_translate.php:637
+msgid "To see availability please enter your check-in and check-out dates below."
+msgstr "Pentru a vedea disponibilitatea vă rugăm să introduceți datele de check-in și check-out mai jos."
+
+#: lang/strings_to_translate.php:638
+#: admin/menu.php:265
+msgid "To show a list of Listings that user was marked"
+msgstr "Pentru a arăta o listă de Listări pe care utilizatorul le-a marcat"
+
+#: lang/strings_to_translate.php:639
+#: admin/menu.php:221
+msgid "To show list of user bookings"
+msgstr "Pentru a arăta lista de rezervări ale utilizatorului"
+
+#: lang/strings_to_translate.php:640
+#: admin/menu.php:243
+msgid "To show single booking details"
+msgstr "Pentru a arăta detaliile unei singure rezervări"
+
+#: lang/strings_to_translate.php:641
+#: admin/menu.php:199
+msgid "To show the payment result"
+msgstr "Pentru a arăta rezultatul plății"
+
+#: lang/strings_to_translate.php:642
+#: admin/menu.php:1012
+msgid "Top listings"
+msgstr "Listări de top"
+
+#: lang/strings_to_translate.php:643
+#: inc/shortcodes/inc/make-listing-item-vars.php:37
+#: tpl/element/price-block-default.php:154
+#: tpl/element/price-block-accounting.php:167
+#: tpl/payment/charge-preview.php:57
+#: tpl/payment/preview.php:116
+#: tpl/user/booking-manage.php:111
+msgid "Total"
+msgstr "Total"
+
+#: lang/strings_to_translate.php:644
+#: tpl/user/bookings-list-item.php:55
+msgid "Total:"
+msgstr "Total:"
+
+#: lang/strings_to_translate.php:645
+#: tpl/payment/stripe-form-3ds_success.php:37
+msgid "Transaction Date"
+msgstr "Data tranzacției"
+
+#: lang/strings_to_translate.php:646
+#: tpl/payment/_success.php:26
+#: tpl/payment/charge-success.php:47
+#: tpl/payment/stripe-form-3ds_success.php:31
+msgid "Transaction No"
+msgstr "Nr. tranzacție"
+
+#: lang/strings_to_translate.php:647
+#: tpl/payment/_success.php:36
+#: tpl/payment/charge-success.php:57
+msgid "Transaction date"
+msgstr "Data tranzacției"
+
+#: lang/strings_to_translate.php:648
+#: admin/menu.php:1317
+msgid "Translation Files Location"
+msgstr "Locația fișierelor de traducere"
+
+#: lang/strings_to_translate.php:649
+msgid "Translation Manager"
+msgstr "Manager traduceri"
+
+#: lang/strings_to_translate.php:650
+#: admin/menu.php:1318
+msgid "Translation files are located in:"
+msgstr "Fișierele de traducere sunt localizate în:"
+
+#: lang/strings_to_translate.php:651
+#: admin/menu.php:1300
+msgid "Translation manager"
+msgstr "Manager traduceri"
+
+#: lang/strings_to_translate.php:652
+msgid "Trashcan"
+msgstr "Coș de gunoi"
+
+#: lang/strings_to_translate.php:653
+#: tpl/element/error-no-listings-found.php:5
+msgid "Try to change the filter conditions."
+msgstr "Încercați să schimbați condițiile de filtrare."
+
+#: lang/strings_to_translate.php:654
+#: tpl/element/error-no-listings-found.php:9
+msgid "Try to move or resize the map."
+msgstr "Încercați să mutați sau să redimensionați harta."
+
+#: lang/strings_to_translate.php:655
+msgid "Tub with shower bench"
+msgstr "Cadă cu bancă pentru duș"
+
+#: lang/strings_to_translate.php:656
+#: admin/menu.php:839
+msgid "Turn off Boostrap"
+msgstr "Dezactivează Bootstrap"
+
+#: lang/strings_to_translate.php:657
+#: admin/menu.php:848
+msgid "Turn off CSS"
+msgstr "Dezactivează CSS"
+
+#: lang/strings_to_translate.php:658
+#: inc/ajax/hfy-ajax-listing-price.php:81
+msgid "Unavailable"
+msgstr "Indisponibil"
+
+#: lang/strings_to_translate.php:659
+#: admin/exopite-simple-options/fields/upload.php:84
+msgid "Upload"
+msgstr "Încarcă"
+
+#: lang/strings_to_translate.php:660
+#: admin/menu.php:1391
+msgid "Upload & Restore"
+msgstr "Încarcă & Restaurează"
+
+#: lang/strings_to_translate.php:661
+#: admin/menu.php:1386
+msgid "Upload Translation File"
+msgstr "Încarcă fișier de traducere"
+
+#: lang/strings_to_translate.php:662
+#: admin/menu.php:1387
+msgid "Upload a .po file to restore translations after a plugin update:"
+msgstr "Încarcă un fișier .po pentru a restaura traducerile după o actualizare a plugin-ului:"
+
+#: lang/strings_to_translate.php:663
+#: admin/menu.php:884
+msgid "Use API v3"
+msgstr "Folosește API v3"
+
+#: lang/strings_to_translate.php:664
+#: admin/menu.php:898
+msgid "Use Calendar v2"
+msgstr "Folosește Calendar v2"
+
+#: lang/strings_to_translate.php:665
+#: admin/menu.php:905
+msgid "Use Calendar v3"
+msgstr "Folosește Calendar v3"
+
+#: lang/strings_to_translate.php:666
+#: admin/menu.php:919
+msgid "Use New Inquiry Form"
+msgstr "Folosește noul formular de solicitare"
+
+#: lang/strings_to_translate.php:667
+msgid "Use a translation tool like Poedit to translate the strings in the .po files."
+msgstr "Folosiți un instrument de traducere precum Poedit pentru a traduce șirurile din fișierele .po."
+
+#: lang/strings_to_translate.php:668
+#: admin/menu.php:708
+msgid "Use current WP language setting"
+msgstr "Folosește setarea de limbă curentă WP"
+
+#: lang/strings_to_translate.php:669
+#: admin/menu.php:709
+msgid "Use custom:"
+msgstr "Folosește personalizat:"
+
+#: lang/strings_to_translate.php:670
+#: admin/menu.php:625
+msgid "Use new dialog for guests select: adults, children, infants, pets."
+msgstr "Folosește noua fereastră pentru selectarea oaspeților: adulți, copii, bebeluși, animale de companie."
+
+#: lang/strings_to_translate.php:671
+#: admin/menu.php:621
+msgid "Use new guests template"
+msgstr "Folosește noul șablon pentru oaspeți"
+
+#: lang/strings_to_translate.php:672
+#: admin/menu.php:1327
+msgid "Use our Inline Translation Editor (below) to translate strings directly in the admin interface, or use external tools like Poedit or Loco Translate to edit the .po files."
+msgstr "Folosiți Editorul nostru de Traducere Inline (mai jos) pentru a traduce șirurile direct în interfața de administrare, sau folosiți instrumente externe precum Poedit sau Loco Translate pentru a edita fișierele .po."
+
+#: lang/strings_to_translate.php:673
+#: admin/menu.php:456
+msgid "Use short list of predefined amenities."
+msgstr "Folosește lista scurtă de facilități predefinite."
+
+#: lang/strings_to_translate.php:674
+#: admin/menu.php:230
+msgid "User booking details page"
+msgstr "Pagina cu detaliile rezervării utilizatorului"
+
+#: lang/strings_to_translate.php:675
+#: admin/menu.php:208
+msgid "User bookings list page"
+msgstr "Pagina cu lista rezervărilor utilizatorului"
+
+#: lang/strings_to_translate.php:676
+#: admin/menu.php:252
+msgid "User wishlist page"
+msgstr "Pagina cu lista de dorințe a utilizatorului"
+
+#: lang/strings_to_translate.php:677
+#: tpl/listing/listing-reviews-summary.php:58
+msgid "Value"
+msgstr "Valoare"
+
+#: lang/strings_to_translate.php:678
+#: admin/menu.php:1381
+msgid "View the server path and web URL where backup files are stored"
+msgstr "Vezi calea serverului și URL-ul web unde sunt stocate fișierele de backup"
+
+#: lang/strings_to_translate.php:679
+msgid "Villa"
+msgstr "Vilă"
+
+#: lang/strings_to_translate.php:680
+#: tpl/listing/listing-virtual-tour.php:4
+#: admin/menu.php:1230
+msgid "Virtual tour"
+msgstr "Tur virtual"
+
+#: lang/strings_to_translate.php:681
+msgid "Washer"
+msgstr "Mașină de spălat"
+
+#: lang/strings_to_translate.php:682
+msgid "Waterfront"
+msgstr "La malul apei"
+
+#: lang/strings_to_translate.php:683
+msgid "We have received your inquiry. Our representative will get back to you shortly."
+msgstr "Am primit solicitarea dumneavoastră. Reprezentantul nostru vă va contacta în curând."
+
+#: lang/strings_to_translate.php:684
+#: admin/exopite-simple-options/fields/typography.php:87
+msgid "Web Safe Fonts"
+msgstr "Fonturi Web Sigure"
+
+#: lang/strings_to_translate.php:685
+#: tpl/listing/listing-info-prices.php:12
+msgid "Weekends (Sat & Sun):"
+msgstr "Weekend-uri (Sâm & Dum):"
+
+#: lang/strings_to_translate.php:686
+msgid "What you should know about this"
+msgstr "Ce ar trebui să știți despre aceasta"
+
+#: lang/strings_to_translate.php:687
+msgid "What you should know about this listing"
+msgstr "Ce ar trebui să știți despre această listare"
+
+#: lang/strings_to_translate.php:688
+msgid "Wheelchair access possible"
+msgstr "Acces posibil cu scaunul cu rotile"
+
+#: lang/strings_to_translate.php:689
+msgid "Wheelchair accessible"
+msgstr "Accesibil pentru scaun cu rotile"
+
+#: lang/strings_to_translate.php:690
+msgid "Wide clearance to bed"
+msgstr "Spațiu larg până la pat"
+
+#: lang/strings_to_translate.php:691
+msgid "Wide clearance to shower and toilet"
+msgstr "Spațiu larg până la duș și toaletă"
+
+#: lang/strings_to_translate.php:692
+msgid "Wide doorway"
+msgstr "Ușă lată"
+
+#: lang/strings_to_translate.php:693
+msgid "Wide hallway clearance"
+msgstr "Hol larg"
+
+#: lang/strings_to_translate.php:694
+msgid "Window guards"
+msgstr "Protecții pentru ferestre"
+
+#: lang/strings_to_translate.php:695
+msgid "Wireless Internet"
+msgstr "Internet wireless"
+
+#: lang/strings_to_translate.php:696
+#: tpl/user/error-wishlist-empty.php:3
+msgid "Wishlist is empty"
+msgstr "Lista de dorințe este goală"
+
+#: lang/strings_to_translate.php:697
+#: tpl/element/price-block-default.php:123
+#: tpl/element/price-block-accounting.php:119
+msgid "Wrong or inactive code"
+msgstr "Cod greșit sau inactiv"
+
+#: lang/strings_to_translate.php:698
+#: tpl/user/booking-manage.php:199
+#: tpl/user/booking-manage.php:203
+#: tpl/user/booking-manage.php:207
+#: tpl/user/booking-manage.php:211
+#: tpl/listing/listing-info-prices.php:34
+#: admin/exopite-simple-options/fields/upload.php:129
+msgid "Yes"
+msgstr "Da"
+
+#: lang/strings_to_translate.php:699
+#: inc/shortcodes/hfy-user-bookings-list.php:17
+msgid "You are not logged in"
+msgstr "Nu sunteți autentificat"
+
+#: lang/strings_to_translate.php:700
+#: inc/shortcodes/hfy-user-bookings-list.php:22
+msgid "You currently do not have any bookings yet"
+msgstr "În prezent nu aveți nicio rezervare"
+
+#: lang/strings_to_translate.php:701
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:134
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:202
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:270
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:307
+msgid "You do not have permission to perform this action."
+msgstr "Nu aveți permisiunea de a efectua această acțiune."
+
+#: lang/strings_to_translate.php:702
+#: tpl/listing/listing-booking-form.php:68
+#: tpl/listing/listing-booking-form-on-request.php:62
+#: tpl/listing/listing-booking-form-v2.php:63
+msgid "Your discount code..."
+msgstr "Codul dumneavoastră de reducere..."
+
+#: lang/strings_to_translate.php:703
+msgid "Your inquiry"
+msgstr "Solicitarea dumneavoastră"
+
+#: lang/strings_to_translate.php:704
+#: tpl/user/booking-manage.php:139
+msgid "Your reservation"
+msgstr "Rezervarea dumneavoastră"
+
+#: lang/strings_to_translate.php:705
+#: tpl/payment/stripe-form.php:60
+#: tpl/payment/netpay-form.php:150
+#: tpl/payment/stripe-form-3ds-element-step-1.php:59
+#: tpl/payment/paypal-form-step-1.php:53
+#: tpl/payment/stripe-form-3ds-step-1.php:62
+msgid "ZIP"
+msgstr "Cod poștal"
+
+#: lang/strings_to_translate.php:706
+msgid "bath"
+msgstr "baie"
+
+#: lang/strings_to_translate.php:707
+#: tpl/listing/listing-facilities.php:32
+msgid "baths"
+msgstr "băi"
+
+#: lang/strings_to_translate.php:708
+msgid "bedroom"
+msgstr "dormitor"
+
+#: lang/strings_to_translate.php:709
+#: tpl/listing/listings-selected-item.php:28
+#: tpl/listing/listings-recommended-item.php:28
+#: tpl/listing/listing-facilities.php:18
+msgid "bedrooms"
+msgstr "dormitoare"
+
+#: lang/strings_to_translate.php:710
+#: tpl/listing/listings-selected-item.php:24
+#: tpl/listing/listings-recommended-item.php:24
+#: tpl/listing/listing-facilities.php:24
+msgid "beds"
+msgstr "paturi"
+
+#: lang/strings_to_translate.php:711
+#: admin/exopite-simple-options/fields/backup.php:39
+msgid "copy-paste your backup string here"
+msgstr "copiază-lipește șirul de backup aici"
+
+#: lang/strings_to_translate.php:712
+msgid "day"
+msgstr "zi"
+
+#: lang/strings_to_translate.php:713
+#: tpl/element/price-block-default.php:93
+#: tpl/element/price-block-accounting.php:89
+#: tpl/payment/preview-accounting.php:88
+#: tpl/payment/preview-default.php:72
+msgid "discount"
+msgstr "reducere"
+
+#: lang/strings_to_translate.php:714
+#: admin/menu.php:1046
+#: admin/menu.php:1056
+msgid "for payment page"
+msgstr "pentru pagina de plată"
+
+#: lang/strings_to_translate.php:715
+#: tpl/user/wishlist-item.php:49
+#: tpl/listing/listings-selected-item.php:53
+#: tpl/listing/listing-info-prices.php:7
+#: tpl/listing/listing-info-prices.php:13
+#: tpl/listing/listing-info-prices.php:20
+#: tpl/listing/listings-recommended-item.php:53
+msgid "from"
+msgstr "de la"
+
+#: lang/strings_to_translate.php:716
+#: tpl/listing/listings-selected-item.php:20
+#: tpl/listing/listings-recommended-item.php:20
+#: tpl/listing/listing-facilities.php:11
+msgid "guests"
+msgstr "oaspeți"
+
+#: lang/strings_to_translate.php:717
+msgid "internet connection"
+msgstr "conexiune la internet"
+
+#: lang/strings_to_translate.php:718
+#: inc/shortcodes/inc/make-listing-item-vars.php:43
+#: inc/shortcodes/inc/make-listing-tpl-vars.php:38
+msgid "month"
+msgstr "lună"
+
+#: lang/strings_to_translate.php:719
+#: tpl/element/price-block-default.php:55
+#: tpl/element/price-block-default.php:80
+#: tpl/element/price-block-accounting.php:51
+#: tpl/element/price-block-accounting.php:76
+#: tpl/payment/preview-accounting.php:69
+#: tpl/payment/preview-default.php:53
+msgid "monthly discount"
+msgstr "reducere lunară"
+
+#: lang/strings_to_translate.php:720
+#: inc/shortcodes/inc/make-listing-item-vars.php:43
+#: inc/shortcodes/inc/make-listing-tpl-vars.php:41
+#: inc/shortcodes/hfy-listing-gallery.php:44
+msgid "night"
+msgstr "noapte"
+
+#: lang/strings_to_translate.php:721
+#: inc/shortcodes/hfy-listing-gallery.php:44
+#: tpl/element/price-block-default.php:21
+#: tpl/element/price-block-accounting.php:21
+#: tpl/payment/preview-accounting.php:19
+#: tpl/payment/preview-default.php:23
+#: tpl/user/booking-manage.php:50
+msgid "nights"
+msgstr "nopți"
+
+#: lang/strings_to_translate.php:722
+#: tpl/user/wishlist-item.php:47
+#: tpl/listing/listings-selected-item.php:51
+#: tpl/listing/listings-recommended-item.php:51
+msgid "on request"
+msgstr "la cerere"
+
+#: lang/strings_to_translate.php:723
+#: admin/menu.php:120
+msgid "or listings search result [hfy_listings]"
+msgstr "sau rezultatul căutării listărilor [hfy_listings]"
+
+#: lang/strings_to_translate.php:724
+msgid "original"
+msgstr "original"
+
+#: lang/strings_to_translate.php:725
+#: admin/menu.php:80
+msgid "readme.txt"
+msgstr "readme.txt"
+
+#: lang/strings_to_translate.php:726
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:1388
+msgid "settings search..."
+msgstr "căutare setări..."
+
+#: lang/strings_to_translate.php:727
+#: tpl/listing/listing-facilities.php:31
+msgid "shared baths"
+msgstr "băi comune"
+
+#: lang/strings_to_translate.php:728
+#: tpl/listing/listing-amenities.php:6
+msgid "show more &rarr;"
+msgstr "arată mai mult &rarr;"
+
+#: lang/strings_to_translate.php:729
+#: admin/menu.php:143
+msgid "single page [hfy_listing]"
+msgstr "pagină individuală [hfy_listing]"
+
+#: lang/strings_to_translate.php:730
+#: tpl/user/booking-manage.php:186
+msgid "start from"
+msgstr "începe de la"
+
+#: lang/strings_to_translate.php:731
+#: inc/shortcodes/inc/make-listing-item-vars.php:41
+msgid "stay"
+msgstr "ședere"
+
+#: lang/strings_to_translate.php:732
+#: admin/inc/translation-manager/class-string-extractor.php:79
+#: admin/inc/translation-manager/class-string-extractor.php:85
+#: admin/inc/translation-manager/class-string-extractor.php:88
+#: admin/inc/translation-manager/class-string-extractor.php:91
+#: admin/inc/translation-manager/class-string-extractor.php:82
+msgid "string"
+msgstr "șir"
+
+#: lang/strings_to_translate.php:733
+#: tpl/user/booking-manage.php:188
+msgid "till"
+msgstr "până la"
+
+#: lang/strings_to_translate.php:734
+msgid "to"
+msgstr "la"
+
+#: lang/strings_to_translate.php:735
+#: tpl/element/price-block-default.php:62
+#: tpl/element/price-block-default.php:73
+#: tpl/element/price-block-accounting.php:58
+#: tpl/element/price-block-accounting.php:69
+#: tpl/payment/preview-accounting.php:76
+#: tpl/payment/preview-default.php:60
+msgid "weekly discount"
+msgstr "reducere săptămânală"
+
+#: lang/strings_to_translate.php:736
+#: tpl/user/bookings-list.php:12
+msgid "Сurrent"
+msgstr "Curent"
+
+#: lang/strings_to_translate.php:5
+#: tpl/listing/listing-reviews-summary.php:28
+msgid "%d reviews"
+msgstr "%d recenzii"
+
+#: lang/strings_to_translate.php:8
+#: admin/inc/translation-manager/translation-manager.php:97
+msgid "%s: %d missing translations (%d/%d translated - %s%%)"
+msgstr "%s: %d traduceri lipsă (%d/%d traduse - %s%%)"
+
+#: lang/strings_to_translate.php:35
+#: admin/menu.php:651
+msgid "Airbnb reviews only (5-star system)"
+msgstr "Doar recenzii Airbnb (sistem cu 5 stele)"
+
+#: lang/strings_to_translate.php:57
+#: inc/class-hostifybooking-loader.php:753
+msgid "Apr"
+msgstr "Apr"
+
+#: lang/strings_to_translate.php:58
+#: inc/class-hostifybooking-loader.php:738
+msgid "April"
+msgstr "Aprilie"
+
+#: lang/strings_to_translate.php:66
+#: inc/class-hostifybooking-loader.php:757
+msgid "Aug"
+msgstr "Aug"
+
+#: lang/strings_to_translate.php:67
+#: inc/class-hostifybooking-loader.php:742
+msgid "August"
+msgstr "August"
+
+#: lang/strings_to_translate.php:80
+#: admin/inc/translation-manager/translation-manager.php:101
+msgid "Backup created: %s"
+msgstr "Backup creat: %s"
+
+#: lang/strings_to_translate.php:94
+#: admin/menu.php:652
+msgid "Booking.com reviews only (10-star system)"
+msgstr "Doar recenzii Booking.com (sistem cu 10 stele)"
+
+#: lang/strings_to_translate.php:113
+msgid "Check for Corruption"
+msgstr "Verifică pentru corupție"
+
+#: lang/strings_to_translate.php:138
+#: admin/inc/translation-manager/translation-manager.php:85
+msgid "Compiling MO files..."
+msgstr "Compilare fișiere MO..."
+
+#: lang/strings_to_translate.php:139
+#: admin/inc/translation-manager/translation-manager.php:102
+msgid "Compiling..."
+msgstr "Compilare..."
+
+#: lang/strings_to_translate.php:159
+#: inc/class-hostifybooking-loader.php:761
+msgid "Dec"
+msgstr "Dec"
+
+#: lang/strings_to_translate.php:160
+#: inc/class-hostifybooking-loader.php:746
+msgid "December"
+msgstr "Decembrie"
+
+#: lang/strings_to_translate.php:214
+#: admin/inc/translation-manager/translation-manager.php:87
+msgid "Errors: %s"
+msgstr "Erori: %s"
+
+#: lang/strings_to_translate.php:225
+#: admin/inc/translation-manager/translation-manager.php:89
+msgid "Extracting..."
+msgstr "Extragere..."
+
+#: lang/strings_to_translate.php:226
+#: admin/inc/translation-manager/translation-manager.php:91
+msgid "Extraction completed successfully!"
+msgstr "Extragere finalizată cu succes!"
+
+#: lang/strings_to_translate.php:229
+#: admin/inc/translation-manager/translation-manager.php:88
+msgid "Failed to compile MO files"
+msgstr "Eșec la compilarea fișierelor MO"
+
+#: lang/strings_to_translate.php:233
+#: inc/class-hostifybooking-loader.php:751
+msgid "Feb"
+msgstr "Feb"
+
+#: lang/strings_to_translate.php:234
+#: inc/class-hostifybooking-loader.php:736
+msgid "February"
+msgstr "Februarie"
+
+#: lang/strings_to_translate.php:237
+#: admin/inc/translation-manager/translation-manager.php:100
+msgid "File uploaded and restored successfully!"
+msgstr "Fișier încărcat și restaurat cu succes!"
+
+#: lang/strings_to_translate.php:238
+#: admin/inc/translation-manager/translation-manager.php:94
+msgid "Files updated with source location comments: %s"
+msgstr "Fișiere actualizate cu comentarii despre locația sursă: %s"
+
+#: lang/strings_to_translate.php:239
+#: admin/inc/translation-manager/translation-manager.php:93
+msgid "Files with new strings added: %s"
+msgstr "Fișiere cu șiruri noi adăugate: %s"
+
+#: lang/strings_to_translate.php:254
+#: inc/class-hostifybooking-loader.php:780
+msgid "Fri"
+msgstr "Vin"
+
+#: lang/strings_to_translate.php:255
+#: inc/class-hostifybooking-loader.php:770
+msgid "Friday"
+msgstr "Vineri"
+
+#: lang/strings_to_translate.php:322
+#: inc/class-hostifybooking-loader.php:750
+msgid "Jan"
+msgstr "Ian"
+
+#: lang/strings_to_translate.php:323
+#: inc/class-hostifybooking-loader.php:735
+msgid "January"
+msgstr "Ianuarie"
+
+#: lang/strings_to_translate.php:324
+#: inc/class-hostifybooking-loader.php:756
+msgid "Jul"
+msgstr "Iul"
+
+#: lang/strings_to_translate.php:325
+#: inc/class-hostifybooking-loader.php:741
+msgid "July"
+msgstr "Iulie"
+
+#: lang/strings_to_translate.php:326
+#: inc/class-hostifybooking-loader.php:755
+msgid "Jun"
+msgstr "Iun"
+
+#: lang/strings_to_translate.php:327
+#: inc/class-hostifybooking-loader.php:740
+msgid "June"
+msgstr "Iunie"
+
+#: lang/strings_to_translate.php:350
+#: admin/inc/translation-manager/translation-manager.php:84
+msgid "Loaded %d translations from %s"
+msgstr "S-au încărcat %d traduceri din %s"
+
+#: lang/strings_to_translate.php:370
+#: inc/class-hostifybooking-loader.php:752
+msgid "Mar"
+msgstr "Mar"
+
+#: lang/strings_to_translate.php:371
+#: inc/class-hostifybooking-loader.php:737
+msgid "March"
+msgstr "Martie"
+
+#: lang/strings_to_translate.php:381
+#: inc/class-hostifybooking-loader.php:739
+#: inc/class-hostifybooking-loader.php:754
+msgid "May"
+msgstr "Mai"
+
+#: lang/strings_to_translate.php:383
+#: inc/class-hostifybooking-loader.php:722
+#: inc/class-hostifybooking-loader.php:723
+#: inc/class-hostifybooking-loader.php:725
+#: inc/class-hostifybooking-loader.php:726
+msgid "Minimum stay %d night"
+msgid_plural "Minimum stay %d nights"
+msgstr[0] "Ședere minimă %d noapte"
+msgstr[1] "Ședere minimă %d nopți"
+
+#: lang/strings_to_translate.php:386
+#: admin/inc/translation-manager/translation-manager.php:96
+msgid "Missing Translations Report:"
+msgstr "Raport traduceri lipsă:"
+
+#: lang/strings_to_translate.php:387
+#: inc/class-hostifybooking-loader.php:776
+msgid "Mon"
+msgstr "Lun"
+
+#: lang/strings_to_translate.php:388
+#: inc/class-hostifybooking-loader.php:766
+msgid "Monday"
+msgstr "Luni"
+
+#: lang/strings_to_translate.php:409
+#: admin/menu.php:615
+msgid "No redirect"
+msgstr "Fără redirecționare"
+
+#: lang/strings_to_translate.php:416
+#: inc/class-hostifybooking-loader.php:760
+msgid "Nov"
+msgstr "Noi"
+
+#: lang/strings_to_translate.php:417
+#: inc/class-hostifybooking-loader.php:745
+msgid "November"
+msgstr "Noiembrie"
+
+#: lang/strings_to_translate.php:418
+#: inc/class-hostifybooking-loader.php:759
+msgid "Oct"
+msgstr "Oct"
+
+#: lang/strings_to_translate.php:419
+#: inc/class-hostifybooking-loader.php:744
+msgid "October"
+msgstr "Octombrie"
+
+#: lang/strings_to_translate.php:433
+#: admin/inc/translation-manager/translation-manager.php:95
+msgid "PO files with updated headers: %d files"
+msgstr "Fișiere PO cu anteturi actualizate: %d fișiere"
+
+#: lang/strings_to_translate.php:516
+#: admin/menu.php:617
+msgid "Redirect to Home page"
+msgstr "Redirecționare către pagina principală"
+
+#: lang/strings_to_translate.php:517
+#: admin/menu.php:616
+msgid "Redirect to Listings page"
+msgstr "Redirecționare către pagina de listări"
+
+#: lang/strings_to_translate.php:518
+#: admin/menu.php:618
+msgid "Redirect to custom URL"
+msgstr "Redirecționare către URL personalizat"
+
+#: lang/strings_to_translate.php:536
+#: admin/menu.php:646
+msgid "Review system"
+msgstr "Sistem de recenzii"
+
+#: lang/strings_to_translate.php:538
+#: admin/menu.php:640
+msgid "Reviews"
+msgstr "Recenzii"
+
+#: lang/strings_to_translate.php:549
+#: inc/class-hostifybooking-loader.php:781
+msgid "Sat"
+msgstr "Sâm"
+
+#: lang/strings_to_translate.php:551
+#: inc/class-hostifybooking-loader.php:771
+msgid "Saturday"
+msgstr "Sâmbătă"
+
+#: lang/strings_to_translate.php:583
+#: inc/class-hostifybooking-loader.php:758
+msgid "Sep"
+msgstr "Sep"
+
+#: lang/strings_to_translate.php:584
+#: inc/class-hostifybooking-loader.php:743
+msgid "September"
+msgstr "Septembrie"
+
+#: lang/strings_to_translate.php:631
+#: admin/menu.php:656
+msgid "Show review source"
+msgstr "Arată sursa recenziei"
+
+#: lang/strings_to_translate.php:635
+#: admin/menu.php:660
+msgid "Show the source platform (Airbnb/Booking.com) next to each review"
+msgstr "Arată platforma sursă (Airbnb/Booking.com) lângă fiecare recenzie"
+
+#: lang/strings_to_translate.php:660
+#: admin/inc/translation-manager/translation-manager.php:86
+msgid "Successfully compiled %d MO files."
+msgstr "S-au compilat cu succes %d fișiere MO."
+
+#: lang/strings_to_translate.php:661
+#: inc/class-hostifybooking-loader.php:775
+msgid "Sun"
+msgstr "Dum"
+
+#: lang/strings_to_translate.php:662
+#: inc/class-hostifybooking-loader.php:765
+msgid "Sunday"
+msgstr "Duminică"
+
+#: lang/strings_to_translate.php:692
+#: inc/class-hostifybooking-loader.php:779
+msgid "Thu"
+msgstr "Joi"
+
+#: lang/strings_to_translate.php:693
+#: inc/class-hostifybooking-loader.php:769
+msgid "Thursday"
+msgstr "Joi"
+
+#: lang/strings_to_translate.php:705
+#: admin/inc/translation-manager/translation-manager.php:92
+msgid "Total strings found: %d"
+msgstr "Total șiruri găsite: %d"
+
+#: lang/strings_to_translate.php:714
+#: admin/inc/translation-manager/translation-manager.php:83
+msgid "Translations saved successfully!"
+msgstr "Traducerile au fost salvate cu succes!"
+
+#: lang/strings_to_translate.php:719
+#: inc/class-hostifybooking-loader.php:777
+msgid "Tue"
+msgstr "Mar"
+
+#: lang/strings_to_translate.php:720
+#: inc/class-hostifybooking-loader.php:767
+msgid "Tuesday"
+msgstr "Marți"
+
+#: lang/strings_to_translate.php:728
+#: admin/inc/translation-manager/translation-manager.php:98
+msgid "Uploading..."
+msgstr "Se încarcă..."
+
+#: lang/strings_to_translate.php:751
+#: inc/class-hostifybooking-loader.php:778
+msgid "Wed"
+msgstr "Mie"
+
+#: lang/strings_to_translate.php:752
+#: inc/class-hostifybooking-loader.php:768
+msgid "Wednesday"
+msgstr "Miercuri"
+
+#: lang/strings_to_translate.php:798
+#: admin/inc/translation-manager/class-string-extractor.php:109
+msgid "singular"
+msgid_plural "plural"
+msgstr[0] "singular"
+msgstr[1] "plural"
+
+#: lang/strings_to_translate.php:120
+msgid "City name only (default)"
+msgstr "Doar numele orașului (implicit)"
+
+#: lang/strings_to_translate.php:121
+msgid "City name, Neighbourhood"
+msgstr "Numele orașului, Cartier"
+
+#: lang/strings_to_translate.php:128
+msgid "Clear Hostify Cache"
+msgstr "Șterge Cache Hostify"
+
+#: lang/strings_to_translate.php:151
+msgid "Country name, City name, Neighbourhood"
+msgstr "Numele țării, Numele orașului, Cartier"
+
+#: lang/strings_to_translate.php:152
+msgid "Country name, State name, City name, Neighbourhood"
+msgstr "Numele țării, Numele județului, Numele orașului, Cartier"
+
+#: lang/strings_to_translate.php:174
+msgid "Delete:"
+msgstr "Șterge:"
+
+#: lang/strings_to_translate.php:196
+msgid "Download ZIP:"
+msgstr "Descarcă ZIP:"
+
+#: lang/strings_to_translate.php:295
+msgid "Hostify Booking Plugin Update"
+msgstr "Actualizare Plugin Hostify Booking"
+
+#: lang/strings_to_translate.php:296
+msgid "Hostify Booking Settings"
+msgstr "Setări Hostify Booking"
+
+#: lang/strings_to_translate.php:406
+msgid "Neighbourhood, City name"
+msgstr "Cartier, Numele orașului"
+
+#: lang/strings_to_translate.php:422
+msgid "No sort"
+msgstr "Fără sortare"
+
+#: lang/strings_to_translate.php:435
+msgid "Open Location:"
+msgstr "Deschide Locația:"
+
+#: lang/strings_to_translate.php:497
+msgid "Plugin update"
+msgstr "Actualizare plugin"
+
+#: lang/strings_to_translate.php:548
+msgid "Restore:"
+msgstr "Restaurează:"
+
+#: lang/strings_to_translate.php:665
+msgid "Sort by listing nickname"
+msgstr "Sortează după porecla listării"
+
+#: lang/strings_to_translate.php:666
+msgid "Sort by listing price, ascending order (low to high)"
+msgstr "Sortează după prețul listării, ordine crescătoare (de la mic la mare)"
+
+#: lang/strings_to_translate.php:667
+msgid "Sort by listing price, descending order (high to low)"
+msgstr "Sortează după prețul listării, ordine descrescătoare (de la mare la mic)"
+
+#: lang/strings_to_translate.php:668
+msgid "Sort by listing title"
+msgstr "Sortează după titlul listării"
+
+#: lang/strings_to_translate.php:672
+msgid "State name, City name, Neighbourhood"
+msgstr "Numele județului, Numele orașului, Cartier"
+
+#: lang/strings_to_translate.php:763
+msgid "View listings page"
+msgstr "Vezi pagina de listări"
+
+#: lang/strings_to_translate.php:806
+msgid "long term"
+msgstr "termen lung"
+
+#: lang/strings_to_translate.php:817
+msgid "short term"
+msgstr "termen scurt"
+
+#: lang/strings_to_translate.php:824
+msgid "syntax error"
+msgstr "eroare de sintaxă"

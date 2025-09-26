@@ -1,0 +1,4975 @@
+# Copyright (C) 2025 Hostify Booking Engine
+# This file is distributed under the same license as the Hostify Booking Engine package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Hostify Booking Engine\n"
+"Report-Msgid-Bugs-To: https://hostify.com\n"
+"POT-Creation-Date: 2024-01-26 12:36+0200\n"
+"PO-Revision-Date: 2025-07-07 15:58+0000
+"Last-Translator: \n"
+"Language-Team: Swedish <sv@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Hostify Booking Engine String Extractor\n"
+
+#: lang/strings_to_translate.php:2
+#: tpl/element/booking-search-advanced.php:14
+msgid " (%s ago)"
+msgstr " (%s sedan)"
+
+#. translators: %s: date interval
+#: inc/vendors/action-scheduler/classes/ActionScheduler_ListTable.php:488
+msgid " (%s)"
+msgstr " (%s)"
+
+#: tpl/element/booking-search-advanced.php:14
+msgid " / day"
+msgstr " / dag"
+
+#: tpl/element/booking-search-advanced.php:10
+msgid " / month"
+msgstr " / månad"
+
+#. translators: %d refers to the total number of actions deleted
+#: inc/vendors/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:120
+msgid "%d action deleted."
+msgid_plural "%d actions deleted."
+msgstr[0] "%d åtgärd raderad."
+msgstr[1] "%d åtgärder raderade."
+
+#. translators: %d refers to the total number of batches executed
+#: inc/vendors/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:169
+msgid "%d batch executed."
+msgid_plural "%d batches executed."
+msgstr[0] "%d batch utförd."
+msgstr[1] "%d batchar utförda."
+
+#. translators: %d refers to the total number of batches processed
+#: inc/vendors/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:88
+msgid "%d batch processed."
+msgid_plural "%d batches processed."
+msgstr[0] "%d batch bearbetad."
+msgstr[1] "%d batchar bearbetade."
+
+#. translators: %d refers to the total number of tasks completed
+#: inc/vendors/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:205
+msgid "%d scheduled task completed."
+msgid_plural "%d scheduled tasks completed."
+msgstr[0] "%d schemalagd uppgift slutförd."
+msgstr[1] "%d schemalagda uppgifter slutförda."
+
+#. translators: %s: amount of time
+#: inc/vendors/action-scheduler/classes/ActionScheduler_ListTable.php:159
+msgid "%s day"
+msgid_plural "%s days"
+msgstr[0] "%s dag"
+msgstr[1] "%s dagar"
+
+#. translators: %s: amount of time
+#: inc/vendors/action-scheduler/classes/ActionScheduler_ListTable.php:164
+msgid "%s hour"
+msgid_plural "%s hours"
+msgstr[0] "%s timme"
+msgstr[1] "%s timmar"
+
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:271
+msgid "%s is missing in the configuration array"
+msgstr "%s saknas i konfigurationsarrayen"
+
+#. translators: %s: amount of time
+#: inc/vendors/action-scheduler/classes/ActionScheduler_ListTable.php:169
+msgid "%s minute"
+msgid_plural "%s minutes"
+msgstr[0] "%s minut"
+msgstr[1] "%s minuter"
+
+#. translators: %s: amount of time
+#: inc/vendors/action-scheduler/classes/ActionScheduler_ListTable.php:149
+msgid "%s month"
+msgid_plural "%s months"
+msgstr[0] "%s månad"
+msgstr[1] "%s månader"
+
+#. translators: %s: amount of time
+#: inc/vendors/action-scheduler/classes/ActionScheduler_ListTable.php:174
+msgid "%s second"
+msgid_plural "%s seconds"
+msgstr[0] "%s sekund"
+msgstr[1] "%s sekunder"
+
+#. translators: %s is the error message
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:1068
+"%s Support for strings longer than this will be removed in a future version."
+msgstr "%s Stöd för strängar längre än detta kommer att tas bort i en framtida version."
+
+#. translators: %s: amount of time
+#: inc/vendors/action-scheduler/classes/ActionScheduler_ListTable.php:154
+msgid "%s week"
+msgid_plural "%s weeks"
+msgstr[0] "%s vecka"
+msgstr[1] "%s veckor"
+
+#. translators: %s: amount of time
+#: inc/vendors/action-scheduler/classes/ActionScheduler_ListTable.php:144
+msgid "%s year"
+msgid_plural "%s years"
+msgstr[0] "%s år"
+msgstr[1] "%s år"
+
+#. translators: %s function name.
+#: inc/vendors/action-scheduler/classes/abstracts/ActionScheduler.php:226
+msgid "%s() was called before the Action Scheduler data store was initialized"
+msgstr "%s() anropades innan Action Scheduler datalagret initialiserades"
+
+msgid "/ stay"
+msgstr "/ vistelse"
+
+msgid "1 guest(s)"
+msgstr "1 gäst(er)"
+
+"10 guest(s)\n"
+"\n"
+"\n"
+msgstr "10 gäst(er)"
+
+msgid "2 guest(s)"
+msgstr "2 gäst(er)"
+
+#: admin/menu.php:692
+msgid "2-char country code like <code>us</code>"
+msgstr "2-teckens landskod som <code>se</code>"
+
+# Existing translations preserved
+#: lang/strings_to_translate.php:2
+msgid "24 hour check-in"
+msgstr "24 timmars incheckning"
+
+msgid "3 guest(s)"
+msgstr "3 gäst(er)"
+
+msgid "4 guest(s)"
+msgstr "4 gäst(er)"
+
+msgid "5 guest(s)"
+msgstr "5 gäst(er)"
+
+msgid "6 guest(s)"
+msgstr "6 gäst(er)"
+
+msgid "7 guest(s)"
+msgstr "7 gäst(er)"
+
+msgid "8 guest(s)"
+msgstr "8 gäst(er)"
+
+msgid "9 guest(s)"
+msgstr "9 gäst(er)"
+
+#. translators: %s: process URL
+#: inc/vendors/action-scheduler/classes/ActionScheduler_ListTable.php:397
+"A new queue has begun processing. <a href=\"%s\">View actions in-progress "
+"&raquo;</a>"
+msgstr "En ny kö har börjat bearbetas. <a href=\"%s\">Visa pågående åtgärder &raquo;</a>"
+
+#. translators: 1) is the number of affected actions, 2) is a link to an admin
+#. screen.
+#: inc/vendors/action-scheduler/classes/ActionScheduler_AdminView.php:225
+msgid "About"
+msgstr "Om"
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_AdminView.php:227
+msgid "About Action Scheduler %s"
+msgstr "Om Action Scheduler %s"
+
+#: lang/strings_to_translate.php:3
+msgid "Accessible-height bed"
+msgstr "Säng med tillgänglig höjd"
+
+#: lang/strings_to_translate.php:4
+msgid "Accessible-height toilet"
+msgstr "Toalett med tillgänglig höjd"
+
+msgid "Accommodation"
+msgstr "Boende"
+
+#: tpl/listing/listing-reviews-summary.php:29
+msgid "Accuracy"
+msgstr "Noggrannhet"
+
+#. translators: 1: action ID 2: schedule
+#: inc/vendors/action-scheduler/classes/ActionScheduler_InvalidActionException.php:21
+msgid "Action [%1$s] has an invalid schedule: %2$s"
+msgstr "Åtgärd [%1$s] har ett ogiltigt schema: %2$s"
+
+#. translators: 1: action ID 2: arguments
+#: inc/vendors/action-scheduler/classes/ActionScheduler_InvalidActionException.php:40
+"Action [%1$s] has invalid arguments. It cannot be JSON decoded to an array. "
+"$args = %2$s"
+msgstr "Åtgärd [%1$s] har ogiltiga argument. Den kan inte JSON-avkodas till en array. $args = %2$s"
+
+#: inc/vendors/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:76
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:142
+msgid "action canceled"
+msgstr "åtgärd avbruten"
+
+#: inc/vendors/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:94
+msgid "action complete"
+msgstr "åtgärd slutförd"
+
+#. translators: %s: context
+#: inc/vendors/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:92
+msgid "action complete via %s"
+msgstr "åtgärd slutförd via %s"
+
+#: inc/vendors/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:72
+msgid "action created"
+msgstr "åtgärd skapad"
+
+#. translators: 1: context 2: exception message
+#: inc/vendors/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:102
+msgid "action failed via %1$s: %2$s"
+msgstr "åtgärd misslyckades via %1$s: %2$s"
+
+#. translators: %s: exception message
+#: inc/vendors/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:105
+msgid "action failed: %s"
+msgstr "åtgärd misslyckades: %s"
+
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_TaxonomyRegistrar.php:14
+msgid "Action Group"
+msgstr "Åtgärdsgrupp"
+
+#: inc/vendors/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:131
+msgid "action ignored"
+msgstr "åtgärd ignorerad"
+
+#. translators: %s: context
+#: inc/vendors/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:129
+msgid "action ignored via %s"
+msgstr "åtgärd ignorerad via %s"
+
+#. translators: %s: amount of time
+#: inc/vendors/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:112
+"action marked as failed after %s seconds. Unknown error occurred. Check "
+"server, PHP and database error logs to diagnose cause."
+msgstr "åtgärd markerad som misslyckad efter %s sekunder. Okänt fel inträffade. Kontrollera server-, PHP- och databasfelloggar för att diagnostisera orsaken."
+
+#: inc/vendors/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:123
+msgid "action reset"
+msgstr "åtgärd återställd"
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:111
+msgid "Action Scheduler"
+msgstr "Action Scheduler"
+
+#. translators: 1: next cleanup message 2: github issue URL
+#: inc/vendors/action-scheduler/classes/ActionScheduler_WPCommentCleaner.php:108
+"Action Scheduler has migrated data to custom tables; however, orphaned log "
+"entries exist in the WordPress Comments table. %1$s <a href=\"%2$s\">Learn "
+"more &raquo;</a>"
+msgstr "Action Scheduler har migrerat data till anpassade tabeller; dock finns föräldralösa loggposter i WordPress kommentarstabell. %1$s <a href=\"%2$s\">Läs mer &raquo;</a>"
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_AdminView.php:229
+"Action Scheduler is a scalable, traceable job queue for background "
+"processing large sets of actions. Action Scheduler works by triggering an "
+"action hook to run at some time in the future. Scheduled actions can also be "
+"scheduled to run on a recurring schedule."
+msgstr "Action Scheduler är en skalbar, spårbar jobbkö för bakgrundsbearbetning av stora mängder åtgärder. Action Scheduler fungerar genom att utlösa en åtgärdskrok som ska köras vid någon tidpunkt i framtiden. Schemalagda åtgärder kan också schemaläggas att köras enligt ett återkommande schema."
+
+#: inc/vendors/action-scheduler/classes/migration/Controller.php:162
+"Action Scheduler migration in progress. The list of scheduled actions may be "
+"incomplete."
+msgstr "Action Scheduler-migrering pågår. Listan över schemalagda åtgärder kan vara ofullständig."
+
+#: inc/vendors/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:84
+msgid "action started"
+msgstr "åtgärd startad"
+
+#. translators: %s: context
+#: inc/vendors/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:82
+msgid "action started via %s"
+msgstr "åtgärd startad via %s"
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:122
+msgid "Action Status"
+msgstr "Åtgärdsstatus"
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_AdminView.php:242
+msgid "Action statuses are Pending, Complete, Canceled, Failed"
+msgstr "Åtgärdsstatusar är Väntande, Slutförd, Avbruten, Misslyckad"
+
+#: inc/vendors/action-scheduler/classes/abstracts/ActionScheduler_Store.php:329
+"ActionScheduler_Action::$args too long. To ensure the args column can be "
+"indexed, action args should not be more than %d characters when encoded as "
+"JSON."
+msgstr "ActionScheduler_Action::$args för lång. För att säkerställa att args-kolumnen kan indexeras bör åtgärdsargument inte vara mer än %d tecken när de kodas som JSON."
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_AdminView.php:247
+msgid "Activity log for the action."
+msgstr "Aktivitetslogg för åtgärden."
+
+#: admin/exopite-simple-options/fields/gallery.php:27
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:33
+msgid "Add"
+msgstr "Lägg till"
+
+#: admin/exopite-simple-options/fields/image.php:77
+msgid "Add Image"
+msgstr "Lägg till bild"
+
+#: inc/nuxy/taxonomy_meta/fields/image.php:10
+msgid "Add image"
+msgstr "Lägg till bild"
+
+#: admin/menu.php:566
+msgid "Add images slider for each listing item"
+msgstr "Lägg till bildspel för varje listningsobjekt"
+
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:34
+msgid "Add New Scheduled Action"
+msgstr "Lägg till ny schemalagd åtgärd"
+
+#: admin/exopite-simple-options/fields/gallery.php:25
+msgid "Add to gallery"
+msgstr "Lägg till i galleri"
+
+#: admin/exopite-simple-options/fields/video.php:63
+msgid "Add Video"
+msgstr "Lägg till video"
+
+#: tpl/listing/listing-info-prices.php:33
+msgid "Additional Guests:"
+msgstr "Ytterligare gäster:"
+
+#: tpl/payment/netpay-form.php:100 tpl/user/booking-manage.php:160
+msgid "Address"
+msgstr "Adress"
+
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:32
+msgctxt "Admin menu name"
+msgid "Scheduled Actions"
+msgstr "Schemalagda åtgärder"
+
+#: admin/menu.php:806
+msgid "Admin options"
+msgstr "Administratörsalternativ"
+
+#: tpl/element/direct-inquiry-modal.php:80 tpl/element/guests-block.php:15
+#: tpl/payment/charge-preview.php:41 tpl/payment/preview.php:57
+msgid "Adults"
+msgstr "Vuxna"
+
+#: admin/menu.php:427 lang/strings_to_translate.php:5
+msgid "Advanced search"
+msgstr "Avancerad sökning"
+
+#: tpl/element/guests-block.php:66
+msgid "Age under 2"
+msgstr "Ålder under 2"
+
+#: tpl/element/guests-block.php:17
+msgid "Age: 13+"
+msgstr "Ålder: 13+"
+
+#: tpl/element/guests-block.php:41
+msgid "Age: 2-12"
+msgstr "Ålder: 2-12"
+
+#: lang/strings_to_translate.php:6
+msgid "Air conditioning"
+msgstr "Luftkonditionering"
+
+#: lang/strings_to_translate.php:7
+msgid "All photos"
+msgstr "Alla foton"
+
+#: tpl/listing/listing-info-prices.php:40
+msgid "Allow Additional Guests:"
+msgstr "Tillåt ytterligare gäster:"
+
+#: tpl/listing/listings-sort.php:8
+msgid "Alphabetical"
+msgstr "Alfabetisk"
+
+#: tpl/user/booking-manage.php:121
+msgid "Alteration request"
+msgstr "Ändringsförfrågan"
+
+#: admin/menu.php:1145 admin/menu.php:1227 lang/strings_to_translate.php:8
+#: tpl/element/booking-search-advanced.php:74
+#: tpl/element/booking-search-popup.php:103 tpl/listing/listing.php:23
+msgid "Amenities"
+msgstr "Bekvämligheter"
+
+#: lang/strings_to_translate.php:9
+msgid "Amenities and special features of this"
+msgstr "Bekvämligheter och speciella funktioner för detta"
+
+#: lang/strings_to_translate.php:10
+msgid "Amenities and special featuresa"
+msgstr "Bekvämligheter och speciella funktioner"
+
+#: admin/menu.php:455
+msgid "Amenities groups"
+msgstr "Bekvämlighetsgrupper"
+
+#: admin/menu.php:590
+msgid "Amenities with images first"
+msgstr "Bekvämligheter med bilder först"
+
+#: admin/menu.php:597
+msgid "Amenities with images only"
+msgstr "Endast bekvämligheter med bilder"
+
+#: admin/menu.php:594
+msgid "Amenities with images will be shown first at the top of the list"
+msgstr "Bekvämligheter med bilder visas först överst i listan"
+
+#. translators: 1: provided value 2: provided type.
+#: inc/vendors/action-scheduler/functions.php:134
+msgid "An integer was expected but \"%1$s\" (%2$s) was received."
+msgstr "Ett heltal förväntades men \"%1$s\" (%2$s) mottogs."
+
+#: inc/helpers.php:338 tpl/user/booking-manage.php:183
+#: tpl/user/booking-manage.php:187
+msgid "Any time"
+msgstr "När som helst"
+
+#: lang/strings_to_translate.php:11
+msgid "Apartment"
+msgstr "Lägenhet"
+
+#: admin/menu.php:86
+msgid "API settings"
+msgstr "API-inställningar"
+
+#: admin/menu.php:90
+msgid "API URL"
+msgstr "API URL"
+
+#: admin/menu.php:97
+msgid "API WPKEY"
+msgstr "API WPKEY"
+
+#: admin/menu.php:195
+msgid "Applicable to NetPay"
+msgstr "Tillämpligt på NetPay"
+
+#: tpl/listing/listing-booking-form-on-request.php:63
+#: tpl/listing/listing-booking-form-v2.php:52
+#: tpl/listing/listing-booking-form.php:59
+msgid "Apply"
+msgstr "Tillämpa"
+
+#: lang/strings_to_translate.php:12 tpl/element/booking-search-advanced.php:107
+msgid "Apply filters"
+msgstr "Tillämpa filter"
+
+#: inc/seo.php:56
+msgid "Apply SEO settings (such as a pretty URL) to the Listing on this page"
+msgstr "Tillämpa SEO-inställningar (som en snygg URL) på listningen på denna sida"
+
+#: admin/exopite-simple-options/fields/backup.php:40
+msgid "Are you sure, you want to overwrite existing options?"
+msgstr "Är du säker på att du vill skriva över befintliga alternativ?"
+
+#: admin/exopite-simple-options/fields/backup.php:48
+msgid "Are you sure, you want to reset all options?"
+msgstr "Är du säker på att du vill återställa alla alternativ?"
+
+#: tpl/user/wishlist-item.php:40
+msgid "Area:"
+msgstr "Område:"
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_AdminView.php:243
+#: inc/vendors/action-scheduler/classes/ActionScheduler_ListTable.php:98
+msgid "Arguments"
+msgstr "Argument"
+
+#: lang/strings_to_translate.php:13
+msgid "Arrival"
+msgstr "Ankomst"
+
+#: tpl/user/bookings-list-item.php:37
+msgid "Arrival:"
+msgstr "Ankomst:"
+
+#: lang/strings_to_translate.php:14
+msgid "Arrive"
+msgstr "Ankomst"
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_ListTable.php:471
+msgid "async"
+msgstr "asynkron"
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_DataController.php:137
+msgid "Attempting to reduce used memory..."
+msgstr "Försöker minska använt minne..."
+
+#: admin/menu.php:438
+"ATTENTION: If disabled, all available amenities will be shown, this can be a "
+"huge list, so it is recommended to use the options below in this case."
+msgstr "OBS: Om inaktiverad kommer alla tillgängliga bekvämligheter att visas, detta kan bli en mycket lång lista, så det rekommenderas att använda alternativen nedan i detta fall."
+
+#: admin/menu.php:1194 lang/strings_to_translate.php:15
+msgid "Availability"
+msgstr "Tillgänglighet"
+
+#: lang/strings_to_translate.php:16 tpl/element/price-block-on-request.php:4
+msgid "Available"
+msgstr "Tillgänglig"
+
+#: lang/strings_to_translate.php:17
+msgid "Baby bath"
+msgstr "Barnbadkar"
+
+#: lang/strings_to_translate.php:18
+msgid "Baby monitor"
+msgstr "Babyvakt"
+
+#: lang/strings_to_translate.php:19
+msgid "Babysitter recommendations"
+msgstr "Barnvaktsrekommendationer"
+
+#: tpl/payment/netpay-form.php:160 tpl/payment/paypal-form.php:42
+#: tpl/payment/stripe-form-3ds-element-step-2.php:33
+#: tpl/payment/stripe-form-3ds-element-step-3.php:49
+#: tpl/payment/stripe-form-3ds-step-2.php:36
+#: tpl/payment/stripe-form-3ds-step-3.php:61
+msgid "Back"
+msgstr "Tillbaka"
+
+#: tpl/user/booking-manage.php:11
+msgid "Back to list"
+msgstr "Tillbaka till listan"
+
+#: tpl/payment/_error.php:20 tpl/payment/stripe-form-3ds_error.php:18
+msgid "Back to payment"
+msgstr "Tillbaka till betalning"
+
+#: inc/nuxy/metaboxes/metabox.php:225
+msgid "Backup Font Family"
+msgstr "Reservtypsnitt"
+
+#: lang/strings_to_translate.php:20
+msgid "Balcony or patio"
+msgstr "Balkong eller uteplats"
+
+#: lang/strings_to_translate.php:21
+msgid "bath"
+msgstr "badrum"
+
+#: lang/strings_to_translate.php:22 tpl/element/booking-search-advanced.php:63
+#: tpl/element/booking-search-popup.php:71
+msgid "Bathrooms"
+msgstr "Badrum"
+
+#: lang/strings_to_translate.php:23 tpl/listing/listing-facilities.php:32
+msgid "baths"
+msgstr "badrum"
+
+#: tpl/user/wishlist-item.php:38
+msgid "Baths:"
+msgstr "Badrum:"
+
+#: lang/strings_to_translate.php:24
+msgid "Bathtub"
+msgstr "Badkar"
+
+#: lang/strings_to_translate.php:25
+msgid "BBQ grill"
+msgstr "Grill"
+
+#: lang/strings_to_translate.php:26
+msgid "Beach essentials"
+msgstr "Strandtillbehör"
+
+#: lang/strings_to_translate.php:27
+msgid "Beachfront"
+msgstr "Strandläge"
+
+#: lang/strings_to_translate.php:28
+msgid "Bed linens"
+msgstr "Sänglinne"
+
+msgid "Bedlinen"
+msgstr "Sängkläder"
+
+msgid "Bedlinen 195 SEK"
+msgstr "Sängkläder 195 SEK"
+
+msgid "Bedlinen 195 SEK / set"
+msgstr "Sängkläder 195 SEK / set"
+
+#: tpl/element/booking-search.php:172
+msgid "Bedroom"
+msgstr "Sovrum"
+
+#: lang/strings_to_translate.php:29
+msgid "bedroom"
+msgstr "sovrum"
+
+#: lang/strings_to_translate.php:31 tpl/element/booking-search-popup.php:57
+#: tpl/element/booking-search.php:166 tpl/element/booking-search.php:172
+msgid "Bedrooms"
+msgstr "Sovrum"
+
+#: lang/strings_to_translate.php:30 tpl/listing/listing-facilities.php:18
+#: tpl/listing/listings-recommended-item.php:28
+#: tpl/listing/listings-selected-item.php:28
+msgid "bedrooms"
+msgstr "sovrum"
+
+#: tpl/user/wishlist-item.php:36
+msgid "Bedrooms:"
+msgstr "Sovrum:"
+
+#: tpl/listing/listing-facilities.php:24
+#: tpl/listing/listings-recommended-item.php:24
+#: tpl/listing/listings-selected-item.php:24
+msgid "beds"
+msgstr "sängar"
+
+#: inc/nuxy/metaboxes/google_fonts.php:22
+msgid "Black 900"
+msgstr "Svart 900"
+
+#: inc/nuxy/metaboxes/google_fonts.php:23
+msgid "Black 900 italic"
+msgstr "Svart 900 kursiv"
+
+#: inc/nuxy/metaboxes/google_fonts.php:20
+msgid "Bold 700"
+msgstr "Fet 700"
+
+#: inc/nuxy/metaboxes/google_fonts.php:21
+msgid "Bold 700 italic"
+msgstr "Fet 700 kursiv"
+
+#: tpl/element/price-block.php:52
+msgid "Book on Airbnb"
+msgstr "Boka på Airbnb"
+
+#: lang/strings_to_translate.php:32
+msgid "Booked"
+msgstr "Bokad"
+
+#: admin/menu.php:1032
+msgid "Booking form"
+msgstr "Bokningsformulär"
+
+#: lang/strings_to_translate.php:33
+msgid "Breakfast"
+msgstr "Frukost"
+
+#: lang/strings_to_translate.php:34
+msgid "Cable TV"
+msgstr "Kabel-TV"
+
+#: inc/class-hostifybooking-loader.php:1187
+msgid "Cache is disabled now"
+msgstr "Cache är nu inaktiverad"
+
+#: admin/menu.php:917
+"Can be used, for example, inside title (H1 tag) on the listing search page"
+msgstr "Kan användas, till exempel inuti titel (H1-tagg) på sökresultatsidan"
+
+#: admin/exopite-simple-options/fields/upload.php:106
+#: admin/exopite-simple-options/fields/upload.php:138
+#: inc/vendors/action-scheduler/classes/ActionScheduler_ListTable.php:133
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: tpl/user/booking-manage.php:221 tpl/user/booking-manage.php:239
+msgid "Cancel booking"
+msgstr "Avboka bokning"
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_ListTable.php:134
+msgid "Cancel the action now to avoid it being run in future"
+msgstr "Avbryt åtgärden nu för att undvika att den körs i framtiden"
+
+#: inc/vendors/action-scheduler/classes/abstracts/ActionScheduler_Store.php:409
+msgid "Canceled"
+msgstr "Avbokad"
+
+#: lang/strings_to_translate.php:35
+msgid "Cancellation policy"
+msgstr "Avbokningsregler"
+
+msgid "Cancellation protection"
+msgstr "Avbeställningsskydd"
+
+#: tpl/user/bookings-list.php:18
+msgid "Cancelled"
+msgstr "Avbokad"
+
+#: lang/strings_to_translate.php:36
+msgid "Capacity"
+msgstr "Kapacitet"
+
+#: inc/nuxy/metaboxes/google_fonts.php:53
+msgid "Capitalize"
+msgstr "Versalisera"
+
+#: lang/strings_to_translate.php:37
+msgid "Carbon monoxide detector"
+msgstr "Kolmonoxiddetektor"
+
+#: tpl/payment/stripe-form-3ds-step-3.php:17 tpl/payment/stripe-form.php:43
+msgid "Card number"
+msgstr "Kortnummer"
+
+#: lang/strings_to_translate.php:38
+msgid "Cats live on this property"
+msgstr "Katter bor på denna fastighet"
+
+#. translators: %s is the name of the hook to be cancelled.
+#: inc/vendors/action-scheduler/functions.php:287
+msgid "Caught exception while cancelling action: %s"
+msgstr "Fångade undantag vid avbrytande av åtgärd: %s"
+
+#: inc/nuxy/metaboxes/google_fonts.php:43
+msgid "Center"
+msgstr "Centrera"
+
+#: tpl/user/booking-manage.php:258
+msgid "Change of business event"
+msgstr "Ändring av affärshändelse"
+
+#: admin/menu.php:1243
+msgid "Changelog"
+msgstr "Ändringslogg"
+
+#: lang/strings_to_translate.php:39
+msgid "Changing table"
+msgstr "Skötbord"
+
+#: inc/nuxy/metaboxes/google_fonts.php:30
+msgid "Cyrillic ext"
+msgstr "Kyrillisk utökad"
+
+#: lang/strings_to_translate.php:50
+msgid "Daily"
+msgstr "Dagligen"
+
+#: lang/strings_to_translate.php:51
+msgid "Daily rental"
+msgstr "Daglig uthyrning"
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:118
+msgid "Data store:"
+msgstr "Datalager:"
+
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:118
+msgid "Database error."
+msgstr "Databasfel."
+
+#: lang/strings_to_translate.php:52
+msgid "day"
+msgstr "dag"
+
+#: inc/nuxy/metaboxes/fields/duration.php:35
+msgid "Days"
+msgstr "Dagar"
+
+#: tpl/user/booking-manage.php:259
+msgid "Decided to stay home"
+msgstr "Bestämde mig för att stanna hemma"
+
+#: inc/nuxy/metaboxes/google_fonts.php:41
+msgid "Default"
+msgstr "Standard"
+
+#: admin/menu.php:517
+msgid "Default map type"
+msgstr "Standard karttyp"
+
+#: admin/menu.php:549
+msgid "Default sorting"
+msgstr "Standardsortering"
+
+#: admin/menu.php:369
+msgid "Default term mode"
+msgstr "Standardläge för termer"
+
+#: admin/menu.php:338
+msgid "Default text if nothing is selected"
+msgstr "Standardtext om inget är valt"
+
+#: admin/menu.php:586
+"Define a list of amenities to show (IDs separated with a comma). All others "
+"will be hidden."
+msgstr "Definiera en lista över bekvämligheter att visa (ID:n separerade med kommatecken). Alla andra kommer att döljas."
+
+#: admin/exopite-simple-options/fields/upload.php:110
+#: inc/vendors/action-scheduler/classes/ActionScheduler_ListTable.php:92
+msgid "Delete"
+msgstr "Ta bort"
+
+#: inc/nuxy/taxonomy_meta/fields/image.php:13
+msgid "Delete image"
+msgstr "Ta bort bild"
+
+#: lang/strings_to_translate.php:53
+msgid "Depart"
+msgstr "Avresa"
+
+#: lang/strings_to_translate.php:54
+msgid "Departure"
+msgstr "Avresa"
+
+#: tpl/user/bookings-list-item.php:41
+msgid "Departure:"
+msgstr "Avresa:"
+
+#: inc/vendors/action-scheduler/classes/migration/Config.php:118
+msgid "Destination logger must be configured before running a migration"
+msgstr "Destinationsloggaren måste konfigureras innan migrering kan köras"
+
+#: inc/vendors/action-scheduler/classes/migration/Config.php:96
+msgid "Destination store must be configured before running a migration"
+msgstr "Destinationslagret måste konfigureras innan migrering kan köras"
+
+#: tpl/user/bookings-list-item.php:61
+msgid "Details"
+msgstr "Detaljer"
+
+#: admin/menu.php:1205
+msgid "Dictionaries"
+msgstr "Ordlistor"
+
+#: admin/menu.php:828
+msgid "Disable data caching"
+msgstr "Inaktivera datacachning"
+
+#: admin/menu.php:877
+msgid "Disable overwriting of the payment templates"
+msgstr "Inaktivera överskrivning av betalningsmallarna"
+
+#: admin/menu.php:876
+msgid "Disable payment templates"
+msgstr "Inaktivera betalningsmallar"
+
+#: lang/strings_to_translate.php:55
+msgid "Disabled parking spot"
+msgstr "Handikapparkeringsplats"
+
+#: tpl/element/price-block-accounting.php:67
+#: tpl/element/price-block-default.php:71 tpl/payment/preview-accounting.php:85
+#: tpl/payment/preview-accounting.php:95 tpl/payment/preview-default.php:69
+#: tpl/payment/preview-default.php:79
+msgid "discount"
+msgstr "rabatt"
+
+#: tpl/element/direct-inquiry-modal.php:105
+msgid "Discount Code"
+msgstr "Rabattkod"
+
+#: lang/strings_to_translate.php:56
+msgid "Dishes and silverware"
+msgstr "Tallrikar och bestick"
+
+#: lang/strings_to_translate.php:57
+msgid "Dishwasher"
+msgstr "Diskmaskin"
+
+#: admin/menu.php:501
+msgid "Display many closely spaced markers as one cluster on the map"
+msgstr "Visa många närliggande markörer som ett kluster på kartan"
+
+#: admin/menu.php:814
+msgid "Do not load Bootstrap library that comes with the plugin"
+msgstr "Ladda inte Bootstrap-biblioteket som följer med tillägget"
+
+#: admin/menu.php:466
+msgid "Do not show 'Other' group in advanced search"
+msgstr "Visa inte 'Övrigt'-gruppen i avancerad sökning"
+
+#: admin/menu.php:832
+msgid "Do not use cache - it can be useful for testing or troubleshooting"
+msgstr "Använd inte cache - kan vara användbart för testning eller felsökning"
+
+#: admin/menu.php:1256
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: tpl/element/booking-search-advanced.php:53
+msgid "Does not matter"
+msgstr "Spelar ingen roll"
+
+#: lang/strings_to_translate.php:58
+msgid "Doorman"
+msgstr "Dörrvakt"
+
+#: admin/exopite-simple-options/fields/backup.php:44
+msgid "Download Backup"
+msgstr "Ladda ner säkerhetskopia"
+
+#: admin/exopite-simple-options/fields/upload.php:71
+msgid "Drop files here"
+msgstr "Släpp filer här"
+
+#: lang/strings_to_translate.php:59
+msgid "Dryer"
+msgstr "Torktumlare"
+
+#: tpl/payment/preview.php:128
+msgid "Due now"
+msgstr "Att betala nu"
+
+#: tpl/element/price-block-accounting.php:110 tpl/payment/preview.php:83
+msgid "Due upon arrival:"
+msgstr "Att betala vid ankomst:"
+
+#: tpl/user/booking-manage.php:256
+msgid "Duplicate booking"
+msgstr "Dubblettbokning"
+
+#: inc/nuxy/metaboxes/fields/duration.php:24
+msgid "duration"
+msgstr "varaktighet"
+
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:35
+msgid "Edit"
+msgstr "Redigera"
+
+#: admin/menu.php:132 admin/menu.php:155 admin/menu.php:177 admin/menu.php:199
+#: admin/menu.php:221 admin/menu.php:243 admin/menu.php:265
+msgid "Edit page"
+msgstr "Redigera sida"
+
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:36
+msgid "Edit Scheduled Action"
+msgstr "Redigera schemalagd åtgärd"
+
+#: lang/strings_to_translate.php:60
+msgid "Electric profiling bed"
+msgstr "Elektrisk ställbar säng"
+
+#: lang/strings_to_translate.php:61
+msgid "Elevator in building"
+msgstr "Hiss i byggnaden"
+
+#: lang/strings_to_translate.php:62 tpl/element/direct-inquiry-modal.php:36
+#: tpl/payment/netpay-form.php:86 tpl/payment/paypal-form-step-1.php:26
+#: tpl/payment/paypal-form-step-1.php:27
+#: tpl/payment/stripe-form-3ds-element-step-1.php:23
+#: tpl/payment/stripe-form-3ds-element-step-1.php:24
+#: tpl/payment/stripe-form-3ds-step-1.php:26
+#: tpl/payment/stripe-form-3ds-step-1.php:27 tpl/payment/stripe-form.php:22
+#: tpl/payment/stripe-form.php:23
+msgid "Email"
+msgstr "E-post"
+
+#: inc/nuxy/metaboxes/fields/repeater.php:25
+#: inc/nuxy/metaboxes/fields/text.php:27
+#: inc/nuxy/metaboxes/fields/textarea.php:25
+msgid "Enter"
+msgstr "Ange"
+
+#: lang/strings_to_translate.php:63
+msgid "Enter location..."
+msgstr "Ange plats..."
+
+#: inc/nuxy/metaboxes/fields/number.php:22
+msgid "Enter numbers..."
+msgstr "Ange siffror..."
+
+#: inc/helpers/ListingHelper.php:57
+msgid "Entire home/flat"
+msgstr "Hela bostaden/lägenheten"
+
+#: tpl/payment/stripe-form-3ds-element.php:93
+msgid "Error"
+msgstr "Fel"
+
+#: inc/nuxy/helpers/file_upload.php:21
+msgid "Error occurred, please try again"
+msgstr "Ett fel uppstod, försök igen"
+
+#. translators: 1: action ID 2: exception message
+#: inc/vendors/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:170
+msgid "Error processing action %1$s: %2$s"
+msgstr "Fel vid bearbetning av åtgärd %1$s: %2$s"
+
+#. translators: %s: error message
+#. translators: %s: action error message
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:126
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:49
+#: inc/vendors/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+msgid "Error saving action: %s"
+msgstr "Fel vid sparande av åtgärd: %s"
+
+#: admin/exopite-simple-options/fields/typography.php:186
+msgid "Error! Can not load json file."
+msgstr "Fel! Kan inte ladda json-fil."
+
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:1303
+msgid "ERROR:"
+msgstr "FEL:"
+
+#: lang/strings_to_translate.php:64
+msgid "Essentials"
+msgstr "Nödvändigheter"
+
+#: lang/strings_to_translate.php:65
+msgid "Ethernet connection"
+msgstr "Ethernet-anslutning"
+
+#: lang/strings_to_translate.php:66
+msgid "EV charger"
+msgstr "Elbilsladdare"
+
+#: lang/strings_to_translate.php:67
+msgid "Event friendly"
+msgstr "Evenemangsvänligt"
+
+#: lang/strings_to_translate.php:68 tpl/element/booking-search-popup.php:147
+msgid "Events allowed"
+msgstr "Evenemang tillåtna"
+
+#. translators: %s: time interval
+#: inc/vendors/action-scheduler/classes/ActionScheduler_ListTable.php:260
+msgid "Every %s"
+msgstr "Var %s"
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_QueueRunner.php:221
+msgid "Every minute"
+msgstr "Varje minut"
+
+#: tpl/payment/stripe-form-3ds-step-3.php:25 tpl/payment/stripe-form.php:50
+msgid "Expiration"
+msgstr "Utgångsdatum"
+
+#: inc/nuxy/metaboxes/metabox.php:236
+msgid "Export options"
+msgstr "Exportera alternativ"
+
+#: lang/strings_to_translate.php:69 tpl/element/price-block-default.php:104
+#: tpl/payment/preview-default.php:37
+msgid "Extra person"
+msgstr "Extra person"
+
+#: lang/strings_to_translate.php:70
+msgid "Extra pillows and blankets"
+msgstr "Extra kuddar och filtar"
+
+#: tpl/payment/stripe-form-3ds-element-step-2.php:9
+#: tpl/payment/stripe-form-3ds-step-2.php:12 tpl/user/booking-manage.php:98
+msgid "Extras"
+msgstr "Tillägg"
+
+#: admin/menu.php:1137
+msgid "Facilities"
+msgstr "Faciliteter"
+
+#: inc/vendors/action-scheduler/classes/abstracts/ActionScheduler_Store.php:408
+msgid "Failed"
+msgstr "Misslyckades"
+
+#. translators: %s: count
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostStatusRegistrar.php:38
+msgid "Failed <span class=\"count\">(%s)</span>"
+msgid_plural "Failed <span class=\"count\">(%s)</span>"
+msgstr[0] "Misslyckades <span class=\"count\">(%s)</span>"
+msgstr[1] "Misslyckades <span class=\"count\">(%s)</span>"
+
+#: lang/strings_to_translate.php:71
+msgid "Family/kids friendly"
+msgstr "Familje-/barnvänligt"
+
+#: tpl/payment/stripe-form.php:34
+msgid "Feel free to leave any additional question..."
+msgstr "Skriv gärna eventuella ytterligare frågor..."
+
+#: tpl/payment/stripe-form-3ds-element-step-1.php:42
+#: tpl/payment/stripe-form-3ds-step-1.php:45
+msgid "Feel free to leave any additional questions..."
+msgstr "Skriv gärna eventuella ytterligare frågor..."
+
+#: inc/vendors/action-scheduler/classes/abstracts/ActionScheduler_Abstract_ListTable.php:523
+msgid "Filter"
+msgstr "Filtrera"
+
+#: admin/menu.php:351
+msgid "Filter locations while typing in selector"
+msgstr "Filtrera platser medan du skriver i väljaren"
+
+#: lang/strings_to_translate.php:72
+msgid "Fire extinguisher"
+msgstr "Brandsläckare"
+
+#: lang/strings_to_translate.php:73
+msgid "Fireplace guards"
+msgstr "Spisskydd"
+
+#: lang/strings_to_translate.php:74
+msgid "Firm mattress"
+msgstr "Fast madrass"
+
+#: lang/strings_to_translate.php:75
+msgid "First aid kit"
+msgstr "Första hjälpen-låda"
+
+#: tpl/element/direct-inquiry-modal.php:22
+msgid "First Name"
+msgstr "Förnamn"
+
+#: lang/strings_to_translate.php:76
+msgid "First name"
+msgstr "Förnamn"
+
+#: lang/strings_to_translate.php:77
+msgid "Flat smooth pathway to front door"
+msgstr "Plan och jämn väg till ytterdörren"
+
+#: tpl/user/booking-manage.php:257
+msgid "Flight / Train cancelled"
+msgstr "Flyg/tåg inställt"
+
+#: inc/nuxy/metaboxes/metabox.php:229
+msgid "Font Color"
+msgstr "Textfärg"
+
+#: inc/nuxy/metaboxes/metabox.php:224
+msgid "Font Family"
+msgstr "Typsnitt"
+
+#: inc/nuxy/metaboxes/metabox.php:220
+msgid "Font size"
+msgstr "Teckenstorlek"
+
+#: inc/nuxy/metaboxes/metabox.php:227
+msgid "Font Subsets"
+msgstr "Teckensnittsdelmängder"
+
+#: inc/nuxy/metaboxes/metabox.php:226
+msgid "Font Weignt & Style"
+msgstr "Teckenvikt & stil"
+
+#: admin/menu.php:1002 admin/menu.php:1012
+msgid "for payment page"
+msgstr "för betalningssidan"
+
+#: tpl/payment/time-left.php:7
+msgid "For your security, the session will time out after this period and you'll need to refresh the page to continue."
+msgstr "För din säkerhet kommer sessionen att avslutas efter denna period och du behöver uppdatera sidan för att fortsätta."
+
+#: tpl/payment/time-left.php:13
+msgid "For your security, this session has timed out."
+msgstr "För din säkerhet har denna session avslutats."
+
+#. translators: %d refers to how many scheduled tasks were found to run
+#: inc/vendors/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:152
+msgid "Found %d scheduled task"
+msgid_plural "Found %d scheduled tasks"
+msgstr[0] "Hittade %d schemalagd uppgift"
+msgstr[1] "Hittade %d schemalagda uppgifter"
+
+#: lang/strings_to_translate.php:78
+msgid "Free parking on premises"
+msgstr "Gratis parkering på området"
+
+#: lang/strings_to_translate.php:79
+msgid "Free parking on the street"
+msgstr "Gratis gatuparkering"
+
+#: inc/shortcodes/inc/make-listing-item-vars.php:33
+#: lang/strings_to_translate.php:81
+msgid "From"
+msgstr "Från"
+
+#: lang/strings_to_translate.php:80 tpl/listing/listing-info-prices.php:7
+#: tpl/listing/listing-info-prices.php:13
+#: tpl/listing/listing-info-prices.php:20
+#: tpl/listing/listings-recommended-item.php:53
+#: tpl/listing/listings-selected-item.php:53 tpl/user/wishlist-item.php:49
+msgid "from"
+msgstr "från"
+
+#: lang/strings_to_translate.php:82
+msgid "Full kitchen"
+msgstr "Fullutrustat kök"
+
+#: tpl/user/bookings-list.php:14
+msgid "Future"
+msgstr "Framtida"
+
+#: admin/menu.php:785
+msgid "GA Events"
+msgstr "GA-händelser"
+
+#: admin/menu.php:1050 lang/strings_to_translate.php:83
+msgid "Gallery"
+msgstr "Galleri"
+
+#: lang/strings_to_translate.php:84
+msgid "Game console"
+msgstr "Spelkonsol"
+
+#: lang/strings_to_translate.php:85
+msgid "Garden or backyard"
+msgstr "Trädgård eller bakgård"
+
+#: inc/nuxy/metaboxes/metabox.php:239
+msgid "Generate"
+msgstr "Generera"
+
+#: inc/nuxy/metaboxes/metabox-display.php:39 inc/nuxy/metaboxes/metabox.php:240
+msgid "Generate fonts"
+msgstr "Generera typsnitt"
+
+#: tpl/payment/stripe-form-3ds_success.php:58
+msgid "Go Back"
+msgstr "Gå tillbaka"
+
+#: tpl/payment/_success.php:85 tpl/payment/charge-error.php:41
+#: tpl/payment/charge-success.php:100
+msgid "Go back"
+msgstr "Gå tillbaka"
+
+#: admin/exopite-simple-options/fields/typography.php:93
+msgid "Google Fonts"
+msgstr "Google Fonts"
+
+#: lang/strings_to_translate.php:86
+msgid "Grab-rails for shower and toilet"
+msgstr "Stödhandtag för dusch och toalett"
+
+#: inc/nuxy/metaboxes/google_fonts.php:31
+msgid "Greek"
+msgstr "Grekiska"
+
+#: inc/nuxy/metaboxes/google_fonts.php:32
+msgid "Greek ext"
+msgstr "Grekiska ext"
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_AdminView.php:244
+#: inc/vendors/action-scheduler/classes/ActionScheduler_ListTable.php:99
+msgid "Group"
+msgstr "Grupp"
+
+#: admin/menu.php:497
+msgid "Group to clusters"
+msgstr "Gruppera till kluster"
+
+#: lang/strings_to_translate.php:87 tpl/listing/listing-info.php:16
+msgid "Guest access"
+msgstr "Gästtillgång"
+
+#: admin/menu.php:1263
+msgid "Guest area setup"
+msgstr "Gästområdesinställningar"
+
+msgid "guest(s)"
+msgstr "gäst(er)"
+
+#: lang/strings_to_translate.php:89 tpl/payment/charge-preview.php:28
+#: tpl/payment/preview.php:38 tpl/user/booking-manage.php:44
+msgid "Guests"
+msgstr "Gäster"
+
+#: lang/strings_to_translate.php:88 tpl/listing/listing-facilities.php:11
+#: tpl/listing/listings-recommended-item.php:20
+#: tpl/listing/listings-selected-item.php:20
+msgid "guests"
+msgstr "gäster"
+
+#: tpl/listing/listing-booking-form-on-request.php:45
+#: tpl/listing/listing-booking-form.php:41
+msgid "Guests:"
+msgstr "Gäster:"
+
+#: lang/strings_to_translate.php:90
+msgid "Gym"
+msgstr "Gym"
+
+#: lang/strings_to_translate.php:91
+msgid "Hair dryer"
+msgstr "Hårtork"
+
+#: lang/strings_to_translate.php:92
+msgid "Handheld shower head"
+msgstr "Handhållen duschhandtag"
+
+#: lang/strings_to_translate.php:93
+msgid "Hangers"
+msgstr "Galgar"
+
+#: lang/strings_to_translate.php:94
+msgid "Has dog"
+msgstr "Har hund"
+
+#: tpl/listing/listing-booking-form-on-request.php:60
+#: tpl/listing/listing-booking-form-v2.php:49
+#: tpl/listing/listing-booking-form.php:56
+msgid "Have a discount code?"
+msgstr "Har du en rabattkod?"
+
+#: lang/strings_to_translate.php:95
+msgid "Heating"
+msgstr "Uppvärmning"
+
+#: admin/menu.php:462
+msgid "Hide 'Other' group"
+msgstr "Dölj 'Övrigt' grupp"
+
+#: tpl/payment/preview.php:158
+msgid "Hide details"
+msgstr "Dölj detaljer"
+
+#: lang/strings_to_translate.php:96 tpl/listing/listings-map-toggle.php:10
+#: tpl/listing/listings-map-toggle.php:23
+msgid "Hide map"
+msgstr "Dölj karta"
+
+#: lang/strings_to_translate.php:97
+msgid "High chair"
+msgstr "Barnstol"
+
+#: lang/strings_to_translate.php:98
+msgid "Home office friendly"
+msgstr "Hemkontorsvänligt"
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_AdminView.php:241
+#: inc/vendors/action-scheduler/classes/ActionScheduler_ListTable.php:96
+msgid "Hook"
+msgstr "Krok"
+
+#: lang/strings_to_translate.php:99
+msgid "Host checkin"
+msgstr "Värdincheckning"
+
+#. Author of the plugin/theme
+#: lang/strings_to_translate.php:262
+#: inc/class-hostifybooking-widget.php:47
+msgid "Hostify"
+msgstr "Hostify"
+
+#. Plugin Name of the plugin/theme
+#: lang/strings_to_translate.php:264
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:1384
+msgid "Hostify Booking Engine"
+msgstr "Hostify Bokningsmotor"
+
+# Admin Interface
+#: admin/class-hostifybooking-admin.php:123
+msgid "Hostify cached data cleared"
+msgstr "Hostify cache-data rensad"
+
+#: inc/seo.php:43
+msgid "Hostify settings"
+msgstr "Hostify inställningar"
+
+#: lang/strings_to_translate.php:100
+msgid "Hot tub"
+msgstr "Bubbelpool"
+
+#: lang/strings_to_translate.php:101
+msgid "Hot water"
+msgstr "Varmvatten"
+
+#: inc/nuxy/metaboxes/fields/duration.php:34
+msgid "Hours"
+msgstr "Timmar"
+
+#: lang/strings_to_translate.php:102
+msgid "House"
+msgstr "Hus"
+
+#: lang/strings_to_translate.php:103 tpl/element/booking-search-popup.php:138
+#: tpl/user/booking-manage.php:171
+msgid "House rules"
+msgstr "Husets regler"
+
+#. Plugin URI of the plugin/theme
+msgid "https://hostify.com"
+msgstr "https://hostify.com"
+
+#: admin/menu.php:523
+msgid "Hybrid"
+msgstr "Hybrid"
+
+msgid "I accept the"
+msgstr "Jag godkänner"
+
+#: lang/strings_to_translate.php:104
+msgid "I consent to this processing of my data."
+msgstr "Jag samtycker till denna behandling av mina uppgifter."
+
+#: admin/menu.php:1230
+msgid "ID codes of available amenities"
+msgstr "ID-koder för tillgängliga bekvämligheter"
+
+#: admin/menu.php:1218
+msgid "ID codes of available cities"
+msgstr "ID-koder för tillgängliga städer"
+
+#: admin/menu.php:366
+msgid "If enabled, \"Studio\" option will be added to the bedroom selection."
+msgstr "Om aktiverad kommer \"Studio\"-alternativet att läggas till i sovrumsvalet."
+
+#: admin/menu.php:358
+msgid "If enabled, only listings with the specified number of bedrooms will be shown in the search results."
+msgstr "Om aktiverad visas endast annonser med det angivna antalet sovrum i sökresultaten."
+
+#: admin/menu.php:383
+msgid "If enabled, the \"short-term\" and \"long-term bookings\" will be added the search form."
+msgstr "Om aktiverad kommer \"korttids-\" och \"långtidsbokningar\" att läggas till i sökformuläret."
+
+#: admin/menu.php:781
+msgid "If the requested listing is not found, the page will be redirected to the specified URL, instead of \"No listing\" message"
+msgstr "Om den begärda annonsen inte hittas kommer sidan att omdirigeras till den angivna URL:en istället för meddelandet \"Ingen annons\""
+
+#: tpl/user/booking-manage.php:253
+msgid "Illness"
+msgstr "Sjukdom"
+
+#: inc/nuxy/metaboxes/fields/image.php:24
+msgid "Image URL"
+msgstr "Bild-URL"
+
+#: admin/menu.php:562
+msgid "Images slider"
+msgstr "Bildspel"
+
+#: admin/exopite-simple-options/fields/backup.php:40
+msgid "Import a Backup"
+msgstr "Importera en säkerhetskopia"
+
+#: inc/nuxy/metaboxes/metabox.php:237
+msgid "Import options"
+msgstr "Importalternativ"
+
+#: inc/nuxy/metaboxes/metabox.php:232
+msgid "Import settings"
+msgstr "Importera inställningar"
+
+# System Messages
+#: inc/nuxy/metaboxes/metabox-display.php:27
+msgid "Import/Export"
+msgstr "Importera/Exportera"
+
+#: lang/strings_to_translate.php:105
+msgid "Imprint"
+msgstr "Avtryck"
+
+msgid "In case of cancellation more than 90 days from arrival, you will receive a 90% refund of the total booking amount for your booking.\nIn case of cancellation less than 90 days but more than 40 days before your arrival, you will receive a 70% refund of the total booking amount for your booking. If you cancel less than 40 days before arrival, you will receive a 30% refund of the total booking amount for your booking."
+msgstr "Vid avbokning mer än 90 dagar före ankomst återbetalas 90% av den totala bokningssumman för din bokning.\nVid avbokning mindre än 90 dagar men mer än 40 dagar före ankomst återbetalas 70% av den totala bokningssumman för din bokning. Om du avbokar mindre än 40 dagar före ankomst återbetalas 30% av den totala bokningssumman för din bokning."
+
+msgid "In case of cancellation more than 90 days from arrival, you will receive a 90% refund of the total booking amount for your booking.<br> In case of cancellation less than 90 days but more than 40 days before your arrival, you will receive a 70% refund of the total booking amount for your booking. If you cancel less than 40 days before arrival, you will receive a 30% refund of the total booking amount for your booking."
+msgstr "Vid avbokning mer än 90 dagar före ankomst återbetalas 90% av den totala bokningssumman för din bokning.<br>Vid avbokning mindre än 90 dagar men mer än 40 dagar före ankomst återbetalas 70% av den totala bokningssumman för din bokning. Om du avbokar mindre än 40 dagar före ankomst återbetalas 30% av den totala bokningssumman för din bokning."
+
+#: admin/menu.php:173
+msgid "In case you use the direct payment acceptance"
+msgstr "Om du använder direkt betalningsacceptans"
+
+#: inc/vendors/action-scheduler/classes/abstracts/ActionScheduler_Store.php:407
+msgid "In-progress"
+msgstr "Pågående"
+
+#. translators: %s: count
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostStatusRegistrar.php:53
+msgid "In-Progress <span class=\"count\">(%s)</span>"
+msgid_plural "In-Progress <span class=\"count\">(%s)</span>"
+msgstr[0] "Pågående <span class=\"count\">(%s)</span>"
+msgstr[1] "Pågående <span class=\"count\">(%s)</span>"
+
+#: inc/ajax/hfy-ajax-payment-preview.php:114 inc/shortcodes/hfy-payment.php:120
+msgid "Incorrect parameters"
+msgstr "Felaktiga parametrar"
+
+#: lang/strings_to_translate.php:106
+msgid "Indoor fireplace"
+msgstr "Inomhuseldstad"
+
+#: tpl/element/direct-inquiry-modal.php:90 tpl/element/guests-block.php:64
+#: tpl/payment/charge-preview.php:45 tpl/payment/preview.php:64
+msgid "Infants"
+msgstr "Spädbarn"
+
+#: admin/menu.php:1067
+msgid "Info"
+msgstr "Information"
+
+#: admin/menu.php:1263
+msgid "Initial setup"
+msgstr "Grundinställningar"
+
+#: lang/strings_to_translate.php:107 tpl/listing/listing-info.php:21
+msgid "Interaction with guests"
+msgstr "Interaktion med gäster"
+
+#: lang/strings_to_translate.php:108
+msgid "internet connection"
+msgstr "internetanslutning"
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_ActionFactory.php:232
+msgid "Invalid action - must be a recurring action."
+msgstr "Ogiltig åtgärd - måste vara en återkommande åtgärd."
+
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:1163
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:904
+msgid "Invalid action ID. No status found."
+msgstr "Ogiltigt åtgärds-ID. Ingen status hittades."
+
+#: inc/nuxy/helpers/file_upload.php:65
+msgid "Invalid file extension"
+msgstr "Ogiltig filändelse"
+
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:318
+msgid "Invalid schedule. Cannot save action."
+msgstr "Ogiltigt schema. Kan inte spara åtgärd."
+
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:396
+msgid "Invalid value for select or count parameter. Cannot query actions."
+msgstr "Ogiltigt värde för urvals- eller räkneparameter. Kan inte söka åtgärder."
+
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:341
+msgid "Irks! An un-known error has occurred."
+msgstr "Oj! Ett okänt fel har inträffat."
+
+#: lang/strings_to_translate.php:109
+msgid "Iron"
+msgstr "Strykjärn"
+
+#: inc/shortcodes/inc/load-settings.php:16
+msgid "Is not active"
+msgstr "Är inte aktiv"
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_ListTable.php:364
+"It appears one or more database tables were missing. Attempting to re-create "
+"the missing table(s)."
+msgstr "Det verkar som en eller flera databastabeller saknades. Försöker återskapa de saknade tabellerna."
+
+#: lang/strings_to_translate.php:110
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr "Det verkar som inget hittades på denna plats. Kanske prova någon av länkarna nedan eller en sökning?"
+
+#. Translators: %s is the exception message.
+#: inc/vendors/action-scheduler/classes/ActionScheduler_QueueCleaner.php:60
+msgid "It was not possible to determine a valid cut-off time: %s."
+msgstr "Det var inte möjligt att fastställa en giltig sluttid: %s."
+
+#: admin/menu.php:543
+msgid "Items (listings) per page"
+msgstr "Objekt (annonser) per sida"
+
+#: lang/strings_to_translate.php:111
+msgid "Jacuzzi"
+msgstr "Jacuzzi"
+
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:454
+"JSON partial matching not supported in your environment. Please check your "
+"MySQL/MariaDB version."
+msgstr "JSON partiell matchning stöds inte i din miljö. Kontrollera din MySQL/MariaDB-version."
+
+#: lang/strings_to_translate.php:112
+msgid "Kettle"
+msgstr "Vattenkokare"
+
+#: lang/strings_to_translate.php:113
+msgid "Keypad"
+msgstr "Kodlås"
+
+#: lang/strings_to_translate.php:114
+msgid "Kitchen"
+msgstr "Kök"
+
+#: lang/strings_to_translate.php:115
+msgid "Lake access"
+msgstr "Sjöaccess"
+
+#: lang/strings_to_translate.php:116
+msgid "Laptop friendly workspace"
+msgstr "Laptopvänlig arbetsplats"
+
+#: tpl/element/direct-inquiry-modal.php:27
+msgid "Last Name"
+msgstr "Efternamn"
+
+#: lang/strings_to_translate.php:117
+msgid "Last name"
+msgstr "Efternamn"
+
+#: inc/nuxy/metaboxes/google_fonts.php:33
+msgid "Latin"
+msgstr "Latin"
+
+#: inc/nuxy/metaboxes/google_fonts.php:34
+msgid "Latin ext"
+msgstr "Latin ext"
+
+#: inc/nuxy/metaboxes/google_fonts.php:42
+msgid "Left"
+msgstr "Vänster"
+
+#: inc/nuxy/metaboxes/metabox.php:223
+msgid "Letter spacing"
+msgstr "Teckenmellanrum"
+
+#: inc/nuxy/metaboxes/google_fonts.php:14
+msgid "Light 300"
+msgstr "Ljus 300"
+
+#: inc/nuxy/metaboxes/google_fonts.php:15
+msgid "Light 300 italic"
+msgstr "Ljus 300 kursiv"
+
+#: inc/nuxy/metaboxes/metabox.php:221
+msgid "Line height"
+msgstr "Radhöjd"
+
+#: admin/menu.php:452
+msgid "List of amenities to show (ID separated by comma):"
+msgstr "Lista över bekvämligheter att visa (ID separerade med komma):"
+
+#: admin/menu.php:908
+msgid "List of Listings, show the search result"
+msgstr "Lista över annonser, visa sökresultatet"
+
+#: admin/menu.php:1026
+msgid "Listing parts:"
+msgstr "Annonsdelar:"
+
+#: inc/ajax/hfy-ajax-payment-preview.php:104 inc/shortcodes/hfy-payment.php:110
+#: inc/shortcodes/inc/load-listing-price.php:17
+msgid "Listing price is not available"
+msgstr "Annonspris är inte tillgängligt"
+
+#: admin/menu.php:955
+msgid "Listing search form"
+msgstr "Annonssökformulär"
+
+#: admin/menu.php:747
+msgid "Listing slug"
+msgstr "Annons-slug"
+
+#: admin/menu.php:537 admin/menu.php:905
+msgid "Listings"
+msgstr "Annonser"
+
+#: admin/menu.php:913
+msgid "Listings info"
+msgstr "Annonsinformation"
+
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:1367
+msgid "Listings links updated"
+msgstr "Annonslänkar uppdaterade"
+
+#: admin/menu.php:922
+msgid "Listings map"
+msgstr "Annonser karta"
+
+#: admin/menu.php:930
+msgid "Listings map show/hide button"
+msgstr "Visa/dölj-knapp för annonser karta"
+
+#: admin/menu.php:115
+msgid "Listings page"
+msgstr "Annonssida"
+
+#: admin/menu.php:937
+msgid "Listings sort control"
+msgstr "Sorteringskontroll för annonser"
+
+#: admin/menu.php:347
+msgid "Live search"
+msgstr "Livesökning"
+
+#: lang/strings_to_translate.php:118
+msgid "Loading calendar..."
+msgstr "Laddar kalender..."
+
+#: tpl/user/booking-manage.php:254
+msgid "Local competition preferred"
+msgstr "Lokal tävling föredras"
+
+#: admin/menu.php:1153 tpl/listing/listing-reviews-summary.php:56
+#: tpl/listing/listing.php:32
+msgid "Location"
+msgstr "Plats"
+
+#: admin/menu.php:321
+msgid "Location selector options"
+msgstr "Platsväljare alternativ"
+
+#: admin/menu.php:334
+msgid "Location selector placeholder"
+msgstr "Platshållare för platsväljare"
+
+#: lang/strings_to_translate.php:119
+msgid "Lock on bedroom door"
+msgstr "Lås på sovrumsdörr"
+
+#: lang/strings_to_translate.php:120
+msgid "Lockbox"
+msgstr "Nyckelbox"
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_AdminView.php:247
+#: inc/vendors/action-scheduler/classes/ActionScheduler_ListTable.php:102
+msgid "Log"
+msgstr "Logg"
+
+#: lang/strings_to_translate.php:121
+msgid "Long term stays allowed"
+msgstr "Långtidsvistelser tillåtna"
+
+#: tpl/element/booking-search.php:12
+msgid "Long-term bookings"
+msgstr "Långtidsbokningar"
+
+#: inc/nuxy/metaboxes/google_fonts.php:52
+msgid "Lowercase"
+msgstr "Gemener"
+
+#: lang/strings_to_translate.php:122
+msgid "Luggage dropoff allowed"
+msgstr "Bagageinlämning tillåten"
+
+#: admin/menu.php:1058
+msgid "Main image"
+msgstr "Huvudbild"
+
+#: lang/strings_to_translate.php:123 lang/strings_to_translate.php:124
+msgid "Make a booking inquiry"
+msgstr "Gör en bokningsförfrågan"
+
+#: lang/strings_to_translate.php:125
+msgid "Make an inquiry"
+msgstr "Gör en förfrågan"
+
+#. Description of the plugin/theme
+msgid "Make your own booking website using Hostify.com API"
+msgstr "Skapa din egen bokningswebbplats med Hostify.com API"
+
+#: admin/menu.php:477
+msgid "Map"
+msgstr "Karta"
+
+#: admin/menu.php:490
+msgid "Map price"
+msgstr "Kartpris"
+
+#: admin/menu.php:483
+msgid "Map tracking"
+msgstr "Kartspårning"
+
+#: admin/exopite-simple-options/fields/upload.php:180
+msgid "Max amount of files: "
+msgstr "Max antal filer: "
+
+#: admin/exopite-simple-options/fields/upload.php:181
+msgid "Max file upload size: "
+msgstr "Max filstorlek för uppladdning: "
+
+#: admin/menu.php:412
+msgid "Max guests number"
+msgstr "Max antal gäster"
+
+#: admin/menu.php:393
+msgid "Max infants number"
+msgstr "Max antal spädbarn"
+
+#: admin/exopite-simple-options/fields/group.php:348
+msgid "Max items:"
+msgstr "Max antal objekt:"
+
+#: admin/menu.php:405
+msgid "Max pets number"
+msgstr "Max antal husdjur"
+
+#: admin/menu.php:511
+msgid "Max zoom"
+msgstr "Max zoom"
+
+#: tpl/listing/listing-info-prices.php:66
+msgid "Maximum Number Of Days: "
+msgstr "Max antal dagar: "
+
+#. translators: %s: amount of claims
+#: inc/vendors/action-scheduler/classes/ActionScheduler_ListTable.php:380
+"Maximum simultaneous queues already in progress (%s queue). No additional "
+"queues will begin processing until the current queues are complete."
+msgid_plural ""
+"Maximum simultaneous queues already in progress (%s queues). No additional "
+"queues will begin processing until the current queues are complete."
+msgstr[0] "Maximalt antal samtidiga köer pågår redan (%s kö). Inga ytterligare köer kommer att påbörjas förrän nuvarande köer är klara."
+msgstr[1] "Maximalt antal samtidiga köer pågår redan (%s köer). Inga ytterligare köer kommer att påbörjas förrän nuvarande köer är klara."
+
+#: inc/nuxy/metaboxes/google_fonts.php:18
+msgid "Medium 500"
+msgstr "Medium 500"
+
+#: inc/nuxy/metaboxes/google_fonts.php:19
+msgid "Medium 500 italic"
+msgstr "Medium 500 kursiv"
+
+#: lang/strings_to_translate.php:126
+msgid "Microwave"
+msgstr "Mikrovågsugn"
+
+#. translators: 1: source action ID 2: source store class 3: destination action
+#. ID 4: destination store class
+#: inc/vendors/action-scheduler/classes/migration/Runner.php:107
+msgid "Migrated action with ID %1$d in %2$s to ID %3$d in %4$s"
+msgstr "Migrerad åtgärd med ID %1$d i %2$s till ID %3$d i %4$s"
+
+#. translators: %d: amount of actions
+#: inc/vendors/action-scheduler/classes/migration/Runner.php:82
+msgid "Migrating %d action"
+msgid_plural "Migrating %d actions"
+msgstr[0] "Migrerar %d åtgärd"
+msgstr[1] "Migrerar %d åtgärder"
+
+msgid "Minimum stay %d night"
+msgstr "Minst %d natt"
+
+msgid "Minimum stay %d nights"
+msgstr "Minst %d nätter"
+
+#: lang/strings_to_translate.php:127
+msgid "Minimum stay %s nights"
+msgstr "Minst %s nätter"
+
+#: inc/nuxy/metaboxes/fields/duration.php:33
+msgid "Minutes"
+msgstr "Minuter"
+
+#: admin/menu.php:713
+msgid "Miscellaneous"
+msgstr "Övrigt"
+
+#: inc/shortcodes/inc/make-listing-item-vars.php:38
+#: inc/shortcodes/inc/make-listing-tpl-vars.php:38
+#: lang/strings_to_translate.php:128
+msgid "month"
+msgstr "månad"
+
+#: lang/strings_to_translate.php:129
+msgid "Monthly"
+msgstr "Månadsvis"
+
+#: tpl/listing/listing-info-prices.php:19
+msgid "Monthly (30d+):"
+msgstr "Månadsvis (30d+):"
+
+#: lang/strings_to_translate.php:130 tpl/element/price-block-accounting.php:51
+#: tpl/element/price-block-default.php:55 tpl/payment/preview-accounting.php:69
+#: tpl/payment/preview-default.php:53
+msgid "monthly discount"
+msgstr "månadsrabatt"
+
+#: lang/strings_to_translate.php:131
+msgid "Monthly rental"
+msgstr "Månadshyra"
+
+#: lang/strings_to_translate.php:132
+msgid "More filters"
+msgstr "Fler filter"
+
+#: lang/strings_to_translate.php:133
+msgid "More results"
+msgstr "Fler resultat"
+
+#: tpl/payment/netpay-form.php:79 tpl/payment/paypal-form-step-1.php:17
+#: tpl/payment/paypal-form-step-1.php:18
+#: tpl/payment/stripe-form-3ds-element-step-1.php:14
+#: tpl/payment/stripe-form-3ds-element-step-1.php:15
+#: tpl/payment/stripe-form-3ds-step-1.php:17
+#: tpl/payment/stripe-form-3ds-step-1.php:18 tpl/payment/stripe-form.php:15
+#: tpl/payment/stripe-form.php:16
+msgid "Name"
+msgstr "Namn"
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_AdminView.php:241
+msgid "Name of the action hook that will be triggered."
+msgstr "Namn på action hook som kommer att triggas."
+
+msgid "New message"
+msgstr "Nytt meddelande"
+
+msgid "New message 2"
+msgstr "Nytt meddelande 2"
+
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:37
+msgid "New Scheduled Action"
+msgstr "Ny schemalagd åtgärd"
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:126
+msgid "Newest Scheduled Date"
+msgstr "Senaste schemalagda datum"
+
+#: lang/strings_to_translate.php:134 tpl/element/pagination-block.php:37
+#: tpl/payment/paypal-form-step-1.php:59
+#: tpl/payment/stripe-form-3ds-element-step-1.php:65
+#: tpl/payment/stripe-form-3ds-element-step-2.php:36
+#: tpl/payment/stripe-form-3ds-step-1.php:68
+#: tpl/payment/stripe-form-3ds-step-2.php:39
+msgid "Next"
+msgstr "Nästa"
+
+#: lang/strings_to_translate.php:135
+msgid "Next:"
+msgstr "Nästa:"
+
+#: inc/shortcodes/hfy-listing-gallery.php:44
+#: inc/shortcodes/inc/make-listing-item-vars.php:38
+#: inc/shortcodes/inc/make-listing-tpl-vars.php:41
+#: lang/strings_to_translate.php:136
+msgid "night"
+msgstr "natt"
+
+#: tpl/listing/listing-info-prices.php:6
+msgid "Nightly:"
+msgstr "Per natt:"
+
+#: inc/shortcodes/hfy-listing-gallery.php:44 lang/strings_to_translate.php:137
+#: tpl/element/price-block-accounting.php:21
+#: tpl/element/price-block-default.php:21 tpl/payment/preview-accounting.php:19
+#: tpl/payment/preview-default.php:23 tpl/user/booking-manage.php:50
+msgid "nights"
+msgstr "nätter"
+
+#: admin/exopite-simple-options/fields/upload.php:127
+#: lang/strings_to_translate.php:138 tpl/user/booking-manage.php:199
+#: tpl/user/booking-manage.php:203 tpl/user/booking-manage.php:207
+#: tpl/user/booking-manage.php:211
+msgid "No"
+msgstr "Nej"
+
+#: tpl/element/error-no-listings-available.php:2
+msgid "No accommodation available"
+msgstr "Inget boende tillgängligt"
+
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:41
+msgid "No actions found"
+msgstr "Inga åtgärder hittades"
+
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:42
+msgid "No actions found in trash"
+msgstr "Inga åtgärder hittades i papperskorgen"
+
+#: lang/strings_to_translate.php:139 tpl/element/error-no-listings-found.php:2
+msgid "No available properties for your search."
+msgstr "Inga tillgängliga boenden för din sökning."
+
+#: inc/class-hostifybooking-loader.php:243
+msgid "No available properties for your selection."
+msgstr "Inga tillgängliga fastigheter för ditt val."
+
+# Error Messages
+#: inc/ajax/hfy-ajax-payment-preview.php:28 inc/helpers.php:437
+#: inc/shortcodes/hfy-listing-amenities.php:13
+#: inc/shortcodes/hfy-listing-availability.php:15
+#: inc/shortcodes/hfy-listing-booking-form.php:14
+#: inc/shortcodes/hfy-listing-cancellation-policy.php:13
+#: inc/shortcodes/hfy-listing-facilities.php:13
+#: inc/shortcodes/hfy-listing-gallery.php:13
+#: inc/shortcodes/hfy-listing-image.php:13
+#: inc/shortcodes/hfy-listing-info-address.php:12
+#: inc/shortcodes/hfy-listing-info-guest-access.php:12
+#: inc/shortcodes/hfy-listing-info-house-rules.php:12
+#: inc/shortcodes/hfy-listing-info-interaction.php:12
+#: inc/shortcodes/hfy-listing-info-neighbourhood.php:12
+#: inc/shortcodes/hfy-listing-info-notes.php:12
+#: inc/shortcodes/hfy-listing-info-permit.php:17
+#: inc/shortcodes/hfy-listing-info-prices.php:17
+#: inc/shortcodes/hfy-listing-info-space.php:12
+#: inc/shortcodes/hfy-listing-info-summary.php:12
+#: inc/shortcodes/hfy-listing-info-transit.php:12
+#: inc/shortcodes/hfy-listing-info.php:13
+#: inc/shortcodes/hfy-listing-location.php:20
+#: inc/shortcodes/hfy-listing-reviews-comments.php:13
+#: inc/shortcodes/hfy-listing-reviews-count.php:13
+#: inc/shortcodes/hfy-listing-reviews-summary.php:13
+#: inc/shortcodes/hfy-listing-room-type.php:13
+#: inc/shortcodes/hfy-listing-title.php:13
+#: inc/shortcodes/hfy-listing-virtual-tour.php:13
+#: inc/shortcodes/hfy-listing.php:12 inc/shortcodes/hfy-payment.php:33
+msgid "No listing ID"
+msgstr "Inget listnings-ID"
+
+#: inc/shortcodes/hfy-payment.php:285
+msgid "No payment service"
+msgstr "Ingen betaltjänst"
+
+#: inc/shortcodes/hfy-payment-charge.php:19
+msgid "No reservation found"
+msgstr "Ingen bokning hittades"
+
+#: inc/shortcodes/hfy-payment-charge.php:13
+msgid "No reservation ID"
+msgstr "Inget boknings-ID"
+
+#: admin/menu.php:770
+msgid "NOINDEX for selected listings"
+msgstr "NOINDEX för valda objekt"
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_ListTable.php:266
+msgid "Non-repeating"
+msgstr "Icke-upprepande"
+
+#: inc/nuxy/metaboxes/google_fonts.php:50
+msgid "Normal"
+msgstr "Normal"
+
+#: inc/shortcodes/hfy-user-booking-manage.php:63
+#: inc/shortcodes/hfy-user-booking-manage.php:71
+msgid "Not found"
+msgstr "Hittades inte"
+
+#: admin/menu.php:815 tpl/payment/_success.php:74
+#: tpl/payment/charge-success.php:89
+#: tpl/payment/stripe-form-3ds-element-step-1.php:41
+#: tpl/payment/stripe-form-3ds-step-1.php:44 tpl/payment/stripe-form.php:35
+msgid "Note"
+msgstr "Notering"
+
+#: lang/strings_to_translate.php:140
+msgid "Nothing Found"
+msgstr "Inget hittades"
+
+#: tpl/user/bookings-list.php:31
+msgid "Nothing yet"
+msgstr "Inget än"
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_ListTable.php:224
+msgid "Now!"
+msgstr "Nu!"
+
+#: admin/exopite-simple-options/fields/upload.php:140
+msgid "Ok"
+msgstr "Ok"
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:125
+msgid "Oldest Scheduled Date"
+msgstr "Äldsta schemalagda datum"
+
+#: tpl/listing/listings-recommended-item.php:51
+#: tpl/listing/listings-selected-item.php:51 tpl/user/wishlist-item.php:47
+msgid "on request"
+msgstr "på förfrågan"
+
+#: admin/menu.php:601
+msgid "Only amenities with images will be displayed"
+msgstr "Endast bekvämligheter med bilder kommer att visas"
+
+#: admin/menu.php:445
+msgid "Only selected amenities will be used in the advanced search form"
+msgstr "Endast valda bekvämligheter kommer att användas i det avancerade sökformuläret"
+
+#: lang/strings_to_translate.php:141
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Hoppsan! Den sidan kan inte hittas."
+
+#: inc/nuxy/settings/settings.php:145
+msgid "Oops, something went wrong"
+msgstr "Hoppsan, något gick fel"
+
+#: admin/menu.php:569
+msgid "Open in new window"
+msgstr "Öppna i nytt fönster"
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_AdminView.php:244
+msgid "Optional action group."
+msgstr "Valfri åtgärdsgrupp."
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_AdminView.php:243
+msgid "Optional data array passed to the action hook."
+msgstr "Valfri dataarray som skickas till åtgärdskroken."
+
+#: admin/menu.php:1011
+msgid "Optional extras block with checkboxes"
+msgstr "Valfria tillval med kryssrutor"
+
+#: admin/menu.php:296
+msgid "Options"
+msgstr "Alternativ"
+
+#: admin/menu.php:116
+msgid "or listings search result [hfy_listings]"
+msgstr "eller sökresultat för objekt [hfy_listings]"
+
+#: lang/strings_to_translate.php:142
+msgid "original"
+msgstr "original"
+
+#: tpl/user/booking-manage.php:255
+msgid "Other destination preferred"
+msgstr "Annan destination föredras"
+
+#: tpl/listing/listing-info.php:26
+msgid "Other things to note"
+msgstr "Annat att notera"
+
+#: admin/menu.php:359
+msgid "Otherwise, by default, the result includes the specified number or more."
+msgstr "Annars inkluderar resultatet som standard det angivna antalet eller fler."
+
+#: inc/nuxy/metaboxes/fields/image.php:27
+msgid "Remove"
+msgstr "Ta bort"
+
+#: tpl/user/wishlist-item.php:17
+msgid "Remove from wish list"
+msgstr "Ta bort från önskelista"
+
+#: admin/menu.php:1189
+msgid "Render the iframe with link to the virtual tour"
+msgstr "Rendera iframen med länk till den virtuella rundturen"
+
+"Rent a crib from us. We deliver the bed to your accommodation so that it is "
+"in place when you arrive."
+msgstr "Hyr en spjälsäng från oss. Vi levererar sängen till ditt boende så att den finns på plats när du anländer."
+
+"Rent a highchair from us. We deliver the chair to your accommodation so that "
+"it is in place when you arrive."
+msgstr "Hyr en barnstol från oss. Vi levererar stolen till ditt boende så att den finns på plats när du anländer."
+
+"Rent a linen set from us. The set consists of 1 fitted sheet, 1 duvet cover, "
+"1 pillowcase, 1 large towel and 1 small towel."
+msgstr "Hyr ett sänglinnepaket från oss. Paketet består av 1 underlakan, 1 påslakan, 1 örngott, 1 stor handduk och 1 liten handduk."
+
+#: lang/strings_to_translate.php:171
+msgid "Rental"
+msgstr "Uthyrning"
+
+#: inc/nuxy/metaboxes/fields/image.php:26
+msgid "Replace"
+msgstr "Ersätt"
+
+#: tpl/user/booking-manage.php:296
+msgid "Request has been sent."
+msgstr "Förfrågan har skickats."
+
+#: tpl/payment/stripe-form-3ds_success.php:25
+msgid "Reservation"
+msgstr "Bokning"
+
+#: tpl/user/booking-manage.php:148
+msgid "Reservation code"
+msgstr "Bokningskod"
+
+#: tpl/element/direct-inquiry-modal.php:17
+#: tpl/listing/listing-booking-form-on-request.php:95
+#: tpl/listing/listing-booking-form-v2.php:85
+#: tpl/listing/listing-booking-form.php:92
+msgid "Reservation Inquiry"
+msgstr "Bokningsförfrågan"
+
+#: tpl/element/booking-search-advanced.php:106
+msgid "Reset"
+msgstr "Återställ"
+
+#: admin/exopite-simple-options/fields/backup.php:48
+msgid "Reset All Options"
+msgstr "Återställ alla inställningar"
+
+#: admin/exopite-simple-options/fields/upload.php:108
+msgid "Retry"
+msgstr "Försök igen"
+
+#: admin/menu.php:1178
+msgid "Reviews comments"
+msgstr "Recensionskommentarer"
+
+#: admin/menu.php:1170
+msgid "Reviews count"
+msgstr "Antal recensioner"
+
+#: admin/menu.php:1162
+msgid "Reviews summary"
+msgstr "Recensionssammanfattning"
+
+#: inc/nuxy/metaboxes/google_fonts.php:44
+msgid "Right"
+msgstr "Höger"
+
+#: admin/menu.php:521
+msgid "Roadmap (default)"
+msgstr "Vägkarta (standard)"
+
+#: lang/strings_to_translate.php:172
+msgid "Roll-in shower with shower bench or chair"
+msgstr "Rullstolsanpassad dusch med duschbänk eller stol"
+
+#: admin/menu.php:1129
+msgid "Room type"
+msgstr "Rumstyp"
+
+#: lang/strings_to_translate.php:173
+msgid "Room-darkening shades"
+msgstr "Mörkläggningsgardiner"
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_ListTable.php:129
+msgid "Run"
+msgstr "Kör"
+
+#. translators: %d: amount of actions
+#: inc/vendors/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:93
+msgid "Running %d action"
+msgid_plural "Running %d actions"
+msgstr[0] "Kör %d åtgärd"
+msgstr[1] "Kör %d åtgärder"
+
+#: lang/strings_to_translate.php:174
+msgid "Safety card"
+msgstr "Säkerhetskort"
+
+#: admin/menu.php:522
+msgid "Satellite"
+msgstr "Satellit"
+
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:1393
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:1406
+#: inc/class-hostifybooking-loader.php:1192
+#: inc/nuxy/settings/view/header.php:55
+msgid "Save Settings"
+msgstr "Spara inställningar"
+
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:1371
+msgid "Saved Successfully"
+msgstr "Sparades"
+
+#: inc/nuxy/settings/settings.php:141
+msgid "Saved!"
+msgstr "Sparat!"
+
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:1371
+msgid "Saving..."
+msgstr "Sparar..."
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_AdminView.php:246
+msgid "Scheduled"
+msgstr "Schemalagd"
+
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:31
+msgid "Scheduled Action"
+msgstr "Schemalagd åtgärd"
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_AdminView.php:239
+msgid "Scheduled Action Columns"
+msgstr "Kolumner för schemalagda åtgärder"
+
+#. translators: 1: action hook.
+#: inc/vendors/action-scheduler/classes/actions/ActionScheduler_Action.php:50
+"Scheduled action for %1$s will not be executed as no callbacks are "
+"registered."
+msgstr "Schemalagd åtgärd för %1$s kommer inte att utföras eftersom inga callbacks är registrerade."
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_AdminView.php:60
+#: inc/vendors/action-scheduler/classes/ActionScheduler_AdminView.php:75
+#: inc/vendors/action-scheduler/classes/ActionScheduler_AdminView.php:76
+#: inc/vendors/action-scheduler/classes/ActionScheduler_ListTable.php:89
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:19
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:30
+msgid "Scheduled Actions"
+msgstr "Schemalagda åtgärder"
+
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:20
+msgid "Scheduled actions are hooks triggered on a cetain date and time."
+msgstr "Schemalagda åtgärder är krokar som utlöses vid ett visst datum och tid."
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_ListTable.php:101
+msgid "Scheduled Date"
+msgstr "Schemalagt datum"
+
+#: admin/menu.php:315 inc/nuxy/settings/view/header.php:48
+#: inc/vendors/action-scheduler/classes/abstracts/ActionScheduler_Abstract_ListTable.php:765
+#: lang/strings_to_translate.php:175 tpl/element/booking-search-popup.php:163
+#: tpl/element/booking-search.php:214
+msgid "Search"
+msgstr "Sök"
+
+#: admin/menu.php:354
+msgid "Search for the exact number of bedrooms"
+msgstr "Sök efter exakt antal sovrum"
+
+#: admin/menu.php:952
+msgid "Search form"
+msgstr "Sökformulär"
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_ListTable.php:648
+msgid "Search hook, args and claim ID"
+msgstr "Sök krok, argument och anspråks-ID"
+
+#. translators: %s: search query
+#: inc/vendors/action-scheduler/classes/abstracts/ActionScheduler_Abstract_ListTable.php:650
+msgid "Search results for \"%s\""
+msgstr "Sökresultat för \"%s\""
+
+#: lang/strings_to_translate.php:176
+msgid "Search Results for: %s"
+msgstr "Sökresultat för: %s"
+
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:40
+msgid "Search Scheduled Actions"
+msgstr "Sök schemalagda åtgärder"
+
+#: tpl/element/price-block.php:19 tpl/payment/preview.php:135
+msgid "Security deposit"
+msgstr "Deposition"
+
+#: tpl/listing/listing-info-prices.php:26
+msgid "Security Deposit:"
+msgstr "Deposition:"
+
+#: tpl/listing/listings-recommended-item.php:60
+#: tpl/listing/listings-selected-item.php:60
+msgid "See more"
+msgstr "Se mer"
+
+#: lang/strings_to_translate.php:177 tpl/element/booking-search-advanced.php:53
+#: tpl/element/booking-search-advanced.php:65
+#: tpl/element/booking-search-popup.php:59
+#: tpl/element/booking-search-popup.php:73
+msgid "Select"
+msgstr "Välj"
+
+#: admin/menu.php:441 admin/menu.php:583
+msgid "Select amenities to show"
+msgstr "Välj bekvämligheter att visa"
+
+#: admin/exopite-simple-options/fields/upload.php:81
+#, fuzzy
+#| msgid "Select dates"
+#: lang/strings_to_translate.php:522
+#: admin/exopite-simple-options/fields/upload.php:81
+msgid "Select files"
+msgstr "Välj datum"
+
+#: admin/exopite-simple-options/fields/gallery.php:26
+msgid "Select images for gallery"
+msgstr "Välj bilder för galleri"
+
+#: admin/menu.php:337 inc/defines.php:64 inc/defines.php:315
+msgid "Select location"
+msgstr "Välj plats"
+
+#: inc/nuxy/taxonomy_meta/fields/image.php:45
+msgid "Select or Upload Media Of Your Chosen Persuasion"
+msgstr "Välj eller ladda upp media efter eget val"
+
+#: tpl/user/booking-manage.php:251
+msgid "Select reason"
+msgstr "Välj anledning"
+
+#: admin/menu.php:527
+"Select the default map type. Users can change this using the map type "
+"control."
+msgstr "Välj standardkarttyp. Användare kan ändra detta med karttypskontrollen."
+
+#: admin/menu.php:960
+msgid "Selected listings"
+msgstr "Valda listningar"
+
+#: tpl/payment/preview-extras-set.php:7
+msgid "Selected plan:"
+msgstr "Vald plan:"
+
+#: lang/strings_to_translate.php:178
+msgid "Self check-in"
+msgstr "Självincheckning"
+
+#: tpl/element/direct-inquiry-modal.php:156 tpl/user/booking-manage.php:289
+msgid "Send"
+msgstr "Skicka"
+
+#: admin/menu.php:789
+"Send custom events for Google Analytics using the Google tag (gtag) or "
+"Google Tag Manager (GTM)."
+msgstr "Skicka anpassade händelser för Google Analytics med Google tag (gtag) eller Google Tag Manager (GTM)."
+
+#: lang/strings_to_translate.php:179
+msgid "Send inquiry"
+msgstr "Skicka förfrågan"
+
+#: admin/menu.php:736 inc/seo.php:52
+msgid "SEO"
+msgstr "SEO"
+
+#: admin/menu.php:740
+msgid "SEO for listings"
+msgstr "SEO för listningar"
+
+#: lang/strings_to_translate.php:180
+msgid "Service charge"
+msgstr "Serviceavgift"
+
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:631
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:648
+#: inc/class-hostifybooking-loader.php:745
+#: inc/class-hostifybooking-loader.php:753
+msgid "Settings"
+msgstr "Inställningar"
+
+#: inc/nuxy/settings/settings.php:142
+msgid "Settings are changed"
+msgstr "Inställningarna har ändrats"
+
+#: inc/nuxy/settings/settings.php:146
+msgid "Settings are not changed"
+msgstr "Inställningarna har inte ändrats"
+
+#: inc/nuxy/metaboxes/metabox.php:234
+msgid "Settings copied to buffer"
+msgstr "Inställningar kopierade till buffert"
+
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:1388
+msgid "settings search..."
+msgstr "sök inställningar..."
+
+#: lang/strings_to_translate.php:181
+msgid "Shampoo"
+msgstr "Schampo"
+
+#: tpl/listing/listing-facilities.php:31
+msgid "shared baths"
+msgstr "delade badrum"
+
+#: inc/helpers/ListingHelper.php:59
+msgid "Shared room"
+msgstr "Delat rum"
+
+#: admin/menu.php:916
+msgid "Short info about current search"
+msgstr "Kort info om aktuell sökning"
+
+#: admin/menu.php:433
+msgid "Short list of amenities"
+msgstr "Kort lista över bekvämligheter"
+
+#: tpl/element/booking-search.php:16
+msgid "Short-term bookings"
+msgstr "Korttidsbokningar"
+
+#: admin/menu.php:886
+msgid "Shortcodes"
+msgstr "Kortkoder"
+
+#: admin/menu.php:362
+msgid "Show \"Studio\" option"
+msgstr "Visa \"Studio\"-alternativ"
+
+#: admin/menu.php:419
+msgid "Show age hints"
+msgstr "Visa åldersanvisningar"
+
+#: admin/menu.php:420
+msgid "Show age hints in the guests selection dialog"
+msgstr "Visa åldersanvisningar i gästvalsdialogen"
+
+#: lang/strings_to_translate.php:182
+msgid "Show all"
+msgstr "Visa alla"
+
+#: admin/menu.php:1053
+msgid "Show all images for one listing"
+msgstr "Visa alla bilder för en listning"
+
+#: admin/menu.php:459
+msgid "Show amenities groups"
+msgstr "Visa bekvämlighetsgrupper"
+
+#: admin/menu.php:504
+msgid "Show area"
+msgstr "Visa område"
+
+#: admin/menu.php:1035
+msgid "Show booking form for listing"
+msgstr "Visa bokningsformulär för listning"
+
+#: tpl/payment/preview.php:157
+msgid "Show details"
+msgstr "Visa detaljer"
+
+#: admin/menu.php:641
+msgid "Show discount"
+msgstr "Visa rabatt"
+
+#: admin/menu.php:645
+msgid "Show discount/coupon controls"
+msgstr "Visa rabatt/kupongkontroller"
+
+#: admin/menu.php:387
+msgid "Show infants selector"
+msgstr "Visa spädbarnväljare"
+
+#: admin/menu.php:1070
+msgid "Show info block for listing"
+msgstr "Visa informationsblock för boende"
+
+#: admin/menu.php:840
+msgid "Show links for quick access"
+msgstr "Visa länkar för snabbåtkomst"
+
+#: admin/menu.php:836
+msgid "Show links on admin bar"
+msgstr "Visa länkar i adminmenyn"
+
+#: admin/menu.php:1148
+msgid "Show listing amenities for listing"
+msgstr "Visa boendets bekvämligheter"
+
+#: admin/menu.php:1140
+msgid "Show listing facilities for listing"
+msgstr "Visa boendets faciliteter"
+
+#: admin/menu.php:1156
+"Show listing location on map. And there is a synonym: [hfy_listing_map]."
+msgstr "Visa boendets plats på kartan. Det finns också en synonym: [hfy_listing_map]."
+
+#: admin/menu.php:1181
+msgid "Show listing reviews comment"
+msgstr "Visa boendets recensionskommentarer"
+
+#: admin/menu.php:1173
+msgid "Show listing reviews count number"
+msgstr "Visa antal recensioner för boendet"
+
+#: admin/menu.php:1165
+msgid "Show listing reviews summary"
+msgstr "Visa sammanfattning av boendets recensioner"
+
+#: admin/menu.php:1044
+msgid "Show listing title"
+msgstr "Visa boendets titel"
+
+#: admin/menu.php:963
+msgid "Show listings by ID, city ID"
+msgstr "Visa boenden efter ID, stads-ID"
+
+#: admin/menu.php:925
+msgid "Show listings on map"
+msgstr "Visa boenden på karta"
+
+#: admin/menu.php:379
+msgid "Show long/short terms selector"
+msgstr "Visa lång/korttidsväljare"
+
+#: admin/menu.php:1061
+msgid "Show main image for one listing"
+msgstr "Visa huvudbild för ett boende"
+
+#: lang/strings_to_translate.php:183 tpl/listing/listings-map-toggle.php:7
+#: tpl/listing/listings-map-toggle.php:20
+msgid "Show map"
+msgstr "Visa karta"
+
+#: lang/strings_to_translate.php:184 tpl/element/booking-search-popup.php:97
+msgid "Show more"
+msgstr "Visa mer"
+
+#: tpl/listing/listing-amenities.php:6
+msgid "show more &rarr;"
+msgstr "visa mer &rarr;"
+
+#: lang/strings_to_translate.php:185
+msgid "Show more amenities"
+msgstr "Visa fler bekvämligheter"
+
+#: admin/menu.php:675
+msgid "Show optional extras on payment page"
+msgstr "Visa valfria tillägg på betalningssidan"
+
+#: admin/menu.php:987
+msgid "Show payment summary and form"
+msgstr "Visa betalningssammanfattning och formulär"
+
+#: admin/menu.php:399
+msgid "Show pets selector"
+msgstr "Visa husdjursväljare"
+
+#: admin/menu.php:473
+msgid "Show Pets selector in advanced search form instead of Guests dialog"
+msgstr "Visa husdjursväljare i avancerat sökformulär istället för gästdialog"
+
+#: admin/menu.php:494
+msgid "Show price labels on the map instead of pins"
+msgstr "Visa prisetikett på kartan istället för nålar"
+
+#: admin/menu.php:979
+msgid "Show recent listings"
+msgstr "Visa senaste boenden"
+
+#: admin/menu.php:1132
+msgid "Show room type info for listing"
+msgstr "Visa rumstypsinfo för boende"
+
+#: admin/menu.php:947
+msgid "Show single listing by ID"
+msgstr "Visa enskilt boende efter ID"
+
+#: admin/menu.php:508
+msgid "Show the approximate area instead of the exact location point"
+msgstr "Visa det ungefärliga området istället för den exakta platspunkten"
+
+#: admin/menu.php:971
+msgid "Show top listings"
+msgstr "Visa toppboenden"
+
+#: admin/menu.php:487
+msgid "Show/hide listings in search results while map moving"
+msgstr "Visa/dölj boenden i sökresultat medan kartan flyttas"
+
+#: lang/strings_to_translate.php:186
+msgid "Single level home"
+msgstr "Enplanshus"
+
+#: admin/menu.php:577 admin/menu.php:944
+msgid "Single listing"
+msgstr "Enskilt boende"
+
+#: admin/menu.php:138
+msgid "Single listing page"
+msgstr "Enskild boendesida"
+
+#: admin/menu.php:139
+msgid "single page [hfy_listing]"
+msgstr "enskild sida [hfy_listing]"
+
+#: lang/strings_to_translate.php:187
+msgid "Size"
+msgstr "Storlek"
+
+#: lang/strings_to_translate.php:188
+msgid "Ski in/Ski out"
+msgstr "Ski in/Ski out"
+
+#: lang/strings_to_translate.php:189
+msgid "Smartlock"
+msgstr "Smartlås"
+
+#: lang/strings_to_translate.php:190
+msgid "Smoke detector"
+msgstr "Brandvarnare"
+
+#: lang/strings_to_translate.php:191 tpl/element/booking-search-popup.php:151
+msgid "Smoking allowed"
+msgstr "Rökning tillåten"
+
+#: tpl/user/booking-manage.php:198
+msgid "Smoking allowed:"
+msgstr "Rökning tillåten:"
+
+#: tpl/user/booking-manage.php:282
+msgid "Sorry, an error occured. Please try again later."
+msgstr "Tyvärr uppstod ett fel. Vänligen försök igen senare."
+
+#: lang/strings_to_translate.php:192
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr "Tyvärr matchade inget dina söktermer. Vänligen försök igen med andra sökord."
+
+#: inc/shortcodes/hfy-payment.php:261
+msgid "Sorry, listing currency not supported by PayPal"
+msgstr "Tyvärr stöds inte boendets valuta av PayPal"
+
+#: inc/nuxy/metaboxes/metabox.php:238
+msgid "Sorry, no matching options."
+msgstr "Tyvärr, inga matchande alternativ."
+
+#: lang/strings_to_translate.php:193 tpl/listing/listings-sort.php:6
+#: tpl/user/wishlist.php:24
+msgid "Sort by:"
+msgstr "Sortera efter:"
+
+#: inc/vendors/action-scheduler/classes/migration/Config.php:74
+msgid "Source logger must be configured before running a migration"
+msgstr "Källloggaren måste konfigureras innan migrering körs"
+
+#: inc/vendors/action-scheduler/classes/migration/Config.php:52
+msgid "Source store must be configured before running a migration"
+msgstr "Källlagret måste konfigureras innan migrering körs"
+
+#: lang/strings_to_translate.php:194
+msgid "Stair gates"
+msgstr "Trappgrindar"
+
+#: tpl/user/booking-manage.php:186
+msgid "start from"
+msgstr "börjar från"
+
+#. translators: %s refers to the action ID
+#: inc/vendors/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:138
+msgid "Started processing action %s"
+msgstr "Började bearbeta åtgärd %s"
+
+#: tpl/payment/netpay-form.php:118 tpl/payment/netpay-form.php:123
+#: tpl/payment/netpay-form.php:132
+msgid "State"
+msgstr "Län"
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_AdminView.php:242
+#: inc/vendors/action-scheduler/classes/ActionScheduler_ListTable.php:97
+msgid "Status"
+msgstr "Status"
+
+#: inc/vendors/action-scheduler/classes/abstracts/ActionScheduler_Abstract_ListTable.php:685
+msgctxt "status labels"
+msgid "All"
+msgstr "Alla"
+
+#: inc/vendors/action-scheduler/classes/abstracts/ActionScheduler_Abstract_ListTable.php:686
+msgctxt "status labels"
+msgid "Past-due"
+msgstr "Förfallna"
+
+msgid "Stay"
+msgstr "Vistelse"
+
+#: inc/shortcodes/inc/make-listing-item-vars.php:36
+#: lang/strings_to_translate.php:195
+msgid "stay"
+msgstr "vistelse"
+
+#: lang/strings_to_translate.php:196
+msgid "Step-free access"
+msgstr "Trappfri tillgång"
+
+#. translators: %d: amount of time
+#: inc/vendors/action-scheduler/classes/ActionScheduler_DataController.php:133
+msgid "Stopped the insanity for %d second"
+msgid_plural "Stopped the insanity for %d seconds"
+msgstr[0] "Stoppade galenskapen i %d sekund"
+msgstr[1] "Stoppade galenskapen i %d sekunder"
+
+#: lang/strings_to_translate.php:197
+msgid "Stove"
+msgstr "Spis"
+
+#: admin/menu.php:862
+msgid "Stripe payment element form"
+msgstr "Stripe betalningselementformulär"
+
+#: tpl/element/booking-search-popup.php:61 tpl/element/booking-search.php:168
+#: tpl/listing/listing-facilities.php:16
+msgid "Studio"
+msgstr "Studio"
+
+#: tpl/element/price-block-accounting.php:126
+#: tpl/payment/preview-accounting.php:53 tpl/payment/preview.php:99
+#: tpl/user/booking-manage.php:92
+msgid "Subtotal"
+msgstr "Delsumma"
+
+#. translators: %s: action HTML
+#: inc/vendors/action-scheduler/classes/ActionScheduler_ListTable.php:425
+msgid "Successfully canceled action: %s"
+msgstr "Avbröt åtgärd: %s"
+
+#. translators: %s: action HTML
+#: inc/vendors/action-scheduler/classes/ActionScheduler_ListTable.php:421
+msgid "Successfully executed action: %s"
+msgstr "Utförde åtgärd: %s"
+
+#. translators: %s: action HTML
+#: inc/vendors/action-scheduler/classes/ActionScheduler_ListTable.php:429
+msgid "Successfully processed change for action: %s"
+msgstr "Bearbetade ändring för åtgärd: %s"
+
+#: lang/strings_to_translate.php:198
+msgid "Table corner guards"
+msgstr "Bordshörnsskydd"
+
+#: admin/menu.php:341
+msgid "Tags menu"
+msgstr "Taggmeny"
+
+#: tpl/element/price-block-default.php:111 tpl/payment/preview-default.php:44
+msgid "Tax"
+msgstr "Moms"
+
+#: tpl/element/price-block-accounting.php:130 tpl/payment/preview.php:103
+msgid "Taxes"
+msgstr "Moms"
+
+#: lang/strings_to_translate.php:199
+msgid "Terms & conditions"
+msgstr "Boknings-och köpvillkor"
+
+#: admin/menu.php:524
+msgid "Terrain"
+msgstr "Terräng"
+
+#: inc/nuxy/metaboxes/metabox.php:228
+msgid "Text Align"
+msgstr "Textjustering"
+
+#: inc/nuxy/metaboxes/metabox.php:230
+msgid "Text transform"
+msgstr "Texttransformering"
+
+#: tpl/element/direct-inquiry-modal.php:165
+msgid "Thank you for your inquiry! We'll be in touch soon."
+msgstr "Tack för din förfrågan! Vi återkommer snart."
+
+#: lang/strings_to_translate.php:200
+msgid "Thank you!"
+msgstr "Tack!"
+
+#. translators: %s php class name
+#: inc/vendors/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:33
+#: inc/vendors/action-scheduler/classes/WP_CLI/ProgressBar.php:47
+msgid "The %s class can only be run within WP CLI."
+msgstr "Klassen %s kan endast köras inom WP CLI."
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_AdminView.php:245
+msgid "The action's schedule frequency."
+msgstr "Åtgärdens schemafrekvens."
+
+#: tpl/payment/netpay-form.php:180
+msgid "The amount will be converted to mexican pesos"
+msgstr "Beloppet kommer att konverteras till mexikanska peso"
+
+#: inc/vendors/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:113
+msgid "The claim has been lost. Aborting current batch."
+msgstr "Anspråket har förlorats. Avbryter aktuell batch."
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_AdminView.php:246
+msgid "The date/time the action is/was scheduled to run."
+msgstr "Datum/tid då åtgärden är/var schemalagd att köras."
+
+#. translators: %s: group name(s)
+#. translators: %s is the group name
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:910
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:717
+msgid "The group \"%s\" does not exist."
+msgid_plural "The groups \"%s\" do not exist."
+msgstr[0] "Gruppen \"%s\" finns inte."
+msgstr[1] "Grupperna \"%s\" finns inte."
+
+#: lang/strings_to_translate.php:201
+msgid "The listing is not available for your selected dates."
+msgstr "Boendet är inte tillgängligt för dina valda datum."
+
+#. translators: %d: seconds
+#: inc/vendors/action-scheduler/classes/ActionScheduler_ListTable.php:400
+msgid "The next queue will begin processing in approximately %d seconds."
+msgstr "Nästa kö kommer att börja bearbetas om ungefär %d sekunder."
+
+msgid "The period is not available"
+msgstr "Denna period är inte tillgänglig"
+
+#: admin/menu.php:833
+"The plugin uses data caching both on the Hostify API and WordPress side. "
+"Sometimes during development and configuration process, it can interfere or "
+"confuse."
+msgstr "Pluginet använder datacachning både på Hostify API och WordPress-sidan. Ibland under utvecklings- och konfigurationsprocessen kan det störa eller förvirra."
+
+#: tpl/listing/listing-info.php:11
+msgid "The space"
+msgstr "Utrymmet"
+
+#. translators: %s: provided value type
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:471
+"The value type for the JSON partial matching is not supported. Must be "
+"either integer, boolean, double or string. %s type provided."
+msgstr "Värdetypen för JSON-delmatchning stöds inte. Måste vara antingen heltal, boolean, double eller sträng. %s typ angiven."
+
+#: inc/vendors/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:59
+"There are too many concurrent batches, but the run is forced to continue."
+msgstr "Det finns för många samtidiga batcher, men körningen tvingas fortsätta."
+
+#: inc/vendors/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:61
+msgid "There are too many concurrent batches."
+msgstr "Det finns för många samtidiga batcher."
+
+#: admin/exopite-simple-options/fields/attached.php:30
+msgid "There is no attachment with type %1$s for this %2$s."
+msgstr "Det finns ingen bilaga av typen %1$s för denna %2$s."
+
+#: inc/vendors/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:148
+msgid "There was a failure fetching this action"
+msgstr "Det uppstod ett fel vid hämtning av denna åtgärd"
+
+#. translators: %s: exception message
+#: inc/vendors/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:146
+msgid "There was a failure fetching this action: %s"
+msgstr "Det uppstod ett fel vid hämtning av denna åtgärd: %s"
+
+#. translators: %s: exception message
+#: inc/vendors/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:156
+msgid "There was a failure scheduling the next instance of this action: %s"
+msgstr "Det uppstod ett fel vid schemaläggning av nästa instans av denna åtgärd: %s"
+
+#: tpl/payment/charge-error.php:32
+msgid "There was a problem with your payment"
+msgstr "Det uppstod ett problem med din betalning"
+
+#: tpl/payment/_error.php:5 tpl/payment/stripe-form-3ds_error.php:3
+msgid "There was a problem with your payment. Please try again."
+msgstr "Det uppstod ett problem med din betalning. Vänligen försök igen."
+
+#. translators: %s refers to the exception error message
+#: inc/vendors/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:105
+msgid "There was an error deleting an action: %s"
+msgstr "Det uppstod ett fel vid borttagning av en åtgärd: %s"
+
+#. translators: %s refers to the exception error message
+#: inc/vendors/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:188
+msgid "There was an error running the action scheduler: %s"
+msgstr "Det uppstod ett fel vid körning av åtgärdsschemaläggaren: %s"
+
+#: inc/nuxy/metaboxes/google_fonts.php:12
+msgid "Thin 100"
+msgstr "Tunn 100"
+
+#: inc/nuxy/metaboxes/google_fonts.php:13
+msgid "Thin 100 italic"
+msgstr "Tunn 100 kursiv"
+
+#: inc/vendors/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php:155
+"This action appears to be consistently failing. A new instance will not be "
+"scheduled."
+msgstr "Denna åtgärd verkar misslyckas konsekvent. En ny instans kommer inte att schemaläggas."
+
+#. translators: %s: date interval
+#: inc/vendors/action-scheduler/classes/ActionScheduler_WPCommentCleaner.php:103
+msgid "This data will be deleted in %s."
+msgstr "Denna data kommer att raderas om %s."
+
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:1304
+msgid "This field class is not available!"
+msgstr "Denna fältklass är inte tillgänglig!"
+
+#: lang/strings_to_translate.php:202
+msgid "This field is required."
+msgstr "Detta fält är obligatoriskt."
+
+#: admin/menu.php:151
+msgid "This page will be used in links to certain Listing"
+msgstr "Denna sida kommer att användas i länkar till vissa boenden"
+
+msgid "This period is not available"
+msgstr "Denna period är inte tillgänglig"
+
+#: tpl/element/guests-block.php:122
+msgid "This place has a maximum of {max} guests, infants not allowed."
+msgstr "Detta boende tar emot max {max} gäster, spädbarn är inte tillåtna."
+
+#: tpl/element/guests-block.php:121
+msgid "This place has a maximum of {max} guests, not including infants."
+msgstr "Detta boende tar emot max {max} gäster, spädbarn ej inkluderade."
+
+#: admin/menu.php:815
+"This plugin uses the Bootstrap CSS framework. If there are any problems or "
+"conflicts with the installed plugins or theme, you can prevent the Hostiy "
+"plugin from loading this framework."
+msgstr "Detta plugin använder Bootstrap CSS-ramverket. Om det finns några problem eller konflikter med installerade plugins eller tema kan du förhindra att Hostify-pluginet laddar detta ramverk."
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:111
+msgid "This section shows details of Action Scheduler."
+msgstr "Detta avsnitt visar detaljer om Action Scheduler."
+
+#: inc/nuxy/metaboxes/metabox.php:241
+msgid "This setting will automatically update font files in server"
+msgstr "Denna inställning kommer automatiskt att uppdatera typsnittsfiler på servern"
+
+#: tpl/user/booking-manage.php:188
+msgid "till"
+msgstr "till"
+
+#: admin/menu.php:1041
+msgid "Title"
+msgstr "Titel"
+
+#: inc/class-hostifybooking-widget.php:53
+msgid "Title:"
+msgstr "Titel:"
+
+#: lang/strings_to_translate.php:203
+msgid "to"
+msgstr "till"
+
+#: lang/strings_to_translate.php:204
+"To see availability and pricing please enter your check-in and check-out "
+"dates below."
+msgstr "För att se tillgänglighet och priser, vänligen ange dina in- och utcheckningsdatum nedan."
+
+#: lang/strings_to_translate.php:205
+"To see availability please enter your check-in and check-out dates below."
+msgstr "För att se tillgänglighet, vänligen ange dina in- och utcheckningsdatum nedan."
+
+#: admin/menu.php:261
+msgid "To show a list of Listings that user was marked"
+msgstr "För att visa en lista över boenden som användaren har markerat"
+
+#: admin/menu.php:217
+msgid "To show list of user bookings"
+msgstr "För att visa lista över användarens bokningar"
+
+#: admin/menu.php:239
+msgid "To show single booking details"
+msgstr "För att visa enskilda bokningsdetaljer"
+
+#: admin/menu.php:195
+msgid "To show the payment result"
+msgstr "För att visa betalningsresultatet"
+
+#: admin/menu.php:968
+msgid "Top listings"
+msgstr "Toppboenden"
+
+#: inc/shortcodes/inc/make-listing-item-vars.php:32
+#: lang/strings_to_translate.php:206 tpl/element/price-block-accounting.php:136
+#: tpl/element/price-block-default.php:119 tpl/payment/charge-preview.php:57
+#: tpl/payment/preview.php:116 tpl/user/booking-manage.php:111
+msgid "Total"
+msgstr "Totalt"
+
+#: tpl/user/bookings-list-item.php:55
+msgid "Total:"
+msgstr "Totalt:"
+
+#: tpl/payment/stripe-form-3ds_success.php:37
+msgid "Transaction Date"
+msgstr "Transaktionsdatum"
+
+#: tpl/payment/_success.php:36 tpl/payment/charge-success.php:57
+msgid "Transaction date"
+msgstr "Transaktionsdatum"
+
+#: tpl/payment/_success.php:26 tpl/payment/charge-success.php:47
+#: tpl/payment/stripe-form-3ds_success.php:31
+msgid "Transaction No"
+msgstr "Transaktionsnummer"
+
+#: lang/strings_to_translate.php:207
+msgid "Trashcan"
+msgstr "Papperskorg"
+
+#: tpl/element/error-no-listings-found.php:5
+msgid "Try to change the filter conditions."
+msgstr "Försök att ändra filtervillkoren."
+
+#: tpl/element/error-no-listings-found.php:9
+msgid "Try to move or resize the map."
+msgstr "Försök att flytta eller ändra storlek på kartan."
+
+#: lang/strings_to_translate.php:208
+msgid "Tub with shower bench"
+msgstr "Badkar med duschbänk"
+
+#: admin/menu.php:810
+msgid "Turn off Boostrap"
+msgstr "Stäng av Bootstrap"
+
+#: lang/strings_to_translate.php:209
+msgid "TV"
+msgstr "TV"
+
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:938
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:696
+msgid "Unable to claim actions. Database error."
+msgstr "Det går inte att göra anspråk på åtgärder. Databasfel."
+
+#. translators: %s: action ID
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:878
+msgid "Unable to mark failure on action %s. Database error."
+msgstr "Det går inte att markera fel på åtgärd %s. Databasfel."
+
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:1032
+msgid "Unable to release actions from claim id %d."
+msgstr "Det går inte att frigöra åtgärder från anspråks-id %d."
+
+#: inc/vendors/action-scheduler/classes/migration/ActionMigrator.php:95
+msgid "Unable to remove source migrated action %s"
+msgstr "Det går inte att ta bort källmigrerad åtgärd %s"
+
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:101
+msgid "Unable to save action."
+msgstr "Det går inte att spara åtgärden."
+
+#. translators: %s: claim ID
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:824
+msgid "Unable to unlock claim %s. Database error."
+msgstr "Det går inte att låsa upp anspråk %s. Databasfel."
+
+#. translators: %s: action ID
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:852
+msgid "Unable to unlock claim on action %s. Database error."
+msgstr "Det går inte att låsa upp anspråk på åtgärd %s. Databasfel."
+
+#. translators: 1: action ID. 2: status slug.
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:1102
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:967
+msgid "Unable to update the status of action %1$d to %2$s."
+msgstr "Det går inte att uppdatera status för åtgärd %1$d till %2$s."
+
+#: lang/strings_to_translate.php:661
+#: inc/ajax/hfy-ajax-listing-price.php:81
+msgid "Unavailable"
+msgstr "Inte tillgänglig"
+
+#. translators: 1: error message 2: filename 3: line
+#: inc/vendors/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:118
+msgid "unexpected shutdown: PHP Fatal error %1$s in %2$s on line %3$s"
+msgstr "oväntad avstängning: PHP Fatal error %1$s i %2$s på rad %3$s"
+
+#. translators: %s: action ID
+#. translators: %s is the action ID
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:653
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:745
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:776
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:1075
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:1133
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:515
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:534
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:564
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:987
+msgid "Unidentified action %s"
+msgstr "Oidentifierad åtgärd %s"
+
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:492
+msgid "Unknown partial args matching value."
+msgstr "Okänt värde för partiell argumentmatchning."
+
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:1165
+msgid "Unknown status found for action."
+msgstr "Okänd status hittad för åtgärd."
+
+#: admin/exopite-simple-options/fields/upload.php:84
+#: inc/nuxy/metaboxes/fields/image.php:25
+msgid "Upload"
+msgstr "Ladda upp"
+
+#: inc/nuxy/metaboxes/google_fonts.php:51
+msgid "Uppercase"
+msgstr "Versaler"
+
+#: admin/menu.php:855
+msgid "Use API v3"
+msgstr "Använd API v3"
+
+#: admin/menu.php:684
+msgid "Use current WP language setting"
+msgstr "Använd nuvarande WP-språkinställning"
+
+#: admin/menu.php:685
+msgid "Use custom:"
+msgstr "Använd anpassad:"
+
+#: admin/menu.php:869
+msgid "Use new calendar"
+msgstr "Använd ny kalender"
+
+#: admin/menu.php:608
+msgid "Use new dialog for guests select: adults, children, infants, pets."
+msgstr "Använd ny dialog för gästval: vuxna, barn, spädbarn, husdjur."
+
+#: admin/menu.php:604
+msgid "Use new guests template"
+msgstr "Använd ny gästmall"
+
+#: admin/menu.php:437
+msgid "Use short list of predefined amenities."
+msgstr "Använd kort lista över fördefinierade bekvämligheter."
+
+"Use the RUT deduction at the place of departure. Then you pay 50% of the "
+"cost and the Tax Agency the rest. You need to be a Swedish citizen and have "
+"the right to RUT deductions. If the Swedish Tax Agency denies your RUT - "
+"deduction, Lofsdalen Home has the right to invoice part of the remaining "
+"labor cost."
+msgstr "Använd RUT-avdraget på avreseplatsen. Då betalar du 50% av kostnaden och Skatteverket resten. Du måste vara svensk medborgare och ha rätt till RUT-avdrag. Om Skatteverket nekar ditt RUT-avdrag har Lofsdalen Home rätt att fakturera del av resterande arbetskostnad."
+
+#: inc/nuxy/taxonomy_meta/fields/image.php:47
+msgid "Use this media"
+msgstr "Använd detta media"
+
+#: admin/menu.php:226
+msgid "User booking details page"
+msgstr "Sida för bokningsdetaljer"
+
+#: admin/menu.php:204
+msgid "User bookings list page"
+msgstr "Bokningslistsida"
+
+#: admin/menu.php:248
+msgid "User wishlist page"
+msgstr "Önskelistsida"
+
+#: tpl/listing/listing-reviews-summary.php:58
+msgid "Value"
+msgstr "Värde"
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:114
+msgid "Version:"
+msgstr "Version:"
+
+#: inc/nuxy/metaboxes/google_fonts.php:35
+msgid "Vietnamese"
+msgstr "Vietnamesiska"
+
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:38
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:39
+msgid "View Action"
+msgstr "Visa åtgärd"
+
+#: lang/strings_to_translate.php:210
+msgid "Villa"
+msgstr "Villa"
+
+#: admin/menu.php:1186 tpl/listing/listing-virtual-tour.php:4
+msgid "Virtual tour"
+msgstr "Virtuell rundtur"
+
+#: inc/nuxy/metaboxes/metabox.php:233
+"WARNING! This will overwrite all existing option values, please proceed with "
+"caution!"
+msgstr "VARNING! Detta kommer att skriva över alla befintliga optionsvärden, fortsätt med försiktighet!"
+
+#: lang/strings_to_translate.php:211
+msgid "Washer"
+msgstr "Tvättmaskin"
+
+#: lang/strings_to_translate.php:212
+msgid "Waterfront"
+msgstr "Vattenläge"
+
+#: lang/strings_to_translate.php:213
+"We have received your inquiry. Our representative will get back to you "
+"shortly."
+msgstr "Vi har mottagit din förfrågan. Vår representant återkommer till dig inom kort."
+
+#: admin/exopite-simple-options/fields/typography.php:87
+msgid "Web Safe Fonts"
+msgstr "Webbsäkra typsnitt"
+
+#: tpl/listing/listing-info-prices.php:12
+msgid "Weekends (Sat & Sun):"
+msgstr "Helger (lör & sön):"
+
+#: tpl/element/price-block-accounting.php:58
+#: tpl/element/price-block-default.php:62 tpl/payment/preview-accounting.php:76
+#: tpl/payment/preview-default.php:60
+msgid "weekly discount"
+msgstr "veckorabatt"
+
+#: lang/strings_to_translate.php:214
+msgid "What you should know about this"
+msgstr "Vad du bör veta om detta"
+
+#: lang/strings_to_translate.php:215
+msgid "What you should know about this listing"
+msgstr "Vad du bör veta om detta boende"
+
+#: lang/strings_to_translate.php:216
+msgid "Wheelchair access possible"
+msgstr "Rullstolsåtkomst möjlig"
+
+#: lang/strings_to_translate.php:217
+msgid "Wheelchair accessible"
+msgstr "Rullstolsanpassat"
+
+#: lang/strings_to_translate.php:218
+msgid "Wide clearance to bed"
+msgstr "Brett utrymme till säng"
+
+#: lang/strings_to_translate.php:219
+msgid "Wide clearance to shower and toilet"
+msgstr "Brett utrymme till dusch och toalett"
+
+#: lang/strings_to_translate.php:220
+msgid "Wide doorway"
+msgstr "Bred dörröppning"
+
+#: lang/strings_to_translate.php:221
+msgid "Wide hallway clearance"
+msgstr "Brett korridorsutrymme"
+
+#: lang/strings_to_translate.php:222
+msgid "Window guards"
+msgstr "Fönsterskydd"
+
+#: lang/strings_to_translate.php:223
+msgid "Wireless Internet"
+msgstr "Trådlöst internet"
+
+#: tpl/user/error-wishlist-empty.php:3
+msgid "Wishlist is empty"
+msgstr "Önskelistan är tom"
+
+#: inc/nuxy/metaboxes/metabox.php:222
+msgid "Word spacing"
+msgstr "Ordmellanrum"
+
+#: tpl/element/price-block-accounting.php:84
+#: tpl/element/price-block-default.php:88
+msgid "Wrong or inactive code"
+msgstr "Fel eller inaktiv kod"
+
+#: admin/exopite-simple-options/fields/upload.php:129
+#: lang/strings_to_translate.php:224 tpl/listing/listing-info-prices.php:41
+#: tpl/user/booking-manage.php:199 tpl/user/booking-manage.php:203
+#: tpl/user/booking-manage.php:207 tpl/user/booking-manage.php:211
+msgid "Yes"
+msgstr "Ja"
+
+#: inc/shortcodes/hfy-user-bookings-list.php:17
+msgid "You are not logged in"
+msgstr "Du är inte inloggad"
+
+#: admin/menu.php:846
+"You can place your templates not only in the current theme folder, but also "
+"in another place on the server that is available for you. In this case, you "
+"can specify the path to this folder. You can also use a special WP filter in "
+"your code, see \"Read me first\"."
+msgstr "Du kan placera dina mallar inte bara i den aktuella temamappen, utan också på en annan plats på servern som är tillgänglig för dig. I detta fall kan du ange sökvägen till denna mapp. Du kan också använda ett speciellt WP-filter i din kod, se \"Läs mig först\"."
+
+#: inc/shortcodes/hfy-user-bookings-list.php:22
+msgid "You currently do not have any bookings yet"
+msgstr "Du har för närvarande inga bokningar ännu"
+
+#: tpl/element/price-block.php:54
+msgid "You won't be charged yet"
+msgstr "Du kommer inte att debiteras ännu"
+
+#: tpl/listing/listing-booking-form-on-request.php:62
+#: tpl/listing/listing-booking-form-v2.php:51
+#: tpl/listing/listing-booking-form.php:58
+msgid "Your discount code..."
+msgstr "Din rabattkod..."
+
+#: lang/strings_to_translate.php:225
+msgid "Your inquiry"
+msgstr "Din förfrågan"
+
+#: tpl/user/booking-manage.php:139
+msgid "Your reservation"
+msgstr "Din bokning"
+
+#: tpl/payment/netpay-form.php:150 tpl/payment/paypal-form-step-1.php:53
+#: tpl/payment/stripe-form-3ds-element-step-1.php:59
+#: tpl/payment/stripe-form-3ds-step-1.php:62 tpl/payment/stripe-form.php:60
+msgid "ZIP"
+msgstr "Postnummer"
+
+#: tpl/user/bookings-list.php:12
+msgid "Сurrent"
+msgstr "Nuvarande"
+
+#: lang/strings_to_translate.php:4
+#: admin/menu.php:655
+msgid " Required Google Maps API Key In Miscellaneous Section "
+msgstr "Google Maps API-nyckel krävs i Övrigt-sektionen"
+
+#: lang/strings_to_translate.php:5
+#: tpl/element/direct-inquiry-modal-v2.php:100
+msgid "%d/%d guests"
+msgstr "%d/%d gäster"
+
+#: lang/strings_to_translate.php:6
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:271
+msgid "%s is missing in the configuration array"
+msgstr "%s saknas i konfigurationsarrayen"
+
+#: lang/strings_to_translate.php:7
+#: admin/menu.php:1036
+msgid "(deprecated)"
+msgstr "(föråldrad)"
+
+#: lang/strings_to_translate.php:14
+#: admin/menu.php:457
+msgid "ATTENTION: If disabled, all available amenities will be shown, this can be a huge list, so it is recommended to use the options below in this case."
+msgstr "OBS: Om inaktiverad kommer alla tillgängliga bekvämligheter att visas, detta kan bli en stor lista, så det rekommenderas att använda alternativen nedan i detta fall."
+
+#: lang/strings_to_translate.php:34
+#: admin/menu.php:1311
+msgid "All translatable strings"
+msgstr "Alla översättningsbara strängar"
+
+#: lang/strings_to_translate.php:45
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:336
+msgid "An error occurred while regenerating permalinks: "
+msgstr "Ett fel uppstod vid återskapande av permalänkar: "
+
+#: lang/strings_to_translate.php:46
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:109
+msgid "An error occurred."
+msgstr "Ett fel uppstod."
+
+#: lang/strings_to_translate.php:47
+#: tpl/element/direct-inquiry-modal-v2.php:229
+msgid "Any special requests or questions?"
+msgstr "Några särskilda önskemål eller frågor?"
+
+#: lang/strings_to_translate.php:54
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:104
+msgid "Are you sure you want to delete this permalink?"
+msgstr "Är du säker på att du vill ta bort denna permalänk?"
+
+#: lang/strings_to_translate.php:63
+#: admin/menu.php:1320
+msgid "Available Languages"
+msgstr "Tillgängliga språk"
+
+#: lang/strings_to_translate.php:90
+#: admin/menu.php:961
+msgid "Can be used, for example, inside title (H1 tag) on the listing search page"
+msgstr "Kan användas, till exempel, inuti titel (H1-tagg) på sökresultatsidan"
+
+#: lang/strings_to_translate.php:108
+msgid "Children's books and toys"
+msgstr "Barnböcker och leksaker"
+
+#: lang/strings_to_translate.php:109
+msgid "Children's dinnerware"
+msgstr "Barnservis"
+
+#: lang/strings_to_translate.php:116
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:117
+msgid "Clear"
+msgstr "Rensa"
+
+#: lang/strings_to_translate.php:135
+#: admin/menu.php:939
+msgid "Copy the shortcode and place it on post, page, text, code widget, etc. Refer the plugin Readme and documentation for more info about shortcodes and parameters."
+msgstr "Kopiera kortkoden och placera den i inlägg, sida, text, kodwidget, etc. Se plugin-dokumentationen för mer information om kortkoder och parametrar."
+
+#: lang/strings_to_translate.php:139
+#: tpl/element/price-block-default.php:110
+#: tpl/element/price-block-accounting.php:106
+#: tpl/payment/preview-accounting.php:102
+#: tpl/payment/preview-accounting.php:107
+#: tpl/payment/preview-default.php:86
+#: tpl/payment/preview-default.php:91
+msgid "Coupon discount"
+msgstr "Kupongrabatt"
+
+#: lang/strings_to_translate.php:154
+#: admin/menu.php:605
+msgid "Define a list of amenities to show (IDs separated with a comma). All others will be hidden."
+msgstr "Definiera en lista över bekvämligheter att visa (ID:n separerade med komma). Alla andra kommer att döljas."
+
+#: lang/strings_to_translate.php:171
+#: admin/menu.php:852
+msgid "Do not load all the CSS that comes with the plugin, including Bootstrap"
+msgstr "Ladda inte all CSS som följer med pluginet, inklusive Bootstrap"
+
+#: lang/strings_to_translate.php:182
+#: tpl/element/price-block-default.php:165
+#: tpl/element/price-block-default.php:176
+#: tpl/element/price-block-accounting.php:182
+#: tpl/element/price-block-accounting.php:193
+msgid "Due later"
+msgstr "Betalas senare"
+
+#: lang/strings_to_translate.php:186
+#: admin/menu.php:651
+msgid "Dynamic Google Map"
+msgstr "Dynamisk Google-karta"
+
+#: lang/strings_to_translate.php:194
+#: admin/menu.php:358
+msgid "Enable keyword search"
+msgstr "Aktivera nyckelordssökning"
+
+#: lang/strings_to_translate.php:195
+#: admin/menu.php:924
+msgid "Enable the new reservation inquiry modal design."
+msgstr "Aktivera den nya designen för bokningsförfrågan."
+
+#: lang/strings_to_translate.php:196
+#: tpl/element/direct-inquiry-modal-v2.php:220
+msgid "Enter discount code (if available)"
+msgstr "Ange rabattkod (om tillgänglig)"
+
+#: lang/strings_to_translate.php:200
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:113
+msgid "Error regenerating permalinks."
+msgstr "Fel vid återskapande av permalänkar."
+
+#: lang/strings_to_translate.php:206
+#: admin/menu.php:1313
+msgid "Existing translation files (will add missing strings)"
+msgstr "Befintliga översättningsfiler (kommer att lägga till saknade strängar)"
+
+#: lang/strings_to_translate.php:210
+#: admin/menu.php:1315
+msgid "Extract Strings"
+msgstr "Extrahera strängar"
+
+#: lang/strings_to_translate.php:211
+#: admin/menu.php:1308
+msgid "Extract Translatable Strings"
+msgstr "Extrahera översättningsbara strängar"
+
+#: lang/strings_to_translate.php:214
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:290
+msgid "Failed to delete permalink."
+msgstr "Det gick inte att ta bort permalänken."
+
+#: lang/strings_to_translate.php:215
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:252
+msgid "Failed to update permalink."
+msgstr "Det gick inte att uppdatera permalänken."
+
+#: lang/strings_to_translate.php:216
+msgid "Family/kids friendly"
+msgstr "Familje-/barnvänligt"
+
+#: lang/strings_to_translate.php:230
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:119
+msgid "Found %d out of %d total"
+msgstr "Hittade %d av totalt %d"
+
+#: lang/strings_to_translate.php:231
+msgid "Free parking on premises"
+msgstr "Gratis parkering på området"
+
+#: lang/strings_to_translate.php:240
+msgid "Generate .mo files from the .po files for WordPress to use the translations."
+msgstr "Generera .mo-filer från .po-filerna för att WordPress ska kunna använda översättningarna."
+
+#: lang/strings_to_translate.php:263
+#: inc/class-hostifybooking-widget.php:14
+msgid "Hostify Booking 1"
+msgstr "Hostify Booking 1"
+
+#: lang/strings_to_translate.php:265
+#: inc/class-hostifybooking-widget.php:15
+msgid "Hostify Booking Widget 1"
+msgstr "Hostify Booking Widget 1"
+
+#: lang/strings_to_translate.php:266
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:1364
+msgid "Hostify cache cleared"
+msgstr "Hostify-cache rensad"
+
+#: lang/strings_to_translate.php:273
+#: admin/menu.php:1323
+msgid "How to Use"
+msgstr "Hur man använder"
+
+#: lang/strings_to_translate.php:278
+#: admin/menu.php:362
+msgid "If enabled, a keyword search field will be added to the search form."
+msgstr "Om aktiverad kommer ett sökfält för nyckelord att läggas till i sökformuläret."
+
+#: lang/strings_to_translate.php:279
+#: admin/menu.php:377
+msgid "If enabled, only listings with the specified number of bedrooms will be shown in the search results."
+msgstr "Om aktiverad visas endast objekt med det angivna antalet sovrum i sökresultaten."
+
+#: lang/strings_to_translate.php:285
+#: inc/shortcodes/hfy-payment.php:120
+#: inc/ajax/hfy-ajax-payment-preview.php:114
+msgid "Incorrect parameters"
+msgstr "Felaktiga parametrar"
+
+#: lang/strings_to_translate.php:292
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:210
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:277
+msgid "Invalid data."
+msgstr "Ogiltig data."
+
+#: lang/strings_to_translate.php:296
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Det verkar som att inget hittades på denna plats. Prova någon av länkarna nedan eller gör en sökning?"
+
+#: lang/strings_to_translate.php:301
+#: admin/menu.php:366
+msgid "Keyword search placeholder"
+msgstr "Platshållare för nyckelordssökning"
+
+#: lang/strings_to_translate.php:322
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:102
+msgid "Loading permalinks data..."
+msgstr "Laddar permalänkdata..."
+
+#: lang/strings_to_translate.php:347
+#: tpl/element/direct-inquiry-modal-v2.php:206
+msgid "Maximum %d guests."
+msgstr "Maximalt %d gäster."
+
+#: lang/strings_to_translate.php:355
+#: tpl/element/booking-search-advanced.php:43
+msgid "More"
+msgstr "Mer"
+
+#: lang/strings_to_translate.php:367
+#: inc/shortcodes/inc/load-listing-seo.php:12
+#: inc/shortcodes/inc/load-listing.php:25
+msgid "No listing"
+msgstr "Inget objekt"
+
+#: lang/strings_to_translate.php:369
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:118
+msgid "No matching permalinks found."
+msgstr "Inga matchande permalänkar hittades."
+
+#: lang/strings_to_translate.php:371
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:103
+msgid "No permalinks found."
+msgstr "Inga permalänkar hittades."
+
+#: lang/strings_to_translate.php:385
+#: admin/menu.php:722
+msgid "Other"
+msgstr "Övrigt"
+
+#: lang/strings_to_translate.php:388
+#: admin/menu.php:378
+msgid "Otherwise, by default, the result includes the specified number or more."
+msgstr "Annars inkluderar resultatet som standard det angivna antalet eller fler."
+
+#: lang/strings_to_translate.php:391
+msgid "Pack 'n Play/travel crib"
+msgstr "Resesäng/barnvagn"
+
+#: lang/strings_to_translate.php:407
+#: tpl/payment/stripe-form-3ds_success.php:12
+msgid "Payment Successful"
+msgstr "Betalningen lyckades"
+
+#: lang/strings_to_translate.php:412
+#: admin/menu.php:1036
+msgid "Payment result page"
+msgstr "Betalningsresultatsida"
+
+#: lang/strings_to_translate.php:416
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:294
+msgid "Permalink deleted successfully."
+msgstr "Permalänk borttagen."
+
+#: lang/strings_to_translate.php:417
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:110
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:256
+msgid "Permalink updated successfully."
+msgstr "Permalänk uppdaterad."
+
+#: lang/strings_to_translate.php:418
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:112
+msgid "Permalinks regenerated successfully!"
+msgstr "Permalänkar återskapade!"
+
+#: lang/strings_to_translate.php:419
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:330
+msgid "Permalinks regenerated successfully."
+msgstr "Permalänkar återskapade."
+
+#: lang/strings_to_translate.php:433
+#: admin/menu.php:370
+msgid "Placeholder text for the keyword search field"
+msgstr "Platshållartext för nyckelordssökfältet"
+
+#: lang/strings_to_translate.php:442
+#: admin/exopite-simple-options/fields/upload.php:182
+msgid "Plugin"
+msgstr "Plugin"
+
+#: lang/strings_to_translate.php:453
+#: tpl/payment/preview.php:142
+msgid "Price incl. security deposit"
+msgstr "Pris inkl. deposition"
+
+#: lang/strings_to_translate.php:462
+#: tpl/element/booking-search-advanced.php:36
+msgid "Properties"
+msgstr "Egenskaper"
+
+#: lang/strings_to_translate.php:477
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:114
+msgid "Regenerate Permalinks"
+msgstr "Återskapa permalänkar"
+
+#: lang/strings_to_translate.php:478
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:111
+msgid "Regenerating..."
+msgstr "Återskapar..."
+
+#: lang/strings_to_translate.php:491
+#: admin/menu.php:1326
+msgid "Review the updated translation files in the lang/ directory."
+msgstr "Granska de uppdaterade översättningsfilerna i lang/-katalogen."
+
+#: lang/strings_to_translate.php:501
+msgid "Safety card"
+msgstr "Säkerhetskort"
+
+#: lang/strings_to_translate.php:503
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:107
+msgid "Save"
+msgstr "Spara"
+
+#: lang/strings_to_translate.php:510
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:116
+msgid "Search by ID or name..."
+msgstr "Sök med ID eller namn..."
+
+#: lang/strings_to_translate.php:511
+#: inc/defines.php:87
+#: inc/defines.php:372
+#: tpl/element/booking-search.php:13
+#: admin/menu.php:369
+msgid "Search by keyword..."
+msgstr "Sök med nyckelord..."
+
+#: lang/strings_to_translate.php:522
+#: admin/exopite-simple-options/fields/upload.php:81
+msgid "Select files"
+msgstr "Välj filer"
+
+#: lang/strings_to_translate.php:526
+#: admin/menu.php:546
+msgid "Select the default map type. Users can change this using the map type control."
+msgstr "Välj standardkarttyp. Användare kan ändra detta med karttypskontrollen."
+
+#: lang/strings_to_translate.php:531
+#: tpl/element/direct-inquiry-modal-v2.php:246
+msgid "Send Inquiry"
+msgstr "Skicka förfrågan"
+
+#: lang/strings_to_translate.php:532
+#: admin/menu.php:818
+msgid "Send custom events for Google Analytics using the Google tag (gtag) or Google Tag Manager (GTM)."
+msgstr "Skicka anpassade händelser för Google Analytics med Google-tagg (gtag) eller Google Tag Manager (GTM)."
+
+#: lang/strings_to_translate.php:548
+#: admin/menu.php:732
+msgid "Show animated loader when loading images"
+msgstr "Visa animerad laddare när bilder laddas"
+
+#: lang/strings_to_translate.php:554
+#: admin/menu.php:655
+msgid "Show dynamic google map "
+msgstr "Visa dynamisk Google-karta"
+
+#: lang/strings_to_translate.php:555
+#: admin/menu.php:728
+msgid "Show image preloader"
+msgstr "Visa bildförladdare"
+
+#: lang/strings_to_translate.php:562
+#: admin/menu.php:1200
+msgid "Show listing location on map. And there is a synonym: [hfy_listing_map]."
+msgstr "Visa objektets plats på kartan. Det finns också en synonym: [hfy_listing_map]."
+
+#: lang/strings_to_translate.php:575
+#: admin/menu.php:1039
+msgid "Show payment result"
+msgstr "Visa betalningsresultat"
+
+#: lang/strings_to_translate.php:596
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Tyvärr matchade inget dina söktermer. Vänligen försök igen med andra nyckelord."
+
+#: lang/strings_to_translate.php:601
+#: tpl/element/direct-inquiry-modal-v2.php:75
+msgid "Stay Dates"
+msgstr "Vistelsedatum"
+
+#: lang/strings_to_translate.php:603
+msgid "Stove"
+msgstr "Spis"
+
+#: lang/strings_to_translate.php:612
+#: admin/menu.php:1312
+msgid "Template file for translations"
+msgstr "Mallfil för översättningar"
+
+#: lang/strings_to_translate.php:615
+#: tpl/element/direct-inquiry-modal-v2.php:31
+msgid "Thank you for your inquiry!"
+msgstr "Tack för din förfrågan!"
+
+#: lang/strings_to_translate.php:618
+msgid "The listing is not available for your selected dates."
+msgstr "Objektet är inte tillgängligt för dina valda datum."
+
+#: lang/strings_to_translate.php:619
+#: admin/menu.php:862
+msgid "The plugin uses data caching both on the Hostify API and WordPress side. Sometimes during development and configuration process, it can interfere or confuse."
+msgstr "Pluginet använder datacachning både på Hostify API och WordPress-sidan. Ibland under utvecklings- och konfigurationsprocessen kan det störa eller förvirra."
+
+#: lang/strings_to_translate.php:624
+#: admin/menu.php:363
+msgid "This allows users to search for listings by keywords like property names, descriptions, amenities, city names, or neighbourhoods. Works with API v3 for comprehensive search across all listings."
+msgstr "Detta låter användare söka efter objekt med nyckelord som fastighetsnamn, beskrivningar, bekvämligheter, stadsnamn eller områden. Fungerar med API v3 för omfattande sökning över alla objekt."
+
+#: lang/strings_to_translate.php:625
+#: inc/class-hostifybooking-loader.php:727
+msgid "This date is not available for check-in"
+msgstr "Detta datum är inte tillgängligt för incheckning"
+
+#: lang/strings_to_translate.php:626
+#: inc/class-hostifybooking-loader.php:728
+msgid "This date is not available for check-out"
+msgstr "Detta datum är inte tillgängligt för utcheckning"
+
+#: lang/strings_to_translate.php:629
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:224
+msgid "This permalink is already in use. Please choose another one."
+msgstr "Denna permalänk används redan. Vänligen välj en annan."
+
+#: lang/strings_to_translate.php:630
+#: tpl/element/direct-inquiry-modal-v2.php:186
+msgid "This place has a maximum of %d guests, infants not allowed."
+msgstr "Denna plats har en maxgräns på %d gäster, spädbarn är inte tillåtna."
+
+#: lang/strings_to_translate.php:631
+#: tpl/element/direct-inquiry-modal-v2.php:184
+msgid "This place has a maximum of %d guests, not including infants."
+msgstr "Denna plats har en maxgräns på %d gäster, exklusive spädbarn."
+
+#: lang/strings_to_translate.php:634
+#: admin/menu.php:844
+msgid "This plugin uses the Bootstrap CSS framework. If there are any problems or conflicts with the installed plugins or theme, you can prevent the Hostiy plugin from loading this framework."
+msgstr "Detta plugin använder Bootstrap CSS-ramverket. Om det finns problem eller konflikter med installerade plugins eller tema kan du förhindra att Hostify-pluginet laddar detta ramverk."
+
+#: lang/strings_to_translate.php:635
+#: admin/menu.php:1309
+msgid "This tool will scan all PHP files in the plugin and extract translatable strings. It will update the following files:"
+msgstr "Detta verktyg kommer att skanna alla PHP-filer i pluginet och extrahera översättningsbara strängar. Det kommer att uppdatera följande filer:"
+
+#: lang/strings_to_translate.php:638
+#: admin/exopite-simple-options/fields/upload.php:182
+msgid "To increase file upload limit in the standard built-in WordPress media uploader up as large as available disk space allows, you could use"
+msgstr "För att öka filuppladdningsgränsen i den inbyggda WordPress-mediauppladdaren till så mycket som tillgängligt diskutrymme tillåter kan du använda"
+
+#: lang/strings_to_translate.php:639
+msgid "To see availability and pricing please enter your check-in and check-out dates below."
+msgstr "För att se tillgänglighet och priser, vänligen ange dina in- och utcheckningsdatum nedan."
+
+#: lang/strings_to_translate.php:640
+msgid "To see availability please enter your check-in and check-out dates below."
+msgstr "För att se tillgänglighet, vänligen ange dina in- och utcheckningsdatum nedan."
+
+#: lang/strings_to_translate.php:648
+#: tpl/payment/stripe-form-3ds_success.php:37
+msgid "Transaction Date"
+msgstr "Transaktionsdatum"
+
+#: lang/strings_to_translate.php:651
+#: admin/menu.php:1317
+msgid "Translation Files Location"
+msgstr "Plats för översättningsfiler"
+
+#: lang/strings_to_translate.php:652
+msgid "Translation Manager"
+msgstr "Översättningshanterare"
+
+#: lang/strings_to_translate.php:653
+#: admin/menu.php:1318
+msgid "Translation files are located in:"
+msgstr "Översättningsfiler finns i:"
+
+#: lang/strings_to_translate.php:660
+#: admin/menu.php:848
+msgid "Turn off CSS"
+msgstr "Stäng av CSS"
+
+#: lang/strings_to_translate.php:667
+#: admin/menu.php:898
+msgid "Use Calendar v2"
+msgstr "Använd Kalender v2"
+
+#: lang/strings_to_translate.php:668
+#: admin/menu.php:905
+msgid "Use Calendar v3"
+msgstr "Använd Kalender v3"
+
+#: lang/strings_to_translate.php:669
+#: admin/menu.php:919
+msgid "Use New Inquiry Form"
+msgstr "Använd nytt förfrågningsformulär"
+
+#: lang/strings_to_translate.php:670
+msgid "Use a translation tool like Poedit to translate the strings in the .po files."
+msgstr "Använd ett översättningsverktyg som Poedit för att översätta strängarna i .po-filerna."
+
+#: lang/strings_to_translate.php:686
+msgid "We have received your inquiry. Our representative will get back to you shortly."
+msgstr "Vi har mottagit din förfrågan. Vår representant återkommer till dig inom kort."
+
+#: lang/strings_to_translate.php:704
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:134
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:202
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:270
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:307
+msgid "You do not have permission to perform this action."
+msgstr "Du har inte behörighet att utföra denna åtgärd."
+
+#: lang/strings_to_translate.php:728
+#: admin/menu.php:80
+msgid "readme.txt"
+msgstr "readme.txt"
+
+#: lang/strings_to_translate.php:735
+#: admin/inc/translation-manager/class-string-extractor.php:79
+#: admin/inc/translation-manager/class-string-extractor.php:85
+#: admin/inc/translation-manager/class-string-extractor.php:88
+#: admin/inc/translation-manager/class-string-extractor.php:91
+#: admin/inc/translation-manager/class-string-extractor.php:82
+msgid "string"
+msgstr "sträng"
+
+#: lang/strings_to_translate.php:8
+#: admin/menu.php:1344
+msgid "-- Select a language file --"
+msgstr "-- Välj en språkfil --"
+
+#: lang/strings_to_translate.php:190
+#: admin/menu.php:1340
+msgid "Edit translations directly in the admin interface. Select a language file and edit the translations below."
+msgstr "Redigera översättningar direkt i admin-gränssnittet. Välj en språkfil och redigera översättningarna nedan."
+
+#: lang/strings_to_translate.php:220
+#: admin/menu.php:1354
+msgid "Filter translations:"
+msgstr "Filtrera översättningar:"
+
+#: lang/strings_to_translate.php:290
+#: admin/menu.php:1339
+msgid "Inline Translation Editor"
+msgstr "Inline-översättningsredigerare"
+
+#: lang/strings_to_translate.php:320
+#: admin/menu.php:1346
+msgid "Load Translations"
+msgstr "Ladda översättningar"
+
+#: lang/strings_to_translate.php:504
+#: admin/menu.php:1347
+msgid "Save Changes"
+msgstr "Spara ändringar"
+
+#: lang/strings_to_translate.php:514
+#: admin/menu.php:1355
+msgid "Search translations..."
+msgstr "Sök översättningar..."
+
+#: lang/strings_to_translate.php:520
+#: admin/menu.php:1342
+msgid "Select Language File:"
+msgstr "Välj språkfil:"
+
+#: lang/strings_to_translate.php:584
+#: admin/menu.php:1356
+msgid "Show untranslated only"
+msgstr "Visa endast oöversatta"
+
+#: lang/strings_to_translate.php:71
+#: admin/menu.php:1367
+msgid "Backup & Restore Translations"
+msgstr "Säkerhetskopiera & återställ översättningar"
+
+#: lang/strings_to_translate.php:72
+#: admin/menu.php:1377
+msgid "Backup Actions Explained:"
+msgstr "Förklaring av säkerhetskopieringsåtgärder:"
+
+#: lang/strings_to_translate.php:127
+#: admin/menu.php:1332
+msgid "Compile MO Files"
+msgstr "Kompilera MO-filer"
+
+#: lang/strings_to_translate.php:129
+msgid "Compile all PO files to MO files for WordPress to use translations:"
+msgstr "Kompilera alla PO-filer till MO-filer för att WordPress ska kunna använda översättningarna:"
+
+#: lang/strings_to_translate.php:140
+#: admin/menu.php:1370
+msgid "Create Backup Now"
+msgstr "Skapa säkerhetskopia nu"
+
+#: lang/strings_to_translate.php:176
+#: admin/menu.php:1349
+msgid "Download .po File"
+msgstr "Ladda ner .po-fil"
+
+#: lang/strings_to_translate.php:178
+#: admin/menu.php:1380
+msgid "Download all translation files as a ZIP archive for external storage"
+msgstr "Ladda ner alla översättningsfiler som ett ZIP-arkiv för extern lagring"
+
+#: lang/strings_to_translate.php:179
+#: admin/menu.php:1384
+msgid "Download backups before plugin updates and store them safely. You can then upload individual .po files or restore entire backups after updates."
+msgstr "Ladda ner säkerhetskopior före plugin-uppdateringar och lagra dem säkert. Du kan sedan ladda upp enskilda .po-filer eller återställa hela säkerhetskopior efter uppdateringar."
+
+#: lang/strings_to_translate.php:334
+#: admin/menu.php:1330
+msgid "Maintenance"
+msgstr "Underhåll"
+
+#: lang/strings_to_translate.php:420
+#: admin/menu.php:1382
+msgid "Permanently delete this backup (cannot be undone)"
+msgstr "Radera denna säkerhetskopia permanent (kan inte ångras)"
+
+#: lang/strings_to_translate.php:465
+#: admin/menu.php:1368
+msgid "Protect your translation work from being lost during plugin updates. Create backups before updates and restore them afterward."
+msgstr "Skydda ditt översättningsarbete från att gå förlorat under plugin-uppdateringar. Skapa säkerhetskopior före uppdateringar och återställ dem efteråt."
+
+#: lang/strings_to_translate.php:474
+#: admin/menu.php:1371
+msgid "Refresh List"
+msgstr "Uppdatera lista"
+
+#: lang/strings_to_translate.php:489
+#: admin/menu.php:1379
+msgid "Restore all translation files from this backup (overwrites current files)"
+msgstr "Återställ alla översättningsfiler från denna säkerhetskopia (skriver över nuvarande filer)"
+
+#: lang/strings_to_translate.php:519
+#: admin/menu.php:1389
+msgid "Select .po file:"
+msgstr "Välj .po-fil:"
+
+#: lang/strings_to_translate.php:636
+#: admin/menu.php:1384
+msgid "Tip:"
+msgstr "Tips:"
+
+#: lang/strings_to_translate.php:663
+#: admin/menu.php:1391
+msgid "Upload & Restore"
+msgstr "Ladda upp & återställ"
+
+#: lang/strings_to_translate.php:664
+#: admin/menu.php:1386
+msgid "Upload Translation File"
+msgstr "Ladda upp översättningsfil"
+
+#: lang/strings_to_translate.php:665
+#: admin/menu.php:1387
+msgid "Upload a .po file to restore translations after a plugin update:"
+msgstr "Ladda upp en .po-fil för att återställa översättningar efter en plugin-uppdatering:"
+
+#: lang/strings_to_translate.php:681
+#: admin/menu.php:1381
+msgid "View the server path and web URL where backup files are stored"
+msgstr "Visa serversökvägen och webb-URL där säkerhetskopior lagras"
+
+#: lang/strings_to_translate.php:128
+#: admin/menu.php:1331
+msgid "Compile all PO files to MO files (useful if you edited files externally):"
+msgstr "Kompilera alla PO-filer till MO-filer (användbart om du redigerat filer externt):"
+
+#: lang/strings_to_translate.php:332
+#: admin/menu.php:1328
+msgid "MO files are automatically generated when you save translations through our editor."
+msgstr "MO-filer genereras automatiskt när du sparar översättningar genom vår redigerare."
+
+#: lang/strings_to_translate.php:654
+#: admin/menu.php:1300
+msgid "Translation manager"
+msgstr "Översättningshanterare"
+
+#: lang/strings_to_translate.php:675
+#: admin/menu.php:1327
+msgid "Use our Inline Translation Editor (below) to translate strings directly in the admin interface, or use external tools like Poedit or Loco Translate to edit the .po files."
+msgstr "Använd vår Inline-översättningsredigerare (nedan) för att översätta strängar direkt i admin-gränssnittet, eller använd externa verktyg som Poedit eller Loco Translate för att redigera .po-filerna."
+
+#: lang/strings_to_translate.php:156
+#: admin/menu.php:1372
+msgid "Delete All Backups"
+msgstr "Radera alla säkerhetskopior"
+
+#: lang/strings_to_translate.php:141
+#: admin/menu.php:1393
+msgid "Create backup of existing file before replacing"
+msgstr "Skapa säkerhetskopia av befintlig fil innan ersättning"
+
+#: lang/strings_to_translate.php:20
+#: admin/menu.php:1322
+msgid "Add New Language"
+msgstr "Lägg till nytt språk"
+
+#: lang/strings_to_translate.php:117
+#: admin/menu.php:1348
+msgid "Clear Comments"
+msgstr "Rensa kommentarer"
+
+#: lang/strings_to_translate.php:5
+#: tpl/listing/listing-reviews-summary.php:28
+msgid "%d reviews"
+msgstr "%d recensioner"
+
+#: lang/strings_to_translate.php:8
+#: admin/inc/translation-manager/translation-manager.php:97
+msgid "%s: %d missing translations (%d/%d translated - %s%%)"
+msgstr "%s: %d saknade översättningar (%d/%d översatta - %s%%)"
+
+#: lang/strings_to_translate.php:35
+#: admin/menu.php:651
+msgid "Airbnb reviews only (5-star system)"
+msgstr "Endast Airbnb-recensioner (5-stjärnigt system)"
+
+#: lang/strings_to_translate.php:57
+#: inc/class-hostifybooking-loader.php:753
+msgid "Apr"
+msgstr "Apr"
+
+#: lang/strings_to_translate.php:58
+#: inc/class-hostifybooking-loader.php:738
+msgid "April"
+msgstr "April"
+
+#: lang/strings_to_translate.php:66
+#: inc/class-hostifybooking-loader.php:757
+msgid "Aug"
+msgstr "Aug"
+
+#: lang/strings_to_translate.php:67
+#: inc/class-hostifybooking-loader.php:742
+msgid "August"
+msgstr "Augusti"
+
+#: lang/strings_to_translate.php:80
+#: admin/inc/translation-manager/translation-manager.php:101
+msgid "Backup created: %s"
+msgstr "Säkerhetskopia skapad: %s"
+
+#: lang/strings_to_translate.php:94
+#: admin/menu.php:652
+msgid "Booking.com reviews only (10-star system)"
+msgstr "Endast Booking.com-recensioner (10-stjärnigt system)"
+
+#: lang/strings_to_translate.php:113
+msgid "Check for Corruption"
+msgstr "Kontrollera korruption"
+
+#: lang/strings_to_translate.php:138
+#: admin/inc/translation-manager/translation-manager.php:85
+msgid "Compiling MO files..."
+msgstr "Kompilerar MO-filer..."
+
+#: lang/strings_to_translate.php:139
+#: admin/inc/translation-manager/translation-manager.php:102
+msgid "Compiling..."
+msgstr "Kompilerar..."
+
+#: lang/strings_to_translate.php:159
+#: inc/class-hostifybooking-loader.php:761
+msgid "Dec"
+msgstr "Dec"
+
+#: lang/strings_to_translate.php:160
+#: inc/class-hostifybooking-loader.php:746
+msgid "December"
+msgstr "December"
+
+#: lang/strings_to_translate.php:214
+#: admin/inc/translation-manager/translation-manager.php:87
+msgid "Errors: %s"
+msgstr "Fel: %s"
+
+#: lang/strings_to_translate.php:225
+#: admin/inc/translation-manager/translation-manager.php:89
+msgid "Extracting..."
+msgstr "Extraherar..."
+
+#: lang/strings_to_translate.php:226
+#: admin/inc/translation-manager/translation-manager.php:91
+msgid "Extraction completed successfully!"
+msgstr "Extraheringen slutfördes framgångsrikt!"
+
+#: lang/strings_to_translate.php:229
+#: admin/inc/translation-manager/translation-manager.php:88
+msgid "Failed to compile MO files"
+msgstr "Misslyckades med att kompilera MO-filer"
+
+#: lang/strings_to_translate.php:233
+#: inc/class-hostifybooking-loader.php:751
+msgid "Feb"
+msgstr "Feb"
+
+#: lang/strings_to_translate.php:234
+#: inc/class-hostifybooking-loader.php:736
+msgid "February"
+msgstr "Februari"
+
+#: lang/strings_to_translate.php:237
+#: admin/inc/translation-manager/translation-manager.php:100
+msgid "File uploaded and restored successfully!"
+msgstr "Fil uppladdad och återställd framgångsrikt!"
+
+#: lang/strings_to_translate.php:238
+#: admin/inc/translation-manager/translation-manager.php:94
+msgid "Files updated with source location comments: %s"
+msgstr "Filer uppdaterade med källplatskommentarer: %s"
+
+#: lang/strings_to_translate.php:239
+#: admin/inc/translation-manager/translation-manager.php:93
+msgid "Files with new strings added: %s"
+msgstr "Filer med nya strängar tillagda: %s"
+
+#: lang/strings_to_translate.php:254
+#: inc/class-hostifybooking-loader.php:780
+msgid "Fri"
+msgstr "Fre"
+
+#: lang/strings_to_translate.php:255
+#: inc/class-hostifybooking-loader.php:770
+msgid "Friday"
+msgstr "Fredag"
+
+#: lang/strings_to_translate.php:322
+#: inc/class-hostifybooking-loader.php:750
+msgid "Jan"
+msgstr "Jan"
+
+#: lang/strings_to_translate.php:323
+#: inc/class-hostifybooking-loader.php:735
+msgid "January"
+msgstr "Januari"
+
+#: lang/strings_to_translate.php:324
+#: inc/class-hostifybooking-loader.php:756
+msgid "Jul"
+msgstr "Jul"
+
+#: lang/strings_to_translate.php:325
+#: inc/class-hostifybooking-loader.php:741
+msgid "July"
+msgstr "Juli"
+
+#: lang/strings_to_translate.php:326
+#: inc/class-hostifybooking-loader.php:755
+msgid "Jun"
+msgstr "Jun"
+
+#: lang/strings_to_translate.php:327
+#: inc/class-hostifybooking-loader.php:740
+msgid "June"
+msgstr "Juni"
+
+#: lang/strings_to_translate.php:350
+#: admin/inc/translation-manager/translation-manager.php:84
+msgid "Loaded %d translations from %s"
+msgstr "Laddade %d översättningar från %s"
+
+#: lang/strings_to_translate.php:370
+#: inc/class-hostifybooking-loader.php:752
+msgid "Mar"
+msgstr "Mar"
+
+#: lang/strings_to_translate.php:371
+#: inc/class-hostifybooking-loader.php:737
+msgid "March"
+msgstr "Mars"
+
+#: lang/strings_to_translate.php:381
+#: inc/class-hostifybooking-loader.php:739
+#: inc/class-hostifybooking-loader.php:754
+msgid "May"
+msgstr "Maj"
+
+#: lang/strings_to_translate.php:383
+#: inc/class-hostifybooking-loader.php:722
+#: inc/class-hostifybooking-loader.php:723
+#: inc/class-hostifybooking-loader.php:725
+#: inc/class-hostifybooking-loader.php:726
+msgid "Minimum stay %d night"
+msgid_plural "Minimum stay %d nights"
+msgstr[0] "Minsta vistelse %d natt"
+msgstr[1] "Minsta vistelse %d nätter"
+
+#: lang/strings_to_translate.php:386
+#: admin/inc/translation-manager/translation-manager.php:96
+msgid "Missing Translations Report:"
+msgstr "Rapport över saknade översättningar:"
+
+#: lang/strings_to_translate.php:387
+#: inc/class-hostifybooking-loader.php:776
+msgid "Mon"
+msgstr "Mån"
+
+#: lang/strings_to_translate.php:388
+#: inc/class-hostifybooking-loader.php:766
+msgid "Monday"
+msgstr "Måndag"
+
+#: lang/strings_to_translate.php:409
+#: admin/menu.php:615
+msgid "No redirect"
+msgstr "Ingen omdirigering"
+
+#: lang/strings_to_translate.php:416
+#: inc/class-hostifybooking-loader.php:760
+msgid "Nov"
+msgstr "Nov"
+
+#: lang/strings_to_translate.php:417
+#: inc/class-hostifybooking-loader.php:745
+msgid "November"
+msgstr "November"
+
+#: lang/strings_to_translate.php:418
+#: inc/class-hostifybooking-loader.php:759
+msgid "Oct"
+msgstr "Okt"
+
+#: lang/strings_to_translate.php:419
+#: inc/class-hostifybooking-loader.php:744
+msgid "October"
+msgstr "Oktober"
+
+#: lang/strings_to_translate.php:433
+#: admin/inc/translation-manager/translation-manager.php:95
+msgid "PO files with updated headers: %d files"
+msgstr "PO-filer med uppdaterade rubriker: %d filer"
+
+#: lang/strings_to_translate.php:516
+#: admin/menu.php:617
+msgid "Redirect to Home page"
+msgstr "Omdirigera till startsidan"
+
+#: lang/strings_to_translate.php:517
+#: admin/menu.php:616
+msgid "Redirect to Listings page"
+msgstr "Omdirigera till boendessidan"
+
+#: lang/strings_to_translate.php:518
+#: admin/menu.php:618
+msgid "Redirect to custom URL"
+msgstr "Omdirigera till anpassad URL"
+
+#: lang/strings_to_translate.php:536
+#: admin/menu.php:646
+msgid "Review system"
+msgstr "Recensionssystem"
+
+#: lang/strings_to_translate.php:538
+#: admin/menu.php:640
+msgid "Reviews"
+msgstr "Recensioner"
+
+#: lang/strings_to_translate.php:549
+#: inc/class-hostifybooking-loader.php:781
+msgid "Sat"
+msgstr "Lör"
+
+#: lang/strings_to_translate.php:551
+#: inc/class-hostifybooking-loader.php:771
+msgid "Saturday"
+msgstr "Lördag"
+
+#: lang/strings_to_translate.php:583
+#: inc/class-hostifybooking-loader.php:758
+msgid "Sep"
+msgstr "Sep"
+
+#: lang/strings_to_translate.php:584
+#: inc/class-hostifybooking-loader.php:743
+msgid "September"
+msgstr "September"
+
+#: lang/strings_to_translate.php:631
+#: admin/menu.php:656
+msgid "Show review source"
+msgstr "Visa recensionskälla"
+
+#: lang/strings_to_translate.php:635
+#: admin/menu.php:660
+msgid "Show the source platform (Airbnb/Booking.com) next to each review"
+msgstr "Visa källplattformen (Airbnb/Booking.com) bredvid varje recension"
+
+#: lang/strings_to_translate.php:660
+#: admin/inc/translation-manager/translation-manager.php:86
+msgid "Successfully compiled %d MO files."
+msgstr "Kompilerade framgångsrikt %d MO-filer."
+
+#: lang/strings_to_translate.php:661
+#: inc/class-hostifybooking-loader.php:775
+msgid "Sun"
+msgstr "Sön"
+
+#: lang/strings_to_translate.php:662
+#: inc/class-hostifybooking-loader.php:765
+msgid "Sunday"
+msgstr "Söndag"
+
+#: lang/strings_to_translate.php:692
+#: inc/class-hostifybooking-loader.php:779
+msgid "Thu"
+msgstr "Tor"
+
+#: lang/strings_to_translate.php:693
+#: inc/class-hostifybooking-loader.php:769
+msgid "Thursday"
+msgstr "Torsdag"
+
+#: lang/strings_to_translate.php:705
+#: admin/inc/translation-manager/translation-manager.php:92
+msgid "Total strings found: %d"
+msgstr "Totalt antal strängar funna: %d"
+
+#: lang/strings_to_translate.php:714
+#: admin/inc/translation-manager/translation-manager.php:83
+msgid "Translations saved successfully!"
+msgstr "Översättningar sparades framgångsrikt!"
+
+#: lang/strings_to_translate.php:719
+#: inc/class-hostifybooking-loader.php:777
+msgid "Tue"
+msgstr "Tis"
+
+#: lang/strings_to_translate.php:720
+#: inc/class-hostifybooking-loader.php:767
+msgid "Tuesday"
+msgstr "Tisdag"
+
+#: lang/strings_to_translate.php:728
+#: admin/inc/translation-manager/translation-manager.php:98
+msgid "Uploading..."
+msgstr "Laddar upp..."
+
+#: lang/strings_to_translate.php:751
+#: inc/class-hostifybooking-loader.php:778
+msgid "Wed"
+msgstr "Ons"
+
+#: lang/strings_to_translate.php:752
+#: inc/class-hostifybooking-loader.php:768
+msgid "Wednesday"
+msgstr "Onsdag"
+
+#: lang/strings_to_translate.php:798
+#: admin/inc/translation-manager/class-string-extractor.php:109
+msgid "singular"
+msgid_plural "plural"
+msgstr[0] "singular"
+msgstr[1] "plural"
+
+#: lang/strings_to_translate.php:120
+msgid "City name only (default)"
+msgstr "Endast stadsnamn (standard)"
+
+#: lang/strings_to_translate.php:121
+msgid "City name, Neighbourhood"
+msgstr "Stadsnamn, Område"
+
+#: lang/strings_to_translate.php:128
+msgid "Clear Hostify Cache"
+msgstr "Rensa Hostify Cache"
+
+#: lang/strings_to_translate.php:151
+msgid "Country name, City name, Neighbourhood"
+msgstr "Landsnamn, Stadsnamn, Område"
+
+#: lang/strings_to_translate.php:152
+msgid "Country name, State name, City name, Neighbourhood"
+msgstr "Landsnamn, Länsnamn, Stadsnamn, Område"
+
+#: lang/strings_to_translate.php:174
+msgid "Delete:"
+msgstr "Radera:"
+
+#: lang/strings_to_translate.php:196
+msgid "Download ZIP:"
+msgstr "Ladda ner ZIP:"
+
+#: lang/strings_to_translate.php:295
+msgid "Hostify Booking Plugin Update"
+msgstr "Hostify Booking Plugin-uppdatering"
+
+#: lang/strings_to_translate.php:296
+msgid "Hostify Booking Settings"
+msgstr "Hostify Booking Inställningar"
+
+#: lang/strings_to_translate.php:406
+msgid "Neighbourhood, City name"
+msgstr "Område, Stadsnamn"
+
+#: lang/strings_to_translate.php:422
+msgid "No sort"
+msgstr "Ingen sortering"
+
+#: lang/strings_to_translate.php:435
+msgid "Open Location:"
+msgstr "Öppna plats:"
+
+#: lang/strings_to_translate.php:497
+msgid "Plugin update"
+msgstr "Plugin-uppdatering"
+
+#: lang/strings_to_translate.php:548
+msgid "Restore:"
+msgstr "Återställ:"
+
+#: lang/strings_to_translate.php:665
+msgid "Sort by listing nickname"
+msgstr "Sortera efter boendets smeknamn"
+
+#: lang/strings_to_translate.php:666
+msgid "Sort by listing price, ascending order (low to high)"
+msgstr "Sortera efter boendets pris, stigande ordning (lågt till högt)"
+
+#: lang/strings_to_translate.php:667
+msgid "Sort by listing price, descending order (high to low)"
+msgstr "Sortera efter boendets pris, fallande ordning (högt till lågt)"
+
+#: lang/strings_to_translate.php:668
+msgid "Sort by listing title"
+msgstr "Sortera efter boendets titel"
+
+#: lang/strings_to_translate.php:672
+msgid "State name, City name, Neighbourhood"
+msgstr "Länsnamn, Stadsnamn, Område"
+
+#: lang/strings_to_translate.php:763
+msgid "View listings page"
+msgstr "Visa boendessidan"
+
+#: lang/strings_to_translate.php:806
+msgid "long term"
+msgstr "långtid"
+
+#: lang/strings_to_translate.php:817
+msgid "short term"
+msgstr "korttid"
+
+#: lang/strings_to_translate.php:824
+msgid "syntax error"
+msgstr "syntaxfel"
+
+#: tpl/payment/stripe-form.php:55
+#: tpl/payment/stripe-form-3ds-step-3.php:29
+msgid "CVC"
+msgstr "CVC"
+
+#: tpl/element/booking-search.php:156
+#: tpl/element/booking-search.php:173
+#: tpl/element/booking-search.php:187
+#: tpl/element/direct-inquiry-modal-v2.php:106
+#: tpl/element/direct-inquiry-modal-v2.php:114
+#: tpl/element/direct-inquiry-modal.php:67
+#: tpl/element/direct-inquiry-modal.php:83
+#: tpl/payment/charge-preview.php:16
+#: tpl/payment/preview.php:20
+#: tpl/user/booking-manage.php:31
+#: tpl/listing/listing-booking-form.php:16
+#: tpl/listing/listing-booking-form.php:26
+#: tpl/listing/listing-booking-form.php:35
+#: tpl/listing/listing-booking-form-on-request.php:20
+#: tpl/listing/listing-booking-form-on-request.php:29
+#: tpl/listing/listing-booking-form-v2.php:17
+#: tpl/listing/listing-booking-form-v2.php:28
+#: tpl/listing/listing-booking-form-v2.php:37
+msgid "Check In"
+msgstr "Incheckning"
+
+#: tpl/element/booking-search.php:156
+#: tpl/element/booking-search.php:173
+#: tpl/element/booking-search.php:197
+#: tpl/element/direct-inquiry-modal-v2.php:106
+#: tpl/element/direct-inquiry-modal-v2.php:119
+#: tpl/element/direct-inquiry-modal.php:67
+#: tpl/element/direct-inquiry-modal.php:96
+#: tpl/payment/charge-preview.php:20
+#: tpl/payment/preview.php:26
+#: tpl/user/booking-manage.php:36
+#: tpl/listing/listing-booking-form.php:16
+#: tpl/listing/listing-booking-form.php:26
+#: tpl/listing/listing-booking-form.php:42
+#: tpl/listing/listing-booking-form-on-request.php:20
+#: tpl/listing/listing-booking-form-on-request.php:36
+#: tpl/listing/listing-booking-form-v2.php:17
+#: tpl/listing/listing-booking-form-v2.php:28
+#: tpl/listing/listing-booking-form-v2.php:44
+msgid "Check Out"
+msgstr "Utcheckning"
+
+#: tpl/user/booking-manage.php:174
+msgid "Check in"
+msgstr "Incheckning"
+
+#: tpl/user/booking-manage.php:194
+msgid "Check out"
+msgstr "Utcheckning"
+
+#: tpl/element/direct-inquiry-modal-v2.php:165
+#: tpl/element/guests-block.php:39
+#: tpl/element/direct-inquiry-modal.php:114
+#: tpl/payment/charge-preview.php:43
+#: tpl/payment/preview.php:60
+msgid "Children"
+msgstr "Barn"
+
+#: tpl/user/booking-manage.php:202
+msgid "Children allowed:"
+msgstr "Barn tillåtna:"
+
+#: admin/menu.php:1285
+msgid "Cities"
+msgstr "Städer"
+
+#: tpl/payment/netpay-form.php:143
+msgid "City"
+msgstr "Stad"
+
+#: tpl/listing/listing-info-prices.php:44
+msgid "Cleaning Fee: "
+msgstr "Städavgift: "
+
+#: tpl/element/price-block-default.php:132
+#: tpl/payment/preview-default.php:30
+msgid "Cleaning fee"
+msgstr "Städavgift"
+
+#: tpl/element/booking-search-popup.php:159
+msgid "Clear all"
+msgstr "Rensa alla"
+
+#: inc/class-hostifybooking-loader.php:1277
+msgid "Clear cache"
+msgstr "Rensa cache"
+
+#: tpl/element/direct-inquiry-modal-v2.php:126
+#: tpl/listing/listing-booking-form.php:97
+#: tpl/listing/listing-booking-form-on-request.php:90
+#: tpl/listing/listing-booking-form-v2.php:92
+msgid "Clear dates"
+msgstr "Rensa datum"
+
+#: admin/menu.php:837
+msgid "Clear this field if you do not need to do this check"
+msgstr "Rensa detta fält om du inte behöver göra denna kontroll"
+
+#: admin/menu.php:571
+msgid "Click on a card will open the listing in a new tab/window"
+msgstr "Klick på ett kort öppnar boendet i en ny flik/fönster"
+
+#: tpl/element/booking-search-popup.php:162
+#: tpl/element/direct-inquiry-modal-v2.php:17
+#: tpl/element/guests-block.php:144
+#: admin/exopite-simple-options/fields/upload.php:119
+msgid "Close"
+msgstr "Stäng"
+
+#: tpl/user/bookings-list-item.php:50
+msgid "Code:"
+msgstr "Kod:"
+
+#: admin/menu.php:969
+msgid "Complex:"
+msgstr "Komplex:"
+
+#: tpl/payment/charge-success.php:37
+msgid "Confirmation code"
+msgstr "Bekräftelsekod"
+
+#: tpl/user/bookings-list-item.php:46
+msgid "Confirmed at:"
+msgstr "Bekräftad:"
+
+#: tpl/payment/netpay-form.php:155
+msgid "Continue"
+msgstr "Fortsätt"
+
+#: tpl/payment/netpay-form.php:107
+#: tpl/payment/stripe-form-3ds-element-step-1.php:49
+#: tpl/payment/stripe-form-3ds-element-step-1.php:51
+#: tpl/payment/paypal-form-step-1.php:43
+#: tpl/payment/paypal-form-step-1.php:45
+#: tpl/payment/stripe-form-3ds-step-1.php:52
+#: tpl/payment/stripe-form-3ds-step-1.php:54
+msgid "Country"
+msgstr "Land"
+
+#: tpl/element/price-block-default.php:122
+#: tpl/element/price-block-accounting.php:118
+msgid "Coupon Discount"
+msgstr "Kupongrabatt"
+
+#: admin/menu.php:133
+#: admin/menu.php:156
+#: admin/menu.php:178
+#: admin/menu.php:200
+#: admin/menu.php:222
+#: admin/menu.php:244
+#: admin/menu.php:266
+msgid "Create new page"
+msgstr "Skapa ny sida"
+
+#: admin/menu.php:625
+#: admin/menu.php:693
+msgid "Custom URL"
+msgstr "Anpassad URL"
+
+#: admin/menu.php:530
+msgid "Custom styles"
+msgstr "Anpassade stilar"
+
+#: admin/menu.php:898
+msgid "Custom template path"
+msgstr "Anpassad mallsökväg"
+
+#: admin/menu.php:132
+msgid "Page to show list of Listings or search result"
+msgstr "Sida för att visa lista över boenden eller sökresultat"
+
+#: admin/menu.php:115
+msgid "Pages"
+msgstr "Sidor"
+
+#: admin/menu.php:1145
+msgid "Part of hfy_listing_info"
+msgstr "Del av hfy_listing_info"
+
+#: tpl/user/booking-manage.php:210
+msgid "Party allowed:"
+msgstr "Fest tillåten:"
+
+#: tpl/user/bookings-list.php:16
+msgid "Past"
+msgstr "Tidigare"
+
+#: tpl/payment/stripe-form.php:91
+#: tpl/payment/netpay-form.php:163
+#: tpl/payment/netpay-form.php:178
+#: tpl/payment/netpay-form.php:302
+#: tpl/payment/stripe-form-3ds-step-3.php:65
+#: tpl/payment/stripe-form-3ds-element-step-3.php:53
+msgid "Pay"
+msgstr "Betala"
+
+#: tpl/payment/payment-netpay.php:12
+#: tpl/payment/stripe-form-3ds-step-3.php:12
+#: tpl/payment/charge-error.php:22
+#: tpl/payment/stripe-form-3ds-element-step-3.php:12
+#: admin/menu.php:665
+msgid "Payment"
+msgstr "Betalning"
+
+#: tpl/payment/stripe-form-3ds_success.php:51
+msgid "Payment Amount"
+msgstr "Betalningsbelopp"
+
+#: tpl/payment/stripe-form-3ds_success.php:43
+msgid "Payment Method"
+msgstr "Betalningsmetod"
+
+#: tpl/payment/_success.php:63
+#: tpl/payment/charge-success.php:78
+msgid "Payment amount"
+msgstr "Betalningsbelopp"
+
+#: admin/menu.php:186
+msgid "Payment charge page"
+msgstr "Betalningssida"
+
+#: tpl/payment/_success.php:51
+#: tpl/payment/charge-success.php:67
+msgid "Payment method"
+msgstr "Betalningsmetod"
+
+#: admin/menu.php:164
+#: admin/menu.php:1054
+msgid "Payment page"
+msgstr "Betalningssida"
+
+#: tpl/payment/_success.php:16
+#: tpl/payment/charge-success.php:27
+#: tpl/payment/paypal-form.php:69
+msgid "Payment successful"
+msgstr "Betalningen lyckades"
+
+#: tpl/listing/listing-info-prices.php:50
+msgid "Per Stay City Free: "
+msgstr "Stadsavgift per vistelse: "
+
+#: tpl/listing/listing-info-prices.php:56
+msgid "Per Stay Minimum Number Of Days: "
+msgstr "Minsta antal dagar per vistelse: "
+
+#: tpl/listing/listing-info-permit.php:5
+msgid "Permit / Tax ID"
+msgstr "Tillstånd / Skatte-ID"
+
+#: tpl/payment/stripe-form-3ds-element-step-1.php:9
+#: tpl/payment/paypal-form-step-1.php:12
+#: tpl/payment/stripe-form-3ds-step-1.php:12
+msgid "Personal details"
+msgstr "Personuppgifter"
+
+#: tpl/user/wishlist-item.php:34
+msgid "Persons:"
+msgstr "Personer:"
+
+#: tpl/element/direct-inquiry-modal-v2.php:197
+#: tpl/element/guests-block.php:96
+#: tpl/element/direct-inquiry-modal.php:128
+#: tpl/element/booking-search-advanced.php:50
+#: tpl/payment/charge-preview.php:47
+#: tpl/payment/preview.php:68
+msgid "Pets"
+msgstr "Husdjur"
+
+#: tpl/element/booking-search-popup.php:143
+msgid "Pets allowed"
+msgstr "Husdjur tillåtna"
+
+#: tpl/element/direct-inquiry-modal-v2.php:239
+#: tpl/element/guests-block.php:136
+msgid "Pets allowed."
+msgstr "Husdjur tillåtna."
+
+#: tpl/user/booking-manage.php:206
+msgid "Pets allowed:"
+msgstr "Husdjur tillåtna:"
+
+#: admin/menu.php:470
+msgid "Pets selector in advanced"
+msgstr "Husdjursväljare i avancerat"
+
+#: tpl/element/direct-inquiry-modal-v2.php:90
+#: tpl/element/direct-inquiry-modal-v2.php:92
+#: tpl/element/direct-inquiry-modal.php:41
+#: tpl/payment/stripe-form.php:27
+#: tpl/payment/stripe-form.php:28
+#: tpl/payment/netpay-form.php:93
+#: tpl/payment/stripe-form-3ds-element-step-1.php:32
+#: tpl/payment/stripe-form-3ds-element-step-1.php:33
+#: tpl/payment/paypal-form-step-1.php:35
+#: tpl/payment/paypal-form-step-1.php:36
+#: tpl/payment/stripe-form-3ds-step-1.php:35
+#: tpl/payment/stripe-form-3ds-step-1.php:36
+msgid "Phone"
+msgstr "Telefon"
+
+#: tpl/payment/stripe-form-3ds-element-step-1.php:33
+#: tpl/payment/paypal-form-step-1.php:36
+#: tpl/payment/stripe-form-3ds-step-1.php:36
+msgid "Phone with country code is mandatory. For example: +1234567890"
+msgstr "Telefon med landskod är obligatoriskt. Till exempel: +1234567890"
+
+#: admin/exopite-simple-options/fields/backup.php:47
+msgid "Please be sure for reset all of framework options."
+msgstr "Var säker på att återställa alla ramverksalternativ."
+
+#: tpl/payment/time-left.php:4
+msgid "Please complete the form and submit your payment within"
+msgstr "Vänligen fyll i formuläret och skicka in din betalning inom"
+
+#: tpl/user/booking-manage.php:267
+msgid "Please enter your comment or feedback here (optional)"
+msgstr "Vänligen ange din kommentar eller feedback här (valfritt)"
+
+#: tpl/user/error-please-login.php:3
+msgid "Please log in"
+msgstr "Vänligen logga in"
+
+#: tpl/payment/time-left.php:15
+msgid "Please refresh the page to start again."
+msgstr "Vänligen uppdatera sidan för att börja om."
+
+#: tpl/user/booking-manage.php:275
+msgid "Please tell us a reason or a comment"
+msgstr "Vänligen ange en anledning eller kommentar"
+
+#: inc/shortcodes/inc/load-listing-seo.php:8
+#: inc/shortcodes/inc/load-data.php:6
+#: inc/shortcodes/inc/load-listing.php:20
+#: inc/shortcodes/inc/load-top-listings.php:7
+msgid "Please try again later"
+msgstr "Vänligen försök igen senare"
+
+#: tpl/payment/stripe-form-3ds-element-step-1.php:58
+#: tpl/payment/paypal-form-step-1.php:52
+#: tpl/payment/stripe-form-3ds-step-1.php:61
+msgid "Postal code"
+msgstr "Postnummer"
+
+#: admin/menu.php:1071
+msgid "Predefined extras block"
+msgstr "Fördefinierat extrablock"
+
+#: tpl/element/pagination-block.php:9
+msgid "Previous"
+msgstr "Föregående"
+
+#: tpl/element/booking-search-popup.php:119
+#: tpl/user/wishlist-item.php:45
+msgid "Price"
+msgstr "Pris"
+
+#: tpl/user/wishlist.php:26
+#: tpl/listing/listings-sort.php:9
+msgid "Price ascending"
+msgstr "Pris stigande"
+
+#: tpl/user/wishlist.php:27
+#: tpl/listing/listings-sort.php:10
+msgid "Price descending"
+msgstr "Pris fallande"
+
+#: tpl/element/price-block-default.php:21
+#: tpl/element/price-block-accounting.php:13
+#: tpl/element/price-block-accounting.php:21
+#: tpl/payment/preview-accounting.php:12
+#: tpl/payment/preview-accounting.php:19
+#: tpl/payment/preview-default.php:23
+#: tpl/user/booking-manage.php:50
+msgid "Price for"
+msgstr "Pris för"
+
+#: inc/shortcodes/inc/make-listing-tpl-vars.php:45
+#: tpl/listing/listing-booking-form-on-request.php:9
+msgid "Price on request"
+msgstr "Pris på förfrågan"
+
+#: inc/helpers/ListingHelper.php:58
+msgid "Private room"
+msgstr "Privat rum"
+
+#: tpl/element/price-block.php:28
+msgid "Proceed to payment"
+msgstr "Fortsätt till betalning"
+
+#: admin/exopite-simple-options/fields/upload.php:88
+msgid "Processing dropped files..."
+msgstr "Bearbetar släppta filer..."
+
+#: tpl/payment/stripe-form-3ds_success.php:19
+msgid "Property"
+msgstr "Boende"
+
+#: tpl/element/booking-search-popup.php:82
+msgid "Property Type"
+msgstr "Boendetyp"
+
+#: tpl/element/direct-inquiry-modal-v2.php:266
+#: tpl/element/direct-inquiry-modal.php:146
+msgid "Question or Comment"
+msgstr "Fråga eller kommentar"
+
+#: admin/menu.php:74
+msgid "Read me first"
+msgstr "Läs mig först"
+
+#: tpl/user/booking-manage.php:250
+msgid "Reason"
+msgstr "Anledning"
+
+#: admin/menu.php:1046
+msgid "Recent listings"
+msgstr "Senaste boenden"
+
+#: admin/menu.php:832
+msgid "Redirect 301"
+msgstr "Omdirigering 301"
+
+#: admin/menu.php:610
+msgid "Redirect if no listing"
+msgstr "Omdirigera om inget boende finns"
+
+#: admin/menu.php:679
+msgid "Redirect on payment success"
+msgstr "Omdirigera vid lyckad betalning"
+
+#: tpl/payment/time-left.php:20
+msgid "Refresh page"
+msgstr "Uppdatera sidan"
+
+#: admin/exopite-simple-options/fields/backup.php:39
+msgid "copy-paste your backup string here"
+msgstr "kopiera-klistra in din säkerhetskopia här"

@@ -1,0 +1,648 @@
+/* Translation Manager Button Styles */
+.translation-editor-controls button,
+.backup-controls button,
+.upload-controls button,
+#extract-strings-btn,
+#compile-mo-btn,
+#load-translations-btn,
+#save-translations-btn,
+#download-po-btn {
+    height: 36px !important;
+    line-height: 34px !important;
+    padding: 0 16px !important;
+    font-size: 13px !important;
+    font-weight: 500 !important;
+    border-radius: 4px !important;
+    border: 1px solid #0073aa !important;
+    background: #0073aa !important;
+    color: white !important;
+    cursor: pointer !important;
+    transition: all 0.2s ease !important;
+    text-decoration: none !important;
+    display: inline-block !important;
+    vertical-align: middle !important;
+    box-sizing: border-box !important;
+    min-width: 100px !important;
+    margin: 0 !important;
+}
+
+.translation-editor-controls button:hover,
+.backup-controls button:hover,
+.upload-controls button:hover,
+#extract-strings-btn:hover,
+#compile-mo-btn:hover,
+#load-translations-btn:hover,
+#save-translations-btn:hover,
+#download-po-btn:hover {
+    background: #005a87 !important;
+    border-color: #005a87 !important;
+    color: white !important;
+}
+
+.translation-editor-controls button:disabled,
+.backup-controls button:disabled,
+.upload-controls button:disabled,
+#extract-strings-btn:disabled,
+#compile-mo-btn:disabled,
+#load-translations-btn:disabled,
+#save-translations-btn:disabled,
+#download-po-btn:disabled {
+    background: #f1f1f1 !important;
+    border-color: #ddd !important;
+    color: #666 !important;
+    cursor: not-allowed !important;
+    opacity: 0.6 !important;
+}
+
+/* Primary button style */
+.translation-editor-controls button.button-primary,
+.backup-controls button.button-primary,
+.upload-controls button.button-primary,
+#extract-strings-btn.button-primary,
+#compile-mo-btn.button-primary,
+#save-translations-btn.button-primary {
+    background: #0073aa !important;
+    border-color: #0073aa !important;
+    color: white !important;
+}
+
+.translation-editor-controls button.button-primary:hover,
+.backup-controls button.button-primary:hover,
+.upload-controls button.button-primary:hover,
+#extract-strings-btn.button-primary:hover,
+#compile-mo-btn.button-primary:hover,
+#save-translations-btn.button-primary:hover {
+    background: #005a87 !important;
+    border-color: #005a87 !important;
+}
+
+/* Secondary button style */
+.translation-editor-controls button.button-secondary,
+.backup-controls button.button-secondary,
+.upload-controls button.button-secondary,
+#extract-strings-btn.button-secondary,
+#compile-mo-btn.button-secondary {
+    background: #f1f1f1 !important;
+    border-color: #ddd !important;
+    color: #333 !important;
+}
+
+.translation-editor-controls button.button-secondary:hover,
+.backup-controls button.button-secondary:hover,
+.upload-controls button.button-secondary:hover,
+#extract-strings-btn.button-secondary:hover,
+#compile-mo-btn.button-secondary:hover {
+    background: #e5e5e5 !important;
+    border-color: #ccc !important;
+}
+
+/* Translation Manager Styles */
+.translation-editor-controls {
+    margin: 15px 0;
+    padding: 15px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.translation-editor-controls label {
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.translation-editor-controls select,
+.translation-editor-controls input {
+    margin-right: 10px;
+}
+
+.translation-filters {
+    margin: 15px 0;
+    padding: 10px;
+    background: #f0f0f0;
+    border-radius: 4px;
+}
+
+.translation-filters input[type="text"] {
+    margin-right: 15px;
+}
+
+.translation-filters label {
+    margin-right: 15px;
+}
+
+.translation-row {
+    border-bottom: 1px solid #eee;
+}
+
+.translation-row:hover {
+    background-color: #f9f9f9;
+}
+
+.translation-row.translated {
+    background-color: #f0f8f0;
+}
+
+.translation-row.untranslated {
+    background-color: #fff8f0;
+}
+
+.translation-status {
+    padding: 2px 8px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.translation-status.translated {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.translation-status.untranslated {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.translation-input {
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.translation-input:focus {
+    border-color: #0073aa;
+    box-shadow: 0 0 0 1px #0073aa;
+}
+
+.translation-input[placeholder] {
+    color: #999;
+}
+
+#translations-list {
+    background: white;
+    border-radius: 4px;
+}
+
+#translations-list table {
+    margin: 0;
+    position: relative;
+}
+
+#translations-list thead {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#translations-list th {
+    background: #f1f1f1;
+    font-weight: 600;
+    padding: 10px;
+}
+
+#translations-list td {
+    padding: 8px 10px;
+    vertical-align: top;
+}
+
+#translation-editor-status {
+    margin: 15px 0;
+}
+
+#translation-editor-status .notice {
+    margin: 0;
+}
+
+/* Backup and Restore Styles */
+
+.backup-controls {
+    margin: 15px 0;
+    padding: 15px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.backup-controls button {
+    margin-right: 10px;
+}
+
+.upload-controls {
+    margin: 15px 0;
+    padding: 15px;
+    background: #f0f8ff;
+    border: 1px solid #b3d9ff;
+    border-radius: 4px;
+}
+
+.upload-controls label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+#backups-list table {
+    margin-top: 15px;
+    table-layout: fixed;
+    width: 100%;
+    position: relative;
+}
+
+#backups-list thead {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+#backups-list th {
+    font-weight: bold;
+    background: #f1f1f1;
+    padding: 12px 8px;
+    text-align: left;
+}
+
+#backups-list th:nth-child(1) {
+    width: 20%;
+}
+
+#backups-list th:nth-child(2) {
+    width: 30%;
+}
+
+#backups-list th:nth-child(3) {
+    width: 15%;
+}
+
+#backups-list th:nth-child(4) {
+    width: 35%;
+    text-align: right;
+    padding-right: 16px;
+}
+
+#backups-list td {
+    vertical-align: middle;
+    padding: 12px 8px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+#backups-list td:last-child {
+    text-align: right;
+    white-space: normal;
+}
+
+#backups-list td:last-child button {
+    margin: 2px 0 2px 4px !important;
+    display: inline-block;
+}
+
+/* Backup action buttons - using standardized styles */
+.restore-backup-btn {
+    background: #0073aa !important;
+    border-color: #0073aa !important;
+    color: white !important;
+    margin-right: 5px;
+}
+
+.restore-backup-btn:hover {
+    background: #005a87 !important;
+    border-color: #005a87 !important;
+}
+
+.download-backup-btn {
+    background: #28a745 !important;
+    border-color: #28a745 !important;
+    color: white !important;
+    margin-right: 5px;
+}
+
+.download-backup-btn:hover {
+    background: #1e7e34 !important;
+    border-color: #1e7e34 !important;
+}
+
+.show-location-btn {
+    background: #6c757d !important;
+    border-color: #6c757d !important;
+    color: white !important;
+    margin-right: 5px;
+}
+
+.show-location-btn:hover {
+    background: #545b62 !important;
+    border-color: #545b62 !important;
+}
+
+.delete-backup-btn {
+    background: #dc3232 !important;
+    border-color: #dc3232 !important;
+    color: white !important;
+}
+
+.delete-backup-btn:hover {
+    background: #a00 !important;
+    border-color: #a00 !important;
+}
+
+/* Auto-dismissing Notices */
+.notice {
+    position: relative;
+    margin: 10px 0;
+    padding: 12px 40px 12px 12px;
+    border-left: 4px solid #00a32a;
+    background: #fff;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    border-radius: 3px;
+    transition: all 0.3s ease;
+}
+
+.notice.notice-success {
+    border-left-color: #00a32a;
+}
+
+.notice.notice-info {
+    border-left-color: #72aee6;
+}
+
+.notice.notice-warning {
+    border-left-color: #dba617;
+}
+
+.notice.notice-error {
+    border-left-color: #d63638;
+}
+
+.notice-dismiss {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    margin: 0;
+    padding: 9px;
+    cursor: pointer;
+    background: none;
+    color: #787c82;
+    transition: color 0.2s ease;
+}
+
+.notice-dismiss:hover {
+    color: #d63638;
+}
+
+.notice-dismiss:before {
+    content: "\f158";
+    font: normal 20px/1 dashicons;
+    vertical-align: top;
+}
+
+/* Tip notice styling */
+.backup-help .tip-notice {
+    background-color: #fff3cd;
+    border: 1px solid #ffc107;
+    border-radius: 4px;
+    padding: 10px 15px;
+    margin-top: 10px;
+    color: #856404;
+    font-weight: 500;
+}
+
+.backup-help .tip-notice strong {
+    color: #e67e22;
+}
+
+/* File upload styling */
+#upload-po-file {
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 3px;
+    background: white;
+}
+
+#upload-po-file:focus {
+    border-color: #0073aa;
+    box-shadow: 0 0 0 1px #0073aa;
+}
+
+/* Available Languages Container */
+#available-languages {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 10px !important;
+    margin: 10px 0 !important;
+    align-items: flex-start !important;
+    justify-content: flex-start !important;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .translation-editor-controls,
+    .backup-controls,
+    .upload-controls {
+        padding: 10px;
+    }
+    
+    .translation-filters input[type="text"] {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
+    .translation-filters label {
+        display: block;
+        margin-bottom: 5px;
+    }
+    
+    #backups-list table {
+        font-size: 12px;
+    }
+    
+    #backups-list td {
+        padding: 5px;
+    }
+    
+    /* Disable sticky headers on mobile for better UX */
+    #backups-list thead,
+    #translations-list thead {
+        position: static;
+        box-shadow: none;
+    }
+}
+
+/* Language Badges */
+.language-badge {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+    padding: 8px 12px;
+    background: #ccc;
+    color: white;
+    border-radius: 4px;
+    font-size: 12px;
+    text-align: center;
+    min-width: 80px;
+    min-height: 60px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.2);
+    transition: all 0.2s ease;
+    flex-shrink: 0;
+}
+
+.language-badge:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+.language-badge strong {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+
+.language-badge .progress {
+    font-size: 11px;
+    opacity: 0.9;
+}
+
+.language-badge .percentage {
+    font-weight: bold;
+    font-size: 13px;
+}
+
+/* High progress languages */
+.language-badge.high-progress {
+    background: #28a745;
+}
+
+/* Medium progress languages */
+.language-badge.medium-progress {
+    background: #ffc107;
+    color: #212529;
+}
+
+/* Low progress languages */
+.language-badge.low-progress {
+    background: #dc3545;
+}
+
+.language-badge.very-low-progress {
+    background: #ccc !important;   /* Light grey */
+    color: #333 !important;
+    border: 1px solid #bbb;
+}
+
+/* Fix button overflow on medium screens (1200px and below) */
+@media (max-width: 1200px) {
+    #backups-list table {
+        table-layout: fixed;
+        width: 100%;
+    }
+    
+    #backups-list th,
+    #backups-list td {
+        padding: 8px 4px;
+        word-wrap: break-word;
+        overflow-wrap: break-word;
+    }
+    
+    #backups-list td:last-child {
+        width: auto;
+        min-width: 200px;
+        text-align: right;
+    }
+    
+    #backups-list td:last-child .button {
+        font-size: 11px !important;
+        padding: 0 8px !important;
+        margin: 2px 0 2px 4px !important;
+        min-width: 60px !important;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    
+    /* Stack buttons vertically on very small screens */
+    @media (max-width: 600px) {
+        #backups-list td:last-child {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+            text-align: center;
+        }
+        
+        #backups-list td:last-child .button {
+            width: 100%;
+            margin: 0 !important;
+        }
+    }
+} 
+
+/* Plural Forms Styling */
+.translation-row.plural-form {
+    background-color: #f8f9ff !important;
+    border-left: 4px solid #0073aa !important;
+}
+
+.translation-row.plural-form:hover {
+    background-color: #f0f2ff !important;
+}
+
+.translation-row.plural-form.translated {
+    background-color: #f0f8ff !important;
+    border-left-color: #28a745 !important;
+}
+
+.translation-row.plural-form.untranslated {
+    background-color: #fff8f0 !important;
+    border-left-color: #ffc107 !important;
+}
+
+.translation-type {
+    padding: 2px 6px;
+    border-radius: 3px;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.translation-type.type-singular {
+    background-color: #e9ecef;
+    color: #495057;
+}
+
+.translation-type.type-plural {
+    background-color: #0073aa;
+    color: white;
+}
+
+.translation-input-singular,
+.translation-input-plural {
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 3px;
+    margin-bottom: 5px;
+}
+
+.translation-input-singular:focus,
+.translation-input-plural:focus {
+    border-color: #0073aa;
+    box-shadow: 0 0 0 1px #0073aa;
+}
+
+.translation-input-singular[placeholder],
+.translation-input-plural[placeholder] {
+    color: #999;
+}
+
+/* Plural form source text styling */
+.translation-row.plural-form td:first-child strong {
+    color: #0073aa;
+    font-weight: 600;
+}
+
+.translation-row.plural-form td:first-child em {
+    color: #6c757d;
+    font-style: italic;
+}

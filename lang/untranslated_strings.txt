@@ -1,0 +1,161 @@
+
+Available Languages
+Backup & Restore Translations
+Backup Actions Explained:
+Cache is disabled now
+Can be used, for example, inside title (H1 tag) on the listing search page
+Cities
+Clear
+Clear Comments
+Click on a card will open the listing in a new tab/window
+Compile MO Files
+Compile all PO files to MO files (useful if you edited files externally):
+Compile all PO files to MO files for WordPress to use translations:
+Confirmation code
+Coupon discount
+Create Backup Now
+Create backup of existing file before replacing
+Custom styles
+Default map type
+Delete All Backups
+Dictionaries
+Disable overwriting of the payment templates
+Disable payment templates
+Do not load all the CSS that comes with the plugin, including Bootstrap
+Download .po File
+Download all translation files as a ZIP archive for external storage
+Download backups before plugin updates and store them safely. You can then upload individual .po files or restore entire backups after updates.
+Due later
+Dynamic Google Map
+Edit
+Edit translations directly in the admin interface. Select a language file and edit the translations below.
+Enable keyword search
+Enable the new reservation inquiry modal design.
+Enter discount code (if available)
+Error regenerating permalinks.
+Existing translation files (will add missing strings)
+Extract Strings
+Extract Translatable Strings
+Failed to delete permalink.
+Failed to update permalink.
+Filter translations:
+For your security, this session has timed out.
+Found %d out of %d total
+Generate .mo files from the .po files for WordPress to use the translations.
+Hide details
+Hostify
+Hostify Booking 1
+Hostify Booking Engine
+Hostify Booking Widget 1
+Hostify cache cleared
+How to Use
+Hybrid
+ID codes of available amenities
+If enabled, a keyword search field will be added to the search form.
+Images slider
+Inline Translation Editor
+Invalid data.
+Keyword search placeholder
+Listings info
+Listings map show/hide button
+Listings sort control
+Load Translations
+Loading permalinks data...
+MO files are automatically generated when you save translations through our editor.
+Maintenance
+Max zoom
+Maximum %d guests.
+Miscellaneous
+More
+No listing
+No matching permalinks found.
+No permalinks found.
+Open in new window
+Other
+Payment result page
+Permalink deleted successfully.
+Permalink updated successfully.
+Permalinks regenerated successfully!
+Permalinks regenerated successfully.
+Permanently delete this backup (cannot be undone)
+Personal details
+Phone with country code is mandatory. For example: +1234567890
+Placeholder text for the keyword search field
+Please complete the form and submit your payment within
+Please refresh the page to start again.
+Plugin
+Postal code
+Price incl. security deposit
+Properties
+Property
+Protect your translation work from being lost during plugin updates. Create backups before updates and restore them afterward.
+Redirect if no listing
+Refresh List
+Refresh page
+Regenerate Permalinks
+Regenerating...
+Reservation
+Restore all translation files from this backup (overwrites current files)
+Review the updated translation files in the lang/ directory.
+Roadmap (default)
+Satellite
+Save
+Save Changes
+Search by ID or name...
+Search by keyword...
+Search translations...
+Select .po file:
+Select Language File:
+Select the default map type. Users can change this using the map type control.
+Send Inquiry
+Short info about current search
+Show age hints
+Show age hints in the guests selection dialog
+Show animated loader when loading images
+Show details
+Show dynamic google map 
+Show image preloader
+Show listing location on map. And there is a synonym: [hfy_listing_map
+Show optional extras on payment page
+Show payment result
+Show untranslated only
+Stay Dates
+Stripe payment element form
+Template file for translations
+Terrain
+Thank you for your inquiry!
+There was a problem with your payment
+This allows users to search for listings by keywords like property names, descriptions, amenities, city names, or neighbourhoods. Works with API v3 for comprehensive search across all listings.
+This date is not available for check-in
+This date is not available for check-out
+This permalink is already in use. Please choose another one.
+This place has a maximum of %d guests, infants not allowed.
+This place has a maximum of %d guests, not including infants.
+This tool will scan all PHP files in the plugin and extract translatable strings. It will update the following files:
+Tip:
+To increase file upload limit in the standard built-in WordPress media uploader up as large as available disk space allows, you could use
+Translation Files Location
+Translation Manager
+Translation files are located in:
+Translation manager
+Turn off CSS
+Unavailable
+Upload & Restore
+Upload Translation File
+Upload a .po file to restore translations after a plugin update:
+Use Calendar v2
+Use Calendar v3
+Use New Inquiry Form
+Use a translation tool like Poedit to translate the strings in the .po files.
+Use current WP language setting
+Use custom:
+Use our Inline Translation Editor (below) to translate strings directly in the admin interface, or use external tools like Poedit or Loco Translate to edit the .po files.
+View the server path and web URL where backup files are stored
+You do not have permission to perform this action.
+or listings search result [hfy_listings
+readme.txt
+single page [hfy_listing
+string
+Show listing location on map. And there is a synonym: [hfy_listing_map].
+or listings search result [hfy_listings]
+single page [hfy_listing]

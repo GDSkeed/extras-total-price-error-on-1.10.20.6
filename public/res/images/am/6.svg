@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 40 40" style="enable-background:new 0 0 40 40;" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css">
+	.st0{fill:none;stroke:currentcolor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st1{fill:currentcolor;}
+</style>
+  </defs>
+  <g>
+    <path class="st0" d="M32.6,14H7.4C4.4,14,2,9.6,2,6.6V3h36v3.6C38,9.6,35.6,14,32.6,14z"/>
+    <polyline class="st0" points="33,14 29,21 11,21 7,14 &#9;&#9;"/>
+    <line class="st0" x1="2" y1="6" x2="38" y2="6"/>
+    <path class="st0" d="M11.1,21.3c1.7,2.6,5.5,2.7,8.9,2.7s7.1-0.1,8.9-2.7"/>
+    <line class="st0" x1="20" y1="14" x2="20" y2="21"/>
+    <line class="st0" x1="13" y1="14" x2="15" y2="21"/>
+    <line class="st0" x1="27" y1="14" x2="25" y2="21"/>
+    <circle class="st0" cx="28" cy="10" r="1"/>
+    <g>
+      <path class="st0" d="M20,38c-0.6-0.6-1-1.5-1-2.5c0-1,0.4-1.9,1-2.5c0.6-0.6,1-1.5,1-2.5c0-1-0.4-1.9-1-2.5"/>
+      <path class="st0" d="M15,38c-0.6-0.6-1-1.5-1-2.5c0-1,0.4-1.9,1-2.5c0.6-0.6,1-1.5,1-2.5c0-1-0.4-1.9-1-2.5"/>
+      <path class="st0" d="M25,38c-0.6-0.6-1-1.5-1-2.5c0-1,0.4-1.9,1-2.5c0.6-0.6,1-1.5,1-2.5c0-1-0.4-1.9-1-2.5"/>
+    </g>
+  </g>
+</svg>

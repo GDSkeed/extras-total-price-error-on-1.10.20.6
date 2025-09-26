@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 40 40" style="enable-background:new 0 0 40 40;" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css">
+	.st0{fill:none;stroke:currentcolor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st1{fill:currentcolor;}
+</style>
+  </defs>
+  <g>
+    <polyline class="st0" points="9,7 6,7 6,39 34,39 34,7 31,7 &#9;&#9;"/>
+    <path class="st0" d="M37,39V5.5C37,4.7,36.3,4,35.5,4H31"/>
+    <path class="st0" d="M9,4H4.5C3.7,4,3,4.7,3,5.5V39"/>
+    <line class="st0" x1="20" y1="14" x2="20" y2="39"/>
+    <polyline class="st0" points="12.5,5.4 16,1 19.5,5.4 &#9;&#9;"/>
+    <polyline class="st0" points="27.5,7.6 24,12 20.5,7.6 &#9;&#9;"/>
+    <line class="st0" x1="16" y1="10" x2="16" y2="2"/>
+    <line class="st0" x1="24" y1="3" x2="24" y2="11"/>
+  </g>
+</svg>

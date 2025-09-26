@@ -1,0 +1,21 @@
+$themeName: "hfy-theme1";
+
+@import "_vars";
+
+.#{$themeName} {
+
+    padding: 0;
+
+    @import "theme/flaticon/_flaticon";
+    @import "theme/ion.rangeSlider/_ion.rangeSlider.skinFlat.scss";
+    @import "theme/_effects";
+    @import "theme/_blaze";
+
+    @import "theme/_gallery";
+    @import "theme/_amenities";
+    @import "theme/_style";
+}
+
+@import "theme/_modals";
+
+@import "theme/_calentim";

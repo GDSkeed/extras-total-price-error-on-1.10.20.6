@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 40 40" style="enable-background:new 0 0 40 40;" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style type="text/css">
+	.st0{fill:none;stroke:currentcolor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st1{fill:currentcolor;}
+</style>
+  </defs>
+  <g>
+    <path class="st0" d="M36,8H4.1C2.8,9.5,2,11.4,2,13.6v11.8c0,2.1,0.8,4.1,2.1,5.6H36c1.3-1.5,2.1-3.4,2.1-5.6V13.6 C38.1,11.4,37.3,9.5,36,8z"/>
+    <line class="st0" x1="6" y1="11" x2="34" y2="11"/>
+    <line class="st0" x1="6" y1="28" x2="34" y2="28"/>
+    <line class="st0" x1="28" y1="24" x2="34" y2="24"/>
+    <line class="st0" x1="29" y1="21" x2="34" y2="21"/>
+    <line class="st0" x1="30" y1="18" x2="34" y2="18"/>
+    <circle class="st0" cx="12.5" cy="19.5" r="5.5"/>
+    <circle class="st1" cx="21" cy="24" r="1"/>
+    <circle class="st1" cx="22" cy="21" r="1"/>
+  </g>
+</svg>

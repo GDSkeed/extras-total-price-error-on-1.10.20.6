@@ -1,0 +1,145 @@
+
+.calentim-container,
+.calentim-container-mobile {
+
+    &,
+    .calentim-input {
+        z-index: 599999 !important;
+    }
+
+    .calentim-input
+    .calentim-calendars
+    .calentim-calendar
+    .calentim-days-container
+    .calentim-day.calentim-selected.calentim-end
+    span {
+        background-color: transparent;
+    }
+
+    .calentim-calendars {
+        .calentim-disabled,
+        .calentim-day {
+            &.calentim-not-in-month {
+                &, * {
+                    color: transparent !important;
+                    background: transparent !important;
+                    cursor: default !important;
+                }
+                &.calentim-selected {
+                    background-color: transparent !important;
+                }
+            }
+        }
+
+        .calentim-day.calentim-disabled-range,
+        .calentim-disabled.calentim-selected {
+            background-color: #f4f4fa !important;
+            color: #b8b8df !important;
+
+            span {
+                color: #b8b8df !important;
+                background-color: transparent !important;
+            }
+        }
+    }
+
+    .calentim-input {
+        .calentim-calendars {
+            .calentim-calendar {
+                .calentim-days-container {
+                    .calentim-day {
+                        &.calentim-disabled-day {
+                            background: repeating-linear-gradient(-45deg, #ddf 0%, #ddf 1.5%, #fff 1.5%, #fff 9%);
+                            color: #b8b8df;
+                        }
+                        &.calentim-selected {
+                            background: #1783FF !important;
+                        }
+                        &.calentim-not-in-month.calentim-selected {
+                            background: transparent !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .calentim-header {
+        padding: 8px 10px;
+
+        .calentim-header-separator {
+            font-size: 20px !important;
+            color: #999 !important;
+            white-space: nowrap !important;
+
+            i {
+                display: inline-block;
+                vertical-align: middle;
+                align-self: center;
+            }
+        }
+
+        .calentim-header-start-day,
+        .calentim-header-end-day {
+            margin: -14px;
+        }
+    }
+}
+
+.calentim-container-mobile {
+    .calentim-input {
+        .calentim-footer {
+            button {
+                padding: 14px 4px;
+            }
+        }
+    }
+}
+
+@include mob() {
+    .calentim-container-mobile {
+        .calentim-input {
+
+            margin: 0;
+            border-radius: 0;
+            top: 0;
+            justify-content: space-between;
+
+            .calentim-calendars {
+                max-height: 100% !important;
+            }
+
+            // .calentim-footer {
+            //     button.calentim-cancel {}
+            // }
+
+            .calentim-footer {
+                display: flex;
+
+                button.calentim-reset {
+                    border: 1px solid silver;
+                    background: transparent;
+                    color: #555;
+                }
+
+                button.calentim-apply,
+                button.calentim-reset {
+                    margin: 0 0 0 4px;
+                }
+            }
+        }
+    }
+}
+
+.hfy-listing-availability {
+    .calentim-day {
+        &:hover,
+        &.calentim-hovered,
+        &.calentim-hovered-first,
+        &.calentim-hovered-last {
+            &, & span {
+                background-color: transparent !important;
+            }
+        }
+    }
+}

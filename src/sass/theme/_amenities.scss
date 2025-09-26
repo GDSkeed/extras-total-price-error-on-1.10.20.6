@@ -1,0 +1,30 @@
+.hfy-listing-amenities {
+	line-height: 24px;
+	margin-bottom: 20px;
+
+    > span {
+		margin: 1px;
+		padding: 2px 8px;
+		white-space: nowrap;
+		overflow: hidden;
+		max-width: 100%;
+		text-overflow: ellipsis;
+		display: inline-block;
+		border-radius: 4px;
+		border: 1px solid #EBEDED;
+		background-color: rgba(255,255,255,.5);
+	}
+
+	.hfy-am--more {
+		cursor: pointer;
+	}
+
+	.hfy-am {
+		img {
+			width: 32px;
+			height: 24px;
+			opacity: .4;
+		}
+	}
+
+}

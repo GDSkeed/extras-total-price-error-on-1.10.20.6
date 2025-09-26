@@ -1,0 +1,3544 @@
+@charset "UTF-8";
+.hfy-theme1 {
+  padding: 0;
+  /*
+  Flaticon icon font: Flaticon
+  Creation date: 02/08/2018 22:38
+  */
+  /* Ion.RangeSlider, Flat UI Skin
+  // css version 2.0.3
+  // © Denis Ineshin, 2014    https://github.com/IonDen
+  // ===================================================================================================================*/
+  /* =====================================================================================================================
+  // Skin details */
+  /* Common style */
+  /* Anchor will cover the whole item by default */
+  /* For some effects it will show as a button */
+  /* Individual effects */
+  /*---------------*/
+  /***** Lily *****/
+  /*---------------*/
+  /*---------------*/
+  /***** Sadie *****/
+  /*---------------*/
+  /*---------------*/
+  /***** Roxy *****/
+  /*---------------*/
+  /*---------------*/
+  /***** Bubba *****/
+  /*---------------*/
+  /*---------------*/
+  /***** Romeo *****/
+  /*---------------*/
+  /*---------------*/
+  /***** Layla *****/
+  /*---------------*/
+  /*---------------*/
+  /***** Honey *****/
+  /*---------------*/
+  /*---------------*/
+  /***** Oscar *****/
+  /*---------------*/
+  /*---------------*/
+  /***** Marley *****/
+  /*---------------*/
+  /*---------------*/
+  /***** Ruby *****/
+  /*---------------*/
+  /*---------------*/
+  /***** Milo *****/
+  /*---------------*/
+  /*---------------*/
+  /***** Dexter *****/
+  /*---------------*/
+  /*---------------*/
+  /***** Sarah *****/
+  /*---------------*/
+  /*---------------*/
+  /***** Zoe *****/
+  /*---------------*/
+  /*---------------*/
+  /***** Chico *****/
+  /*---------------*/
+  /*
+  @media only screen and (max-width: 1200px) {
+      .btn-next-wrap,
+      .btn-prev-wrap {
+          visibility: visible;
+          opacity: 1;
+      }
+  }
+  */
+  /*** OWl ***/
+  /** Success Animation ***/
+  /*
+  HOTEL
+  */
+  /**/
+  /**/
+}
+@font-face {
+  font-family: "Flaticon";
+  src: url("flatfonts/Flaticon.eot");
+  src: url("flatfonts/Flaticon.eot?#iefix") format("embedded-opentype"), url("flatfonts/Flaticon.woff") format("woff"), url("flatfonts/Flaticon.ttf") format("truetype"), url("flatfonts/Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("flatfonts/Flaticon.svg#Flaticon") format("svg");
+  }
+}
+.hfy-theme1 .fi:before {
+  display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+.hfy-theme1 .flaticon-swim:before {
+  content: "\f100";
+}
+.hfy-theme1 .flaticon-wifi:before {
+  content: "\f101";
+}
+.hfy-theme1 .flaticon-weightlifting:before {
+  content: "\f102";
+}
+.hfy-theme1 .flaticon-departures:before {
+  content: "\f103";
+}
+.hfy-theme1 .flaticon-bus:before {
+  content: "\f104";
+}
+.hfy-theme1 .flaticon-cocktail:before {
+  content: "\f105";
+}
+.hfy-theme1 .flaticon-coffee-cup:before {
+  content: "\f106";
+}
+.hfy-theme1 .flaticon-car-parking:before {
+  content: "\f107";
+}
+.hfy-theme1 .flaticon-fork:before {
+  content: "\f108";
+}
+.hfy-theme1 .flaticon-supper:before {
+  content: "\f109";
+}
+.hfy-theme1 .flaticon-tray:before {
+  content: "\f10a";
+}
+.hfy-theme1 .flaticon-coffee:before {
+  content: "\f10b";
+}
+.hfy-theme1 .flaticon-cow:before {
+  content: "\f10c";
+}
+.hfy-theme1 .flaticon-chicken:before {
+  content: "\f10d";
+}
+.hfy-theme1 .flaticon-spaguetti:before {
+  content: "\f10e";
+}
+.hfy-theme1 .flaticon-spa:before {
+  content: "\f10f";
+}
+.hfy-theme1 .flaticon-suit:before {
+  content: "\f110";
+}
+.hfy-theme1 .flaticon-portfolio:before {
+  content: "\f111";
+}
+.hfy-theme1 .flaticon-users:before {
+  content: "\f112";
+}
+.hfy-theme1 .flaticon-mail:before {
+  content: "\f113";
+}
+.hfy-theme1 .flaticon-like:before {
+  content: "\f114";
+}
+.hfy-theme1 .flaticon-chat:before {
+  content: "\f115";
+}
+.hfy-theme1 .flaticon-paper-plane:before {
+  content: "\f116";
+}
+.hfy-theme1 .flaticon-air-conditioner:before {
+  content: "\f117";
+}
+.hfy-theme1 .flaticon-bathtub:before {
+  content: "\f118";
+}
+.hfy-theme1 .flaticon-bathtub-1:before {
+  content: "\f119";
+}
+.hfy-theme1 .flaticon-television:before {
+  content: "\f11a";
+}
+.hfy-theme1 .flaticon-kitchen:before {
+  content: "\f11b";
+}
+.hfy-theme1 .flaticon-patio:before {
+  content: "\f11c";
+}
+.hfy-theme1 .flaticon-speaker:before {
+  content: "\f11d";
+}
+.hfy-theme1 .flaticon-terrace:before {
+  content: "\f11e";
+}
+.hfy-theme1 .flaticon-sunset:before {
+  content: "\f11f";
+}
+.hfy-theme1 .flaticon-washing-machine:before {
+  content: "\f120";
+}
+.hfy-theme1 .flaticon-pet:before {
+  content: "\f121";
+}
+.hfy-theme1 .flaticon-room-service:before {
+  content: "\f122";
+}
+.hfy-theme1 .flaticon-bed:before {
+  content: "\f123";
+}
+.hfy-theme1 .flaticon-no-smoking-sign:before {
+  content: "\f124";
+}
+.hfy-theme1 .flaticon-building:before {
+  content: "\f125";
+}
+.hfy-theme1 .flaticon-pin:before {
+  content: "\f126";
+}
+.hfy-theme1 .flaticon-slumber:before {
+  content: "\f127";
+}
+.hfy-theme1 .flaticon-hotel:before {
+  content: "\f128";
+}
+.hfy-theme1 .flaticon-hotel-1:before {
+  content: "\f129";
+}
+.hfy-theme1 .flaticon-world:before {
+  content: "\f12a";
+}
+.hfy-theme1 .flaticon-airplane-flight:before {
+  content: "\f12b";
+}
+.hfy-theme1 .flaticon-traveler-with-a-suitcase:before {
+  content: "\f12c";
+}
+.hfy-theme1 .flaticon-sleeping-bed-silhouette:before {
+  content: "\f12d";
+}
+.hfy-theme1 .flaticon-covered-food-tray-on-a-hand-of-hotel-room-service:before {
+  content: "\f12e";
+}
+.hfy-theme1 .flaticon-maps-and-flags:before {
+  content: "\f12f";
+}
+.hfy-theme1 .flaticon-map-marker:before {
+  content: "\f130";
+}
+.hfy-theme1 .flaticon-map-marker-with-two-arrows-pointing-opposite-directions:before {
+  content: "\f131";
+}
+.hfy-theme1 .irs-line-mid,
+.hfy-theme1 .irs-line-left,
+.hfy-theme1 .irs-line-right,
+.hfy-theme1 .irs-bar,
+.hfy-theme1 .irs-bar-edge,
+.hfy-theme1 .irs-slider {
+  background: url(../img/sprite-skin-flat.png) repeat-x;
+}
+.hfy-theme1 .irs {
+  height: 40px;
+}
+.hfy-theme1 .irs-with-grid {
+  height: 60px;
+}
+.hfy-theme1 .irs-line {
+  height: 12px;
+  top: 25px;
+}
+.hfy-theme1 .irs-line-left {
+  height: 12px;
+  background-position: 0 -30px;
+}
+.hfy-theme1 .irs-line-mid {
+  height: 12px;
+  background-position: 0 0;
+}
+.hfy-theme1 .irs-line-right {
+  height: 12px;
+  background-position: 100% -30px;
+}
+.hfy-theme1 .irs-bar {
+  height: 12px;
+  top: 25px;
+  background-position: 0 -60px;
+}
+.hfy-theme1 .irs-bar-edge {
+  top: 25px;
+  height: 12px;
+  width: 9px;
+  background-position: 0 -90px;
+}
+.hfy-theme1 .irs-shadow {
+  height: 3px;
+  top: 34px;
+  background: #000;
+  opacity: 0.25;
+}
+.hfy-theme1 .lt-ie9 .irs-shadow {
+  filter: alpha(opacity=25);
+}
+.hfy-theme1 .irs-slider {
+  width: 16px;
+  height: 18px;
+  top: 22px;
+  background-position: 0 -120px;
+}
+.hfy-theme1 .irs-slider.state_hover, .hfy-theme1 .irs-slider:hover {
+  background-position: 0 -150px;
+}
+.hfy-theme1 .irs-min,
+.hfy-theme1 .irs-max {
+  text-shadow: none;
+  background: transparent;
+  border-radius: 0;
+}
+.hfy-theme1 .irs-min,
+.hfy-theme1 .irs-max,
+.hfy-theme1 .irs-from,
+.hfy-theme1 .irs-to,
+.hfy-theme1 .irs-single {
+  color: #fff;
+  font-size: 10px;
+  line-height: 1.333;
+  text-shadow: none;
+  padding: 1px 5px;
+  background: #ed5565;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+}
+.hfy-theme1 .irs-from:after, .hfy-theme1 .irs-to:after, .hfy-theme1 .irs-single:after {
+  position: absolute;
+  display: block;
+  content: "";
+  bottom: -6px;
+  left: 50%;
+  width: 0;
+  height: 0;
+  margin-left: -3px;
+  overflow: hidden;
+  border: 3px solid transparent;
+  border-top-color: #ed5565;
+}
+.hfy-theme1 .irs-grid-pol {
+  background: #e1e4e9;
+}
+.hfy-theme1 .irs-grid-text {
+  color: #999;
+}
+.hfy-theme1 .img-hover-effect {
+  position: relative;
+  margin: 0 auto;
+  padding: 1em 0 4em;
+  max-width: 1000px;
+  list-style: none;
+  text-align: center;
+}
+.hfy-theme1 .img-hover-effect figure {
+  position: relative;
+  float: left;
+  overflow: hidden;
+  margin: 10px 1%;
+  min-width: 320px;
+  max-width: 480px;
+  max-height: 360px;
+  width: 48%;
+  background: #3085a3;
+  text-align: center;
+  cursor: pointer;
+}
+.hfy-theme1 .img-hover-effect figure img {
+  position: relative;
+  display: block;
+  min-height: 100%;
+  max-width: 100%;
+  opacity: 0.8;
+}
+.hfy-theme1 .img-hover-effect figure figcaption {
+  padding: 2em;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.25em;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.hfy-theme1 .img-hover-effect figure figcaption::before,
+.hfy-theme1 .img-hover-effect figure figcaption::after {
+  pointer-events: none;
+}
+.hfy-theme1 .img-hover-effect figure figcaption,
+.hfy-theme1 .img-hover-effect figure figcaption > a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.hfy-theme1 .img-hover-effect figure figcaption > a {
+  z-index: 1000;
+  text-indent: 200%;
+  white-space: nowrap;
+  font-size: 0;
+  opacity: 0;
+}
+.hfy-theme1 .img-hover-effect figure h2 {
+  word-spacing: -0.15em;
+  font-weight: 300;
+  color: #fff !important;
+}
+.hfy-theme1 .img-hover-effect figure h2 span {
+  font-weight: 800;
+  color: #fff !important;
+}
+.hfy-theme1 .img-hover-effect figure h2,
+.hfy-theme1 .img-hover-effect figure p {
+  margin: 0;
+}
+.hfy-theme1 .img-hover-effect figure p {
+  letter-spacing: 1px;
+  font-size: 68.5%;
+}
+.hfy-theme1 figure.effect-lily img {
+  max-width: none;
+  width: -webkit-calc(100% + 50px);
+  width: calc(100% + 50px);
+  opacity: 0.7;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-40px, 0, 0);
+  transform: translate3d(-40px, 0, 0);
+}
+.hfy-theme1 figure.effect-lily figcaption {
+  text-align: left;
+}
+.hfy-theme1 figure.effect-lily figcaption > div {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 2em;
+  width: 100%;
+  height: 50%;
+}
+.hfy-theme1 figure.effect-lily h2,
+.hfy-theme1 figure.effect-lily p {
+  -webkit-transform: translate3d(0, 40px, 0);
+  transform: translate3d(0, 40px, 0);
+}
+.hfy-theme1 figure.effect-lily h2 {
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+}
+.hfy-theme1 figure.effect-lily p {
+  color: rgba(255, 255, 255, 0.8);
+  opacity: 0;
+  -webkit-transition: opacity 0.2s, -webkit-transform 0.35s;
+  transition: opacity 0.2s, transform 0.35s;
+}
+.hfy-theme1 figure.effect-lily:hover img,
+.hfy-theme1 figure.effect-lily:hover p {
+  opacity: 1;
+}
+.hfy-theme1 figure.effect-lily:hover img,
+.hfy-theme1 figure.effect-lily:hover h2,
+.hfy-theme1 figure.effect-lily:hover p {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.hfy-theme1 figure.effect-lily:hover p {
+  -webkit-transition-delay: 0.05s;
+  transition-delay: 0.05s;
+  -webkit-transition-duration: 0.35s;
+  transition-duration: 0.35s;
+}
+.hfy-theme1 figure.effect-sadie figcaption::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: -webkit-linear-gradient(top, rgba(72, 76, 97, 0) 0%, rgba(72, 76, 97, 0.8) 75%);
+  background: linear-gradient(to bottom, rgba(72, 76, 97, 0) 0%, rgba(72, 76, 97, 0.8) 75%);
+  content: "";
+  opacity: 0;
+  -webkit-transform: translate3d(0, 50%, 0);
+  transform: translate3d(0, 50%, 0);
+}
+.hfy-theme1 figure.effect-sadie h2 {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  color: #484c61;
+  -webkit-transition: -webkit-transform 0.35s, color 0.35s;
+  transition: transform 0.35s, color 0.35s;
+  -webkit-transform: translate3d(0, -50%, 0);
+  transform: translate3d(0, -50%, 0);
+}
+.hfy-theme1 figure.effect-sadie figcaption::before,
+.hfy-theme1 figure.effect-sadie p {
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+}
+.hfy-theme1 figure.effect-sadie p {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 2em;
+  width: 100%;
+  opacity: 0;
+  -webkit-transform: translate3d(0, 10px, 0);
+  transform: translate3d(0, 10px, 0);
+}
+.hfy-theme1 figure.effect-sadie:hover h2 {
+  color: #fff;
+  -webkit-transform: translate3d(0, -50%, 0) translate3d(0, -40px, 0);
+  transform: translate3d(0, -50%, 0) translate3d(0, -40px, 0);
+}
+.hfy-theme1 figure.effect-sadie:hover figcaption::before,
+.hfy-theme1 figure.effect-sadie:hover p {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.hfy-theme1 figure.effect-roxy {
+  background: -webkit-linear-gradient(45deg, #ff89e9 0%, #05abe0 100%);
+  background: linear-gradient(45deg, #ff89e9 0%, #05abe0 100%);
+}
+.hfy-theme1 figure.effect-roxy img {
+  max-width: none;
+  width: -webkit-calc(100% + 60px);
+  width: calc(100% + 60px);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-50px, 0, 0);
+  transform: translate3d(-50px, 0, 0);
+}
+.hfy-theme1 figure.effect-roxy figcaption::before {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  bottom: 30px;
+  left: 30px;
+  border: 1px solid #fff;
+  content: "";
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-20px, 0, 0);
+  transform: translate3d(-20px, 0, 0);
+}
+.hfy-theme1 figure.effect-roxy figcaption {
+  padding: 3em;
+  text-align: left;
+}
+.hfy-theme1 figure.effect-roxy h2 {
+  padding: 30% 0 10px 0;
+}
+.hfy-theme1 figure.effect-roxy p {
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-10px, 0, 0);
+  transform: translate3d(-10px, 0, 0);
+}
+.hfy-theme1 figure.effect-roxy:hover img {
+  opacity: 0.7;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.hfy-theme1 figure.effect-roxy:hover figcaption::before,
+.hfy-theme1 figure.effect-roxy:hover p {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.hfy-theme1 figure.effect-bubba {
+  background: #9e5406;
+}
+.hfy-theme1 figure.effect-bubba img {
+  opacity: 0.7;
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+}
+.hfy-theme1 figure.effect-bubba:hover img {
+  opacity: 0.4;
+}
+.hfy-theme1 figure.effect-bubba figcaption::before,
+.hfy-theme1 figure.effect-bubba figcaption::after {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  bottom: 30px;
+  left: 30px;
+  content: "";
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+}
+.hfy-theme1 figure.effect-bubba figcaption::before {
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: scale(0, 1);
+  transform: scale(0, 1);
+}
+.hfy-theme1 figure.effect-bubba figcaption::after {
+  border-right: 1px solid #fff;
+  border-left: 1px solid #fff;
+  -webkit-transform: scale(1, 0);
+  transform: scale(1, 0);
+}
+.hfy-theme1 figure.effect-bubba h2 {
+  padding-top: 30%;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(0, -20px, 0);
+  transform: translate3d(0, -20px, 0);
+}
+.hfy-theme1 figure.effect-bubba p {
+  padding: 20px 2.5em;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0, 20px, 0);
+  transform: translate3d(0, 20px, 0);
+}
+.hfy-theme1 figure.effect-bubba:hover figcaption::before,
+.hfy-theme1 figure.effect-bubba:hover figcaption::after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+.hfy-theme1 figure.effect-bubba:hover h2,
+.hfy-theme1 figure.effect-bubba:hover p {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.hfy-theme1 figure.effect-romeo {
+  -webkit-perspective: 1000px;
+  perspective: 1000px;
+}
+.hfy-theme1 figure.effect-romeo img {
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0, 0, 300px);
+  transform: translate3d(0, 0, 300px);
+}
+.hfy-theme1 figure.effect-romeo:hover img {
+  opacity: 0.6;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.hfy-theme1 figure.effect-romeo figcaption::before,
+.hfy-theme1 figure.effect-romeo figcaption::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 80%;
+  height: 1px;
+  background: #fff;
+  content: "";
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-50%, -50%, 0);
+  transform: translate3d(-50%, -50%, 0);
+}
+.hfy-theme1 figure.effect-romeo:hover figcaption::before {
+  opacity: 0.5;
+  -webkit-transform: translate3d(-50%, -50%, 0) rotate(45deg);
+  transform: translate3d(-50%, -50%, 0) rotate(45deg);
+}
+.hfy-theme1 figure.effect-romeo:hover figcaption::after {
+  opacity: 0.5;
+  -webkit-transform: translate3d(-50%, -50%, 0) rotate(-45deg);
+  transform: translate3d(-50%, -50%, 0) rotate(-45deg);
+}
+.hfy-theme1 figure.effect-romeo h2,
+.hfy-theme1 figure.effect-romeo p {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+}
+.hfy-theme1 figure.effect-romeo h2 {
+  -webkit-transform: translate3d(0, -50%, 0) translate3d(0, -150%, 0);
+  transform: translate3d(0, -50%, 0) translate3d(0, -150%, 0);
+}
+.hfy-theme1 figure.effect-romeo p {
+  padding: 0.25em 2em;
+  -webkit-transform: translate3d(0, -50%, 0) translate3d(0, 150%, 0);
+  transform: translate3d(0, -50%, 0) translate3d(0, 150%, 0);
+}
+.hfy-theme1 figure.effect-romeo:hover h2 {
+  -webkit-transform: translate3d(0, -50%, 0) translate3d(0, -100%, 0);
+  transform: translate3d(0, -50%, 0) translate3d(0, -100%, 0);
+}
+.hfy-theme1 figure.effect-romeo:hover p {
+  -webkit-transform: translate3d(0, -50%, 0) translate3d(0, 100%, 0);
+  transform: translate3d(0, -50%, 0) translate3d(0, 100%, 0);
+}
+.hfy-theme1 figure.effect-layla {
+  background: #18a367;
+}
+.hfy-theme1 figure.effect-layla img {
+  height: 390px;
+}
+.hfy-theme1 figure.effect-layla figcaption {
+  padding: 3em;
+}
+.hfy-theme1 figure.effect-layla figcaption::before,
+.hfy-theme1 figure.effect-layla figcaption::after {
+  position: absolute;
+  content: "";
+  opacity: 0;
+}
+.hfy-theme1 figure.effect-layla figcaption::before {
+  top: 50px;
+  right: 30px;
+  bottom: 50px;
+  left: 30px;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  -webkit-transform: scale(0, 1);
+  transform: scale(0, 1);
+  -webkit-transform-origin: 0 0;
+  transform-origin: 0 0;
+}
+.hfy-theme1 figure.effect-layla figcaption::after {
+  top: 30px;
+  right: 50px;
+  bottom: 30px;
+  left: 50px;
+  border-right: 1px solid #fff;
+  border-left: 1px solid #fff;
+  -webkit-transform: scale(1, 0);
+  transform: scale(1, 0);
+  -webkit-transform-origin: 100% 0;
+  transform-origin: 100% 0;
+}
+.hfy-theme1 figure.effect-layla h2 {
+  padding-top: 26%;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+}
+.hfy-theme1 figure.effect-layla p {
+  padding: 0.5em 2em;
+  text-transform: none;
+  opacity: 0;
+  -webkit-transform: translate3d(0, -10px, 0);
+  transform: translate3d(0, -10px, 0);
+}
+.hfy-theme1 figure.effect-layla img,
+.hfy-theme1 figure.effect-layla h2 {
+  -webkit-transform: translate3d(0, -30px, 0);
+  transform: translate3d(0, -30px, 0);
+}
+.hfy-theme1 figure.effect-layla img,
+.hfy-theme1 figure.effect-layla figcaption::before,
+.hfy-theme1 figure.effect-layla figcaption::after,
+.hfy-theme1 figure.effect-layla p {
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+}
+.hfy-theme1 figure.effect-layla:hover img {
+  opacity: 0.7;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.hfy-theme1 figure.effect-layla:hover figcaption::before,
+.hfy-theme1 figure.effect-layla:hover figcaption::after {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+.hfy-theme1 figure.effect-layla:hover h2,
+.hfy-theme1 figure.effect-layla:hover p {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.hfy-theme1 figure.effect-layla:hover figcaption::after,
+.hfy-theme1 figure.effect-layla:hover h2,
+.hfy-theme1 figure.effect-layla:hover p,
+.hfy-theme1 figure.effect-layla:hover img {
+  -webkit-transition-delay: 0.15s;
+  transition-delay: 0.15s;
+}
+.hfy-theme1 figure.effect-honey {
+  background: #4a3753;
+}
+.hfy-theme1 figure.effect-honey img {
+  opacity: 0.9;
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+}
+.hfy-theme1 figure.effect-honey:hover img {
+  opacity: 0.5;
+}
+.hfy-theme1 figure.effect-honey figcaption::before {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 10px;
+  background: #fff;
+  content: "";
+  -webkit-transform: translate3d(0, 10px, 0);
+  transform: translate3d(0, 10px, 0);
+}
+.hfy-theme1 figure.effect-honey h2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 1em 1.5em;
+  width: 100%;
+  text-align: left;
+  -webkit-transform: translate3d(0, -30px, 0);
+  transform: translate3d(0, -30px, 0);
+}
+.hfy-theme1 figure.effect-honey h2 i {
+  font-style: normal;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0, -30px, 0);
+  transform: translate3d(0, -30px, 0);
+}
+.hfy-theme1 figure.effect-honey figcaption::before,
+.hfy-theme1 figure.effect-honey h2 {
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+}
+.hfy-theme1 figure.effect-honey:hover figcaption::before,
+.hfy-theme1 figure.effect-honey:hover h2,
+.hfy-theme1 figure.effect-honey:hover h2 i {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.hfy-theme1 figure.effect-oscar {
+  background: -webkit-linear-gradient(45deg, #22682a 0%, #9b4a1b 40%, #3a342a 100%);
+  background: linear-gradient(45deg, #22682a 0%, #9b4a1b 40%, #3a342a 100%);
+}
+.hfy-theme1 figure.effect-oscar img {
+  opacity: 0.9;
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+}
+.hfy-theme1 figure.effect-oscar figcaption {
+  padding: 3em;
+  background-color: rgba(58, 52, 42, 0.7);
+  -webkit-transition: background-color 0.35s;
+  transition: background-color 0.35s;
+}
+.hfy-theme1 figure.effect-oscar figcaption::before {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  bottom: 30px;
+  left: 30px;
+  border: 1px solid #fff;
+  content: "";
+}
+.hfy-theme1 figure.effect-oscar h2 {
+  margin: 20% 0 10px 0;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100%, 0);
+}
+.hfy-theme1 figure.effect-oscar figcaption::before,
+.hfy-theme1 figure.effect-oscar p {
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+}
+.hfy-theme1 figure.effect-oscar:hover h2 {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.hfy-theme1 figure.effect-oscar:hover figcaption::before,
+.hfy-theme1 figure.effect-oscar:hover p {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+.hfy-theme1 figure.effect-oscar:hover figcaption {
+  background-color: rgba(58, 52, 42, 0);
+}
+.hfy-theme1 figure.effect-oscar:hover img {
+  opacity: 0.4;
+}
+.hfy-theme1 figure.effect-marley figcaption {
+  text-align: right;
+}
+.hfy-theme1 figure.effect-marley h2,
+.hfy-theme1 figure.effect-marley p {
+  position: absolute;
+  right: 30px;
+  left: 30px;
+  padding: 10px 0;
+}
+.hfy-theme1 figure.effect-marley p {
+  bottom: 30px;
+  line-height: 1.5;
+  -webkit-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100%, 0);
+}
+.hfy-theme1 figure.effect-marley h2 {
+  top: 30px;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(0, 20px, 0);
+  transform: translate3d(0, 20px, 0);
+}
+.hfy-theme1 figure.effect-marley:hover h2 {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.hfy-theme1 figure.effect-marley h2::after {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  background: #fff;
+  content: "";
+  -webkit-transform: translate3d(0, 40px, 0);
+  transform: translate3d(0, 40px, 0);
+}
+.hfy-theme1 figure.effect-marley h2::after,
+.hfy-theme1 figure.effect-marley p {
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+}
+.hfy-theme1 figure.effect-marley:hover h2::after,
+.hfy-theme1 figure.effect-marley:hover p {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.hfy-theme1 figure.effect-ruby {
+  background-color: #17819c;
+}
+.hfy-theme1 figure.effect-ruby img {
+  opacity: 0.7;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale(1.15);
+  transform: scale(1.15);
+}
+.hfy-theme1 figure.effect-ruby:hover img {
+  opacity: 0.5;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+.hfy-theme1 figure.effect-ruby h2 {
+  margin-top: 20%;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(0, 20px, 0);
+  transform: translate3d(0, 20px, 0);
+}
+.hfy-theme1 figure.effect-ruby p {
+  margin: 1em 0 0;
+  padding: 3em;
+  border: 1px solid #fff;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0, 20px, 0) scale(1.1);
+  transform: translate3d(0, 20px, 0) scale(1.1);
+}
+.hfy-theme1 figure.effect-ruby:hover h2 {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.hfy-theme1 figure.effect-ruby:hover p {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0) scale(1);
+  transform: translate3d(0, 0, 0) scale(1);
+}
+.hfy-theme1 figure.effect-milo {
+  background: #2e5d5a;
+}
+.hfy-theme1 figure.effect-milo img {
+  max-width: none;
+  width: -webkit-calc(100% + 60px);
+  width: calc(100% + 60px);
+  opacity: 1;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-30px, 0, 0) scale(1.12);
+  transform: translate3d(-30px, 0, 0) scale(1.12);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.hfy-theme1 figure.effect-milo:hover img {
+  opacity: 0.5;
+  -webkit-transform: translate3d(0, 0, 0) scale(1);
+  transform: translate3d(0, 0, 0) scale(1);
+}
+.hfy-theme1 figure.effect-milo h2 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 1em 1.2em;
+}
+.hfy-theme1 figure.effect-milo p {
+  padding: 0 10px 0 0;
+  width: 50%;
+  border-right: 1px solid #fff;
+  text-align: right;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-40px, 0, 0);
+  transform: translate3d(-40px, 0, 0);
+}
+.hfy-theme1 figure.effect-milo:hover p {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.hfy-theme1 figure.effect-dexter {
+  background: -webkit-linear-gradient(top, rgb(37, 141, 200) 0%, rgb(104, 60, 19) 100%);
+  background: linear-gradient(to bottom, rgb(37, 141, 200) 0%, rgb(104, 60, 19) 100%);
+}
+.hfy-theme1 figure.effect-dexter img {
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+}
+.hfy-theme1 figure.effect-dexter:hover img {
+  opacity: 0.4;
+}
+.hfy-theme1 figure.effect-dexter figcaption::after {
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+  left: 30px;
+  height: -webkit-calc(50% - 30px);
+  height: calc(50% - 30px);
+  border: 7px solid #fff;
+  content: "";
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(0, -100%, 0);
+  transform: translate3d(0, -100%, 0);
+}
+.hfy-theme1 figure.effect-dexter:hover figcaption::after {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.hfy-theme1 figure.effect-dexter figcaption {
+  padding: 3em;
+  text-align: left;
+}
+.hfy-theme1 figure.effect-dexter p {
+  position: absolute;
+  right: 60px;
+  bottom: 60px;
+  left: 60px;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(0, -100px, 0);
+  transform: translate3d(0, -100px, 0);
+}
+.hfy-theme1 figure.effect-dexter:hover p {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.hfy-theme1 figure.effect-sarah {
+  background: #42b078;
+}
+.hfy-theme1 figure.effect-sarah img {
+  max-width: none;
+  width: -webkit-calc(100% + 20px);
+  width: calc(100% + 20px);
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(-10px, 0, 0);
+  transform: translate3d(-10px, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.hfy-theme1 figure.effect-sarah:hover img {
+  opacity: 0.4;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.hfy-theme1 figure.effect-sarah figcaption {
+  text-align: left;
+}
+.hfy-theme1 figure.effect-sarah h2 {
+  position: relative;
+  overflow: hidden;
+  padding: 0.5em 0;
+}
+.hfy-theme1 figure.effect-sarah h2::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: #fff;
+  content: "";
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(-100%, 0, 0);
+  transform: translate3d(-100%, 0, 0);
+}
+.hfy-theme1 figure.effect-sarah:hover h2::after {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.hfy-theme1 figure.effect-sarah p {
+  padding: 1em 0;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: translate3d(100%, 0, 0);
+  transform: translate3d(100%, 0, 0);
+}
+.hfy-theme1 figure.effect-sarah:hover p {
+  opacity: 1;
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.hfy-theme1 figure.effect-zoe figcaption {
+  top: auto;
+  bottom: 0;
+  padding: 1em;
+  height: 3.75em;
+  background: #fff;
+  color: #3c4a50;
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(0, 100%, 0);
+  transform: translate3d(0, 100%, 0);
+}
+.hfy-theme1 figure.effect-zoe h2 {
+  float: left;
+}
+.hfy-theme1 figure.effect-zoe p.icon-links a {
+  float: right;
+  color: #3c4a50;
+  font-size: 1.4em;
+}
+.hfy-theme1 figure.effect-zoe:hover p.icon-links a:hover,
+.hfy-theme1 figure.effect-zoe:hover p.icon-links a:focus {
+  color: #252d31;
+}
+.hfy-theme1 figure.effect-zoe p.description {
+  position: absolute;
+  bottom: 8em;
+  padding: 2em;
+  color: #fff;
+  text-transform: none;
+  font-size: 90%;
+  opacity: 0;
+  -webkit-transition: opacity 0.35s;
+  transition: opacity 0.35s;
+  -webkit-backface-visibility: hidden; /* Fix for Chrome 37.0.2062.120 (Mac) */
+}
+.hfy-theme1 figure.effect-zoe h2,
+.hfy-theme1 figure.effect-zoe p.icon-links a {
+  -webkit-transition: -webkit-transform 0.35s;
+  transition: transform 0.35s;
+  -webkit-transform: translate3d(0, 200%, 0);
+  transform: translate3d(0, 200%, 0);
+}
+.hfy-theme1 figure.effect-zoe p.icon-links a span::before {
+  display: inline-block;
+  padding: 8px 10px;
+  font-family: "feathericons";
+  speak: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.hfy-theme1 .icon-eye::before {
+  content: "\e000";
+}
+.hfy-theme1 .icon-paper-clip::before {
+  content: "\e001";
+}
+.hfy-theme1 .icon-heart::before {
+  content: "\e024";
+}
+.hfy-theme1 figure.effect-zoe h2 {
+  display: inline-block;
+}
+.hfy-theme1 figure.effect-zoe:hover p.description {
+  opacity: 1;
+}
+.hfy-theme1 figure.effect-zoe:hover figcaption,
+.hfy-theme1 figure.effect-zoe:hover h2,
+.hfy-theme1 figure.effect-zoe:hover p.icon-links a {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.hfy-theme1 figure.effect-zoe:hover h2 {
+  -webkit-transition-delay: 0.05s;
+  transition-delay: 0.05s;
+}
+.hfy-theme1 figure.effect-zoe:hover p.icon-links a:nth-child(3) {
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+}
+.hfy-theme1 figure.effect-zoe:hover p.icon-links a:nth-child(2) {
+  -webkit-transition-delay: 0.15s;
+  transition-delay: 0.15s;
+}
+.hfy-theme1 figure.effect-zoe:hover p.icon-links a:first-child {
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+.hfy-theme1 figure.effect-chico img {
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+  -webkit-transform: scale(1.12);
+  transform: scale(1.12);
+}
+.hfy-theme1 figure.effect-chico:hover img {
+  opacity: 0.5;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+.hfy-theme1 figure.effect-chico figcaption {
+  padding: 3em;
+}
+.hfy-theme1 figure.effect-chico figcaption::before {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  bottom: 30px;
+  left: 30px;
+  border: 1px solid #fff;
+  content: "";
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+.hfy-theme1 figure.effect-chico figcaption::before,
+.hfy-theme1 figure.effect-chico p {
+  opacity: 0;
+  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+  transition: opacity 0.35s, transform 0.35s;
+}
+.hfy-theme1 figure.effect-chico h2 {
+  padding: 20% 0 20px 0;
+}
+.hfy-theme1 figure.effect-chico p {
+  margin: 0 auto;
+  max-width: 200px;
+  -webkit-transform: scale(1.5);
+  transform: scale(1.5);
+}
+.hfy-theme1 figure.effect-chico:hover figcaption::before,
+.hfy-theme1 figure.effect-chico:hover p {
+  opacity: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+@media screen and (max-width: 50em) {
+  .hfy-theme1 .content {
+    padding: 0 10px;
+    text-align: center;
+  }
+  .hfy-theme1 .grid figure {
+    display: inline-block;
+    float: none;
+    margin: 10px auto;
+    width: 100%;
+  }
+}
+.hfy-theme1 .hfy-widget-wrap-listings .slider {
+  --slides-to-show: 1;
+  --slide-gap: 20px;
+  direction: ltr;
+}
+.hfy-theme1 .hfy-widget-wrap-listings .blaze-container {
+  position: relative;
+}
+.hfy-theme1 .hfy-widget-wrap-listings .blaze-track-container {
+  overflow: hidden;
+}
+.hfy-theme1 .hfy-widget-wrap-listings .blaze-track {
+  will-change: transform;
+  touch-action: pan-y;
+  display: flex;
+  gap: var(--slide-gap);
+  --slide-width: calc(
+      (100% - (var(--slides-to-show) - 1) * var(--slide-gap)) /
+          var(--slides-to-show)
+  );
+  box-sizing: border-box;
+}
+.hfy-theme1 .hfy-widget-wrap-listings .blaze-track > * {
+  box-sizing: border-box;
+  width: var(--slide-width);
+  flex-shrink: 0;
+}
+.hfy-theme1 .hfy-widget-wrap-listings .blaze-prev,
+.hfy-theme1 .hfy-widget-wrap-listings .blaze-next {
+  position: absolute;
+  top: 0;
+  width: 48px;
+  height: 100%;
+  padding: 0;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0, opacity 0.3s linear;
+  z-index: 999;
+  display: inline-block;
+  background: transparent no-repeat;
+  background-size: 24px;
+  background-position: center;
+  cursor: pointer;
+}
+.hfy-theme1 .hfy-widget-wrap-listings .blaze-prev {
+  left: 0;
+  background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 32 32' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect x='0.5' y='0.5' width='31' height='31' rx='15.5' fill='white'/%3E%3Crect x='0.5' y='0.5' width='31' height='31' rx='15.5' stroke='%23EBEBEB'/%3E%3Cpath d='M19.6736 10.5784L18.4869 9.39844L11.8936 15.9984L18.4936 22.5984L19.6736 21.4184L14.2536 15.9984L19.6736 10.5784Z' fill='%23222222'/%3E%3C/svg%3E");
+}
+.hfy-theme1 .hfy-widget-wrap-listings .blaze-next {
+  right: 0;
+  background-image: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 32 32' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect x='0.5' y='0.5' width='31' height='31' rx='15.5' fill='white'/%3E%3Crect x='0.5' y='0.5' width='31' height='31' rx='15.5' stroke='%23EBEBEB'/%3E%3Cpath d='M12.1533 21.4854L13.3333 22.6654L20 15.9987L13.3333 9.33203L12.1533 10.512L17.64 15.9987L12.1533 21.4854Z' fill='%23222222'/%3E%3C/svg%3E");
+}
+.hfy-theme1 .hfy-widget-wrap-listings .show {
+  visibility: visible;
+  opacity: 0.8;
+}
+.hfy-theme1 .hfy-widget-wrap-listings .add-to-wish,
+.hfy-theme1 .hfy-widget-wrap-listings .added-to-wish,
+.hfy-theme1 .hfy-widget-wrap-listings .img {
+  cursor: pointer;
+}
+.hfy-theme1 .hfy-widget-wrap-listings .add-to-wish,
+.hfy-theme1 .hfy-widget-wrap-listings .added-to-wish {
+  z-index: 9999;
+}
+.hfy-theme1 .hfy-widget-wrap-listings .list-card .img {
+  border-radius: 12px !important;
+}
+.hfy-theme1 .hfy-widget-wrap-listings .list-card .img img {
+  object-fit: cover;
+}
+.hfy-theme1 .hfy-widget-wrap-listings .listings .container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.hfy-theme1 .hfy-widget-wrap-listings .has-global-padding {
+  padding: 0;
+}
+.hfy-theme1 .hfy-listing-gallery .list .img-wrap {
+  height: 50px;
+  overflow: hidden;
+  display: inline-block;
+}
+.hfy-theme1 .hfy-listing-gallery .list .img-wrap img {
+  height: 100%;
+}
+.hfy-theme1 .hfy-listing-gallery.hfy-listing-gallery-abnb {
+  display: flex;
+  overflow: hidden;
+  height: 500px;
+  max-height: 500px;
+  position: relative;
+  -webkit-box-align: center !important;
+  -ms-flex-align: center !important;
+  -webkit-align-items: center !important;
+  align-items: center !important;
+  display: -webkit-box !important;
+  display: -moz-box !important;
+  display: -ms-flexbox !important;
+  display: -webkit-flex !important;
+  display: flex !important;
+  flex-direction: row !important;
+  overflow: hidden !important;
+  border: 1px solid #484848;
+}
+.hfy-theme1 .hfy-listing-gallery.hfy-listing-gallery-abnb > .main {
+  width: 50%;
+  height: 100%;
+  border: 1px solid #484848;
+  overflow: hidden;
+}
+.hfy-theme1 .hfy-listing-gallery.hfy-listing-gallery-abnb > .main > div > img {
+  max-height: 100%;
+}
+.hfy-theme1 .hfy-listing-gallery.hfy-listing-gallery-abnb > .list {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+}
+.hfy-theme1 .hfy-listing-gallery.hfy-listing-gallery-abnb > .list > div {
+  width: 50%;
+  height: 50%;
+  border: 1px solid #484848;
+}
+.hfy-theme1 .hfy-listing-gallery.hfy-listing-gallery-abnb > .list > div > img {
+  max-height: 100%;
+}
+.hfy-theme1 .hfy-listing-gallery.hfy-listing-gallery-abnb > .list > div > div {
+  overflow: hidden;
+}
+.hfy-theme1 .hfy-listing-gallery.hfy-listing-gallery-abnb img {
+  transition: all 0.2s ease-in-out;
+  object-fit: cover;
+  display: inline-block !important;
+  width: 100% !important;
+  height: 100% !important;
+  transition: opacity 2s ease 0s !important;
+  cursor: pointer;
+}
+.hfy-theme1 .hfy-listing-gallery.hfy-listing-gallery-abnb img:hover {
+  overflow: hidden;
+  transform: scale(1.05) !important;
+  transition: -ms-transform 450ms cubic-bezier(0.645, 0.045, 0.355, 1) 0s, -webkit-transform 450ms cubic-bezier(0.645, 0.045, 0.355, 1) 0s, transform 450ms cubic-bezier(0.645, 0.045, 0.355, 1) 0s !important;
+}
+.hfy-theme1 .hfy-listing-gallery.hfy-listing-gallery-abnb .left-bottom {
+  position: absolute;
+  bottom: 5px;
+  left: 5px;
+  z-index: 1;
+}
+@media (max-width: 1128px) {
+  .hfy-theme1 .hfy-listing-gallery.hfy-listing-gallery-abnb .main {
+    width: 67%;
+  }
+  .hfy-theme1 .hfy-listing-gallery.hfy-listing-gallery-abnb .list > div:nth-child(3),
+  .hfy-theme1 .hfy-listing-gallery.hfy-listing-gallery-abnb .list > div:nth-child(4) {
+    display: none;
+  }
+  .hfy-theme1 .hfy-listing-gallery.hfy-listing-gallery-abnb > .list > div {
+    width: 100%;
+  }
+}
+@media (max-width: 744px) {
+  .hfy-theme1 .hfy-listing-gallery.hfy-listing-gallery-abnb {
+    border: none;
+    max-height: 200px;
+  }
+  .hfy-theme1 .hfy-listing-gallery.hfy-listing-gallery-abnb > .list > div, .hfy-theme1 .hfy-listing-gallery.hfy-listing-gallery-abnb > .main, .hfy-theme1 .hfy-listing-gallery.hfy-listing-gallery-abnb > .main {
+    width: 100%;
+  }
+  .hfy-theme1 .hfy-listing-gallery.hfy-listing-gallery-abnb > .list > div img, .hfy-theme1 .hfy-listing-gallery.hfy-listing-gallery-abnb > .main img, .hfy-theme1 .hfy-listing-gallery.hfy-listing-gallery-abnb > .main img {
+    height: 100% !important;
+  }
+}
+.hfy-theme1 .hfy-listing-amenities {
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+.hfy-theme1 .hfy-listing-amenities > span {
+  margin: 1px;
+  padding: 2px 8px;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 100%;
+  text-overflow: ellipsis;
+  display: inline-block;
+  border-radius: 4px;
+  border: 1px solid #EBEDED;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.hfy-theme1 .hfy-listing-amenities .hfy-am--more {
+  cursor: pointer;
+}
+.hfy-theme1 .hfy-listing-amenities .hfy-am img {
+  width: 32px;
+  height: 24px;
+  opacity: 0.4;
+}
+.hfy-theme1 a {
+  color: #484848;
+}
+.hfy-theme1 .lazy {
+  background: #fff;
+}
+.hfy-theme1 .flag-icon {
+  border-radius: 50%;
+}
+.hfy-theme1 .pagination {
+  border: none;
+  flex-wrap: wrap;
+}
+.hfy-theme1 .pagination .page-item {
+  margin: 2px;
+  white-space: nowrap;
+}
+.hfy-theme1 .pagination .page-item a {
+  outline: none;
+  min-width: 30px;
+}
+.hfy-theme1 .pagination .page-item a:nth-child(1) {
+  border: none;
+}
+.hfy-theme1 .pagination .page-item a:hover {
+  background: #444;
+  color: #fff;
+}
+.hfy-theme1 .pagination .page-item.active a {
+  background: #444;
+}
+.hfy-theme1 .pagination .page-item.disabled, .hfy-theme1 .pagination .page-item.disabled * {
+  text-decoration: none;
+}
+.hfy-theme1 .hint-text {
+  font-size: 12px;
+  color: #999;
+}
+.hfy-theme1 .flex-1 {
+  flex: 1;
+}
+.hfy-theme1 .container {
+  max-width: 1190px;
+}
+.hfy-theme1 .container.md {
+  max-width: 1150px;
+}
+.hfy-theme1 main {
+  position: relative;
+  min-height: 300px;
+}
+.hfy-theme1 .form-control {
+  border: 1px solid #ddd;
+  border-radius: 2px;
+}
+.hfy-theme1 .row.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+.hfy-theme1 .row.no-gutters > [class^=col-], .hfy-theme1 .row.no-gutters > [class*=" col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+.hfy-theme1 .row.gutters-1 {
+  margin-right: 1px;
+  margin-left: 1px;
+}
+.hfy-theme1 .row.gutters-1 > [class^=col-], .hfy-theme1 .row.gutters-1 > [class*=" col-"] {
+  padding-right: 1px;
+  padding-left: 1px;
+}
+.hfy-theme1 .row.gutters-2 {
+  margin-right: 2px;
+  margin-left: 2px;
+}
+.hfy-theme1 .row.gutters-2 > [class^=col-], .hfy-theme1 .row.gutters-2 > [class*=" col-"] {
+  padding-right: 2px;
+  padding-left: 2px;
+}
+.hfy-theme1 .menu-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.hfy-theme1 hr {
+  height: 1px;
+  width: 100%;
+  display: block;
+  background: #EBEDED;
+  border: 0;
+  outline: 0;
+  position: relative;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.hfy-theme1 .sticky-parent {
+  position: relative;
+  display: block;
+}
+.hfy-theme1 .small-icon:before, .hfy-theme1 .small-icon:before,
+.hfy-theme1 .small-icon:after, .hfy-theme1 .small-icon:after {
+  font-size: 18px;
+}
+.hfy-theme1 .x-small-icon:before, .hfy-theme1 .x-small-icon:before,
+.hfy-theme1 .x-small-icon:after, .hfy-theme1 .x-small-icon:after {
+  font-size: 12px;
+}
+.hfy-theme1 .lg-icon:before, .hfy-theme1 .lg-icon:before,
+.hfy-theme1 .lg-:after, .hfy-theme1 .lg-icon:after {
+  font-size: 30px;
+}
+.hfy-theme1 .img-square {
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 100%;
+  background: red;
+}
+.hfy-theme1 .img-square img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  object-position: center;
+  object-fit: cover;
+}
+.hfy-theme1 .wp-bw {
+  word-wrap: break-word;
+}
+.hfy-theme1 .owl-carousel {
+  position: relative;
+}
+.hfy-theme1 .owl-carousel .owl-nav {
+  position: absolute;
+  top: 28%;
+  width: 100%;
+  transform: translateY(-150%);
+}
+.hfy-theme1 .owl-carousel .owl-nav .owl-next {
+  right: -30px;
+}
+.hfy-theme1 .owl-carousel .owl-nav .owl-prev {
+  left: -30px;
+}
+.hfy-theme1 .owl-carousel .owl-nav .owl-next, .hfy-theme1 .owl-carousel .owl-nav .owl-prev {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  outline: none;
+  box-shadow: rgba(0, 0, 0, 0.14) 0px 1px 1px 1px;
+  background: #fff !important;
+}
+.hfy-theme1 .owl-carousel .owl-nav .owl-next span, .hfy-theme1 .owl-carousel .owl-nav .owl-prev span {
+  font-size: 52px;
+  line-height: 0;
+  font-weight: 200;
+}
+.hfy-theme1 .owl-carousel .owl-nav .owl-next.disabled, .hfy-theme1 .owl-carousel .owl-nav .owl-prev.disabled {
+  visibility: hidden;
+}
+@keyframes scaleAnimation {
+  0% {
+    opacity: 0;
+    transform: scale(1.5);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+@keyframes drawCircle {
+  0% {
+    stroke-dashoffset: 151px;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes drawCheck {
+  0% {
+    stroke-dashoffset: 36px;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.hfy-theme1 #successAnimationCircle {
+  stroke-dasharray: 151px 151px;
+  stroke: forestgreen;
+}
+.hfy-theme1 #successAnimationCheck {
+  stroke-dasharray: 36px 36px;
+  stroke: forestgreen;
+}
+.hfy-theme1 #successAnimationResult {
+  fill: forestgreen;
+  opacity: 0;
+}
+.hfy-theme1 #successAnimation.animated {
+  animation: 1s ease-out 0s 1 both scaleAnimation;
+}
+.hfy-theme1 #successAnimation.animated #successAnimationCircle {
+  animation: 1s cubic-bezier(0.77, 0, 0.175, 1) 0s 1 both drawCircle, 0.3s linear 0.9s 1 both fadeOut;
+}
+.hfy-theme1 #successAnimation.animated #successAnimationCheck {
+  animation: 1s cubic-bezier(0.77, 0, 0.175, 1) 0s 1 both drawCheck, 0.3s linear 0.9s 1 both fadeOut;
+}
+.hfy-theme1 #successAnimation.animated #successAnimationResult {
+  animation: 0.3s linear 0.9s both fadeIn;
+}
+.hfy-theme1 .countdown {
+  display: inline-flex;
+  padding: 5px;
+  align-items: center;
+}
+.hfy-theme1 .countdown .v {
+  font-size: 45px;
+  text-align: center;
+}
+.hfy-theme1 .countdown .v span {
+  display: block;
+  font-size: 12px;
+  color: #888;
+  text-align: center;
+  text-transform: uppercase;
+}
+.hfy-theme1 .countdown .s {
+  margin: 8px;
+}
+.hfy-theme1 .btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.hfy-theme1 .btn.no-round {
+  border-radius: 0;
+}
+.hfy-theme1 .btn.btn-default {
+  background: #fff;
+  color: #1b1e21;
+}
+.hfy-theme1 .btn.btn-primary {
+  white-space: nowrap;
+}
+.hfy-theme1 .btn.btn-book-now {
+  background: #DB2630;
+  border-radius: 2px;
+  color: #fff;
+}
+.hfy-theme1 .hfy-listing-booking-form .or {
+  margin-top: 10px;
+  display: flex;
+}
+.hfy-theme1 .hfy-listing-booking-form .or > hr {
+  flex-grow: 1;
+}
+.hfy-theme1 .hfy-listing-booking-form .or > div {
+  height: 32px;
+  line-height: 32px;
+  padding: 0 8px;
+  margin: 0 0 10px;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+.hfy-theme1 .hfy-listing-booking-form .guests-input {
+  text-align: center;
+  white-space: nowrap;
+  height: auto;
+  padding: 0 0.75rem;
+}
+.hfy-theme1 .hfy-listing-booking-form .guests-input input {
+  padding: 0;
+  border: 0;
+  font-size: inherit;
+  width: 32px;
+  text-align: center;
+  display: inline-block;
+  min-height: 40px;
+  pointer-events: none;
+  background-color: transparent;
+}
+.hfy-theme1 .hfy-listing-booking-form .guests-input .guests-input-label {
+  flex: 1;
+  text-align: left;
+  line-height: 40px;
+}
+.hfy-theme1 .hfy-listing-booking-form .guests-input .first {
+  left: 10px;
+  right: unset;
+}
+.hfy-theme1 .hfy-listing-booking-form .guests-input .last {
+  right: 10px;
+  left: unset;
+}
+.hfy-theme1 .hfy-listing-booking-form .ico-guest {
+  padding-left: 38px;
+  background: 5px center no-repeat url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M15.8333 6.51819C15.8333 9.27539 13.9948 11.2682 12 11.2682C10.0051 11.2682 8.16663 9.27539 8.16663 6.51819C8.16663 3.76099 10.0051 1.76819 12 1.76819C13.9948 1.76819 15.8333 3.76099 15.8333 6.51819Z' stroke='%23B5BBC2' stroke-width='1.5'/%3E%3Cpath d='M1.77702 21.8689C2.02027 18.5046 3.88714 15.5896 6.6007 13.9045C8.0111 15.4563 9.89686 16.4348 12 16.4348C14.1031 16.4348 15.9889 15.4563 17.3993 13.9045C20.1129 15.5896 21.9797 18.5046 22.223 21.8689H1.77702Z' stroke='%23B5BBC2' stroke-width='1.5'/%3E%3C/svg%3E");
+}
+.hfy-theme1 .hfy-listing-booking-form .calentim-dates {
+  background-color: initial;
+}
+.hfy-theme1 .hfy-listing-booking-form .calentim-dates,
+.hfy-theme1 .hfy-listing-booking-form .calentim-start,
+.hfy-theme1 .hfy-listing-booking-form .calentim-end {
+  cursor: pointer;
+}
+.hfy-theme1 .hfy-listing-booking-form .calentim-start,
+.hfy-theme1 .hfy-listing-booking-form .calentim-end {
+  background-color: transparent;
+}
+.hfy-theme1 .input-theme1 {
+  display: block;
+}
+.hfy-theme1 .number-input {
+  display: flex;
+  flex-wrap: nowrap;
+  border: 1px solid #ddd;
+  height: 40px;
+}
+.hfy-theme1 .number-input input {
+  border: 0;
+  display: inline-block;
+  padding: 0;
+  text-align: center;
+  align-self: center;
+  pointer-events: none;
+  outline: none !important;
+  box-shadow: none !important;
+  background: transparent !important;
+}
+.hfy-theme1 .number-input a {
+  display: inline-block;
+  width: 35px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  cursor: pointer;
+}
+.hfy-theme1 .number-input svg {
+  height: 100%;
+  vertical-align: unset;
+}
+.hfy-theme1 .noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.hfy-theme1 .section.grey {
+  background: #F8F8F8;
+}
+.hfy-theme1 .section.img {
+  background: fixed center;
+  background-size: cover;
+  position: relative;
+}
+.hfy-theme1 .section.img .container {
+  z-index: 20;
+  position: relative;
+}
+.hfy-theme1 .section.img:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.5);
+  z-index: 1;
+}
+.hfy-theme1 .section.sm {
+  padding: 16px 0;
+}
+.hfy-theme1 .section.page-top-bar {
+  padding: 16px 0;
+  border-bottom: 1px solid #EBEDED;
+}
+.hfy-theme1 .list-card {
+  width: 100%;
+  margin: 16px 0;
+  display: inline-block;
+  cursor: pointer;
+}
+.hfy-theme1 .list-card .img {
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.06);
+  overflow: hidden;
+  border-radius: 3px;
+  background: #D8D8D8;
+  display: block;
+  height: 200px;
+  margin-bottom: 8px;
+  position: relative;
+}
+.hfy-theme1 .list-card .img img {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 200px;
+}
+.hfy-theme1 .list-card .info {
+  margin: 8px 0;
+}
+.hfy-theme1 .list-card .info .title {
+  font-size: 18px;
+  font-weight: 600;
+}
+.hfy-theme1 .list-card .info .title .prefix,
+.hfy-theme1 .list-card .info .title .suffix {
+  font-weight: normal;
+  opacity: 0.6;
+}
+.hfy-theme1 .list-card .info .description {
+  font-size: 14px;
+  color: #70707a;
+}
+.hfy-theme1 .travel-photos-list-card {
+  width: 100%;
+  margin: 16px 0;
+  display: inline-block;
+}
+.hfy-theme1 .travel-photos-list-card .img {
+  box-shadow: 0 8px 8px rgba(0, 0, 0, 0.06);
+  overflow: hidden;
+  background: #D8D8D8;
+  display: block;
+  height: 200px;
+  margin-bottom: 8px;
+}
+.hfy-theme1 .travel-photos-list-card .img img {
+  object-fit: cover;
+  object-position: center;
+  width: 100%;
+  height: 200px;
+}
+.hfy-theme1 .widget {
+  margin: 0 0 32px;
+  background: #fff;
+}
+.hfy-theme1 .widget.w600 {
+  max-width: 600px;
+}
+.hfy-theme1 .widget.sm .header {
+  padding: 16px 16px;
+}
+.hfy-theme1 .widget.sm .body {
+  padding: 16px 16px;
+}
+.hfy-theme1 .widget .header {
+  padding: 16px 32px;
+}
+.hfy-theme1 .widget .header .title {
+  font-size: 18px;
+  font-weight: 600;
+}
+.hfy-theme1 .widget .body {
+  padding: 16px 32px;
+}
+.hfy-theme1 .sidebar-widget {
+  margin: 8px 0;
+}
+.hfy-theme1 .sidebar-widget .title {
+  font-size: 16px;
+  color: #35454D;
+  font-weight: 500;
+  margin-bottom: 8px;
+  margin-top: 16px;
+}
+.hfy-theme1 .sidebar-widget .list-items {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.hfy-theme1 .sidebar-widget .list-items .list-items-item {
+  display: flex;
+  align-items: center;
+}
+.hfy-theme1 .sidebar-widget .list-items .list-items-item .info {
+  display: flex;
+  flex-direction: column;
+}
+.hfy-theme1 .sidebar-widget .list-items .list-items-item .info .title {
+  font-size: 11px;
+  max-width: 130px;
+  margin: 0;
+}
+.hfy-theme1 .sidebar-widget .list-items .list-items-item img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  object-position: center;
+}
+.hfy-theme1 .sidebar-widget .list-items .list-items-item i {
+  margin-right: 8px;
+}
+.hfy-theme1 .i-check {
+  width: 20px;
+  height: 20px;
+  line-height: 18px;
+  top: 2px;
+}
+.hfy-theme1 .modal-backdrop.show {
+  opacity: 0.7;
+}
+.hfy-theme1 .modal {
+  border: 0;
+  border-radius: 0;
+}
+.hfy-theme1 .breadcrumb {
+  background: transparent;
+  padding: 0;
+}
+.hfy-theme1 .blog-card {
+  margin: 16px 0;
+  cursor: pointer;
+}
+.hfy-theme1 .blog-card .post-img {
+  width: 100%;
+  height: 200px;
+  margin-bottom: 16px;
+}
+.hfy-theme1 .blog-card .post-img img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+}
+.hfy-theme1 .blog-card .post-title {
+  margin-bottom: 8px;
+}
+.hfy-theme1 .blog-card .post-info {
+  display: flex;
+  align-items: center;
+  font-size: 11px;
+}
+.hfy-theme1 .blog-card .post-info .post-date {
+  flex: 0.5;
+}
+.hfy-theme1 .blog-card .post-info .post-number-of-comments {
+  flex: 0.5;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.hfy-theme1 .blog-card .post-info .post-number-of-comments .comment-icon {
+  width: 14px;
+  height: 14px;
+  opacity: 0.7;
+  background-size: contain;
+  margin-right: 8px;
+}
+.hfy-theme1 .hfy-reviews-comments .reviews-comments-list.horiz {
+  display: flex;
+  flex-direction: row;
+}
+.hfy-theme1 .hfy-reviews-comments .reviews-comments-item {
+  margin: 0 10px 10px 0;
+  padding: 16px;
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: row;
+}
+.hfy-theme1 .hfy-reviews-comments .reviews-comments-item .comment-author {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  margin-right: 20px;
+  background-color: #eee;
+}
+.hfy-theme1 .hfy-reviews-comments .reviews-comments-item .comment-body {
+  flex: 1;
+}
+.hfy-theme1 .hfy-reviews-comments .reviews-comments-item .comment-body p {
+  margin: 10px 0 0 0;
+}
+.hfy-theme1 .hfy-reviews-comments .reviews-comments-item .comment-body h5 {
+  margin: 0 0 10px 0;
+}
+.hfy-theme1 .hfy-reviews-comments .reviews-comments-item .comment-body .comment-content {
+  font-size: 14px;
+}
+.hfy-theme1 .hfy-reviews-comments .reviews-comments-item .comment-body .comment-like-btn {
+  color: #DB2630;
+}
+.hfy-theme1 .hfy-listing-reviews-stars .rating-number,
+.hfy-theme1 .hfy-reviews-summary .rating-number {
+  width: 106px;
+  font-size: 56px;
+  font-weight: 200;
+  line-height: 50px;
+  text-align: center;
+}
+.hfy-theme1 .hfy-listing-reviews-stars .desc-wrap,
+.hfy-theme1 .hfy-reviews-summary .desc-wrap {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18px;
+  color: #454647;
+  margin-top: 7px;
+}
+.hfy-theme1 .hfy-listing-reviews-stars .desc,
+.hfy-theme1 .hfy-reviews-summary .desc {
+  display: table-cell;
+  vertical-align: top;
+}
+.hfy-theme1 .hfy-listing-reviews-stars .desc > div,
+.hfy-theme1 .hfy-reviews-summary .desc > div {
+  margin-bottom: 7px;
+}
+.hfy-theme1 .hfy-listing-reviews-stars .stars-main > span,
+.hfy-theme1 .hfy-reviews-summary .stars-main > span {
+  position: relative;
+  width: 96px;
+  height: 16px;
+  display: inline-table;
+  position: relative;
+  top: 3px;
+}
+.hfy-theme1 .hfy-listing-reviews-stars .stars-main > span > span,
+.hfy-theme1 .hfy-reviews-summary .stars-main > span > span {
+  height: 20px;
+  float: left;
+  position: absolute;
+  left: 0;
+  overflow: hidden;
+}
+.hfy-theme1 .hfy-listing-reviews-stars .stars,
+.hfy-theme1 .hfy-reviews-summary .stars {
+  display: table-cell;
+  vertical-align: top;
+  padding-left: 20px;
+}
+.hfy-theme1 .hfy-listing-reviews-stars .stars > div,
+.hfy-theme1 .hfy-reviews-summary .stars > div {
+  margin-bottom: 7px;
+}
+.hfy-theme1 .hfy-listing-reviews-stars .stars > div > span,
+.hfy-theme1 .hfy-reviews-summary .stars > div > span {
+  position: relative;
+  width: 96px;
+  height: 16px;
+  display: inline-table;
+  position: relative;
+  top: 3px;
+}
+.hfy-theme1 .hfy-listing-reviews-stars .stars > div > span > span,
+.hfy-theme1 .hfy-reviews-summary .stars > div > span > span {
+  height: 20px;
+  float: left;
+  position: absolute;
+  left: 0;
+  overflow: hidden;
+}
+.hfy-theme1 .booking-history {
+  width: 100%;
+  padding-left: 24px;
+  margin-bottom: 24px;
+  border-left: 2px solid #EBEDED;
+  position: relative;
+}
+.hfy-theme1 .booking-history .booking-history-list-card {
+  position: relative;
+  padding: 16px;
+  border-radius: 4px;
+  margin: 8px 0;
+  display: flex;
+  align-items: start;
+  transition: all ease 250ms;
+  cursor: pointer;
+}
+.hfy-theme1 .booking-history .booking-history-list-card .details-info {
+  flex: 1;
+}
+.hfy-theme1 .booking-history .booking-history-list-card .details-info .cost {
+  font-size: 30px;
+}
+.hfy-theme1 .booking-history .booking-history-list-card .details-info .cost .small {
+  font-size: 11px;
+}
+.hfy-theme1 .booking-history .booking-history-list-card .details-info .location {
+  font-size: 11px;
+}
+.hfy-theme1 .booking-history .booking-history-list-card .details-info .title {
+  font-size: 18px;
+}
+.hfy-theme1 .booking-history .booking-history-list-card .type-text {
+  text-transform: uppercase;
+  font-size: 10px;
+  font-weight: 600;
+}
+.hfy-theme1 .booking-history .booking-history-list-card:before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background: #00A1F3;
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+  left: -31px;
+  top: 50%;
+  margin-top: -5px;
+}
+.hfy-theme1 .booking-history .booking-history-list-card.hotel:before {
+  background: #00A1F3;
+}
+.hfy-theme1 .booking-history .booking-history-list-card.hotel .type-text {
+  color: #00A1F3;
+}
+.hfy-theme1 .booking-history .booking-history-list-card.hotel:hover {
+  background: rgba(0, 161, 243, 0.2);
+}
+.hfy-theme1 .booking-history .booking-history-list-card.flight:before {
+  background: #FFBB00;
+}
+.hfy-theme1 .booking-history .booking-history-list-card.flight .type-text {
+  color: #FFBB00;
+}
+.hfy-theme1 .booking-history .booking-history-list-card.flight:hover {
+  background: rgba(255, 187, 0, 0.2);
+}
+.hfy-theme1 .booking-history .booking-history-list-card.experince:before {
+  background: #DB2630;
+}
+.hfy-theme1 .booking-history .booking-history-list-card.experince .type-text {
+  color: #DB2630;
+}
+.hfy-theme1 .booking-history .booking-history-list-card.experince:hover {
+  background: rgba(219, 38, 48, 0.2);
+}
+.hfy-theme1 .hfy-listing-hotel-facilities > div {
+  display: inline-block;
+  padding: 4px 16px;
+  margin: 6px 6px 0 0;
+  border-radius: 4px;
+  transition: all ease 0.25;
+  border: 1px solid #EBEDED;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  /*cursor: pointer;*/
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.hfy-theme1 .hfy-listing-hotel-facilities > div img {
+  margin: 0 10px 0 0;
+  height: 30px;
+  width: 30px;
+  object-fit: contain;
+}
+.hfy-theme1 .hfy-listing-hotel-facilities > div:hover {
+  /*background: rgba(235, 237, 237, 0.7);*/
+}
+.hfy-theme1 .hfy-listing-hotel-facilities > div i {
+  margin-right: 8px;
+}
+.hfy-theme1 .hotel-list-card {
+  background: #fff;
+  margin: 24px 0;
+  border: 1px solid #EBEDED;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  transition: all ease 250ms;
+}
+.hfy-theme1 .hotel-list-card:hover {
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1);
+}
+.hfy-theme1 .hotel-list-card:nth-child(1) {
+  margin-top: 0;
+}
+.hfy-theme1 .hotel-list-card .hotle-cover-img-box {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.hfy-theme1 .hotel-list-card .hotle-cover-img-box .wish-btn {
+  position: absolute;
+  right: 16px;
+  top: 16px;
+  cursor: pointer;
+}
+.hfy-theme1 .hotel-list-card .hotle-cover-img-box .wish-btn.check i {
+  color: #DB2630;
+  opacity: 1;
+}
+.hfy-theme1 .hotel-list-card .hotle-cover-img-box .wish-btn i {
+  pointer-events: none;
+  font-size: 25px;
+  opacity: 0.6;
+  color: black;
+  text-shadow: 0 2px #fff, 2px 0 #fff, -2px 0 #fff, 0 -2px #fff;
+}
+.hfy-theme1 .hotel-list-card .hotle-cover-img-box .hotel-cover-img {
+  width: 100%;
+  height: 100%;
+  min-height: 187px;
+  margin: 0;
+  object-fit: cover;
+  object-position: center;
+  padding: 0;
+}
+.hfy-theme1 .hotel-list-card .hotel-location {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  color: #888;
+  margin: 8px 0;
+}
+.hfy-theme1 .hotel-list-card .hotel-description {
+  font-size: 12px;
+  margin: 8px 0;
+}
+.hfy-theme1 .edit-profile-img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.hfy-theme1 .edit-profile-img .profile-img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  object-position: center;
+}
+.hfy-theme1 .profile-user-profile-img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.hfy-theme1 .profile-user-profile-img img {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  object-position: center;
+}
+.hfy-theme1 .review-star-rate {
+  display: flex;
+  color: rgba(0, 0, 0, 0.1);
+}
+.hfy-theme1 .review-star-rate .rate.full i {
+  color: #FFBB00;
+}
+.hfy-theme1 .review-star-rate.md .rate i {
+  font-size: 16px;
+}
+.hfy-theme1 .review-star-rate.small .rate i {
+  font-size: 12px;
+}
+.hfy-theme1 .faq-list .faq-section-title {
+  font-size: 24px;
+  margin: 16px 0;
+  font-weight: 600;
+}
+.hfy-theme1 .faq-list .card {
+  border-radius: 0;
+  border: 1px solid #EBEDED;
+  margin: 8px 0;
+}
+.hfy-theme1 .faq-list .card .card-header {
+  background: #f4f4f4;
+  border-radius: 0;
+  border: 0;
+}
+.hfy-theme1 footer {
+  padding: 80px 0 10px 0;
+  background: #fff;
+  color: #484848;
+  /*border-top: 1px solid #EBEDED;*/
+}
+.hfy-theme1 footer p {
+  font-size: 14px;
+}
+.hfy-theme1 footer .hr {
+  padding: 10px 0 30px 0;
+  background: #fff;
+  color: #484848;
+  border-top: 1px solid #EBEDED;
+}
+.hfy-theme1 footer .footer-title {
+  font-weight: 500;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+.hfy-theme1 footer .footer-nav {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.hfy-theme1 footer .footer-nav .footer-nav-item {
+  padding: 0;
+  margin-bottom: 8px;
+}
+.hfy-theme1 footer .footer-nav .footer-nav-item a.footer-link {
+  color: #484848;
+}
+.hfy-theme1 footer .footer-download-app .title {
+  font-size: 14px;
+}
+.hfy-theme1 footer .footer-download-app .stores {
+  display: flex;
+}
+.hfy-theme1 footer .footer-download-app .stores .store {
+  margin: 8px;
+}
+.hfy-theme1 footer .footer-download-app .stores .store:nth-child(1) {
+  margin-left: 0;
+}
+.hfy-theme1 footer .footer-payment-methods .title {
+  font-size: 14px;
+}
+.hfy-theme1 footer .footer-payment-methods .payments {
+  display: flex;
+}
+.hfy-theme1 footer .footer-payment-methods .payments .payment {
+  margin: 8px;
+}
+.hfy-theme1 footer .footer-payment-methods .payments .payment:nth-child(1) {
+  margin-left: 0;
+}
+.hfy-theme1 footer .social-network {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.hfy-theme1 footer .social-network li {
+  padding: 4px;
+}
+.hfy-theme1 footer .social-network li a {
+  color: rgba(72, 72, 72, 0.6);
+}
+.hfy-theme1 footer .social-network li a i {
+  font-size: 23px;
+}
+.hfy-theme1 p.help-block.help-block-error {
+  color: red;
+  /*color: #fff;*/
+  text-align: left;
+  font-size: 12px;
+}
+.hfy-theme1 .hfy-listings-map-toggle, .hfy-theme1 .hfy-listings-map-toggle * {
+  vertical-align: middle;
+  cursor: pointer;
+  user-select: none;
+}
+.hfy-theme1 .hfy-listings-map-toggle.hfy-ctrl-show-map .hfy-lmt-show {
+  display: inline-block;
+}
+.hfy-theme1 .hfy-listings-map-toggle.hfy-ctrl-show-map .hfy-lmt-hide {
+  display: none;
+}
+.hfy-theme1 .hfy-listings-map-toggle.hfy-ctrl-hide-map .hfy-lmt-show {
+  display: none;
+}
+.hfy-theme1 .hfy-listings-map-toggle.hfy-ctrl-hide-map .hfy-lmt-hide {
+  display: inline-block;
+}
+.hfy-theme1 .hfy-map-wrapper {
+  position: relative;
+}
+.hfy-theme1 .hfy-map-wrapper.floating {
+  position: fixed;
+  bottom: 10px;
+}
+.hfy-theme1 .hfy-map-wrapper .hfy-map-close-btn {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  padding: 8px;
+  user-select: none;
+  border-radius: 2px;
+  cursor: pointer;
+  background-color: #fff;
+  box-shadow: 0 1px 4px -1px rgba(0, 0, 0, 0.3);
+}
+.hfy-theme1 .hfy-map-wrapper .hfy-map-close-btn svg {
+  vertical-align: top;
+}
+.hfy-theme1 .booking-price-block input {
+  margin: 0;
+}
+.hfy-theme1 .booking-price-block .discount-code-wrap {
+  margin: 15px 0 0 0;
+}
+.hfy-theme1 .booking-price-block .discount-code-wrap label {
+  font-weight: normal;
+}
+.hfy-theme1 .booking-price-block .discount-code-wrap .discount_code_cb {
+  float: left;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 12px;
+}
+.hfy-theme1 .booking-price-block .discount-code-wrap .input_wrap {
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: stretch;
+}
+.hfy-theme1 .booking-price-block .discount-code-wrap .input_wrap input[name=discount_code] {
+  flex: 1;
+}
+.hfy-theme1 .booking-price-block .discount-code-wrap .discount_code_check {
+  display: block;
+  margin-left: 1px;
+  border-radius: 2px;
+  border: 0;
+  line-height: 100%;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.hfy-theme1 .color-red {
+  color: red;
+}
+.hfy-theme1 .booking-price-block .direct-inquiry-modal-open {
+  cursor: pointer;
+  border-radius: 2px;
+  color: rgb(69, 70, 71);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  padding: 14px 32px;
+  background-color: rgb(228, 229, 230);
+  width: 100%;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.hfy-theme1 i.fa.fa-refresh:before {
+  content: "\f021";
+}
+.hfy-theme1 .hfy-search-form-row-advanced > div,
+.hfy-theme1 .hfy-search-form-row {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin: 0 0 0 -5px;
+}
+.hfy-theme1 .hfy-search-form-row-advanced > div input,
+.hfy-theme1 .hfy-search-form-row-advanced > div select,
+.hfy-theme1 .hfy-search-form-row input,
+.hfy-theme1 .hfy-search-form-row select {
+  margin: 0;
+}
+.hfy-theme1 .hfy-search-form-row-advanced > div > ._col,
+.hfy-theme1 .hfy-search-form-row > ._col {
+  margin: 0 5px;
+  position: relative;
+}
+.hfy-theme1 .hfy-search-form-row-advanced > div .form-group,
+.hfy-theme1 .hfy-search-form-row .form-group {
+  margin: 0;
+}
+.hfy-theme1 .hfy-search-form-row-advanced > div .form-control:disabled,
+.hfy-theme1 .hfy-search-form-row-advanced > div .form-control[readonly],
+.hfy-theme1 .hfy-search-form-row .form-control:disabled,
+.hfy-theme1 .hfy-search-form-row .form-control[readonly] {
+  background-color: #fff;
+  opacity: 1;
+}
+.hfy-theme1 .hfy-search-form-row-advanced > div select,
+.hfy-theme1 .hfy-search-form-row select {
+  height: 40px;
+  padding: 0 14px 0 8px;
+  border-radius: 2px;
+  -webkit-appearance: none;
+  background-position: calc(100% - 4px) 50%;
+  background-repeat: no-repeat;
+  background-size: 5px 11px;
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAsAAAAWCAYAAAAW5GZjAAAMHmlDQ1BEaXNwbGF5AABIx62Xd1RTyRrA55YkJCS0QASkhN4E6VV6jVSpgo2QBBJKDAlBxI4uKrgWVCxYkVUR21oAWWzYlUWw90URFGVdLNhAeZME0NXz/njnvDln7v3lm2++lrlzZgBQjWGLRNmoGgA5wjxxbGgAc2JyCpP0BBCBGiADXaDK5khE/jExEQC24fe/2/tbAJG9r9vKbIH/ralzeRIOAEgM5DSuhJMD+QgAuCtHJM4DgNAD5SYz8kSQiTBKoCmGAUI2lXGGgt1lnKbgCLlOfGwg5FQAlKhstjgDABVZXMx8Tga0o7IMsr2QKxBCboTsw+GzuZAHII/JyZkOWdUSsmXad3Yy/mUzbcQmm50xwopc5E0pSCARZbNngv93y8mWDvswgZ3KF4fFynKW1S1reriMqZAvCtOioiFrQL4h4Mr1ZdzFl4YlDOl/5EgCYc0AAwCUymUHhUPWg2wszI6KGJL7pAtCWJBh7dF4QR4rXjEX5Yqnxw7ZRwt4kuC4YWaL5b5kOiXSrAT/IZtb+DzWsM2GQn58kiJOtDVfkBgFWQXyA0lWXPiQzotCfmDUsI5YGiuLGf7nGEgXh8QqdDDTHMlwXpgnX8CKGuKIPH58mGIuNpXDlsemDTmTJ5kYMRwnlxcUrMgLK+IJE4bix8pEeQGxQ/pVouyYIX2skZcdKpMbQ26R5McNz+3Ng4tNkS8ORHkx8YrYcM1M9vgYRQy4NYgAgSAIMIEU9jQwHWQCQUtPXQ/8pRgJAWwgBhmAB2yHJMMzkuQjQviMA4Xgb0g8IBmZFyAf5YF8KP8yIlU8bUG6fDRfPiMLdEHOAeEgG/6WymcJR7wlgqdQIvjJOwfGmg27bOwnGVN1WEYMJgYRw4ghRCtcF/fBvfAI+PSD3RF3xz2G4/qmT+gitBGeEG4S2gl3pwmKxD9EzgSRoB3GGDKUXdr32eHm0KoLHoB7Q/vQNs7AdYEt7gw9+eO+0LcLlH4fq3Qk42+1HLJFtiej5FFkP7LljxGoWKu4jFiRVer7WijiShupVuDIyI95BH5XPy58h/+oiS3BDmMXsNPYJawRqwNM7CRWjzVjx2U8sjaeytfGsLdYeTxZ0I7gJ3/sIZ+yqknsa+y77QeGxkAeryBP9rEEThfNFAsy+HlMf7hb85gsIcduDNPR3gHuorK9X7G1vGXI93SEcfmbLPcUAB4lUJjxTcaGe9CxLgDo77/JTN7AZb8SgOOtHKk4XyHDZQ8CoABV+KXoAAO4d1nCjByBK/ACfiAYjAfRIB4kg6mwzny4TsVgBpgNFoBiUApWgrVgI9gKdoDdYB84BOpAIzgNzoMroBXcBPfhWukEL0EveA/6EQQhITSEjugghogZYoM4Iu6IDxKMRCCxSDKSimQgQkSKzEYWIqVIGbIR2Y5UI78jx5DTyCWkDbmLPEa6kTfIZxRDqagmqo+ao2NRd9QfDUfj0SloBpqLFqKL0OXoerQS3YvWoqfRK+hNtB19ifZhAFPGGJgRZou5Y4FYNJaCpWNibC5WgpVjldh+rAH+09exdqwH+4QTcTrOxG3heg3DE3AOnovPxZfhG/HdeC1+Fr+OP8Z78a8EGkGPYEPwJLAIEwkZhBmEYkI5YSfhKOEc/HY6Ce+JRCKDaEF0g99eMjGTOIu4jLiZeIB4ithG7CD2kUgkHZINyZsUTWKT8kjFpA2kvaSTpGukTtJHJWUlQyVHpRClFCWhUpFSudIepRNK15SeKfWT1chmZE9yNJlLnkleQa4iN5CvkjvJ/RR1igXFmxJPyaQsoKyn7KecozygvFVWVjZW9lCeoCxQnq+8Xvmg8kXlx8qfqBpUa2ogdTJVSl1O3UU9Rb1LfUuj0cxpfrQUWh5tOa2adob2iPZRha5ip8JS4arMU6lQqVW5pvJKlaxqpuqvOlW1ULVc9bDqVdUeNbKauVqgGlttrlqF2jG122p96nR1B/Vo9Rz1Zep71C+pP9cgaZhrBGtwNRZp7NA4o9FBx+gm9EA6h76QXkU/R+/UJGpaaLI0MzVLNfdptmj2amloOWslahVoVWgd12pnYAxzBouRzVjBOMS4xfg8Sn+U/yjeqKWj9o+6NuqD9mhtP22edon2Ae2b2p91mDrBOlk6q3TqdB7q4rrWuhN0Z+hu0T2n2zNac7TXaM7oktGHRt/TQ/Ws9WL1Zunt0GvW69M30A/VF+lv0D+j32PAMPAzyDRYY3DCoNuQbuhjKDBcY3jS8AVTi+nPzGauZ55l9hrpGYUZSY22G7UY9RtbGCcYFxkfMH5oQjFxN0k3WWPSZNJramgaaTrbtMb0nhnZzN2Mb7bO7ILZB3ML8yTzxeZ15s8ttC1YFoUWNRYPLGmWvpa5lpWWN6yIVu5WWVabrVqtUWsXa751hfVVG9TG1UZgs9mmbQxhjMcY4ZjKMbdtqbb+tvm2NbaP7Rh2EXZFdnV2r8aajk0Zu2rshbFf7V3ss+2r7O87aDiMdyhyaHB442jtyHGscLzhRHMKcZrnVO/02tnGmee8xfmOC90l0mWxS5PLF1c3V7HrftduN1O3VLdNbrfdNd1j3Je5X/QgeAR4zPNo9Pjk6eqZ53nI8x8vW68srz1ez8dZjOONqxrX4W3szfbe7t3uw/RJ9dnm0+5r5Mv2rfR94mfix/Xb6ffM38o/03+v/6sA+wBxwNGAD4GegXMCTwVhQaFBJUEtwRrBCcEbgx+FGIdkhNSE9Ia6hM4KPRVGCAsPWxV2m6XP4rCqWb3j3cbPGX82nBoeF74x/EmEdYQ4oiESjRwfuTryQZRZlDCqLhpEs6JXRz+MsYjJjfljAnFCzISKCV2xDrGzYy/E0eOmxe2Jex8fEL8i/n6CZYI0oSlRNXFyYnXih6SgpLKk9oljJ86ZeCVZN1mQXJ9CSklM2ZnSNyl40tpJnZNdJhdPvjXFYkrBlEtTdadmTz0+TXUae9rhVEJqUuqe1AF2NLuS3ZfGStuU1ssJ5KzjvOT6cddwu3nevDLes3Tv9LL05xneGaszuvm+/HJ+jyBQsFHwOjMsc2vmh6zorF1Zg9lJ2QdylHJSc44JNYRZwrPTDaYXTG8T2YiKRe25nrlrc3vF4eKdEkQyRVKfpwkP2c1SS+kv0sf5PvkV+R9nJM44XKBeICxonmk9c+nMZ4Uhhb/NwmdxZjXNNpq9YPbjOf5zts9F5qbNbZpnMm/RvM75ofN3L6AsyFrwZ5F9UVnRu4VJCxsW6S+av6jjl9BfaopVisXFtxd7Ld66BF8iWNKy1GnphqVfS7gll0vtS8tLB5Zxll3+1eHX9b8OLk9f3rLCdcWWlcSVwpW3Vvmu2l2mXlZY1rE6cnXtGuaakjXv1k5be6ncuXzrOso66br29RHr6zeYbli5YWAjf+PNioCKA5v0Ni3d9GEzd/O1LX5b9m/V31q69fM2wbY720O311aaV5bvIO7I39FVlVh14Tf336p36u4s3flll3BX++7Y3Wer3aqr9+jtWVGD1khruvdO3tu6L2hf/X7b/dsPMA6UHgQHpQdf/J76+61D4YeaDrsf3n/E7Mimo/SjJbVI7cza3jp+XXt9cn3bsfHHmhq8Go7+YffHrkajxorjWsdXnKCcWHRi8GThyb5TolM9pzNOdzRNa7p/ZuKZG2cnnG05F37u4vmQ82cu+F84edH7YuMlz0vHLrtfrrvieqW22aX56J8ufx5tcW2pvep2tb7Vo7WhbVzbiWu+105fD7p+/gbrxpWbUTfbbiXcunN78u32O9w7z+9m3319L/9e//35DwgPSh6qPSx/pPeo8i+rvw60u7Yffxz0uPlJ3JP7HZyOl08lTwc6F3XRusqfGT6rfu74vLE7pLv1xaQXnS9FL/t7iv9W/3vTK8tXR/7x+6e5d2Jv52vx68E3y97qvN31zvldU19M36P3Oe/7P5R81Pm4+5P7pwufkz4/658xQBpY/8XqS8PX8K8PBnMGB0VsMVt+FMBgR9PTAXizCwBaMjw7tAJAmaS4m8kborhPygn8N1bc3+TNFYBdfgAkzAcgAp5RtsBuBpkK37IjeLwfQJ2cRvpQk6Q7OSpsUeGNhfBxcPCtPgCkBgC+iAcH+zcPDn6pgsHeBeBUruJOKGuyO+g2Oxm1dr766W72H1oCcSjh6sMlAAAACXBIWXMAABYlAAAWJQFJUiTwAAAF9mlUWHRYTUw6Y29tLmFkb2JlLnhtcAAAAAAAPD94cGFja2V0IGJlZ2luPSLvu78iIGlkPSJXNU0wTXBDZWhpSHpyZVN6TlRjemtjOWQiPz4gPHg6eG1wbWV0YSB4bWxuczp4PSJhZG9iZTpuczptZXRhLyIgeDp4bXB0az0iQWRvYmUgWE1QIENvcmUgNS42LWMxNDAgNzkuMTYwNDUxLCAyMDE3LzA1LzA2LTAxOjA4OjIxICAgICAgICAiPiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPiA8cmRmOkRlc2NyaXB0aW9uIHJkZjphYm91dD0iIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtbG5zOmRjPSJodHRwOi8vcHVybC5vcmcvZGMvZWxlbWVudHMvMS4xLyIgeG1sbnM6cGhvdG9zaG9wPSJodHRwOi8vbnMuYWRvYmUuY29tL3Bob3Rvc2hvcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RFdnQ9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZUV2ZW50IyIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ0MgMjAxOCAoTWFjaW50b3NoKSIgeG1wOkNyZWF0ZURhdGU9IjIwMTgtMDctMjdUMDc6NTY6NDctMDc6MDAiIHhtcDpNb2RpZnlEYXRlPSIyMDE4LTA3LTI3VDA3OjU5OjA4LTA3OjAwIiB4bXA6TWV0YWRhdGFEYXRlPSIyMDE4LTA3LTI3VDA3OjU5OjA4LTA3OjAwIiBkYzpmb3JtYXQ9ImltYWdlL3BuZyIgcGhvdG9zaG9wOkNvbG9yTW9kZT0iMyIgcGhvdG9zaG9wOklDQ1Byb2ZpbGU9IkRpc3BsYXkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OWVmMTg3ZTUtMWVmNy00NzlhLWE1Y2QtMmVkMTE5NjQ2Y2ZmIiB4bXBNTTpEb2N1bWVudElEPSJhZG9iZTpkb2NpZDpwaG90b3Nob3A6MTRmNTk5YTMtYTc1Zi05NDQxLTk3ZDQtMmY3OTNjNWQ3NTI3IiB4bXBNTTpPcmlnaW5hbERvY3VtZW50SUQ9InhtcC5kaWQ6M2FmYmY3ZWYtNWFiOS00MTk4LWFjODUtNzY2NzE2NDk2ODM1Ij4gPHhtcE1NOkhpc3Rvcnk+IDxyZGY6U2VxPiA8cmRmOmxpIHN0RXZ0OmFjdGlvbj0iY3JlYXRlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDozYWZiZjdlZi01YWI5LTQxOTgtYWM4NS03NjY3MTY0OTY4MzUiIHN0RXZ0OndoZW49IjIwMTgtMDctMjdUMDc6NTY6NDctMDc6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCBDQyAyMDE4IChNYWNpbnRvc2gpIi8+IDxyZGY6bGkgc3RFdnQ6YWN0aW9uPSJzYXZlZCIgc3RFdnQ6aW5zdGFuY2VJRD0ieG1wLmlpZDo5ZWYxODdlNS0xZWY3LTQ3OWEtYTVjZC0yZWQxMTk2NDZjZmYiIHN0RXZ0OndoZW49IjIwMTgtMDctMjdUMDc6NTk6MDgtMDc6MDAiIHN0RXZ0OnNvZnR3YXJlQWdlbnQ9IkFkb2JlIFBob3Rvc2hvcCBDQyAyMDE4IChNYWNpbnRvc2gpIiBzdEV2dDpjaGFuZ2VkPSIvIi8+IDwvcmRmOlNlcT4gPC94bXBNTTpIaXN0b3J5PiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pr46tjAAAACBSURBVCjPY/j//z8DOgaCVVjFsSgMB2IQIxuvYiBgBuJHUMXfgVgCn+I+qEIYXoxVMRBYoymEYX9sio/hUHz79+/fCMVAUIxDIQy3Q9UxyAPxPwKKQdgEHKZAfI4IvJ8BW+DjwoNFMUkeJCnoSIoUkqOb5IREUhIlOfGTlK0IZVgAkODRpD7i30MAAAAASUVORK5CYII=");
+}
+.hfy-theme1 .hfy-search-form-row-advanced > div .col-dates,
+.hfy-theme1 .hfy-search-form-row .col-dates {
+  width: 50%;
+}
+@media all and (max-width: 767px), all and (device-width: 768px), all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait), all and (device-width: 1024px) and (device-height: 768px) and (orientation: landscape), only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3), only screen and (device-width: 812px) and (device-height: 375px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape), only screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2), only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3), only screen and (device-width: 823px) and (device-height: 411px) {
+  .hfy-theme1 .hfy-search-form-row-advanced > div .col-dates,
+  .hfy-theme1 .hfy-search-form-row .col-dates {
+    width: 100%;
+  }
+}
+.hfy-theme1 .hfy-search-form-row-advanced > div .col-start-date input.calentim-start,
+.hfy-theme1 .hfy-search-form-row-advanced > div .col-end-date input.calentim-end,
+.hfy-theme1 .hfy-search-form-row .col-start-date input.calentim-start,
+.hfy-theme1 .hfy-search-form-row .col-end-date input.calentim-end {
+  background: calc(100% - 5px) center no-repeat url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M17 2V7' stroke='%23B5BBC2' stroke-width='1.5'/%3E%3Cpath d='M7.55566 2V7' stroke='%23B5BBC2' stroke-width='1.5'/%3E%3Crect x='2.75' y='4.97217' width='18.5' height='16.2778' rx='1.25' stroke='%23B5BBC2' stroke-width='1.5'/%3E%3Ccircle cx='12' cy='9.77774' r='0.611111' stroke='%23B5BBC2'/%3E%3Ccircle cx='16.4444' cy='9.77774' r='0.611111' stroke='%23B5BBC2'/%3E%3Ccircle cx='12' cy='13.6667' r='0.611111' stroke='%23B5BBC2'/%3E%3Ccircle cx='7.55545' cy='13.6667' r='0.611111' stroke='%23B5BBC2'/%3E%3Ccircle cx='16.4444' cy='13.6667' r='0.611111' stroke='%23B5BBC2'/%3E%3Ccircle cx='12' cy='17.5556' r='0.611111' stroke='%23B5BBC2'/%3E%3Ccircle cx='7.55545' cy='17.5556' r='0.611111' stroke='%23B5BBC2'/%3E%3Ccircle cx='16.4444' cy='17.5556' r='0.611111' stroke='%23B5BBC2'/%3E%3C/svg%3E");
+}
+.hfy-theme1 .hfy-search-form-row-advanced > div .col-guests,
+.hfy-theme1 .hfy-search-form-row .col-guests {
+  width: 140px;
+  min-width: 132px;
+}
+.hfy-theme1 .hfy-search-form-row-advanced > div .guests-input-label.ico-guest,
+.hfy-theme1 .hfy-search-form-row .guests-input-label.ico-guest {
+  padding-left: 38px;
+  background: 5px center no-repeat url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M15.8333 6.51819C15.8333 9.27539 13.9948 11.2682 12 11.2682C10.0051 11.2682 8.16663 9.27539 8.16663 6.51819C8.16663 3.76099 10.0051 1.76819 12 1.76819C13.9948 1.76819 15.8333 3.76099 15.8333 6.51819Z' stroke='%23B5BBC2' stroke-width='1.5'/%3E%3Cpath d='M1.77702 21.8689C2.02027 18.5046 3.88714 15.5896 6.6007 13.9045C8.0111 15.4563 9.89686 16.4348 12 16.4348C14.1031 16.4348 15.9889 15.4563 17.3993 13.9045C20.1129 15.5896 21.9797 18.5046 22.223 21.8689H1.77702Z' stroke='%23B5BBC2' stroke-width='1.5'/%3E%3C/svg%3E");
+}
+.hfy-theme1 .hfy-search-form-row-advanced > div .btn-close-guests-box,
+.hfy-theme1 .hfy-search-form-row .btn-close-guests-box {
+  display: none;
+}
+@media all and (max-width: 767px), all and (device-width: 768px), all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait), all and (device-width: 1024px) and (device-height: 768px) and (orientation: landscape), only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3), only screen and (device-width: 812px) and (device-height: 375px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape), only screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2), only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3), only screen and (device-width: 823px) and (device-height: 411px) {
+  .hfy-theme1 .hfy-search-form-row-advanced > div .btn-close-guests-box,
+  .hfy-theme1 .hfy-search-form-row .btn-close-guests-box {
+    display: block;
+  }
+}
+.hfy-theme1 .hfy-search-form-row-advanced > div .select-guests-item:last-child,
+.hfy-theme1 .hfy-search-form-row .select-guests-item:last-child {
+  margin-bottom: 0;
+}
+.hfy-theme1 .hfy-search-form-row-advanced {
+  margin: 20px 0 0 0;
+}
+.hfy-theme1 .hfy-search-form-row-advanced > div {
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  margin: 0 0 10px 0;
+}
+.hfy-theme1 .hfy-search-form-row-advanced > div > div {
+  width: 10%;
+  min-width: 10%;
+}
+.hfy-theme1 .hfy-search-form-row-advanced > div > div:not(:first-child) {
+  width: 90%;
+}
+@media all and (max-width: 767px), all and (device-width: 768px), all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait), all and (device-width: 1024px) and (device-height: 768px) and (orientation: landscape), only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3), only screen and (device-width: 812px) and (device-height: 375px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape), only screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2), only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3), only screen and (device-width: 823px) and (device-height: 411px) {
+  .hfy-theme1 .hfy-search-form-row-advanced > div > div {
+    width: auto;
+  }
+}
+.hfy-theme1 .hfy-search-form-row-advanced label {
+  font-weight: normal;
+}
+.hfy-theme1 .hfy-search-form-row-advanced input[type=checkbox] {
+  margin-right: 6px;
+  vertical-align: middle;
+}
+.hfy-theme1 .hfy-search-form-row-advanced .toggle-more {
+  display: flex;
+}
+.hfy-theme1 .hfy-search-form-row-advanced .toggle-more .am-container {
+  display: block;
+  white-space: normal;
+  margin-top: 5px;
+}
+.hfy-theme1 .hfy-search-form-row-advanced .toggle-more .am-container label {
+  margin-right: 10px;
+}
+.hfy-theme1 .hfy-search-form-row-advanced .toggle-more > .toggle-more-container {
+  flex: 5;
+  position: relative;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.hfy-theme1 .hfy-search-form-row-advanced .toggle-more > .toggle-more-container > * {
+  margin-right: 20px;
+}
+.hfy-theme1 .hfy-search-form-row-advanced .toggle-more > .toggle-more-container.expanded {
+  white-space: normal;
+  max-height: 250px;
+  overflow-y: auto;
+}
+.hfy-theme1 .hfy-search-form-row-advanced .toggle-more > .toggle-more-btn {
+  flex: 1;
+  text-align: right;
+  font-weight: bold;
+  cursor: pointer;
+}
+.hfy-theme1 .booking-search-input-container > select,
+.hfy-theme1 .booking-search-input-container > input {
+  cursor: pointer;
+}
+.hfy-theme1 .booking-search-input-container > i {
+  display: block;
+  height: 20px;
+  left: 10px;
+  position: absolute;
+  top: 23px;
+  width: 20px;
+  z-index: 10;
+}
+.hfy-theme1 .listing-block {
+  width: 100%;
+}
+.hfy-theme1 .user-wishlist .listing-block {
+  margin: 0;
+  gap: 20px 10px;
+}
+.hfy-theme1 .user-wishlist .listing-item {
+  width: 32%;
+}
+@media (max-width: 991px) {
+  .hfy-theme1 .user-wishlist .listing-item {
+    width: 47%;
+  }
+}
+@media (max-width: 479px) {
+  .hfy-theme1 .user-wishlist .listing-item {
+    width: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  .hfy-theme1 .hfy-map-wrapper {
+    height: 800px;
+  }
+}
+@media (max-width: 991px) {
+  .hfy-theme1 .listing-page-section-md {
+    padding-top: 0px;
+  }
+  .hfy-theme1 .listing-page-header {
+    order: 0;
+  }
+  .hfy-theme1 .listing-page-description {
+    order: 2;
+  }
+  .hfy-theme1 .listing-page-book {
+    order: 1;
+    padding: 10px;
+  }
+}
+.hfy-theme1 .hfy-search-form-wrap button,
+.hfy-theme1 .hfy-search-form-wrap .btn.btn-primary,
+.hfy-theme1 .hfy-search-form-wrap .form-group input,
+.hfy-theme1 .hfy-search-form-wrap .form-group select {
+  height: 40px;
+  line-height: 120%;
+  vertical-align: middle;
+}
+.hfy-theme1 .hfy-search-form-wrap .col-location {
+  width: 200px;
+}
+.hfy-theme1 .hfy-search-form-wrap .col-action {
+  text-align: right;
+  margin-right: 0;
+}
+.hfy-theme1 .hfy-search-form-wrap .col-action .btn {
+  border-radius: 2px;
+  display: inline-block;
+}
+.hfy-theme1 .hfy-search-form-wrap input {
+  font-size: inherit;
+  color: inherit;
+}
+.hfy-theme1 .hfy-search-form-wrap option.disabled,
+.hfy-theme1 .hfy-search-form-wrap option.hidden,
+.hfy-theme1 .hfy-search-form-wrap .input::-webkit-input-placeholder,
+.hfy-theme1 .hfy-search-form-wrap .input::-moz-placeholder,
+.hfy-theme1 .hfy-search-form-wrap .input:-ms-input-placeholder {
+  color: inherit;
+  opacity: 0.5;
+}
+.hfy-theme1 .hfy-search-form-wrap .advanced {
+  background: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTMiIGhlaWdodD0iMTEiIHZpZXdCb3g9IjAgMCAxMyAxMSIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTMuMjQ4MDUgOVYxMEgwLjQ5ODA0N1Y5SDMuMjQ4MDVaTTUuOTk4MDUgOEM2LjEzMzQ2IDggNi4yNTA2NSA4LjA0OTQ4IDYuMzQ5NjEgOC4xNDg0NEM2LjQ0ODU3IDguMjQ3NCA2LjQ5ODA1IDguMzY0NTggNi40OTgwNSA4LjVWMTAuNUM2LjQ5ODA1IDEwLjYzNTQgNi40NDg1NyAxMC43NTI2IDYuMzQ5NjEgMTAuODUxNkM2LjI1MDY1IDEwLjk1MDUgNi4xMzM0NiAxMSA1Ljk5ODA1IDExSDMuOTk4MDVDMy44NjI2MyAxMSAzLjc0NTQ0IDEwLjk1MDUgMy42NDY0OCAxMC44NTE2QzMuNTQ3NTMgMTAuNzUyNiAzLjQ5ODA1IDEwLjYzNTQgMy40OTgwNSAxMC41VjguNUMzLjQ5ODA1IDguMzY0NTggMy41NDc1MyA4LjI0NzQgMy42NDY0OCA4LjE0ODQ0QzMuNzQ1NDQgOC4wNDk0OCAzLjg2MjYzIDggMy45OTgwNSA4SDUuOTk4MDVaTTcuMjQ4MDUgNVY2SDAuNDk4MDQ3VjVINy4yNDgwNVpNMi4yNDgwNSAwLjk5OTk5OVYySDAuNDk4MDQ3VjAuOTk5OTk5SDIuMjQ4MDVaTTEyLjQ5OCA5VjEwSDYuNzQ4MDVWOUgxMi40OThaTTQuOTk4MDUgLTIuMzg0MTllLTA3QzUuMTMzNDYgLTIuMzg0MTllLTA3IDUuMjUwNjUgMC4wNDk0Nzg4IDUuMzQ5NjEgMC4xNDg0MzdDNS40NDg1NyAwLjI0NzM5NiA1LjQ5ODA1IDAuMzY0NTgzIDUuNDk4MDUgMC41VjIuNUM1LjQ5ODA1IDIuNjM1NDIgNS40NDg1NyAyLjc1MjYgNS4zNDk2MSAyLjg1MTU2QzUuMjUwNjUgMi45NTA1MiA1LjEzMzQ2IDMgNC45OTgwNSAzSDIuOTk4MDVDMi44NjI2MyAzIDIuNzQ1NDQgMi45NTA1MiAyLjY0NjQ4IDIuODUxNTZDMi41NDc1MyAyLjc1MjYgMi40OTgwNSAyLjYzNTQyIDIuNDk4MDUgMi41VjAuNUMyLjQ5ODA1IDAuMzY0NTgzIDIuNTQ3NTMgMC4yNDczOTYgMi42NDY0OCAwLjE0ODQzN0MyLjc0NTQ0IDAuMDQ5NDc4OCAyLjg2MjYzIC0yLjM4NDE5ZS0wNyAyLjk5ODA1IC0yLjM4NDE5ZS0wN0g0Ljk5ODA1Wk05Ljk5ODA1IDRDMTAuMTMzNSA0IDEwLjI1MDcgNC4wNDk0OCAxMC4zNDk2IDQuMTQ4NDRDMTAuNDQ4NiA0LjI0NzQgMTAuNDk4IDQuMzY0NTggMTAuNDk4IDQuNVY2LjVDMTAuNDk4IDYuNjM1NDIgMTAuNDQ4NiA2Ljc1MjYgMTAuMzQ5NiA2Ljg1MTU2QzEwLjI1MDcgNi45NTA1MiAxMC4xMzM1IDcgOS45OTgwNSA3SDcuOTk4MDVDNy44NjI2MyA3IDcuNzQ1NDQgNi45NTA1MiA3LjY0NjQ4IDYuODUxNTZDNy41NDc1MyA2Ljc1MjYgNy40OTgwNSA2LjYzNTQyIDcuNDk4MDUgNi41VjQuNUM3LjQ5ODA1IDQuMzY0NTggNy41NDc1MyA0LjI0NzQgNy42NDY0OCA0LjE0ODQ0QzcuNzQ1NDQgNC4wNDk0OCA3Ljg2MjYzIDQgNy45OTgwNSA0SDkuOTk4MDVaTTEyLjQ5OCA1VjZIMTAuNzQ4VjVIMTIuNDk4Wk0xMi40OTggMC45OTk5OTlWMkg1Ljc0ODA1VjAuOTk5OTk5SDEyLjQ5OFoiIGZpbGw9IiM4Qjg4ODEiLz4KPC9zdmc+Cg==") center center no-repeat;
+  width: 40px;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+}
+.hfy-theme1 .hfy-search-form-wrap .ltm-selector .btn {
+  background: #eee;
+  border-color: #eee;
+  color: #545b62;
+}
+.hfy-theme1 .hfy-search-form-wrap .ltm-selector .btn.active {
+  background: #545b62;
+  border-color: #545b62;
+  color: #eee;
+}
+.hfy-theme1 .hfy-search-form-wrap.processing .col-action > button {
+  cursor: default;
+}
+.hfy-theme1 .hfy-search-form-wrap.processing .col-action > button, .hfy-theme1 .hfy-search-form-wrap.processing .col-action > button * {
+  color: transparent;
+  border: 1px solid #ddd;
+  background: rgba(255, 255, 255, 0.5) url("images/loading.svg") center center no-repeat;
+  background-size: clamp(400px, 80%, 100px) auto;
+}
+.hfy-theme1 .hfy-search-form-wrap.processing .col-action > button * {
+  opacity: 0;
+}
+.hfy-theme1 .mob-show {
+  display: none;
+}
+@media (max-width: 768px) {
+  .hfy-theme1 .mob-hide {
+    display: none;
+  }
+  .hfy-theme1 .show-mob-hide .mob-hide {
+    display: block;
+  }
+  .hfy-theme1 .mob-show {
+    display: block;
+  }
+  .hfy-theme1 .hfy-search-form-wrap,
+  .hfy-theme1 .hfy-search-form-wrap > .overlay-text,
+  .hfy-theme1 .hfy-search-form-wrap > .overlay-text > .container {
+    height: fit-content !important;
+  }
+  .hfy-theme1 .hfy-search-form-wrap > .overlay-text > .container {
+    padding-bottom: 10px;
+  }
+  .hfy-theme1 .section.md {
+    padding-top: 10px;
+  }
+  .hfy-theme1 h2 {
+    font-size: 27px;
+  }
+  .hfy-theme1 span.h3 {
+    font-size: 25px;
+  }
+  .hfy-theme1 h4 {
+    font-size: 22px;
+  }
+  .hfy-theme1 .listing-page-section-md .widget {
+    margin: 0px;
+  }
+  .hfy-theme1 .calentim-container-mobile .calentim-input {
+    top: 14%;
+    bottom: auto !important;
+  }
+  .hfy-theme1 .listing-page-book .inner-wrapper-sticky {
+    position: initial !important;
+    top: auto !important;
+    left: auto !important;
+    width: auto !important;
+    transform: initial !important;
+  }
+  .hfy-theme1 .hfy-search-form-row {
+    flex-direction: column;
+    padding: 0;
+    margin: 75px 0 0 0;
+    position: relative;
+  }
+  .hfy-theme1 .hfy-search-form-row ._col {
+    width: 100% !important;
+    margin-bottom: 2px !important;
+  }
+  .hfy-theme1 .hfy-search-form-row ._col.col-advanced, .hfy-theme1 .hfy-search-form-row ._col.col-action {
+    width: 100% !important;
+    position: relative;
+    right: unset;
+  }
+  .hfy-theme1 .hfy-search-form-row .col-action {
+    width: auto;
+    position: absolute;
+    right: -5px;
+    bottom: 0;
+  }
+  .hfy-theme1 .hfy-search-form-row-advanced {
+    padding: 0;
+  }
+  .hfy-theme1 .hfy-search-form-row-advanced > div {
+    flex-direction: column;
+  }
+  .hfy-theme1 .hfy-search-form-row {
+    margin-top: 10px;
+  }
+  .hfy-theme1 .hfy-search-form-wrap {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+@media screen and (orientation: landscape) {
+  .hfy-theme1 .calentim-container-mobile > .calentim-input {
+    width: 280px !important;
+    height: auto !important;
+    margin: auto !important;
+    top: 0px !important;
+  }
+  .hfy-theme1 .calentim-container-mobile .calentim-filler {
+    display: none !important;
+  }
+  .hfy-theme1 .calentim-container-mobile .calentim-input .calentim-footer,
+  .hfy-theme1 .calentim-container-mobile .calentim-calendars {
+    width: 100% !important;
+  }
+}
+.hfy-theme1 .l-description {
+  font-size: 14px;
+  color: #70707a;
+  margin: 0;
+  height: 42px;
+  min-height: 42px;
+  max-height: 42px;
+  overflow: hidden;
+}
+.hfy-theme1 .hfy-listing-location .location-wrapper {
+  height: 60vh;
+  min-height: 350px;
+}
+.hfy-theme1 .calendar-error {
+  color: red;
+}
+.hfy-theme1 form input {
+  outline: none !important;
+}
+.hfy-theme1 .form-group {
+  margin-bottom: 10px;
+}
+.hfy-theme1 .form-group > * {
+  line-height: 120%;
+}
+.hfy-theme1 form.listing-price {
+  margin: 10px 0;
+  padding: 10px 0;
+}
+.hfy-theme1 .form-control:focus {
+  border-color: #ccc;
+}
+.hfy-theme1 .price-block {
+  margin: 10px 0;
+}
+.hfy-theme1 .price-block .price-block-item ._label {
+  float: left;
+}
+.hfy-theme1 .price-block .price-block-item ._value {
+  float: right;
+  font-weight: bold;
+  text-align: right;
+}
+.hfy-theme1 .price-block .price-block-item:after {
+  content: " ";
+  height: 1px;
+  display: block;
+  clear: both;
+}
+.hfy-theme1 .price-block .price-block-item small {
+  opacity: 0.7;
+}
+.hfy-theme1 .price-block .price-block-total {
+  border-top: 1px solid #ddd;
+  font-weight: bold;
+  margin: 10px 0;
+  padding-top: 10px;
+}
+.hfy-theme1 .prices-offline {
+  border-top: 1px dashed #ddd;
+}
+.hfy-theme1 .book-on-airbnb {
+  color: #FF5A5F;
+  background-color: #fff;
+  border-color: #eee;
+}
+.hfy-theme1 .book-on-airbnb .img {
+  margin-right: 10px;
+}
+.hfy-theme1 .hfy-widget-wrap .no-grow {
+  flex-grow: unset !important;
+}
+.hfy-theme1 .hfy-widget-wrap .listings-selected {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+}
+.hfy-theme1 .hfy-widget-wrap .listings-selected .listings-selected-item {
+  flex-grow: 1;
+  width: 25%;
+  height: 100%;
+  min-height: 300px;
+  position: relative;
+  overflow: hidden;
+}
+.hfy-theme1 .hfy-widget-wrap .listings-selected a {
+  display: block;
+}
+.hfy-theme1 .hfy-widget-wrap .listings-selected .img img {
+  width: 100%;
+  height: 100%;
+  min-height: 300px;
+  object-fit: cover;
+  margin-bottom: 0;
+}
+.hfy-theme1 .hfy-widget-wrap .effect-hover-1 .info {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  line-height: 140%;
+  align-items: center;
+}
+.hfy-theme1 .hfy-widget-wrap .effect-hover-1 .info .description {
+  width: 100%;
+}
+.hfy-theme1 .hfy-widget-wrap .effect-hover-1 .info .title {
+  font-size: 120%;
+  margin: 10px 0;
+}
+.hfy-theme1 .hfy-widget-wrap .effect-hover-1 .info .details {
+  display: flex;
+  white-space: nowrap;
+  margin: 10px 0;
+}
+.hfy-theme1 .hfy-widget-wrap .effect-hover-1 .info .details > * {
+  flex: 1;
+  padding-top: 30px;
+  background: center top no-repeat;
+  background-size: 30px;
+}
+.hfy-theme1 .hfy-widget-wrap .effect-hover-1 .info .details .guests {
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAA2CAMAAABAzG8wAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo4OEZFMkNBQTRFQTAxMUU4QURCNUE1OTE3NTE4MTNGRiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo4OEZFMkNBQjRFQTAxMUU4QURCNUE1OTE3NTE4MTNGRiI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjg4RkUyQ0E4NEVBMDExRThBREI1QTU5MTc1MTgxM0ZGIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjg4RkUyQ0E5NEVBMDExRThBREI1QTU5MTc1MTgxM0ZGIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+rG0dLgAAAPlQTFRFRUVF7e3toaGh9vb2W1tbTU1N/v7+z8/PcXFxx8fHdnZ2WFhYR0dHaGhoS0tLUVFR/f397Ozs+fn5zs7OZ2dnnp6ej4+P5OTktbW1nJycwsLCa2tr2dnZn5+f8/PzSkpKYGBg+vr6xMTE9PT0oqKiampqg4ODYmJiqKiowcHBVlZWp6enzc3NUFBQnZ2deHh4SUlJ0dHRenp6+/v74eHhqamp5eXlycnJWlpa7+/vRkZGc3NzyMjIgoKCq6ur8PDwhISEpKSk7u7u4uLigYGBw8PDeXl5m5ubxsbGkJCQ2trasLCwpaWl5+fny8vLfn5+tLS0RERE////16NzqwAAAFN0Uk5T/////////////////////////////////////////////////////////////////////////////////////////////////////////////wBmiX5ZAAAB7ElEQVR42uyWaVuCQBSFL7hvoWhSlopZGtm+79m+L2f+/48J9CExZgYSP3Y+wcyZ17sNj8TkKhYDDCTfrplmLQKgvABbC+UJAS9ZIDf3lQOyLxMAjD5ho6czpvc2QH3jj4DScx4zj43hS+NxBvnn0h8A7Xn7RNVzolS1efPtkAD9QANd/IrZuCBoB3oIQHHOqdqi37k4qGkxCFAzgRVB38orgG8syNd40xL3zDJ9Y0HBQcoTHAGMjt34VT1g9Jm+ao9Fx/ABho1qsBBqjDWZOGuB8v4aDaLSxqIKISdfbZAviRsvl1txYjtBF1Z22XecFKoWm1BWNfCLFKx/wHQBMbWQSBTUmMzu94wAqTgGiqfE5zmeH0CKkM4oSiYNEhJ4HhcQi2M26TwkZxEXZMH1uAAV6eTwKZmGygdwPS6ggozry6DAB3A9LiABxd1UkOADuJ6pASKnELmIkdsYeZCij7JzUSohLlNFeJn+v0jt2uZDd63ZXOvu1pcEdeR6hoClz2141Lw79x8XeBzAUQXIZ9Wn25NW62b/vn52av9PWh8/LvTYgGXg+PXK61Yuc6A374rYQ+wD1Nv7HW/rGvDEIPEQy2KZV7E6tkYvEg8xDe+8zUNooxeJhxjAb5p3XeJxACJ5jULPFAAR9S3AAB8V5SpG9QUgAAAAAElFTkSuQmCC");
+}
+.hfy-theme1 .hfy-widget-wrap .effect-hover-1 .info .details .beds {
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAAA2CAMAAABAzG8wAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo4NEMxRjlCQTRFQTAxMUU4QkI4QzkxNzBFODcyQzRDMiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo4NEMxRjlCQjRFQTAxMUU4QkI4QzkxNzBFODcyQzRDMiI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjg0QzFGOUI4NEVBMDExRThCQjhDOTE3MEU4NzJDNEMyIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjg0QzFGOUI5NEVBMDExRThCQjhDOTE3MEU4NzJDNEMyIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+nPNAyAAAAA9QTFRF/f39u7u7YGBgRERE////XQPsFQAAAAV0Uk5T/////wD7tg5TAAAAkElEQVR42uyWSQqAMBAEK8v/36xIlkEPJh2CINMnyaGqDlEkL472lKa2BzDe7QAHOGAjgLnXmQcgzAHCHUDsZ+8LKXIDmKORD2HXoQRYH0qAFSIFGCNSgFGiBXQnWkCXIgY0K2JA06IGVC9qQBUjBxQzckBJIMe0sHgC0tIugP5/44A/AZYvkt9EB3wPOAQYADX/Mq31hIouAAAAAElFTkSuQmCC");
+}
+.hfy-theme1 .hfy-widget-wrap .effect-hover-1 .info .details .rooms {
+  background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAA+CAMAAABjsdmeAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyFpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChXaW5kb3dzKSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDo4QzUzQ0NDQTRFQTAxMUU4QTQ5OUJGMTk2NENDODg5RiIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDo4QzUzQ0NDQjRFQTAxMUU4QTQ5OUJGMTk2NENDODg5RiI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjhDNTNDQ0M4NEVBMDExRThBNDk5QkYxOTY0Q0M4ODlGIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjhDNTNDQ0M5NEVBMDExRThBNDk5QkYxOTY0Q0M4ODlGIi8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+5lEJ7wAAADBQTFRF/v7+TU1N4eHhXV1d9PT0kZGRx8fHdnZ2ra2trKysd3d3yMjIkpKSxsbGRERE////aPeC+AAAABB0Uk5T////////////////////AOAjXRkAAAC0SURBVHja7NZND4MwCIBhrN9uo///3651sZkUKD2a0IuJfQ6vXgBi1wHsOv18TY9jAUPKyWOYB8Rxm4w8xmkfEYc5GHn65OVseoGNp9NuuvF2E+GlSfhPFdebOK408fxqWmmTxEuTmaemjd6pPF87d+7cufPncnmSMitEnlrvYObwkad7HQraJOW5OEklLmwcMmebVF43NTjdOJr83mThf002XjYOK7+a7PzX1MFzE33zFWAAGQafvq+ltSoAAAAASUVORK5CYII=");
+  background-size: 20px;
+}
+.hfy-theme1 .hfy-widget-wrap .effect-hover-1 .info .price {
+  font-size: 120%;
+  margin: 10px 0;
+}
+.hfy-theme1 .hfy-widget-wrap .effect-hover-1 .info .more-button {
+  display: inline-block;
+}
+.hfy-theme1 .hfy-widget-wrap .effect-hover-1 a:active .info,
+.hfy-theme1 .hfy-widget-wrap .effect-hover-1 a:hover .info {
+  display: flex !important;
+}
+.hfy-theme1 .hfy-listing-image {
+  height: 300px;
+  overflow: hidden;
+}
+.hfy-theme1 .hfy-listing-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.hfy-theme1 .back-top-payment-btn {
+  border: none;
+  display: block;
+  border-radius: 2px;
+  color: white;
+  position: relative;
+  user-select: none;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0;
+  padding: 14px 32px;
+  background-color: rgb(230, 87, 101);
+  width: 100%;
+  text-align: center;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.hfy-theme1 .pay-btn[disabled=disabled], .hfy-theme1 .pay-btn:disabled {
+  opacity: 0.5;
+}
+.hfy-theme1 .img-failed {
+  background: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMzIiIGhlaWdodD0iMzkiIGZpbGw9Im5vbmUiIHZlcnNpb249IjEuMSIgdmlld0JveD0iMCAwIDMyIDM5IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Im0uNDE0NjkuMzU1NDVoMTcuNjE0bDguMzQzNCA4LjgyNzN2OC4zMzY5bC0xNi42ODcgMTYuMTgzaC05LjI3MDV6IiBmaWxsPSIjODhiZmZmIiBzdHlsZT0ic3Ryb2tlLXdpZHRoOi44MzQzNiIvPjxwYXRoIGQ9Im0yOS43OTcgMTkuNTgxLTIuNTYxIDE2LjkzNC0xNi40OTktMi40OTUzeiIgZmlsbD0iIzE2N2ZmYyIgc3R5bGU9InN0cm9rZS13aWR0aDoxLjE4NDMiLz48cGF0aCBkPSJtMTguMDI5IDkuMTgyOHYtOC44MjczbDguMzQzNCA4LjgyNzN6IiBmaWxsPSIjMTY3ZmZjIiBzdHlsZT0ic3Ryb2tlLXdpZHRoOi44MzQzNiIvPjxwYXRoIGQ9Im0xMS44NTUgMTUuMDY4aC01LjYwM2MtMS4xNzU5IDAtMi4xMjkyLTEuMDI2OS0yLjEyOTItMi4yOTM3IDAtLjg0MjA4LjQyMTI5LTEuNTc4MiAxLjA0OTItMS45NzcxLS4wMjY1ODItLjEyMDkyLS4wNDA2NTUtLjI0NzE2LS4wNDA2NTUtLjM3Njg0IDAtLjkwMDA5LjY3NzMxLTEuNjI5NyAxLjUxMjgtMS42Mjk3LjEyMjIgMCAuMjQxMDIuMDE1NjA5LjM1NDg0LjA0NTA4Mi40NTQyMy0uOTU4MjYgMS4zNzkzLTEuNjE0NCAyLjQ0NjctMS42MTQ0IDEuMzg5OSAwIDIuNTM4NSAxLjExMjUgMi43MjA0IDIuNTU1OSAxLjIxNDcuMTY0NzggMi4xNTQyIDEuMjgxNyAyLjE1NDIgMi42MzQ5IDAgMS40NjY3LTEuMTAzOCAyLjY1NTctMi40NjUzIDIuNjU1N3oiIGZpbGw9IiNmZmZmZmYiIHN0eWxlPSJzdHJva2Utd2lkdGg6LjgzNDM2Ii8+PHBhdGggZD0ibTIzLjEyOSAyMC42NjUtMTMuNDQ0IDEzLjAzOWgtOS4yNzA1di0xMS42NjRjMy45NC0xLjk1NTggOC4zMzg3LTMuMDQ4NiAxMi45NzktMy4wNDg2IDMuNDAzOCAwIDYuNjc3OC41ODgxMyA5LjczNjEgMS42NzM2eiIgY2xpcC1ydWxlPSJldmVub2RkIiBmaWxsPSIjMTY3ZmZjIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHN0eWxlPSJzdHJva2Utd2lkdGg6LjgzNDM2Ii8+PHBhdGggdHJhbnNmb3JtPSJtYXRyaXgoLjM2MjM5IC4xNDg2MiAtLjEzMTY0IC43NjEwNiAyMS43MzcgMi41OTUyKSIgZD0ibTI4LjYxNCAyMy42OTctNi4xMjM1LTMuMjE4MiA1Ljg0ODgtMy42OTQuMTM3MzQgMy40NTYxeiIgc3R5bGU9ImZpbGw6Izg4YmZmZiIvPjwvc3ZnPgo=") center center no-repeat !important;
+}
+.hfy-theme1 .img-failed img {
+  display: none !important;
+}
+.hfy-theme1 .price-block .upon-arrival,
+.hfy-theme1 .payment-info .upon-arrival {
+  font-weight: bold;
+}
+.hfy-theme1 .no-gutters {
+  padding-left: 0;
+  padding-right: 0;
+}
+.hfy-theme1 .added-to-wish,
+.hfy-theme1 .add-to-wish {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  padding: 16px;
+  z-index: 3;
+}
+.hfy-theme1 .added-to-wish:after,
+.hfy-theme1 .add-to-wish:after {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 23px;
+  opacity: 0.9;
+  filter: drop-shadow(0 0 1px rgba(0, 0, 0, 0.3));
+  background: url("data:image/svg+xml,%3Csvg width='24' height='23' viewBox='0 0 24 23' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6.10833 14.6833L6.16666 14.1L5.75833 13.75L1.03333 8.67502L7.74166 7.39168L8.26666 7.27502L8.55833 6.80835L12.0583 0.68335L15.325 6.69168L15.6167 7.15835L16.1417 7.27502L22.9083 8.67502L18.125 13.75L17.7167 14.1583L17.775 14.7417L18.5917 21.5667L12.4083 18.65L11.8833 18.4167L11.4167 18.5917L5.23333 21.5083L6.10833 14.6833Z' stroke='white' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A") center center no-repeat;
+}
+.hfy-theme1 .added-to-wish:hover:after, .hfy-theme1 .added-to-wish:hover:after,
+.hfy-theme1 .add-to-wish:hover:after,
+.hfy-theme1 .add-to-wish:hover:after {
+  opacity: 1;
+}
+.hfy-theme1 .added-to-wish:after {
+  filter: drop-shadow(0 0 6px rgba(0, 0, 0, 0.3));
+  background-image: url("data:image/svg+xml,%3Csvg width='24' height='23' viewBox='0 0 24 23' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M6.11016 14.6833L6.16849 14.1L5.76016 13.75L1.03516 8.67498L7.74349 7.39165L8.26849 7.27499L8.56016 6.80832L12.0602 0.683319L15.3268 6.69165L15.6185 7.15832L16.1435 7.27499L22.9102 8.67498L18.1268 13.75L17.7185 14.1583L17.7768 14.7417L18.5935 21.5667L12.4102 18.65L11.8852 18.4167L11.4185 18.5917L5.23516 21.5083L6.11016 14.6833Z' fill='white' stroke='white' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A");
+}
+.hfy-theme1 .add-to-wish.loading:after,
+.hfy-theme1 .added-to-wish.loading:after {
+  animation: spin 2s ease infinite;
+}
+@keyframes spin {
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.hfy-theme1 .cancel-booking-modal textarea {
+  resize: none;
+  height: 100px !important;
+}
+.hfy-theme1 .cancel-booking-modal label {
+  display: inline-block;
+}
+.hfy-theme1 .cancel-booking-modal textarea::-webkit-input-placeholder,
+.hfy-theme1 .cancel-booking-modal textarea:-moz-placeholder,
+.hfy-theme1 .cancel-booking-modal textarea::-moz-placeholder,
+.hfy-theme1 .cancel-booking-modal textarea:-ms-input-placeholder,
+.hfy-theme1 .cancel-booking-modal option[disabled=disabled] {
+  color: #BCBDBC !important;
+}
+.hfy-theme1 .cancel-booking-modal .caldera-grid .checkbox-inline,
+.hfy-theme1 .cancel-booking-modal .checkbox-inline {
+  text-align: left;
+  padding-left: 30px !important;
+}
+.hfy-theme1 .cancel-booking-modal .caldera-grid .checkbox-inline span,
+.hfy-theme1 .cancel-booking-modal .checkbox-inline span {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.hfy-theme1 .cancel-booking-modal select {
+  height: auto !important;
+}
+.hfy-theme1 .manage-booking-modal.loading:after,
+.hfy-theme1 .cancel-booking-modal form.loading:after {
+  background: rgba(255, 255, 255, 0.5) url("data:image/svg+xml,%3C%3Fxml version='1.0' encoding='UTF-8' standalone='no'%3F%3E%3Csvg xmlns:svg='http://www.w3.org/2000/svg' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' version='1.0' width='48px' height='48px' viewBox='0 0 128 128' xml:space='preserve'%3E%3Cg%3E%3Cpath d='M59.6 0h8v40h-8V0z' fill='%23444444' fill-opacity='1'/%3E%3Cpath d='M59.6 0h8v40h-8V0z' fill='%23dadada' fill-opacity='0.2' transform='rotate(30 64 64)'/%3E%3Cpath d='M59.6 0h8v40h-8V0z' fill='%23dadada' fill-opacity='0.2' transform='rotate(60 64 64)'/%3E%3Cpath d='M59.6 0h8v40h-8V0z' fill='%23dadada' fill-opacity='0.2' transform='rotate(90 64 64)'/%3E%3Cpath d='M59.6 0h8v40h-8V0z' fill='%23dadada' fill-opacity='0.2' transform='rotate(120 64 64)'/%3E%3Cpath d='M59.6 0h8v40h-8V0z' fill='%23c7c7c7' fill-opacity='0.3' transform='rotate(150 64 64)'/%3E%3Cpath d='M59.6 0h8v40h-8V0z' fill='%23b4b4b4' fill-opacity='0.4' transform='rotate(180 64 64)'/%3E%3Cpath d='M59.6 0h8v40h-8V0z' fill='%23a1a1a1' fill-opacity='0.5' transform='rotate(210 64 64)'/%3E%3Cpath d='M59.6 0h8v40h-8V0z' fill='%238f8f8f' fill-opacity='0.6' transform='rotate(240 64 64)'/%3E%3Cpath d='M59.6 0h8v40h-8V0z' fill='%237c7c7c' fill-opacity='0.7' transform='rotate(270 64 64)'/%3E%3Cpath d='M59.6 0h8v40h-8V0z' fill='%23696969' fill-opacity='0.8' transform='rotate(300 64 64)'/%3E%3Cpath d='M59.6 0h8v40h-8V0z' fill='%23565656' fill-opacity='0.9' transform='rotate(330 64 64)'/%3E%3CanimateTransform attributeName='transform' type='rotate' values='0 64 64;30 64 64;60 64 64;90 64 64;120 64 64;150 64 64;180 64 64;210 64 64;240 64 64;270 64 64;300 64 64;330 64 64' calcMode='discrete' dur='1080ms' repeatCount='indefinite'%3E%3C/animateTransform%3E%3C/g%3E%3C/svg%3E") center center/20px no-repeat;
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+.hfy-theme1 .listings-map-hidden .hfy-theme1 .hfy-map-wrapper,
+.hfy-theme1 .listings-map-hidden .hfy-wrap .hfy-map-wrapper,
+.hfy-theme1 .listings-map-hidden .hfy-map-wrapper {
+  display: none !important;
+  border: 1px solid red;
+}
+.hfy-theme1 .hfy-widget-wrap-listings {
+  position: relative;
+  min-height: 200px;
+}
+.hfy-theme1 .hfy-widget-wrap-listings .hfy-wwl-updating {
+  z-index: 999;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.8) url("images/loading.svg") center 40px no-repeat;
+  background-size: 150%;
+}
+.hfy-theme1 .hfy-wrap.payment-extras-set {
+  border: 1px solid grey;
+  padding: 5px 10px;
+  min-height: 120px;
+  cursor: pointer;
+  user-select: none;
+}
+.hfy-theme1 .hfy-wrap.payment-extras-set .payment-extras-set-item .price {
+  white-space: nowrap;
+}
+.hfy-theme1 .hfy-wrap.payment-extras-set.selected {
+  transition: all 0.2s;
+  border-color: red;
+  transform: translateX(5px) translateY(-10px);
+  box-shadow: -10px 5px 20px rgba(0, 0, 0, 0.2);
+}
+.hfy-theme1 .hfy-wrap.payment-extras-optional {
+  border: 1px solid grey;
+  padding: 5px 10px;
+  user-select: none;
+}
+.hfy-theme1 .hfy-wrap.payment-extras-optional .payment-extras-optional-item {
+  cursor: pointer;
+  padding: 5px 0;
+}
+.hfy-theme1 .hfy-wrap.payment-extras-optional .payment-extras-optional-item .price {
+  white-space: nowrap;
+}
+.hfy-theme1 .hfy-wrap.payment-extras-optional .payment-extras-optional-item .checkbox-control:after {
+  content: "◻️";
+}
+.hfy-theme1 .hfy-wrap.payment-extras-optional .payment-extras-optional-item.selected {
+  font-weight: bold;
+}
+.hfy-theme1 .hfy-wrap.payment-extras-optional .payment-extras-optional-item.selected .checkbox-control:after {
+  content: "✔️";
+}
+.hfy-theme1 .styled-checkbox {
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  position: relative;
+  z-index: 1;
+  top: -3px;
+  vertical-align: middle;
+  margin-right: 10px;
+  background: url("data:image/svg+xml,%3Csvg width='32' height='32' viewBox='0 0 32 32' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect x='0.5' y='0.5' width='31' height='31' rx='15.5' stroke='%23EBEBEB'/%3E%3C/svg%3E") no-repeat;
+}
+.hfy-theme1 .styled-checkbox:hover {
+  background: url("data:image/svg+xml,%3Csvg width='32' height='32' viewBox='0 0 32 32' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect x='0.5' y='0.5' width='31' height='31' rx='15.5' stroke='%23222222'/%3E%3C/svg%3E") no-repeat;
+}
+.hfy-theme1 .styled-checkbox.selected {
+  background: url("data:image/svg+xml,%3Csvg width='32' height='32' viewBox='0 0 32 32' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Crect x='0.5' y='0.5' width='31' height='31' rx='15.5' fill='%23007bff'/%3E%3Crect x='0.5' y='0.5' width='31' height='31' rx='15.5' stroke='%23EBEBEB'/%3E%3Cpath d='M8 16.4L9.6 14.8L13.6 18.8L22.4 10L24 11.6L13.6 22L8 16.4Z' fill='white'/%3E%3C/svg%3E") no-repeat;
+}
+.hfy-theme1 .styled-checkbox input[type=checkbox] {
+  margin: 0;
+  position: absolute;
+  z-index: 2;
+  cursor: pointer;
+  outline: none;
+  opacity: 0;
+}
+.hfy-theme1 .payment-time-left {
+  text-align: center;
+  font-size: 90%;
+}
+.hfy-theme1 .payment-time-left span {
+  font-weight: bold;
+}
+.hfy-theme1 .payment-time-left-over {
+  display: none;
+  position: absolute;
+  text-align: center;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.85);
+  z-index: 999;
+}
+.hfy-theme1 .payment-time-left-over > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  height: 100%;
+}
+
+.modal a.close-modal {
+  right: 5px !important;
+  top: 5px !important;
+}
+
+.hfy-modal-blocker .direct-inquiry-modal,
+.direct-inquiry-modal.modal {
+  height: auto !important;
+  position: relative;
+  top: inherit;
+  right: inherit;
+  bottom: inherit;
+  left: inherit;
+}
+
+.direct-inquiry-modal {
+  background: #fff;
+}
+
+.direct-inquiry-modal-content {
+  background: #fff;
+  padding: 20px;
+}
+.direct-inquiry-modal-content h4 {
+  margin-bottom: 10px;
+}
+.direct-inquiry-modal-content .btn-in-progress {
+  background: transparent center center/44px no-repeat !important;
+  background-image: url("data:image/svg+xml,%3Csvg width='44' height='44' viewBox='0 0 38 38' xmlns='http://www.w3.org/2000/svg' stroke='%2301aeef'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg transform='translate(13 11) scale(.4 .4)' stroke-width='2'%3E%3Ccircle stroke-opacity='.5' cx='18' cy='18' r='18' /%3E%3Cpath d='M36 18c0-9.94-8.06-18-18-18'%3E%3CanimateTransform%0AattributeName='transform'%0Atype='rotate'%0Afrom='0 18 18'%0Ato='360 18 18'%0Adur='1s'%0ArepeatCount='indefinite'%0A/%3E%3C/path%3E%3C/g%3E%3C/g%3E%3C/svg%3E") !important;
+}
+.direct-inquiry-modal-content .btn-in-progress[disabled] {
+  background-color: transparent;
+  border-color: #ccc;
+  color: transparent;
+}
+.direct-inquiry-modal-content .error {
+  color: red;
+  font-size: 13px;
+}
+.direct-inquiry-modal-content .close {
+  position: absolute;
+  right: 9px;
+  top: 6px;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 1;
+  color: #000;
+  text-shadow: 0 1px 0 #fff;
+  filter: alpha(opacity=20);
+  opacity: 0.2;
+  -webkit-appearance: none;
+  cursor: pointer;
+  background: 0 0;
+  border: 0;
+}
+.direct-inquiry-modal-content .modal-content {
+  border: 0 !important;
+}
+.direct-inquiry-modal-content .modal-title {
+  width: 100%;
+  margin: 0 0 10px 0;
+  line-height: 1.42857143;
+  text-align: center;
+  font-size: 18px;
+  font-family: inherit;
+  font-weight: 500;
+  margin-top: 0;
+}
+.direct-inquiry-modal-content .form-control {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  -webkit-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+  -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+.direct-inquiry-modal-content textarea.form-control {
+  height: 75px;
+  resize: none;
+}
+.direct-inquiry-modal-content .direct-inquiry-captcha {
+  text-align: right;
+  display: inline-block;
+  float: right;
+}
+.direct-inquiry-modal-content .direct-inquiry-captcha > input {
+  width: 30%;
+  margin-top: 6px;
+  float: right;
+}
+.direct-inquiry-modal-content .direct-inquiry-form {
+  font-size: 12px;
+}
+.direct-inquiry-modal-content .direct-inquiry-form .direct-inquiry-col-container,
+.direct-inquiry-modal-content .direct-inquiry-form .inquiry_container_input {
+  position: relative;
+}
+.direct-inquiry-modal-content .direct-inquiry-form .direct-inquiry-col-container i,
+.direct-inquiry-modal-content .direct-inquiry-form .inquiry_container_input i {
+  display: block;
+  position: absolute;
+  left: 28px;
+  top: calc(50% - 5px);
+}
+.direct-inquiry-modal-content .direct-inquiry-form .direct-inquiry-col-container input,
+.direct-inquiry-modal-content .direct-inquiry-form .direct-inquiry-col-container textarea,
+.direct-inquiry-modal-content .direct-inquiry-form .direct-inquiry-col-container select,
+.direct-inquiry-modal-content .direct-inquiry-form .inquiry_container_input input,
+.direct-inquiry-modal-content .direct-inquiry-form .inquiry_container_input textarea,
+.direct-inquiry-modal-content .direct-inquiry-form .inquiry_container_input select {
+  padding-left: 30px;
+}
+.direct-inquiry-modal-content .direct-inquiry-form .direct-inquiry-col-container i {
+  top: 16px;
+}
+
+.direct-inquiry-captcha > img {
+  pointer-events: none;
+}
+
+.hfy-wrap .terms-checkbox {
+  float: left;
+  margin: 0 10px 10px 0;
+}
+
+@media (max-width: 576px) {
+  .direct-inquiry-modal .inquiry_container_input {
+    max-width: 50%;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .direct-inquiry-modal .direct-inquiry-col-container {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+}
+.calentim-container,
+.calentim-container .calentim-input,
+.calentim-container-mobile,
+.calentim-container-mobile .calentim-input {
+  z-index: 599999 !important;
+}
+.calentim-container .calentim-input .calentim-calendars .calentim-calendar .calentim-days-container .calentim-day.calentim-selected.calentim-end span,
+.calentim-container-mobile .calentim-input .calentim-calendars .calentim-calendar .calentim-days-container .calentim-day.calentim-selected.calentim-end span {
+  background-color: transparent;
+}
+.calentim-container .calentim-calendars .calentim-disabled.calentim-not-in-month, .calentim-container .calentim-calendars .calentim-disabled.calentim-not-in-month *,
+.calentim-container .calentim-calendars .calentim-day.calentim-not-in-month,
+.calentim-container .calentim-calendars .calentim-day.calentim-not-in-month *,
+.calentim-container-mobile .calentim-calendars .calentim-disabled.calentim-not-in-month,
+.calentim-container-mobile .calentim-calendars .calentim-disabled.calentim-not-in-month *,
+.calentim-container-mobile .calentim-calendars .calentim-day.calentim-not-in-month,
+.calentim-container-mobile .calentim-calendars .calentim-day.calentim-not-in-month * {
+  color: transparent !important;
+  background: transparent !important;
+  cursor: default !important;
+}
+.calentim-container .calentim-calendars .calentim-disabled.calentim-not-in-month.calentim-selected,
+.calentim-container .calentim-calendars .calentim-day.calentim-not-in-month.calentim-selected,
+.calentim-container-mobile .calentim-calendars .calentim-disabled.calentim-not-in-month.calentim-selected,
+.calentim-container-mobile .calentim-calendars .calentim-day.calentim-not-in-month.calentim-selected {
+  background-color: transparent !important;
+}
+.calentim-container .calentim-calendars .calentim-day.calentim-disabled-range,
+.calentim-container .calentim-calendars .calentim-disabled.calentim-selected,
+.calentim-container-mobile .calentim-calendars .calentim-day.calentim-disabled-range,
+.calentim-container-mobile .calentim-calendars .calentim-disabled.calentim-selected {
+  background-color: #f4f4fa !important;
+  color: #b8b8df !important;
+}
+.calentim-container .calentim-calendars .calentim-day.calentim-disabled-range span,
+.calentim-container .calentim-calendars .calentim-disabled.calentim-selected span,
+.calentim-container-mobile .calentim-calendars .calentim-day.calentim-disabled-range span,
+.calentim-container-mobile .calentim-calendars .calentim-disabled.calentim-selected span {
+  color: #b8b8df !important;
+  background-color: transparent !important;
+}
+.calentim-container .calentim-input .calentim-calendars .calentim-calendar .calentim-days-container .calentim-day.calentim-disabled-day,
+.calentim-container-mobile .calentim-input .calentim-calendars .calentim-calendar .calentim-days-container .calentim-day.calentim-disabled-day {
+  background: repeating-linear-gradient(-45deg, #ddf 0%, #ddf 1.5%, #fff 1.5%, #fff 9%);
+  color: #b8b8df;
+}
+.calentim-container .calentim-input .calentim-calendars .calentim-calendar .calentim-days-container .calentim-day.calentim-selected,
+.calentim-container-mobile .calentim-input .calentim-calendars .calentim-calendar .calentim-days-container .calentim-day.calentim-selected {
+  background: #1783FF !important;
+}
+.calentim-container .calentim-input .calentim-calendars .calentim-calendar .calentim-days-container .calentim-day.calentim-not-in-month.calentim-selected,
+.calentim-container-mobile .calentim-input .calentim-calendars .calentim-calendar .calentim-days-container .calentim-day.calentim-not-in-month.calentim-selected {
+  background: transparent !important;
+}
+.calentim-container .calentim-header,
+.calentim-container-mobile .calentim-header {
+  padding: 8px 10px;
+}
+.calentim-container .calentim-header .calentim-header-separator,
+.calentim-container-mobile .calentim-header .calentim-header-separator {
+  font-size: 20px !important;
+  color: #999 !important;
+  white-space: nowrap !important;
+}
+.calentim-container .calentim-header .calentim-header-separator i,
+.calentim-container-mobile .calentim-header .calentim-header-separator i {
+  display: inline-block;
+  vertical-align: middle;
+  align-self: center;
+}
+.calentim-container .calentim-header .calentim-header-start-day,
+.calentim-container .calentim-header .calentim-header-end-day,
+.calentim-container-mobile .calentim-header .calentim-header-start-day,
+.calentim-container-mobile .calentim-header .calentim-header-end-day {
+  margin: -14px;
+}
+
+.calentim-container-mobile .calentim-input .calentim-footer button {
+  padding: 14px 4px;
+}
+
+@media all and (max-width: 767px), all and (device-width: 768px), all and (device-width: 768px) and (device-height: 1024px) and (orientation: portrait), all and (device-width: 1024px) and (device-height: 768px) and (orientation: landscape), only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3), only screen and (device-width: 812px) and (device-height: 375px) and (-webkit-device-pixel-ratio: 3) and (orientation: landscape), only screen and (device-width: 375px) and (device-height: 667px) and (-webkit-device-pixel-ratio: 2), only screen and (device-width: 414px) and (device-height: 736px) and (-webkit-device-pixel-ratio: 3), only screen and (device-width: 823px) and (device-height: 411px) {
+  .calentim-container-mobile .calentim-input {
+    margin: 0;
+    border-radius: 0;
+    top: 0;
+    justify-content: space-between;
+  }
+  .calentim-container-mobile .calentim-input .calentim-calendars {
+    max-height: 100% !important;
+  }
+  .calentim-container-mobile .calentim-input .calentim-footer {
+    display: flex;
+  }
+  .calentim-container-mobile .calentim-input .calentim-footer button.calentim-reset {
+    border: 1px solid silver;
+    background: transparent;
+    color: #555;
+  }
+  .calentim-container-mobile .calentim-input .calentim-footer button.calentim-apply,
+  .calentim-container-mobile .calentim-input .calentim-footer button.calentim-reset {
+    margin: 0 0 0 4px;
+  }
+}
+.hfy-listing-availability .calentim-day:hover, .hfy-listing-availability .calentim-day:hover span, .hfy-listing-availability .calentim-day.calentim-hovered, .hfy-listing-availability .calentim-day.calentim-hovered span, .hfy-listing-availability .calentim-day.calentim-hovered-first, .hfy-listing-availability .calentim-day.calentim-hovered-first span, .hfy-listing-availability .calentim-day.calentim-hovered-last, .hfy-listing-availability .calentim-day.calentim-hovered-last span {
+  background-color: transparent !important;
+}
+
+.hfy-theme1 .view-more-reviews-btn {
+    cursor: pointer;
+    width: 30%;
+    text-align: center;
+    margin-top: 1rem;
+    color: var(--Default-Text-Primary, #222);
+    font-family: var(--bde-body-font-family);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 5px 10px;
+    border-radius: 8px;
+    border: 2px solid var(--Default-Outline, #ebebeb);
+    background: var(--3-White, #fff);
+    transition: background 0.2s, color 0.2s, border 0.2s;
+}
+.hfy-theme1 .view-more-reviews-btn:hover {
+    background: var(--Default-Outline, #ebebeb);
+    color: var(--Default-Text-Primary, #222);
+}
+
+@media (max-width: 767px) {
+  .hfy-theme1 .view-more-reviews-btn {
+    width: 100%;
+  }
+}

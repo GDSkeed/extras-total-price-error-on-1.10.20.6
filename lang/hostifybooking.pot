@@ -1,0 +1,2877 @@
+# Copyright (C) 2025 Hostify Booking Engine
+# This file is distributed under the same license as the Hostify Booking Engine package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Hostify Booking Engine\n"
+"Report-Msgid-Bugs-To: https://hostify.com\n"
+"POT-Creation-Date: 2025-07-14 23:59:04+0000\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Hostify Booking Engine String Extractor\n"
+
+#: tpl/element/booking-search-advanced.php:14
+msgid " / day"
+msgstr ""
+
+#: tpl/element/booking-search-advanced.php:10
+msgid " / month"
+msgstr ""
+
+#: admin/menu.php:636
+msgid " Required Google Maps API Key In Miscellaneous Section "
+msgstr ""
+
+#: tpl/listing/listing-reviews-summary.php:28
+msgid "%d reviews"
+msgstr ""
+
+#: tpl/element/direct-inquiry-modal-v2.php:139
+msgid "%d/%d guests"
+msgstr ""
+
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:271
+msgid "%s is missing in the configuration array"
+msgstr ""
+
+#: admin/inc/translation-manager/translation-manager.php:82
+msgid "%s: %d missing translations (%d/%d translated - %s%%)"
+msgstr ""
+
+#: admin/menu.php:1062
+msgid "(deprecated)"
+msgstr ""
+
+#: admin/menu.php:1370
+msgid "-- Select a language file --"
+msgstr ""
+
+#: admin/menu.php:722
+msgid "2-char country code like <code>us</code>"
+msgstr ""
+
+#: admin/menu.php:94
+msgid "API URL"
+msgstr ""
+
+#: admin/menu.php:101
+msgid "API WPKEY"
+msgstr ""
+
+#: admin/menu.php:90
+msgid "API settings"
+msgstr ""
+
+#: admin/menu.php:440
+msgid "ATTENTION: If disabled, all available amenities will be shown, this can be a huge list, so it is recommended to use the options below in this case."
+msgstr ""
+
+#: admin/exopite-simple-options/fields/gallery.php:27
+msgid "Add"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/image.php:77
+msgid "Add Image"
+msgstr ""
+
+#: admin/menu.php:1348
+msgid "Add New Language"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/video.php:63
+msgid "Add Video"
+msgstr ""
+
+#: admin/menu.php:565
+msgid "Add images slider for each listing item"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/gallery.php:25
+msgid "Add to gallery"
+msgstr ""
+
+#: tpl/listing/listing-info-prices.php:37
+msgid "Additional Guests:"
+msgstr ""
+
+#: tpl/payment/netpay-form.php:100
+#: tpl/user/booking-manage.php:160
+msgid "Address"
+msgstr ""
+
+#: admin/menu.php:861
+msgid "Admin options"
+msgstr ""
+
+#: tpl/element/direct-inquiry-modal-v2.php:148
+#: tpl/element/guests-block.php:15
+#: tpl/element/direct-inquiry-modal.php:109
+#: tpl/payment/charge-preview.php:41
+#: tpl/payment/preview.php:57
+msgid "Adults"
+msgstr ""
+
+#: admin/menu.php:429
+msgid "Advanced search"
+msgstr ""
+
+#: tpl/element/guests-block.php:66
+msgid "Age under 2"
+msgstr ""
+
+#: tpl/element/guests-block.php:17
+msgid "Age: 13+"
+msgstr ""
+
+#: tpl/element/guests-block.php:41
+msgid "Age: 2-12"
+msgstr ""
+
+#: admin/menu.php:651
+msgid "Airbnb reviews only (5-star system)"
+msgstr ""
+
+#: admin/menu.php:1337
+msgid "All translatable strings"
+msgstr ""
+
+#: tpl/listing/listing-info-prices.php:33
+msgid "Allow Additional Guests:"
+msgstr ""
+
+#: tpl/listing/listings-sort.php:8
+msgid "Alphabetical"
+msgstr ""
+
+#: tpl/user/booking-manage.php:121
+msgid "Alteration request"
+msgstr ""
+
+#: tpl/element/booking-search-popup.php:103
+#: tpl/element/booking-search-advanced.php:74
+#: tpl/listing/listing.php:23
+#: admin/menu.php:1215
+#: admin/menu.php:1297
+msgid "Amenities"
+msgstr ""
+
+#: admin/menu.php:456
+msgid "Amenities groups"
+msgstr ""
+
+#: admin/menu.php:588
+msgid "Amenities with images first"
+msgstr ""
+
+#: admin/menu.php:594
+msgid "Amenities with images only"
+msgstr ""
+
+#: admin/menu.php:591
+msgid "Amenities with images will be shown first at the top of the list"
+msgstr ""
+
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:336
+msgid "An error occurred while regenerating permalinks: "
+msgstr ""
+
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:109
+msgid "An error occurred."
+msgstr ""
+
+#: tpl/element/direct-inquiry-modal-v2.php:268
+msgid "Any special requests or questions?"
+msgstr ""
+
+#: inc/helpers.php:344
+#: tpl/user/booking-manage.php:183
+#: tpl/user/booking-manage.php:187
+msgid "Any time"
+msgstr ""
+
+#: admin/menu.php:199
+msgid "Applicable to NetPay"
+msgstr ""
+
+#: inc/class-hostifybooking-loader.php:731
+#: tpl/listing/listing-booking-form.php:69
+#: tpl/listing/listing-booking-form-on-request.php:63
+#: tpl/listing/listing-booking-form-v2.php:64
+msgid "Apply"
+msgstr ""
+
+#: inc/seo.php:56
+msgid "Apply SEO settings (such as a pretty URL) to the Listing on this page"
+msgstr ""
+
+#: tpl/element/booking-search-advanced.php:107
+msgid "Apply filters"
+msgstr ""
+
+#: inc/class-hostifybooking-loader.php:753
+msgid "Apr"
+msgstr ""
+
+#: inc/class-hostifybooking-loader.php:738
+msgid "April"
+msgstr ""
+
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:104
+msgid "Are you sure you want to delete this permalink?"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/backup.php:40
+msgid "Are you sure, you want to overwrite existing options?"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/backup.php:48
+msgid "Are you sure, you want to reset all options?"
+msgstr ""
+
+#: tpl/user/wishlist-item.php:40
+msgid "Area:"
+msgstr ""
+
+#: tpl/user/bookings-list-item.php:37
+msgid "Arrival:"
+msgstr ""
+
+#: inc/class-hostifybooking-loader.php:757
+msgid "Aug"
+msgstr ""
+
+#: inc/class-hostifybooking-loader.php:742
+msgid "August"
+msgstr ""
+
+#: admin/menu.php:1264
+msgid "Availability"
+msgstr ""
+
+#: tpl/element/price-block-on-request.php:4
+msgid "Available"
+msgstr ""
+
+#: admin/menu.php:1346
+msgid "Available Languages"
+msgstr ""
+
+#: tpl/payment/stripe-form-3ds-element-step-2.php:33
+#: tpl/payment/netpay-form.php:160
+#: tpl/payment/stripe-form-3ds-step-3.php:61
+#: tpl/payment/paypal-form.php:42
+#: tpl/payment/stripe-form-3ds-step-2.php:36
+#: tpl/payment/stripe-form-3ds-element-step-3.php:49
+msgid "Back"
+msgstr ""
+
+#: tpl/user/booking-manage.php:11
+msgid "Back to list"
+msgstr ""
+
+#: tpl/payment/_error.php:20
+#: tpl/payment/stripe-form-3ds_error.php:18
+msgid "Back to payment"
+msgstr ""
+
+#: admin/menu.php:1393
+msgid "Backup & Restore Translations"
+msgstr ""
+
+#: admin/menu.php:1403
+msgid "Backup Actions Explained:"
+msgstr ""
+
+#: admin/inc/translation-manager/translation-manager.php:86
+msgid "Backup created: %s"
+msgstr ""
+
+#: tpl/element/booking-search-popup.php:71
+#: tpl/element/booking-search-advanced.php:63
+msgid "Bathrooms"
+msgstr ""
+
+#: tpl/user/wishlist-item.php:38
+msgid "Baths:"
+msgstr ""
+
+#: tpl/element/booking-search.php:218
+msgid "Bedroom"
+msgstr ""
+
+#: tpl/element/booking-search-popup.php:57
+#: tpl/element/booking-search.php:212
+#: tpl/element/booking-search.php:218
+msgid "Bedrooms"
+msgstr ""
+
+#: tpl/user/wishlist-item.php:36
+msgid "Bedrooms:"
+msgstr ""
+
+#: tpl/element/price-block.php:52
+msgid "Book on Airbnb"
+msgstr ""
+
+#: admin/menu.php:1102
+msgid "Booking form"
+msgstr ""
+
+#: admin/menu.php:652
+msgid "Booking.com reviews only (10-star system)"
+msgstr ""
+
+#: tpl/payment/stripe-form.php:55
+#: tpl/payment/stripe-form-3ds-step-3.php:29
+msgid "CVC"
+msgstr ""
+
+#: inc/class-hostifybooking-loader.php:1275
+msgid "Cache is disabled now"
+msgstr ""
+
+#: admin/menu.php:987
+msgid "Can be used, for example, inside title (H1 tag) on the listing search page"
+msgstr ""
+
+#: inc/class-hostifybooking-loader.php:730
+#: tpl/element/direct-inquiry-modal-v2.php:292
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:108
+#: admin/exopite-simple-options/fields/upload.php:106
+#: admin/exopite-simple-options/fields/upload.php:138
+msgid "Cancel"
+msgstr ""
+
+#: tpl/user/booking-manage.php:221
+#: tpl/user/booking-manage.php:239
+msgid "Cancel booking"
+msgstr ""
+
+#: tpl/user/bookings-list.php:18
+msgid "Cancelled"
+msgstr ""
+
+#: tpl/payment/stripe-form.php:43
+#: tpl/payment/stripe-form-3ds-step-3.php:17
+msgid "Card number"
+msgstr ""
+
+#: tpl/user/booking-manage.php:258
+msgid "Change of business event"
+msgstr ""
+
+#: admin/menu.php:1313
+msgid "Changelog"
+msgstr ""
+
+#: tpl/element/booking-search.php:156
+#: tpl/element/booking-search.php:173
+#: tpl/element/booking-search.php:187
+#: tpl/element/direct-inquiry-modal-v2.php:106
+#: tpl/element/direct-inquiry-modal-v2.php:114
+#: tpl/element/direct-inquiry-modal.php:67
+#: tpl/element/direct-inquiry-modal.php:83
+#: tpl/payment/charge-preview.php:16
+#: tpl/payment/preview.php:20
+#: tpl/user/booking-manage.php:31
+#: tpl/listing/listing-booking-form.php:16
+#: tpl/listing/listing-booking-form.php:26
+#: tpl/listing/listing-booking-form.php:35
+#: tpl/listing/listing-booking-form-on-request.php:20
+#: tpl/listing/listing-booking-form-on-request.php:29
+#: tpl/listing/listing-booking-form-v2.php:17
+#: tpl/listing/listing-booking-form-v2.php:28
+#: tpl/listing/listing-booking-form-v2.php:37
+msgid "Check In"
+msgstr ""
+
+#: tpl/element/booking-search.php:156
+#: tpl/element/booking-search.php:173
+#: tpl/element/booking-search.php:197
+#: tpl/element/direct-inquiry-modal-v2.php:106
+#: tpl/element/direct-inquiry-modal-v2.php:119
+#: tpl/element/direct-inquiry-modal.php:67
+#: tpl/element/direct-inquiry-modal.php:96
+#: tpl/payment/charge-preview.php:20
+#: tpl/payment/preview.php:26
+#: tpl/user/booking-manage.php:36
+#: tpl/listing/listing-booking-form.php:16
+#: tpl/listing/listing-booking-form.php:26
+#: tpl/listing/listing-booking-form.php:42
+#: tpl/listing/listing-booking-form-on-request.php:20
+#: tpl/listing/listing-booking-form-on-request.php:36
+#: tpl/listing/listing-booking-form-v2.php:17
+#: tpl/listing/listing-booking-form-v2.php:28
+#: tpl/listing/listing-booking-form-v2.php:44
+msgid "Check Out"
+msgstr ""
+
+#: tpl/user/booking-manage.php:174
+msgid "Check in"
+msgstr ""
+
+#: tpl/user/booking-manage.php:194
+msgid "Check out"
+msgstr ""
+
+#: tpl/element/direct-inquiry-modal-v2.php:165
+#: tpl/element/guests-block.php:39
+#: tpl/element/direct-inquiry-modal.php:114
+#: tpl/payment/charge-preview.php:43
+#: tpl/payment/preview.php:60
+msgid "Children"
+msgstr ""
+
+#: tpl/user/booking-manage.php:202
+msgid "Children allowed:"
+msgstr ""
+
+#: admin/menu.php:1285
+msgid "Cities"
+msgstr ""
+
+#: tpl/payment/netpay-form.php:143
+msgid "City"
+msgstr ""
+
+#: tpl/listing/listing-info-prices.php:44
+msgid "Cleaning Fee: "
+msgstr ""
+
+#: tpl/element/price-block-default.php:132
+#: tpl/payment/preview-default.php:30
+msgid "Cleaning fee"
+msgstr ""
+
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:117
+msgid "Clear"
+msgstr ""
+
+#: admin/menu.php:1374
+msgid "Clear Comments"
+msgstr ""
+
+#: tpl/element/booking-search-popup.php:159
+msgid "Clear all"
+msgstr ""
+
+#: inc/class-hostifybooking-loader.php:1277
+msgid "Clear cache"
+msgstr ""
+
+#: tpl/element/direct-inquiry-modal-v2.php:126
+#: tpl/listing/listing-booking-form.php:97
+#: tpl/listing/listing-booking-form-on-request.php:90
+#: tpl/listing/listing-booking-form-v2.php:92
+msgid "Clear dates"
+msgstr ""
+
+#: admin/menu.php:837
+msgid "Clear this field if you do not need to do this check"
+msgstr ""
+
+#: admin/menu.php:571
+msgid "Click on a card will open the listing in a new tab/window"
+msgstr ""
+
+#: tpl/element/booking-search-popup.php:162
+#: tpl/element/direct-inquiry-modal-v2.php:17
+#: tpl/element/guests-block.php:144
+#: admin/exopite-simple-options/fields/upload.php:119
+msgid "Close"
+msgstr ""
+
+#: tpl/user/bookings-list-item.php:50
+msgid "Code:"
+msgstr ""
+
+#: admin/menu.php:1358
+#: admin/inc/translation-manager/translation-manager.php:88
+msgid "Compile MO Files"
+msgstr ""
+
+#: admin/menu.php:1357
+msgid "Compile all PO files to MO files (useful if you edited files externally):"
+msgstr ""
+
+#: admin/inc/translation-manager/translation-manager.php:70
+msgid "Compiling MO files..."
+msgstr ""
+
+#: admin/inc/translation-manager/translation-manager.php:87
+msgid "Compiling..."
+msgstr ""
+
+#: admin/menu.php:969
+msgid "Complex:"
+msgstr ""
+
+#: tpl/payment/charge-success.php:37
+msgid "Confirmation code"
+msgstr ""
+
+#: tpl/user/bookings-list-item.php:46
+msgid "Confirmed at:"
+msgstr ""
+
+#: tpl/payment/netpay-form.php:155
+msgid "Continue"
+msgstr ""
+
+#: admin/menu.php:965
+msgid "Copy the shortcode and place it on post, page, text, code widget, etc. Refer the plugin Readme and documentation for more info about shortcodes and parameters."
+msgstr ""
+
+#: tpl/payment/netpay-form.php:107
+#: tpl/payment/stripe-form-3ds-element-step-1.php:49
+#: tpl/payment/stripe-form-3ds-element-step-1.php:51
+#: tpl/payment/paypal-form-step-1.php:43
+#: tpl/payment/paypal-form-step-1.php:45
+#: tpl/payment/stripe-form-3ds-step-1.php:52
+#: tpl/payment/stripe-form-3ds-step-1.php:54
+msgid "Country"
+msgstr ""
+
+#: tpl/element/price-block-default.php:122
+#: tpl/element/price-block-accounting.php:118
+msgid "Coupon Discount"
+msgstr ""
+
+#: tpl/element/price-block-default.php:110
+#: tpl/element/price-block-accounting.php:106
+#: tpl/payment/preview-accounting.php:102
+#: tpl/payment/preview-accounting.php:107
+#: tpl/payment/preview-default.php:86
+#: tpl/payment/preview-default.php:91
+msgid "Coupon discount"
+msgstr ""
+
+#: admin/menu.php:1396
+msgid "Create Backup Now"
+msgstr ""
+
+#: admin/menu.php:1419
+msgid "Create backup of existing file before replacing"
+msgstr ""
+
+#: admin/menu.php:133
+#: admin/menu.php:156
+#: admin/menu.php:178
+#: admin/menu.php:200
+#: admin/menu.php:222
+#: admin/menu.php:244
+#: admin/menu.php:266
+msgid "Create new page"
+msgstr ""
+
+#: admin/menu.php:625
+#: admin/menu.php:693
+msgid "Custom URL"
+msgstr ""
+
+#: admin/menu.php:530
+msgid "Custom styles"
+msgstr ""
+
+#: admin/menu.php:898
+msgid "Custom template path"
+msgstr ""
+
+#: inc/class-hostifybooking-loader.php:761
+msgid "Dec"
+msgstr ""
+
+#: inc/class-hostifybooking-loader.php:746
+msgid "December"
+msgstr ""
+
+#: tpl/user/booking-manage.php:259
+msgid "Decided to stay home"
+msgstr ""
+
+#: admin/menu.php:517
+msgid "Default map type"
+msgstr ""
+
+#: admin/menu.php:549
+msgid "Default sorting"
+msgstr ""
+
+#: admin/menu.php:371
+msgid "Default term mode"
+msgstr ""
+
+#: admin/menu.php:327
+msgid "Default text if nothing is selected"
+msgstr ""
+
+#: admin/menu.php:584
+msgid "Define a list of amenities to show (IDs separated with a comma). All others will be hidden."
+msgstr ""
+
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:105
+#: admin/exopite-simple-options/fields/upload.php:110
+msgid "Delete"
+msgstr ""
+
+#: admin/menu.php:1398
+msgid "Delete All Backups"
+msgstr ""
+
+#: tpl/user/bookings-list-item.php:41
+msgid "Departure:"
+msgstr ""
+
+#: tpl/user/bookings-list-item.php:61
+msgid "Details"
+msgstr ""
+
+#: admin/menu.php:1275
+msgid "Dictionaries"
+msgstr ""
+
+#: admin/menu.php:883
+msgid "Disable data caching"
+msgstr ""
+
+#: admin/menu.php:939
+msgid "Disable overwriting of the payment templates"
+msgstr ""
+
+#: admin/menu.php:938
+msgid "Disable payment templates"
+msgstr ""
+
+#: tpl/element/direct-inquiry-modal-v2.php:257
+#: tpl/element/direct-inquiry-modal.php:134
+msgid "Discount Code"
+msgstr ""
+
+#: admin/menu.php:501
+msgid "Display many closely spaced markers as one cluster on the map"
+msgstr ""
+
+#: admin/menu.php:869
+msgid "Do not load Bootstrap library that comes with the plugin"
+msgstr ""
+
+#: admin/menu.php:878
+msgid "Do not load all the CSS that comes with the plugin, including Bootstrap"
+msgstr ""
+
+#: admin/menu.php:887
+msgid "Do not use cache - it can be useful for testing or troubleshooting"
+msgstr ""
+
+#: admin/menu.php:1428
+msgid "Documentation"
+msgstr ""
+
+#: tpl/element/booking-search-advanced.php:53
+msgid "Does not matter"
+msgstr ""
+
+#: admin/menu.php:1375
+msgid "Download .po File"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/backup.php:44
+msgid "Download Backup"
+msgstr ""
+
+#: admin/menu.php:1406
+msgid "Download all translation files as a ZIP archive for external storage"
+msgstr ""
+
+#: admin/menu.php:1410
+msgid "Download backups before plugin updates and store them safely. You can then upload individual .po files or restore entire backups after updates."
+msgstr ""
+
+#: admin/exopite-simple-options/fields/upload.php:71
+msgid "Drop files here"
+msgstr ""
+
+#: tpl/element/price-block-default.php:165
+#: tpl/element/price-block-default.php:176
+#: tpl/element/price-block-accounting.php:182
+#: tpl/element/price-block-accounting.php:193
+msgid "Due later"
+msgstr ""
+
+#: tpl/element/price-block-default.php:160
+#: tpl/element/price-block-default.php:171
+#: tpl/element/price-block-accounting.php:177
+#: tpl/element/price-block-accounting.php:188
+#: tpl/payment/preview.php:128
+msgid "Due now"
+msgstr ""
+
+#: tpl/element/price-block-accounting.php:137
+#: tpl/payment/preview.php:83
+msgid "Due upon arrival:"
+msgstr ""
+
+#: tpl/user/booking-manage.php:256
+msgid "Duplicate booking"
+msgstr ""
+
+#: admin/menu.php:632
+msgid "Dynamic Google Map"
+msgstr ""
+
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:106
+msgid "Edit"
+msgstr ""
+
+#: admin/menu.php:136
+#: admin/menu.php:159
+#: admin/menu.php:181
+#: admin/menu.php:203
+#: admin/menu.php:225
+#: admin/menu.php:247
+#: admin/menu.php:269
+msgid "Edit page"
+msgstr ""
+
+#: admin/menu.php:1366
+msgid "Edit translations directly in the admin interface. Select a language file and edit the translations below."
+msgstr ""
+
+#: tpl/element/direct-inquiry-modal-v2.php:81
+#: tpl/element/direct-inquiry-modal-v2.php:83
+#: tpl/element/direct-inquiry-modal.php:36
+#: tpl/payment/stripe-form.php:22
+#: tpl/payment/stripe-form.php:23
+#: tpl/payment/netpay-form.php:86
+#: tpl/payment/stripe-form-3ds-element-step-1.php:23
+#: tpl/payment/stripe-form-3ds-element-step-1.php:24
+#: tpl/payment/paypal-form-step-1.php:26
+#: tpl/payment/paypal-form-step-1.php:27
+#: tpl/payment/stripe-form-3ds-step-1.php:26
+#: tpl/payment/stripe-form-3ds-step-1.php:27
+msgid "Email"
+msgstr ""
+
+#: admin/menu.php:342
+msgid "Enable keyword search"
+msgstr ""
+
+#: admin/menu.php:950
+msgid "Enable the new reservation inquiry modal design."
+msgstr ""
+
+#: tpl/element/direct-inquiry-modal-v2.php:259
+msgid "Enter discount code (if available)"
+msgstr ""
+
+#: inc/helpers/ListingHelper.php:57
+msgid "Entire home/flat"
+msgstr ""
+
+#: tpl/payment/stripe-form-3ds-element.php:93
+msgid "Error"
+msgstr ""
+
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:113
+msgid "Error regenerating permalinks."
+msgstr ""
+
+#: admin/exopite-simple-options/fields/typography.php:186
+msgid "Error! Can not load json file."
+msgstr ""
+
+#: admin/inc/translation-manager/translation-manager.php:72
+msgid "Errors: %s"
+msgstr ""
+
+#: tpl/element/booking-search-popup.php:147
+msgid "Events allowed"
+msgstr ""
+
+#: admin/menu.php:1339
+msgid "Existing translation files (will add missing strings)"
+msgstr ""
+
+#: tpl/payment/stripe-form.php:50
+#: tpl/payment/stripe-form-3ds-step-3.php:25
+msgid "Expiration"
+msgstr ""
+
+#: tpl/element/price-block-default.php:139
+#: tpl/payment/preview-default.php:37
+msgid "Extra person"
+msgstr ""
+
+#: admin/menu.php:1341
+#: admin/inc/translation-manager/translation-manager.php:75
+msgid "Extract Strings"
+msgstr ""
+
+#: admin/menu.php:1334
+msgid "Extract Translatable Strings"
+msgstr ""
+
+#: admin/inc/translation-manager/translation-manager.php:74
+msgid "Extracting..."
+msgstr ""
+
+#: admin/inc/translation-manager/translation-manager.php:76
+msgid "Extraction completed successfully!"
+msgstr ""
+
+#: tpl/payment/stripe-form-3ds-element-step-2.php:9
+#: tpl/payment/stripe-form-3ds-step-2.php:12
+#: tpl/user/booking-manage.php:98
+msgid "Extras"
+msgstr ""
+
+#: admin/menu.php:1207
+msgid "Facilities"
+msgstr ""
+
+#: admin/inc/translation-manager/translation-manager.php:73
+msgid "Failed to compile MO files"
+msgstr ""
+
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:290
+msgid "Failed to delete permalink."
+msgstr ""
+
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:252
+msgid "Failed to update permalink."
+msgstr ""
+
+#: inc/class-hostifybooking-loader.php:751
+msgid "Feb"
+msgstr ""
+
+#: inc/class-hostifybooking-loader.php:736
+msgid "February"
+msgstr ""
+
+#: tpl/payment/stripe-form.php:34
+msgid "Feel free to leave any additional question..."
+msgstr ""
+
+#: tpl/payment/stripe-form-3ds-element-step-1.php:42
+#: tpl/payment/stripe-form-3ds-step-1.php:45
+msgid "Feel free to leave any additional questions..."
+msgstr ""
+
+#: admin/inc/translation-manager/translation-manager.php:85
+msgid "File uploaded and restored successfully!"
+msgstr ""
+
+#: admin/inc/translation-manager/translation-manager.php:79
+msgid "Files updated with source location comments: %s"
+msgstr ""
+
+#: admin/inc/translation-manager/translation-manager.php:78
+msgid "Files with new strings added: %s"
+msgstr ""
+
+#: admin/menu.php:339
+msgid "Filter locations while typing in selector"
+msgstr ""
+
+#: admin/menu.php:1380
+msgid "Filter translations:"
+msgstr ""
+
+#: tpl/element/direct-inquiry-modal-v2.php:68
+#: tpl/element/direct-inquiry-modal-v2.php:69
+#: tpl/element/direct-inquiry-modal.php:22
+msgid "First Name"
+msgstr ""
+
+#: tpl/user/booking-manage.php:257
+msgid "Flight / Train cancelled"
+msgstr ""
+
+#: tpl/payment/time-left.php:13
+msgid "For your security, this session has timed out."
+msgstr ""
+
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:119
+msgid "Found %d out of %d total"
+msgstr ""
+
+#: inc/class-hostifybooking-loader.php:780
+msgid "Fri"
+msgstr ""
+
+#: inc/class-hostifybooking-loader.php:770
+msgid "Friday"
+msgstr ""
+
+#: inc/shortcodes/inc/make-listing-item-vars.php:74
+msgid "From"
+msgstr ""
+
+#: tpl/user/bookings-list.php:14
+msgid "Future"
+msgstr ""
+
+#: admin/menu.php:840
+msgid "GA Events"
+msgstr ""
+
+#: admin/menu.php:1120
+msgid "Gallery"
+msgstr ""
+
+#: tpl/payment/stripe-form-3ds_success.php:58
+msgid "Go Back"
+msgstr ""
+
+#: tpl/payment/_success.php:85
+#: tpl/payment/charge-success.php:100
+#: tpl/payment/charge-error.php:41
+msgid "Go back"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/typography.php:93
+msgid "Google Fonts"
+msgstr ""
+
+#: admin/menu.php:497
+msgid "Group to clusters"
+msgstr ""
+
+#: tpl/listing/listing-info.php:16
+msgid "Guest access"
+msgstr ""
+
+#: admin/menu.php:1435
+msgid "Guest area setup"
+msgstr ""
+
+#: tpl/element/direct-inquiry-modal-v2.php:135
+#: tpl/payment/charge-preview.php:28
+#: tpl/payment/preview.php:38
+#: tpl/user/booking-manage.php:44
+msgid "Guests"
+msgstr ""
+
+#: tpl/listing/listing-booking-form.php:51
+#: tpl/listing/listing-booking-form-on-request.php:45
+msgid "Guests:"
+msgstr ""
+
+#: tpl/listing/listing-booking-form.php:66
+#: tpl/listing/listing-booking-form-on-request.php:60
+#: tpl/listing/listing-booking-form-v2.php:61
+msgid "Have a discount code?"
+msgstr ""
+
+#: tpl/payment/preview.php:158
+msgid "Hide details"
+msgstr ""
+
+#: tpl/listing/listings-map-toggle.php:11
+#: tpl/listing/listings-map-toggle.php:23
+#: tpl/listing/listings-map-toggle.php:34
+#: tpl/listing/listings-map-toggle.php:47
+msgid "Hide map"
+msgstr ""
+
+#: inc/class-hostifybooking-widget.php:47
+msgid "Hostify"
+msgstr ""
+
+#: inc/class-hostifybooking-widget.php:14
+msgid "Hostify Booking 1"
+msgstr ""
+
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:1384
+msgid "Hostify Booking Engine"
+msgstr ""
+
+#: inc/class-hostifybooking-widget.php:15
+msgid "Hostify Booking Widget 1"
+msgstr ""
+
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:1364
+msgid "Hostify cache cleared"
+msgstr ""
+
+#: admin/class-hostifybooking-admin.php:135
+msgid "Hostify cached data cleared"
+msgstr ""
+
+#: inc/seo.php:43
+msgid "Hostify settings"
+msgstr ""
+
+#: tpl/element/booking-search-popup.php:138
+#: tpl/user/booking-manage.php:171
+msgid "House rules"
+msgstr ""
+
+#: admin/menu.php:1349
+msgid "How to Use"
+msgstr ""
+
+#: admin/menu.php:523
+msgid "Hybrid"
+msgstr ""
+
+#: admin/menu.php:1300
+msgid "ID codes of available amenities"
+msgstr ""
+
+#: admin/menu.php:1288
+msgid "ID codes of available cities"
+msgstr ""
+
+#: admin/menu.php:346
+msgid "If enabled, a keyword search field will be added to the search form."
+msgstr ""
+
+#: admin/menu.php:360
+msgid "If enabled, only listings with the specified number of bedrooms will be shown in the search results."
+msgstr ""
+
+#: tpl/user/booking-manage.php:253
+msgid "Illness"
+msgstr ""
+
+#: admin/menu.php:562
+msgid "Images slider"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/backup.php:40
+msgid "Import a Backup"
+msgstr ""
+
+#: admin/menu.php:177
+msgid "In case you use the direct payment acceptance"
+msgstr ""
+
+#: inc/shortcodes/hfy-payment.php:120
+#: inc/ajax/hfy-ajax-payment-preview.php:114
+msgid "Incorrect parameters"
+msgstr ""
+
+#: tpl/element/direct-inquiry-modal-v2.php:181
+#: tpl/element/guests-block.php:64
+#: tpl/element/direct-inquiry-modal.php:119
+#: tpl/payment/charge-preview.php:45
+#: tpl/payment/preview.php:64
+msgid "Infants"
+msgstr ""
+
+#: admin/menu.php:1137
+msgid "Info"
+msgstr ""
+
+#: admin/menu.php:1435
+msgid "Initial setup"
+msgstr ""
+
+#: admin/menu.php:1365
+msgid "Inline Translation Editor"
+msgstr ""
+
+#: tpl/listing/listing-info.php:21
+msgid "Interaction with guests"
+msgstr ""
+
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:210
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:277
+msgid "Invalid data."
+msgstr ""
+
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:341
+msgid "Irks! An un-known error has occurred."
+msgstr ""
+
+#: inc/shortcodes/inc/load-settings.php:16
+msgid "Is not active"
+msgstr ""
+
+#: admin/menu.php:543
+msgid "Items (listings) per page"
+msgstr ""
+
+#: inc/class-hostifybooking-loader.php:750
+msgid "Jan"
+msgstr ""
+
+#: inc/class-hostifybooking-loader.php:735
+msgid "January"
+msgstr ""
+
+#: inc/class-hostifybooking-loader.php:756
+msgid "Jul"
+msgstr ""
+
+#: inc/class-hostifybooking-loader.php:741
+msgid "July"
+msgstr ""
+
+#: inc/class-hostifybooking-loader.php:755
+msgid "Jun"
+msgstr ""
+
+#: inc/class-hostifybooking-loader.php:740
+msgid "June"
+msgstr ""
+
+#: admin/menu.php:350
+msgid "Keyword search placeholder"
+msgstr ""
+
+#: tpl/element/direct-inquiry-modal-v2.php:73
+#: tpl/element/direct-inquiry-modal-v2.php:74
+#: tpl/element/direct-inquiry-modal.php:27
+msgid "Last Name"
+msgstr ""
+
+#: admin/menu.php:978
+msgid "List of Listings, show the search result"
+msgstr ""
+
+#: admin/menu.php:453
+msgid "List of amenities to show (ID separated by comma):"
+msgstr ""
+
+#: inc/shortcodes/inc/load-listing-price.php:17
+#: inc/shortcodes/hfy-payment.php:110
+#: inc/shortcodes/hfy-payment-charge.php:94
+#: inc/ajax/hfy-ajax-payment-preview.php:104
+msgid "Listing price is not available"
+msgstr ""
+
+#: admin/menu.php:1025
+msgid "Listing search form"
+msgstr ""
+
+#: admin/menu.php:796
+msgid "Listing slug"
+msgstr ""
+
+#: admin/menu.php:537
+#: admin/menu.php:975
+msgid "Listings"
+msgstr ""
+
+#: admin/menu.php:983
+msgid "Listings info"
+msgstr ""
+
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:1367
+msgid "Listings links updated"
+msgstr ""
+
+#: admin/menu.php:992
+msgid "Listings map"
+msgstr ""
+
+#: admin/menu.php:1000
+msgid "Listings map show/hide button"
+msgstr ""
+
+#: admin/menu.php:119
+msgid "Listings page"
+msgstr ""
+
+#: admin/menu.php:1007
+msgid "Listings sort control"
+msgstr ""
+
+#: admin/menu.php:336
+msgid "Live search"
+msgstr ""
+
+#: admin/menu.php:1372
+msgid "Load Translations"
+msgstr ""
+
+#: admin/inc/translation-manager/translation-manager.php:69
+msgid "Loaded %d translations from %s"
+msgstr ""
+
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:102
+msgid "Loading permalinks data..."
+msgstr ""
+
+#: tpl/user/booking-manage.php:254
+msgid "Local competition preferred"
+msgstr ""
+
+#: tpl/listing/listing.php:32
+#: admin/menu.php:1223
+msgid "Location"
+msgstr ""
+
+#: admin/menu.php:310
+msgid "Location selector options"
+msgstr ""
+
+#: admin/menu.php:323
+msgid "Location selector placeholder"
+msgstr ""
+
+#: tpl/element/booking-search.php:28
+msgid "Long-term bookings"
+msgstr ""
+
+#: admin/menu.php:1354
+msgid "MO files are automatically generated when you save translations through our editor."
+msgstr ""
+
+#: admin/menu.php:1128
+msgid "Main image"
+msgstr ""
+
+#: admin/menu.php:1356
+msgid "Maintenance"
+msgstr ""
+
+#: admin/menu.php:478
+msgid "Map"
+msgstr ""
+
+#: admin/menu.php:490
+msgid "Map price"
+msgstr ""
+
+#: admin/menu.php:484
+msgid "Map tracking"
+msgstr ""
+
+#: inc/class-hostifybooking-loader.php:752
+msgid "Mar"
+msgstr ""
+
+#: inc/class-hostifybooking-loader.php:737
+msgid "March"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/upload.php:180
+msgid "Max amount of files: "
+msgstr ""
+
+#: admin/exopite-simple-options/fields/upload.php:181
+msgid "Max file upload size: "
+msgstr ""
+
+#: admin/menu.php:414
+msgid "Max guests number"
+msgstr ""
+
+#: admin/menu.php:395
+msgid "Max infants number"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/group.php:348
+msgid "Max items:"
+msgstr ""
+
+#: admin/menu.php:407
+msgid "Max pets number"
+msgstr ""
+
+#: admin/menu.php:511
+msgid "Max zoom"
+msgstr ""
+
+#: tpl/element/direct-inquiry-modal-v2.php:245
+msgid "Maximum %d guests."
+msgstr ""
+
+#: tpl/listing/listing-info-prices.php:63
+msgid "Maximum Number Of Days: "
+msgstr ""
+
+#: inc/class-hostifybooking-loader.php:739
+#: inc/class-hostifybooking-loader.php:754
+msgid "May"
+msgstr ""
+
+#: inc/class-hostifybooking-loader.php:722
+#: inc/class-hostifybooking-loader.php:723
+#: inc/class-hostifybooking-loader.php:725
+#: inc/class-hostifybooking-loader.php:726
+msgid "Minimum stay %d night"
+msgid_plural "Minimum stay %d nights"
+msgstr[0] ""
+msgstr[1] ""
+
+#: admin/menu.php:743
+msgid "Miscellaneous"
+msgstr ""
+
+#: admin/inc/translation-manager/translation-manager.php:81
+msgid "Missing Translations Report:"
+msgstr ""
+
+#: inc/class-hostifybooking-loader.php:776
+msgid "Mon"
+msgstr ""
+
+#: inc/class-hostifybooking-loader.php:766
+msgid "Monday"
+msgstr ""
+
+#: tpl/listing/listing-info-prices.php:19
+msgid "Monthly (30d+):"
+msgstr ""
+
+#: tpl/element/booking-search-advanced.php:43
+msgid "More"
+msgstr ""
+
+#: admin/menu.php:825
+msgid "NOINDEX for selected listings"
+msgstr ""
+
+#: tpl/payment/stripe-form.php:15
+#: tpl/payment/stripe-form.php:16
+#: tpl/payment/netpay-form.php:79
+#: tpl/payment/stripe-form-3ds-element-step-1.php:14
+#: tpl/payment/stripe-form-3ds-element-step-1.php:15
+#: tpl/payment/paypal-form-step-1.php:17
+#: tpl/payment/paypal-form-step-1.php:18
+#: tpl/payment/stripe-form-3ds-step-1.php:17
+#: tpl/payment/stripe-form-3ds-step-1.php:18
+msgid "Name"
+msgstr ""
+
+#: tpl/element/pagination-block.php:37
+#: tpl/payment/stripe-form-3ds-element-step-2.php:36
+#: tpl/payment/stripe-form-3ds-element-step-1.php:65
+#: tpl/payment/paypal-form-step-1.php:59
+#: tpl/payment/stripe-form-3ds-step-2.php:39
+#: tpl/payment/stripe-form-3ds-step-1.php:68
+msgid "Next"
+msgstr ""
+
+#: tpl/listing/listing-info-prices.php:6
+msgid "Nightly:"
+msgstr ""
+
+#: tpl/user/booking-manage.php:199
+#: tpl/user/booking-manage.php:203
+#: tpl/user/booking-manage.php:207
+#: tpl/user/booking-manage.php:211
+#: admin/exopite-simple-options/fields/upload.php:127
+msgid "No"
+msgstr ""
+
+#: tpl/element/error-no-listings-available.php:2
+msgid "No accommodation available"
+msgstr ""
+
+#: tpl/element/error-no-listings-found.php:2
+msgid "No available properties for your search."
+msgstr ""
+
+#: inc/class-hostifybooking-loader.php:244
+msgid "No available properties for your selection."
+msgstr ""
+
+#: inc/shortcodes/inc/load-listing-seo.php:12
+#: inc/shortcodes/inc/load-listing.php:25
+msgid "No listing"
+msgstr ""
+
+#: inc/helpers.php:479
+#: inc/shortcodes/hfy-listing-location.php:20
+#: inc/shortcodes/hfy-listing-virtual-tour.php:13
+#: inc/shortcodes/hfy-listing-reviews-summary.php:13
+#: inc/shortcodes/hfy-listing-details-field.php:13
+#: inc/shortcodes/hfy-listing-info-interaction.php:12
+#: inc/shortcodes/hfy-listing-info-transit.php:12
+#: inc/shortcodes/hfy-listing-info-neighbourhood.php:12
+#: inc/shortcodes/hfy-listing-info-summary.php:12
+#: inc/shortcodes/hfy-listing-info.php:13
+#: inc/shortcodes/hfy-listing-gallery.php:13
+#: inc/shortcodes/hfy-listing-info-address.php:12
+#: inc/shortcodes/hfy-listing-booking-form.php:14
+#: inc/shortcodes/hfy-listing-info-house-rules.php:12
+#: inc/shortcodes/hfy-listing-field.php:13
+#: inc/shortcodes/hfy-listing.php:12
+#: inc/shortcodes/hfy-payment.php:33
+#: inc/shortcodes/hfy-listing-image.php:13
+#: inc/shortcodes/hfy-listing-info-permit.php:17
+#: inc/shortcodes/hfy-listing-facilities.php:13
+#: inc/shortcodes/hfy-listing-reviews-count.php:13
+#: inc/shortcodes/hfy-top-listings.php:15
+#: inc/shortcodes/hfy-listing-info-prices.php:17
+#: inc/shortcodes/hfy-listing-info-guest-access.php:12
+#: inc/shortcodes/hfy-listing-reviews-comments.php:13
+#: inc/shortcodes/hfy-listing-info-space.php:12
+#: inc/shortcodes/hfy-listing-title.php:13
+#: inc/shortcodes/hfy-listing-cancellation-policy.php:13
+#: inc/shortcodes/hfy-listing-amenities.php:13
+#: inc/shortcodes/hfy-listing-room-type.php:13
+#: inc/shortcodes/hfy-listing-info-notes.php:12
+#: inc/shortcodes/hfy-listing-availability.php:15
+#: inc/ajax/hfy-ajax-payment-preview.php:28
+msgid "No listing ID"
+msgstr ""
+
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:118
+msgid "No matching permalinks found."
+msgstr ""
+
+#: inc/shortcodes/hfy-payment.php:291
+msgid "No payment service"
+msgstr ""
+
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:103
+msgid "No permalinks found."
+msgstr ""
+
+#: admin/menu.php:615
+msgid "No redirect"
+msgstr ""
+
+#: inc/shortcodes/hfy-payment-charge.php:13
+msgid "No reservation ID"
+msgstr ""
+
+#: inc/shortcodes/hfy-payment-charge.php:19
+msgid "No reservation found"
+msgstr ""
+
+#: inc/shortcodes/hfy-user-booking-manage.php:63
+#: inc/shortcodes/hfy-user-booking-manage.php:71
+msgid "Not found"
+msgstr ""
+
+#: tpl/payment/stripe-form.php:35
+#: tpl/payment/_success.php:74
+#: tpl/payment/stripe-form-3ds-element-step-1.php:41
+#: tpl/payment/charge-success.php:89
+#: tpl/payment/stripe-form-3ds-step-1.php:44
+msgid "Note"
+msgstr ""
+
+#: tpl/user/bookings-list.php:31
+msgid "Nothing yet"
+msgstr ""
+
+#: inc/class-hostifybooking-loader.php:760
+msgid "Nov"
+msgstr ""
+
+#: inc/class-hostifybooking-loader.php:745
+msgid "November"
+msgstr ""
+
+#: inc/class-hostifybooking-loader.php:759
+msgid "Oct"
+msgstr ""
+
+#: inc/class-hostifybooking-loader.php:744
+msgid "October"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/upload.php:140
+msgid "Ok"
+msgstr ""
+
+#: admin/menu.php:597
+msgid "Only amenities with images will be displayed"
+msgstr ""
+
+#: admin/menu.php:446
+msgid "Only selected amenities will be used in the advanced search form"
+msgstr ""
+
+#: admin/menu.php:568
+msgid "Open in new window"
+msgstr ""
+
+#: admin/menu.php:1081
+msgid "Optional extras block with checkboxes"
+msgstr ""
+
+#: admin/menu.php:300
+msgid "Options"
+msgstr ""
+
+#: admin/menu.php:728
+msgid "Other"
+msgstr ""
+
+#: tpl/user/booking-manage.php:255
+msgid "Other destination preferred"
+msgstr ""
+
+#: tpl/listing/listing-info.php:26
+msgid "Other things to note"
+msgstr ""
+
+#: admin/menu.php:361
+msgid "Otherwise, by default, the result includes the specified number or more."
+msgstr ""
+
+#: admin/inc/translation-manager/translation-manager.php:80
+msgid "PO files with updated headers: %d files"
+msgstr ""
+
+#: admin/menu.php:132
+msgid "Page to show list of Listings or search result"
+msgstr ""
+
+#: admin/menu.php:115
+msgid "Pages"
+msgstr ""
+
+#: admin/menu.php:1145
+msgid "Part of hfy_listing_info"
+msgstr ""
+
+#: tpl/user/booking-manage.php:210
+msgid "Party allowed:"
+msgstr ""
+
+#: tpl/user/bookings-list.php:16
+msgid "Past"
+msgstr ""
+
+#: tpl/payment/stripe-form.php:91
+#: tpl/payment/netpay-form.php:163
+#: tpl/payment/netpay-form.php:178
+#: tpl/payment/netpay-form.php:302
+#: tpl/payment/stripe-form-3ds-step-3.php:65
+#: tpl/payment/stripe-form-3ds-element-step-3.php:53
+msgid "Pay"
+msgstr ""
+
+#: tpl/payment/payment-netpay.php:12
+#: tpl/payment/stripe-form-3ds-step-3.php:12
+#: tpl/payment/charge-error.php:22
+#: tpl/payment/stripe-form-3ds-element-step-3.php:12
+#: admin/menu.php:665
+msgid "Payment"
+msgstr ""
+
+#: tpl/payment/stripe-form-3ds_success.php:51
+msgid "Payment Amount"
+msgstr ""
+
+#: tpl/payment/stripe-form-3ds_success.php:43
+msgid "Payment Method"
+msgstr ""
+
+#: tpl/payment/stripe-form-3ds_success.php:12
+msgid "Payment Successful"
+msgstr ""
+
+#: tpl/payment/_success.php:63
+#: tpl/payment/charge-success.php:78
+msgid "Payment amount"
+msgstr ""
+
+#: admin/menu.php:186
+msgid "Payment charge page"
+msgstr ""
+
+#: tpl/payment/_success.php:51
+#: tpl/payment/charge-success.php:67
+msgid "Payment method"
+msgstr ""
+
+#: admin/menu.php:164
+#: admin/menu.php:1054
+msgid "Payment page"
+msgstr ""
+
+#: admin/menu.php:1062
+msgid "Payment result page"
+msgstr ""
+
+#: tpl/payment/_success.php:16
+#: tpl/payment/charge-success.php:27
+#: tpl/payment/paypal-form.php:69
+msgid "Payment successful"
+msgstr ""
+
+#: tpl/listing/listing-info-prices.php:50
+msgid "Per Stay City Free: "
+msgstr ""
+
+#: tpl/listing/listing-info-prices.php:56
+msgid "Per Stay Minimum Number Of Days: "
+msgstr ""
+
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:294
+msgid "Permalink deleted successfully."
+msgstr ""
+
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:110
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:256
+msgid "Permalink updated successfully."
+msgstr ""
+
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:112
+msgid "Permalinks regenerated successfully!"
+msgstr ""
+
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:330
+msgid "Permalinks regenerated successfully."
+msgstr ""
+
+#: admin/menu.php:1408
+msgid "Permanently delete this backup (cannot be undone)"
+msgstr ""
+
+#: tpl/listing/listing-info-permit.php:5
+msgid "Permit / Tax ID"
+msgstr ""
+
+#: tpl/payment/stripe-form-3ds-element-step-1.php:9
+#: tpl/payment/paypal-form-step-1.php:12
+#: tpl/payment/stripe-form-3ds-step-1.php:12
+msgid "Personal details"
+msgstr ""
+
+#: tpl/user/wishlist-item.php:34
+msgid "Persons:"
+msgstr ""
+
+#: tpl/element/direct-inquiry-modal-v2.php:197
+#: tpl/element/guests-block.php:96
+#: tpl/element/direct-inquiry-modal.php:128
+#: tpl/element/booking-search-advanced.php:50
+#: tpl/payment/charge-preview.php:47
+#: tpl/payment/preview.php:68
+msgid "Pets"
+msgstr ""
+
+#: tpl/element/booking-search-popup.php:143
+msgid "Pets allowed"
+msgstr ""
+
+#: tpl/element/direct-inquiry-modal-v2.php:239
+#: tpl/element/guests-block.php:136
+msgid "Pets allowed."
+msgstr ""
+
+#: tpl/user/booking-manage.php:206
+msgid "Pets allowed:"
+msgstr ""
+
+#: admin/menu.php:470
+msgid "Pets selector in advanced"
+msgstr ""
+
+#: tpl/element/direct-inquiry-modal-v2.php:90
+#: tpl/element/direct-inquiry-modal-v2.php:92
+#: tpl/element/direct-inquiry-modal.php:41
+#: tpl/payment/stripe-form.php:27
+#: tpl/payment/stripe-form.php:28
+#: tpl/payment/netpay-form.php:93
+#: tpl/payment/stripe-form-3ds-element-step-1.php:32
+#: tpl/payment/stripe-form-3ds-element-step-1.php:33
+#: tpl/payment/paypal-form-step-1.php:35
+#: tpl/payment/paypal-form-step-1.php:36
+#: tpl/payment/stripe-form-3ds-step-1.php:35
+#: tpl/payment/stripe-form-3ds-step-1.php:36
+msgid "Phone"
+msgstr ""
+
+#: tpl/payment/stripe-form-3ds-element-step-1.php:33
+#: tpl/payment/paypal-form-step-1.php:36
+#: tpl/payment/stripe-form-3ds-step-1.php:36
+msgid "Phone with country code is mandatory. For example: +1234567890"
+msgstr ""
+
+#: admin/menu.php:354
+msgid "Placeholder text for the keyword search field"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/backup.php:47
+msgid "Please be sure for reset all of framework options."
+msgstr ""
+
+#: tpl/payment/time-left.php:4
+msgid "Please complete the form and submit your payment within"
+msgstr ""
+
+#: tpl/user/booking-manage.php:267
+msgid "Please enter your comment or feedback here (optional)"
+msgstr ""
+
+#: tpl/user/error-please-login.php:3
+msgid "Please log in"
+msgstr ""
+
+#: tpl/payment/time-left.php:15
+msgid "Please refresh the page to start again."
+msgstr ""
+
+#: tpl/user/booking-manage.php:275
+msgid "Please tell us a reason or a comment"
+msgstr ""
+
+#: inc/shortcodes/inc/load-listing-seo.php:8
+#: inc/shortcodes/inc/load-data.php:6
+#: inc/shortcodes/inc/load-listing.php:20
+#: inc/shortcodes/inc/load-top-listings.php:7
+msgid "Please try again later"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/upload.php:182
+msgid "Plugin"
+msgstr ""
+
+#: tpl/payment/stripe-form-3ds-element-step-1.php:58
+#: tpl/payment/paypal-form-step-1.php:52
+#: tpl/payment/stripe-form-3ds-step-1.php:61
+msgid "Postal code"
+msgstr ""
+
+#: admin/menu.php:1071
+msgid "Predefined extras block"
+msgstr ""
+
+#: tpl/element/pagination-block.php:9
+msgid "Previous"
+msgstr ""
+
+#: tpl/element/booking-search-popup.php:119
+#: tpl/user/wishlist-item.php:45
+msgid "Price"
+msgstr ""
+
+#: tpl/user/wishlist.php:26
+#: tpl/listing/listings-sort.php:9
+msgid "Price ascending"
+msgstr ""
+
+#: tpl/user/wishlist.php:27
+#: tpl/listing/listings-sort.php:10
+msgid "Price descending"
+msgstr ""
+
+#: tpl/element/price-block-default.php:21
+#: tpl/element/price-block-accounting.php:13
+#: tpl/element/price-block-accounting.php:21
+#: tpl/payment/preview-accounting.php:12
+#: tpl/payment/preview-accounting.php:19
+#: tpl/payment/preview-default.php:23
+#: tpl/user/booking-manage.php:50
+msgid "Price for"
+msgstr ""
+
+#: tpl/payment/preview.php:142
+msgid "Price incl. security deposit"
+msgstr ""
+
+#: inc/shortcodes/inc/make-listing-tpl-vars.php:45
+#: tpl/listing/listing-booking-form-on-request.php:9
+msgid "Price on request"
+msgstr ""
+
+#: inc/helpers/ListingHelper.php:58
+msgid "Private room"
+msgstr ""
+
+#: tpl/element/price-block.php:28
+msgid "Proceed to payment"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/upload.php:88
+msgid "Processing dropped files..."
+msgstr ""
+
+#: tpl/element/booking-search-advanced.php:36
+msgid "Properties"
+msgstr ""
+
+#: tpl/payment/stripe-form-3ds_success.php:19
+msgid "Property"
+msgstr ""
+
+#: tpl/element/booking-search-popup.php:82
+msgid "Property Type"
+msgstr ""
+
+#: admin/menu.php:1394
+msgid "Protect your translation work from being lost during plugin updates. Create backups before updates and restore them afterward."
+msgstr ""
+
+#: tpl/element/direct-inquiry-modal-v2.php:266
+#: tpl/element/direct-inquiry-modal.php:146
+msgid "Question or Comment"
+msgstr ""
+
+#: admin/menu.php:74
+msgid "Read me first"
+msgstr ""
+
+#: tpl/user/booking-manage.php:250
+msgid "Reason"
+msgstr ""
+
+#: admin/menu.php:1046
+msgid "Recent listings"
+msgstr ""
+
+#: admin/menu.php:832
+msgid "Redirect 301"
+msgstr ""
+
+#: admin/menu.php:610
+msgid "Redirect if no listing"
+msgstr ""
+
+#: admin/menu.php:679
+msgid "Redirect on payment success"
+msgstr ""
+
+#: admin/menu.php:617
+msgid "Redirect to Home page"
+msgstr ""
+
+#: admin/menu.php:616
+msgid "Redirect to Listings page"
+msgstr ""
+
+#: admin/menu.php:618
+msgid "Redirect to custom URL"
+msgstr ""
+
+#: admin/menu.php:1397
+msgid "Refresh List"
+msgstr ""
+
+#: tpl/payment/time-left.php:20
+msgid "Refresh page"
+msgstr ""
+
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:114
+msgid "Regenerate Permalinks"
+msgstr ""
+
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:111
+msgid "Regenerating..."
+msgstr ""
+
+#: tpl/user/wishlist-item.php:17
+msgid "Remove from wish list"
+msgstr ""
+
+#: admin/menu.php:1259
+msgid "Render the iframe with link to the virtual tour"
+msgstr ""
+
+#: tpl/user/booking-manage.php:296
+msgid "Request has been sent."
+msgstr ""
+
+#: tpl/payment/stripe-form-3ds_success.php:25
+msgid "Reservation"
+msgstr ""
+
+#: tpl/element/direct-inquiry-modal-v2.php:13
+#: tpl/element/direct-inquiry-modal.php:17
+#: tpl/listing/listing-booking-form.php:102
+#: tpl/listing/listing-booking-form-on-request.php:95
+#: tpl/listing/listing-booking-form-v2.php:97
+msgid "Reservation Inquiry"
+msgstr ""
+
+#: tpl/user/booking-manage.php:148
+msgid "Reservation code"
+msgstr ""
+
+#: inc/class-hostifybooking-loader.php:732
+#: tpl/element/booking-search-advanced.php:106
+msgid "Reset"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/backup.php:48
+msgid "Reset All Options"
+msgstr ""
+
+#: admin/menu.php:1405
+msgid "Restore all translation files from this backup (overwrites current files)"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/upload.php:108
+msgid "Retry"
+msgstr ""
+
+#: admin/menu.php:646
+msgid "Review system"
+msgstr ""
+
+#: admin/menu.php:1352
+msgid "Review the updated translation files in the lang/ directory."
+msgstr ""
+
+#: admin/menu.php:640
+msgid "Reviews"
+msgstr ""
+
+#: admin/menu.php:1248
+msgid "Reviews comments"
+msgstr ""
+
+#: admin/menu.php:1240
+msgid "Reviews count"
+msgstr ""
+
+#: admin/menu.php:1232
+msgid "Reviews summary"
+msgstr ""
+
+#: admin/menu.php:521
+msgid "Roadmap (default)"
+msgstr ""
+
+#: admin/menu.php:1199
+msgid "Room type"
+msgstr ""
+
+#: inc/seo.php:52
+#: admin/menu.php:785
+msgid "SEO"
+msgstr ""
+
+#: admin/menu.php:789
+msgid "SEO for listings"
+msgstr ""
+
+#: inc/class-hostifybooking-loader.php:781
+msgid "Sat"
+msgstr ""
+
+#: admin/menu.php:522
+msgid "Satellite"
+msgstr ""
+
+#: inc/class-hostifybooking-loader.php:771
+msgid "Saturday"
+msgstr ""
+
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:107
+msgid "Save"
+msgstr ""
+
+#: admin/menu.php:1373
+msgid "Save Changes"
+msgstr ""
+
+#: inc/class-hostifybooking-loader.php:1280
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:1393
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:1406
+msgid "Save Settings"
+msgstr ""
+
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:1371
+msgid "Saved Successfully"
+msgstr ""
+
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:1371
+msgid "Saving..."
+msgstr ""
+
+#: tpl/element/booking-search-popup.php:163
+#: tpl/element/booking-search.php:260
+#: admin/menu.php:304
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:115
+msgid "Search"
+msgstr ""
+
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:116
+msgid "Search by ID or name..."
+msgstr ""
+
+#: inc/defines.php:89
+#: inc/defines.php:382
+#: tpl/element/booking-search.php:13
+#: admin/menu.php:353
+msgid "Search by keyword..."
+msgstr ""
+
+#: admin/menu.php:357
+msgid "Search for the exact number of bedrooms"
+msgstr ""
+
+#: admin/menu.php:1022
+msgid "Search form"
+msgstr ""
+
+#: admin/menu.php:1381
+msgid "Search translations..."
+msgstr ""
+
+#: tpl/listing/listing-info-prices.php:26
+msgid "Security Deposit:"
+msgstr ""
+
+#: tpl/element/price-block.php:19
+#: tpl/payment/preview.php:135
+msgid "Security deposit"
+msgstr ""
+
+#: tpl/listing/listings-selected-item.php:60
+#: tpl/listing/listings-recommended-item.php:60
+msgid "See more"
+msgstr ""
+
+#: tpl/element/booking-search-popup.php:73
+#: tpl/element/booking-search-advanced.php:53
+#: tpl/element/booking-search-advanced.php:65
+msgid "Select"
+msgstr ""
+
+#: admin/menu.php:1415
+msgid "Select .po file:"
+msgstr ""
+
+#: admin/menu.php:1368
+msgid "Select Language File:"
+msgstr ""
+
+#: admin/menu.php:443
+#: admin/menu.php:581
+msgid "Select amenities to show"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/upload.php:81
+msgid "Select files"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/gallery.php:26
+msgid "Select images for gallery"
+msgstr ""
+
+#: inc/defines.php:64
+#: inc/defines.php:336
+#: admin/menu.php:326
+msgid "Select location"
+msgstr ""
+
+#: tpl/user/booking-manage.php:251
+msgid "Select reason"
+msgstr ""
+
+#: admin/menu.php:527
+msgid "Select the default map type. Users can change this using the map type control."
+msgstr ""
+
+#: admin/menu.php:1030
+msgid "Selected listings"
+msgstr ""
+
+#: tpl/payment/preview-extras-set.php:7
+msgid "Selected plan:"
+msgstr ""
+
+#: tpl/element/direct-inquiry-modal.php:209
+#: tpl/user/booking-manage.php:289
+msgid "Send"
+msgstr ""
+
+#: tpl/element/direct-inquiry-modal-v2.php:295
+msgid "Send Inquiry"
+msgstr ""
+
+#: admin/menu.php:844
+msgid "Send custom events for Google Analytics using the Google tag (gtag) or Google Tag Manager (GTM)."
+msgstr ""
+
+#: inc/class-hostifybooking-loader.php:758
+msgid "Sep"
+msgstr ""
+
+#: inc/class-hostifybooking-loader.php:743
+msgid "September"
+msgstr ""
+
+#: inc/class-hostifybooking-loader.php:819
+#: inc/class-hostifybooking-loader.php:827
+msgid "Settings"
+msgstr ""
+
+#: inc/helpers/ListingHelper.php:59
+msgid "Shared room"
+msgstr ""
+
+#: admin/menu.php:986
+msgid "Short info about current search"
+msgstr ""
+
+#: admin/menu.php:435
+msgid "Short list of amenities"
+msgstr ""
+
+#: tpl/element/booking-search.php:32
+msgid "Short-term bookings"
+msgstr ""
+
+#: admin/menu.php:956
+msgid "Shortcodes"
+msgstr ""
+
+#: admin/menu.php:474
+msgid "Show Pets selector in advanced search form instead of Guests dialog"
+msgstr ""
+
+#: admin/menu.php:421
+msgid "Show age hints"
+msgstr ""
+
+#: admin/menu.php:422
+msgid "Show age hints in the guests selection dialog"
+msgstr ""
+
+#: admin/menu.php:1123
+msgid "Show all images for one listing"
+msgstr ""
+
+#: admin/menu.php:460
+msgid "Show amenities groups"
+msgstr ""
+
+#: admin/menu.php:738
+msgid "Show animated loader when loading images"
+msgstr ""
+
+#: admin/menu.php:504
+msgid "Show area"
+msgstr ""
+
+#: admin/menu.php:1105
+msgid "Show booking form for listing"
+msgstr ""
+
+#: tpl/payment/preview.php:157
+msgid "Show details"
+msgstr ""
+
+#: admin/menu.php:671
+msgid "Show discount"
+msgstr ""
+
+#: admin/menu.php:675
+msgid "Show discount/coupon controls"
+msgstr ""
+
+#: admin/menu.php:636
+msgid "Show dynamic google map "
+msgstr ""
+
+#: admin/menu.php:734
+msgid "Show image preloader"
+msgstr ""
+
+#: admin/menu.php:389
+msgid "Show infants selector"
+msgstr ""
+
+#: admin/menu.php:1140
+msgid "Show info block for listing"
+msgstr ""
+
+#: admin/menu.php:895
+msgid "Show links for quick access"
+msgstr ""
+
+#: admin/menu.php:891
+msgid "Show links on admin bar"
+msgstr ""
+
+#: admin/menu.php:1218
+msgid "Show listing amenities for listing"
+msgstr ""
+
+#: admin/menu.php:1210
+msgid "Show listing facilities for listing"
+msgstr ""
+
+#: admin/menu.php:1226
+msgid "Show listing location on map. And there is a synonym: [hfy_listing_map]."
+msgstr ""
+
+#: admin/menu.php:1251
+msgid "Show listing reviews comment"
+msgstr ""
+
+#: admin/menu.php:1243
+msgid "Show listing reviews count number"
+msgstr ""
+
+#: admin/menu.php:1235
+msgid "Show listing reviews summary"
+msgstr ""
+
+#: admin/menu.php:1114
+msgid "Show listing title"
+msgstr ""
+
+#: admin/menu.php:1033
+msgid "Show listings by ID, city ID"
+msgstr ""
+
+#: admin/menu.php:995
+msgid "Show listings on map"
+msgstr ""
+
+#: admin/menu.php:381
+msgid "Show long/short terms selector"
+msgstr ""
+
+#: admin/menu.php:1131
+msgid "Show main image for one listing"
+msgstr ""
+
+#: tpl/listing/listings-map-toggle.php:8
+#: tpl/listing/listings-map-toggle.php:20
+#: tpl/listing/listings-map-toggle.php:31
+#: tpl/listing/listings-map-toggle.php:44
+msgid "Show map"
+msgstr ""
+
+#: tpl/element/booking-search-popup.php:97
+msgid "Show more"
+msgstr ""
+
+#: admin/menu.php:705
+msgid "Show optional extras on payment page"
+msgstr ""
+
+#: admin/menu.php:1065
+msgid "Show payment result"
+msgstr ""
+
+#: admin/menu.php:1057
+msgid "Show payment summary and form"
+msgstr ""
+
+#: admin/menu.php:401
+msgid "Show pets selector"
+msgstr ""
+
+#: admin/menu.php:494
+msgid "Show price labels on the map instead of pins"
+msgstr ""
+
+#: admin/menu.php:1049
+msgid "Show recent listings"
+msgstr ""
+
+#: admin/menu.php:656
+msgid "Show review source"
+msgstr ""
+
+#: admin/menu.php:1202
+msgid "Show room type info for listing"
+msgstr ""
+
+#: admin/menu.php:1017
+msgid "Show single listing by ID"
+msgstr ""
+
+#: admin/menu.php:508
+msgid "Show the approximate area instead of the exact location point"
+msgstr ""
+
+#: admin/menu.php:660
+msgid "Show the source platform (Airbnb/Booking.com) next to each review"
+msgstr ""
+
+#: admin/menu.php:1041
+msgid "Show top listings"
+msgstr ""
+
+#: admin/menu.php:1382
+msgid "Show untranslated only"
+msgstr ""
+
+#: admin/menu.php:487
+msgid "Show/hide listings in search results while map moving"
+msgstr ""
+
+#: admin/menu.php:575
+#: admin/menu.php:1014
+msgid "Single listing"
+msgstr ""
+
+#: admin/menu.php:142
+msgid "Single listing page"
+msgstr ""
+
+#: tpl/element/booking-search-popup.php:151
+msgid "Smoking allowed"
+msgstr ""
+
+#: tpl/user/booking-manage.php:198
+msgid "Smoking allowed:"
+msgstr ""
+
+#: tpl/user/booking-manage.php:282
+msgid "Sorry, an error occured. Please try again later."
+msgstr ""
+
+#: inc/shortcodes/hfy-payment.php:267
+msgid "Sorry, listing currency not supported by PayPal"
+msgstr ""
+
+#: tpl/user/wishlist.php:24
+#: tpl/listing/listings-sort.php:6
+msgid "Sort by:"
+msgstr ""
+
+#: tpl/payment/netpay-form.php:118
+#: tpl/payment/netpay-form.php:123
+#: tpl/payment/netpay-form.php:132
+msgid "State"
+msgstr ""
+
+#: tpl/element/direct-inquiry-modal-v2.php:97
+msgid "Stay Dates"
+msgstr ""
+
+#: admin/menu.php:917
+msgid "Stripe payment element form"
+msgstr ""
+
+#: tpl/element/booking-search.php:214
+#: tpl/listing/listing-facilities.php:16
+msgid "Studio"
+msgstr ""
+
+#: tpl/element/price-block-accounting.php:153
+#: tpl/payment/preview-accounting.php:53
+#: tpl/payment/preview.php:99
+#: tpl/user/booking-manage.php:92
+msgid "Subtotal"
+msgstr ""
+
+#: admin/inc/translation-manager/translation-manager.php:71
+msgid "Successfully compiled %d MO files."
+msgstr ""
+
+#: inc/class-hostifybooking-loader.php:775
+msgid "Sun"
+msgstr ""
+
+#: inc/class-hostifybooking-loader.php:765
+msgid "Sunday"
+msgstr ""
+
+#: admin/menu.php:330
+msgid "Tags menu"
+msgstr ""
+
+#: tpl/element/price-block-default.php:146
+#: tpl/payment/preview-default.php:44
+msgid "Tax"
+msgstr ""
+
+#: tpl/payment/preview.php:103
+msgid "Taxes"
+msgstr ""
+
+#: admin/menu.php:1338
+msgid "Template file for translations"
+msgstr ""
+
+#: admin/menu.php:524
+msgid "Terrain"
+msgstr ""
+
+#: tpl/element/direct-inquiry-modal-v2.php:53
+msgid "Thank you for your inquiry!"
+msgstr ""
+
+#: tpl/payment/netpay-form.php:180
+msgid "The amount will be converted to mexican pesos"
+msgstr ""
+
+#: admin/menu.php:888
+msgid "The plugin uses data caching both on the Hostify API and WordPress side. Sometimes during development and configuration process, it can interfere or confuse."
+msgstr ""
+
+#: tpl/listing/listing-info.php:11
+msgid "The space"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/attached.php:30
+msgid "There is no attachment with type %1$s for this %2$s."
+msgstr ""
+
+#: tpl/payment/charge-error.php:32
+msgid "There was a problem with your payment"
+msgstr ""
+
+#: tpl/payment/_error.php:5
+#: tpl/payment/stripe-form-3ds_error.php:3
+msgid "There was a problem with your payment. Please try again."
+msgstr ""
+
+#: admin/menu.php:347
+msgid "This allows users to search for listings by keywords like property names, descriptions, amenities, city names, or neighbourhoods. Works with API v3 for comprehensive search across all listings."
+msgstr ""
+
+#: inc/class-hostifybooking-loader.php:727
+msgid "This date is not available for check-in"
+msgstr ""
+
+#: inc/class-hostifybooking-loader.php:728
+msgid "This date is not available for check-out"
+msgstr ""
+
+#: admin/menu.php:155
+msgid "This page will be used in links to certain Listing"
+msgstr ""
+
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:224
+msgid "This permalink is already in use. Please choose another one."
+msgstr ""
+
+#: tpl/element/direct-inquiry-modal-v2.php:225
+msgid "This place has a maximum of %d guests, infants not allowed."
+msgstr ""
+
+#: tpl/element/direct-inquiry-modal-v2.php:223
+msgid "This place has a maximum of %d guests, not including infants."
+msgstr ""
+
+#: tpl/element/guests-block.php:122
+msgid "This place has a maximum of {max} guests, infants not allowed."
+msgstr ""
+
+#: tpl/element/guests-block.php:121
+msgid "This place has a maximum of {max} guests, not including infants."
+msgstr ""
+
+#: admin/menu.php:870
+msgid "This plugin uses the Bootstrap CSS framework. If there are any problems or conflicts with the installed plugins or theme, you can prevent the Hostiy plugin from loading this framework."
+msgstr ""
+
+#: admin/menu.php:1335
+msgid "This tool will scan all PHP files in the plugin and extract translatable strings. It will update the following files:"
+msgstr ""
+
+#: inc/class-hostifybooking-loader.php:779
+msgid "Thu"
+msgstr ""
+
+#: inc/class-hostifybooking-loader.php:769
+msgid "Thursday"
+msgstr ""
+
+#: admin/menu.php:1410
+msgid "Tip:"
+msgstr ""
+
+#: admin/menu.php:1111
+msgid "Title"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/upload.php:182
+msgid "To increase file upload limit in the standard built-in WordPress media uploader up as large as available disk space allows, you could use"
+msgstr ""
+
+#: admin/menu.php:265
+msgid "To show a list of Listings that user was marked"
+msgstr ""
+
+#: admin/menu.php:221
+msgid "To show list of user bookings"
+msgstr ""
+
+#: admin/menu.php:243
+msgid "To show single booking details"
+msgstr ""
+
+#: admin/menu.php:199
+msgid "To show the payment result"
+msgstr ""
+
+#: admin/menu.php:1038
+msgid "Top listings"
+msgstr ""
+
+#: inc/shortcodes/inc/make-listing-item-vars.php:73
+#: tpl/element/price-block-default.php:154
+#: tpl/element/price-block-accounting.php:167
+#: tpl/payment/charge-preview.php:57
+#: tpl/payment/preview.php:116
+#: tpl/user/booking-manage.php:111
+msgid "Total"
+msgstr ""
+
+#: admin/inc/translation-manager/translation-manager.php:77
+msgid "Total strings found: %d"
+msgstr ""
+
+#: tpl/user/bookings-list-item.php:55
+msgid "Total:"
+msgstr ""
+
+#: tpl/payment/stripe-form-3ds_success.php:37
+msgid "Transaction Date"
+msgstr ""
+
+#: tpl/payment/_success.php:26
+#: tpl/payment/charge-success.php:47
+#: tpl/payment/stripe-form-3ds_success.php:31
+msgid "Transaction No"
+msgstr ""
+
+#: tpl/payment/_success.php:36
+#: tpl/payment/charge-success.php:57
+msgid "Transaction date"
+msgstr ""
+
+#: admin/menu.php:1343
+msgid "Translation Files Location"
+msgstr ""
+
+#: admin/menu.php:1344
+msgid "Translation files are located in:"
+msgstr ""
+
+#: admin/menu.php:1326
+msgid "Translation manager"
+msgstr ""
+
+#: admin/inc/translation-manager/translation-manager.php:68
+msgid "Translations saved successfully!"
+msgstr ""
+
+#: tpl/element/error-no-listings-found.php:5
+msgid "Try to change the filter conditions."
+msgstr ""
+
+#: tpl/element/error-no-listings-found.php:9
+msgid "Try to move or resize the map."
+msgstr ""
+
+#: inc/class-hostifybooking-loader.php:777
+msgid "Tue"
+msgstr ""
+
+#: inc/class-hostifybooking-loader.php:767
+msgid "Tuesday"
+msgstr ""
+
+#: admin/menu.php:865
+msgid "Turn off Boostrap"
+msgstr ""
+
+#: admin/menu.php:874
+msgid "Turn off CSS"
+msgstr ""
+
+#: inc/ajax/hfy-ajax-listing-price.php:81
+msgid "Unavailable"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/upload.php:84
+msgid "Upload"
+msgstr ""
+
+#: admin/menu.php:1417
+#: admin/inc/translation-manager/translation-manager.php:84
+msgid "Upload & Restore"
+msgstr ""
+
+#: admin/menu.php:1412
+msgid "Upload Translation File"
+msgstr ""
+
+#: admin/menu.php:1413
+msgid "Upload a .po file to restore translations after a plugin update:"
+msgstr ""
+
+#: admin/inc/translation-manager/translation-manager.php:83
+msgid "Uploading..."
+msgstr ""
+
+#: admin/menu.php:910
+msgid "Use API v3"
+msgstr ""
+
+#: admin/menu.php:924
+msgid "Use Calendar v2"
+msgstr ""
+
+#: admin/menu.php:931
+msgid "Use Calendar v3"
+msgstr ""
+
+#: admin/menu.php:945
+msgid "Use New Inquiry Form"
+msgstr ""
+
+#: admin/menu.php:714
+msgid "Use current WP language setting"
+msgstr ""
+
+#: admin/menu.php:715
+msgid "Use custom:"
+msgstr ""
+
+#: admin/menu.php:604
+msgid "Use new dialog for guests select: adults, children, infants, pets."
+msgstr ""
+
+#: admin/menu.php:600
+msgid "Use new guests template"
+msgstr ""
+
+#: admin/menu.php:1353
+msgid "Use our Inline Translation Editor (below) to translate strings directly in the admin interface, or use external tools like Poedit or Loco Translate to edit the .po files."
+msgstr ""
+
+#: admin/menu.php:439
+msgid "Use short list of predefined amenities."
+msgstr ""
+
+#: admin/menu.php:230
+msgid "User booking details page"
+msgstr ""
+
+#: admin/menu.php:208
+msgid "User bookings list page"
+msgstr ""
+
+#: admin/menu.php:252
+msgid "User wishlist page"
+msgstr ""
+
+#: admin/menu.php:1407
+msgid "View the server path and web URL where backup files are stored"
+msgstr ""
+
+#: tpl/listing/listing-virtual-tour.php:4
+#: admin/menu.php:1256
+msgid "Virtual tour"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/typography.php:87
+msgid "Web Safe Fonts"
+msgstr ""
+
+#: inc/class-hostifybooking-loader.php:778
+msgid "Wed"
+msgstr ""
+
+#: inc/class-hostifybooking-loader.php:768
+msgid "Wednesday"
+msgstr ""
+
+#: tpl/listing/listing-info-prices.php:12
+msgid "Weekends (Sat & Sun):"
+msgstr ""
+
+#: tpl/user/error-wishlist-empty.php:3
+msgid "Wishlist is empty"
+msgstr ""
+
+#: tpl/element/price-block-default.php:123
+#: tpl/element/price-block-accounting.php:119
+msgid "Wrong or inactive code"
+msgstr ""
+
+#: tpl/user/booking-manage.php:199
+#: tpl/user/booking-manage.php:203
+#: tpl/user/booking-manage.php:207
+#: tpl/user/booking-manage.php:211
+#: tpl/listing/listing-info-prices.php:34
+#: admin/exopite-simple-options/fields/upload.php:129
+msgid "Yes"
+msgstr ""
+
+#: inc/shortcodes/hfy-user-bookings-list.php:17
+msgid "You are not logged in"
+msgstr ""
+
+#: inc/shortcodes/hfy-user-bookings-list.php:22
+msgid "You currently do not have any bookings yet"
+msgstr ""
+
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:134
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:202
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:270
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:307
+msgid "You do not have permission to perform this action."
+msgstr ""
+
+#: tpl/listing/listing-booking-form.php:68
+#: tpl/listing/listing-booking-form-on-request.php:62
+#: tpl/listing/listing-booking-form-v2.php:63
+msgid "Your discount code..."
+msgstr ""
+
+#: tpl/user/booking-manage.php:139
+msgid "Your reservation"
+msgstr ""
+
+#: tpl/payment/stripe-form.php:60
+#: tpl/payment/netpay-form.php:150
+#: tpl/payment/stripe-form-3ds-element-step-1.php:59
+#: tpl/payment/paypal-form-step-1.php:53
+#: tpl/payment/stripe-form-3ds-step-1.php:62
+msgid "ZIP"
+msgstr ""
+
+#: tpl/listing/listing-facilities.php:32
+msgid "baths"
+msgstr ""
+
+#: tpl/listing/listings-selected-item.php:28
+#: tpl/listing/listings-recommended-item.php:28
+#: tpl/listing/listing-facilities.php:18
+msgid "bedrooms"
+msgstr ""
+
+#: tpl/listing/listings-selected-item.php:24
+#: tpl/listing/listings-recommended-item.php:24
+#: tpl/listing/listing-facilities.php:24
+msgid "beds"
+msgstr ""
+
+#: admin/exopite-simple-options/fields/backup.php:39
+msgid "copy-paste your backup string here"
+msgstr ""
+
+#: tpl/element/price-block-default.php:93
+#: tpl/element/price-block-accounting.php:89
+#: tpl/payment/preview-accounting.php:88
+#: tpl/payment/preview-default.php:72
+msgid "discount"
+msgstr ""
+
+#: admin/menu.php:1072
+#: admin/menu.php:1082
+msgid "for payment page"
+msgstr ""
+
+#: tpl/user/wishlist-item.php:49
+#: tpl/listing/listings-selected-item.php:53
+#: tpl/listing/listing-info-prices.php:7
+#: tpl/listing/listing-info-prices.php:13
+#: tpl/listing/listing-info-prices.php:20
+#: tpl/listing/listings-recommended-item.php:53
+msgid "from"
+msgstr ""
+
+#: tpl/listing/listings-selected-item.php:20
+#: tpl/listing/listings-recommended-item.php:20
+#: tpl/listing/listing-facilities.php:11
+msgid "guests"
+msgstr ""
+
+#: inc/shortcodes/inc/make-listing-item-vars.php:79
+#: inc/shortcodes/inc/make-listing-tpl-vars.php:38
+msgid "month"
+msgstr ""
+
+#: tpl/element/price-block-default.php:55
+#: tpl/element/price-block-default.php:80
+#: tpl/element/price-block-accounting.php:51
+#: tpl/element/price-block-accounting.php:76
+#: tpl/payment/preview-accounting.php:69
+#: tpl/payment/preview-default.php:53
+msgid "monthly discount"
+msgstr ""
+
+#: inc/shortcodes/inc/make-listing-item-vars.php:79
+#: inc/shortcodes/inc/make-listing-tpl-vars.php:41
+#: inc/shortcodes/hfy-listing-gallery.php:44
+msgid "night"
+msgstr ""
+
+#: inc/shortcodes/hfy-listing-gallery.php:44
+#: tpl/element/price-block-default.php:21
+#: tpl/element/price-block-accounting.php:21
+#: tpl/payment/preview-accounting.php:19
+#: tpl/payment/preview-default.php:23
+#: tpl/user/booking-manage.php:50
+msgid "nights"
+msgstr ""
+
+#: tpl/user/wishlist-item.php:47
+#: tpl/listing/listings-selected-item.php:51
+#: tpl/listing/listings-recommended-item.php:51
+msgid "on request"
+msgstr ""
+
+#: admin/menu.php:120
+msgid "or listings search result [hfy_listings]"
+msgstr ""
+
+#: admin/menu.php:80
+msgid "readme.txt"
+msgstr ""
+
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:1388
+msgid "settings search..."
+msgstr ""
+
+#: tpl/listing/listing-facilities.php:31
+msgid "shared baths"
+msgstr ""
+
+#: tpl/listing/listing-amenities.php:6
+msgid "show more &rarr;"
+msgstr ""
+
+#: admin/menu.php:143
+msgid "single page [hfy_listing]"
+msgstr ""
+
+#: admin/inc/translation-manager/class-string-extractor.php:139
+#: admin/inc/translation-manager/class-string-extractor.php:142
+msgid "singular"
+msgid_plural "plural"
+msgstr[0] ""
+msgstr[1] ""
+
+#: tpl/user/booking-manage.php:186
+msgid "start from"
+msgstr ""
+
+#: inc/shortcodes/inc/make-listing-item-vars.php:77
+msgid "stay"
+msgstr ""
+
+#: admin/inc/translation-manager/class-string-extractor.php:102
+#: admin/inc/translation-manager/class-string-extractor.php:108
+#: admin/inc/translation-manager/class-string-extractor.php:111
+#: admin/inc/translation-manager/class-string-extractor.php:132
+#: admin/inc/translation-manager/class-string-extractor.php:105
+#: admin/inc/translation-manager/class-string-extractor.php:114
+#: admin/inc/translation-manager/class-string-extractor.php:117
+#: admin/inc/translation-manager/class-string-extractor.php:120
+#: admin/inc/translation-manager/class-string-extractor.php:126
+#: admin/inc/translation-manager/class-string-extractor.php:129
+#: admin/inc/translation-manager/class-string-extractor.php:136
+#: admin/inc/translation-manager/class-string-extractor.php:123
+msgid "string"
+msgstr ""
+
+#: tpl/user/booking-manage.php:188
+msgid "till"
+msgstr ""
+
+#: tpl/element/price-block-default.php:62
+#: tpl/element/price-block-default.php:73
+#: tpl/element/price-block-accounting.php:58
+#: tpl/element/price-block-accounting.php:69
+#: tpl/payment/preview-accounting.php:76
+#: tpl/payment/preview-default.php:60
+msgid "weekly discount"
+msgstr ""
+
+#: tpl/user/bookings-list.php:12
+msgid "Сurrent"
+msgstr ""
+

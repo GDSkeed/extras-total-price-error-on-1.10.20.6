@@ -1,0 +1,4633 @@
+# Copyright (C) 2025 Hostify Booking Engine
+# This file is distributed under the same license as the Hostify Booking Engine package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Hostify Booking Engine\n"
+"Report-Msgid-Bugs-To: https://hostify.com\n"
+"POT-Creation-Date: 2024-07-26 00:31+0300\n"
+"PO-Revision-Date: 2025-07-07 15:58+0000
+"Last-Translator: \n"
+"Language-Team: Spanish <es@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Hostify Booking Engine String Extractor\n"
+
+#: lang/strings_to_translate.php:2
+#: tpl/element/booking-search-advanced.php:14
+msgid "Hostify cached data cleared"
+msgstr "Datos en caché de Hostify eliminados"
+
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:271
+#, php-format
+#: lang/strings_to_translate.php:6
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:271
+msgid "%s is missing in the configuration array"
+msgstr "%s falta en la matriz de configuración"
+
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:341
+msgid "Irks! An un-known error has occurred."
+msgstr "¡Qué fastidio! Se ha producido un error desconocido."
+
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:631
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:648
+#: inc/class-hostifybooking-loader.php:668
+#: inc/class-hostifybooking-loader.php:676
+msgid "Settings"
+msgstr "Ajustes"
+
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:695
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:699
+msgid "Plugin Options"
+msgstr "Opciones del plugin"
+
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:1303
+msgid "ERROR:"
+msgstr "ERROR:"
+
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:1304
+msgid "This field class is not available!"
+msgstr "¡Esta clase de campo no está disponible!"
+
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:1367
+msgid "Listings links updated"
+msgstr "Enlaces de anuncios actualizados"
+
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:1371
+msgid "Saving..."
+msgstr "Guardando..."
+
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:1371
+msgid "Saved Successfully"
+msgstr "Guardado exitosamente"
+
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:1388
+msgid "settings search..."
+msgstr "buscar ajustes..."
+
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:1393
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:1406
+#: inc/class-hostifybooking-loader.php:1093
+msgid "Save Settings"
+msgstr "Guardar ajustes"
+
+#: admin/exopite-simple-options/fields/attached.php:30
+#, php-format
+#: lang/strings_to_translate.php:621
+#: admin/exopite-simple-options/fields/attached.php:30
+msgid "There is no attachment with type %1$s for this %2$s."
+msgstr "No hay ningún archivo adjunto del tipo %1$s para este %2$s."
+
+#: admin/exopite-simple-options/fields/backup.php:39
+msgid "copy-paste your backup string here"
+msgstr "copia y pega tu cadena de respaldo aquí"
+
+#: admin/exopite-simple-options/fields/backup.php:40
+msgid "Are you sure, you want to overwrite existing options?"
+msgstr "¿Estás seguro de que deseas sobrescribir las opciones existentes?"
+
+#: admin/exopite-simple-options/fields/backup.php:40
+msgid "Import a Backup"
+msgstr "Importar copia de seguridad"
+
+#: admin/exopite-simple-options/fields/backup.php:44
+msgid "Download Backup"
+msgstr "Descargar copia de seguridad"
+
+#: admin/exopite-simple-options/fields/backup.php:47
+msgid "Please be sure for reset all of framework options."
+msgstr "Por favor, asegúrate de restablecer todas las opciones del framework."
+
+#: admin/exopite-simple-options/fields/backup.php:48
+msgid "Are you sure, you want to reset all options?"
+msgstr "¿Estás seguro de que deseas restablecer todas las opciones?"
+
+#: admin/exopite-simple-options/fields/backup.php:48
+msgid "Reset All Options"
+msgstr "Restablecer todas las opciones"
+
+#: admin/exopite-simple-options/fields/gallery.php:25
+msgid "Add to gallery"
+msgstr "Añadir a la galería"
+
+#: admin/exopite-simple-options/fields/gallery.php:26
+msgid "Select images for gallery"
+msgstr "Seleccionar imágenes para la galería"
+
+#: admin/exopite-simple-options/fields/gallery.php:27
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:33
+msgid "Add"
+msgstr "Añadir"
+
+#: admin/exopite-simple-options/fields/group.php:348
+msgid "Max items:"
+msgstr "Máximo de elementos:"
+
+#: admin/exopite-simple-options/fields/image.php:77
+msgid "Add Image"
+msgstr "Añadir imagen"
+
+#: admin/exopite-simple-options/fields/typography.php:87
+msgid "Web Safe Fonts"
+msgstr "Fuentes seguras para web"
+
+#: admin/exopite-simple-options/fields/typography.php:93
+msgid "Google Fonts"
+msgstr "Fuentes de Google"
+
+#: admin/exopite-simple-options/fields/typography.php:186
+msgid "Error! Can not load json file."
+msgstr "¡Error! No se puede cargar el archivo json."
+
+#: admin/exopite-simple-options/fields/upload.php:71
+msgid "Drop files here"
+msgstr "Suelta los archivos aquí"
+
+#: admin/exopite-simple-options/fields/upload.php:81
+msgid "Select files"
+msgstr "Seleccionar archivos"
+
+#: admin/exopite-simple-options/fields/upload.php:84
+msgid "Upload"
+msgstr "Subir"
+
+#: admin/exopite-simple-options/fields/upload.php:88
+msgid "Processing dropped files..."
+msgstr "Procesando archivos soltados..."
+
+#: admin/exopite-simple-options/fields/upload.php:106
+#: admin/exopite-simple-options/fields/upload.php:138
+#: inc/vendors/action-scheduler/classes/ActionScheduler_ListTable.php:133
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: admin/exopite-simple-options/fields/upload.php:108
+msgid "Retry"
+msgstr "Reintentar"
+
+#: admin/exopite-simple-options/fields/upload.php:110
+#: inc/vendors/action-scheduler/classes/ActionScheduler_ListTable.php:92
+msgid "Delete"
+msgstr "Eliminar"
+
+#: admin/exopite-simple-options/fields/upload.php:119
+#: lang/strings_to_translate.php:45 tpl/element/booking-search-popup.php:162
+#: tpl/element/guests-block.php:138
+msgid "Close"
+msgstr "Cerrar"
+
+#: admin/exopite-simple-options/fields/upload.php:127
+#: lang/strings_to_translate.php:138 tpl/user/booking-manage.php:199
+#: tpl/user/booking-manage.php:203 tpl/user/booking-manage.php:207
+#: tpl/user/booking-manage.php:211
+msgid "No"
+msgstr "No"
+
+#: admin/exopite-simple-options/fields/upload.php:129
+#: lang/strings_to_translate.php:224 tpl/listing/listing-info-prices.php:41
+#: tpl/user/booking-manage.php:199 tpl/user/booking-manage.php:203
+#: tpl/user/booking-manage.php:207 tpl/user/booking-manage.php:211
+msgid "Yes"
+msgstr "Sí"
+
+#: admin/exopite-simple-options/fields/upload.php:140
+msgid "Ok"
+msgstr "Aceptar"
+
+#: admin/exopite-simple-options/fields/upload.php:180
+msgid "Max amount of files: "
+msgstr "Cantidad máxima de archivos: "
+
+#: admin/exopite-simple-options/fields/upload.php:181
+msgid "Max file upload size: "
+msgstr "Tamaño máximo de archivo para subir: "
+
+#: admin/exopite-simple-options/fields/video.php:63
+msgid "Add Video"
+msgstr "Añadir video"
+
+#: admin/menu.php:55
+msgid "Read me first"
+msgstr "Léeme primero"
+
+#: admin/menu.php:71
+msgid "API settings"
+msgstr "Configuración de la API"
+
+#: admin/menu.php:75
+msgid "API URL"
+msgstr "URL de la API"
+
+#: admin/menu.php:82
+msgid "API WPKEY"
+msgstr "WPKEY de la API"
+
+#: admin/menu.php:96
+msgid "Pages"
+msgstr "Páginas"
+
+#: admin/menu.php:100
+msgid "Listings page"
+msgstr "Página de anuncios"
+
+#: admin/menu.php:101
+msgid "or listings search result [hfy_listings]"
+msgstr "o resultados de búsqueda de anuncios [hfy_listings]"
+
+#: admin/menu.php:113
+msgid "Page to show list of Listings or search result"
+msgstr "Página para mostrar lista de anuncios o resultados de búsqueda"
+
+#: admin/menu.php:114 admin/menu.php:137 admin/menu.php:159 admin/menu.php:181
+#: admin/menu.php:203 admin/menu.php:225 admin/menu.php:247
+msgid "Create new page"
+msgstr "Crear nueva página"
+
+#: admin/menu.php:117 admin/menu.php:140 admin/menu.php:162 admin/menu.php:184
+#: admin/menu.php:206 admin/menu.php:228 admin/menu.php:250
+msgid "Edit page"
+msgstr "Editar página"
+
+#: admin/menu.php:123
+msgid "Single listing page"
+msgstr "Página de anuncio individual"
+
+#: admin/menu.php:124
+msgid "single page [hfy_listing]"
+msgstr "página individual [hfy_listing]"
+
+#: admin/menu.php:136
+msgid "This page will be used in links to certain Listing"
+msgstr "Esta página se usará en enlaces a ciertos anuncios"
+
+#: admin/menu.php:145 admin/menu.php:793
+msgid "Payment page"
+msgstr "Página de pago"
+
+#: admin/menu.php:158
+msgid "In case you use the direct payment acceptance"
+msgstr "En caso de que use la aceptación de pago directo"
+
+#: admin/menu.php:167
+msgid "Payment charge page"
+msgstr "Página de cargo de pago"
+
+#: admin/menu.php:180
+msgid "To show the payment result"
+msgstr "Para mostrar el resultado del pago"
+
+#: admin/menu.php:180
+msgid "Applicable to NetPay"
+msgstr "Aplicable a NetPay"
+
+#: admin/menu.php:189
+msgid "User bookings list page"
+msgstr "Página de lista de reservas del usuario"
+
+#: admin/menu.php:202
+msgid "To show list of user bookings"
+msgstr "Para mostrar lista de reservas del usuario"
+
+#: admin/menu.php:211
+msgid "User booking details page"
+msgstr "Página de detalles de reserva del usuario"
+
+#: admin/menu.php:224
+msgid "To show single booking details"
+msgstr "Para mostrar detalles de una reserva"
+
+#: admin/menu.php:233
+msgid "User wishlist page"
+msgstr "Página de lista de deseos del usuario"
+
+#: admin/menu.php:246
+msgid "To show a list of Listings that user was marked"
+msgstr "Para mostrar una lista de anuncios marcados por el usuario"
+
+#: admin/menu.php:289
+msgid "Options"
+msgstr "Opciones"
+
+#: admin/menu.php:294
+#: inc/vendors/action-scheduler/classes/abstracts/ActionScheduler_Abstract_ListTable.php:765
+#: lang/strings_to_translate.php:175 tpl/element/booking-search-popup.php:163
+#: tpl/element/booking-search.php:177
+msgid "Search"
+msgstr "Buscar"
+
+#: admin/menu.php:300
+msgid "Location selector options"
+msgstr "Opciones del selector de ubicación"
+
+#: admin/menu.php:312
+msgid "Location selector placeholder"
+msgstr "Marcador de posición del selector de ubicación"
+
+#: admin/menu.php:315 inc/defines.php:63 inc/defines.php:254
+msgid "Select location"
+msgstr "Seleccionar ubicación"
+
+#: admin/menu.php:316
+msgid "Default text if nothing is selected"
+msgstr "Texto predeterminado si no se selecciona nada"
+
+#: admin/menu.php:319
+msgid "Tags menu"
+msgstr "Menú de etiquetas"
+
+#: admin/menu.php:322
+msgid "Name of WP menu (<a href=\""
+msgstr "Nombre del menú de WP (<a href=\""
+
+#: admin/menu.php:325
+msgid "Live search"
+msgstr "Búsqueda en vivo"
+
+#: admin/menu.php:329
+msgid "Filter locations while typing in selector"
+msgstr "Filtrar ubicaciones mientras se escribe en el selector"
+
+#: admin/menu.php:332
+msgid "Search for the exact number of bedrooms"
+msgstr "Buscar por número exacto de habitaciones"
+
+#: admin/menu.php:336
+msgid "If enabled, only listings with the specified number of bedrooms will be shown in the search results."
+msgstr "Si está activado, solo se mostrarán en los resultados los anuncios con el número especificado de habitaciones."
+
+#: admin/menu.php:337
+msgid "Otherwise, by default, the result includes the specified number or more."
+msgstr "De lo contrario, por defecto, el resultado incluye el número especificado o más."
+
+#: admin/menu.php:340
+msgid "Show \"Studio\" option"
+msgstr "Mostrar opción \"Estudio\""
+
+#: admin/menu.php:344
+msgid "If enabled, \"Studio\" option will be added to the bedroom selection."
+msgstr "Si está activado, se agregará la opción \"Estudio\" a la selección de habitaciones."
+
+#: admin/menu.php:347
+msgid "Default term mode"
+msgstr "Modo de plazo predeterminado"
+
+#: admin/menu.php:357
+msgid "Show long/short terms selector"
+msgstr "Mostrar selector de plazos largos/cortos"
+
+#: admin/menu.php:361
+msgid "If enabled, the \"short-term\" and \"long-term bookings\" will be added the search form."
+msgstr "Si está activado, se agregarán las \"reservas a corto plazo\" y \"reservas a largo plazo\" al formulario de búsqueda."
+
+#: admin/menu.php:365
+msgid "Show infants selector"
+msgstr "Mostrar selector de bebés"
+
+#: admin/menu.php:371
+msgid "Max infants number"
+msgstr "Número máximo de bebés"
+
+#: admin/menu.php:377
+msgid "Show pets selector"
+msgstr "Mostrar selector de mascotas"
+
+#: admin/menu.php:383
+msgid "Max pets number"
+msgstr "Número máximo de mascotas"
+
+#: admin/menu.php:390
+msgid "Max guests number"
+msgstr "Número máximo de huéspedes"
+
+#: admin/menu.php:397 lang/strings_to_translate.php:5
+msgid "Advanced search"
+msgstr "Búsqueda avanzada"
+
+#: admin/menu.php:403
+msgid "Short list of amenities"
+msgstr "Lista corta de comodidades"
+
+#: admin/menu.php:407
+msgid "Use short list of predefined amenities."
+msgstr "Usar lista corta de comodidades predefinidas."
+
+#: admin/menu.php:408
+msgid "ATTENTION: If disabled, all available amenities will be shown, this can be a huge list, so it is recommended to use the options below in this case."
+msgstr "ATENCIÓN: Si está desactivado, se mostrarán todas las comodidades disponibles, lo que puede ser una lista muy grande, por lo que se recomienda usar las opciones siguientes en este caso."
+
+#: admin/menu.php:411 admin/menu.php:514
+msgid "Select amenities to show"
+msgstr "Seleccionar comodidades para mostrar"
+
+#: admin/menu.php:415
+msgid "Only selected amenities will be used in the advanced search form"
+msgstr "Solo las comodidades seleccionadas se usarán en el formulario de búsqueda avanzada"
+
+#: admin/menu.php:422
+msgid "List of amenities to show (ID separated by comma):"
+msgstr "Lista de comodidades para mostrar (ID separados por coma):"
+
+#: admin/menu.php:425
+msgid "Amenities groups"
+msgstr "Grupos de comodidades"
+
+#: admin/menu.php:429
+msgid "Show amenities groups"
+msgstr "Mostrar grupos de comodidades"
+
+#: admin/menu.php:432
+msgid "Hide 'Other' group"
+msgstr "Ocultar grupo 'Otros'"
+
+#: admin/menu.php:436
+msgid "Do not show 'Other' group in advanced search"
+msgstr "No mostrar grupo 'Otros' en búsqueda avanzada"
+
+#: admin/menu.php:439
+msgid "Pets selector in advanced"
+msgstr "Selector de mascotas en avanzado"
+
+#: admin/menu.php:443
+msgid "Show Pets selector in advanced search form instead of Guests dialog"
+msgstr "Mostrar selector de mascotas en formulario de búsqueda avanzada en lugar del diálogo de huéspedes"
+
+#: admin/menu.php:447
+msgid "Map"
+msgstr "Mapa"
+
+#: admin/menu.php:453
+msgid "Map tracking"
+msgstr "Seguimiento de mapa"
+
+#: admin/menu.php:457
+msgid "Show/hide listings in search results while map moving"
+msgstr "Mostrar/ocultar anuncios en resultados de búsqueda mientras se mueve el mapa"
+
+#: admin/menu.php:460
+msgid "Map price"
+msgstr "Precio en mapa"
+
+#: admin/menu.php:464
+msgid "Show price labels on the map instead of pins"
+msgstr "Mostrar etiquetas de precio en el mapa en lugar de marcadores"
+
+#: admin/menu.php:467
+msgid "Group to clusters"
+msgstr "Agrupar en clusters"
+
+#: admin/menu.php:471
+msgid "Display many closely spaced markers as one cluster on the map"
+msgstr "Mostrar varios marcadores cercanos como un cluster en el mapa"
+
+#: admin/menu.php:474
+msgid "Show area"
+msgstr "Mostrar área"
+
+#: admin/menu.php:478
+msgid "Show the approximate area instead of the exact location point"
+msgstr "Mostrar el área aproximada en lugar del punto de ubicación exacto"
+
+#: admin/menu.php:482 admin/menu.php:737
+msgid "Listings"
+msgstr "Anuncios"
+
+#: admin/menu.php:488
+msgid "Items (listings) per page"
+msgstr "Elementos (anuncios) por página"
+
+#: admin/menu.php:494
+msgid "Default sorting"
+msgstr "Orden predeterminado"
+
+#: admin/menu.php:508
+msgid "Listing"
+msgstr "Anuncio"
+
+#: admin/menu.php:517
+"Define a list of amenities to show (IDs separated with a comma). All others "
+"will be hidden."
+msgstr "Defina una lista de comodidades para mostrar (IDs separadas por coma). Todas las demás estarán ocultas."
+
+#: admin/menu.php:521
+msgid "Amenities with images first"
+msgstr "Comodidades con imágenes primero"
+
+#: admin/menu.php:525
+msgid "Amenities with images will be shown first at the top of the list"
+msgstr "Las comodidades con imágenes se mostrarán primero en la parte superior de la lista"
+
+#: admin/menu.php:528
+msgid "Amenities with images only"
+msgstr "Solo comodidades con imágenes"
+
+#: admin/menu.php:532
+msgid "Only amenities with images will be displayed"
+msgstr "Solo se mostrarán las comodidades con imágenes"
+
+#: admin/menu.php:535
+msgid "Use new guests template"
+msgstr "Usar nueva plantilla de huéspedes"
+
+#: admin/menu.php:539
+msgid "Use new dialog for guests select: adults, children, infants, pets."
+msgstr "Usar nuevo diálogo para seleccionar huéspedes: adultos, niños, bebés, mascotas."
+
+#: admin/menu.php:543 tpl/payment/payment-netpay.php:12
+#: tpl/payment/payment-paypal.php:12 tpl/payment/payment.php:12
+msgid "Payment"
+msgstr "Pago"
+
+#: admin/menu.php:549
+msgid "Show discount"
+msgstr "Mostrar descuento"
+
+#: admin/menu.php:553
+msgid "Show discount/coupon controls"
+msgstr "Mostrar controles de descuentos/cupones"
+
+#: admin/menu.php:557
+msgid "Redirect on payment success"
+msgstr "Redirigir al éxito del pago"
+
+#: admin/menu.php:571
+msgid "Custom URL"
+msgstr "URL personalizada"
+
+#: admin/menu.php:595 inc/seo.php:52
+msgid "SEO"
+msgstr "SEO"
+
+#: admin/menu.php:599
+msgid "SEO for listings"
+msgstr "SEO para listados"
+
+#: admin/menu.php:606
+msgid "Listing slug"
+msgstr "Slug del anuncio"
+
+#: admin/menu.php:629
+msgid "NOINDEX for selected listings"
+msgstr "NOINDEX para los anuncios seleccionados"
+
+#: admin/menu.php:636
+msgid "Redirect 301"
+msgstr "Redirección 301"
+
+#: admin/menu.php:640
+"If the requested listing is not found, the page will be redirected to the "
+"specified URL, instead of \"No listing\" message"
+msgstr "Si no se encuentra el anuncio solicitado, la página se redirigirá a la URL especificada, en lugar del mensaje \"Sin anuncio\""
+
+#: admin/menu.php:641
+msgid "Clear this field if you do not need to do this check"
+msgstr "Deje este campo vacío si no necesita hacer esta comprobación"
+
+#: admin/menu.php:644
+msgid "GA Events"
+msgstr "Eventos de GA"
+
+#: admin/menu.php:648
+"Send custom events for Google Analytics using the Google tag (gtag) or "
+"Google Tag Manager (GTM)."
+msgstr "Enviar eventos personalizados para Google Analytics usando la etiqueta de Google (gtag) o Google Tag Manager (GTM)."
+
+#: admin/menu.php:655
+"<b>NOTES</b>: <ol><li>You need to add the gtag.js or gtm snippet. Please "
+"refer: <a href=\"https://developers.google.com/analytics/devguides/"
+"collection/ga4/events?client_type=gtag\" target=\"_blank\">Set up events for "
+"Google tag</a>.</li><li>You can install one of ready-to-use plugins: <a href="
+"\""
+msgstr "<b>NOTAS</b>: <ol><li>Debe agregar el fragmento gtag.js o gtm. Consulte: <a href=\"https://developers.google.com/analytics/devguides/collection/ga4/events?client_type=gtag\" target=\"_blank\">Configurar eventos para Google tag</a>.</li><li>Puede instalar uno de los plugins listos para usar: <a href=\""
+
+#: admin/menu.php:665
+msgid "Admin options"
+msgstr "Opciones de administración"
+
+#: admin/menu.php:669
+msgid "Turn off Boostrap"
+msgstr "Desactivar Bootstrap"
+
+#: admin/menu.php:673
+msgid "Do not load Bootstrap library that comes with the plugin"
+msgstr "No cargar la biblioteca Bootstrap que viene con el plugin"
+
+#: admin/menu.php:674 tpl/payment/_success.php:74
+#: tpl/payment/stripe-form-3ds.php:39 tpl/payment/stripe-form.php:35
+msgid "Note"
+msgstr "Nota"
+
+#: admin/menu.php:674
+"This plugin uses the Bootstrap CSS framework. If there are any problems or "
+"conflicts with the installed plugins or theme, you can prevent the Hostiy "
+"plugin from loading this framework."
+msgstr "Este plugin utiliza el framework CSS de Bootstrap. Si hay algún problema o conflicto con los plugins o el tema instalados, puede evitar que el plugin Hostify cargue este framework."
+
+#: admin/menu.php:687
+msgid "Disable data caching"
+msgstr "Desactivar el almacenamiento en caché de datos"
+
+#: admin/menu.php:691
+msgid "Do not use cache - it can be useful for testing or troubleshooting"
+msgstr "No usar caché - puede ser útil para pruebas o resolución de problemas"
+
+#: admin/menu.php:692
+"The plugin uses data caching both on the Hostify API and WordPress side. "
+"Sometimes during development and configuration process, it can interfere or "
+"confuse."
+msgstr "El plugin utiliza almacenamiento en caché de datos tanto en la API de Hostify como en WordPress. A veces, durante el desarrollo y la configuración, puede interferir o confundir."
+
+#: admin/menu.php:695
+msgid "Show links on admin bar"
+msgstr "Mostrar enlaces en la barra de administración"
+
+#: admin/menu.php:699
+msgid "Show links for quick access"
+msgstr "Mostrar enlaces para un acceso rápido"
+
+#: admin/menu.php:702
+msgid "Custom template path"
+msgstr "Ruta de plantilla personalizada"
+
+#: admin/menu.php:705
+"You can place your templates not only in the current theme folder, but also "
+"in another place on the server that is available for you. In this case, you "
+"can specify the path to this folder."
+msgstr "Puede colocar sus plantillas no solo en la carpeta del tema actual, sino también en otro lugar del servidor que esté disponible para usted. En este caso, puede especificar la ruta a esta carpeta."
+
+#: admin/menu.php:708
+msgid "Use API v3"
+msgstr "Usar API v3"
+
+#: admin/menu.php:718
+msgid "Shortcodes"
+msgstr "Shortcodes"
+
+#: admin/menu.php:727
+"Copy the shortcode and place it on post, page, text, code widget, etc. Refer "
+"the plugin Readme and documentation for more info about shortcodes and "
+"parameters."
+msgstr "Copie el shortcode y colóquelo en una entrada, página, widget de texto, código, etc. Consulte el Readme y la documentación del plugin para más información sobre shortcodes y parámetros."
+
+#: admin/menu.php:731
+msgid "Complex:"
+msgstr "Complejo:"
+
+#: admin/menu.php:737
+msgid "Listings"
+msgstr "Anuncios"
+
+#: admin/menu.php:740
+msgid "List of Listings, show the search result"
+msgstr "Lista de anuncios, mostrar el resultado de la búsqueda"
+
+#: admin/menu.php:745
+msgid "Listings map"
+msgstr "Mapa de anuncios"
+
+#: admin/menu.php:748
+msgid "Show listings on map"
+msgstr "Mostrar anuncios en el mapa"
+
+#: admin/menu.php:753
+msgid "Single listing"
+msgstr "Anuncio único"
+
+#: admin/menu.php:756
+msgid "Show single listing by ID"
+msgstr "Mostrar anuncio único por ID"
+
+#: admin/menu.php:761
+msgid "Search form"
+msgstr "Formulario de búsqueda"
+
+#: admin/menu.php:764
+msgid "Listing search form"
+msgstr "Formulario de búsqueda de anuncios"
+
+#: admin/menu.php:769
+msgid "Selected listings"
+msgstr "Anuncios seleccionados"
+
+#: admin/menu.php:772
+msgid "Show listings by ID, city ID"
+msgstr "Mostrar anuncios por ID, ID de ciudad"
+
+#: admin/menu.php:777
+msgid "Top listings"
+msgstr "Anuncios principales"
+
+#: admin/menu.php:780
+msgid "Show top listings"
+msgstr "Mostrar anuncios principales"
+
+#: admin/menu.php:785
+msgid "Recent listings"
+msgstr "Anuncios recientes"
+
+#: admin/menu.php:788
+msgid "Show recent listings"
+msgstr "Mostrar anuncios recientes"
+
+#: admin/menu.php:796
+msgid "Show payment summary and form"
+msgstr "Mostrar resumen y formulario de pago"
+
+#: admin/menu.php:810
+msgid "Predefined extras block"
+msgstr "Bloque de extras predefinidos"
+
+#: admin/menu.php:811 admin/menu.php:821
+msgid "for payment page"
+msgstr "para la página de pago"
+
+#: admin/menu.php:820
+msgid "Optional extras block with checkboxes"
+msgstr "Bloque de extras opcionales con casillas de verificación"
+
+#: admin/menu.php:835
+msgid "Listing parts:"
+msgstr "Partes del anuncio:"
+
+#: admin/menu.php:841
+msgid "Booking form"
+msgstr "Formulario de reserva"
+
+#: admin/menu.php:844
+msgid "Show booking form for listing"
+msgstr "Mostrar formulario de reserva para el anuncio"
+
+#: admin/menu.php:850
+msgid "Title"
+msgstr "Título"
+
+#: admin/menu.php:853
+msgid "Show listing title"
+msgstr "Mostrar título del anuncio"
+
+#: admin/menu.php:859 lang/strings_to_translate.php:83
+msgid "Gallery"
+msgstr "Galería"
+
+#: admin/menu.php:862
+msgid "Show all images for one listing"
+msgstr "Mostrar todas las imágenes de un anuncio"
+
+#: admin/menu.php:867
+msgid "Main image"
+msgstr "Imagen principal"
+
+#: admin/menu.php:870
+msgid "Show main image for one listing"
+msgstr "Mostrar imagen principal de un anuncio"
+
+#: admin/menu.php:876
+msgid "Info"
+msgstr "Información"
+
+#: admin/menu.php:879
+msgid "Show info block for listing"
+msgstr "Mostrar bloque de información para el anuncio"
+
+#: admin/menu.php:884
+msgid "Part of hfy_listing_info"
+msgstr "Parte de hfy_listing_info"
+
+#: admin/menu.php:938
+msgid "Room type"
+msgstr "Tipo de habitación"
+
+#: admin/menu.php:941
+msgid "Show room type info for listing"
+msgstr "Mostrar información del tipo de habitación para el anuncio"
+
+#: admin/menu.php:946
+msgid "Facilities"
+msgstr "Instalaciones"
+
+#: admin/menu.php:949
+msgid "Show listing facilities for listing"
+msgstr "Mostrar instalaciones del anuncio"
+
+#: admin/menu.php:954 lang/strings_to_translate.php:8
+#: tpl/element/booking-search-advanced.php:74
+#: tpl/element/booking-search-popup.php:103 tpl/listing/listing.php:17
+msgid "Amenities"
+msgstr "Comodidades"
+
+#: admin/menu.php:957
+msgid "Show listing amenities for listing"
+msgstr "Mostrar comodidades del anuncio"
+
+#: admin/menu.php:962 tpl/listing/listing-reviews-summary.php:56
+#: tpl/listing/listing.php:22
+msgid "Location"
+msgstr "Ubicación"
+
+#: admin/menu.php:965
+"Show listing location on map. And there is a synonym: [hfy_listing_map]."
+msgstr "Mostrar la ubicación del anuncio en el mapa. Y hay un sinónimo: [hfy_listing_map]."
+
+#: admin/menu.php:971
+msgid "Reviews summary"
+msgstr "Resumen de reseñas"
+
+#: admin/menu.php:974
+msgid "Show listing reviews summary"
+msgstr "Mostrar resumen de reseñas del anuncio"
+
+#: admin/menu.php:979
+msgid "Reviews count"
+msgstr "Número de reseñas"
+
+#: admin/menu.php:982
+msgid "Show listing reviews count number"
+msgstr "Mostrar el número de reseñas del anuncio"
+
+#: admin/menu.php:987
+msgid "Reviews comments"
+msgstr "Comentarios de reseñas"
+
+#: admin/menu.php:990
+msgid "Show listing reviews comment"
+msgstr "Mostrar comentarios de reseñas del anuncio"
+
+#: admin/menu.php:995 tpl/listing/listing-virtual-tour.php:4
+msgid "Virtual tour"
+msgstr "Tour virtual"
+
+#: admin/menu.php:998
+msgid "Render the iframe with link to the virtual tour"
+msgstr "Renderizar el iframe con enlace al tour virtual"
+
+#: admin/menu.php:1007
+msgid "Cities ID"
+msgstr "ID de ciudades"
+
+#: admin/menu.php:1012
+msgid "ID codes of available cities"
+msgstr "Códigos ID de ciudades disponibles"
+
+#: admin/menu.php:1021
+msgid "Changelog"
+msgstr "Registro de cambios"
+
+#: admin/menu.php:1034
+msgid "Documentation"
+msgstr "Documentación"
+
+#: admin/menu.php:1041
+msgid "Initial setup"
+msgstr "Configuración inicial"
+
+#: admin/menu.php:1041
+msgid "Guest area setup"
+msgstr "Configuración del área de invitados"
+
+#: inc/class-hostifybooking-loader.php:211
+msgid "No available properties for your selection."
+msgstr "No hay propiedades disponibles para su selección."
+
+#: inc/class-hostifybooking-loader.php:1091
+msgid "Clear cache"
+msgstr "Limpiar caché"
+
+#: inc/class-hostifybooking-widget.php:53
+msgid "Title:"
+msgstr "Título:"
+
+#: inc/helpers.php:335 tpl/user/booking-manage.php:183
+#: tpl/user/booking-manage.php:187
+msgid "Any time"
+msgstr "Cualquier momento"
+
+#: inc/helpers/ListingHelper.php:26
+msgid "Entire home/flat"
+msgstr "Casa/apartamento completo"
+
+#: inc/helpers/ListingHelper.php:27
+msgid "Private room"
+msgstr "Habitación privada"
+
+#: inc/helpers/ListingHelper.php:28
+msgid "Shared room"
+msgstr "Habitación compartida"
+
+#: inc/seo.php:43
+msgid "Hostify settings"
+msgstr "Configuración de Hostify"
+
+#: inc/seo.php:56
+msgid "Apply SEO settings (such as a pretty URL) to the Listing on this page"
+msgstr "Aplicar configuración SEO (como una URL amigable) al anuncio en esta página"
+
+#: inc/shortcodes/hfy-listing-amenities.php:13
+#: inc/shortcodes/hfy-listing-booking-form.php:14
+#: inc/shortcodes/hfy-listing-cancellation-policy.php:13
+#: inc/shortcodes/hfy-listing-facilities.php:13
+#: inc/shortcodes/hfy-listing-gallery.php:13
+#: inc/shortcodes/hfy-listing-image.php:13
+#: inc/shortcodes/hfy-listing-info-address.php:12
+#: inc/shortcodes/hfy-listing-info-guest-access.php:12
+#: inc/shortcodes/hfy-listing-info-house-rules.php:12
+#: inc/shortcodes/hfy-listing-info-interaction.php:12
+#: inc/shortcodes/hfy-listing-info-neighbourhood.php:12
+#: inc/shortcodes/hfy-listing-info-notes.php:12
+#: inc/shortcodes/hfy-listing-info-permit.php:17
+#: inc/shortcodes/hfy-listing-info-prices.php:17
+#: inc/shortcodes/hfy-listing-info-space.php:12
+#: inc/shortcodes/hfy-listing-info-summary.php:12
+#: inc/shortcodes/hfy-listing-info-transit.php:12
+#: inc/shortcodes/hfy-listing-info.php:13
+#: inc/shortcodes/hfy-listing-location.php:18
+#: inc/shortcodes/hfy-listing-reviews-comments.php:13
+#: inc/shortcodes/hfy-listing-reviews-count.php:13
+#: inc/shortcodes/hfy-listing-reviews-summary.php:13
+#: inc/shortcodes/hfy-listing-room-type.php:13
+#: inc/shortcodes/hfy-listing-title.php:13
+#: inc/shortcodes/hfy-listing-virtual-tour.php:13
+#: inc/shortcodes/hfy-listing.php:19 inc/shortcodes/hfy-payment.php:33
+msgid "No listing ID"
+msgstr "Sin ID de anuncio"
+
+#: inc/shortcodes/hfy-listing-gallery.php:41
+#, php-format
+msgid "price <span class=\"h3\">%s</span> for %s %s"
+msgstr "precio <span class=\"h3\">%s</span> por %s %s"
+
+#: inc/shortcodes/hfy-listing-gallery.php:44 lang/strings_to_translate.php:137
+#: tpl/element/price-block-accounting.php:19
+#: tpl/element/price-block-default.php:19 tpl/payment/preview-accounting.php:17
+#: tpl/payment/preview-default.php:23 tpl/user/booking-manage.php:50
+msgid "nights"
+msgstr "noches"
+
+#: inc/shortcodes/hfy-listing-gallery.php:44
+#: inc/shortcodes/inc/make-listing-item-vars.php:38
+#: inc/shortcodes/inc/make-listing-tpl-vars.php:40
+#: lang/strings_to_translate.php:136
+msgid "night"
+msgstr "noche"
+
+#: inc/shortcodes/hfy-payment-charge.php:14
+msgid "No reservation ID"
+msgstr "Sin ID de reserva"
+
+#: inc/shortcodes/hfy-payment-charge.php:20
+msgid "No reservation found"
+msgstr "No se encontró la reserva"
+
+#: inc/shortcodes/hfy-payment.php:96
+#: inc/shortcodes/inc/load-listing-price.php:17
+msgid "Listing price is not available"
+msgstr "El precio del anuncio no está disponible"
+
+#: inc/shortcodes/hfy-payment.php:106
+msgid "Incorrect parameters"
+msgstr "Parámetros incorrectos"
+
+#: inc/shortcodes/hfy-payment.php:240
+msgid "Sorry, listing currency not supported by PayPal"
+msgstr "Lo sentimos, la moneda del anuncio no es compatible con PayPal"
+
+#: inc/shortcodes/hfy-payment.php:259
+msgid "No payment service"
+msgstr "Sin servicio de pago"
+
+#: inc/shortcodes/hfy-user-booking-manage.php:63
+#: inc/shortcodes/hfy-user-booking-manage.php:71
+msgid "Not found"
+msgstr "No encontrado"
+
+#: inc/shortcodes/hfy-user-bookings-list.php:17
+msgid "You are not logged in"
+msgstr "No has iniciado sesión"
+
+#: inc/shortcodes/hfy-user-bookings-list.php:22
+msgid "You currently do not have any bookings yet"
+msgstr "Actualmente no tienes ninguna reserva"
+
+#: inc/shortcodes/inc/load-listing-seo.php:8
+#: inc/shortcodes/inc/load-listing.php:12
+#: inc/shortcodes/inc/load-top-listings.php:7
+msgid "Please try again later"
+msgstr "Por favor, inténtelo más tarde"
+
+#: inc/shortcodes/inc/load-listing-seo.php:12
+#: inc/shortcodes/inc/load-listing.php:16
+msgid "No listing"
+msgstr "Sin listado"
+
+#: inc/shortcodes/inc/load-settings.php:16
+msgid "Is not active"
+msgstr "No está activo"
+
+#: inc/shortcodes/inc/make-listing-item-vars.php:32
+#: lang/strings_to_translate.php:206 tpl/element/price-block-accounting.php:103
+#: tpl/element/price-block-default.php:86 tpl/payment/preview.php:90
+#: tpl/user/booking-manage.php:111
+msgid "Total"
+msgstr "Total"
+
+#: inc/shortcodes/inc/make-listing-item-vars.php:33
+#: lang/strings_to_translate.php:81
+msgid "From"
+msgstr "Desde"
+
+#: inc/shortcodes/inc/make-listing-item-vars.php:36
+#: lang/strings_to_translate.php:195
+msgid "stay"
+msgstr "estancia"
+
+#: inc/shortcodes/inc/make-listing-item-vars.php:38
+#: inc/shortcodes/inc/make-listing-tpl-vars.php:37
+#: lang/strings_to_translate.php:128
+msgid "month"
+msgstr "mes"
+
+#: inc/shortcodes/inc/make-listing-tpl-vars.php:44
+#: tpl/listing/listing-booking-form-on-request.php:9
+msgid "Price on request"
+msgstr "Precio bajo consulta"
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_ActionFactory.php:232
+msgid "Invalid action - must be a recurring action."
+msgstr "Acción no válida - debe ser una acción recurrente."
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_AdminView.php:60
+#: inc/vendors/action-scheduler/classes/ActionScheduler_AdminView.php:75
+#: inc/vendors/action-scheduler/classes/ActionScheduler_AdminView.php:76
+#: inc/vendors/action-scheduler/classes/ActionScheduler_ListTable.php:89
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:19
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:30
+msgid "Scheduled Actions"
+msgstr "Acciones Programadas"
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_AdminView.php:225
+msgid "About"
+msgstr "Acerca de"
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_AdminView.php:227
+#, php-format
+msgid "About Action Scheduler %s"
+msgstr "Acerca de Action Scheduler %s"
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_AdminView.php:229
+"Action Scheduler is a scalable, traceable job queue for background "
+"processing large sets of actions. Action Scheduler works by triggering an "
+"action hook to run at some time in the future. Scheduled actions can also be "
+"scheduled to run on a recurring schedule."
+msgstr "Action Scheduler es una cola de trabajos escalable y rastreable para procesar grandes conjuntos de acciones en segundo plano. Action Scheduler funciona activando un gancho de acción para ejecutarse en algún momento en el futuro. Las acciones programadas también pueden configurarse para ejecutarse en un horario recurrente."
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_AdminView.php:237
+msgid "Columns"
+msgstr "Columnas"
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_AdminView.php:239
+msgid "Scheduled Action Columns"
+msgstr "Columnas de Acciones Programadas"
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_AdminView.php:241
+#: inc/vendors/action-scheduler/classes/ActionScheduler_ListTable.php:96
+msgid "Hook"
+msgstr "Gancho"
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_AdminView.php:241
+msgid "Name of the action hook that will be triggered."
+msgstr "Nombre del gancho de acción que será activado."
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_AdminView.php:242
+#: inc/vendors/action-scheduler/classes/ActionScheduler_ListTable.php:97
+msgid "Status"
+msgstr "Estado"
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_AdminView.php:242
+msgid "Action statuses are Pending, Complete, Canceled, Failed"
+msgstr "Los estados de acción son Pendiente, Completado, Cancelado, Fallido"
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_AdminView.php:243
+#: inc/vendors/action-scheduler/classes/ActionScheduler_ListTable.php:98
+msgid "Arguments"
+msgstr "Argumentos"
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_AdminView.php:243
+msgid "Optional data array passed to the action hook."
+msgstr "Array de datos opcional pasado al gancho de acción."
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_AdminView.php:244
+#: inc/vendors/action-scheduler/classes/ActionScheduler_ListTable.php:99
+msgid "Group"
+msgstr "Grupo"
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_AdminView.php:244
+msgid "Optional action group."
+msgstr "Grupo de acción opcional."
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_AdminView.php:245
+#: inc/vendors/action-scheduler/classes/ActionScheduler_ListTable.php:100
+msgid "Recurrence"
+msgstr "Recurrencia"
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_AdminView.php:245
+msgid "The action's schedule frequency."
+msgstr "La frecuencia de programación de la acción."
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_AdminView.php:246
+msgid "Scheduled"
+msgstr "Programado"
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_AdminView.php:246
+msgid "The date/time the action is/was scheduled to run."
+msgstr "La fecha/hora en que la acción está/estaba programada para ejecutarse."
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_AdminView.php:247
+#: inc/vendors/action-scheduler/classes/ActionScheduler_ListTable.php:102
+msgid "Log"
+msgstr "Registro"
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_AdminView.php:247
+msgid "Activity log for the action."
+msgstr "Registro de actividad para la acción."
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_DataController.php:137
+msgid "Attempting to reduce used memory..."
+msgstr "Intentando reducir la memoria utilizada..."
+
+#. translators: 1: action ID 2: schedule
+#: inc/vendors/action-scheduler/classes/ActionScheduler_InvalidActionException.php:21
+#, php-format
+msgid "Action [%1$s] has an invalid schedule: %2$s"
+msgstr "La acción [%1$s] tiene una programación no válida: %2$s"
+
+#. translators: 1: action ID 2: arguments
+#: inc/vendors/action-scheduler/classes/ActionScheduler_InvalidActionException.php:40
+#, php-format
+"Action [%1$s] has invalid arguments. It cannot be JSON decoded to an array. "
+"$args = %2$s"
+msgstr "La acción [%1$s] tiene argumentos no válidos. No se puede decodificar JSON a un array. $args = %2$s"
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_ListTable.php:101
+msgid "Scheduled Date"
+msgstr "Fecha Programada"
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_ListTable.php:122
+msgid "Claim ID"
+msgstr "ID de Reclamo"
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_ListTable.php:129
+msgid "Run"
+msgstr "Ejecutar"
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_ListTable.php:130
+msgid "Process the action now as if it were run as part of a queue"
+msgstr "Procesar la acción ahora como si se ejecutara como parte de una cola"
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_ListTable.php:134
+msgid "Cancel the action now to avoid it being run in future"
+msgstr "Cancelar la acción ahora para evitar que se ejecute en el futuro"
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_ListTable.php:224
+msgid "Now!"
+msgstr "¡Ahora!"
+
+#. translators: %s: time interval
+#: inc/vendors/action-scheduler/classes/ActionScheduler_ListTable.php:260
+#, php-format
+msgid "Every %s"
+msgstr "Cada %s"
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_ListTable.php:266
+msgid "Non-repeating"
+msgstr "No repetitivo"
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_ListTable.php:364
+"It appears one or more database tables were missing. Attempting to re-create "
+"the missing table(s)."
+msgstr "Parece que faltan una o más tablas de la base de datos. Intentando recrear la(s) tabla(s) faltante(s)."
+
+#. translators: %s: process URL
+#: inc/vendors/action-scheduler/classes/ActionScheduler_ListTable.php:397
+#, php-format
+"A new queue has begun processing. <a href=\"%s\">View actions in-progress "
+"&raquo;</a>"
+msgstr "Una nueva cola ha comenzado a procesarse. <a href=\"%s\">Ver acciones en progreso &raquo;</a>"
+
+#. translators: %d: seconds
+#: inc/vendors/action-scheduler/classes/ActionScheduler_ListTable.php:400
+#, php-format
+msgid "The next queue will begin processing in approximately %d seconds."
+msgstr "La siguiente cola comenzará a procesarse en aproximadamente %d segundos."
+
+#. translators: %s: action HTML
+#: inc/vendors/action-scheduler/classes/ActionScheduler_ListTable.php:421
+#, php-format
+msgid "Successfully executed action: %s"
+msgstr "Acción ejecutada con éxito: %s"
+
+#. translators: %s: action HTML
+#: inc/vendors/action-scheduler/classes/ActionScheduler_ListTable.php:425
+#, php-format
+msgid "Successfully canceled action: %s"
+msgstr "Acción cancelada con éxito: %s"
+
+#. translators: %s: action HTML
+#: inc/vendors/action-scheduler/classes/ActionScheduler_ListTable.php:429
+#, php-format
+msgid "Successfully processed change for action: %s"
+msgstr "Cambio procesado con éxito para la acción: %s"
+
+#. translators: 1: action HTML 2: action ID 3: error message
+#: inc/vendors/action-scheduler/classes/ActionScheduler_ListTable.php:435
+#, php-format
+msgid "Could not process change for action: \"%1$s\" (ID: %2$d). Error: %3$s"
+msgstr "No se pudo procesar el cambio para la acción: \"%1$s\" (ID: %2$d). Error: %3$s"
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_ListTable.php:471
+msgid "async"
+msgstr "asíncrono"
+
+#. translators: %s: date interval
+#: inc/vendors/action-scheduler/classes/ActionScheduler_ListTable.php:485
+#, php-format
+msgid " (%s ago)"
+msgstr " (hace %s)"
+
+#. translators: %s: date interval
+#: inc/vendors/action-scheduler/classes/ActionScheduler_ListTable.php:488
+#, php-format
+msgid " (%s)"
+msgstr " (%s)"
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_ListTable.php:648
+msgid "Search hook, args and claim ID"
+msgstr "Buscar gancho, argumentos e ID de reclamo"
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_QueueCleaner.php:60
+#, php-format
+msgid "It was not possible to determine a valid cut-off time: %s."
+msgstr "No fue posible determinar un tiempo de corte válido: %s."
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_QueueRunner.php:221
+msgid "Every minute"
+msgstr "Cada minuto"
+
+#. translators: %s: date interval
+#: inc/vendors/action-scheduler/classes/ActionScheduler_WPCommentCleaner.php:103
+#, php-format
+msgid "This data will be deleted in %s."
+msgstr "Estos datos serán eliminados en %s."
+
+#. translators: 1: next cleanup message 2: github issue URL
+#: inc/vendors/action-scheduler/classes/ActionScheduler_WPCommentCleaner.php:108
+#, php-format
+"Action Scheduler has migrated data to custom tables; however, orphaned log "
+"entries exist in the WordPress Comments table. %1$s <a href=\"%2$s\">Learn "
+"more &raquo;</a>"
+msgstr "Action Scheduler ha migrado datos a tablas personalizadas; sin embargo, existen entradas de registro huérfanas en la tabla de Comentarios de WordPress. %1$s <a href=\"%2$s\">Más información &raquo;</a>"
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:111
+msgid "Action Scheduler"
+msgstr "Action Scheduler"
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:111
+msgid "This section shows details of Action Scheduler."
+msgstr "Esta sección muestra detalles de Action Scheduler."
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:114
+msgid "Version:"
+msgstr "Versión:"
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:118
+msgid "Data store:"
+msgstr "Almacén de datos:"
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:122
+msgid "Action Status"
+msgstr "Estado de la Acción"
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:124
+msgid "Count"
+msgstr "Contador"
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:125
+msgid "Oldest Scheduled Date"
+msgstr "Fecha Programada más Antigua"
+
+#: inc/vendors/action-scheduler/classes/ActionScheduler_wcSystemStatus.php:126
+msgid "Newest Scheduled Date"
+msgstr "Fecha Programada más Reciente"
+
+#. translators: %s refers to the exception error message
+#: inc/vendors/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Clean_Command.php:105
+#, php-format
+msgid "There was an error deleting an action: %s"
+msgstr "Hubo un error al eliminar una acción: %s"
+
+#. translators: %s php class name
+#: inc/vendors/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:33
+#: inc/vendors/action-scheduler/classes/WP_CLI/ProgressBar.php:47
+#, php-format
+msgid "The %s class can only be run within WP CLI."
+msgstr "La clase %s solo puede ejecutarse dentro de WP CLI."
+
+#: inc/vendors/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:59
+"There are too many concurrent batches, but the run is forced to continue."
+msgstr "Hay demasiados lotes concurrentes, pero la ejecución se fuerza a continuar."
+
+#: inc/vendors/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:61
+msgid "There are too many concurrent batches."
+msgstr "Hay demasiados lotes concurrentes."
+
+#: inc/vendors/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:113
+msgid "The claim has been lost. Aborting current batch."
+msgstr "Se ha perdido el reclamo. Abortando el lote actual."
+
+#. translators: %s refers to the action ID
+#: inc/vendors/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:138
+#, php-format
+msgid "Started processing action %s"
+msgstr "Comenzó el procesamiento de la acción %s"
+
+#. translators: 1: action ID 2: hook name
+#: inc/vendors/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:155
+#, php-format
+msgid "Completed processing action %1$s with hook: %2$s"
+msgstr "Completado el procesamiento de la acción %1$s con gancho: %2$s"
+
+#. translators: 1: action ID 2: exception message
+#: inc/vendors/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_QueueRunner.php:170
+#, php-format
+msgid "Error processing action %1$s: %2$s"
+msgstr "Error al procesar la acción %1$s: %2$s"
+
+#. translators: %s refers to the schema name
+#: inc/vendors/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:30
+#, php-format
+msgid "Registered schema for %s"
+msgstr "Esquema registrado para %s"
+
+#. translators: %s refers to the exception error message
+#: inc/vendors/action-scheduler/classes/WP_CLI/ActionScheduler_WPCLI_Scheduler_command.php:188
+#, php-format
+msgid "There was an error running the action scheduler: %s"
+msgstr "Hubo un error al ejecutar el programador de acciones: %s"
+
+#. translators: %s function name.
+#: inc/vendors/action-scheduler/classes/abstracts/ActionScheduler.php:226
+#, php-format
+msgid "%s() was called before the Action Scheduler data store was initialized"
+msgstr "%s() fue llamado antes de que se inicializara el almacén de datos de Action Scheduler"
+
+#: inc/vendors/action-scheduler/classes/abstracts/ActionScheduler_Abstract_ListTable.php:523
+msgid "Filter"
+msgstr "Filtrar"
+
+#. translators: %s: search query
+#: inc/vendors/action-scheduler/classes/abstracts/ActionScheduler_Abstract_ListTable.php:650
+#, php-format
+msgid "Search results for \"%s\""
+msgstr "Resultados de búsqueda para \"%s\""
+
+#: inc/vendors/action-scheduler/classes/abstracts/ActionScheduler_Abstract_QueueRunner.php:155
+"This action appears to be consistently failing. A new instance will not be "
+"scheduled."
+msgstr "Esta acción parece estar fallando constantemente. No se programará una nueva instancia."
+
+#: inc/vendors/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:72
+msgid "action created"
+msgstr "acción creada"
+
+#: inc/vendors/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:76
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php:142
+msgid "action canceled"
+msgstr "acción cancelada"
+
+#. translators: %s: context
+#: inc/vendors/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:82
+#, php-format
+msgid "action started via %s"
+msgstr "acción iniciada vía %s"
+
+#: inc/vendors/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:84
+msgid "action started"
+msgstr "acción iniciada"
+
+#. translators: %s: context
+#: inc/vendors/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:92
+#, php-format
+msgid "action complete via %s"
+msgstr "acción completada vía %s"
+
+#: inc/vendors/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:94
+msgid "action complete"
+msgstr "acción completada"
+
+#. translators: 1: context 2: exception message
+#: inc/vendors/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:102
+#, php-format
+msgid "action failed via %1$s: %2$s"
+msgstr "acción fallida vía %1$s: %2$s"
+
+#. translators: %s: exception message
+#: inc/vendors/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:105
+#, php-format
+msgid "action failed: %s"
+msgstr "acción fallida: %s"
+
+#. translators: %s: amount of time
+#: inc/vendors/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:112
+"action marked as failed after %s seconds. Unknown error occurred. Check "
+"server, PHP and database error logs to diagnose cause."
+msgstr "acción marcada como fallida después de %s segundos. Ocurrió un error desconocido. Revise los registros de error del servidor, PHP y base de datos para diagnosticar la causa."
+
+#. translators: 1: error message 2: filename 3: line
+#: inc/vendors/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:118
+#, php-format
+msgid "unexpected shutdown: PHP Fatal error %1$s in %2$s on line %3$s"
+msgstr "cierre inesperado: Error fatal de PHP %1$s en %2$s en la línea %3$s"
+
+#: inc/vendors/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:123
+msgid "action reset"
+msgstr "acción reiniciada"
+
+#. translators: %s: context
+#: inc/vendors/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:129
+#, php-format
+msgid "action ignored via %s"
+msgstr "acción ignorada vía %s"
+
+#: inc/vendors/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:131
+msgid "action ignored"
+msgstr "acción ignorada"
+
+#. translators: %s: exception message
+#: inc/vendors/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:146
+#, php-format
+msgid "There was a failure fetching this action: %s"
+msgstr "Hubo un error al obtener esta acción: %s"
+
+#: inc/vendors/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:148
+msgid "There was a failure fetching this action"
+msgstr "Hubo un error al obtener esta acción"
+
+#. translators: %s: exception message
+#: inc/vendors/action-scheduler/classes/abstracts/ActionScheduler_Logger.php:156
+#, php-format
+msgid "There was a failure scheduling the next instance of this action: %s"
+msgstr "Hubo un error al programar la siguiente instancia de esta acción: %s"
+
+#: inc/vendors/action-scheduler/classes/abstracts/ActionScheduler_Store.php:329
+#, php-format
+"ActionScheduler_Action::$args too long. To ensure the args column can be "
+"indexed, action args should not be more than %d characters when encoded as "
+"JSON."
+msgstr "ActionScheduler_Action::$args demasiado largo. Para asegurar que la columna args pueda ser indexada, los argumentos de la acción no deben tener más de %d caracteres cuando se codifican como JSON."
+
+#: inc/vendors/action-scheduler/classes/abstracts/ActionScheduler_Store.php:405
+msgid "Complete"
+msgstr "Completado"
+
+#: inc/vendors/action-scheduler/classes/abstracts/ActionScheduler_Store.php:406
+msgid "Pending"
+msgstr "Pendiente"
+
+#: inc/vendors/action-scheduler/classes/abstracts/ActionScheduler_Store.php:407
+msgid "In-progress"
+msgstr "En progreso"
+
+#: inc/vendors/action-scheduler/classes/abstracts/ActionScheduler_Store.php:408
+msgid "Failed"
+msgstr "Fallido"
+
+#: inc/vendors/action-scheduler/classes/abstracts/ActionScheduler_Store.php:409
+msgid "Canceled"
+msgstr "Cancelado"
+
+#. translators: 1: action hook.
+#: inc/vendors/action-scheduler/classes/actions/ActionScheduler_Action.php:50
+#, php-format
+"Scheduled action for %1$s will not be executed as no callbacks are "
+"registered."
+msgstr "La acción programada para %1$s no se ejecutará ya que no hay callbacks registrados."
+
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:118
+msgid "Database error."
+msgstr "Error de base de datos."
+
+#. translators: %s: error message
+#. translators: %s: action error message
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:126
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:49
+#: inc/vendors/action-scheduler/classes/migration/ActionScheduler_DBStoreMigrator.php:44
+#, php-format
+msgid "Error saving action: %s"
+msgstr "Error al guardar la acción: %s"
+
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:396
+msgid "Invalid value for select or count parameter. Cannot query actions."
+msgstr "Valor no válido para el parámetro select o count. No se pueden consultar acciones."
+
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:454
+"JSON partial matching not supported in your environment. Please check your "
+"MySQL/MariaDB version."
+msgstr "La coincidencia parcial de JSON no es compatible en su entorno. Por favor, verifique su versión de MySQL/MariaDB."
+
+#. translators: %s: provided value type
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:471
+#, php-format
+"The value type for the JSON partial matching is not supported. Must be "
+"either integer, boolean, double or string. %s type provided."
+msgstr "El tipo de valor para la coincidencia parcial de JSON no es compatible. Debe ser entero, booleano, doble o cadena. Se proporcionó el tipo %s."
+
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:492
+msgid "Unknown partial args matching value."
+msgstr "Valor de coincidencia parcial de argumentos desconocido."
+
+#. translators: %s: action ID
+#. translators: %s is the action ID
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:653
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:745
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:776
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:1075
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:1133
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:515
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:534
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:564
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:987
+#, php-format
+msgid "Unidentified action %s"
+msgstr "Acción no identificada %s"
+
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:938
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:696
+msgid "Unable to claim actions. Database error."
+msgstr "No se pueden reclamar acciones. Error de base de datos."
+
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:1032
+#, php-format
+msgid "Unable to release actions from claim id %d."
+msgstr "No se pueden liberar acciones del id de reclamación %d."
+
+#. translators: 1: action ID. 2: status slug.
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:1102
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:967
+#, php-format
+msgid "Unable to update the status of action %1$d to %2$s."
+msgstr "No se puede actualizar el estado de la acción %1$d a %2$s."
+
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:1163
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:904
+msgid "Invalid action ID. No status found."
+msgstr "ID de acción no válido. No se encontró estado."
+
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php:1165
+msgid "Unknown status found for action."
+msgstr "Estado desconocido encontrado para la acción."
+
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:101
+msgid "Unable to save action."
+msgstr "No se puede guardar la acción."
+
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:318
+msgid "Invalid schedule. Cannot save action."
+msgstr "Programación no válida. No se puede guardar la acción."
+
+#. translators: %s is the group name
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:717
+#, php-format
+msgid "The group \"%s\" does not exist."
+msgstr "El grupo \"%s\" no existe."
+
+#. translators: %s: claim ID
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:824
+#, php-format
+msgid "Unable to unlock claim %s. Database error."
+msgstr "No se puede desbloquear la reclamación %s. Error de base de datos."
+
+#. translators: %s: action ID
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:852
+#, php-format
+msgid "Unable to unlock claim on action %s. Database error."
+msgstr "No se puede desbloquear la reclamación en la acción %s. Error de base de datos."
+
+#. translators: %s: action ID
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:878
+#, php-format
+msgid "Unable to mark failure on action %s. Database error."
+msgstr "No se puede marcar el fallo en la acción %s. Error de base de datos."
+
+#. translators: %s is the error message
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore.php:1068
+#, php-format
+"%s Support for strings longer than this will be removed in a future version."
+msgstr "%s El soporte para cadenas más largas que esto se eliminará en una versión futura."
+
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:20
+msgid "Scheduled actions are hooks triggered on a cetain date and time."
+msgstr "Las acciones programadas son hooks activados en una fecha y hora determinadas."
+
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:31
+msgid "Scheduled Action"
+msgstr "Acción programada"
+
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:34
+msgid "Add New Scheduled Action"
+msgstr "Agregar nueva acción programada"
+
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:35
+msgid "Edit"
+msgstr "Editar"
+
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:36
+msgid "Edit Scheduled Action"
+msgstr "Editar acción programada"
+
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:37
+msgid "New Scheduled Action"
+msgstr "Nueva acción programada"
+
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:38
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:39
+msgid "View Action"
+msgstr "Ver acción"
+
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:40
+msgid "Search Scheduled Actions"
+msgstr "Buscar acciones programadas"
+
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:41
+msgid "No actions found"
+msgstr "No se encontraron acciones"
+
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_PostTypeRegistrar.php:42
+msgid "No actions found in trash"
+msgstr "No se encontraron acciones en la papelera"
+
+#: inc/vendors/action-scheduler/classes/data-stores/ActionScheduler_wpPostStore_TaxonomyRegistrar.php:14
+msgid "Action Group"
+msgstr "Grupo de acciones"
+
+#: inc/vendors/action-scheduler/classes/migration/ActionMigrator.php:95
+#, php-format
+msgid "Unable to remove source migrated action %s"
+msgstr "No se puede eliminar la acción migrada de origen %s"
+
+#: inc/vendors/action-scheduler/classes/migration/Config.php:52
+msgid "Source store must be configured before running a migration"
+msgstr "El almacén de origen debe configurarse antes de ejecutar una migración"
+
+#: inc/vendors/action-scheduler/classes/migration/Config.php:74
+msgid "Source logger must be configured before running a migration"
+msgstr "El registrador de origen debe configurarse antes de ejecutar una migración"
+
+#: inc/vendors/action-scheduler/classes/migration/Config.php:96
+msgid "Destination store must be configured before running a migration"
+msgstr "El almacén de destino debe configurarse antes de ejecutar una migración"
+
+#: inc/vendors/action-scheduler/classes/migration/Config.php:118
+msgid "Destination logger must be configured before running a migration"
+msgstr "El registrador de destino debe configurarse antes de ejecutar una migración"
+
+#: inc/vendors/action-scheduler/classes/migration/Controller.php:162
+"Action Scheduler migration in progress. The list of scheduled actions may be "
+"incomplete."
+msgstr "Migración de Action Scheduler en progreso. La lista de acciones programadas puede estar incompleta."
+
+#. translators: 1: source action ID 2: source store class 3: destination action ID 4: destination store class
+#: inc/vendors/action-scheduler/classes/migration/Runner.php:107
+#, php-format
+msgid "Migrated action with ID %1$d in %2$s to ID %3$d in %4$s"
+msgstr "Acción migrada con ID %1$d en %2$s a ID %3$d en %4$s"
+
+#. translators: 1: provided value 2: provided type.
+#: inc/vendors/action-scheduler/functions.php:134
+#, php-format
+msgid "An integer was expected but \"%1$s\" (%2$s) was received."
+msgstr "Se esperaba un entero pero se recibió \"%1$s\" (%2$s)."
+
+#. translators: %s is the name of the hook to be cancelled.
+#: inc/vendors/action-scheduler/functions.php:287
+#, php-format
+msgid "Caught exception while cancelling action: %s"
+msgstr "Excepción capturada al cancelar la acción: %s"
+
+#: lang/strings_to_translate.php:2
+msgid "24 hour check-in"
+msgstr "Check-in 24 horas"
+
+#: lang/strings_to_translate.php:3
+msgid "Accessible-height bed"
+msgstr "Cama de altura accesible"
+
+#: lang/strings_to_translate.php:4
+msgid "Accessible-height toilet"
+msgstr "Inodoro de altura accesible"
+
+#: lang/strings_to_translate.php:6
+msgid "Air conditioning"
+msgstr "Aire acondicionado"
+
+#: lang/strings_to_translate.php:7
+msgid "All photos"
+msgstr "Todas las fotos"
+
+#: lang/strings_to_translate.php:9
+msgid "Amenities and special features of this"
+msgstr "Amenidades y características especiales de este"
+
+#: lang/strings_to_translate.php:10
+msgid "Amenities and special featuresa"
+msgstr "Servicios y características especiales"
+
+#: lang/strings_to_translate.php:11
+msgid "Apartment"
+msgstr "Apartamento"
+
+#: lang/strings_to_translate.php:12 tpl/element/booking-search-advanced.php:107
+msgid "Apply filters"
+msgstr "Aplicar filtros"
+
+#: lang/strings_to_translate.php:13
+msgid "Arrival"
+msgstr "Llegada"
+
+#: lang/strings_to_translate.php:14
+msgid "Arrive"
+msgstr "Llegada"
+
+#: lang/strings_to_translate.php:15
+msgid "Availability"
+msgstr "Disponibilidad"
+
+#: lang/strings_to_translate.php:16 tpl/element/price-block-on-request.php:4
+msgid "Available"
+msgstr "Disponible"
+
+#: lang/strings_to_translate.php:17
+msgid "Baby bath"
+msgstr "Baño de bebé"
+
+#: lang/strings_to_translate.php:18
+msgid "Baby monitor"
+msgstr "Monitor de bebé"
+
+#: lang/strings_to_translate.php:19
+msgid "Babysitter recommendations"
+msgstr "Recomendaciones de niñera"
+
+#: lang/strings_to_translate.php:20
+msgid "Balcony or patio"
+msgstr "Balcón o patio"
+
+#: lang/strings_to_translate.php:21
+msgid "bath"
+msgstr "baño"
+
+#: lang/strings_to_translate.php:22 tpl/element/booking-search-advanced.php:63
+#: tpl/element/booking-search-popup.php:71
+msgid "Bathrooms"
+msgstr "Baños"
+
+#: lang/strings_to_translate.php:23 tpl/listing/listing-facilities.php:32
+msgid "baths"
+msgstr "baños"
+
+#: lang/strings_to_translate.php:24
+msgid "Bathtub"
+msgstr "Bañera"
+
+#: lang/strings_to_translate.php:25
+msgid "BBQ grill"
+msgstr "Parrilla de barbacoa"
+
+#: lang/strings_to_translate.php:26
+msgid "Beach essentials"
+msgstr "Esenciales de playa"
+
+#: lang/strings_to_translate.php:27
+msgid "Beachfront"
+msgstr "Frente al mar"
+
+#: lang/strings_to_translate.php:28
+msgid "Bed linens"
+msgstr "Ropa de cama"
+
+#: lang/strings_to_translate.php:29
+msgid "bedroom"
+msgstr "dormitorio"
+
+#: lang/strings_to_translate.php:30 tpl/listing/listing-facilities.php:18
+#: tpl/listing/listings-recommended-item.php:32
+#: tpl/listing/listings-selected-item.php:32
+msgid "bedrooms"
+msgstr "dormitorios"
+
+#: lang/strings_to_translate.php:31 tpl/element/booking-search-popup.php:57
+#: tpl/element/booking-search.php:129 tpl/element/booking-search.php:135
+msgid "Bedrooms"
+msgstr "Dormitorios"
+
+#: lang/strings_to_translate.php:32
+msgid "Booked"
+msgstr "Reservado"
+
+#: lang/strings_to_translate.php:33
+msgid "Breakfast"
+msgstr "Desayuno"
+
+#: lang/strings_to_translate.php:34
+msgid "Cable TV"
+msgstr "Televisión por cable"
+
+#: lang/strings_to_translate.php:35
+msgid "Cancellation policy"
+msgstr "Política de cancelación"
+
+#: lang/strings_to_translate.php:36
+msgid "Capacity"
+msgstr "Capacidad"
+
+#: lang/strings_to_translate.php:37
+msgid "Carbon monoxide detector"
+msgstr "Detector de monóxido de carbono"
+
+#: lang/strings_to_translate.php:38
+msgid "Cats live on this property"
+msgstr "Los gatos viven en esta propiedad"
+
+#: lang/strings_to_translate.php:39
+msgid "Changing table"
+msgstr "Mesa para cambiar pañales"
+
+#: lang/strings_to_translate.php:40
+msgid "Children's books and toys"
+msgstr "Libros y juguetes para niños"
+
+#: lang/strings_to_translate.php:41
+msgid "Children's dinnerware"
+msgstr "Vajilla para niños"
+
+#: lang/strings_to_translate.php:42
+msgid "Cleaning before checkout"
+msgstr "Limpieza antes de la salida"
+
+#: lang/strings_to_translate.php:43 tpl/element/price-block-default.php:64
+#: tpl/payment/preview-default.php:30
+msgid "Cleaning fee"
+msgstr "Tarifa de limpieza"
+
+#: lang/strings_to_translate.php:44 tpl/element/booking-search-popup.php:159
+msgid "Clear all"
+msgstr "Eliminar todo"
+
+#: lang/strings_to_translate.php:46
+msgid "Coffee maker"
+msgstr "Cafetera"
+
+#: lang/strings_to_translate.php:47
+msgid "Cooking basics"
+msgstr "Utensilios básicos para cocinar"
+
+#: lang/strings_to_translate.php:48
+msgid "Cottage"
+msgstr "Cabaña"
+
+#: lang/strings_to_translate.php:49
+msgid "Crib"
+msgstr "Cuna"
+
+#: lang/strings_to_translate.php:50
+msgid "Daily"
+msgstr "Diario"
+
+#: lang/strings_to_translate.php:51
+msgid "Daily rental"
+msgstr "Alquiler diario"
+
+#: lang/strings_to_translate.php:52
+msgid "day"
+msgstr "día"
+
+#: lang/strings_to_translate.php:53
+msgid "Depart"
+msgstr "Salida"
+
+#: lang/strings_to_translate.php:54
+msgid "Departure"
+msgstr "Salida"
+
+#: lang/strings_to_translate.php:55
+msgid "Disabled parking spot"
+msgstr "Plaza de aparcamiento para minusválidos"
+
+#: lang/strings_to_translate.php:56
+msgid "Dishes and silverware"
+msgstr "Platos y cubiertos"
+
+#: lang/strings_to_translate.php:57
+msgid "Dishwasher"
+msgstr "Lavavajillas"
+
+#: lang/strings_to_translate.php:58
+msgid "Doorman"
+msgstr "Portero"
+
+#: lang/strings_to_translate.php:59
+msgid "Dryer"
+msgstr "Secadora"
+
+#: lang/strings_to_translate.php:60
+msgid "Electric profiling bed"
+msgstr "Cama perfiladora eléctrica"
+
+#: lang/strings_to_translate.php:61
+msgid "Elevator in building"
+msgstr "Ascensor en edificio"
+
+#: lang/strings_to_translate.php:62 tpl/element/direct-inquiry-modal.php:36
+#: tpl/payment/netpay-form.php:86 tpl/payment/stripe-form-3ds.php:26
+#: tpl/payment/stripe-form-3ds.php:27 tpl/payment/stripe-form.php:22
+#: tpl/payment/stripe-form.php:23
+msgid "Email"
+msgstr "Correo electrónico"
+
+#: lang/strings_to_translate.php:63
+msgid "Enter location..."
+msgstr "Ingresar ubicación..."
+
+#: lang/strings_to_translate.php:64
+msgid "Essentials"
+msgstr "Esenciales"
+
+#: lang/strings_to_translate.php:65
+msgid "Ethernet connection"
+msgstr "Conexión Ethernet"
+
+#: lang/strings_to_translate.php:66
+msgid "EV charger"
+msgstr "Cargador EV"
+
+#: lang/strings_to_translate.php:67
+msgid "Event friendly"
+msgstr "Apto para eventos"
+
+#: lang/strings_to_translate.php:68 tpl/element/booking-search-popup.php:147
+msgid "Events allowed"
+msgstr "Eventos permitidos"
+
+#: lang/strings_to_translate.php:69 tpl/element/price-block-default.php:71
+#: tpl/payment/preview-default.php:37
+msgid "Extra person"
+msgstr "Persona adicional"
+
+#: lang/strings_to_translate.php:70
+msgid "Extra pillows and blankets"
+msgstr "Almohadas y mantas adicionales"
+
+#: lang/strings_to_translate.php:71
+msgid "Family/kids friendly"
+msgstr "Apto para familias/niños"
+
+#: lang/strings_to_translate.php:72
+msgid "Fire extinguisher"
+msgstr "Extintor de incendios"
+
+#: lang/strings_to_translate.php:73
+msgid "Fireplace guards"
+msgstr "Protector de chimenea"
+
+#: lang/strings_to_translate.php:74
+msgid "Firm mattress"
+msgstr "Colchón firme"
+
+#: lang/strings_to_translate.php:75
+msgid "First aid kit"
+msgstr "Botiquín de primeros auxilios"
+
+#: lang/strings_to_translate.php:76
+msgid "First name"
+msgstr "Nombre"
+
+#: lang/strings_to_translate.php:77
+msgid "Flat smooth pathway to front door"
+msgstr "Camino plano y liso hasta la puerta principal"
+
+#: lang/strings_to_translate.php:78
+msgid "Free parking on premises"
+msgstr "Estacionamiento gratuito en el establecimiento"
+
+#: lang/strings_to_translate.php:79
+msgid "Free parking on the street"
+msgstr "Estacionamiento gratuito en la calle"
+
+#: lang/strings_to_translate.php:80 tpl/listing/listing-info-prices.php:7
+#: tpl/listing/listing-info-prices.php:13
+#: tpl/listing/listing-info-prices.php:20
+#: tpl/listing/listings-recommended-item.php:57
+#: tpl/listing/listings-selected-item.php:57 tpl/user/wishlist-item.php:49
+msgid "from"
+msgstr "desde"
+
+#: lang/strings_to_translate.php:82
+msgid "Full kitchen"
+msgstr "Cocina completa"
+
+#: lang/strings_to_translate.php:84
+msgid "Game console"
+msgstr "Consola de videojuegos"
+
+#: lang/strings_to_translate.php:85
+msgid "Garden or backyard"
+msgstr "Jardín o patio trasero"
+
+#: lang/strings_to_translate.php:86
+msgid "Grab-rails for shower and toilet"
+msgstr "Barras de apoyo para ducha e inodoro"
+
+#: lang/strings_to_translate.php:87 tpl/listing/listing-info.php:16
+msgid "Guest access"
+msgstr "Acceso de huéspedes"
+
+#: lang/strings_to_translate.php:88 tpl/listing/listing-facilities.php:11
+#: tpl/listing/listings-recommended-item.php:24
+#: tpl/listing/listings-selected-item.php:24
+msgid "guests"
+msgstr "huéspedes"
+
+#: lang/strings_to_translate.php:89 tpl/payment/preview.php:28
+#: tpl/user/booking-manage.php:44
+msgid "Guests"
+msgstr "Huéspedes"
+
+#: lang/strings_to_translate.php:90
+msgid "Gym"
+msgstr "Gimnasio"
+
+#: lang/strings_to_translate.php:91
+msgid "Hair dryer"
+msgstr "Secador de pelo"
+
+#: lang/strings_to_translate.php:92
+msgid "Handheld shower head"
+msgstr "Alcachofa de ducha manual"
+
+#: lang/strings_to_translate.php:93
+msgid "Hangers"
+msgstr "Perchas"
+
+#: lang/strings_to_translate.php:94
+msgid "Has dog"
+msgstr "Tiene perro"
+
+#: lang/strings_to_translate.php:95
+msgid "Heating"
+msgstr "Calefacción"
+
+#: lang/strings_to_translate.php:96 tpl/listing/listings-map-toggle.php:10
+msgid "Hide map"
+msgstr "Ocultar mapa"
+
+#: lang/strings_to_translate.php:97
+msgid "High chair"
+msgstr "Trona"
+
+#: lang/strings_to_translate.php:98
+msgid "Home office friendly"
+msgstr "Apto para trabajo remoto"
+
+#: lang/strings_to_translate.php:99
+msgid "Host checkin"
+msgstr "Registro con anfitrión"
+
+#: lang/strings_to_translate.php:100
+msgid "Hot tub"
+msgstr "Jacuzzi"
+
+#: lang/strings_to_translate.php:101
+msgid "Hot water"
+msgstr "Agua caliente"
+
+#: lang/strings_to_translate.php:102
+msgid "House"
+msgstr "Casa"
+
+#: lang/strings_to_translate.php:103 tpl/element/booking-search-popup.php:138
+#: tpl/user/booking-manage.php:171
+msgid "House rules"
+msgstr "Normas de la casa"
+
+#: lang/strings_to_translate.php:104
+msgid "I consent to this processing of my data."
+msgstr "Doy mi consentimiento para el procesamiento de mis datos."
+
+#: lang/strings_to_translate.php:105
+msgid "Imprint"
+msgstr "Aviso legal"
+
+#: lang/strings_to_translate.php:106
+msgid "Indoor fireplace"
+msgstr "Chimenea interior"
+
+#: lang/strings_to_translate.php:107 tpl/listing/listing-info.php:21
+msgid "Interaction with guests"
+msgstr "Interacción con huéspedes"
+
+#: lang/strings_to_translate.php:108
+msgid "internet connection"
+msgstr "conexión a internet"
+
+#: lang/strings_to_translate.php:109
+msgid "Iron"
+msgstr "Plancha"
+
+#: lang/strings_to_translate.php:110
+"It looks like nothing was found at this location. Maybe try one of the links "
+"below or a search?"
+msgstr ""
+"Parece que no se encontró nada en esta ubicación. ¿Quizás probar uno de los "
+"enlaces de abajo o realizar una búsqueda?"
+
+#: lang/strings_to_translate.php:111
+msgid "Jacuzzi"
+msgstr "Jacuzzi"
+
+#: lang/strings_to_translate.php:112
+msgid "Kettle"
+msgstr "Hervidor"
+
+#: lang/strings_to_translate.php:113
+msgid "Keypad"
+msgstr "Teclado numérico"
+
+#: lang/strings_to_translate.php:114
+msgid "Kitchen"
+msgstr "Cocina"
+
+#: lang/strings_to_translate.php:115
+msgid "Lake access"
+msgstr "Acceso al lago"
+
+#: lang/strings_to_translate.php:116
+msgid "Laptop friendly workspace"
+msgstr "Espacio de trabajo apto para portátiles"
+
+#: lang/strings_to_translate.php:117
+msgid "Last name"
+msgstr "Apellidos"
+
+#: lang/strings_to_translate.php:118
+msgid "Loading calendar..."
+msgstr "Cargando calendario..."
+
+#: lang/strings_to_translate.php:119
+msgid "Lock on bedroom door"
+msgstr "Cerradura en la puerta del dormitorio"
+
+#: lang/strings_to_translate.php:120
+msgid "Lockbox"
+msgstr "Caja de seguridad"
+
+#: lang/strings_to_translate.php:121
+msgid "Long term stays allowed"
+msgstr "Se permiten estancias largas"
+
+#: lang/strings_to_translate.php:122
+msgid "Luggage dropoff allowed"
+msgstr "Se permite dejar el equipaje"
+
+#: lang/strings_to_translate.php:123 lang/strings_to_translate.php:124
+msgid "Make a booking inquiry"
+msgstr "Hacer una consulta de reserva"
+
+#: lang/strings_to_translate.php:125
+msgid "Make an inquiry"
+msgstr "Hacer una consulta"
+
+#: lang/strings_to_translate.php:126
+msgid "Microwave"
+msgstr "Microondas"
+
+#: lang/strings_to_translate.php:127
+#, php-format
+#: lang/strings_to_translate.php:350
+msgid "Minimum stay %s nights"
+msgstr "Estancia mínima %s noches"
+
+#: lang/strings_to_translate.php:129
+msgid "Monthly"
+msgstr "Mensual"
+
+#: lang/strings_to_translate.php:130 tpl/element/price-block-accounting.php:29
+#: tpl/element/price-block-default.php:33 tpl/payment/preview-accounting.php:41
+#: tpl/payment/preview-default.php:51
+msgid "monthly discount"
+msgstr "descuento mensual"
+
+#: lang/strings_to_translate.php:131
+msgid "Monthly rental"
+msgstr "Alquiler mensual"
+
+#: lang/strings_to_translate.php:132
+msgid "More filters"
+msgstr "Más filtros"
+
+#: lang/strings_to_translate.php:133
+msgid "More results"
+msgstr "Más resultados"
+
+#: lang/strings_to_translate.php:134 tpl/element/pagination-block.php:37
+msgid "Next"
+msgstr "Siguiente"
+
+#: lang/strings_to_translate.php:135
+msgid "Next:"
+msgstr "Siguiente:"
+
+#: lang/strings_to_translate.php:139 tpl/element/error-no-listings-found.php:2
+msgid "No available properties for your search."
+msgstr "No hay propiedades disponibles para tu búsqueda."
+
+#: lang/strings_to_translate.php:140
+msgid "Nothing Found"
+msgstr "No se encontró nada"
+
+#: lang/strings_to_translate.php:141
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "¡Vaya! No se puede encontrar esa página."
+
+#: lang/strings_to_translate.php:142
+msgid "original"
+msgstr "original"
+
+#: lang/strings_to_translate.php:143
+msgid "Outlet covers"
+msgstr "Protectores de enchufes"
+
+#: lang/strings_to_translate.php:144
+msgid "Oven"
+msgstr "Horno"
+
+#: lang/strings_to_translate.php:145
+msgid "Pack 'n Play/travel crib"
+msgstr "Cuna de viaje"
+
+#: lang/strings_to_translate.php:146
+msgid "Pages:"
+msgstr "Páginas:"
+
+#: lang/strings_to_translate.php:147
+msgid "Paid parking on the street"
+msgstr "Estacionamiento de pago en la calle"
+
+#: lang/strings_to_translate.php:148
+msgid "Paid parking with garage"
+msgstr "Estacionamiento de pago con garaje"
+
+#: lang/strings_to_translate.php:149
+msgid "Parking"
+msgstr "Estacionamiento"
+
+#: lang/strings_to_translate.php:150
+msgid "Path to entrance lit at night"
+msgstr "Camino a la entrada iluminado por la noche"
+
+#: lang/strings_to_translate.php:151
+msgid "Patio or balcony"
+msgstr "Patio o balcón"
+
+#: lang/strings_to_translate.php:152 tpl/element/booking-search-popup.php:143
+msgid "Pets allowed"
+msgstr "Se admiten mascotas"
+
+#: lang/strings_to_translate.php:153
+msgid "Pets are welcome"
+msgstr "Las mascotas son bienvenidas"
+
+#: lang/strings_to_translate.php:154
+msgid "Pets live on this property"
+msgstr "Hay mascotas en esta propiedad"
+
+#: lang/strings_to_translate.php:155 tpl/element/direct-inquiry-modal.php:41
+#: tpl/payment/netpay-form.php:93 tpl/payment/stripe-form-3ds.php:31
+#: tpl/payment/stripe-form-3ds.php:32 tpl/payment/stripe-form.php:27
+#: tpl/payment/stripe-form.php:28
+msgid "Phone"
+msgstr "Teléfono"
+
+#: lang/strings_to_translate.php:156
+msgid "Please try again"
+msgstr "Por favor, inténtalo de nuevo"
+
+#: lang/strings_to_translate.php:157
+msgid "Pocket wifi"
+msgstr "Wifi portátil"
+
+#: lang/strings_to_translate.php:158
+msgid "Pool"
+msgstr "Piscina"
+
+#: lang/strings_to_translate.php:159
+msgid "Previous:"
+msgstr "Anterior:"
+
+#: lang/strings_to_translate.php:160 tpl/element/booking-search-popup.php:119
+#: tpl/user/wishlist-item.php:45
+msgid "Price"
+msgstr "Precio"
+
+#: lang/strings_to_translate.php:161 tpl/user/wishlist.php:26
+msgid "Price ascending"
+msgstr "Precio ascendente"
+
+#: lang/strings_to_translate.php:162 tpl/user/wishlist.php:27
+msgid "Price descending"
+msgstr "Precio descendente"
+
+#: lang/strings_to_translate.php:163
+msgid "Print this page"
+msgstr "Imprimir esta página"
+
+#: lang/strings_to_translate.php:164
+msgid "Privacy Policy"
+msgstr "Política de privacidad"
+
+#: lang/strings_to_translate.php:165
+msgid "Private entrance"
+msgstr "Entrada privada"
+
+#: lang/strings_to_translate.php:166
+msgid "Private living room"
+msgstr "Sala de estar privada"
+
+#: lang/strings_to_translate.php:167 tpl/element/booking-search-popup.php:82
+msgid "Property Type"
+msgstr "Tipo de propiedad"
+
+#: lang/strings_to_translate.php:168
+msgid "Quiet hours"
+msgstr "Horas de silencio"
+
+#: lang/strings_to_translate.php:169
+msgid "Refrigerator"
+msgstr "Nevera"
+
+#: lang/strings_to_translate.php:170
+msgid "Registration number:"
+msgstr "Número de registro:"
+
+#: lang/strings_to_translate.php:171
+msgid "Rental"
+msgstr "Alquiler"
+
+#: lang/strings_to_translate.php:172
+msgid "Roll-in shower with shower bench or chair"
+msgstr "Ducha accesible con banco o silla"
+
+#: lang/strings_to_translate.php:173
+msgid "Room-darkening shades"
+msgstr "Persianas oscurecedoras"
+
+#: lang/strings_to_translate.php:174
+msgid "Safety card"
+msgstr "Tarjeta de seguridad"
+
+#: lang/strings_to_translate.php:176
+#, php-format
+#: lang/strings_to_translate.php:509
+msgid "Search Results for: %s"
+msgstr "Resultados de búsqueda para: %s"
+
+#: lang/strings_to_translate.php:177 tpl/element/booking-search-advanced.php:53
+#: tpl/element/booking-search-advanced.php:65
+#: tpl/element/booking-search-popup.php:59
+#: tpl/element/booking-search-popup.php:73
+msgid "Select"
+msgstr "Seleccionar"
+
+#: lang/strings_to_translate.php:178
+msgid "Self check-in"
+msgstr "Auto check-in"
+
+#: lang/strings_to_translate.php:179
+msgid "Send inquiry"
+msgstr "Enviar consulta"
+
+#: lang/strings_to_translate.php:180
+msgid "Service charge"
+msgstr "Cargo por servicio"
+
+#: lang/strings_to_translate.php:181
+msgid "Shampoo"
+msgstr "Champú"
+
+#: lang/strings_to_translate.php:182
+msgid "Show all"
+msgstr "Mostrar todo"
+
+#: lang/strings_to_translate.php:183 tpl/listing/listings-map-toggle.php:7
+msgid "Show map"
+msgstr "Mostrar mapa"
+
+#: lang/strings_to_translate.php:184 tpl/element/booking-search-popup.php:97
+msgid "Show more"
+msgstr "Mostrar más"
+
+#: lang/strings_to_translate.php:185
+msgid "Show more amenities"
+msgstr "Mostrar más servicios"
+
+#: lang/strings_to_translate.php:186
+msgid "Single level home"
+msgstr "Casa de una planta"
+
+#: lang/strings_to_translate.php:187
+msgid "Size"
+msgstr "Tamaño"
+
+#: lang/strings_to_translate.php:188
+msgid "Ski in/Ski out"
+msgstr "Acceso directo a pistas de esquí"
+
+#: lang/strings_to_translate.php:189
+msgid "Smartlock"
+msgstr "Cerradura inteligente"
+
+#: lang/strings_to_translate.php:190
+msgid "Smoke detector"
+msgstr "Detector de humo"
+
+#: lang/strings_to_translate.php:191 tpl/element/booking-search-popup.php:151
+msgid "Smoking allowed"
+msgstr "Se permite fumar"
+
+#: lang/strings_to_translate.php:192
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+"Lo sentimos, pero no hay coincidencias con tus términos de búsqueda. Por favor, "
+"inténtalo de nuevo con palabras diferentes."
+
+#: lang/strings_to_translate.php:193 tpl/user/wishlist.php:24
+msgid "Sort by:"
+msgstr "Ordenar por:"
+
+#: lang/strings_to_translate.php:194
+msgid "Stair gates"
+msgstr "Barreras de seguridad para escaleras"
+
+#: lang/strings_to_translate.php:196
+msgid "Step-free access"
+msgstr "Acceso sin escalones"
+
+#: lang/strings_to_translate.php:197
+msgid "Stove"
+msgstr "Cocina"
+
+#: lang/strings_to_translate.php:198
+msgid "Table corner guards"
+msgstr "Protectores de esquinas para mesas"
+
+#: lang/strings_to_translate.php:199
+msgid "Terms & conditions"
+msgstr "Términos y condiciones"
+
+#: lang/strings_to_translate.php:200
+msgid "Thank you!"
+msgstr "¡Gracias!"
+
+#: lang/strings_to_translate.php:201
+msgid "The listing is not available for your selected dates."
+msgstr "El alojamiento no está disponible para las fechas seleccionadas."
+
+#: lang/strings_to_translate.php:202
+msgid "This field is required."
+msgstr "Este campo es obligatorio."
+
+#: lang/strings_to_translate.php:203
+msgid "to"
+msgstr "a"
+
+#: lang/strings_to_translate.php:204
+"To see availability and pricing please enter your check-in and check-out "
+"dates below."
+msgstr ""
+"Para ver disponibilidad y precios, por favor ingrese sus fechas de entrada y "
+"salida a continuación."
+
+#: lang/strings_to_translate.php:205
+"To see availability please enter your check-in and check-out dates below."
+msgstr ""
+"Para ver disponibilidad, por favor ingrese sus fechas de entrada y salida "
+"a continuación."
+
+#: lang/strings_to_translate.php:207
+msgid "Trashcan"
+msgstr "Papelera"
+
+#: lang/strings_to_translate.php:208
+msgid "Tub with shower bench"
+msgstr "Bañera con asiento de ducha"
+
+#: lang/strings_to_translate.php:209
+msgid "TV"
+msgstr "TV"
+
+#: lang/strings_to_translate.php:210
+msgid "Villa"
+msgstr "Villa"
+
+#: lang/strings_to_translate.php:211
+msgid "Washer"
+msgstr "Lavadora"
+
+#: lang/strings_to_translate.php:212
+msgid "Waterfront"
+msgstr "Frente al agua"
+
+#: lang/strings_to_translate.php:213
+"We have received your inquiry. Our representative will get back to you "
+"shortly."
+msgstr ""
+"Hemos recibido su consulta. Nuestro representante se pondrá en contacto con "
+"usted en breve."
+
+#: lang/strings_to_translate.php:214
+msgid "What you should know about this"
+msgstr "Lo que debe saber sobre esto"
+
+#: lang/strings_to_translate.php:215
+msgid "What you should know about this listing"
+msgstr "Lo que debe saber sobre este alojamiento"
+
+#: lang/strings_to_translate.php:216
+msgid "Wheelchair access possible"
+msgstr "Acceso posible en silla de ruedas"
+
+#: lang/strings_to_translate.php:217
+msgid "Wheelchair accessible"
+msgstr "Accesible en silla de ruedas"
+
+#: lang/strings_to_translate.php:218
+msgid "Wide clearance to bed"
+msgstr "Amplio espacio hasta la cama"
+
+#: lang/strings_to_translate.php:219
+msgid "Wide clearance to shower and toilet"
+msgstr "Amplio espacio hasta la ducha y el inodoro"
+
+#: lang/strings_to_translate.php:220
+msgid "Wide doorway"
+msgstr "Puerta ancha"
+
+#: lang/strings_to_translate.php:221
+msgid "Wide hallway clearance"
+msgstr "Pasillo amplio"
+
+#: lang/strings_to_translate.php:222
+msgid "Window guards"
+msgstr "Protectores de ventana"
+
+#: lang/strings_to_translate.php:223
+msgid "Wireless Internet"
+msgstr "Internet inalámbrico"
+
+#: lang/strings_to_translate.php:225
+msgid "Your inquiry"
+msgstr "Su consulta"
+
+#: tpl/element/booking-search-advanced.php:10
+msgid " / month"
+msgstr " / mes"
+
+#: tpl/element/booking-search-advanced.php:14
+msgid " / day"
+msgstr " / día"
+
+#: tpl/element/booking-search-advanced.php:50
+#: tpl/element/direct-inquiry-modal.php:99 tpl/element/guests-block.php:90
+#: tpl/payment/preview.php:47
+msgid "Pets"
+msgstr "Mascotas"
+
+#: tpl/element/booking-search-advanced.php:53
+msgid "Does not matter"
+msgstr "No importa"
+
+#: tpl/element/booking-search-advanced.php:106
+msgid "Reset"
+msgstr "Restablecer"
+
+#: tpl/element/booking-search-popup.php:61 tpl/element/booking-search.php:131
+#: tpl/listing/listing-facilities.php:16
+msgid "Studio"
+msgstr "Estudio"
+
+#: tpl/element/booking-search.php:12
+msgid "Long-term bookings"
+msgstr "Reservas a largo plazo"
+
+#: tpl/element/booking-search.php:16
+msgid "Short-term bookings"
+msgstr "Reservas a corto plazo"
+
+#: tpl/element/booking-search.php:34
+msgid "Any"
+msgstr "Cualquiera"
+
+#: tpl/element/booking-search.php:106 tpl/element/direct-inquiry-modal.php:55
+#: tpl/listing/listing-booking-form-on-request.php:18
+#: tpl/listing/listing-booking-form-v2.php:14
+#: tpl/listing/listing-booking-form.php:14
+#: tpl/listing/listing-reviews-summary.php:57 tpl/payment/preview.php:16
+#: tpl/user/booking-manage.php:31
+msgid "Check In"
+msgstr "Entrada"
+
+#: tpl/element/booking-search.php:116 tpl/element/direct-inquiry-modal.php:68
+#: tpl/listing/listing-booking-form-on-request.php:25
+#: tpl/listing/listing-booking-form-v2.php:21
+#: tpl/listing/listing-booking-form.php:21 tpl/payment/preview.php:20
+#: tpl/user/booking-manage.php:36
+msgid "Check Out"
+msgstr "Salida"
+
+#: tpl/element/booking-search.php:135
+msgid "Bedroom"
+msgstr "Dormitorio"
+
+#: tpl/element/direct-inquiry-modal.php:17
+#: tpl/listing/listing-booking-form-on-request.php:81
+#: tpl/listing/listing-booking-form-v2.php:74
+#: tpl/listing/listing-booking-form.php:80
+msgid "Reservation Inquiry"
+msgstr "Solicitud de reserva"
+
+#: tpl/element/direct-inquiry-modal.php:22
+msgid "First Name"
+msgstr "Nombre"
+
+#: tpl/element/direct-inquiry-modal.php:27
+msgid "Last Name"
+msgstr "Apellidos"
+
+#: tpl/element/direct-inquiry-modal.php:80 tpl/element/guests-block.php:17
+#: tpl/payment/preview.php:41
+msgid "Adults"
+msgstr "Adultos"
+
+#: tpl/element/direct-inquiry-modal.php:85 tpl/element/guests-block.php:37
+#: tpl/payment/preview.php:43
+msgid "Children"
+msgstr "Niños"
+
+#: tpl/element/direct-inquiry-modal.php:90 tpl/element/guests-block.php:60
+#: tpl/payment/preview.php:45
+msgid "Infants"
+msgstr "Bebés"
+
+#: tpl/element/direct-inquiry-modal.php:105
+msgid "Discount Code"
+msgstr "Código de descuento"
+
+#: tpl/element/direct-inquiry-modal.php:117
+msgid "Question or Comment"
+msgstr "Pregunta o comentario"
+
+#: tpl/element/direct-inquiry-modal.php:156 tpl/user/booking-manage.php:289
+msgid "Send"
+msgstr "Enviar"
+
+#: tpl/element/direct-inquiry-modal.php:165
+msgid "Thank you for your inquiry! We'll be in touch soon."
+msgstr "¡Gracias por su consulta! Nos pondremos en contacto pronto."
+
+#: tpl/element/error-no-listings-available.php:2
+msgid "No accommodation available"
+msgstr "No hay alojamiento disponible"
+
+#: tpl/element/error-no-listings-found.php:5
+msgid "Try to change the filter conditions."
+msgstr "Intente cambiar las condiciones del filtro."
+
+#: tpl/element/error-no-listings-found.php:9
+msgid "Try to move or resize the map."
+msgstr "Intente mover o redimensionar el mapa."
+
+#: tpl/element/guests-block.php:6
+#: tpl/listing/listing-booking-form-on-request.php:31
+#: tpl/listing/listing-booking-form.php:29
+msgid "Guests:"
+msgstr "Huéspedes:"
+
+#: tpl/element/guests-block.php:18
+msgid "Age: 13+"
+msgstr "Edad: 13+"
+
+#: tpl/element/guests-block.php:38
+msgid "Age: 2-12"
+msgstr "Edad: 2-12"
+
+#: tpl/element/guests-block.php:61
+msgid "Age under 2"
+msgstr "Edad menor de 2"
+
+#: tpl/element/guests-block.php:115
+msgid "This place has a maximum of {max} guests, not including infants."
+msgstr "Este lugar tiene un máximo de {max} huéspedes, sin incluir bebés."
+
+#: tpl/element/guests-block.php:116
+msgid "This place has a maximum of {max} guests, infants not allowed."
+msgstr "Este lugar tiene un máximo de {max} huéspedes, no se permiten bebés."
+
+#: tpl/element/guests-block.php:122
+msgid "Children aren't allowed"
+msgstr "No se permiten niños"
+
+#: tpl/element/guests-block.php:130
+msgid "Pets allowed."
+msgstr "Se permiten mascotas."
+
+#: tpl/element/guests-block.php:131
+msgid "Pets aren't allowed."
+msgstr "No se permiten mascotas."
+
+#: tpl/element/pagination-block.php:9
+msgid "Previous"
+msgstr "Anterior"
+
+#: tpl/element/price-block-accounting.php:11
+#: tpl/element/price-block-accounting.php:19
+#: tpl/element/price-block-default.php:19 tpl/payment/preview-accounting.php:10
+#: tpl/payment/preview-accounting.php:17 tpl/payment/preview-default.php:23
+#: tpl/user/booking-manage.php:50
+msgid "Price for"
+msgstr "Precio por"
+
+#: tpl/element/price-block-accounting.php:36
+#: tpl/element/price-block-default.php:40 tpl/payment/preview-accounting.php:48
+#: tpl/payment/preview-default.php:58
+msgid "weekly discount"
+msgstr "descuento semanal"
+
+#: tpl/element/price-block-accounting.php:50
+#: tpl/element/price-block-default.php:54
+msgid "Coupon Discount"
+msgstr "Descuento de cupón"
+
+#: tpl/element/price-block-accounting.php:51
+#: tpl/element/price-block-default.php:55
+msgid "Wrong or inactive code"
+msgstr "Código incorrecto o inactivo"
+
+#: tpl/element/price-block-accounting.php:77 tpl/payment/preview.php:61
+msgid "Due upon arrival:"
+msgstr "A pagar a la llegada:"
+
+#: tpl/element/price-block-accounting.php:93 tpl/payment/preview.php:75
+#: tpl/user/booking-manage.php:92
+msgid "Subtotal"
+msgstr "Subtotal"
+
+#: tpl/element/price-block-accounting.php:97 tpl/payment/preview.php:79
+msgid "Taxes"
+msgstr "Impuestos"
+
+#: tpl/element/price-block-default.php:78 tpl/payment/preview-default.php:44
+msgid "Tax"
+msgstr "Impuesto"
+
+#: tpl/element/price-block.php:19 tpl/payment/preview.php:101
+msgid "Security deposit"
+msgstr "Depósito de seguridad"
+
+#: tpl/element/price-block.php:28
+msgid "Proceed to payment"
+msgstr "Proceder al pago"
+
+#: tpl/element/price-block.php:52
+msgid "Book on Airbnb"
+msgstr "Reservar en Airbnb"
+
+#: tpl/element/price-block.php:54
+msgid "You won't be charged yet"
+msgstr "Aún no se le cobrará"
+
+#: tpl/listing/listing-amenities.php:6
+msgid "show more &rarr;"
+msgstr "mostrar más &rarr;"
+
+#: tpl/listing/listing-booking-form-on-request.php:46
+#: tpl/listing/listing-booking-form-v2.php:38
+#: tpl/listing/listing-booking-form.php:44
+msgid "Have a discount code?"
+msgstr "¿Tiene un código de descuento?"
+
+#: tpl/listing/listing-booking-form-on-request.php:48
+#: tpl/listing/listing-booking-form-v2.php:40
+#: tpl/listing/listing-booking-form.php:46
+msgid "Your discount code..."
+msgstr "Su código de descuento..."
+
+#: tpl/listing/listing-booking-form-on-request.php:49
+#: tpl/listing/listing-booking-form-v2.php:41
+#: tpl/listing/listing-booking-form.php:47
+msgid "Apply"
+msgstr "Aplicar"
+
+#: tpl/listing/listing-booking-form-on-request.php:76
+#: tpl/listing/listing-booking-form-v2.php:69
+#: tpl/listing/listing-booking-form.php:75
+msgid "Clear dates"
+msgstr "Borrar fechas"
+
+#: tpl/listing/listing-facilities.php:24
+#: tpl/listing/listings-recommended-item.php:28
+#: tpl/listing/listings-selected-item.php:28
+msgid "beds"
+msgstr "camas"
+
+#: tpl/listing/listing-facilities.php:31
+msgid "shared baths"
+msgstr "baños compartidos"
+
+#: tpl/listing/listing-info-permit.php:5
+msgid "Permit / Tax ID"
+msgstr "Permiso / ID fiscal"
+
+#: tpl/listing/listing-info-prices.php:6
+msgid "Nightly:"
+msgstr "Por noche:"
+
+#: tpl/listing/listing-info-prices.php:12
+msgid "Weekends (Sat & Sun):"
+msgstr "Fines de semana (sáb y dom):"
+
+#: tpl/listing/listing-info-prices.php:19
+msgid "Monthly (30d+):"
+msgstr "Mensual (30d+):"
+
+#: tpl/listing/listing-info-prices.php:26
+msgid "Security Deposit:"
+msgstr "Depósito de seguridad:"
+
+#: tpl/listing/listing-info-prices.php:33
+msgid "Additional Guests:"
+msgstr "Huéspedes adicionales:"
+
+#: tpl/listing/listing-info-prices.php:40
+msgid "Allow Additional Guests:"
+msgstr "Permitir huéspedes adicionales:"
+
+#: tpl/listing/listing-info-prices.php:47
+msgid "Cleaning Fee: "
+msgstr "Tarifa de limpieza: "
+
+#: tpl/listing/listing-info-prices.php:53
+msgid "Per Stay City Free: "
+msgstr "Ciudad gratis por estancia: "
+
+#: tpl/listing/listing-info-prices.php:59
+msgid "Per Stay Minimum Number Of Days: "
+msgstr "Número mínimo de días por estancia: "
+
+#: tpl/listing/listing-info-prices.php:66
+msgid "Maximum Number Of Days: "
+msgstr "Número máximo de días: "
+
+#: tpl/listing/listing-info.php:11
+msgid "The space"
+msgstr "El espacio"
+
+#: tpl/listing/listing-info.php:26
+msgid "Other things to note"
+msgstr "Otras cosas a tener en cuenta"
+
+#: tpl/listing/listing-reviews-summary.php:29
+msgid "Accuracy"
+msgstr "Precisión"
+
+#: tpl/listing/listing-reviews-summary.php:30
+msgid "Communication"
+msgstr "Comunicación"
+
+#: tpl/listing/listing-reviews-summary.php:31
+msgid "Cleanliness"
+msgstr "Limpieza"
+
+#: tpl/listing/listing-reviews-summary.php:58
+msgid "Value"
+msgstr "Valor"
+
+#: tpl/listing/listings-recommended-item.php:55
+#: tpl/listing/listings-selected-item.php:55 tpl/user/wishlist-item.php:47
+msgid "on request"
+msgstr "bajo petición"
+
+#: tpl/listing/listings-recommended-item.php:64
+#: tpl/listing/listings-selected-item.php:64
+msgid "See more"
+msgstr "Ver más"
+
+#: tpl/payment/_error.php:5 tpl/payment/stripe-form-3ds_error.php:3
+msgid "There was a problem with your payment. Please try again."
+msgstr "Hubo un problema con su pago. Por favor, inténtelo de nuevo."
+
+#: tpl/payment/_error.php:20 tpl/payment/stripe-form-3ds_error.php:18
+msgid "Back to payment"
+msgstr "Volver al pago"
+
+#: tpl/payment/_success.php:16 tpl/payment/paypal-form.php:29
+msgid "Payment successful"
+msgstr "Pago realizado con éxito"
+
+#: tpl/payment/_success.php:26 tpl/payment/stripe-form-3ds_success.php:19
+msgid "Transaction No"
+msgstr "Nº de transacción"
+
+#: tpl/payment/_success.php:36
+msgid "Transaction date"
+msgstr "Fecha de transacción"
+
+#: tpl/payment/_success.php:51
+msgid "Payment method"
+msgstr "Método de pago"
+
+#: tpl/payment/_success.php:63
+msgid "Payment amount"
+msgstr "Importe del pago"
+
+#: tpl/payment/_success.php:85
+msgid "Go back"
+msgstr "Volver"
+
+#: tpl/payment/netpay-form.php:79 tpl/payment/stripe-form-3ds.php:19
+#: tpl/payment/stripe-form-3ds.php:20 tpl/payment/stripe-form.php:15
+#: tpl/payment/stripe-form.php:16
+msgid "Name"
+msgstr "Nombre"
+
+#: tpl/payment/netpay-form.php:100 tpl/user/booking-manage.php:160
+msgid "Address"
+msgstr "Dirección"
+
+#: tpl/payment/netpay-form.php:107 tpl/payment/stripe-form-3ds.php:299
+msgid "Country"
+msgstr "País"
+
+#: tpl/payment/netpay-form.php:364 tpl/payment/netpay-form.php:369
+#: tpl/payment/netpay-form.php:378
+msgid "State"
+msgstr "Estado/Provincia"
+
+#: tpl/payment/netpay-form.php:389
+msgid "City"
+msgstr "Ciudad"
+
+#: tpl/payment/netpay-form.php:396 tpl/payment/stripe-form-3ds.php:304
+#: tpl/payment/stripe-form.php:60
+msgid "ZIP"
+msgstr "Código postal"
+
+#: tpl/payment/netpay-form.php:401
+msgid "Continue"
+msgstr "Continuar"
+
+#: tpl/payment/netpay-form.php:406
+msgid "Back"
+msgstr "Atrás"
+
+#: tpl/payment/netpay-form.php:409 tpl/payment/netpay-form.php:424
+#: tpl/payment/netpay-form.php:548 tpl/payment/stripe-form-3ds.php:356
+#: tpl/payment/stripe-form.php:91
+msgid "Pay"
+msgstr "Pagar"
+
+#: tpl/payment/netpay-form.php:426
+msgid "The amount will be converted to mexican pesos"
+msgstr "El monto será convertido a pesos mexicanos"
+
+#: tpl/payment/preview-accounting.php:57 tpl/payment/preview-default.php:66
+msgid "discount"
+msgstr "descuento"
+
+#: tpl/payment/preview-extras-optional.php:9
+msgid "Optional extras:"
+msgstr "Extras opcionales:"
+
+#: tpl/payment/preview-extras-set.php:7
+msgid "Selected plan:"
+msgstr "Plan seleccionado:"
+
+#: tpl/payment/preview.php:107
+msgid "Price incl. security deposit"
+msgstr "Precio incluye depósito de seguridad"
+
+#: tpl/payment/preview.php:115
+msgid "Due now"
+msgstr "A pagar ahora"
+
+#: tpl/payment/preview.php:117
+msgid "Due later"
+msgstr "A pagar después"
+
+#: tpl/payment/stripe-form-3ds.php:31
+"Country code is mandatory. For example: +1234567890. Length of number must "
+"be from 4 to 19 digits."
+msgstr "El código de país es obligatorio. Por ejemplo: +1234567890. La longitud del número debe ser de 4 a 19 dígitos."
+
+#: tpl/payment/stripe-form-3ds.php:38
+msgid "Feel free to leave any additional questions..."
+msgstr "No dude en dejar cualquier pregunta adicional..."
+
+#: tpl/payment/stripe-form-3ds.php:312 tpl/payment/stripe-form.php:43
+msgid "Card number"
+msgstr "Número de tarjeta"
+
+#: tpl/payment/stripe-form-3ds.php:320 tpl/payment/stripe-form.php:50
+msgid "Expiration"
+msgstr "Vencimiento"
+
+#: tpl/payment/stripe-form-3ds.php:325 tpl/payment/stripe-form.php:55
+msgid "CVC"
+msgstr "CVC"
+
+#: tpl/payment/stripe-form-3ds_success.php:12
+msgid "Payment Successful"
+msgstr "Pago exitoso"
+
+#: tpl/payment/stripe-form-3ds_success.php:25
+msgid "Transaction Date"
+msgstr "Fecha de transacción"
+
+#: tpl/payment/stripe-form-3ds_success.php:31
+msgid "Payment Method"
+msgstr "Método de pago"
+
+#: tpl/payment/stripe-form-3ds_success.php:39
+msgid "Payment Amount"
+msgstr "Monto del pago"
+
+#: tpl/payment/stripe-form-3ds_success.php:46
+msgid "Go Back"
+msgstr "Volver"
+
+#: tpl/payment/stripe-form.php:34
+msgid "Feel free to leave any additional question..."
+msgstr "No dude en dejar cualquier pregunta adicional..."
+
+#: tpl/user/booking-manage.php:11
+msgid "Back to list"
+msgstr "Volver a la lista"
+
+#: tpl/user/booking-manage.php:98
+msgid "Extras"
+msgstr "Extras"
+
+#: tpl/user/booking-manage.php:121
+msgid "Alteration request"
+msgstr "Solicitud de modificación"
+
+#: tpl/user/booking-manage.php:139
+msgid "Your reservation"
+msgstr "Su reserva"
+
+#: tpl/user/booking-manage.php:148
+msgid "Reservation code"
+msgstr "Código de reserva"
+
+#: tpl/user/booking-manage.php:174
+msgid "Check in"
+msgstr "Entrada"
+
+#: tpl/user/booking-manage.php:186
+msgid "start from"
+msgstr "comienza desde"
+
+#: tpl/user/booking-manage.php:188
+msgid "till"
+msgstr "hasta"
+
+#: tpl/user/booking-manage.php:194
+msgid "Check out"
+msgstr "Salida"
+
+#: tpl/user/booking-manage.php:198
+msgid "Smoking allowed:"
+msgstr "Se permite fumar:"
+
+#: tpl/user/booking-manage.php:202
+msgid "Children allowed:"
+msgstr "Se permiten niños:"
+
+#: tpl/user/booking-manage.php:206
+msgid "Pets allowed:"
+msgstr "Se permiten mascotas:"
+
+#: tpl/user/booking-manage.php:210
+msgid "Party allowed:"
+msgstr "Se permiten fiestas:"
+
+#: tpl/user/booking-manage.php:221 tpl/user/booking-manage.php:239
+msgid "Cancel booking"
+msgstr "Cancelar reserva"
+
+#: tpl/user/booking-manage.php:250
+msgid "Reason"
+msgstr "Motivo"
+
+#: tpl/user/booking-manage.php:251
+msgid "Select reason"
+msgstr "Seleccionar motivo"
+
+#: tpl/user/booking-manage.php:253
+msgid "Illness"
+msgstr "Enfermedad"
+
+#: tpl/user/booking-manage.php:254
+msgid "Local competition preferred"
+msgstr "Prefiere competencia local"
+
+#: tpl/user/booking-manage.php:255
+msgid "Other destination preferred"
+msgstr "Prefiere otro destino"
+
+#: tpl/user/booking-manage.php:256
+msgid "Duplicate booking"
+msgstr "Reserva duplicada"
+
+#: tpl/user/booking-manage.php:257
+msgid "Flight / Train cancelled"
+msgstr "Vuelo / Tren cancelado"
+
+#: tpl/user/booking-manage.php:258
+msgid "Change of business event"
+msgstr "Cambio de evento de negocios"
+
+#: tpl/user/booking-manage.php:259
+msgid "Decided to stay home"
+msgstr "Decidió quedarse en casa"
+
+#: tpl/user/booking-manage.php:267
+msgid "Please enter your comment or feedback here (optional)"
+msgstr "Por favor, ingrese su comentario o retroalimentación aquí (opcional)"
+
+#: tpl/user/booking-manage.php:275
+msgid "Please tell us a reason or a comment"
+msgstr "Por favor, díganos un motivo o un comentario"
+
+#: tpl/user/booking-manage.php:282
+msgid "Sorry, an error occured. Please try again later."
+msgstr "Lo sentimos, ocurrió un error. Por favor, inténtelo de nuevo más tarde."
+
+#: tpl/user/booking-manage.php:296
+msgid "Request has been sent."
+msgstr "La solicitud ha sido enviada."
+
+#: tpl/user/bookings-list-item.php:37
+msgid "Arrival:"
+msgstr "Llegada:"
+
+#: tpl/user/bookings-list-item.php:41
+msgid "Departure:"
+msgstr "Salida:"
+
+#: tpl/user/bookings-list-item.php:46
+msgid "Confirmed at:"
+msgstr "Confirmado el:"
+
+#: tpl/user/bookings-list-item.php:50
+msgid "Code:"
+msgstr "Código:"
+
+#: tpl/user/bookings-list-item.php:55
+msgid "Total:"
+msgstr "Total:"
+
+#: tpl/user/bookings-list-item.php:61
+msgid "Details"
+msgstr "Detalles"
+
+#: tpl/user/bookings-list.php:12
+msgid "Сurrent"
+msgstr "Actual"
+
+#: tpl/user/bookings-list.php:14
+msgid "Future"
+msgstr "Futuras"
+
+#: tpl/user/bookings-list.php:16
+msgid "Past"
+msgstr "Pasadas"
+
+#: tpl/user/bookings-list.php:18
+msgid "Cancelled"
+msgstr "Canceladas"
+
+#: tpl/user/bookings-list.php:31
+msgid "Nothing yet"
+msgstr "Nada aún"
+
+#: tpl/user/error-please-login.php:3
+msgid "Please log in"
+msgstr "Por favor, inicie sesión"
+
+#: tpl/user/error-wishlist-empty.php:3
+msgid "Wishlist is empty"
+msgstr "La lista de deseos está vacía"
+
+#: tpl/user/wishlist-item.php:17
+msgid "Remove from wish list"
+msgstr "Eliminar de la lista de deseos"
+
+#: tpl/user/wishlist-item.php:34
+msgid "Persons:"
+msgstr "Personas:"
+
+#: tpl/user/wishlist-item.php:36
+msgid "Bedrooms:"
+msgstr "Dormitorios:"
+
+#: tpl/user/wishlist-item.php:38
+msgid "Baths:"
+msgstr "Baños:"
+
+#: tpl/user/wishlist-item.php:40
+msgid "Area:"
+msgstr "Área:"
+
+#: admin/exopite-simple-options/assets/jquery.fine-uploader.min.js:3
+msgid " request for "
+msgstr " solicitud para "
+
+#: admin/exopite-simple-options/assets/jquery.fine-uploader.min.js:3
+msgid "Sending "
+msgstr "Enviando "
+
+#: tpl/payment/time-left.php:1
+msgid "Please complete the form and submit your payment within"
+msgstr "Por favor, complete el formulario y envíe su pago dentro de"
+
+#: tpl/payment/time-left.php:2
+msgid "For your security, the session will time out after this period and you'll need to refresh the page to continue."
+msgstr "Por su seguridad, la sesión expirará después de este período y necesitará actualizar la página para continuar."
+
+#: tpl/payment/time-left.php:3
+msgid "For your security, this session has timed out."
+msgstr "Por su seguridad, esta sesión ha expirado."
+
+#: tpl/payment/time-left.php:4
+msgid "Please refresh the page to start again."
+msgstr "Por favor, actualice la página para comenzar de nuevo."
+
+#: tpl/payment/time-left.php:5
+msgid "Refresh page"
+msgstr "Actualizar página"
+
+msgid "Message"
+msgstr "Mensaje"
+
+msgid "Message text"
+msgstr "Texto del mensaje"
+
+#: lang/strings_to_translate.php:422
+#: tpl/payment/stripe-form-3ds-element-step-1.php:9
+#: tpl/payment/paypal-form-step-1.php:12
+#: tpl/payment/stripe-form-3ds-step-1.php:12
+msgid "Personal details"
+msgstr "Datos personales"
+
+msgid "Period is not available"
+msgstr "El período no está disponible"
+
+#: lang/strings_to_translate.php:4
+#: admin/menu.php:655
+msgid " Required Google Maps API Key In Miscellaneous Section "
+msgstr "Se requiere clave API de Google Maps en la sección Miscelánea"
+
+#: lang/strings_to_translate.php:5
+#: tpl/element/direct-inquiry-modal-v2.php:100
+msgid "%d/%d guests"
+msgstr "%d/%d huéspedes"
+
+#: lang/strings_to_translate.php:7
+#: admin/menu.php:1036
+msgid "(deprecated)"
+msgstr "(obsoleto)"
+
+#: lang/strings_to_translate.php:9
+#: admin/menu.php:716
+msgid "2-char country code like <code>us</code>"
+msgstr "Código de país de 2 caracteres como <code>es</code>"
+
+#: lang/strings_to_translate.php:14
+#: admin/menu.php:457
+msgid "ATTENTION: If disabled, all available amenities will be shown, this can be a huge list, so it is recommended to use the options below in this case."
+msgstr "ATENCIÓN: Si está desactivado, se mostrarán todas las comodidades disponibles, esto puede ser una lista enorme, por lo que se recomienda usar las opciones a continuación en este caso."
+
+#: lang/strings_to_translate.php:22
+#: admin/menu.php:585
+msgid "Add images slider for each listing item"
+msgstr "Agregar deslizador de imágenes para cada elemento del listado"
+
+#: lang/strings_to_translate.php:34
+#: admin/menu.php:1311
+msgid "All translatable strings"
+msgstr "Todas las cadenas traducibles"
+
+#: lang/strings_to_translate.php:36
+#: tpl/listing/listings-sort.php:8
+msgid "Alphabetical"
+msgstr "Alfabético"
+
+#: lang/strings_to_translate.php:45
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:336
+msgid "An error occurred while regenerating permalinks: "
+msgstr "Ocurrió un error al regenerar los enlaces permanentes: "
+
+#: lang/strings_to_translate.php:46
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:109
+msgid "An error occurred."
+msgstr "Ocurrió un error."
+
+#: lang/strings_to_translate.php:47
+#: tpl/element/direct-inquiry-modal-v2.php:229
+msgid "Any special requests or questions?"
+msgstr "¿Alguna solicitud especial o pregunta?"
+
+#: lang/strings_to_translate.php:54
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:104
+msgid "Are you sure you want to delete this permalink?"
+msgstr "¿Está seguro de que desea eliminar este enlace permanente?"
+
+#: lang/strings_to_translate.php:63
+#: admin/menu.php:1320
+msgid "Available Languages"
+msgstr "Idiomas disponibles"
+
+#: lang/strings_to_translate.php:89
+#: inc/class-hostifybooking-loader.php:1219
+msgid "Cache is disabled now"
+msgstr "El caché está desactivado ahora"
+
+#: lang/strings_to_translate.php:90
+#: admin/menu.php:961
+msgid "Can be used, for example, inside title (H1 tag) on the listing search page"
+msgstr "Se puede usar, por ejemplo, dentro del título (etiqueta H1) en la página de búsqueda de listados"
+
+#: lang/strings_to_translate.php:108
+msgid "Children's books and toys"
+msgstr "Libros y juguetes para niños"
+
+#: lang/strings_to_translate.php:109
+msgid "Children's dinnerware"
+msgstr "Vajilla para niños"
+
+#: lang/strings_to_translate.php:110
+#: admin/menu.php:1259
+msgid "Cities"
+msgstr "Ciudades"
+
+#: lang/strings_to_translate.php:116
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:117
+msgid "Clear"
+msgstr "Limpiar"
+
+#: lang/strings_to_translate.php:122
+#: admin/menu.php:592
+msgid "Click on a card will open the listing in a new tab/window"
+msgstr "Al hacer clic en una tarjeta se abrirá el listado en una nueva pestaña/ventana"
+
+#: lang/strings_to_translate.php:131
+#: tpl/payment/charge-success.php:37
+msgid "Confirmation code"
+msgstr "Código de confirmación"
+
+#: lang/strings_to_translate.php:135
+#: admin/menu.php:939
+msgid "Copy the shortcode and place it on post, page, text, code widget, etc. Refer the plugin Readme and documentation for more info about shortcodes and parameters."
+msgstr "Copie el shortcode y colóquelo en una entrada, página, texto, widget de código, etc. Consulte el Readme del plugin y la documentación para más información sobre shortcodes y parámetros."
+
+#: lang/strings_to_translate.php:139
+#: tpl/element/price-block-default.php:110
+#: tpl/element/price-block-accounting.php:106
+#: tpl/payment/preview-accounting.php:102
+#: tpl/payment/preview-accounting.php:107
+#: tpl/payment/preview-default.php:86
+#: tpl/payment/preview-default.php:91
+msgid "Coupon discount"
+msgstr "Descuento del cupón"
+
+#: lang/strings_to_translate.php:145
+#: admin/menu.php:549
+msgid "Custom styles"
+msgstr "Estilos personalizados"
+
+#: lang/strings_to_translate.php:150
+#: admin/menu.php:536
+msgid "Default map type"
+msgstr "Tipo de mapa predeterminado"
+
+#: lang/strings_to_translate.php:154
+#: admin/menu.php:605
+msgid "Define a list of amenities to show (IDs separated with a comma). All others will be hidden."
+msgstr "Defina una lista de comodidades para mostrar (IDs separados por comas). Todas las demás se ocultarán."
+
+#: lang/strings_to_translate.php:161
+#: admin/menu.php:1249
+msgid "Dictionaries"
+msgstr "Diccionarios"
+
+#: lang/strings_to_translate.php:163
+#: admin/menu.php:913
+msgid "Disable overwriting of the payment templates"
+msgstr "Deshabilitar la sobrescritura de las plantillas de pago"
+
+#: lang/strings_to_translate.php:164
+#: admin/menu.php:912
+msgid "Disable payment templates"
+msgstr "Deshabilitar plantillas de pago"
+
+#: lang/strings_to_translate.php:171
+#: admin/menu.php:852
+msgid "Do not load all the CSS that comes with the plugin, including Bootstrap"
+msgstr "No cargar todo el CSS que viene con el plugin, incluyendo Bootstrap"
+
+#: lang/strings_to_translate.php:186
+#: admin/menu.php:651
+msgid "Dynamic Google Map"
+msgstr "Mapa dinámico de Google"
+
+#: lang/strings_to_translate.php:194
+#: admin/menu.php:358
+msgid "Enable keyword search"
+msgstr "Habilitar búsqueda por palabras clave"
+
+#: lang/strings_to_translate.php:195
+#: admin/menu.php:924
+msgid "Enable the new reservation inquiry modal design."
+msgstr "Habilitar el nuevo diseño modal de consulta de reservas."
+
+#: lang/strings_to_translate.php:196
+#: tpl/element/direct-inquiry-modal-v2.php:220
+msgid "Enter discount code (if available)"
+msgstr "Ingrese código de descuento (si está disponible)"
+
+#: lang/strings_to_translate.php:199
+#: tpl/payment/stripe-form-3ds-element.php:93
+msgid "Error"
+msgstr "Error"
+
+#: lang/strings_to_translate.php:200
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:113
+msgid "Error regenerating permalinks."
+msgstr "Error al regenerar enlaces permanentes."
+
+#: lang/strings_to_translate.php:206
+#: admin/menu.php:1313
+msgid "Existing translation files (will add missing strings)"
+msgstr "Archivos de traducción existentes (agregará cadenas faltantes)"
+
+#: lang/strings_to_translate.php:210
+#: admin/menu.php:1315
+msgid "Extract Strings"
+msgstr "Extraer cadenas"
+
+#: lang/strings_to_translate.php:211
+#: admin/menu.php:1308
+msgid "Extract Translatable Strings"
+msgstr "Extraer cadenas traducibles"
+
+#: lang/strings_to_translate.php:214
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:290
+msgid "Failed to delete permalink."
+msgstr "Error al eliminar el enlace permanente."
+
+#: lang/strings_to_translate.php:215
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:252
+msgid "Failed to update permalink."
+msgstr "Error al actualizar el enlace permanente."
+
+#: lang/strings_to_translate.php:230
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:119
+msgid "Found %d out of %d total"
+msgstr "Encontrados %d de %d total"
+
+#: lang/strings_to_translate.php:240
+msgid "Generate .mo files from the .po files for WordPress to use the translations."
+msgstr "Generar archivos .mo a partir de los archivos .po para que WordPress use las traducciones."
+
+#: lang/strings_to_translate.php:257
+#: tpl/payment/preview.php:158
+msgid "Hide details"
+msgstr "Ocultar detalles"
+
+#: lang/strings_to_translate.php:262
+#: inc/class-hostifybooking-widget.php:47
+msgid "Hostify"
+msgstr "Hostify"
+
+#: lang/strings_to_translate.php:263
+#: inc/class-hostifybooking-widget.php:14
+msgid "Hostify Booking 1"
+msgstr "Hostify Booking 1"
+
+#: lang/strings_to_translate.php:264
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:1384
+msgid "Hostify Booking Engine"
+msgstr "Motor de Reservas Hostify"
+
+#: lang/strings_to_translate.php:265
+#: inc/class-hostifybooking-widget.php:15
+msgid "Hostify Booking Widget 1"
+msgstr "Widget 1 de Reservas Hostify"
+
+#: lang/strings_to_translate.php:266
+#: admin/exopite-simple-options/exopite-simple-options-framework-class.php:1364
+msgid "Hostify cache cleared"
+msgstr "Caché de Hostify limpiada"
+
+#: lang/strings_to_translate.php:273
+#: admin/menu.php:1323
+msgid "How to Use"
+msgstr "Cómo usar"
+
+#: lang/strings_to_translate.php:274
+#: admin/menu.php:542
+msgid "Hybrid"
+msgstr "Híbrido"
+
+#: lang/strings_to_translate.php:276
+#: admin/menu.php:1274
+msgid "ID codes of available amenities"
+msgstr "Códigos ID de comodidades disponibles"
+
+#: lang/strings_to_translate.php:278
+#: admin/menu.php:362
+msgid "If enabled, a keyword search field will be added to the search form."
+msgstr "Si está habilitado, se agregará un campo de búsqueda por palabras clave al formulario de búsqueda."
+
+#: lang/strings_to_translate.php:279
+#: admin/menu.php:377
+msgid "If enabled, only listings with the specified number of bedrooms will be shown in the search results."
+msgstr "Si está habilitado, solo se mostrarán en los resultados de búsqueda los listados con el número especificado de dormitorios."
+
+#: lang/strings_to_translate.php:281
+#: admin/menu.php:581
+msgid "Images slider"
+msgstr "Deslizador de imágenes"
+
+#: lang/strings_to_translate.php:292
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:210
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:277
+msgid "Invalid data."
+msgstr "Datos inválidos."
+
+#: lang/strings_to_translate.php:296
+msgid "It looks like nothing was found at this location. Maybe try one of the links below or a search?"
+msgstr "Parece que no se encontró nada en esta ubicación. ¿Quizás probar uno de los enlaces de abajo o una búsqueda?"
+
+#: lang/strings_to_translate.php:301
+#: admin/menu.php:366
+msgid "Keyword search placeholder"
+msgstr "Marcador de posición para búsqueda por palabras clave"
+
+#: lang/strings_to_translate.php:313
+#: admin/menu.php:957
+msgid "Listings info"
+msgstr "Información de listados"
+
+#: lang/strings_to_translate.php:316
+#: admin/menu.php:974
+msgid "Listings map show/hide button"
+msgstr "Botón mostrar/ocultar mapa de listados"
+
+#: lang/strings_to_translate.php:318
+#: admin/menu.php:981
+msgid "Listings sort control"
+msgstr "Control de ordenación de listados"
+
+#: lang/strings_to_translate.php:322
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:102
+msgid "Loading permalinks data..."
+msgstr "Cargando datos de enlaces permanentes..."
+
+#: lang/strings_to_translate.php:346
+#: admin/menu.php:530
+msgid "Max zoom"
+msgstr "Zoom máximo"
+
+#: lang/strings_to_translate.php:347
+#: tpl/element/direct-inquiry-modal-v2.php:206
+msgid "Maximum %d guests."
+msgstr "Máximo %d huéspedes."
+
+#: lang/strings_to_translate.php:351
+#: admin/menu.php:312
+#: admin/menu.php:737
+msgid "Miscellaneous"
+msgstr "Misceláneos"
+
+#: lang/strings_to_translate.php:355
+#: tpl/element/booking-search-advanced.php:43
+msgid "More"
+msgstr "Más"
+
+#: lang/strings_to_translate.php:369
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:118
+msgid "No matching permalinks found."
+msgstr "No se encontraron enlaces permanentes coincidentes."
+
+#: lang/strings_to_translate.php:371
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:103
+msgid "No permalinks found."
+msgstr "No se encontraron enlaces permanentes."
+
+#: lang/strings_to_translate.php:382
+#: admin/menu.php:588
+msgid "Open in new window"
+msgstr "Abrir en nueva ventana"
+
+#: lang/strings_to_translate.php:385
+#: admin/menu.php:722
+msgid "Other"
+msgstr "Otro"
+
+#: lang/strings_to_translate.php:388
+#: admin/menu.php:378
+msgid "Otherwise, by default, the result includes the specified number or more."
+msgstr "De lo contrario, por defecto, el resultado incluye el número especificado o más."
+
+#: lang/strings_to_translate.php:391
+msgid "Pack 'n Play/travel crib"
+msgstr "Pack 'n Play/cuna de viaje"
+
+#: lang/strings_to_translate.php:412
+#: admin/menu.php:1036
+msgid "Payment result page"
+msgstr "Página de resultado de pago"
+
+#: lang/strings_to_translate.php:416
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:294
+msgid "Permalink deleted successfully."
+msgstr "Enlace permanente eliminado con éxito."
+
+#: lang/strings_to_translate.php:417
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:110
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:256
+msgid "Permalink updated successfully."
+msgstr "Enlace permanente actualizado con éxito."
+
+#: lang/strings_to_translate.php:418
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:112
+msgid "Permalinks regenerated successfully!"
+msgstr "¡Enlaces permanentes regenerados con éxito!"
+
+#: lang/strings_to_translate.php:419
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:330
+msgid "Permalinks regenerated successfully."
+msgstr "Enlaces permanentes regenerados con éxito."
+
+#: lang/strings_to_translate.php:432
+#: tpl/payment/stripe-form-3ds-element-step-1.php:33
+#: tpl/payment/paypal-form-step-1.php:36
+#: tpl/payment/stripe-form-3ds-step-1.php:36
+msgid "Phone with country code is mandatory. For example: +1234567890"
+msgstr "El teléfono con código de país es obligatorio. Por ejemplo: +1234567890"
+
+#: lang/strings_to_translate.php:433
+#: admin/menu.php:370
+msgid "Placeholder text for the keyword search field"
+msgstr "Texto de marcador de posición para el campo de búsqueda por palabras clave"
+
+#: lang/strings_to_translate.php:442
+#: admin/exopite-simple-options/fields/upload.php:182
+msgid "Plugin"
+msgstr "Plugin"
+
+#: lang/strings_to_translate.php:445
+#: tpl/payment/stripe-form-3ds-element-step-1.php:58
+#: tpl/payment/paypal-form-step-1.php:52
+#: tpl/payment/stripe-form-3ds-step-1.php:61
+msgid "Postal code"
+msgstr "Código postal"
+
+#: lang/strings_to_translate.php:462
+#: tpl/element/booking-search-advanced.php:36
+msgid "Properties"
+msgstr "Propiedades"
+
+#: lang/strings_to_translate.php:463
+#: tpl/payment/stripe-form-3ds_success.php:19
+msgid "Property"
+msgstr "Propiedad"
+
+#: lang/strings_to_translate.php:472
+#: admin/menu.php:629
+msgid "Redirect if no listing"
+msgstr "Redirigir si no hay listado"
+
+#: lang/strings_to_translate.php:477
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:114
+msgid "Regenerate Permalinks"
+msgstr "Regenerar enlaces permanentes"
+
+#: lang/strings_to_translate.php:478
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:111
+msgid "Regenerating..."
+msgstr "Regenerando..."
+
+#: lang/strings_to_translate.php:484
+#: tpl/payment/stripe-form-3ds_success.php:25
+msgid "Reservation"
+msgstr "Reserva"
+
+#: lang/strings_to_translate.php:491
+#: admin/menu.php:1326
+msgid "Review the updated translation files in the lang/ directory."
+msgstr "Revise los archivos de traducción actualizados en el directorio lang/."
+
+#: lang/strings_to_translate.php:495
+#: admin/menu.php:540
+msgid "Roadmap (default)"
+msgstr "Mapa de carreteras (predeterminado)"
+
+#: lang/strings_to_translate.php:502
+#: admin/menu.php:541
+msgid "Satellite"
+msgstr "Satélite"
+
+#: lang/strings_to_translate.php:503
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:107
+msgid "Save"
+msgstr "Guardar"
+
+#: lang/strings_to_translate.php:510
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:116
+msgid "Search by ID or name..."
+msgstr "Buscar por ID o nombre..."
+
+#: lang/strings_to_translate.php:511
+#: inc/defines.php:87
+#: inc/defines.php:372
+#: tpl/element/booking-search.php:13
+#: admin/menu.php:369
+msgid "Search by keyword..."
+msgstr "Buscar por palabra clave..."
+
+#: lang/strings_to_translate.php:526
+#: admin/menu.php:546
+msgid "Select the default map type. Users can change this using the map type control."
+msgstr "Seleccione el tipo de mapa predeterminado. Los usuarios pueden cambiarlo usando el control de tipo de mapa."
+
+#: lang/strings_to_translate.php:531
+#: tpl/element/direct-inquiry-modal-v2.php:246
+msgid "Send Inquiry"
+msgstr "Enviar consulta"
+
+#: lang/strings_to_translate.php:532
+#: admin/menu.php:818
+msgid "Send custom events for Google Analytics using the Google tag (gtag) or Google Tag Manager (GTM)."
+msgstr "Enviar eventos personalizados para Google Analytics usando la etiqueta de Google (gtag) o Google Tag Manager (GTM)."
+
+#: lang/strings_to_translate.php:538
+#: admin/menu.php:960
+msgid "Short info about current search"
+msgstr "Información breve sobre la búsqueda actual"
+
+#: lang/strings_to_translate.php:543
+#: admin/menu.php:438
+msgid "Show age hints"
+msgstr "Mostrar sugerencias de edad"
+
+#: lang/strings_to_translate.php:544
+#: admin/menu.php:439
+msgid "Show age hints in the guests selection dialog"
+msgstr "Mostrar sugerencias de edad en el diálogo de selección de huéspedes"
+
+#: lang/strings_to_translate.php:548
+#: admin/menu.php:732
+msgid "Show animated loader when loading images"
+msgstr "Mostrar cargador animado al cargar imágenes"
+
+#: lang/strings_to_translate.php:551
+#: tpl/payment/preview.php:157
+msgid "Show details"
+msgstr "Mostrar detalles"
+
+#: lang/strings_to_translate.php:554
+#: admin/menu.php:655
+msgid "Show dynamic google map "
+msgstr "Mostrar mapa dinámico de Google"
+
+#: lang/strings_to_translate.php:555
+#: admin/menu.php:728
+msgid "Show image preloader"
+msgstr "Mostrar precargador de imágenes"
+
+#: lang/strings_to_translate.php:562
+#: admin/menu.php:1200
+msgid "Show listing location on map. And there is a synonym: [hfy_listing_map]."
+msgstr "Mostrar ubicación del listado en el mapa. Y hay un sinónimo: [hfy_listing_map]."
+
+#: lang/strings_to_translate.php:574
+#: admin/menu.php:699
+msgid "Show optional extras on payment page"
+msgstr "Mostrar extras opcionales en la página de pago"
+
+#: lang/strings_to_translate.php:575
+#: admin/menu.php:1039
+msgid "Show payment result"
+msgstr "Mostrar resultado del pago"
+
+#: lang/strings_to_translate.php:596
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Lo sentimos, pero nada coincide con sus términos de búsqueda. Por favor, inténtelo de nuevo con palabras clave diferentes."
+
+#: lang/strings_to_translate.php:601
+#: tpl/element/direct-inquiry-modal-v2.php:75
+msgid "Stay Dates"
+msgstr "Fechas de estancia"
+
+#: lang/strings_to_translate.php:604
+#: admin/menu.php:891
+msgid "Stripe payment element form"
+msgstr "Formulario de elemento de pago Stripe"
+
+#: lang/strings_to_translate.php:612
+#: admin/menu.php:1312
+msgid "Template file for translations"
+msgstr "Archivo de plantilla para traducciones"
+
+#: lang/strings_to_translate.php:614
+#: admin/menu.php:543
+msgid "Terrain"
+msgstr "Terreno"
+
+#: lang/strings_to_translate.php:615
+#: tpl/element/direct-inquiry-modal-v2.php:31
+msgid "Thank you for your inquiry!"
+msgstr "¡Gracias por su consulta!"
+
+#: lang/strings_to_translate.php:619
+#: admin/menu.php:862
+msgid "The plugin uses data caching both on the Hostify API and WordPress side. Sometimes during development and configuration process, it can interfere or confuse."
+msgstr "El plugin utiliza almacenamiento en caché de datos tanto en el lado de la API de Hostify como en WordPress. A veces durante el proceso de desarrollo y configuración, puede interferir o confundir."
+
+#: lang/strings_to_translate.php:622
+#: tpl/payment/charge-error.php:32
+msgid "There was a problem with your payment"
+msgstr "Hubo un problema con su pago"
+
+#: lang/strings_to_translate.php:624
+#: admin/menu.php:363
+msgid "This allows users to search for listings by keywords like property names, descriptions, amenities, city names, or neighbourhoods. Works with API v3 for comprehensive search across all listings."
+msgstr "Esto permite a los usuarios buscar listados por palabras clave como nombres de propiedades, descripciones, comodidades, nombres de ciudades o vecindarios. Funciona con API v3 para búsqueda completa en todos los listados."
+
+#: lang/strings_to_translate.php:625
+#: inc/class-hostifybooking-loader.php:727
+msgid "This date is not available for check-in"
+msgstr "Esta fecha no está disponible para el check-in"
+
+#: lang/strings_to_translate.php:626
+#: inc/class-hostifybooking-loader.php:728
+msgid "This date is not available for check-out"
+msgstr "Esta fecha no está disponible para el check-out"
+
+#: lang/strings_to_translate.php:629
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:224
+msgid "This permalink is already in use. Please choose another one."
+msgstr "Este enlace permanente ya está en uso. Por favor, elija otro."
+
+#: lang/strings_to_translate.php:630
+#: tpl/element/direct-inquiry-modal-v2.php:186
+msgid "This place has a maximum of %d guests, infants not allowed."
+msgstr "Este lugar tiene un máximo de %d huéspedes, no se permiten bebés."
+
+#: lang/strings_to_translate.php:631
+#: tpl/element/direct-inquiry-modal-v2.php:184
+msgid "This place has a maximum of %d guests, not including infants."
+msgstr "Este lugar tiene un máximo de %d huéspedes, sin incluir bebés."
+
+#: lang/strings_to_translate.php:634
+#: admin/menu.php:844
+msgid "This plugin uses the Bootstrap CSS framework. If there are any problems or conflicts with the installed plugins or theme, you can prevent the Hostiy plugin from loading this framework."
+msgstr "Este plugin utiliza el framework CSS Bootstrap. Si hay problemas o conflictos con los plugins o tema instalados, puede evitar que el plugin Hostify cargue este framework."
+
+#: lang/strings_to_translate.php:635
+#: admin/menu.php:1309
+msgid "This tool will scan all PHP files in the plugin and extract translatable strings. It will update the following files:"
+msgstr "Esta herramienta escaneará todos los archivos PHP en el plugin y extraerá las cadenas traducibles. Actualizará los siguientes archivos:"
+
+#: lang/strings_to_translate.php:638
+#: admin/exopite-simple-options/fields/upload.php:182
+msgid "To increase file upload limit in the standard built-in WordPress media uploader up as large as available disk space allows, you could use"
+msgstr "Para aumentar el límite de carga de archivos en el cargador de medios integrado estándar de WordPress hasta el espacio en disco disponible, podría usar"
+
+#: lang/strings_to_translate.php:639
+msgid "To see availability and pricing please enter your check-in and check-out dates below."
+msgstr "Para ver disponibilidad y precios, ingrese sus fechas de entrada y salida a continuación."
+
+#: lang/strings_to_translate.php:640
+msgid "To see availability please enter your check-in and check-out dates below."
+msgstr "Para ver disponibilidad, ingrese sus fechas de entrada y salida a continuación."
+
+#: lang/strings_to_translate.php:651
+#: admin/menu.php:1317
+msgid "Translation Files Location"
+msgstr "Ubicación de archivos de traducción"
+
+#: lang/strings_to_translate.php:652
+msgid "Translation Manager"
+msgstr "Gestor de traducciones"
+
+#: lang/strings_to_translate.php:653
+#: admin/menu.php:1318
+msgid "Translation files are located in:"
+msgstr "Los archivos de traducción se encuentran en:"
+
+#: lang/strings_to_translate.php:660
+#: admin/menu.php:848
+msgid "Turn off CSS"
+msgstr "Desactivar CSS"
+
+#: lang/strings_to_translate.php:661
+#: inc/ajax/hfy-ajax-listing-price.php:81
+msgid "Unavailable"
+msgstr "No disponible"
+
+#: lang/strings_to_translate.php:667
+#: admin/menu.php:898
+msgid "Use Calendar v2"
+msgstr "Usar Calendario v2"
+
+#: lang/strings_to_translate.php:668
+#: admin/menu.php:905
+msgid "Use Calendar v3"
+msgstr "Usar Calendario v3"
+
+#: lang/strings_to_translate.php:669
+#: admin/menu.php:919
+msgid "Use New Inquiry Form"
+msgstr "Usar nuevo formulario de consulta"
+
+#: lang/strings_to_translate.php:670
+msgid "Use a translation tool like Poedit to translate the strings in the .po files."
+msgstr "Use una herramienta de traducción como Poedit para traducir las cadenas en los archivos .po."
+
+#: lang/strings_to_translate.php:671
+#: admin/menu.php:708
+msgid "Use current WP language setting"
+msgstr "Usar configuración de idioma actual de WP"
+
+#: lang/strings_to_translate.php:672
+#: admin/menu.php:709
+msgid "Use custom:"
+msgstr "Usar personalizado:"
+
+#: lang/strings_to_translate.php:686
+msgid "We have received your inquiry. Our representative will get back to you shortly."
+msgstr "Hemos recibido su consulta. Nuestro representante se pondrá en contacto con usted en breve."
+
+#: lang/strings_to_translate.php:704
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:134
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:202
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:270
+#: admin/inc/seo-table-permalinks/class-seo-table-permalinks.php:307
+msgid "You do not have permission to perform this action."
+msgstr "No tienes permiso para realizar esta acción."
+
+#: lang/strings_to_translate.php:728
+#: admin/menu.php:80
+msgid "readme.txt"
+msgstr "leeme.txt"
+
+#: lang/strings_to_translate.php:735
+#: admin/inc/translation-manager/class-string-extractor.php:79
+#: admin/inc/translation-manager/class-string-extractor.php:85
+#: admin/inc/translation-manager/class-string-extractor.php:88
+#: admin/inc/translation-manager/class-string-extractor.php:91
+#: admin/inc/translation-manager/class-string-extractor.php:82
+msgid "string"
+msgstr "cadena"
+
+#: lang/strings_to_translate.php:8
+#: admin/menu.php:1344
+msgid "-- Select a language file --"
+msgstr "-- Seleccionar un archivo de idioma --"
+
+#: lang/strings_to_translate.php:190
+#: admin/menu.php:1340
+msgid "Edit translations directly in the admin interface. Select a language file and edit the translations below."
+msgstr "Edita las traducciones directamente en la interfaz de administración. Selecciona un archivo de idioma y edita las traducciones a continuación."
+
+#: lang/strings_to_translate.php:220
+#: admin/menu.php:1354
+msgid "Filter translations:"
+msgstr "Filtrar traducciones:"
+
+#: lang/strings_to_translate.php:290
+#: admin/menu.php:1339
+msgid "Inline Translation Editor"
+msgstr "Editor de traducción en línea"
+
+#: lang/strings_to_translate.php:320
+#: admin/menu.php:1346
+msgid "Load Translations"
+msgstr "Cargar traducciones"
+
+#: lang/strings_to_translate.php:504
+#: admin/menu.php:1347
+msgid "Save Changes"
+msgstr "Guardar cambios"
+
+#: lang/strings_to_translate.php:514
+#: admin/menu.php:1355
+msgid "Search translations..."
+msgstr "Buscar traducciones..."
+
+#: lang/strings_to_translate.php:520
+#: admin/menu.php:1342
+msgid "Select Language File:"
+msgstr "Seleccionar archivo de idioma:"
+
+#: lang/strings_to_translate.php:584
+#: admin/menu.php:1356
+msgid "Show untranslated only"
+msgstr "Mostrar solo sin traducir"
+
+#: lang/strings_to_translate.php:71
+#: admin/menu.php:1367
+msgid "Backup & Restore Translations"
+msgstr "Respaldar y restaurar traducciones"
+
+#: lang/strings_to_translate.php:72
+#: admin/menu.php:1377
+msgid "Backup Actions Explained:"
+msgstr "Acciones de respaldo explicadas:"
+
+#: lang/strings_to_translate.php:127
+#: admin/menu.php:1332
+msgid "Compile MO Files"
+msgstr "Compilar archivos MO"
+
+#: lang/strings_to_translate.php:129
+msgid "Compile all PO files to MO files for WordPress to use translations:"
+msgstr "Compilar todos los archivos PO a archivos MO para que WordPress use las traducciones:"
+
+#: lang/strings_to_translate.php:140
+#: admin/menu.php:1370
+msgid "Create Backup Now"
+msgstr "Crear respaldo ahora"
+
+#: lang/strings_to_translate.php:176
+#: admin/menu.php:1349
+msgid "Download .po File"
+msgstr "Descargar archivo .po"
+
+#: lang/strings_to_translate.php:178
+#: admin/menu.php:1380
+msgid "Download all translation files as a ZIP archive for external storage"
+msgstr "Descargar todos los archivos de traducción como archivo ZIP para almacenamiento externo"
+
+#: lang/strings_to_translate.php:179
+#: admin/menu.php:1384
+msgid "Download backups before plugin updates and store them safely. You can then upload individual .po files or restore entire backups after updates."
+msgstr "Descarga respaldos antes de las actualizaciones del plugin y guárdalos de forma segura. Luego puedes subir archivos .po individuales o restaurar respaldos completos después de las actualizaciones."
+
+#: lang/strings_to_translate.php:334
+#: admin/menu.php:1330
+msgid "Maintenance"
+msgstr "Mantenimiento"
+
+#: lang/strings_to_translate.php:420
+#: admin/menu.php:1382
+msgid "Permanently delete this backup (cannot be undone)"
+msgstr "Eliminar permanentemente este respaldo (no se puede deshacer)"
+
+#: lang/strings_to_translate.php:465
+#: admin/menu.php:1368
+msgid "Protect your translation work from being lost during plugin updates. Create backups before updates and restore them afterward."
+msgstr "Protege tu trabajo de traducción para que no se pierda durante las actualizaciones del plugin. Crea respaldos antes de las actualizaciones y restáuralos después."
+
+#: lang/strings_to_translate.php:474
+#: admin/menu.php:1371
+msgid "Refresh List"
+msgstr "Actualizar lista"
+
+#: lang/strings_to_translate.php:489
+#: admin/menu.php:1379
+msgid "Restore all translation files from this backup (overwrites current files)"
+msgstr "Restaurar todos los archivos de traducción desde este respaldo (sobrescribe los archivos actuales)"
+
+#: lang/strings_to_translate.php:519
+#: admin/menu.php:1389
+msgid "Select .po file:"
+msgstr "Seleccionar archivo .po:"
+
+#: lang/strings_to_translate.php:636
+#: admin/menu.php:1384
+msgid "Tip:"
+msgstr "Consejo:"
+
+#: lang/strings_to_translate.php:663
+#: admin/menu.php:1391
+msgid "Upload & Restore"
+msgstr "Subir y restaurar"
+
+#: lang/strings_to_translate.php:664
+#: admin/menu.php:1386
+msgid "Upload Translation File"
+msgstr "Subir archivo de traducción"
+
+#: lang/strings_to_translate.php:665
+#: admin/menu.php:1387
+msgid "Upload a .po file to restore translations after a plugin update:"
+msgstr "Subir un archivo .po para restaurar traducciones después de una actualización del plugin:"
+
+#: lang/strings_to_translate.php:681
+#: admin/menu.php:1381
+msgid "View the server path and web URL where backup files are stored"
+msgstr "Ver la ruta del servidor y URL web donde se almacenan los archivos de respaldo"
+
+#: lang/strings_to_translate.php:128
+#: admin/menu.php:1331
+msgid "Compile all PO files to MO files (useful if you edited files externally):"
+msgstr "Compilar todos los archivos PO a archivos MO (útil si editaste archivos externamente):"
+
+#: lang/strings_to_translate.php:332
+#: admin/menu.php:1328
+msgid "MO files are automatically generated when you save translations through our editor."
+msgstr "Los archivos MO se generan automáticamente cuando guardas traducciones a través de nuestro editor."
+
+#: lang/strings_to_translate.php:654
+#: admin/menu.php:1300
+msgid "Translation manager"
+msgstr "Gestor de traducciones"
+
+#: lang/strings_to_translate.php:675
+#: admin/menu.php:1327
+msgid "Use our Inline Translation Editor (below) to translate strings directly in the admin interface, or use external tools like Poedit or Loco Translate to edit the .po files."
+msgstr "Usa nuestro Editor de Traducción en Línea (abajo) para traducir cadenas directamente en la interfaz de administración, o usa herramientas externas como Poedit o Loco Translate para editar los archivos .po."
+
+#: lang/strings_to_translate.php:156
+#: admin/menu.php:1372
+msgid "Delete All Backups"
+msgstr "Eliminar todos los respaldos"
+
+#: lang/strings_to_translate.php:141
+#: admin/menu.php:1393
+msgid "Create backup of existing file before replacing"
+msgstr "Crear respaldo del archivo existente antes de reemplazar"
+
+#: lang/strings_to_translate.php:20
+#: admin/menu.php:1322
+msgid "Add New Language"
+msgstr "Agregar nuevo idioma"
+
+#: lang/strings_to_translate.php:117
+#: admin/menu.php:1348
+msgid "Clear Comments"
+msgstr "Borrar comentarios"
+
+#: lang/strings_to_translate.php:5
+#: tpl/listing/listing-reviews-summary.php:28
+msgid "%d reviews"
+msgstr "%d reseñas"
+
+#: lang/strings_to_translate.php:8
+#: admin/inc/translation-manager/translation-manager.php:97
+msgid "%s: %d missing translations (%d/%d translated - %s%%)"
+msgstr "%s: %d traducciones faltantes (%d/%d traducidas - %s%%)"
+
+#: lang/strings_to_translate.php:35
+#: admin/menu.php:651
+msgid "Airbnb reviews only (5-star system)"
+msgstr "Solo reseñas de Airbnb (sistema de 5 estrellas)"
+
+#: lang/strings_to_translate.php:57
+#: inc/class-hostifybooking-loader.php:753
+msgid "Apr"
+msgstr "Abr"
+
+#: lang/strings_to_translate.php:58
+#: inc/class-hostifybooking-loader.php:738
+msgid "April"
+msgstr "Abril"
+
+#: lang/strings_to_translate.php:66
+#: inc/class-hostifybooking-loader.php:757
+msgid "Aug"
+msgstr "Ago"
+
+#: lang/strings_to_translate.php:67
+#: inc/class-hostifybooking-loader.php:742
+msgid "August"
+msgstr "Agosto"
+
+#: lang/strings_to_translate.php:80
+#: admin/inc/translation-manager/translation-manager.php:101
+msgid "Backup created: %s"
+msgstr "Respaldo creado: %s"
+
+#: lang/strings_to_translate.php:94
+#: admin/menu.php:652
+msgid "Booking.com reviews only (10-star system)"
+msgstr "Solo reseñas de Booking.com (sistema de 10 estrellas)"
+
+#: lang/strings_to_translate.php:113
+msgid "Check for Corruption"
+msgstr "Verificar corrupción"
+
+#: lang/strings_to_translate.php:138
+#: admin/inc/translation-manager/translation-manager.php:85
+msgid "Compiling MO files..."
+msgstr "Compilando archivos MO..."
+
+#: lang/strings_to_translate.php:139
+#: admin/inc/translation-manager/translation-manager.php:102
+msgid "Compiling..."
+msgstr "Compilando..."
+
+#: lang/strings_to_translate.php:159
+#: inc/class-hostifybooking-loader.php:761
+msgid "Dec"
+msgstr "Dic"
+
+#: lang/strings_to_translate.php:160
+#: inc/class-hostifybooking-loader.php:746
+msgid "December"
+msgstr "Diciembre"
+
+#: lang/strings_to_translate.php:214
+#: admin/inc/translation-manager/translation-manager.php:87
+msgid "Errors: %s"
+msgstr "Errores: %s"
+
+#: lang/strings_to_translate.php:225
+#: admin/inc/translation-manager/translation-manager.php:89
+msgid "Extracting..."
+msgstr "Extrayendo..."
+
+#: lang/strings_to_translate.php:226
+#: admin/inc/translation-manager/translation-manager.php:91
+msgid "Extraction completed successfully!"
+msgstr "¡Extracción completada con éxito!"
+
+#: lang/strings_to_translate.php:229
+#: admin/inc/translation-manager/translation-manager.php:88
+msgid "Failed to compile MO files"
+msgstr "Error al compilar archivos MO"
+
+#: lang/strings_to_translate.php:233
+#: inc/class-hostifybooking-loader.php:751
+msgid "Feb"
+msgstr "Feb"
+
+#: lang/strings_to_translate.php:234
+#: inc/class-hostifybooking-loader.php:736
+msgid "February"
+msgstr "Febrero"
+
+#: lang/strings_to_translate.php:237
+#: admin/inc/translation-manager/translation-manager.php:100
+msgid "File uploaded and restored successfully!"
+msgstr "¡Archivo subido y restaurado con éxito!"
+
+#: lang/strings_to_translate.php:238
+#: admin/inc/translation-manager/translation-manager.php:94
+msgid "Files updated with source location comments: %s"
+msgstr "Archivos actualizados con comentarios de ubicación de origen: %s"
+
+#: lang/strings_to_translate.php:239
+#: admin/inc/translation-manager/translation-manager.php:93
+msgid "Files with new strings added: %s"
+msgstr "Archivos con nuevas cadenas agregadas: %s"
+
+#: lang/strings_to_translate.php:254
+#: inc/class-hostifybooking-loader.php:780
+msgid "Fri"
+msgstr "Vie"
+
+#: lang/strings_to_translate.php:255
+#: inc/class-hostifybooking-loader.php:770
+msgid "Friday"
+msgstr "Viernes"
+
+#: lang/strings_to_translate.php:322
+#: inc/class-hostifybooking-loader.php:750
+msgid "Jan"
+msgstr "Ene"
+
+#: lang/strings_to_translate.php:323
+#: inc/class-hostifybooking-loader.php:735
+msgid "January"
+msgstr "Enero"
+
+#: lang/strings_to_translate.php:324
+#: inc/class-hostifybooking-loader.php:756
+msgid "Jul"
+msgstr "Jul"
+
+#: lang/strings_to_translate.php:325
+#: inc/class-hostifybooking-loader.php:741
+msgid "July"
+msgstr "Julio"
+
+#: lang/strings_to_translate.php:326
+#: inc/class-hostifybooking-loader.php:755
+msgid "Jun"
+msgstr "Jun"
+
+#: lang/strings_to_translate.php:327
+#: inc/class-hostifybooking-loader.php:740
+msgid "June"
+msgstr "Junio"
+
+#: lang/strings_to_translate.php:350
+#: admin/inc/translation-manager/translation-manager.php:84
+msgid "Loaded %d translations from %s"
+msgstr "Cargadas %d traducciones de %s"
+
+#: lang/strings_to_translate.php:370
+#: inc/class-hostifybooking-loader.php:752
+msgid "Mar"
+msgstr "Mar"
+
+#: lang/strings_to_translate.php:371
+#: inc/class-hostifybooking-loader.php:737
+msgid "March"
+msgstr "Marzo"
+
+#: lang/strings_to_translate.php:381
+#: inc/class-hostifybooking-loader.php:739
+#: inc/class-hostifybooking-loader.php:754
+msgid "May"
+msgstr "Mayo"
+
+#: lang/strings_to_translate.php:383
+#: inc/class-hostifybooking-loader.php:722
+#: inc/class-hostifybooking-loader.php:723
+#: inc/class-hostifybooking-loader.php:725
+#: inc/class-hostifybooking-loader.php:726
+msgid "Minimum stay %d night"
+msgid_plural "Minimum stay %d nights"
+msgstr[0] "Estancia mínima %d noche"
+msgstr[1] "Estancia mínima %d noches"
+
+#: lang/strings_to_translate.php:386
+#: admin/inc/translation-manager/translation-manager.php:96
+msgid "Missing Translations Report:"
+msgstr "Informe de traducciones faltantes:"
+
+#: lang/strings_to_translate.php:387
+#: inc/class-hostifybooking-loader.php:776
+msgid "Mon"
+msgstr "Lun"
+
+#: lang/strings_to_translate.php:388
+#: inc/class-hostifybooking-loader.php:766
+msgid "Monday"
+msgstr "Lunes"
+
+#: lang/strings_to_translate.php:409
+#: admin/menu.php:615
+msgid "No redirect"
+msgstr "Sin redirección"
+
+#: lang/strings_to_translate.php:416
+#: inc/class-hostifybooking-loader.php:760
+msgid "Nov"
+msgstr "Nov"
+
+#: lang/strings_to_translate.php:417
+#: inc/class-hostifybooking-loader.php:745
+msgid "November"
+msgstr "Noviembre"
+
+#: lang/strings_to_translate.php:418
+#: inc/class-hostifybooking-loader.php:759
+msgid "Oct"
+msgstr "Oct"
+
+#: lang/strings_to_translate.php:419
+#: inc/class-hostifybooking-loader.php:744
+msgid "October"
+msgstr "Octubre"
+
+#: lang/strings_to_translate.php:433
+#: admin/inc/translation-manager/translation-manager.php:95
+msgid "PO files with updated headers: %d files"
+msgstr "Archivos PO con encabezados actualizados: %d archivos"
+
+#: lang/strings_to_translate.php:516
+#: admin/menu.php:617
+msgid "Redirect to Home page"
+msgstr "Redirigir a la página de inicio"
+
+#: lang/strings_to_translate.php:517
+#: admin/menu.php:616
+msgid "Redirect to Listings page"
+msgstr "Redirigir a la página de listados"
+
+#: lang/strings_to_translate.php:518
+#: admin/menu.php:618
+msgid "Redirect to custom URL"
+msgstr "Redirigir a URL personalizada"
+
+#: lang/strings_to_translate.php:536
+#: admin/menu.php:646
+msgid "Review system"
+msgstr "Sistema de reseñas"
+
+#: lang/strings_to_translate.php:538
+#: admin/menu.php:640
+msgid "Reviews"
+msgstr "Reseñas"
+
+#: lang/strings_to_translate.php:549
+#: inc/class-hostifybooking-loader.php:781
+msgid "Sat"
+msgstr "Sáb"
+
+#: lang/strings_to_translate.php:551
+#: inc/class-hostifybooking-loader.php:771
+msgid "Saturday"
+msgstr "Sábado"
+
+#: lang/strings_to_translate.php:583
+#: inc/class-hostifybooking-loader.php:758
+msgid "Sep"
+msgstr "Sep"
+
+#: lang/strings_to_translate.php:584
+#: inc/class-hostifybooking-loader.php:743
+msgid "September"
+msgstr "Septiembre"
+
+#: lang/strings_to_translate.php:631
+#: admin/menu.php:656
+msgid "Show review source"
+msgstr "Mostrar fuente de la reseña"
+
+#: lang/strings_to_translate.php:635
+#: admin/menu.php:660
+msgid "Show the source platform (Airbnb/Booking.com) next to each review"
+msgstr "Mostrar la plataforma de origen (Airbnb/Booking.com) junto a cada reseña"
+
+#: lang/strings_to_translate.php:660
+#: admin/inc/translation-manager/translation-manager.php:86
+msgid "Successfully compiled %d MO files."
+msgstr "Se compilaron con éxito %d archivos MO."
+
+#: lang/strings_to_translate.php:661
+#: inc/class-hostifybooking-loader.php:775
+msgid "Sun"
+msgstr "Dom"
+
+#: lang/strings_to_translate.php:662
+#: inc/class-hostifybooking-loader.php:765
+msgid "Sunday"
+msgstr "Domingo"
+
+#: lang/strings_to_translate.php:692
+#: inc/class-hostifybooking-loader.php:779
+msgid "Thu"
+msgstr "Jue"
+
+#: lang/strings_to_translate.php:693
+#: inc/class-hostifybooking-loader.php:769
+msgid "Thursday"
+msgstr "Jueves"
+
+#: lang/strings_to_translate.php:705
+#: admin/inc/translation-manager/translation-manager.php:92
+msgid "Total strings found: %d"
+msgstr "Total de cadenas encontradas: %d"
+
+#: lang/strings_to_translate.php:714
+#: admin/inc/translation-manager/translation-manager.php:83
+msgid "Translations saved successfully!"
+msgstr "¡Traducciones guardadas con éxito!"
+
+#: lang/strings_to_translate.php:719
+#: inc/class-hostifybooking-loader.php:777
+msgid "Tue"
+msgstr "Mar"
+
+#: lang/strings_to_translate.php:720
+#: inc/class-hostifybooking-loader.php:767
+msgid "Tuesday"
+msgstr "Martes"
+
+#: lang/strings_to_translate.php:728
+#: admin/inc/translation-manager/translation-manager.php:98
+msgid "Uploading..."
+msgstr "Subiendo..."
+
+#: lang/strings_to_translate.php:751
+#: inc/class-hostifybooking-loader.php:778
+msgid "Wed"
+msgstr "Mié"
+
+#: lang/strings_to_translate.php:752
+#: inc/class-hostifybooking-loader.php:768
+msgid "Wednesday"
+msgstr "Miércoles"
+
+#: lang/strings_to_translate.php:798
+#: admin/inc/translation-manager/class-string-extractor.php:109
+msgid "singular"
+msgid_plural "plural"
+msgstr[0] "singular"
+msgstr[1] "plural"
+
+#: lang/strings_to_translate.php:120
+msgid "City name only (default)"
+msgstr "Solo nombre de ciudad (predeterminado)"
+
+#: lang/strings_to_translate.php:121
+msgid "City name, Neighbourhood"
+msgstr "Nombre de ciudad, Barrio"
+
+#: lang/strings_to_translate.php:128
+msgid "Clear Hostify Cache"
+msgstr "Limpiar caché de Hostify"
+
+#: lang/strings_to_translate.php:151
+msgid "Country name, City name, Neighbourhood"
+msgstr "Nombre de país, Nombre de ciudad, Barrio"
+
+#: lang/strings_to_translate.php:152
+msgid "Country name, State name, City name, Neighbourhood"
+msgstr "Nombre de país, Nombre de estado, Nombre de ciudad, Barrio"
+
+#: lang/strings_to_translate.php:174
+msgid "Delete:"
+msgstr "Eliminar:"
+
+#: lang/strings_to_translate.php:196
+msgid "Download ZIP:"
+msgstr "Descargar ZIP:"
+
+#: lang/strings_to_translate.php:295
+msgid "Hostify Booking Plugin Update"
+msgstr "Actualización del plugin Hostify Booking"
+
+#: lang/strings_to_translate.php:296
+msgid "Hostify Booking Settings"
+msgstr "Configuración de Hostify Booking"
+
+#: lang/strings_to_translate.php:406
+msgid "Neighbourhood, City name"
+msgstr "Barrio, Nombre de ciudad"
+
+#: lang/strings_to_translate.php:422
+msgid "No sort"
+msgstr "Sin ordenar"
+
+#: lang/strings_to_translate.php:435
+msgid "Open Location:"
+msgstr "Abrir ubicación:"
+
+#: lang/strings_to_translate.php:497
+msgid "Plugin update"
+msgstr "Actualización del plugin"
+
+#: lang/strings_to_translate.php:548
+msgid "Restore:"
+msgstr "Restaurar:"
+
+#: lang/strings_to_translate.php:665
+msgid "Sort by listing nickname"
+msgstr "Ordenar por apodo del listado"
+
+#: lang/strings_to_translate.php:666
+msgid "Sort by listing price, ascending order (low to high)"
+msgstr "Ordenar por precio del listado, orden ascendente (bajo a alto)"
+
+#: lang/strings_to_translate.php:667
+msgid "Sort by listing price, descending order (high to low)"
+msgstr "Ordenar por precio del listado, orden descendente (alto a bajo)"
+
+#: lang/strings_to_translate.php:668
+msgid "Sort by listing title"
+msgstr "Ordenar por título del listado"
+
+#: lang/strings_to_translate.php:672
+msgid "State name, City name, Neighbourhood"
+msgstr "Nombre de estado, Nombre de ciudad, Barrio"
+
+#: lang/strings_to_translate.php:763
+msgid "View listings page"
+msgstr "Ver página de listados"
+
+#: lang/strings_to_translate.php:806
+msgid "long term"
+msgstr "largo plazo"
+
+#: lang/strings_to_translate.php:817
+msgid "short term"
+msgstr "corto plazo"
+
+#: lang/strings_to_translate.php:824
+msgid "syntax error"
+msgstr "error de sintaxis"
