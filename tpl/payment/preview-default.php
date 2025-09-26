@@ -20,30 +20,53 @@ if ($price_original > 0 && $p > 0 && $p < $price_original) {
 	</div>
 	<div>
 		<?php // ListingHelper::withSymbol($listingPricePerNight, $reserveInfo->prices, $sym) ?>
-		<?= __('Price for', 'hostifybooking') ?> <?=$listingInfo->nights;?> <?= __('nights', 'hostifybooking') ?>
+		<?= __('Price for', 'hostifybooking') ?> <?=$reserveInfo->listingInfo->nights;?> <?= __('nights', 'hostifybooking') ?>
 	</div>
 </div>
 
-<?php if ($listingInfo->cleaning_fee) { ?>
+<?php 
+?>
+<?php if (isset($reserveInfo->prices->cleaning_fee) && $reserveInfo->prices->cleaning_fee > 0) { ?>
 	<div class="booking-title sub">
-		<div style="float:right"><?= ListingHelper::withSymbol($listingInfo->cleaning_fee, $reserveInfo->prices, $sym) ?></div>
+		<div style="float:right"><?= ListingHelper::withSymbol($reserveInfo->prices->cleaning_fee, $reserveInfo->prices, $sym) ?></div>
 		<?= __('Cleaning fee', 'hostifybooking') ?>
 	</div>
+<?php } else { ?>
+	<!-- Debug: cleaning_fee not displayed - value: <?= $reserveInfo->prices->cleaning_fee ?? 'not set' ?>, isset: <?= isset($reserveInfo->prices->cleaning_fee) ? 'yes' : 'no' ?>, >0: <?= ($reserveInfo->prices->cleaning_fee ?? 0) > 0 ? 'yes' : 'no' ?> -->
 <?php } ?>
 
-<?php if ($listingInfo->extra_person_price) { ?>
+<?php if (isset($reserveInfo->listingInfo->extra_person_price) && $reserveInfo->listingInfo->extra_person_price > 0) { ?>
 	<div class="booking-title sub">
-		<div style="float:right"><?= ListingHelper::withSymbol($listingInfo->extra_person_price, $reserveInfo->prices, $sym) ?></div>
+		<div style="float:right"><?= ListingHelper::withSymbol($reserveInfo->listingInfo->extra_person_price, $reserveInfo->prices, $sym) ?></div>
 		<?= __('Extra person', 'hostifybooking') ?>
 	</div>
 <?php } ?>
 
-<?php if ($listingInfo->tax) { ?>
+<?php // Display tax from prices object (more reliable)
+$taxAmount = $reserveInfo->prices->tax_amount ?? 0;
+if ($taxAmount > 0) { ?>
 	<div class="booking-title sub">
-		<div style="float:right"><?= ListingHelper::withSymbol($listingInfo->tax, $reserveInfo->prices, $sym) ?></div>
+		<div style="float:right"><?= ListingHelper::withSymbol($taxAmount, $reserveInfo->prices, $sym) ?></div>
+		<?= __('Tax', 'hostifybooking') ?>
+	</div>
+<?php } else if (isset($reserveInfo->listingInfo->tax) && $reserveInfo->listingInfo->tax > 0) { ?>
+	<div class="booking-title sub">
+		<div style="float:right"><?= ListingHelper::withSymbol($reserveInfo->listingInfo->tax, $reserveInfo->prices, $sym) ?></div>
 		<?= __('Tax', 'hostifybooking') ?>
 	</div>
 <?php } ?>
+
+<?php // Display regular extras if any are selected
+if (isset($reserveInfo->selectedExtras) && !empty($reserveInfo->selectedExtras)) {
+    foreach ($reserveInfo->selectedExtras as $extra) {
+        if (isset($extra->price) && $extra->price > 0) { ?>
+            <div class="booking-title sub">
+                <div style="float:right"><?= ListingHelper::withSymbol($extra->price, $reserveInfo->prices, $sym) ?></div>
+                <?= $extra->name ?? $extra->title ?? 'Extra' ?>
+            </div>
+        <?php }
+    }
+} ?>
 
 <?php if (empty($reserveInfo->prices->v3)): ?>
 

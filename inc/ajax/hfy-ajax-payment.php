@@ -38,11 +38,25 @@ if (
         $feesToSend
     );
     
-    // Update the total to be the partial amount if available in V3 API
-    if (HFY_USE_API_V3 && !empty($pres->price->v3->partial) && $pres->price->v3->partial > 0) {
-        $data['total'] = $pres->price->v3->partial;
-    } else if (!empty($pres->price->totalPartial) && $pres->price->totalPartial > 0) {
-        $data['total'] = $pres->price->totalPartial;
+    // Apply fixFees to preserve tax and other fees
+    if (isset($pres->price)) {
+        $pres->price = $api->fixFees($pres->price, $data['start_date'], $data['end_date'], $data['guests'], $adults, $children, $infants, $pets, $feesToSend);
+    }
+    
+    // Calculate the full total first
+    if (HFY_USE_API_V3 && isset($pres->price->v3)) {
+        $fullTotal = $pres->price->v3->total;
+        // Use partial payment if available
+        $data['total'] = !empty($pres->price->v3->partial) && $pres->price->v3->partial > 0 
+            ? $pres->price->v3->partial 
+            : $fullTotal;
+    } else {
+        // For v2, use pre-calculated total from API
+        $fullTotal = $pres->price->total ?? $pres->price->totalAfterTax ?? $pres->price->totalPrice ?? 0;
+        // Use partial payment if available
+        $data['total'] = !empty($pres->price->totalPartial) && $pres->price->totalPartial > 0 
+            ? $pres->price->totalPartial 
+            : $fullTotal;
     }
     
     if (!empty($data['payer_id'])) {
@@ -90,6 +104,52 @@ if (
         // stripe
 
         $api = new HfyApi();
+        
+        // Extract detailed fee information from processed price data
+        if (isset($pres->price)) {
+            $detailedFees = [];
+            
+            // Add cleaning fees
+            if (isset($pres->price->fees)) {
+                foreach ($pres->price->fees as $fee) {
+                    if (strpos(strtolower($fee->fee_name ?? ''), 'cleaning') !== false) {
+                        $detailedFees[] = [
+                            'name' => $fee->fee_name ?? 'Cleaning Fee',
+                            'amount' => floatval($fee->total),
+                            'type' => 'cleaning'
+                        ];
+                    }
+                }
+            }
+            
+            // Add taxes
+            if (isset($pres->price->taxes)) {
+                foreach ($pres->price->taxes as $tax) {
+                    $detailedFees[] = [
+                        'name' => $tax->fee_name ?? 'Tax',
+                        'amount' => floatval($tax->total),
+                        'type' => 'tax'
+                    ];
+                }
+            }
+            
+            // Add other fees
+            if (isset($pres->price->fees)) {
+                foreach ($pres->price->fees as $fee) {
+                    if (strpos(strtolower($fee->fee_name ?? ''), 'cleaning') === false && 
+                        strpos(strtolower($fee->fee_name ?? ''), 'tax') === false) {
+                        $detailedFees[] = [
+                            'name' => $fee->fee_name ?? 'Fee',
+                            'amount' => floatval($fee->total),
+                            'type' => 'other'
+                        ];
+                    }
+                }
+            }
+            
+            $data['fees'] = $detailedFees;
+        }
+        
         $data = $api->postPayment3ds($data);
 
         $out = [

@@ -659,12 +659,56 @@ class HfyApi
 // print_r($out);die;
 // print_r($out->price->v3);die;
         if ($this->apiVersion == 3) {
+            // V3 API handling - uses advanced fee structure
             if (isset($out->price->v3->advanced_fees)) {
                 $out->price = $this->fixFees($out->price ?? [], $start_date, $end_date, $guests, $adults, $children, $infants, $pets);
             }
             if (isset($out->price->v3->extras)) {
                 $out->price->extras = $out->price->v3->extras;
             }
+            // Ensure v3 total is properly set
+            $out->price->total = $out->price->v3->total;
+            $out->price->totalAfterTax = $out->price->v3->total;
+            
+            // Set tax_amount for single listing display (use API value if available, otherwise use calculated)
+            $out->price->tax_amount = $out->price->tax_amount ?? $out->price->totalTaxesCalc ?? 0;
+            
+        } else {
+            // V2 API handling - simpler fee structure
+            $out->price->base_price = $out->price->price ?? $out->price->priceWithoutDiscount ?? 0;
+            if (empty($out->price->base_price) && isset($out->price->priceWithMarkup)) {
+                $out->price->base_price = $out->price->priceWithMarkup;
+            }
+            
+            // Process fees for V2 API if advanced fees are available
+            if (isset($out->price->fees) || isset($out->price->advanced_fees)) {
+                $out->price = $this->fixFees($out->price ?? [], $start_date, $end_date, $guests, $adults, $children, $infants, $pets);
+            } else {
+                
+                // Initialize fee totals if not set
+                $out->price->totalExtrasCalc = $out->price->totalExtrasCalc ?? 0;
+                $out->price->totalFees = $out->price->totalFees ?? 0;
+                $out->price->totalTaxesCalc = $out->price->totalTaxesCalc ?? 0;
+                
+                // Set cleaning fee from API response if available
+                $out->price->cleaning_fee = $out->price->cleaning_fee ?? 0;
+            }
+            
+            // Set tax_amount for single listing display (use API value if available, otherwise use calculated)
+            $out->price->tax_amount = $out->price->tax_amount ?? $out->price->totalTaxesCalc ?? 0;
+            
+            
+            // Always recalculate v2 total to ensure correct tax calculation
+            $basePrice = $out->price->priceWithMarkup;
+            $cleaningFee = $out->price->cleaning_fee ?? 0;
+            $extras = $out->price->totalExtrasCalc ?? 0;
+            $taxes = $out->price->tax_amount ?? $out->price->totalTaxesCalc ?? 0;
+            $discount = $out->price->discount ?? 0; // Use discount field from API response
+            
+            $out->price->total = $basePrice + $cleaningFee + $extras + $taxes - $discount;
+            
+            $out->price->totalAfterTax = $out->price->total;
+            
         }
 // print_r($out);die;
         return $out;
@@ -674,10 +718,30 @@ class HfyApi
     {
         $v3 = $price->v3 ?? false;
         $price->extras = $price->v3->extras ?? [];
-        $fees = $price->v3->advanced_fees ?? $price->fees ?? [];
+        // Prioritize feesAll.fees if available, otherwise use regular fees
+        $fees = $price->feesAll->fees ?? $price->v3->advanced_fees ?? $price->fees ?? [];
 
         if (!empty($fees)) {
+            // Ensure we capture the base price
+            $price->base_price = $price->price ?? $price->priceWithoutDiscount ?? 0;
+            if (empty($price->base_price) && isset($price->priceWithMarkup)) {
+                $price->base_price = $price->priceWithMarkup;
+            }
+            
             $price->feesAll = (object) [];
+            
+            // Preserve existing cleaning fee and tax BEFORE resetting
+            $existingCleaningFee = $price->cleaning_fee ?? 0;
+            $existingTax = $price->totalTaxesCalc ?? 0;
+            
+            // Reset cleaning fee to 0 to prevent double processing
+            $price->cleaning_fee = 0;
+            
+            // If we have feesAll.fees, we'll process cleaning fees from there, so don't preserve existing
+            if (!empty($fees)) {
+                $existingCleaningFee = 0;
+            }
+            
             $price->feesAll->fees = $fees;
             $price->fees = [];
             $price->totalFees = 0;
@@ -693,6 +757,11 @@ class HfyApi
             $price->totalExtrasCalc = 0;
             $price->monthlyPricingTable = [];
             $price->monthlyPricingDiscountTable = [];
+            // Initialize guest fees tracking
+            $price->guest_fees = [];
+            $price->totalGuestFees = 0;
+            
+            // Variables already preserved above before reset
 
             $isMonthlyDynamic = 0;
 
@@ -706,21 +775,62 @@ class HfyApi
                     continue;
                 }
                 if ($fee->type == 'accommodation') continue;
+                if ($fee->type == 'tax' || $fee->fee_type == 'tax') continue;
 
                 if (!isset($fee->fee_name) && isset($fee->name)) $fee->fee_name = $fee->name;
                 if (!isset($fee->property_fee_id) && isset($fee->id)) $fee->property_fee_id = $fee->id;
                 if (!isset($fee->charge_type_label)) $fee->charge_type_label = $fee->amount . ' ' . __($fee->fee_charge_type, 'hostifybooking');
 
                 // if ($fee->type !== 'extra' && isset($fee->is_base_price)) {
-                if ($fee->type !== 'extra') {
+
+                // Special handling for different fee types
+                if (
+                    // Additional guest fees
+                    $fee->type === 'additional_guest' || 
+                    $fee->fee_name === 'Additional guest' || 
+                    $fee->name === 'Additional guest' ||
+                    // Per guest charges
+                    (isset($fee->fee_charge_type_id) && $fee->fee_charge_type_id == 4) || 
+                    (isset($fee->fee_charge_type) && strtolower($fee->fee_charge_type) === 'per guest') ||
+                    (isset($fee->charge_type) && strtolower($fee->charge_type) === 'per guest')
+                ) {
+                    // Store guest-related fees
+                    $price->fees[] = $fee;
+                    $price->guest_fees[] = $fee;
+                    $price->totalFees += floatval($fee->total);
+                    $price->totalGuestFees = ($price->totalGuestFees ?? 0) + floatval($fee->total);
+                } 
+                // Cleaning fee
+                else if ($fee->type === 'cleaning' || strpos(strtolower($fee->fee_name ?? ''), 'cleaning') !== false) {
+                    $price->fees[] = $fee;
+                    $price->totalFees += floatval($fee->total);
+                    // Accumulate cleaning fees instead of overwriting
+                    $previousCleaningFee = $price->cleaning_fee ?? 0;
+                    $price->cleaning_fee = $previousCleaningFee + floatval($fee->total);
+                }
+                // Pet fee
+                else if ($fee->fee_id == 470 || strpos(strtolower($fee->fee_name ?? ''), 'pet') !== false) {
+                    $price->fees[] = $fee;
+                    $price->totalFees += floatval($fee->total);
+                    // Accumulate pet fees instead of overwriting
+                    $price->pet_fee = ($price->pet_fee ?? 0) + floatval($fee->total);
+                } else if (
+                    isset($fee->fee_charge_type_id) && $fee->fee_charge_type_id == 2 || // per night
+                    (isset($fee->fee_charge_type) && strtolower($fee->fee_charge_type) === 'per night')
+                ) {
+                    $price->fees[] = $fee;
+                    $price->totalFees += floatval($fee->total);
+                }
+                // Regular fees
+                else if ($fee->type !== 'extra') {
                     if (!isset($fee->is_base_price) && floatval($fee->total) > 0) {
                         if (
                             strtolower($fee->condition_type ?? '') != 'online'
-                            && $fee->fee_id != 470 // pet fee
+                            && $fee->fee_id != 470 // pet fee already handled
                         ) {
                             $price->offline[] = $fee;
                             $price->totalOfflineCalc += floatval($fee->total);
-                        } else if ($fee->type == 'tax') {
+                        } else if ($fee->type == 'tax' || $fee->fee_type == 'tax') {
                             $price->taxes[] = $fee;
                             $price->totalTaxesCalc += floatval($fee->total);
                         } else {
@@ -728,17 +838,52 @@ class HfyApi
                             $price->totalFees += floatval($fee->total);
                         }
                     } else if (isset($fee->is_base_price)) {
-                        $price->feesBasePrice += floatval($fee->total);
-                        $price->feesAccommodation[] = $fee;
+                        // Check if this is a discount fee
+                        $isDiscount = strpos(strtolower($fee->fee_name ?? ''), 'discount') !== false || 
+                                     strpos(strtolower($fee->name ?? ''), 'discount') !== false;
+                        
+                        if ($isDiscount) {
+                            // Handle discount as a negative value
+                            $discountAmount = floatval($fee->total);
+                            $price->discount = ($price->discount ?? 0) + $discountAmount;
+                            $price->fees[] = $fee; // Add to fees array for display
+                        } else {
+                            // Regular base price fee
+                            $price->feesBasePrice += floatval($fee->total);
+                            $price->feesAccommodation[] = $fee;
+                        }
                     }
-                } else {
+                } 
+                // Regular extras
+                else {
                     if (
                         (is_array($feesExtraIdsExclude) && in_array($fee->fee_id, $feesExtraIdsExclude))
                         || $fee->type == 'extra'
                     ) {
                         $price->extras[] = $fee;
                         $price->totalExtrasCalc += floatval($fee->total);
+                        
                     }
+                }
+                
+                
+                // Calculate total price including base price and extras for v2
+                if (!isset($price->v3)) {
+                    // For v2, priceWithMarkup already includes the total for all nights
+                    $price->total = $price->priceWithMarkup + 
+                                  ($price->cleaning_fee ?? 0) + 
+                                  ($price->totalExtrasCalc ?? 0) + 
+                                  ($price->totalTaxesCalc ?? 0) - 
+                                  ($price->discount ?? 0);
+                    $price->totalPrice = $price->total;
+                    $price->totalAfterTax = $price->total;
+                    
+                    // Calculate V2 subtotal (base price + cleaning fee + taxes - discount, without extras)
+                    $price->subtotal = $price->priceWithMarkup + 
+                                     ($price->cleaning_fee ?? 0) + 
+                                     ($price->totalTaxesCalc ?? 0) - 
+                                     ($price->discount ?? 0);
+                    
                 }
 
                 if ($fee->fee_charge_type == "Per Month" || $fee->fee_charge_type == "Per Month Dynamic"){
@@ -780,16 +925,52 @@ class HfyApi
                 }
             }
 
+            // Restore cleaning fee if it wasn't found in the fees array
+            // Only restore if no cleaning fees were processed (cleaning_fee is 0 or null)
+            if (($price->cleaning_fee ?? 0) == 0 && $existingCleaningFee > 0) {
+                $price->cleaning_fee = $existingCleaningFee;
+            }
+            
+            // Restore tax if it wasn't found in the fees array
+            if (($price->totalTaxesCalc ?? 0) == 0 && $existingTax > 0) {
+                $price->totalTaxesCalc = $existingTax;
+            }
+            
+            // Set tax_amount for single listing display
+            $price->tax_amount = $price->tax_amount ?? $price->totalTaxesCalc ?? 0;
+            
+            // Add tax to taxes array for accounting template display (only once, after the loop)
+            if (($price->totalTaxesCalc ?? 0) > 0) {
+                // Check if tax is already in the taxes array to avoid duplicates
+                $taxExists = false;
+                foreach ($price->taxes as $existingTaxItem) {
+                    if (strpos(strtolower($existingTaxItem->fee_name ?? ''), 'tax') !== false) {
+                        $taxExists = true;
+                        break;
+                    }
+                }
+                
+                if (!$taxExists) {
+                    $price->taxes[] = (object) [
+                        'fee_name' => 'Tax Per Stay',
+                        'charge_type_label' => '',
+                        'total' => $price->totalTaxesCalc
+                    ];
+                }
+            }
+
             // if($isMonthlyDynamic){
             //     $price->monthlyPricingTable = $this->generateMonthlyDynamicTable($listing_id, $start_date);
             //     $price->monthlyPricingDiscountTable = $this->generateMonthlyDynamicDiscountTable($listing_id);
             // }
 
-            $price->subtotal = $fees->total_net ?? $v3->subtotal ?? 0;
-            $price->totalTaxes = $v3->tax ?? 0;
-            $price->totalAfterTax = $fees->total ?? $v3->total ?? 0;
-            // if ($price->totalAfterTax > 0) $price->totalAfterTax = $price->totalAfterTax - $sub;
-            $price->includes_exclusive_fees = $fees->includes_exclusive_fees ?? 1; // todo
+            // Only set these values for v3 API
+            if (isset($price->v3)) {
+                $price->subtotal = $fees->total_net ?? $v3->subtotal ?? 0;
+                $price->totalTaxes = $v3->tax ?? 0;
+                $price->totalAfterTax = $fees->total ?? $v3->total ?? 0;
+                $price->includes_exclusive_fees = $fees->includes_exclusive_fees ?? 1;
+            }
         }
         return $price;
     }

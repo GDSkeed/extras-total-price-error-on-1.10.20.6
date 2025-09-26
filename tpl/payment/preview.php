@@ -1,6 +1,7 @@
 <?php
 if (!defined('WPINC')) die;
 
+
 $sym = '&nbsp;'.$listingInfo->currency_symbol.'&nbsp;';
 ?>
 <div id="roomInfoSection">
@@ -106,13 +107,26 @@ $sym = '&nbsp;'.$listingInfo->currency_symbol.'&nbsp;';
 
         <?php include hfy_tpl('payment/preview-extras-set'); ?>
 
-        <?php include hfy_tpl('payment/preview-extras-optional'); ?>
+        <?php // Only show separate extras section for V2, V3 extras are integrated into main breakdown ?>
+        <?php if (empty($reserveInfo->prices->v3)): ?>
+            <?php include hfy_tpl('payment/preview-extras-optional'); ?>
+        <?php endif; ?>
 
     </div>
 
+    <hr class="mob-hide" />
+
     <div class="booking-block pt-0">
         <div class="booking-title">
-            <div style="float:right"><?= ListingHelper::withSymbol($reserveInfo->prices->totalAfterTax ?? $reserveInfo->prices->total, $reserveInfo->prices, $sym) ?></div>
+            <div style="float:right"><?= ListingHelper::withSymbol(
+            (!empty($reserveInfo->prices->feesAll) && !empty($reserveInfo->prices->feesAll->total))
+                ? $reserveInfo->prices->feesAll->total
+                : ((HFY_USE_API_V3 && isset($reserveInfo->prices->v3)) || isset($reserveInfo->prices->v3)
+                    ? $reserveInfo->prices->v3->total 
+                    : ($reserveInfo->prices->totalAfterTax ?? $reserveInfo->prices->totalPrice ?? $reserveInfo->prices->total ?? 0)),
+                $reserveInfo->prices, 
+                $sym
+            ) ?></div>
             <?= __('Total', 'hostifybooking') ?>
         </div>
 
@@ -146,8 +160,6 @@ $sym = '&nbsp;'.$listingInfo->currency_symbol.'&nbsp;';
 
         <?php endif; ?>
     </div>
-
-    <hr class="mob-hide" />
 
     <div class="mob-hide">
         <?php include hfy_tpl('payment/additional-info'); ?>

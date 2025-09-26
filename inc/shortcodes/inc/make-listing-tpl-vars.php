@@ -35,8 +35,10 @@ if (!empty($listingPrice) && is_object($listingPrice)) {
     // Set other required variables for price block
     $total = $listingPrice->totalAfterTax ?? 0;
     $totalNights = $listingPrice->priceWithMarkup ?? 0;
-    $tax = $listingPrice->tax_amount ?? 0;
+    $tax = $listingPrice->tax_amount ?? $prices->tax_amount ?? 0;
+    
     $discount_code = $prm->discount_code ?? '';
+    
 }
 
 $listingPriceOnRequest = ($listingData->price_on_request ?? 0) == 1;

@@ -51,11 +51,16 @@ include hfy_tpl('payment/stripe-form-3ds-step-slider');
 	<div class="col text-right pay-btn-wrap">
 		<button class='pay-btn' type="submit">
 			<?= __('Pay', 'hostifybooking') ?>
-			<!-- <?= ListingHelper::withSymbol(
-		        HFY_USE_API_V3 && isset($listingPrice->v3) ? $listingPrice->v3->total : ($totalPartial > 0 ? $totalPartial : $total),
+			<?= ListingHelper::withSymbol(
+            ((HFY_USE_API_V3 && isset($listingPrice->v3)) || isset($listingPrice->v3))
+                ? $listingPrice->v3->total 
+                : ($totalPartial > 0 
+                    ? $totalPartial 
+                    : ($listingPrice->totalAfterTax ?? $listingPrice->totalPrice ?? $listingPrice->total ?? 0)
+                ),
 		        $reserveInfo->prices,
 		        $listingInfo->currency_symbol
-		    ) ?> -->
+		    ) ?>
 		</button>
 	</div>
 </div>

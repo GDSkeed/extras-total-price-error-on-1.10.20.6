@@ -11,8 +11,6 @@ include HOSTIFYBOOKING_DIR . 'inc/shortcodes/inc/load-terms.php'; // todo
 
 $direct_inquiry_email = $settings->direct_inquiry_email;
 
-// Log received raw data
-error_log('[Hostify Inquiry v2] Received POST data: ' . print_r($_POST['data'] ?? 'Not set', true));
 
 // --- reCAPTCHA server-side verification ---
 $recaptcha_secret = defined('HFY_GOOGLE_RECAPTCHA_SECRET_KEY') ? HFY_GOOGLE_RECAPTCHA_SECRET_KEY : '';
@@ -26,7 +24,6 @@ if (!empty($recaptcha_secret)) {
             'success' => false,
             'msg' => 'reCAPTCHA verification failed: No token provided.'
         ];
-        error_log('[Hostify Inquiry v2] reCAPTCHA failed: No token provided.');
         wp_send_json($out);
         wp_die();
     }
@@ -48,7 +45,6 @@ if (!empty($recaptcha_secret)) {
             'success' => false,
             'msg' => 'reCAPTCHA verification failed: Network error.'
         ];
-        error_log('[Hostify Inquiry v2] reCAPTCHA network error: ' . $verify_response->get_error_message());
         wp_send_json($out);
         wp_die();
     }
@@ -60,7 +56,6 @@ if (!empty($recaptcha_secret)) {
             'success' => false,
             'msg' => 'reCAPTCHA verification failed: Invalid token.'
         ];
-        error_log('[Hostify Inquiry v2] reCAPTCHA failed: Invalid token.');
         wp_send_json($out);
         wp_die();
     }
@@ -73,23 +68,15 @@ if (!empty($recaptcha_secret)) {
                 'success' => false,
                 'msg' => 'reCAPTCHA verification failed: Score too low (' . $score . ').'
             ];
-            error_log('[Hostify Inquiry v2] reCAPTCHA v3 failed: Score ' . $score . ' below threshold.');
             wp_send_json($out);
             wp_die();
         }
-        error_log('[Hostify Inquiry v2] reCAPTCHA v3 passed with score: ' . $score);
-    } else {
-        error_log('[Hostify Inquiry v2] reCAPTCHA v2 verification passed.');
     }
-} else {
-    error_log('[Hostify Inquiry v2] Skipping reCAPTCHA verification - secret key not configured.');
 }
 // --- END reCAPTCHA server-side verification ---
 
 parse_str($_POST['data'] ?? '', $pdata);
 
-// Log parsed data
-error_log('[Hostify Inquiry v2] Parsed data ($pdata): ' . print_r($pdata, true));
 
 
 $listingId = intval($pdata['listingId'] ?? $pdata['listing_id'] ?? 0); // Accept listing_id as well
@@ -120,25 +107,18 @@ $out = [
 // Detailed initial validation
 if (empty($direct_inquiry_email)) {
     $out['msg'] = 'Inquiry recipient email is not configured.';
-    error_log('[Hostify Inquiry v2] Validation failed: Inquiry recipient email missing.');
 } elseif (empty($listingId)) {
     $out['msg'] = 'Missing listing ID.';
-    error_log('[Hostify Inquiry v2] Validation failed: Listing ID missing or invalid.');
 } elseif (empty($check_in)) {
     $out['msg'] = 'Check-in date is required.';
-    error_log('[Hostify Inquiry v2] Validation failed: Check-in date missing.');
 } elseif (empty($check_out)) {
     $out['msg'] = 'Check-out date is required.';
-    error_log('[Hostify Inquiry v2] Validation failed: Check-out date missing.');
 } else {
     // Validation passed, proceed with API calls
-    error_log('[Hostify Inquiry v2] Initial validation passed. Proceeding with API calls for Listing ID: ' . $listingId);
 
 	$api = new HfyApi();
 
-    error_log('[Hostify Inquiry v2] Calling getListingPrice...'); // Log before API call
 	$result = $api->getListingPrice($listingId, $check_in, $check_out, $adults, false, $discount_code, $adults, $children, $infants, $pets);
-    error_log('[Hostify Inquiry v2] getListingPrice result: ' . print_r($result, true)); // Log result
 	if (!$result || isset($result->error)) {
 		$out = ['success' => false, 'msg' => $result->error];
 	} else {
@@ -146,16 +126,14 @@ if (empty($direct_inquiry_email)) {
 		if ($result->price->totalAfterTax) {
 			$totalPrice = $result->price->totalAfterTax;
 		} else {
-			$priceMarkup = !empty($settings->price_markup) ? $settings->price_markup : 0;
-			$result->price->price = ListingHelper::calcPriceMarkup($result->price->price, $priceMarkup);
-			$totalPrice = $result->price->price + $result->price->cleaning_fee + $result->price->extra_person_price;
+			// Use pre-calculated total from API
+			$totalPrice = $result->price->totalAfterTax ?? $result->price->total ?? $result->price->totalPrice ?? 0;
 		}
 
 		if ($discount_code) {
 			$message .= "\n\nDISCOUNT CODE: $discount_code";
 		}
 
-		      error_log('[Hostify Inquiry v2] Calling postBookListing (as pending inquiry)...'); // Log before API call
 		$result = $api->postBookListing(
 			$listingId,
 			$check_in,
@@ -175,11 +153,9 @@ if (empty($direct_inquiry_email)) {
 			$pets
 		);
 
-		      error_log('[Hostify Inquiry v2] postBookListing result: ' . print_r($result, true)); // Log result
 		if (!$result || isset($result->error)) { // Check for error in result object too
 		          $apiError = isset($result->error) ? $result->error : 'Unable to submit inquiry (postBookListing failed)';
 			$out = ['success' => false, 'msg' => $apiError];
-		          error_log('[Hostify Inquiry v2] postBookListing failed: ' . $apiError);
 		} else {
 			ob_start();
 			include hfy_tpl('element/direct-inquiry-mail');

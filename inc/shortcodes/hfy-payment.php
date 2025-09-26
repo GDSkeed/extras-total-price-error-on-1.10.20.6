@@ -178,8 +178,9 @@ if (HFY_USE_API_V3 && isset($listingPrice->v3)) {
     // For v3, use v3.total which includes all extras
     $totalPrice = number_format($listingPrice->v3->total, 2, '.', '');
 } else {
-    // For v2, respect totalPartial if it exists
-    $totalPrice = number_format($totalPartial > 0 ? $totalPartial : $total, 2, '.', '');
+    // For v2, use pre-calculated total from API
+    $calculatedTotal = $listingPrice->total ?? $listingPrice->totalAfterTax ?? $listingPrice->totalPrice ?? 0;
+    $totalPrice = number_format($totalPartial > 0 ? $totalPartial : $calculatedTotal, 2, '.', '');
 }
 
 $nights = $listingPrice->nights;

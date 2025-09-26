@@ -24,7 +24,7 @@ if ($price_original > 0 && $p > 0 && $p < $price_original) {
             <?php if ($price_original > 0): ?>
                 <s style="color:#aaa"><?= ListingHelper::withSymbol($price_original, $prices, $currencySymbol) ?></s><br/>
             <?php endif; ?>
-            <?= ListingHelper::withSymbol($totalNights, $prices, $currencySymbol) ?>
+            <?= ListingHelper::withSymbol($prices->priceWithMarkup ?? $totalNights, $prices, $currencySymbol) ?>
         </div>
     </div>
 
@@ -150,18 +150,31 @@ if ($price_original > 0 && $p > 0 && $p < $price_original) {
     </div>
 <?php } ?>
 
+<?php 
+?>
+
 <?php if ($tax): ?>
     <div class='price-block-item'>
         <div class="_label"><?= __( 'Tax', 'hostifybooking' ) ?></div>
         <div class="_value"><?= ListingHelper::withSymbol($tax, $prices, $currencySymbol) ?></div>
     </div>
+<?php else: ?>
+    <!-- Debug: Tax not displayed - tax value: <?= $tax ?? 'not set' ?>, isset: <?= isset($tax) ? 'yes' : 'no' ?>, >0: <?= ($tax ?? 0) > 0 ? 'yes' : 'no' ?> -->
 <?php endif; ?>
 
 <?php // TOTAL ?>
 
 <div class='price-block-item price-block-total'>
     <div class="_label"><?= __( 'Total', 'hostifybooking' ) ?></div>
-    <div class="_value"><?= ListingHelper::withSymbol($total, $prices, $currencySymbol) ?></div>
+    <?php 
+    // Calculate the total value for debugging
+    $calculatedTotal = (HFY_USE_API_V3 && isset($prices->v3)) || isset($prices->v3)
+        ? $prices->v3->total 
+        : ($prices->totalAfterTax ?? $prices->totalPrice ?? $prices->total ?? 0);
+    
+    ?>
+    <div class="_value"><?= ListingHelper::withSymbol($calculatedTotal, $prices, $currencySymbol) ?></div>
+    <!-- DEBUG: totalAfterTax=<?= $prices->totalAfterTax ?? 'not set' ?>, totalPrice=<?= $prices->totalPrice ?? 'not set' ?>, total=<?= $prices->total ?? 'not set' ?>, v3_total=<?= isset($prices->v3) ? $prices->v3->total : 'not set' ?>, calculatedTotal=<?= $calculatedTotal ?> -->
 </div>
 
 <?php if (!empty($prices->v3) && !empty($prices->v3->partial) && $prices->v3->partial > 0): ?>

@@ -82,6 +82,9 @@
                         $currencySymbol = $listingCurrencyData->symbol;
                         $is_listed = $listingData->is_listed;
                         $accountingActive = ($listingPrice->accounting_module ?? 0) == 1;
+                        $tax = $listingPrice->tax_amount ?? $listingPrice->totalTaxesCalc ?? 0;
+                        
+                        
                         include hfy_tpl('element/price-block');
                     }
                     ?>

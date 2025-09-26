@@ -43,6 +43,7 @@ if ($result->success ?? false) {
 		$totalNights = $result->price->priceWithMarkup;
 		$listingPricePerNight = number_format($listingPricePerNight, 2, '.', '');
 		$tax = isset($result->price->tax_amount) ? $result->price->tax_amount : 0;
+		
 
 		$totalPartial = empty($result->price->totalPartial) ? 0 : $result->price->totalPartial;
 		// $totalPartial = 0;
@@ -67,6 +68,10 @@ if ($result->success ?? false) {
 		}
 	}
 
+
+	// Set tax variable for template
+	$tax = $prices->tax_amount ?? $prices->totalTaxesCalc ?? 0;
+	
 	ob_start();
 	if (($prices->price_on_request ?? 0) == 1) {
 		include hfy_tpl('element/price-block-on-request');

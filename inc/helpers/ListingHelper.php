@@ -137,8 +137,22 @@ class ListingHelper
      */
     public static function formatBGNWithEUR($price, $space = '&nbsp;')
     {
+        // Check if the price already includes " / " which means it's already formatted
+        if (strpos($price, ' / ') !== false) {
+            return $price;
+        }
+        
         // Central rate: 1 EUR = 1.95583 BGN
         $centralRate = 1.95583;
+        
+        // If price is a string with both currencies, extract the BGN amount
+        if (is_string($price) && strpos($price, 'лв.') !== false) {
+            $parts = explode('лв.', $price);
+            $price = trim(str_replace(',', '', $parts[0]));
+        }
+        
+        // Convert string to float if needed
+        $price = is_string($price) ? floatval(str_replace(',', '', $price)) : $price;
         
         // Convert BGN to EUR and round to 2 decimal places
         $eurPrice = round($price / $centralRate, 2);
