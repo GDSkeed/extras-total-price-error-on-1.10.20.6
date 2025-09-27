@@ -10,12 +10,12 @@
  * Text Domain:  hostifybooking
  * Domain Path:  /lang
  * Update URI:   https://wp-update.hostify.com/info/update.json
- * Version:      1.10.20.6
+ * Version:      1.10.21
  */
 
 if (!defined('WPINC')) die;
 
-define('HOSTIFYBOOKING_VERSION', '1.10.20.6');
+define('HOSTIFYBOOKING_VERSION', '1.10.21');
 define('HOSTIFYBOOKING_URL', plugin_dir_url( __FILE__ ));
 define('HOSTIFYBOOKING_DIR', plugin_dir_path( __FILE__ ));
 define('HOSTIFYBOOKING_CRON_NAME', 'hostifybooking_cron');

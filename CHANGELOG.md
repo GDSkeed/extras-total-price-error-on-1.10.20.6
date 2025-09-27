@@ -5,6 +5,29 @@
 ## After updating, check and save the plugin settings, clear the cache.
 ## If some templates have been changed (overwritten) in your custom theme, compare them with the changes from the new version of the plugin.
 
+= 1.10.21 =
+* Added: V2/V3 API separation: separate display logic for V2 and V3; V3 uses advanced_fees with type/name; V2 uses feesAll.fees with fee_type/fee_name; avoids cross-version conflicts.
+* Fixed: Incorrect addition; now subtracts discounts from totals; detects discount fees and stores them as negative values; prevents double-counting when adding/removing discount extras.
+* Fixed: V2 subtotal = base + cleaning + taxes − discount (no extras); V3 subtotal from API; totals include extras correctly; JavaScript totals updated for payment processing.
+* Fixed: Discount extras subtract from total; regular extras add; add/remove works correctly; extras appear after subtotal and before taxes in V3.
+* Fixed: Hide zero-value fees/taxes/extras; fallback labels for missing names; separator lines before subtotal and total; correct order: Accommodation → Fees → Subtotal → Taxes → Total.
+* Fixed: Correct totals with extras; V3 extras integrated into main breakdown; V2 subtotal shown when different from total; JavaScript variables updated for Stripe.
+* Fixed: No duplicate cleaning fees; no duplicate subtotals; correct totals after adding/removing extras; V2 and V3 work independently; payment processing uses correct amounts.
+	Affected templates:
+		Core price display templates
+			tpl/element/price-block-accounting.php — main price breakdown
+			tpl/element/price-block-default.php — default price block
+			tpl/element/price-block.php — price block selector
+		Payment preview templates
+			tpl/payment/preview-accounting.php — payment preview breakdown
+			tpl/payment/preview-default.php — default payment preview
+			tpl/payment/preview.php — parent payment preview
+		Listing form templates
+			tpl/listing/listing-booking-form.php — booking form
+			tpl/listing/listing-booking-form-v2.php — V2 booking form
+		Payment processing templates
+			tpl/payment/stripe-form-3ds-element-step-3.php — Stripe 3DS form
+
 = 1.10.20.6 =
 * Added reviews for VBRO and internal Hosify for single listing.
 
