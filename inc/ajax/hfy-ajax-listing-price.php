@@ -25,9 +25,38 @@ $pricePerNightTotal = 0;
 $api = new HfyApi();
 $result = $api->getListingPrice($listing_id, $start_date, $end_date, $guests, false, $discount_code, $adults, $children, $infants, $pets);
 
+// DEBUG: Log the raw API response
+$debugInfo = "<!-- DEBUG AJAX RAW API: success=" . ($result->success ?? 'not set') . 
+    ", priceWithMarkup=" . ($result->price->priceWithMarkup ?? 'not set') . 
+    ", price=" . ($result->price->price ?? 'not set') . 
+    ", totalAfterTax=" . ($result->price->totalAfterTax ?? 'not set') . 
+    ", nights=" . ($result->price->nights ?? 'not set') . 
+    ", feesAll=" . (isset($result->price->feesAll) ? 'exists' : 'not set') . 
+    ", taxes_count=" . (isset($result->price->taxes) ? count($result->price->taxes) : 'not set') . 
+    ", taxes=" . (isset($result->price->taxes) ? json_encode($result->price->taxes) : 'not set') . 
+    ", HFY_USE_API_V3=" . (defined('HFY_USE_API_V3') ? (HFY_USE_API_V3 ? 'true' : 'false') : 'not defined') . " -->\n";
+
+
 if ($result->success ?? false) {
 	$success = true;
 	$prices = $result->price;
+	
+	// Apply fixFees to process the pricing data correctly for V2
+	// V3 handles fixFees in the API layer, so we only need it for V2
+	if (!HFY_USE_API_V3) {
+		$prices = $api->fixFees($prices, $start_date, $end_date, $guests, $adults, $children, $infants, $pets);
+		
+		// DEBUG: After fixFees processing
+		$debugInfo .= "<!-- DEBUG AJAX AFTER FIXFEES: priceWithMarkup=" . ($prices->priceWithMarkup ?? 'not set') . 
+			", price=" . ($prices->price ?? 'not set') . 
+			", totalAfterTax=" . ($prices->totalAfterTax ?? 'not set') . 
+			", feesAll_total=" . ($prices->feesAll->total ?? 'not set') . 
+			", fees_count=" . (isset($prices->fees) ? count($prices->fees) : 0) . 
+			", taxes_count=" . (isset($prices->taxes) ? count($prices->taxes) : 0) . " -->\n";
+	} else {
+		$debugInfo .= "<!-- DEBUG AJAX: V3 detected, skipping fixFees -->\n";
+	}
+	
 	$channelListingId = false;
 	$detailedAccomodation = false;
 	$currencySymbol = $result->price->symbol ?? '';
@@ -44,6 +73,12 @@ if ($result->success ?? false) {
 		$listingPricePerNight = number_format($listingPricePerNight, 2, '.', '');
 		$tax = isset($result->price->tax_amount) ? $result->price->tax_amount : 0;
 		
+		
+		// Ensure nights property is set for template display
+		if (!isset($prices->nights) || empty($prices->nights)) {
+			$prices->nights = $result->price->nights ?? 0;
+		}
+		
 
 		$totalPartial = empty($result->price->totalPartial) ? 0 : $result->price->totalPartial;
 		// $totalPartial = 0;
@@ -59,6 +94,17 @@ if ($result->success ?? false) {
 
 		$totalPrice = number_format($totalPartial > 0 ? $totalPartial : $total, 2, '.', '');
 
+		// For V2, let fixFees handle everything - we just use the values it sets
+		// No need to recalculate here as fixFees already does it correctly
+		
+		// DEBUG: Log what fixFees calculated
+		$debugInfo .= "<!-- DEBUG AFTER FIXFEES: fees_count=" . (isset($prices->fees) ? count($prices->fees) : 'not set') . 
+			", totalFees=" . ($prices->totalFees ?? 'not set') . 
+			", taxes_count=" . (isset($prices->taxes) ? count($prices->taxes) : 'not set') . 
+			", totalTaxesCalc=" . ($prices->totalTaxesCalc ?? 'not set') . 
+			", totalAfterTax=" . ($prices->totalAfterTax ?? 'not set') . 
+			", feesAll_total=" . ($prices->feesAll->total ?? 'not set') . " -->\n";
+
 		if (!empty($result->price->feesAccommodation)) {
 			foreach ($result->price->feesAccommodation as $fee) {
 				if (strtolower($fee->fee_charge_type) == 'per month') {
@@ -72,6 +118,9 @@ if ($result->success ?? false) {
 	// Set tax variable for template
 	$tax = $prices->tax_amount ?? $prices->totalTaxesCalc ?? 0;
 	
+	// DEBUG: Log taxes array (now populated by fixFees in api.php)
+	$debugInfo .= "<!-- DEBUG TAXES: taxes_count=" . (isset($prices->taxes) ? count($prices->taxes) : 'not set') . ", totalTaxesCalc=" . ($prices->totalTaxesCalc ?? 'not set') . " -->\n";
+	
 	ob_start();
 	if (($prices->price_on_request ?? 0) == 1) {
 		include hfy_tpl('element/price-block-on-request');
@@ -80,6 +129,10 @@ if ($result->success ?? false) {
 	}
 	$html = ob_get_contents();
 	ob_end_clean();
+	
+	// Add debug info to HTML
+	$html = $debugInfo . $html;
+	
 
 } else {
 	$success = false;

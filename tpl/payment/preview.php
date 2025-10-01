@@ -94,16 +94,7 @@ $sym = '&nbsp;'.$listingInfo->currency_symbol.'&nbsp;';
 
     <div class="mob-hide">
 
-        <?php if (!HFY_USE_API_V3 && (isset($reserveInfo->prices->includes_exclusive_fees) && ($reserveInfo->prices->includes_exclusive_fees > 0))): ?>
-            <div class='booking-title sub'>
-                <div style="float:right"><?= ListingHelper::withSymbol($reserveInfo->prices->subtotal, $reserveInfo->prices, $listingInfo->currency_symbol) ?></div>
-                <?= __( 'Subtotal', 'hostifybooking' ) ?>
-            </div>
-            <div class='booking-title sub'>
-                <div style="float:right"><?= ListingHelper::withSymbol($reserveInfo->prices->totalFees, $reserveInfo->prices, $listingInfo->currency_symbol) ?></div>
-                <?= __( 'Taxes', 'hostifybooking' ) ?>
-            </div>
-        <?php endif; ?>
+        <?php // Old hardcoded subtotal logic removed - now handled in preview-accounting.php and preview-default.php ?>
 
         <?php include hfy_tpl('payment/preview-extras-set'); ?>
 
@@ -119,11 +110,9 @@ $sym = '&nbsp;'.$listingInfo->currency_symbol.'&nbsp;';
     <div class="booking-block pt-0">
         <div class="booking-title">
             <div style="float:right"><?= ListingHelper::withSymbol(
-            (!empty($reserveInfo->prices->feesAll) && !empty($reserveInfo->prices->feesAll->total))
-                ? $reserveInfo->prices->feesAll->total
-                : ((HFY_USE_API_V3 && isset($reserveInfo->prices->v3)) || isset($reserveInfo->prices->v3)
-                    ? $reserveInfo->prices->v3->total 
-                    : ($reserveInfo->prices->totalAfterTax ?? $reserveInfo->prices->totalPrice ?? $reserveInfo->prices->total ?? 0)),
+            // Use totalAfterTax for both V2 and V3 - it includes optional extras
+            // The payment preview script (hfy-ajax-payment-preview.php) calculates this correctly
+            $reserveInfo->prices->totalAfterTax ?? $reserveInfo->prices->totalPrice ?? $reserveInfo->prices->total ?? 0,
                 $reserveInfo->prices, 
                 $sym
             ) ?></div>
@@ -137,7 +126,7 @@ $sym = '&nbsp;'.$listingInfo->currency_symbol.'&nbsp;';
         ?>
             <div class="booking-title">
                 <div style="float:right"><?= ListingHelper::withSymbol(
-                    $totalPartial > 0 ? $totalPartial : $total,
+                    $totalPartial > 0 ? ($totalPartial + ($selectedExtrasTotal ?? 0)) : $total,
                     $reserveInfo->prices, $sym) ?></div>
                 <?= __('Due now', 'hostifybooking') ?>
             </div>

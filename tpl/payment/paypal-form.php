@@ -134,6 +134,7 @@ window.onload = function() {
             dcid: '<?= $reserveInfo->dcid ?>',
             discount_code: '<?= $reserveInfo->discount_code ?? '' ?>',
             fees: '<?= $reserveInfo->fees_ids ?? '' ?>',
+            fees_details: <?= json_encode($reserveInfo->fees_details ?? []) ?>,
             listing_name: '<?= esc_attr($listingInfo->name ?? '') ?>',
             listing_curr: '<?= esc_attr($listingData->currency ?? '') ?>',
         }

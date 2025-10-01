@@ -199,6 +199,8 @@
         total: '<?= $totalPrice ?>',
         discount_code: '<?= $reserveInfo->discount_code ?>',
         dcid: '<?= $reserveInfo->dcid ?>',
+        fees: '<?= $reserveInfo->fees_ids ?? '' ?>',
+        fees_details: <?= json_encode($reserveInfo->fees_details ?? []) ?>,
         integration_id: '<?= $settings->data->payment_service_integration_id ?>',
         customer_id: '<?= $settings->customer_id ?>',
         currency: '<?= $reserveInfo->prices->iso_code ?>',

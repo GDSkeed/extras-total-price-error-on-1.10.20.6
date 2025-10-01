@@ -117,6 +117,13 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // --- Prepare initial value for the datepicker input if dates are pre-filled ---
     var mainDateInput = document.getElementById('hotel-datepicker');
+    
+    // Exit if datepicker input doesn't exist (e.g. on payment page)
+    if (!mainDateInput) {
+        // console.log('Datepicker input #hotel-datepicker not found on this page. Skipping initialization.');
+        return;
+    }
+    
     var initialStartDateInputPrep = document.querySelector('input[name="start_date"]'); // Use different var name to avoid conflict later
     var initialEndDateInputPrep = document.querySelector('input[name="end_date"]');
 

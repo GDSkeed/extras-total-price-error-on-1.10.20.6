@@ -97,34 +97,45 @@ $feesToSend = array_unique(array_merge($extrasSetArray, $extrasOptionalSelectedI
 
 $api = new HfyApi();
 
-// First get the base price without extras to preserve tax information
-$presBase = $api->getListingPrice($listing_id, $startDate, $endDate, $guests, false, $prm->discount_code, $adults, $children, $infants, $pets, []);
-
-if ($presBase && $presBase->success) {
-	$basePrice = $presBase->price;
-	$originalTax = $basePrice->totalTaxesCalc ?? $basePrice->tax_amount ?? 0;
-	$originalDiscount = $basePrice->discount ?? 0; // Store original discount before any modifications
-} else {
-	$originalTax = 0;
-	$originalDiscount = 0;
+// For V3, also extract fee IDs from advanced_fees (cleaning, taxes, etc.)
+// This is needed because V3 includes these in advanced_fees, not in extras
+error_log("DEBUG V3 FEES: HFY_USE_API_V3=" . (HFY_USE_API_V3 ? 'true' : 'false') . ", feesToSend before=" . json_encode($feesToSend));
+if (HFY_USE_API_V3) {
+    // Get initial price to check for v3 structure
+    $presInitial = $api->getListingPrice($listing_id, $startDate, $endDate, $guests, false, $prm->discount_code, $adults, $children, $infants, $pets, []);
+    error_log("DEBUG V3 FEES: presInitial->success=" . ($presInitial->success ?? 'not set') . ", has v3=" . (isset($presInitial->price->v3) ? 'yes' : 'no'));
+    if ($presInitial && $presInitial->success && !empty($presInitial->price->v3->advanced_fees)) {
+        error_log("DEBUG V3 FEES: advanced_fees count=" . count($presInitial->price->v3->advanced_fees));
+        foreach ($presInitial->price->v3->advanced_fees as $fee) {
+            // Add fee IDs for fees and taxes (not accommodation)
+            if (($fee->type ?? '') !== 'accommodation' && !empty($fee->fee_id)) {
+                $feesToSend[] = $fee->fee_id;
+                error_log("DEBUG V3 FEES: Added fee_id=" . $fee->fee_id . ", name=" . ($fee->name ?? 'unnamed') . ", type=" . ($fee->type ?? 'no type'));
+            }
+        }
+        $feesToSend = array_unique($feesToSend);
+        error_log("DEBUG V3 FEES: feesToSend after=" . json_encode($feesToSend));
+    }
 }
 
-// Now get the price with extras (only if there are extras to send)
-if (!empty($feesToSend)) {
-	$pres = $api->getListingPrice($listing_id, $startDate, $endDate, $guests, false, $prm->discount_code, $adults, $children, $infants, $pets, $feesToSend);
-} else {
-	$pres = $presBase; // Use the base price if no extras
-}
+// IMPORTANT: The API has a bug - when optional extras are passed in fees parameter,
+// it returns ONLY the extra's price, not the full booking price + extras.
+// Solution: Always get base price WITHOUT optional extras, then add optional extras manually.
+
+// Get base price WITHOUT optional extras (only regular extras/fees + v3 fees)
+// For V3, $feesToSend already includes the v3 fees extracted above
+// We need to exclude optional extras but keep v3 fees
+$baseFeesToSend = array_diff($feesToSend, $extrasOptionalSelectedIds);
+error_log("DEBUG FEES: baseFeesToSend (for price API) = " . json_encode($baseFeesToSend));
+$pres = $api->getListingPrice($listing_id, $startDate, $endDate, $guests, false, $prm->discount_code, $adults, $children, $infants, $pets, $baseFeesToSend);
 
 if ($pres && $pres->success) {
 	$listingPrice = $pres->price;
 	
-	// Preserve the tax from the base price
-	if ($originalTax > 0) {
-		$listingPrice->totalTaxesCalc = $originalTax;
-		$listingPrice->tax_amount = $originalTax;
-	}
-	
+	// Store the correct base values before API potentially overwrites them
+	$baseTotalAfterTax = $listingPrice->totalAfterTax ?? $listingPrice->total ?? 0;
+	$baseSubtotal = $listingPrice->subtotal ?? 0;
+	$originalTax = $listingPrice->totalTaxesCalc ?? $listingPrice->tax_amount ?? 0;
 } else {
 	throw new Exception(isset($pres->error) ? $pres->error : __('Listing price is not available', 'hostifybooking'));
 }
@@ -207,7 +218,6 @@ $sliderStepsCount = $isExtrasOptional ? 3 : 2;
 
 // Calculate total for selected optional extras
 $selectedExtrasTotal = 0;
-$selectedExtras = $_extrasOptional; // Define selectedExtras for template
 foreach ($_extrasOptional as $extra) {
     // Check if this is a discount extra
     $isDiscount = strpos(strtolower($extra->fee_name ?? ''), 'discount') !== false || 
@@ -230,22 +240,43 @@ $originalExtraPersonPrice = $basePrice->extra_person_price ?? 0;
 $originalTax = $tax;
 $originalTotal = $listingPrice->total ?? $listingPrice->totalAfterTax ?? $listingPrice->totalPrice ?? 0;
 
+// Simple approach like old plugin: use API values directly
+// The API (after fixFees) now correctly calculates:
+// - subtotal = accommodation + fees (NO taxes)
+// - totalAfterTax = subtotal + taxes + optional extras
+$total = $listingPrice->totalAfterTax ?? $listingPrice->totalPrice ?? $listingPrice->total;
+$totalPrice = number_format($totalPartial > 0 ? $totalPartial : $total, 2, '.', '');
 
-// Calculate the correct base total that includes all fees (cleaning, taxes, etc.)
-// Always reconstruct the base total to ensure all fees are included
-// Use the stored original discount from the first API call (without extras) to avoid double-counting discount extras
-$baseTotalWithFees = $listingPrice->priceWithMarkup + $originalCleaningFee + $originalExtraPersonPrice + $originalTax - $originalDiscount;
+error_log("DEBUG PAYMENT AJAX: listingPrice->totalAfterTax=" . ($listingPrice->totalAfterTax ?? 'not set') . 
+    ", listingPrice->subtotal=" . ($listingPrice->subtotal ?? 'not set') . 
+    ", total=" . $total . 
+    ", feesToSend count=" . count($feesToSend));
 
-if (HFY_USE_API_V3 && isset($listingPrice->v3)) {
-    // For v3, use the base price total (without extras) plus selected optional extras
-    $baseV3Total = $basePrice->v3->total ?? 0;
-    $calculatedTotal = $baseV3Total + $selectedExtrasTotal;
-    $totalPrice = number_format($totalPartial > 0 ? $totalPartial : $calculatedTotal, 2, '.', '');
-} else {
-    // For v2, use the reconstructed base total with fees plus selected optional extras
-    $baseTotal = $baseTotalWithFees; // Use the reconstructed total that includes cleaning fee
-    $calculatedTotal = $baseTotal + $selectedExtrasTotal;
-    $totalPrice = number_format($totalPartial > 0 ? $totalPartial : $calculatedTotal, 2, '.', '');
+// Build fees details array for audit trail (what was actually charged to customer)
+$feesDetails = [];
+
+// Add all fees from feesAll
+if (!empty($listingPrice->feesAll) && !empty($listingPrice->feesAll->fees)) {
+    foreach ($listingPrice->feesAll->fees as $fee) {
+        if (($fee->fee_type ?? '') !== 'accommodation' && floatval($fee->total ?? 0) != 0) {
+            $feesDetails[] = [
+                'fee_id' => $fee->fee_id ?? $fee->property_fee_id ?? null,
+                'name' => $fee->fee_name ?? $fee->name ?? 'Fee',
+                'amount' => floatval($fee->total ?? 0),
+                'type' => $fee->fee_type ?? $fee->type ?? 'fee',
+            ];
+        }
+    }
+}
+
+// Add selected optional extras
+foreach ($_extrasOptional as $extra) {
+    $feesDetails[] = [
+        'fee_id' => $extra->fee_id ?? null,
+        'name' => $extra->fee_name ?? $extra->name ?? 'Extra',
+        'amount' => floatval($extra->total ?? 0),
+        'type' => 'optional_extra',
+    ];
 }
 
 $nights = $listingPrice->nights;
@@ -275,7 +306,6 @@ if ($originalExtraPersonPrice > 0) {
     $listingPrice->extra_person_price = $originalExtraPersonPrice;
 }
 
-
 $listingInfo = (object) [
 	'id' => $listing->listing->id,
 	'thumbnail_file' => $listing->listing->thumbnail_file,
@@ -290,18 +320,17 @@ $listingInfo = (object) [
 	'security_deposit' => $listingPrice->security_deposit,
 ];
 
+// Calculate total: base total (from API without optional extras) + optional extras amount
+// This is needed because the API has a bug when optional extras are in the fees parameter
+$calculatedTotal = $baseTotalAfterTax + $selectedExtrasTotal;
 
+// Update listingPrice with correct values
+$listingPrice->totalAfterTax = $calculatedTotal;
+$listingPrice->total = $calculatedTotal;
+$listingPrice->subtotal = $baseSubtotal; // Subtotal doesn't change with optional extras
 
-// Update the listingPrice object to include the calculated total with selected extras
-if (HFY_USE_API_V3 && isset($listingPrice->v3)) {
-    $listingPrice->v3->total = $calculatedTotal;
-    // Don't modify V3 subtotal - let the template handle extras display
-} else {
-    $listingPrice->total = $calculatedTotal;
-    $listingPrice->totalAfterTax = $calculatedTotal;
-    $listingPrice->totalPrice = $calculatedTotal;
-    $listingPrice->subtotal = $baseTotalWithFees; // Set V2 subtotal to base total without extras
-}
+// Update $total variable to match (used in templates)
+$total = $calculatedTotal;
 
 // Ensure ALL fees and extras are preserved for display
 $listingPrice->cleaning_fee = $originalCleaningFee;
@@ -312,26 +341,28 @@ if ($originalTax > 0) {
     $listingPrice->tax_amount = $originalTax;
     $listingPrice->totalTaxesCalc = $originalTax;
     
-    // Add tax to taxes array for accounting template display
-    if (!isset($listingPrice->taxes)) {
-        $listingPrice->taxes = [];
-    }
-    
-    // Check if tax already exists in taxes array
-    $taxExists = false;
-    foreach ($listingPrice->taxes as $existingTax) {
-        if (($existingTax->fee_type ?? '') == 'tax' || ($existingTax->type ?? '') == 'tax') {
-            $taxExists = true;
-            break;
+    // Add tax to taxes array for accounting template display (V2 ONLY - V3 has taxes in advanced_fees)
+    if (empty($listingPrice->v3)) {
+        if (!isset($listingPrice->taxes)) {
+            $listingPrice->taxes = [];
         }
-    }
-    
-    if (!$taxExists) {
-        $listingPrice->taxes[] = (object) [
-            'fee_name' => 'Tax Per Stay',
-            'charge_type_label' => '',
-            'total' => $originalTax
-        ];
+        
+        // Check if tax already exists in taxes array
+        $taxExists = false;
+        foreach ($listingPrice->taxes as $existingTax) {
+            if (($existingTax->fee_type ?? '') == 'tax' || ($existingTax->type ?? '') == 'tax') {
+                $taxExists = true;
+                break;
+            }
+        }
+        
+        if (!$taxExists) {
+            $listingPrice->taxes[] = (object) [
+                'fee_name' => 'Tax Per Stay',
+                'charge_type_label' => '',
+                'total' => $originalTax
+            ];
+        }
     }
 }
 
@@ -370,14 +401,13 @@ $reserveInfo = (object) [
 	'dcid' => $listingPrice->discount->id ?? null,
 	'prices' => $listingPrice,
 	'listingInfo' => $listingInfo,
-	'selectedExtras' => $selectedExtras,
 	'extrasSet' => $originalExtrasSet, // Use original regular extras
 	
 	// Debug logging for payment preview
-	'debug_cleaning_fee' => $listingInfo->cleaning_fee ?? 'not set',
-	'debug_tax_amount' => $listingPrice->tax_amount ?? 'not set',
 	'extrasOptional' => $_extrasOptional,
-	'fees_ids' => implode(',', $feesToSend),
+	'extrasOptionalSelected' => $extrasOptionalSelected,
+	'fees_ids' => implode(',', $feesToSend), // Fee IDs for PMS API
+	'fees_details' => $feesDetails, // Fee details for audit trail (what was charged)
 ];
 
 $currency =
@@ -413,27 +443,27 @@ $accountingActive = $accountingActive;
 include hfy_tpl('payment/preview');
 
 // Add script to update hfystripedata with new total
-if (HFY_USE_API_V3 && isset($listingPrice->v3)) {
-    // For V3 API, use original total plus selected extras
-    $baseTotal = !empty($listingPrice->v3->partial) && $listingPrice->v3->partial > 0 
-                 ? $listingPrice->v3->partial 
-                 : $baseTotalWithFees;
-    $partialAmount = $baseTotal + $selectedExtrasTotal;
-    
-    $newTotal = number_format($calculatedTotal, 2, '.', '');
-    echo '<script>
-        hfystripedata.total = "' . $newTotal . '";
-        hfystripedata.amount = ' . intval($calculatedTotal * 100) . ';
-    </script>';
-} else {
-    // For V2 API, use original total plus selected optional extras
-    $calculatedTotal = $baseTotalWithFees + $selectedExtrasTotal;
-    $newTotal = number_format($totalPartial > 0 ? $totalPartial : $calculatedTotal, 2, '.', '');
-    echo '<script>
-        hfystripedata.total = "' . $newTotal . '";
-        hfystripedata.amount = ' . intval(($totalPartial > 0 ? $totalPartial : $calculatedTotal) * 100) . ';
-    </script>';
+// $calculatedTotal is already set above (lines 285-303)
+// Handle partial payments: if totalPartial exists, we need to add optional extras to it
+// because the API's totalPartial doesn't include optional extras
+$amountToPay = $calculatedTotal;
+if ($totalPartial > 0) {
+    // Partial payment exists: add optional extras to the partial amount
+    $amountToPay = $totalPartial + $selectedExtrasTotal;
 }
+
+$newTotal = number_format($amountToPay, 2, '.', '');
+echo '<script>
+    hfystripedata.total = "' . $newTotal . '";
+    hfystripedata.amount = ' . intval($amountToPay * 100) . ';
+    
+    // Also update hidden form fields to ensure payment submission uses correct values
+    var feesInput = document.getElementById("fees");
+    if (feesInput) feesInput.value = "' . esc_js($reserveInfo->fees_ids) . '";
+    
+    var feesDetailsInput = document.getElementById("fees-details");
+    if (feesDetailsInput) feesDetailsInput.value = \'' . esc_js(json_encode($reserveInfo->fees_details ?? [])) . '\';
+</script>';
 
 $out = ob_get_contents();
 ob_end_clean();

@@ -28,6 +28,31 @@ $tax = null;
 $discount_code = null;
 
 if (!empty($listingPrice) && is_object($listingPrice)) {
+    // DEBUG: Raw API response before processing
+    $debugInfo = "<!-- DEBUG INITIAL: priceWithMarkup=" . ($listingPrice->priceWithMarkup ?? 'not set') . 
+        ", price=" . ($listingPrice->price ?? 'not set') . 
+        ", totalAfterTax=" . ($listingPrice->totalAfterTax ?? 'not set') . 
+        ", nights=" . ($listingPrice->nights ?? 'not set') . 
+        ", feesAll=" . (isset($listingPrice->feesAll) ? 'exists' : 'not set') . 
+        ", HFY_USE_API_V3=" . (defined('HFY_USE_API_V3') ? (HFY_USE_API_V3 ? 'true' : 'false') : 'not defined') . " -->\n";
+    
+    // Apply fixFees to process the pricing data correctly for V2 initial display
+    // V3 handles fixFees in the API layer, so we only need it for V2
+    if (!HFY_USE_API_V3) {
+        // DEBUG: V2 fixFees being applied
+        $api = new HfyApi();
+        $listingPrice = $api->fixFees($listingPrice, $prm->start_date ?? '', $prm->end_date ?? '', $prm->guests ?? 1, $prm->adults ?? 1, $prm->children ?? 0, $prm->infants ?? 0, $prm->pets ?? 0);
+        
+        // DEBUG: After fixFees processing
+        $debugInfo .= "<!-- DEBUG AFTER FIXFEES: priceWithMarkup=" . ($listingPrice->priceWithMarkup ?? 'not set') . 
+            ", price=" . ($listingPrice->price ?? 'not set') . 
+            ", totalAfterTax=" . ($listingPrice->totalAfterTax ?? 'not set') . 
+            ", feesAll_total=" . ($listingPrice->feesAll->total ?? 'not set') . " -->\n";
+    } else {
+        // DEBUG: V3 detected, skipping fixFees
+        $debugInfo .= "<!-- DEBUG: V3 detected, skipping fixFees -->\n";
+    }
+    
     // Calculate price per night for both v2 and v3 pricing structures
     $listingPricePerNight = ListingHelper::calcPricePerNight($listingPrice);
     $listingPricePerNight = number_format($listingPricePerNight, 2, '.', '');
@@ -39,6 +64,8 @@ if (!empty($listingPrice) && is_object($listingPrice)) {
     
     $discount_code = $prm->discount_code ?? '';
     
+    // Output debug info
+    echo $debugInfo;
 }
 
 $listingPriceOnRequest = ($listingData->price_on_request ?? 0) == 1;

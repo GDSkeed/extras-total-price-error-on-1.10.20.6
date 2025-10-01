@@ -34,7 +34,7 @@ class HfyApi
 
     public function __construct()
     {
-        $this->useFA = defined('HFY_USE_API_FA') && (HFY_USE_API_FA == true);
+        $this->useFA = defined('HFY_USE_API_FA') && constant('HFY_USE_API_FA') == true;
         $this->apiVersion = (HFY_USE_API_V3 || $this->useFA) ? '3' : '2';
 
         $this->listings_per_page = HFY_LISTINGS_PER_PAGE;
@@ -656,6 +656,36 @@ class HfyApi
 // print_r($response);die;
 // var_dump($response);die;
         $out = json_decode($response);
+        
+        // DEBUG: Log raw API response for debugging
+        if (isset($out->price)) {
+            error_log("DEBUG API RAW RESPONSE: " . json_encode([
+                'priceWithMarkup' => $out->price->priceWithMarkup ?? 'not set',
+                'price' => $out->price->price ?? 'not set', 
+                'totalAfterTax' => $out->price->totalAfterTax ?? 'not set',
+                'nights' => $out->price->nights ?? 'not set',
+                'feesAll' => isset($out->price->feesAll) ? 'exists' : 'not set',
+                'apiVersion' => $this->apiVersion,
+                'requestParams' => [
+                    'listing_id' => $listing_id,
+                    'start_date' => substr($start_date, 0, 10),
+                    'end_date' => substr($end_date, 0, 10),
+                    'guests' => $guests,
+                    'adults' => $adults,
+                    'children' => $children,
+                    'infants' => $infants,
+                    'pets' => $pets
+                ]
+            ]));
+        }
+        
+        // Safety check: ensure API response is valid
+        if (empty($out) || !isset($out->price)) {
+            error_log("ERROR: API returned invalid/empty price data for listing {$listing_id}. Response: " . json_encode($out ?? null));
+            // Return error object instead of crashing
+            throw new Exception(__('Unable to load pricing information. Please try again later.', 'hostifybooking'));
+        }
+        
 // print_r($out);die;
 // print_r($out->price->v3);die;
         if ($this->apiVersion == 3) {
@@ -697,18 +727,9 @@ class HfyApi
             // Set tax_amount for single listing display (use API value if available, otherwise use calculated)
             $out->price->tax_amount = $out->price->tax_amount ?? $out->price->totalTaxesCalc ?? 0;
             
-            
-            // Always recalculate v2 total to ensure correct tax calculation
-            $basePrice = $out->price->priceWithMarkup;
-            $cleaningFee = $out->price->cleaning_fee ?? 0;
-            $extras = $out->price->totalExtrasCalc ?? 0;
-            $taxes = $out->price->tax_amount ?? $out->price->totalTaxesCalc ?? 0;
-            $discount = $out->price->discount ?? 0; // Use discount field from API response
-            
-            $out->price->total = $basePrice + $cleaningFee + $extras + $taxes - $discount;
-            
-            $out->price->totalAfterTax = $out->price->total;
-            
+            // Don't recalculate total - trust fixFees to correctly calculate totalAfterTax
+            // fixFees already properly sums: accommodation + all fees + taxes
+            // The old calculation was missing fees like "Resort fee NO"
         }
 // print_r($out);die;
         return $out;
@@ -770,12 +791,13 @@ class HfyApi
             $sub = 0;
             foreach ($fees as &$fee) {
 
-                if ($fee->type == 'cost') {
+                if (isset($fee->type) && $fee->type == 'cost') {
                     // $sub += $fee->total;
                     continue;
                 }
-                if ($fee->type == 'accommodation') continue;
-                if ($fee->type == 'tax' || $fee->fee_type == 'tax') continue;
+                if (isset($fee->type) && $fee->type == 'accommodation') continue;
+                if (isset($fee->fee_type) && $fee->fee_type == 'accommodation') continue;
+                // Don't skip taxes here - they need to be processed and added to $price->taxes[] array below
 
                 if (!isset($fee->fee_name) && isset($fee->name)) $fee->fee_name = $fee->name;
                 if (!isset($fee->property_fee_id) && isset($fee->id)) $fee->property_fee_id = $fee->id;
@@ -786,9 +808,9 @@ class HfyApi
                 // Special handling for different fee types
                 if (
                     // Additional guest fees
-                    $fee->type === 'additional_guest' || 
-                    $fee->fee_name === 'Additional guest' || 
-                    $fee->name === 'Additional guest' ||
+                    (isset($fee->type) && $fee->type === 'additional_guest') || 
+                    (isset($fee->fee_name) && $fee->fee_name === 'Additional guest') || 
+                    (isset($fee->name) && $fee->name === 'Additional guest') ||
                     // Per guest charges
                     (isset($fee->fee_charge_type_id) && $fee->fee_charge_type_id == 4) || 
                     (isset($fee->fee_charge_type) && strtolower($fee->fee_charge_type) === 'per guest') ||
@@ -801,9 +823,10 @@ class HfyApi
                     $price->totalGuestFees = ($price->totalGuestFees ?? 0) + floatval($fee->total);
                 } 
                 // Cleaning fee
-                else if ($fee->type === 'cleaning' || strpos(strtolower($fee->fee_name ?? ''), 'cleaning') !== false) {
+                else if ((isset($fee->type) && $fee->type === 'cleaning') || strpos(strtolower($fee->fee_name ?? ''), 'cleaning') !== false) {
                     $price->fees[] = $fee;
                     $price->totalFees += floatval($fee->total);
+                    error_log("DEBUG FIXFEES CLEANING: Added to fees - " . ($fee->fee_name ?? 'unnamed') . " = " . ($fee->total ?? 0));
                     // Accumulate cleaning fees instead of overwriting
                     $previousCleaningFee = $price->cleaning_fee ?? 0;
                     $price->cleaning_fee = $previousCleaningFee + floatval($fee->total);
@@ -822,22 +845,32 @@ class HfyApi
                     $price->totalFees += floatval($fee->total);
                 }
                 // Regular fees
-                else if ($fee->type !== 'extra') {
-                    if (!isset($fee->is_base_price) && floatval($fee->total) > 0) {
+                else if (!isset($fee->type) || $fee->type !== 'extra') {
+                // DEBUG: Log every fee before processing
+                error_log("DEBUG FIXFEES PROCESSING: " . ($fee->fee_name ?? 'unnamed') . 
+                    " | total=" . ($fee->total ?? 0) . 
+                    " | is_base_price=" . (isset($fee->is_base_price) ? ($fee->is_base_price ? 'true' : 'false') : 'not set') . 
+                    " | condition_type=" . ($fee->condition_type ?? 'not set') . 
+                    " | fee_type=" . ($fee->fee_type ?? 'not set'));
+                
+                // Check for taxes FIRST before checking is_base_price
+                if ((isset($fee->type) && $fee->type == 'tax') || (isset($fee->fee_type) && $fee->fee_type == 'tax')) {
+                    $price->taxes[] = $fee;
+                    $price->totalTaxesCalc += floatval($fee->total);
+                    error_log("DEBUG FIXFEES TAX: Added to taxes - " . ($fee->fee_name ?? 'unnamed') . " = " . ($fee->total ?? 0));
+                } else if ((!isset($fee->is_base_price) || $fee->is_base_price === false) && floatval($fee->total) > 0) {
                         if (
                             strtolower($fee->condition_type ?? '') != 'online'
                             && $fee->fee_id != 470 // pet fee already handled
                         ) {
                             $price->offline[] = $fee;
                             $price->totalOfflineCalc += floatval($fee->total);
-                        } else if ($fee->type == 'tax' || $fee->fee_type == 'tax') {
-                            $price->taxes[] = $fee;
-                            $price->totalTaxesCalc += floatval($fee->total);
                         } else {
                             $price->fees[] = $fee;
                             $price->totalFees += floatval($fee->total);
+                            error_log("DEBUG FIXFEES: Added to fees - " . ($fee->fee_name ?? 'unnamed') . " = " . ($fee->total ?? 0));
                         }
-                    } else if (isset($fee->is_base_price)) {
+                    } else if (isset($fee->is_base_price) && $fee->is_base_price === true) {
                         // Check if this is a discount fee
                         $isDiscount = strpos(strtolower($fee->fee_name ?? ''), 'discount') !== false || 
                                      strpos(strtolower($fee->name ?? ''), 'discount') !== false;
@@ -878,11 +911,7 @@ class HfyApi
                     $price->totalPrice = $price->total;
                     $price->totalAfterTax = $price->total;
                     
-                    // Calculate V2 subtotal (base price + cleaning fee + taxes - discount, without extras)
-                    $price->subtotal = $price->priceWithMarkup + 
-                                     ($price->cleaning_fee ?? 0) + 
-                                     ($price->totalTaxesCalc ?? 0) - 
-                                     ($price->discount ?? 0);
+                    // Subtotal will be set later after feesAll.total is calculated
                     
                 }
 
@@ -939,8 +968,8 @@ class HfyApi
             // Set tax_amount for single listing display
             $price->tax_amount = $price->tax_amount ?? $price->totalTaxesCalc ?? 0;
             
-            // Add tax to taxes array for accounting template display (only once, after the loop)
-            if (($price->totalTaxesCalc ?? 0) > 0) {
+            // Add tax to taxes array for accounting template display (V2 ONLY - V3 has taxes in advanced_fees)
+            if (($price->totalTaxesCalc ?? 0) > 0 && empty($price->v3)) {
                 // Check if tax is already in the taxes array to avoid duplicates
                 $taxExists = false;
                 foreach ($price->taxes as $existingTaxItem) {
@@ -964,6 +993,40 @@ class HfyApi
             //     $price->monthlyPricingDiscountTable = $this->generateMonthlyDynamicDiscountTable($listing_id);
             // }
 
+            // Set feesAll total for both V2 and V3
+            if (!empty($price->feesAll->fees)) {
+                // Calculate totals dynamically from all fees
+                $totalFromFees = 0;
+                $totalNetFromFees = 0;
+                foreach ($price->feesAll->fees as $fee) {
+                    $totalFromFees += floatval($fee->total ?? 0);
+                    // For total_net, only sum non-tax fees to get correct subtotal
+                    $isTax = (isset($fee->type) && $fee->type == 'tax') || (isset($fee->fee_type) && $fee->fee_type == 'tax');
+                    if (!$isTax) {
+                        $totalNetFromFees += floatval($fee->total_net ?? 0);
+                    }
+                }
+                
+                $price->feesAll->total = $totalFromFees;
+                $price->feesAll->total_net = $totalNetFromFees;
+                $price->feesAll->total_tax = $price->totalTaxesCalc ?? 0;
+            }
+            
+            // Set subtotal for V2 (after feesAll.total is calculated)
+            if (empty($price->v3)) {
+                // Subtotal = accommodation + fees (NO taxes)
+                $price->subtotal = $price->feesAll->total_net ?? 0;
+                // Total = subtotal + taxes (NOT feesAll.total which includes accommodation tax)
+                $price->totalAfterTax = ($price->subtotal ?? 0) + ($price->totalTaxesCalc ?? 0);
+                
+                // DEBUG: Log subtotal calculation
+                error_log("DEBUG SUBTOTAL FINAL: feesAll_total=" . ($price->feesAll->total ?? 'not set') . 
+                    ", feesAll_total_net=" . ($price->feesAll->total_net ?? 'not set') . 
+                    ", totalAfterTax=" . ($price->totalAfterTax ?? 'not set') . 
+                    ", subtotal=" . $price->subtotal . 
+                    ", feesCount=" . (isset($price->feesAll->fees) ? count($price->feesAll->fees) : 0));
+            }
+            
             // Only set these values for v3 API
             if (isset($price->v3)) {
                 $price->subtotal = $fees->total_net ?? $v3->subtotal ?? 0;

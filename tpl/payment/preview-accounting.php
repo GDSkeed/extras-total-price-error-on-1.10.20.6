@@ -45,10 +45,12 @@ if (!defined('WPINC')) die;
         <?php endforeach; ?>
         
         <?php // V3 SUBTOTAL (base subtotal only, no extras) ?>
-        <div class="booking-title sub" style="border-top: 1px solid #e0e0e0; padding-top: 10px; margin-top: 10px;">
-            <div style="float:right"><?= ListingHelper::withSymbol($reserveInfo->prices->v3->subtotal ?? 0, $reserveInfo->prices, $sym) ?></div>
-            <?= __('Subtotal', 'hostifybooking') ?>
-        </div>
+        <?php if (!empty($reserveInfo->prices->v3) && isset($reserveInfo->prices->v3->subtotal)): ?>
+            <div class="booking-title sub" style="border-top: 1px solid #e0e0e0; padding-top: 10px; margin-top: 10px;">
+                <div style="float:right"><?= ListingHelper::withSymbol($reserveInfo->prices->v3->subtotal, $reserveInfo->prices, $sym) ?></div>
+                <?= __('Subtotal', 'hostifybooking') ?>
+            </div>
+        <?php endif; ?>
         
         <?php // V3 EXTRAS from selected optional extras (after subtotal) ?>
         <?php if (!empty($reserveInfo->extrasOptional) && !empty($extrasOptionalSelected)): ?>
@@ -62,20 +64,30 @@ if (!defined('WPINC')) die;
             <?php endforeach; ?>
         <?php endif; ?>
         
-        <?php // V3 TAXES from advanced_fees ?>
-        <?php foreach ($reserveInfo->prices->v3->advanced_fees as $fee) : ?>
-            <?php if ($fee->type == 'tax' && $fee->total != 0): ?>
-                <div class="booking-title sub">
-                    <div style="float:right"><?= ListingHelper::withSymbol($fee->total, $reserveInfo->prices, $sym) ?></div>
-                    <?= $fee->name ?> <?= $fee->fee_charge_type ?? '' ?>
-                </div>
-            <?php endif; ?>
-        <?php endforeach; ?>
+        <?php // V3 TAXES from advanced_fees - deduplicate by name and amount ?>
+        <?php 
+        $displayedTaxes = [];
+        foreach ($reserveInfo->prices->v3->advanced_fees as $fee) : 
+            if ($fee->type == 'tax' && $fee->total != 0) {
+                $taxKey = strtolower($fee->name ?? 'tax') . '_' . floatval($fee->total);
+                if (!in_array($taxKey, $displayedTaxes)) {
+                    $displayedTaxes[] = $taxKey;
+                    ?>
+                    <div class="booking-title sub">
+                        <div style="float:right"><?= ListingHelper::withSymbol($fee->total, $reserveInfo->prices, $sym) ?></div>
+                        <?= $fee->name ?> <?= $fee->fee_charge_type ?? '' ?>
+                    </div>
+                    <?php
+                }
+            }
+        endforeach; 
+        ?>
     <?php endif; ?>
 
 <?php endif; ?>
 
 
+<?php
 // Track all displayed fees to prevent duplicates
 $displayedFees = [];
 
@@ -110,12 +122,37 @@ if (isset($reserveInfo->selectedExtras) && !empty($reserveInfo->selectedExtras))
     }
 } ?>
 
-<?php // Process feesAll.fees array first (this contains ALL fees including taxes) - V2 ONLY
+<?php // Define variables for subtotal logic (V2 ONLY)
+// Check for regular extras and taxes
+$hasExtras = !empty($reserveInfo->prices->extras) || !empty($reserveInfo->prices->extrasSet) || !empty($reserveInfo->prices->extrasOptional);
+$hasTaxes = !empty($reserveInfo->prices->taxes);
+
+// Check for selected optional extras (from step 2)
+$hasSelectedOptionalExtras = false;
+if (!empty($reserveInfo->extrasOptional) && isset($reserveInfo->extrasOptionalSelected)) {
+    foreach ($reserveInfo->extrasOptional as $extra) {
+        if ($reserveInfo->extrasOptionalSelected[$extra->fee_id] ?? false) {
+            $hasSelectedOptionalExtras = true;
+            break;
+        }
+    }
+}
+
+// Use the same subtotal logic as the booking form
+$shouldShowSubtotal = empty($reserveInfo->prices->v3) && isset($reserveInfo->prices->subtotal) && ($hasExtras || $hasTaxes || $hasSelectedOptionalExtras);
+?>
+
+<?php // FEES - Process feesAll.fees array first (this contains ALL fees including taxes) - V2 ONLY
 if (empty($reserveInfo->prices->v3) && isset($reserveInfo->prices->feesAll) && isset($reserveInfo->prices->feesAll->fees)) : ?>
     <?php foreach ($reserveInfo->prices->feesAll->fees as $fee) : ?>
         <?php
         // Skip accommodation fees as they're handled separately
         if (($fee->fee_type ?? '') === 'accommodation') {
+            continue;
+        }
+        
+        // Skip taxes as they're displayed after subtotal
+        if (($fee->fee_type ?? '') === 'tax' || ($fee->type ?? '') === 'tax') {
             continue;
         }
         
@@ -193,6 +230,87 @@ if (empty($reserveInfo->prices->v3) && isset($reserveInfo->prices->feesAll) && i
     <?php endif; ?>
 <?php endif; ?>
 
+<?php // DISCOUNTS - V2 ONLY ?>
+<?php if (empty($reserveInfo->prices->v3)): ?>
+
+    <?php if (isset($reserveInfo->monthlyDiscount) && $reserveInfo->monthlyDiscount <> 0): ?>
+        <div class="booking-title sub">
+            <div style="float:right">&minus;&nbsp;<?= ListingHelper::withSymbol($reserveInfo->monthlyDiscount, $reserveInfo->prices, $sym) ?></div>
+            <?= $reserveInfo->monthlyDiscountPercent ?>% <?= __('monthly discount', 'hostifybooking') ?>
+        </div>
+    <?php endif; ?>
+
+    <?php if (isset($reserveInfo->weeklyDiscount) && $reserveInfo->weeklyDiscount <> 0): ?>
+        <div class="booking-title sub">
+            <div style="float:right">&minus;&nbsp;<?= ListingHelper::withSymbol($reserveInfo->weeklyDiscount, $reserveInfo->prices, $sym) ?></div>
+            <?= $reserveInfo->weeklyDiscountPercent ?>% <?= __('weekly discount', 'hostifybooking') ?>
+        </div>
+    <?php endif; ?>
+
+    <?php // Coupon discount ?>
+    <?php if (HFY_SHOW_DISCOUNT): ?>
+        <?php
+        $has_legacy_discount = isset($reserveInfo->prices->discount) && isset($reserveInfo->prices->discount->success) && $reserveInfo->prices->discount->success;
+        if ($has_legacy_discount) { ?>
+            <div class="booking-title sub">
+                <div style="float:right">&minus;&nbsp;<?= ListingHelper::withSymbol($reserveInfo->prices->discount->abs, $reserveInfo->prices, $sym) ?></div>
+                <?= $reserveInfo->prices->discount->type == '%' ? $reserveInfo->prices->discount->message . ' coupon' : 'Coupon' ?> discount
+            </div>
+        <?php } ?>
+    <?php endif; ?>
+
+<?php endif; ?>
+
+<?php // V2 SUBTOTAL (only show for V2 when there are extras or taxes) ?>
+<?php if ($shouldShowSubtotal) : ?>
+    <div class="booking-title sub" style="border-top: 1px solid #e0e0e0; padding-top: 10px; margin-top: 10px;">
+        <div style="float:right"><?= ListingHelper::withSymbol($reserveInfo->prices->subtotal ?? 0, $reserveInfo->prices, $sym) ?></div>
+        <?= __( 'Subtotal', 'hostifybooking' ) ?>
+    </div>
+<?php endif; ?>
+<!-- DEBUG PAYMENT: shouldShowSubtotal=<?= $shouldShowSubtotal ? 'true' : 'false' ?>, hasExtras=<?= $hasExtras ? 'true' : 'false' ?>, hasTaxes=<?= $hasTaxes ? 'true' : 'false' ?>, v3=<?= !empty($reserveInfo->prices->v3) ? 'true' : 'false' ?> -->
+<!-- DEBUG VALUES: subtotal=<?= $reserveInfo->prices->subtotal ?? 'not set' ?>, totalAfterTax=<?= $reserveInfo->prices->totalAfterTax ?? 'not set' ?>, totalTaxesCalc=<?= $reserveInfo->prices->totalTaxesCalc ?? 'not set' ?> -->
+
+<?php // EXTRAS ?>
+<?php if (!empty($reserveInfo->prices->extras)) foreach ($reserveInfo->prices->extras as $extra) : ?>
+    <?php if ($extra->total != 0): ?>
+        <div class="booking-title sub">
+            <div style="float:right"><?= ListingHelper::withSymbol($extra->total, $reserveInfo->prices, $sym) ?></div>
+            <?= $extra->fee_name ?: $extra->name ?: __('Extra', 'hostifybooking') ?> <?= $extra->charge_type_label ?? '' ?>
+        </div>
+    <?php endif; ?>
+<?php endforeach; ?>
+
+<?php if (!empty($reserveInfo->prices->extrasSet)) foreach ($reserveInfo->prices->extrasSet as $extra) : ?>
+    <?php if ($extra->total != 0): ?>
+        <div class="booking-title sub">
+            <div style="float:right"><?= ListingHelper::withSymbol($extra->total, $reserveInfo->prices, $sym) ?></div>
+            <?= $extra->fee_name ?: $extra->name ?: __('Extra', 'hostifybooking') ?> <?= $extra->charge_type_label ?? '' ?>
+        </div>
+    <?php endif; ?>
+<?php endforeach; ?>
+
+<?php if (!empty($reserveInfo->prices->extrasOptional)) foreach ($reserveInfo->prices->extrasOptional as $extra) : ?>
+    <?php if ($extra->total != 0): ?>
+        <div class="booking-title sub">
+            <div style="float:right"><?= ListingHelper::withSymbol($extra->total, $reserveInfo->prices, $sym) ?></div>
+            <?= $extra->fee_name ?: $extra->name ?: __('Extra', 'hostifybooking') ?> <?= $extra->charge_type_label ?? '' ?>
+        </div>
+    <?php endif; ?>
+<?php endforeach; ?>
+
+<?php // SELECTED OPTIONAL EXTRAS are handled by preview-extras-optional.php template ?>
+
+<?php // TAXES - V2 ONLY (V3 taxes are in advanced_fees) ?>
+<?php if (empty($reserveInfo->prices->v3) && !empty($reserveInfo->prices->taxes)) foreach ($reserveInfo->prices->taxes as $t) : ?>
+    <?php if ($t->total != 0): ?>
+        <div class="booking-title sub">
+            <div style="float:right"><?= ListingHelper::withSymbol($t->total, $reserveInfo->prices, $sym) ?></div>
+            <?= $t->fee_name ?: $t->name ?: __('Tax', 'hostifybooking') ?> <?= $t->charge_type_label ?? '' ?>
+        </div>
+    <?php endif; ?>
+<?php endforeach; ?>
+
 <?php // V3 SPECIFIC FEE PROCESSING - Only process if advanced_fees are not available ?>
 <?php if (!empty($reserveInfo->prices->v3) && empty($reserveInfo->prices->v3->advanced_fees) && !empty($reserveInfo->prices->feesAll) && !empty($reserveInfo->prices->feesAll->fees)): ?>
     <?php foreach ($reserveInfo->prices->feesAll->fees as $fee) : ?>
@@ -267,14 +385,6 @@ if (empty($reserveInfo->prices->v3) && isset($reserveInfo->prices->cleaning_fee)
 
 <?php // Taxes are now displayed via the feesAll.fees array above ?>
 
-<?php if (empty($reserveInfo->prices->v3) && $reserveInfo->prices->subtotal != $reserveInfo->prices->total): ?>
-    <hr class="mob-hide mb-2" />
-    <div class='booking-title mb-4'>
-        <div style="float:right"><?= ListingHelper::withSymbol($reserveInfo->prices->subtotal, $reserveInfo->prices, $reserveInfo->listingInfo->currency_symbol) ?></div>
-        <?= __( 'Subtotal', 'hostifybooking' ) ?>
-    </div>
-<?php endif; ?>
-
 <?php if (empty($reserveInfo->prices->v3)): ?>
 
     <?php if (isset($reserveInfo->monthlyDiscount) && $reserveInfo->monthlyDiscount <> 0): ?>
@@ -294,14 +404,10 @@ if (empty($reserveInfo->prices->v3) && isset($reserveInfo->prices->cleaning_fee)
 <?php else: ?>
 
     <?php 
-    // Only show the general discount if it's not from a coupon
-    $has_v3_coupon = !empty($reserveInfo->prices->v3) && !empty($reserveInfo->prices->v3->coupon);
-    if (!empty($reserveInfo->prices->v3->discount_percent) && $reserveInfo->prices->v3->discount_percent > 0 && !$has_v3_coupon):?>
-        <div class="booking-title sub">
-            <div style="float:right">&minus;&nbsp;<?= ListingHelper::withSymbol($reserveInfo->prices->v3->discount_percent * $reserveInfo->prices->v3->base_price_original / 100, $reserveInfo->prices, $reserveInfo->listingInfo->currency_symbol) ?></div>
-            <?= $reserveInfo->prices->v3->discount_percent ?>% <?= __('discount', 'hostifybooking') ?>
-        </div>
-    <?php endif;?>
+    // V3: Monthly/weekly discounts are already applied to base_price
+    // DON'T show them as separate line items (would be double-counting)
+    // Only show coupon discounts which are applied on top of the already-discounted price
+    ?>
 
 <?php endif;?>
 

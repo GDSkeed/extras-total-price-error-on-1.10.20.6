@@ -22,7 +22,45 @@ if (
     $children = intval($data['children'] ?? 0);
     $infants = intval($data['infants'] ?? 0);
     $pets = intval($data['pets'] ?? 0);
+    
+    // Convert comma-separated fee IDs to array for API
     $feesToSend = !empty($data['fees']) ? explode(',', $data['fees']) : [];
+    
+    error_log("DEBUG PAYMENT: Received total from frontend: " . ($data['total'] ?? 'not set'));
+    error_log("DEBUG PAYMENT: Fees to send from frontend: " . json_encode($feesToSend));
+    
+    // For V3, extract fee IDs from advanced_fees (cleaning, taxes, etc.)
+    if (HFY_USE_API_V3) {
+        error_log("DEBUG PAYMENT V3: Extracting fees from v3 advanced_fees");
+        $presInitial = $api->getListingPrice(
+            $data['listing_id'],
+            $data['start_date'],
+            $data['end_date'],
+            $data['guests'],
+            false,
+            $data['discount_code'] ?? '',
+            $adults,
+            $children,
+            $infants,
+            $pets,
+            []  // Empty fees array for initial call
+        );
+        
+        if ($presInitial && $presInitial->success && !empty($presInitial->price->v3->advanced_fees)) {
+            error_log("DEBUG PAYMENT V3: Found " . count($presInitial->price->v3->advanced_fees) . " advanced_fees");
+            foreach ($presInitial->price->v3->advanced_fees as $fee) {
+                // Add fee IDs for fees and taxes (not accommodation)
+                if (($fee->type ?? '') !== 'accommodation' && !empty($fee->fee_id)) {
+                    $feesToSend[] = $fee->fee_id;
+                    error_log("DEBUG PAYMENT V3: Added fee_id=" . $fee->fee_id . ", name=" . ($fee->name ?? 'unnamed') . ", type=" . ($fee->type ?? 'no type'));
+                }
+            }
+            $feesToSend = array_unique($feesToSend);
+            error_log("DEBUG PAYMENT V3: Final fees to send: " . json_encode($feesToSend));
+        } else {
+            error_log("DEBUG PAYMENT V3: No advanced_fees found or API failed");
+        }
+    }
     
     $pres = $api->getListingPrice(
         $data['listing_id'], 
@@ -43,21 +81,17 @@ if (
         $pres->price = $api->fixFees($pres->price, $data['start_date'], $data['end_date'], $data['guests'], $adults, $children, $infants, $pets, $feesToSend);
     }
     
-    // Calculate the full total first
-    if (HFY_USE_API_V3 && isset($pres->price->v3)) {
-        $fullTotal = $pres->price->v3->total;
-        // Use partial payment if available
-        $data['total'] = !empty($pres->price->v3->partial) && $pres->price->v3->partial > 0 
-            ? $pres->price->v3->partial 
-            : $fullTotal;
-    } else {
-        // For v2, use pre-calculated total from API
-        $fullTotal = $pres->price->total ?? $pres->price->totalAfterTax ?? $pres->price->totalPrice ?? 0;
-        // Use partial payment if available
-        $data['total'] = !empty($pres->price->totalPartial) && $pres->price->totalPartial > 0 
-            ? $pres->price->totalPartial 
-            : $fullTotal;
-    }
+    error_log("DEBUG PAYMENT: API returned total: " . ($pres->price->total ?? $pres->price->totalAfterTax ?? 'not set'));
+    error_log("DEBUG PAYMENT: API returned totalPartial: " . ($pres->price->totalPartial ?? 'not set'));
+    
+    // DON'T overwrite $data['total'] here - it already includes optional extras from frontend
+    // The API response doesn't include optional extras (they're sent separately in fees array)
+    // The frontend (hfy-ajax-payment-preview.php) already calculated the correct total including optional extras
+    
+    // Note: If partial payments are needed in the future, they should be calculated in the 
+    // payment preview (hfy-ajax-payment-preview.php) which has access to both base price and optional extras
+    
+    error_log("DEBUG PAYMENT: Preserving frontend total: " . ($data['total'] ?? 'not set'));
     
     if (!empty($data['payer_id'])) {
         // paypal
@@ -105,8 +139,13 @@ if (
 
         $api = new HfyApi();
         
-        // Extract detailed fee information from processed price data
-        if (isset($pres->price)) {
+        // Use detailed_fees from frontend if provided (already includes all fees + optional extras)
+        // Otherwise, extract from API response as fallback
+        if (!empty($data['detailed_fees'])) {
+            // Frontend sent detailed_fees - it's already parsed as array by JavaScript
+            error_log("DEBUG PAYMENT: Using detailed_fees from frontend: " . json_encode($data['detailed_fees']));
+        } elseif (isset($pres->price)) {
+            // Fallback: Extract detailed fee information from processed price data
             $detailedFees = [];
             
             // Add cleaning fees
@@ -147,8 +186,15 @@ if (
                 }
             }
             
-            $data['fees'] = $detailedFees;
+            $data['detailed_fees'] = $detailedFees;
+            error_log("DEBUG PAYMENT: Built detailed_fees from API: " . json_encode($data['detailed_fees']));
         }
+        
+        // Ensure fees parameter is properly formatted as array for payment API
+        // The payment API expects an array of fee ID strings: ["182", "600000037"]
+        $data['fees'] = $feesToSend;
+        
+        error_log("DEBUG PAYMENT: Sending to payment API - total: " . ($data['total'] ?? 'not set') . ", fees: " . json_encode($data['fees']));
         
         $data = $api->postPayment3ds($data);
 

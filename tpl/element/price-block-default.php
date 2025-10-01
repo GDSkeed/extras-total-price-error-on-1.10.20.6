@@ -24,7 +24,7 @@ if ($price_original > 0 && $p > 0 && $p < $price_original) {
             <?php if ($price_original > 0): ?>
                 <s style="color:#aaa"><?= ListingHelper::withSymbol($price_original, $prices, $currencySymbol) ?></s><br/>
             <?php endif; ?>
-            <?= ListingHelper::withSymbol($prices->priceWithMarkup ?? $totalNights, $prices, $currencySymbol) ?>
+            <?= ListingHelper::withSymbol($totalNights ?? $prices->priceWithMarkup, $prices, $currencySymbol) ?>
         </div>
     </div>
 
@@ -76,33 +76,10 @@ if ($price_original > 0 && $p > 0 && $p < $price_original) {
 <?php else: ?>
 
     <?php
-    // Always show weekly and monthly discounts when they exist
-    if (!empty($prices->v3->weekly_discount_percent) && $prices->v3->weekly_discount_percent > 0):?>
-        <div class='price-block-item'>
-            <div class="_label"><?= $prices->v3->weekly_discount_percent ?>% <?= __('weekly discount', 'hostifybooking') ?></div>
-            <div class="_value">&minus;&nbsp;<?= ListingHelper::withSymbol($prices->v3->weekly_discount_amount, $prices, $currencySymbol) ?></div>
-        </div>
-    <?php endif;?>
-    
-    <?php if (!empty($prices->v3->monthly_discount_percent) && $prices->v3->monthly_discount_percent > 0):?>
-        <div class='price-block-item'>
-            <div class="_label"><?= $prices->v3->monthly_discount_percent ?>% <?= __('monthly discount', 'hostifybooking') ?></div>
-            <div class="_value">&minus;&nbsp;<?= ListingHelper::withSymbol($prices->v3->monthly_discount_amount, $prices, $currencySymbol) ?></div>
-        </div>
-    <?php endif;?>
-    
-    <?php
-    // Show general discount only if it's not a length of stay discount (weekly/monthly) and not from a coupon
-    $has_v3_coupon = !empty($prices->v3) && !empty($prices->v3->coupon);
-    if (!empty($prices->v3->discount_percent) && $prices->v3->discount_percent > 0 && 
-        !$has_v3_coupon && 
-        $prices->v3->discount_percent != $prices->v3->weekly_discount_percent && 
-        $prices->v3->discount_percent != $prices->v3->monthly_discount_percent):?>
-        <div class='price-block-item'>
-            <div class="_label"><?= $prices->v3->discount_percent ?>% <?= __('discount', 'hostifybooking') ?></div>
-            <div class="_value">&minus;&nbsp;<?= ListingHelper::withSymbol($prices->v3->discount_percent * $prices->v3->base_price_original / 100, $prices, $currencySymbol) ?></div>
-        </div>
-    <?php endif;?>
+    // V3: Weekly/monthly discounts are already applied to base_price in advanced_fees
+    // DON'T show them as separate line items (would be double-counting)
+    // Only show coupon discounts which are applied on top of the already-discounted price
+    ?>
 
 <?php endif;?>
 
@@ -162,9 +139,60 @@ if ($price_original > 0 && $p > 0 && $p < $price_original) {
     <!-- Debug: Tax not displayed - tax value: <?= $tax ?? 'not set' ?>, isset: <?= isset($tax) ? 'yes' : 'no' ?>, >0: <?= ($tax ?? 0) > 0 ? 'yes' : 'no' ?> -->
 <?php endif; ?>
 
+<?php // V2 SUBTOTAL (only show for V2 when there are extras or taxes) ?>
+<?php 
+$hasExtras = !empty($prices->extras) || !empty($prices->extrasSet) || !empty($prices->extrasOptional);
+$hasTaxes = !empty($prices->taxes);
+$shouldShowSubtotal = empty($prices->v3) && isset($prices->subtotal) && ($hasExtras || $hasTaxes);
+?>
+    <?php if ($shouldShowSubtotal) : ?>
+        <div class='price-block-item' style="border-top: 1px solid #e0e0e0; padding-top: 10px; margin-top: 10px;">
+            <div class="_label"><?= __( 'Subtotal', 'hostifybooking' ) ?></div>
+            <div class="_value"><?= ListingHelper::withSymbol($prices->subtotal ?? 0, $prices, $currencySymbol) ?></div>
+        </div>
+    <?php endif; ?>
+
+<?php // EXTRAS ?>
+<?php if (!empty($prices->extras)) foreach ($prices->extras as $extra) : ?>
+    <?php if ($extra->total != 0): ?>
+        <div class='price-block-item'>
+            <div class="_label"><?= $extra->fee_name ?: $extra->name ?: __('Extra', 'hostifybooking') ?> <?= $extra->charge_type_label ?? '' ?></div>
+            <div class="_value"><?= ListingHelper::withSymbol($extra->total, $prices, $currencySymbol) ?></div>
+        </div>
+    <?php endif; ?>
+<?php endforeach; ?>
+
+<?php if (!empty($prices->extrasSet)) foreach ($prices->extrasSet as $extra) : ?>
+    <?php if ($extra->total != 0): ?>
+        <div class='price-block-item'>
+            <div class="_label"><?= $extra->fee_name ?: $extra->name ?: __('Extra', 'hostifybooking') ?> <?= $extra->charge_type_label ?? '' ?></div>
+            <div class="_value"><?= ListingHelper::withSymbol($extra->total, $prices, $currencySymbol) ?></div>
+        </div>
+    <?php endif; ?>
+<?php endforeach; ?>
+
+<?php if (!empty($prices->extrasOptional)) foreach ($prices->extrasOptional as $extra) : ?>
+    <?php if ($extra->total != 0): ?>
+        <div class='price-block-item'>
+            <div class="_label"><?= $extra->fee_name ?: $extra->name ?: __('Extra', 'hostifybooking') ?> <?= $extra->charge_type_label ?? '' ?></div>
+            <div class="_value"><?= ListingHelper::withSymbol($extra->total, $prices, $currencySymbol) ?></div>
+        </div>
+    <?php endif; ?>
+<?php endforeach; ?>
+
+<?php // TAXES - V2 ONLY (V3 taxes are in advanced_fees) ?>
+<?php if (empty($prices->v3) && !empty($prices->taxes)) foreach ($prices->taxes as $t) : ?>
+    <?php if ($t->total != 0): ?>
+        <div class='price-block-item'>
+            <div class="_label"><?= $t->fee_name ?: $t->name ?: __('Tax', 'hostifybooking') ?> <?= $t->charge_type_label ?? '' ?></div>
+            <div class="_value"><?= ListingHelper::withSymbol($t->total, $prices, $currencySymbol) ?></div>
+        </div>
+    <?php endif; ?>
+<?php endforeach; ?>
+
 <?php // TOTAL ?>
 
-<div class='price-block-item price-block-total'>
+<div class='price-block-item price-block-total<?= $shouldShowSubtotal ? ' no-border-top' : '' ?>'>
     <div class="_label"><?= __( 'Total', 'hostifybooking' ) ?></div>
     <?php 
     // Calculate the total value for debugging

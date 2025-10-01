@@ -340,6 +340,20 @@ jQuery(document).ready(function($) {
             let discountCode = form.querySelector("#discount-code");
             let dcid = form.querySelector("#dcid");
             let fees = form.querySelector(feesSelector);
+            let detailedFees = form.querySelector("#fees-details");
+            
+            console.log("DEBUG JS: detailedFees element:", detailedFees);
+            console.log("DEBUG JS: detailedFees raw value:", detailedFees ? detailedFees.value : 'element not found');
+            
+            // Decode HTML entities before parsing JSON
+            let detailedFeesValue = '';
+            if (detailedFees && detailedFees.value) {
+                let tempDiv = document.createElement('div');
+                tempDiv.innerHTML = detailedFees.value;
+                detailedFeesValue = tempDiv.textContent || tempDiv.innerText || '';
+                console.log("DEBUG JS: detailedFees decoded:", detailedFeesValue);
+            }
+            
             let data = {
                 name: name ? name.value : undefined,
                 email: email ? email.value : undefined,
@@ -363,8 +377,11 @@ jQuery(document).ready(function($) {
                 data.total = typeof hfystripedata !== 'undefined' ? hfystripedata.total : null;
                 data.dcid = dcid ? dcid.value : undefined;
                 data.fees = fees ? fees.value : undefined;
+                data.detailed_fees = detailedFeesValue ? JSON.parse(detailedFeesValue || '[]') : undefined;
                 data.discount_code = discountCode ? discountCode.value : undefined;
                 data.reservationId = reservationId;
+                
+                console.log("DEBUG JS: Sending detailed_fees:", data.detailed_fees);
             }
             return data;
         }
@@ -545,12 +562,13 @@ jQuery(document).ready(function($) {
                             quantity: 1
                         }]
                     });
-                    if (redirectOnSuccess) {
-                        let href = new URL(redirectOnSuccess);
-                        href.searchParams.set('reservation_id', result.reservation.id || '');
-                        href.searchParams.set('success', '1');
-                        window.location.href = href.toString();
-                    }
+                    // Redirect disabled - keep detailed success message visible
+                    // if (redirectOnSuccess) {
+                    //     let href = new URL(redirectOnSuccess);
+                    //     href.searchParams.set('reservation_id', result.reservation.id || '');
+                    //     href.searchParams.set('success', '1');
+                    //     window.location.href = href.toString();
+                    // }
                 }
             }
         }

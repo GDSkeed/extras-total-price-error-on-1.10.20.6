@@ -34,6 +34,7 @@ include hfy_tpl('payment/stripe-form-3ds-step-slider');
 <input id="discount-code" name="discount_code" type="hidden" value="<?= esc_attr($reserveInfo->discount_code) ?>" />
 <input id="dcid" name="dcid" type="hidden" value="<?= esc_attr($reserveInfo->dcid) ?>" />
 <input id="fees" name="fees" type="hidden" value="<?= esc_attr($reserveInfo->fees_ids) ?>" />
+<input id="fees-details" name="fees_details" type="hidden" value="<?= esc_attr(json_encode($reserveInfo->fees_details ?? [])) ?>" />
 
 <div class="row">
 	<div class="col">
